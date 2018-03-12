@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2018-02-08 21:59 -->
+<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2018-03-12 15:15 -->
 <skill_data>
     <skill_template skill_id="1" name="Transformation: White Tiger" nameId="4571867" name_desc="RA_Light_WhiteTiger_G1" cooldownId="792" stack="SKILLN_RA_LIGHT_WHITETIGER" lvl="1" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="100" duration="0" cancel_rate="20">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
@@ -5636,8 +5636,8 @@
             <form value="FORM1"/>
         </startconditions>
         <effects>
-            <spellatkinstant value="1" delta="1" effectid="104351" e="1" accmod2="9999" element="FIRE" critprobmod2="100" hoptype="DAMAGE"/>
-            <openaerial duration2="2000" e="2" accmod2="9999" element="FIRE" hoptype="DAMAGE"/>
+            <spellatkinstant value="1" delta="1" effectid="104351" e="1" noresist="true" accmod2="9999" element="FIRE" critprobmod2="1000" hoptype="DAMAGE"/>
+            <openaerial duration2="2000" e="2" noresist="true" accmod2="9999" element="FIRE" hoptype="DAMAGE"/>
         </effects>
         <motion name="pointfire3"/>
     </skill_template>
@@ -5647,8 +5647,8 @@
             <form value="FORM1"/>
         </startconditions>
         <effects>
-            <spellatkinstant value="1" delta="1" effectid="104361" e="1" accmod2="9999" element="FIRE" critprobmod2="100" hoptype="DAMAGE"/>
-            <openaerial duration2="2000" e="2" accmod2="9999" element="FIRE" hoptype="DAMAGE"/>
+            <spellatkinstant value="1" delta="1" effectid="104361" e="1" noresist="true" accmod2="9999" element="FIRE" critprobmod2="1000" hoptype="DAMAGE"/>
+            <openaerial duration2="2000" e="2" noresist="true" accmod2="9999" element="FIRE" hoptype="DAMAGE"/>
         </effects>
         <actions>
             <itemuse itemid="169300017" count="1"/>
@@ -5658,7 +5658,7 @@
     <skill_template skill_id="437" name="Slowstep" nameId="596157" name_desc="IDRUN_Test_KN_03" stack="LDF4A_D2_SD_SNARE" lvl="1" skilltype="MAGICAL" skillsubtype="DEBUFF" tslot="DEBUFF" dispel_category="DEBUFF_PHYSICAL" req_dispel_level="1" activation="ACTIVE" cooldown="100" duration="0" cancel_rate="10">
         <properties first_target="TARGET" first_target_range="50" target_relation="ENEMY" target_type="ONLYONE" target_maxcount="1" effective_altitude="7" effective_range="12"/>
         <effects>
-            <snare duration2="3000" effectid="104371" e="1" element="WATER" hoptype="SKILLLV" hopb="60" hopa="60">
+            <snare duration2="3000" effectid="104371" e="1" noresist="true" element="WATER" hoptype="SKILLLV" hopb="60" hopa="60">
                 <change stat="SPEED" func="PERCENT" value="-70"/>
                 <change stat="FLY_SPEED" func="PERCENT" value="-70"/>
             </snare>
@@ -5674,26 +5674,26 @@
             <form value="FORM1"/>
         </startconditions>
         <effects>
-            <snare duration2="5000" effectid="104381" e="1" accmod2="9999" element="WATER" hoptype="SKILLLV" hopb="60" hopa="60">
+            <snare duration2="5000" effectid="104381" e="1" noresist="true" accmod2="9999" element="WATER" hoptype="SKILLLV" hopb="60" hopa="60">
                 <change stat="SPEED" func="PERCENT" value="-50"/>
                 <change stat="FLY_SPEED" func="PERCENT" value="-50"/>
             </snare>
-            <noreducespellatk value="1" e="2" basiclvl="1" noresist="true" element="FIRE" critprobmod2="0"/>
+            <noreducespellatk value="1" e="2" basiclvl="1" noresist="true" element="FIRE" critprobmod2="1000"/>
         </effects>
         <motion name="poweratk"/>
     </skill_template>
     <skill_template skill_id="439" name="Self-destruction" nameId="4579661" name_desc="IDRUN_Test_AS_03" stack="IDLUNA_SIEGE_2STAGE_BOSS" lvl="1" skilltype="PHYSICAL" skillsubtype="ATTACK" tslot="DEBUFF" dispel_category="STUN" req_dispel_level="1" activation="ACTIVE" cooldown="300" duration="2000" cancel_rate="10">
         <properties first_target="ME" first_target_range="20" target_relation="ALL" target_type="AREA" target_maxcount="6" effective_altitude="7" effective_range="12"/>
         <effects>
-            <skillatk value="1" delta="1" effectid="104391" e="1" hoptype="DAMAGE"/>
-            <stun duration2="5000" effectid="20000" e="2" accmod2="200" element="WATER" hoptype="SKILLLV" hopb="3210"/>
+            <skillatk value="1" delta="1" effectid="104391" e="1" noresist="true" critprobmod2="1000" hoptype="DAMAGE"/>
+            <stun duration2="5000" effectid="20000" e="2" noresist="true" accmod2="200" element="WATER" hoptype="SKILLLV" hopb="3210"/>
         </effects>
         <motion name="pointfire"/>
     </skill_template>
     <skill_template skill_id="440" name="Capture" nameId="4574043" name_desc="IDRUN_Test_KN_04" stack="SKILLN_KN_STUNINGSNACHER" lvl="1" skilltype="PHYSICAL" skillsubtype="ATTACK" tslot="DEBUFF" dispel_category="DEBUFF_PHYSICAL" req_dispel_level="1" activation="ACTIVE" cooldown="300" duration="0" cancel_rate="10">
         <properties first_target="ME" first_target_range="30" target_relation="ENEMY" target_type="AREA" target_maxcount="3" effective_altitude="7" effective_range="12"/>
         <effects>
-            <spellatkinstant value="180" effectid="104401" e="1" element="FIRE" critprobmod2="100" hoptype="DAMAGE">
+            <spellatkinstant value="180" effectid="104401" e="1" noresist="true" element="FIRE" critprobmod2="1000" hoptype="DAMAGE">
                 <subeffect skill_id="8441"/>
             </spellatkinstant>
         </effects>
@@ -5717,8 +5717,8 @@
             <form value="FORM1"/>
         </startconditions>
         <effects>
-            <spellatkinstant value="1" delta="1" e="1" accmod2="9999" element="WATER" critprobmod2="100" hoptype="DAMAGE"/>
-            <snare duration2="5000" effectid="20007" e="2" element="WATER" preeffect="1" hoptype="SKILLLV" hopb="1239">
+            <spellatkinstant value="1" delta="1" e="1" noresist="true" accmod2="9999" element="WATER" critprobmod2="1000" hoptype="DAMAGE"/>
+            <snare duration2="5000" effectid="20007" e="2" noresist="true" element="WATER" preeffect="1" hoptype="SKILLLV" hopb="1239">
                 <change stat="SPEED" func="ADD" value="-80"/>
                 <change stat="FLY_SPEED" func="ADD" value="-80"/>
             </snare>
@@ -5746,7 +5746,7 @@
             <form value="FORM1"/>
         </startconditions>
         <effects>
-            <spellatkinstant value="1" delta="1" effectid="104351" e="1" accmod2="9999" element="FIRE" critprobmod2="100" hoptype="DAMAGE">
+            <spellatkinstant value="1" delta="1" effectid="104351" e="1" noresist="true" accmod2="9999" element="FIRE" critprobmod2="1000" hoptype="DAMAGE">
                 <subeffect skill_id="8441"/>
             </spellatkinstant>
         </effects>
@@ -5769,16 +5769,16 @@
     <skill_template skill_id="453" name="Aether's Hold" nameId="4575969" name_desc="IDRUN_Test_common_10" stack="SKILLN_WI_WIZARDRYHOOK" lvl="1" skilltype="MAGICAL" skillsubtype="ATTACK" tslot="DEBUFF" dispel_category="DEBUFF_PHYSICAL" req_dispel_level="1" activation="ACTIVE" cooldown="200" duration="0" cancel_rate="10">
         <properties first_target="TARGET" first_target_range="20" target_relation="ENEMY" target_type="ONLYONE" target_maxcount="1" effective_altitude="7" effective_range="12"/>
         <effects>
-            <openaerial duration2="2000" effectid="104531" e="1" accmod2="9999" element="FIRE" hoptype="DAMAGE"/>
+            <openaerial duration2="2000" effectid="104531" e="1" noresist="true" accmod2="9999" element="FIRE" hoptype="DAMAGE"/>
         </effects>
         <motion name="pointfire3"/>
     </skill_template>
     <skill_template skill_id="454" name="Fear Shriek" nameId="4574727" name_desc="IDRUN_TerrorSpirit_G1" stack="SKILLN_EL_TERRORSPIRIT" lvl="1" skilltype="MAGICAL" skillsubtype="DEBUFF" tslot="DEBUFF" dispel_category="DEBUFF_MENTAL" req_dispel_level="1" activation="ACTIVE" cooldown="250" duration="0" cancel_rate="10">
         <properties first_target="TARGETORME" first_target_range="20" target_relation="ENEMY" target_type="AREA" target_maxcount="3" effective_altitude="10" effective_range="15"/>
         <effects>
-            <fear duration2="2000" effectid="104541" e="1" accmod2="9999" element="EARTH" hoptype="SKILLLV" hopb="11737"/>
-            <deform model="201051" type="NONE" state="DEFORM" duration2="3000" effectid="175" e="2" element="FIRE" preeffect="1" hoptype="SKILLLV" hopb="911"/>
-            <statdown duration2="3000" effectid="112493" e="3" basiclvl="200" element="EARTH" preeffect="1">
+            <fear duration2="2000" effectid="104541" e="1" noresist="true" accmod2="9999" element="EARTH" hoptype="SKILLLV" hopb="11737"/>
+            <deform model="201051" type="NONE" state="DEFORM" duration2="3000" effectid="175" e="2" noresist="true" element="FIRE" preeffect="1" hoptype="SKILLLV" hopb="911"/>
+            <statdown duration2="3000" effectid="112493" e="3" basiclvl="200" noresist="true" element="EARTH" preeffect="1">
                 <change stat="SPEED" func="PERCENT" value="-80"/>
             </statdown>
         </effects>
@@ -5790,8 +5790,8 @@
             <form value="FORM1"/>
         </startconditions>
         <effects>
-            <delayedskill skill_id="9227" value="1" duration2="2000" effectid="104551" e="1" accmod2="9999" element="WATER"/>
-            <noreducespellatk value="1" e="2" basiclvl="1" noresist="true" element="FIRE" critprobmod2="0"/>
+            <delayedskill skill_id="9227" value="1" duration2="2000" effectid="104551" e="1" noresist="true" accmod2="9999" element="WATER"/>
+            <noreducespellatk value="1" e="2" basiclvl="1" noresist="true" element="FIRE" critprobmod2="1000"/>
         </effects>
         <motion name="pointfire"/>
     </skill_template>
@@ -5833,10 +5833,10 @@
             <form value="FORM1"/>
         </startconditions>
         <effects>
-            <spellatkinstant value="1" delta="1" effectid="104351" e="1" accmod2="9999" element="FIRE" critprobmod2="100" hoptype="DAMAGE">
+            <spellatkinstant value="1" delta="1" effectid="104351" e="1" noresist="true" accmod2="9999" element="FIRE" critprobmod2="1000" hoptype="DAMAGE">
                 <subeffect skill_id="8441"/>
             </spellatkinstant>
-            <snare duration2="2000" effectid="20007" e="2" element="FIRE" preeffect="1" hoptype="SKILLLV">
+            <snare duration2="2000" effectid="20007" e="2" noresist="true" element="FIRE" preeffect="1" hoptype="SKILLLV">
                 <change stat="SPEED" func="PERCENT" value="-50"/>
                 <change stat="FLY_SPEED" func="PERCENT" value="-50"/>
             </snare>
@@ -5852,7 +5852,7 @@
             <form value="FORM1"/>
         </startconditions>
         <effects>
-            <movebehind value="1" e="1" hoptype="DAMAGE"/>
+            <movebehind value="1" e="1" noresist="true" hoptype="DAMAGE"/>
         </effects>
         <motion speed="85"/>
     </skill_template>
@@ -5874,8 +5874,8 @@
             <form value="FORM1"/>
         </startconditions>
         <effects>
-            <spellatkinstant value="1" delta="1" e="1" accmod2="9999" element="WATER" critprobmod2="100" hoptype="DAMAGE"/>
-            <snare duration2="3500" effectid="20007" e="2" element="WATER" preeffect="1" hoptype="SKILLLV" hopb="1239">
+            <spellatkinstant value="1" delta="1" e="1" noresist="true" accmod2="9999" element="WATER" critprobmod2="1000" hoptype="DAMAGE"/>
+            <snare duration2="3500" effectid="20007" e="2" noresist="true" element="WATER" preeffect="1" hoptype="SKILLLV" hopb="1239">
                 <change stat="SPEED" func="ADD" value="-80"/>
                 <change stat="FLY_SPEED" func="ADD" value="-80"/>
             </snare>
@@ -5885,7 +5885,7 @@
     <skill_template skill_id="462" name="Sigil of Silence" nameId="4574699" name_desc="IDRUN_Silence" stack="SKILLN_EL_SILENCE" lvl="1" skilltype="MAGICAL" skillsubtype="DEBUFF" tslot="DEBUFF" dispel_category="DEBUFF_PHYSICAL" req_dispel_level="1" activation="ACTIVE" cooldown="200" duration="0" cancel_rate="10">
         <properties first_target="TARGETORME" first_target_range="20" target_relation="ENEMY" target_type="AREA" target_maxcount="3" effective_altitude="15" effective_range="15"/>
         <effects>
-            <silence duration2="5000" effectid="20101" e="1" accmod2="9999" element="WIND" hoptype="SKILLLV" hopb="1400"/>
+            <silence duration2="5000" effectid="20101" e="1" noresist="true" accmod2="9999" element="WIND" hoptype="SKILLLV" hopb="1400"/>
         </effects>
         <motion name="debuff"/>
     </skill_template>
@@ -5895,9 +5895,9 @@
             <form value="FORM1"/>
         </startconditions>
         <effects>
-            <noreducespellatk value="1" effectid="104131" e="1" basiclvl="1" noresist="true" accmod2="9999" element="FIRE" hoptype="DAMAGE"/>
-            <stumble duration2="2000" effectid="20000" e="2" basiclvl="200" element="WATER" preeffect="1" hoptype="SKILLLV"/>
-            <absolutesnare duration2="2000" e="3" element="WIND" preeffect="2">
+            <noreducespellatk value="1" effectid="104131" e="1" basiclvl="1" noresist="true" accmod2="9999" element="FIRE" critprobmod2="1000" hoptype="DAMAGE"/>
+            <stumble duration2="2000" effectid="20000" e="2" basiclvl="200" noresist="true" element="WATER" preeffect="1" hoptype="SKILLLV"/>
+            <absolutesnare duration2="2000" e="3" noresist="true" element="WIND" preeffect="2">
                 <change stat="SPEED" func="REPLACE" value="5000"/>
                 <change stat="FLY_SPEED" func="REPLACE" value="5000"/>
             </absolutesnare>
@@ -5945,7 +5945,7 @@
             <move_casting allow="false"/>
         </useconditions>
         <effects>
-            <skillatk value="388" e="1" hoptype="DAMAGE">
+            <skillatk value="388" e="1" noresist="true" critprobmod2="1000" hoptype="DAMAGE">
                 <subeffect skill_id="8218"/>
             </skillatk>
         </effects>
@@ -5957,8 +5957,8 @@
             <form value="FORM1"/>
         </startconditions>
         <effects>
-            <skillatk mode="PERCENT" value="1" effectid="104671" e="1" hoptype="DAMAGE"/>
-            <stun duration2="2000" effectid="20000" e="2" accmod2="9999" element="WATER" hoptype="SKILLLV" hopb="3210"/>
+            <skillatk mode="PERCENT" value="1" effectid="104671" e="1" noresist="true" critprobmod2="1000" hoptype="DAMAGE"/>
+            <stun duration2="2000" effectid="20000" e="2" noresist="true" accmod2="9999" element="WATER" hoptype="SKILLLV" hopb="3210"/>
         </effects>
         <motion name="windblade"/>
     </skill_template>
@@ -134601,7 +134601,7 @@
         </effects>
     </skill_template>
     <skill_template skill_id="11347" name="Boost Movement Speed" nameId="4581725" name_desc="IDRUN_Buff_speed_01" stack="IDRUN_BUFF_SPEED" lvl="1" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="NEVER" activation="ACTIVE" cooldown="0" duration="0">
-        <properties first_target="ME" first_target_range="5" target_relation="FRIEND" target_type="AREA" target_maxcount="6" effective_altitude="5" effective_range="5"/>
+        <properties first_target="ME" first_target_range="8" target_relation="FRIEND" target_type="AREA" target_maxcount="6" effective_altitude="8" effective_range="8"/>
         <useconditions>
             <move_casting allow="false"/>
         </useconditions>
@@ -134613,7 +134613,7 @@
         <motion name="poweratk"/>
     </skill_template>
     <skill_template skill_id="11348" name="Boost Movement Speed" nameId="4581727" name_desc="IDRUN_Buff_speed_02" stack="IDRUN_BUFF_SPEED" lvl="1" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="NEVER" activation="ACTIVE" cooldown="0" duration="0">
-        <properties first_target="ME" first_target_range="5" target_relation="FRIEND" target_type="AREA" target_maxcount="6" effective_altitude="5" effective_range="5"/>
+        <properties first_target="ME" first_target_range="8" target_relation="FRIEND" target_type="AREA" target_maxcount="6" effective_altitude="8" effective_range="8"/>
         <useconditions>
             <move_casting allow="false"/>
         </useconditions>
@@ -153270,6 +153270,7 @@
         <startconditions>
             <mp value="10" delta="0"/>
             <targetflying restriction="GROUND"/>
+            <form value="FORM1"/>
         </startconditions>
         <effects>
             <noreducespellatk value="2000" e="1" basiclvl="1" noresist="true" element="FIRE" critprobmod2="10" hoptype="SKILLLV"/>
@@ -195596,7 +195597,7 @@
         </effects>
         <motion name="normalfire"/>
     </skill_template>
-    <skill_template skill_id="20296" name="Sympathy for the Ancient Hero" nameId="4580993" name_desc="WORLD_IDRUN_STATUP_MAXHP_01" stack="WORLD_ID_RUN_SUMMON_POLYMORPH" lvl="1" skilltype="MAGICAL" skillsubtype="HEAL" tslot="NONE" activation="ACTIVE" cooldown="0" duration="0">
+    <skill_template skill_id="20296" name="Sympathy for the Ancient Hero" nameId="4580993" name_desc="WORLD_IDRUN_STATUP_MAXHP_01" stack="WORLD_ID_RUN_SUMMON_POLYMORPH" lvl="1" skilltype="MAGICAL" skillsubtype="HEAL" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
         <properties first_target="ME" first_target_range="1" target_relation="ALL" target_type="AREA" target_maxcount="10" effective_altitude="30" effective_range="30" target_species="PC"/>
         <startconditions>
             <target value="PC"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2018-02-07 20:17 -->
+<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2018-03-12 14:17 -->
 <quests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
     <quest id="1000" name="Prologue" category_name="Poeta" nameId="1102000" minlevel_permitted="1" max_repeat_count="1" race_permitted="ELYOS" category="QUEST">
         <rewards exp="1"/>
@@ -69375,7 +69375,7 @@
             <collect_item item_id="188600443" count="2"/>
         </collect_items>
         <rewards exp="1400000000" reward_abyss_point="50000">
-            <reward_item item_id="000000000" count="1"/>
+            <reward_item item_id="186000454" count="1"/>
         </rewards>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
@@ -69392,7 +69392,7 @@
             <collect_item item_id="188600443" count="2"/>
         </collect_items>
         <rewards exp="1400000000" reward_abyss_point="50000">
-            <reward_item item_id="000000000" count="1"/>
+            <reward_item item_id="186000454" count="1"/>
         </rewards>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
