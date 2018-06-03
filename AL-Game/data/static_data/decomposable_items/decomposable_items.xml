@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2018-03-12 14:59 -->
+<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2018-06-03 07:11 -->
 <decomposable_items>
     <decomposable item_id="152000065" decomposable_name="Icy Fresh Pepento">
         <items>
@@ -162413,7 +162413,7 @@
             <item id="190100186" name="Manoeuvrable Space Glider (30 days)"/>
         </items>
     </decomposable>
-    <decomposable item_id="188055601" decomposable_name="Bundle of Master Stigmas">
+    <decomposable item_id="188055601" decomposable_name="Bundle with a normal Ancient Chalice">
         <items>
             <item id="186000057" name="Ancient Chalice"/>
         </items>
@@ -189050,19 +189050,19 @@
             <item id="190100261" name="Special Hell Steed (90 days)"/>
         </items>
     </decomposable>
-    <decomposable item_id="188057243" decomposable_name="Chest of Spinell Fragments">
+    <decomposable item_id="188057243" decomposable_name="Chest of Spinel Fragments">
         <items>
-            <item id="188100391" name="Spinell Fragment"/>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
     </decomposable>
-    <decomposable item_id="188057244" decomposable_name="Large Chest of Spinell Fragments">
+    <decomposable item_id="188057244" decomposable_name="Large Chest of Spinel Fragments">
         <items>
-            <item id="188100391" name="Spinell Fragment"/>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
     </decomposable>
-    <decomposable item_id="188057245" decomposable_name="Magnificent Chest of Spinell Fragments">
+    <decomposable item_id="188057245" decomposable_name="Magnificent Chest of Spinel Fragments">
         <items>
-            <item id="188100391" name="Spinell Fragment"/>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
     </decomposable>
     <decomposable item_id="188057246" decomposable_name="Chest of Spinel Medals">
@@ -200733,7 +200733,7 @@
             <item id="188055355" name="Rune Hero's Armour Chest"/>
         </items>
     </decomposable>
-    <decomposable item_id="188057629" decomposable_name="Chest of High Guard Wings of War">
+    <decomposable item_id="188057629" decomposable_name="High Guard/Archon Defence Troop's Wings of War Chest">
         <items>
             <item id="187000227" name="High Guard Defence Squad's Wing of War" race="ELYOS"/>
         </items>
@@ -202761,7 +202761,7 @@
     </decomposable>
     <decomposable item_id="188057753" decomposable_name="Box containing a Super Elroco Egg (30 days)">
         <items>
-            <item id="190020246" name="Super Elrok Egg (30 days)"/>
+            <item id="190020246" name="Super Elroco Egg (30 days)"/>
         </items>
     </decomposable>
     <decomposable item_id="188057754" decomposable_name="Pagati Aero Box (30 days)">
@@ -204080,7 +204080,7 @@
             <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
         <items>
-            <item id="188100391" name="Spinell Fragment"/>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
         <items>
             <random_item type="ANCIENTITEMS"/>
@@ -204154,7 +204154,7 @@
             <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
         <items>
-            <item id="188100391" name="Spinell Fragment"/>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
         <items>
             <random_item type="ANCIENTITEMS"/>
@@ -205123,7 +205123,7 @@
             <item id="188057035" name="Archangel Wing Box"/>
         </items>
         <items>
-            <item id="188100391" name="Spinell Fragment"/>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
         <items>
             <random_item type="ANCIENTITEMS"/>
@@ -210611,9 +210611,9 @@
             <item id="152012754" name="Commander's Protective Soulstone"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058134" decomposable_name="Spinell Coin Bundle of the Holy Tower">
+    <decomposable item_id="188058134" decomposable_name="Spinel Coin Bundle of the Holy Tower">
         <items>
-            <item id="186000492" name="Spinell Coin"/>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
     </decomposable>
     <decomposable item_id="188058135" decomposable_name="Elite Guard Weapons Chest of the Holy Tower">
@@ -216857,9 +216857,9 @@
             <item id="166100011" name="Mighty Supplements (Mythical)"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058316" decomposable_name="Spinell Coin Bundle containing Illusion Chests from the Rift of Oblivion">
+    <decomposable item_id="188058316" decomposable_name="Spinel Coin Bundle containing Illusion Chests from the Rift of Oblivion">
         <items>
-            <item id="186000492" name="Spinell Coin"/>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
     </decomposable>
     <decomposable item_id="188058317" decomposable_name="Large Socketing Aid Bundle containing Illusion Chests from the Esoterrace">
@@ -216879,13 +216879,13 @@
     </decomposable>
     <decomposable item_id="188058320" decomposable_name="Noble Accessories Chest (Gladiator)">
         <items>
-            <item id="120001612" name="Eternal War Earring" count="2"/>
+            <item id="120001612" name="Eternal War Earring"/>
         </items>
         <items>
             <item id="121001491" name="Eternal War Necklace"/>
         </items>
         <items>
-            <item id="122001773" name="Eternal War Ring" count="2"/>
+            <item id="122001773" name="Eternal War Ring"/>
         </items>
         <items>
             <item id="123001526" name="Eternal War Belt"/>
@@ -216893,13 +216893,13 @@
     </decomposable>
     <decomposable item_id="188058321" decomposable_name="Noble Accessories Chest (Templar)">
         <items>
-            <item id="120001613" name="Eternal War Earring" count="2"/>
+            <item id="120001613" name="Eternal War Earring"/>
         </items>
         <items>
             <item id="121001492" name="Eternal War Necklace"/>
         </items>
         <items>
-            <item id="122001774" name="Eternal War Ring" count="2"/>
+            <item id="122001774" name="Eternal War Ring"/>
         </items>
         <items>
             <item id="123001527" name="Eternal War Belt"/>
@@ -216907,13 +216907,13 @@
     </decomposable>
     <decomposable item_id="188058322" decomposable_name="Noble Accessories Chest (Assassin)">
         <items>
-            <item id="120001614" name="Eternal War Earring" count="2"/>
+            <item id="120001614" name="Eternal War Earring"/>
         </items>
         <items>
             <item id="121001493" name="Eternal War Necklace"/>
         </items>
         <items>
-            <item id="122001775" name="Eternal War Ring" count="2"/>
+            <item id="122001775" name="Eternal War Ring"/>
         </items>
         <items>
             <item id="123001528" name="Eternal War Belt"/>
@@ -216921,13 +216921,13 @@
     </decomposable>
     <decomposable item_id="188058323" decomposable_name="Noble Accessories Chest (Ranger)">
         <items>
-            <item id="120001615" name="Eternal War Earring" count="2"/>
+            <item id="120001615" name="Eternal War Earring"/>
         </items>
         <items>
             <item id="121001494" name="Eternal War Necklace"/>
         </items>
         <items>
-            <item id="122001776" name="Eternal War Ring" count="2"/>
+            <item id="122001776" name="Eternal War Ring"/>
         </items>
         <items>
             <item id="123001529" name="Eternal War Belt"/>
@@ -216935,13 +216935,13 @@
     </decomposable>
     <decomposable item_id="188058324" decomposable_name="Noble Accessories Chest (Chanter)">
         <items>
-            <item id="120001616" name="Eternal War Earring" count="2"/>
+            <item id="120001616" name="Eternal War Earring"/>
         </items>
         <items>
             <item id="121001495" name="Eternal War Necklace"/>
         </items>
         <items>
-            <item id="122001777" name="Eternal War Ring" count="2"/>
+            <item id="122001777" name="Eternal War Ring"/>
         </items>
         <items>
             <item id="123001530" name="Eternal War Belt"/>
@@ -216949,13 +216949,13 @@
     </decomposable>
     <decomposable item_id="188058325" decomposable_name="Noble Accessories Chest (Cleric)">
         <items>
-            <item id="120001617" name="Eternal Magic Earring" count="2"/>
+            <item id="120001617" name="Eternal Magic Earring"/>
         </items>
         <items>
             <item id="121001496" name="Eternal Magic Necklace"/>
         </items>
         <items>
-            <item id="122001778" name="Eternal Magic Ring" count="2"/>
+            <item id="122001778" name="Eternal Magic Ring"/>
         </items>
         <items>
             <item id="123001531" name="Eternal Magic Sash"/>
@@ -216963,13 +216963,13 @@
     </decomposable>
     <decomposable item_id="188058326" decomposable_name="Noble Accessories Chest (Sorcerer)">
         <items>
-            <item id="120001618" name="Eternal Magic Earring" count="2"/>
+            <item id="120001618" name="Eternal Magic Earring"/>
         </items>
         <items>
             <item id="121001497" name="Eternal Magic Necklace"/>
         </items>
         <items>
-            <item id="122001779" name="Eternal Magic Ring" count="2"/>
+            <item id="122001779" name="Eternal Magic Ring"/>
         </items>
         <items>
             <item id="123001532" name="Eternal Magic Sash"/>
@@ -216977,13 +216977,13 @@
     </decomposable>
     <decomposable item_id="188058327" decomposable_name="Noble Accessories Chest (Spiritmaster)">
         <items>
-            <item id="120001619" name="Eternal Magic Earring" count="2"/>
+            <item id="120001619" name="Eternal Magic Earring"/>
         </items>
         <items>
             <item id="121001498" name="Eternal Magic Necklace"/>
         </items>
         <items>
-            <item id="122001780" name="Eternal Magic Ring" count="2"/>
+            <item id="122001780" name="Eternal Magic Ring"/>
         </items>
         <items>
             <item id="123001533" name="Eternal Magic Sash"/>
@@ -217695,7 +217695,7 @@
     </decomposable>
     <decomposable item_id="188058376" decomposable_name="Special Bundle of Poppy's Blessing Materials">
         <items>
-            <item id="152012760" name="Holy Brigade General's Armour Soulstone"/>
+            <item id="152012760" name="Brigade General’s Divine Armour Soulstone"/>
         </items>
     </decomposable>
     <decomposable item_id="188058377" decomposable_name="Poppy's Giant Medal/Relic Bundle (50 pieces)">
@@ -218643,6 +218643,257 @@
         </items>
         <items>
             <item id="190090004" name="Special Lesser Minion Contract" race="ASMODIANS"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058535" decomposable_name="S-Grade Treasure Chest">
+        <items>
+            <item id="110901651" name="Summer School Uniform"/>
+        </items>
+        <items>
+            <item id="165005103" name="Vindachinerk's Exceptional Weapon Hammer (Mythical)"/>
+        </items>
+        <items>
+            <item id="186000501" name="Pixel Brick" count="3"/>
+        </items>
+        <items>
+            <item id="188053934" name="Augmentation Box"/>
+        </items>
+        <items>
+            <item id="188055169" name="[Jakunerk] Relic Box of the Ancient Rune Tribe"/>
+        </items>
+        <items>
+            <item id="188055180" name="Water Dragon King's Noble Weapon Box"/>
+        </items>
+        <items>
+            <item id="188055183" name="Mighty Socketing Aid Box"/>
+        </items>
+        <items>
+            <item id="188055593" name="Manastone Bundle (Level 70)"/>
+        </items>
+        <items>
+            <item id="188055682" name="Noble +9 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188056958" name="High Guard Leader's Noble Armour Chest"/>
+        </items>
+        <items>
+            <item id="188057672" name="Noble +10 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188508028" name="[Motion Card] Monkey King"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058536" decomposable_name="A-Grade Treasure Chest">
+        <items>
+            <item id="165005099" name="Vindachinerk's Exceptional Weapon Hammer"/>
+        </items>
+        <items>
+            <item id="165005100" name="Vindachinerk's Exceptional Armour Hammer"/>
+        </items>
+        <items>
+            <item id="165005104" name="Vindachinerk's Exceptional Armour Hammer (Mythical)"/>
+        </items>
+        <items>
+            <item id="186000501" name="Pixel Brick" count="3"/>
+        </items>
+        <items>
+            <item id="187050042" name="Tiny Crystal Wings"/>
+        </items>
+        <items>
+            <item id="188055169" name="[Jakunerk] Relic Box of the Ancient Rune Tribe"/>
+        </items>
+        <items>
+            <item id="188055317" name="Powerful Enhancement: Level 2 Box"/>
+        </items>
+        <items>
+            <item id="188055681" name="Noble +8 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188055682" name="Noble +9 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188055791" name="[Jakunerk] Weapons Chest of Bygone Atreia"/>
+        </items>
+        <items>
+            <item id="188056908" name="Box of High Guard Leader's Wings of War"/>
+        </items>
+        <items>
+            <item id="188057846" name="Box of Warrior's Mythical Idian"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058537" decomposable_name="B-Grade Treasure Chest">
+        <items>
+            <item id="162000189" name="[Jakunerk] Refined Recovery Potion"/>
+        </items>
+        <items>
+            <item id="162000192" name="[Jakunerk] Refined Recovery Serum"/>
+        </items>
+        <items>
+            <item id="164002228" name="Yasba's Grace - Valid 1 Time"/>
+        </items>
+        <items>
+            <item id="186000501" name="Pixel Brick" count="2"/>
+        </items>
+        <items>
+            <item id="187050042" name="Tiny Crystal Wings"/>
+        </items>
+        <items>
+            <item id="188055679" name="Noble +6 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188055680" name="Noble +7 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188057259" name="Box of Soft Dyes"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058538" decomposable_name="Big S-Grade Treasure Chest">
+        <items>
+            <item id="186000501" name="Pixel Brick"/>
+        </items>
+        <items>
+            <item id="188055183" name="Mighty Socketing Aid Box"/>
+        </items>
+        <items>
+            <item id="188056957" name="High Guard Leader's Noble Weapons Chest"/>
+        </items>
+        <items>
+            <item id="188057672" name="Noble +10 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188058534" name="Box of Warrior's Mythical Idian"/>
+        </items>
+        <items>
+            <item id="188508028" name="[Motion Card] Monkey King"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058539" decomposable_name="Big A-Grade Treasure Chest">
+        <items>
+            <item id="165005099" name="Vindachinerk's Exceptional Weapon Hammer"/>
+        </items>
+        <items>
+            <item id="186000501" name="Pixel Brick"/>
+        </items>
+        <items>
+            <item id="188055317" name="Powerful Enhancement: Level 2 Box"/>
+        </items>
+        <items>
+            <item id="188055791" name="[Jakunerk] Weapons Chest of Bygone Atreia"/>
+        </items>
+        <items>
+            <item id="188056867" name="High Guard Leader's Accessories Chest"/>
+        </items>
+        <items>
+            <item id="188056908" name="Box of High Guard Leader's Wings of War"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058540" decomposable_name="Big B-Grade Treasure Chest">
+        <items>
+            <item id="164002228" name="Yasba's Grace - Valid 1 Time"/>
+        </items>
+        <items>
+            <item id="186000501" name="Pixel Brick"/>
+        </items>
+        <items>
+            <item id="187050042" name="Tiny Crystal Wings"/>
+        </items>
+        <items>
+            <item id="188055317" name="Powerful Enhancement: Level 2 Box"/>
+        </items>
+        <items>
+            <item id="188055679" name="Noble +6 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188055680" name="Noble +7 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188056908" name="Box of High Guard Leader's Wings of War"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058549" decomposable_name="Tetrahopper Box">
+        <items>
+            <item id="190100300" name="Tetrahopper"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058551" decomposable_name="Transformation Candy: Valiant Super Pixel Kid">
+        <items>
+            <item id="160010621" name="Transformation Candy: Valiant Super Pixel Kid" race="ELYOS"/>
+        </items>
+        <items>
+            <item id="160010622" name="Transformation Candy: Valiant Super Pixel Kid" race="ASMODIANS"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058552" decomposable_name="Transformation Candy: Wise Super Pixel Kid">
+        <items>
+            <item id="160010623" name="Transformation Candy: Wise Super Pixel Kid" race="ELYOS"/>
+        </items>
+        <items>
+            <item id="160010624" name="Transformation Candy: Wise Super Pixel Kid" race="ASMODIANS"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058553" decomposable_name="Transformation Candy: Quick Super Pixel Kid">
+        <items>
+            <item id="160010625" name="Transformation Candy: Quick Super Pixel Kid" race="ELYOS"/>
+        </items>
+        <items>
+            <item id="160010626" name="Transformation Candy: Quick Super Pixel Kid" race="ASMODIANS"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058554" decomposable_name="Transformation Candy Box: Valiant Super Pixel Kid with Hanbok">
+        <items>
+            <item id="160010631" name="Transformation Candy: Valiant Super Pixel Kid with Hanbok" race="ELYOS"/>
+        </items>
+        <items>
+            <item id="160010632" name="Transformation Candy: Valiant Super Pixel Kid with Hanbok" race="ASMODIANS"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058555" decomposable_name="Transformation Candy Box: Wise Super Pixel Kid with Hanbok">
+        <items>
+            <item id="160010633" name="Transformation Candy: Wise Super Pixel Kid with Hanbok" race="ELYOS"/>
+        </items>
+        <items>
+            <item id="160010634" name="Transformation Candy: Wise Super Pixel Kid with Hanbok" race="ASMODIANS"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058556" decomposable_name="Transformation Candy Box: Quick Super Pixel Kid with Hanbok">
+        <items>
+            <item id="160010635" name="Transformation Candy: Quick Super Pixel Kid with Hanbok" race="ELYOS"/>
+        </items>
+        <items>
+            <item id="160010636" name="Transformation Candy: Quick Super Pixel Kid with Hanbok" race="ASMODIANS"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058561" decomposable_name="Fairyland Support Pack">
+        <items>
+            <item id="160002527" name="Nutritious Pepento Cocktail"/>
+        </items>
+        <items>
+            <item id="164002167" name="[Jakunerk] Drana Coffee"/>
+        </items>
+        <items>
+            <item id="188053943" name="[Jakunerk] Noble Scroll Bundle"/>
+        </items>
+        <items>
+            <item id="188055089" name="[Jakunerk] Culinary Art Bundle for High Daevas"/>
+        </items>
+        <items>
+            <random_item type="POTION"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058563" decomposable_name="Pixel Building Set">
+        <items>
+            <item id="186000501" name="Pixel Brick" count="8"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058565" decomposable_name="Mystery Chest">
+        <items>
+            <item id="188058535" name="S-Grade Treasure Chest"/>
+        </items>
+        <items>
+            <item id="188058536" name="A-Grade Treasure Chest"/>
+        </items>
+        <items>
+            <item id="188058537" name="B-Grade Treasure Chest"/>
         </items>
     </decomposable>
     <decomposable item_id="188058568" decomposable_name="Bundle containing an Indestructible Lesser Imperial Chest Key">
@@ -220339,7 +220590,7 @@
             <item id="162000197" name="Refined Divine Recovery Serum"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058879" decomposable_name="?">
+    <decomposable item_id="188058879" decomposable_name="Celestial Ascension Set Chest">
         <items>
             <item id="110901571" name="Celestial Ascension Robe"/>
         </items>
@@ -220350,7 +220601,7 @@
             <item id="125046021" name="Celestial Ascension Hat"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058880" decomposable_name="?">
+    <decomposable item_id="188058880" decomposable_name="Giant Win-Me Chest">
         <items>
             <item id="162001063" name="[Jakunerk] Lodas' Golden Star"/>
         </items>
@@ -220373,7 +220624,7 @@
             <item id="188058837" name="[Jakunerk] Dark Dragon King's Weapons Chest"/>
         </items>
         <items>
-            <item id="188058879" name="?"/>
+            <item id="188058879" name="Celestial Ascension Set Chest"/>
         </items>
         <items>
             <item id="190080067" name="Kromede Minion Contract (cannot be traded)"/>
@@ -220382,7 +220633,7 @@
             <item id="190100273" name="White Tiger of Darkness"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058881" decomposable_name="?">
+    <decomposable item_id="188058881" decomposable_name="Large Win-Me Chest">
         <items>
             <item id="162001063" name="[Jakunerk] Lodas' Golden Star"/>
         </items>
@@ -220399,16 +220650,16 @@
             <item id="188058076" name="[Jakunerk] Bundle of 100 Mighty Socketing Aids"/>
         </items>
         <items>
-            <item id="188058879" name="?"/>
+            <item id="188058879" name="Celestial Ascension Set Chest"/>
         </items>
         <items>
-            <item id="188058887" name="?"/>
+            <item id="188058887" name="Luna Copper Chest"/>
         </items>
         <items>
             <item id="190100273" name="White Tiger of Darkness"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058882" decomposable_name="?">
+    <decomposable item_id="188058882" decomposable_name="Win-Me Chest">
         <items>
             <item id="162001063" name="[Jakunerk] Lodas' Golden Star"/>
         </items>
@@ -220425,10 +220676,10 @@
             <item id="188058076" name="[Jakunerk] Bundle of 100 Mighty Socketing Aids"/>
         </items>
         <items>
-            <item id="188058888" name="?"/>
+            <item id="188058888" name="Luna Chest"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058883" decomposable_name="?">
+    <decomposable item_id="188058883" decomposable_name="Little Win-Me Chest">
         <items>
             <item id="162001063" name="[Jakunerk] Lodas' Golden Star"/>
         </items>
@@ -220436,10 +220687,10 @@
             <item id="169650001" name="[Jakunerk] Plastic Surgery Ticket"/>
         </items>
         <items>
-            <item id="188058888" name="?"/>
+            <item id="188058888" name="Luna Chest"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058884" decomposable_name="?">
+    <decomposable item_id="188058884" decomposable_name="Tiny Win-Me Chest">
         <items>
             <item id="162001063" name="[Jakunerk] Lodas' Golden Star"/>
         </items>
@@ -220447,30 +220698,30 @@
             <item id="169650001" name="[Jakunerk] Plastic Surgery Ticket"/>
         </items>
         <items>
-            <item id="188058889" name="?"/>
+            <item id="188058889" name="Little Luna Bundle"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058885" decomposable_name="?">
+    <decomposable item_id="188058885" decomposable_name="Event Coin Chest">
         <items>
             <item id="186000452" name="Paper Crane"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058886" decomposable_name="?">
+    <decomposable item_id="188058886" decomposable_name="100 Minionite Chest">
         <items>
             <item id="190200000" name="Minionite"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058887" decomposable_name="?">
+    <decomposable item_id="188058887" decomposable_name="Luna Copper Chest">
         <items>
             <item id="182495000" name="Luna"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058888" decomposable_name="?">
+    <decomposable item_id="188058888" decomposable_name="Luna Chest">
         <items>
             <item id="182495000" name="Luna"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058889" decomposable_name="?">
+    <decomposable item_id="188058889" decomposable_name="Little Luna Bundle">
         <items>
             <item id="182495000" name="Luna"/>
         </items>
@@ -220483,32 +220734,32 @@
             <item id="188100127" name="[Jakunerk] Piece of Lead"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058895" decomposable_name="?">
+    <decomposable item_id="188058895" decomposable_name="Giant Win-Me Chest Holder">
         <items>
-            <item id="188058880" name="?"/>
+            <item id="188058880" name="Giant Win-Me Chest"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058896" decomposable_name="?">
+    <decomposable item_id="188058896" decomposable_name="Large Win-Me Chest Holder">
         <items>
-            <item id="188058881" name="?"/>
+            <item id="188058881" name="Large Win-Me Chest"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058897" decomposable_name="?">
+    <decomposable item_id="188058897" decomposable_name="Win-Me Chest Holder">
         <items>
-            <item id="188058882" name="?"/>
+            <item id="188058882" name="Win-Me Chest"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058898" decomposable_name="?">
+    <decomposable item_id="188058898" decomposable_name="Little Win-Me Chest Holder">
         <items>
-            <item id="188058883" name="?"/>
+            <item id="188058883" name="Little Win-Me Chest"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058899" decomposable_name="?">
+    <decomposable item_id="188058899" decomposable_name="Tiny Win-Me Chest Holder">
         <items>
-            <item id="188058884" name="?"/>
+            <item id="188058884" name="Tiny Win-Me Chest"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058900" decomposable_name="?">
+    <decomposable item_id="188058900" decomposable_name="Unique Luck Chest">
         <items>
             <item id="165060002" name="[Jakunerk] Magic Stone of Level Reduction"/>
         </items>
@@ -220528,27 +220779,27 @@
             <item id="188056798" name="Prigga Legion's Unique Equipment Chest"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058901" decomposable_name="?">
+    <decomposable item_id="188058901" decomposable_name="[Jakunerk] All-Powerful Enchantment Box">
         <items>
             <item id="166020003" name="[Jakunerk] All-Powerful Enchantment Stone"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058902" decomposable_name="?">
+    <decomposable item_id="188058902" decomposable_name="[Jakunerk] Holy Upgrade Bundle">
         <items>
             <item id="166030007" name="[Jakunerk] Holy Upgrade Serum"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058903" decomposable_name="?">
+    <decomposable item_id="188058903" decomposable_name="All-Powerful Enchantment Box">
         <items>
             <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058904" decomposable_name="?">
+    <decomposable item_id="188058904" decomposable_name="Holy Upgrade Bundle">
         <items>
             <item id="166030005" name="Holy Upgrade Serum"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058905" decomposable_name="?">
+    <decomposable item_id="188058905" decomposable_name="High Guard Leader’s Chest">
         <items>
             <item id="165060002" name="[Jakunerk] Magic Stone of Level Reduction"/>
         </items>
@@ -220580,7 +220831,7 @@
             <item id="188056951" name="High Guard Leader's Armour Chest"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058906" decomposable_name="?">
+    <decomposable item_id="188058906" decomposable_name="PvP Chest">
         <items>
             <item id="162001069" name="Lodas' Silver Star"/>
         </items>
@@ -220597,7 +220848,7 @@
             <random_item type="ANCIENTITEMS"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058907" decomposable_name="?">
+    <decomposable item_id="188058907" decomposable_name="Head Daeva's Chest">
         <items>
             <item id="112000044" name="Celestial Epaulette"/>
         </items>
@@ -220683,7 +220934,7 @@
             <item id="125046068" name="Mage's Doctorate Hat"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058908" decomposable_name="?">
+    <decomposable item_id="188058908" decomposable_name="Big PvP Chest">
         <items>
             <item id="162001069" name="Lodas' Silver Star"/>
         </items>
@@ -220700,7 +220951,7 @@
             <random_item type="ANCIENTITEMS"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058909" decomposable_name="?">
+    <decomposable item_id="188058909" decomposable_name="Maskerade Chest">
         <items>
             <item id="110900766" name="Maid Costume"/>
         </items>
@@ -220795,7 +221046,7 @@
             <item id="110901645" name="Elly's Outfit"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058910" decomposable_name="?">
+    <decomposable item_id="188058910" decomposable_name="Big Mount Chest">
         <items>
             <item id="188054706" name="Quick Frillneck"/>
         </items>
@@ -220824,7 +221075,7 @@
             <item id="190100273" name="White Tiger of Darkness"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058911" decomposable_name="?">
+    <decomposable item_id="188058911" decomposable_name="High Daeva Chest">
         <items>
             <item id="162000125" name="Fortified Wind Serum"/>
         </items>
@@ -220844,7 +221095,7 @@
             <item id="188056873" name="[Jakunerk] Crafting Stone Box for High Daevas"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058912" decomposable_name="?">
+    <decomposable item_id="188058912" decomposable_name="Progress Chest">
         <items>
             <item id="162001013" name="Recovery Tea - 100% recovery"/>
         </items>
@@ -220855,7 +221106,7 @@
             <item id="188058426" name="Pure Merek's Wondrous Prayers Bundle"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058913" decomposable_name="?">
+    <decomposable item_id="188058913" decomposable_name="Big Progress Chest">
         <items>
             <item id="162001013" name="Recovery Tea - 100% recovery"/>
         </items>
@@ -220866,7 +221117,7 @@
             <item id="188058426" name="Pure Merek's Wondrous Prayers Bundle"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058914" decomposable_name="?">
+    <decomposable item_id="188058914" decomposable_name="Glowing Hyper Manastone Bundle">
         <items>
             <item id="167010310" name="Manastone: Power +10"/>
         </items>
@@ -220922,7 +221173,7 @@
             <item id="167010381" name="Manastone: Will +12"/>
         </items>
     </decomposable>
-    <decomposable item_id="188058917" decomposable_name="?">
+    <decomposable item_id="188058917" decomposable_name="Kinah Pouch">
         <items>
             <item id="182400001" name="Kinah"/>
         </items>
@@ -220935,6 +221186,147 @@
     <decomposable item_id="188058926" decomposable_name="Box of Upgrade Serum">
         <items>
             <item id="166030005" name="Holy Upgrade Serum"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058935" decomposable_name="Entry Scroll Bundle for Narakkalli">
+        <items>
+            <item id="188600446" name="Entry Scroll for Narakkalli"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058936" decomposable_name="Entry Scroll Bundle for the Museum of Knowledge">
+        <items>
+            <item id="188600441" name="Entry Scroll for the Museum of Knowledge"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058938" decomposable_name="Fallusha’s Equipment Soul Stone Bundle">
+        <items>
+            <item id="152012766" name="Fallusha’s Equipment Soul Stone"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058939" decomposable_name="Tike's +7 Manastone Bundle">
+        <items>
+            <item id="188055497" name="Tike's +7 Manastone Bundle"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058940" decomposable_name="Minionite Bundle">
+        <items>
+            <item id="190200000" name="Minionite"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058941" decomposable_name="Major Bundle of 100% Manastone Socketing Aids (Mythical)">
+        <items>
+            <item id="166150028" name="Mighty 100% Manastone Socketing Aid (Mythical)"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058942" decomposable_name="Grey Wolf Medal Bundle">
+        <items>
+            <item id="186000500" name="Grey Wolf Medal"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058943" decomposable_name="+9 Manastone Bundle">
+        <items>
+            <item id="167010304" name="Manastone: Power +9"/>
+        </items>
+        <items>
+            <item id="167010305" name="Manastone: Health +9"/>
+        </items>
+        <items>
+            <item id="167010306" name="Manastone: Agility +9"/>
+        </items>
+        <items>
+            <item id="167010307" name="Manastone: Accuracy +9"/>
+        </items>
+        <items>
+            <item id="167010308" name="Manastone: Knowledge +9"/>
+        </items>
+        <items>
+            <item id="167010309" name="Manastone: Will +9"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058944" decomposable_name="Bundle of Illusion Godstones">
+        <items>
+            <item id="168000161" name="Illusion Godstone: Meslamtaeda's Greed"/>
+        </items>
+        <items>
+            <item id="168000162" name="Illusion Godstone: Ereshkigal's Honour"/>
+        </items>
+        <items>
+            <item id="168000163" name="Illusion Godstone: Nezekan's Advance"/>
+        </items>
+        <items>
+            <item id="168000164" name="Illusion Godstone: Beritra's Plan"/>
+        </items>
+        <items>
+            <item id="168000165" name="Illusion Godstone: Fregion's Trick"/>
+        </items>
+        <items>
+            <item id="168000166" name="Illusion Godstone: Lumiel's Intervention"/>
+        </items>
+        <items>
+            <item id="168000167" name="Illusion Godstone: Kaisinel's Fantasy"/>
+        </items>
+        <items>
+            <item id="168000168" name="Illusion Godstone: Zikel's Arrogance"/>
+        </items>
+        <items>
+            <item id="168000169" name="Illusion Godstone: Fregion's Deceit"/>
+        </items>
+        <items>
+            <item id="168000170" name="Illusion Godstone: Tiamat's Counterattack"/>
+        </items>
+        <items>
+            <item id="168000171" name="Illusion Godstone: Marchutan's Neutrality"/>
+        </items>
+        <items>
+            <item id="168000172" name="Illusion Godstone: Yustiel's Generosity"/>
+        </items>
+        <items>
+            <item id="168000173" name="Illusion Godstone: Beritra's Selfishness"/>
+        </items>
+        <items>
+            <item id="168000174" name="Illusion Godstone: Tiamat's Fury"/>
+        </items>
+        <items>
+            <item id="168000175" name="Illusion Godstone: Triniel's Rationality"/>
+        </items>
+        <items>
+            <item id="168000176" name="Illusion Godstone: Vaizel's Vow"/>
+        </items>
+        <items>
+            <item id="168000177" name="Illusion Godstone: Meslamtaeda's Regret"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058945" decomposable_name="Agent's Clothing Chest">
+        <items>
+            <item id="110901073" name="Luminary Costume"/>
+        </items>
+        <items>
+            <item id="110901074" name="Midnight Costume"/>
+        </items>
+        <items>
+            <item id="110901356" name="Celestial Robe"/>
+        </items>
+        <items>
+            <item id="110901654" name="Butterfly Clothing"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058946" decomposable_name="Agent's Movement Bundle">
+        <items>
+            <item id="188508047" name="[Motion Card] Fun Outing"/>
+        </items>
+        <items>
+            <item id="188508051" name="[Motion Card] Ice Skate"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058947" decomposable_name="Governor's Soulstone Bundle">
+        <items>
+            <item id="152012752" name="Commander's Storm Soulstone"/>
+        </items>
+        <items>
+            <item id="152012753" name="Steel Wall Commander's Soulstone"/>
+        </items>
+        <items>
+            <item id="152012754" name="Commander's Protective Soulstone"/>
         </items>
     </decomposable>
 </decomposable_items>
