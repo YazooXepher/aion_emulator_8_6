@@ -68672,6 +68672,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80900"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80902" name="The 3rd Power of Creation Stone" category_name="Event" nameId="1802888" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68679,6 +68682,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80901"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80903" name="The 4th Power of Creation Stone" category_name="Event" nameId="1802889" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68686,6 +68692,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80902"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80904" name="The 5th Power of Creation Stone" category_name="Event" nameId="1802890" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68693,6 +68702,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80903"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80905" name="The 6th Power of Creation Stone" category_name="Event" nameId="1802891" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68700,6 +68712,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80904"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80906" name="The 7th Power of Creation Stone" category_name="Event" nameId="1802892" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68707,6 +68722,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80905"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80907" name="The 8th Power of Creation Stone" category_name="Event" nameId="1802893" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68714,6 +68732,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80906"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80908" name="The 9th Power of Creation Stone" category_name="Event" nameId="1802894" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68721,6 +68742,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80907"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80909" name="The 10th Power of Creation Stone" category_name="Event" nameId="1802895" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68728,6 +68752,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80908"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80910" name="The 11th Power of Creation Stone" category_name="Event" nameId="1802896" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68735,6 +68762,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80909"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80911" name="The 12th Power of Creation Stone" category_name="Event" nameId="1802897" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68742,6 +68772,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80910"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80912" name="The 13th Power of Creation Stone" category_name="Event" nameId="1802898" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68749,6 +68782,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80911"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80913" name="The 14th Power of Creation Stone" category_name="Event" nameId="1802899" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68756,6 +68792,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80912"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80914" name="The 15th Power of Creation Stone" category_name="Event" nameId="1802900" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68763,6 +68802,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80913"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80915" name="The 16th Power of Creation Stone" category_name="Event" nameId="1802901" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68770,6 +68812,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80914"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80916" name="The 17th Power of Creation Stone" category_name="Event" nameId="1802902" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68777,6 +68822,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80915"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80917" name="The 18th Power of Creation Stone" category_name="Event" nameId="1802903" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68784,6 +68832,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80916"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80918" name="The 19th Power of Creation Stone" category_name="Event" nameId="1802904" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68791,6 +68842,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80917"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80919" name="The 20th Power of Creation Stone" category_name="Event" nameId="1802905" minlevel_permitted="66" max_repeat_count="1" race_permitted="PC_ALL" category="MISSION">
@@ -68798,6 +68852,9 @@
             <collect_item item_id="188100390" count="1"/>
         </collect_items>
         <rewards exp="1"/>
+        <start_conditions>
+            <finished quest_id="80918"/>
+        </start_conditions>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER</class_permitted>
     </quest>
     <quest id="80921" name="[Event/Daily] Father's Request" category_name="Event" nameId="1803085" minlevel_permitted="66" max_repeat_count="255" repeat_cycle="ALL" race_permitted="ELYOS" category="EVENT">
