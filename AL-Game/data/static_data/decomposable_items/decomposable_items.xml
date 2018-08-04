@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2018-06-03 07:11 -->
+<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2018-08-04 10:13 -->
 <decomposable_items>
     <decomposable item_id="152000065" decomposable_name="Icy Fresh Pepento">
         <items>
@@ -41707,37 +41707,64 @@
     </decomposable>
     <decomposable item_id="188052318" decomposable_name="[Jakunerk] Loving Heart">
         <items>
-            <item id="110900415" name="[Jakunerk] Dazzling Wedding Dress/Dashing Tuxedo"/>
+            <item id="110900214" name="'My Other Half' T-Shirt"/>
         </items>
         <items>
-            <item id="125050045" name="[Jakunerk] Decorative Wedding Hat"/>
+            <item id="110900217" name="'I-Can-Hear-Only-You' Matching T-Shirt"/>
         </items>
         <items>
-            <item id="141000001" name="Stigma Shard" count="2"/>
+            <item id="110900218" name="'I-Am-Yours' Matching T-Shirt"/>
         </items>
         <items>
-            <item id="184002014" name="[Jakunerk] Birthday Cake Kisk" race="ELYOS"/>
+            <item id="162001062" name="Lodas' Golden Star"/>
         </items>
         <items>
-            <item id="184002015" name="[Jakunerk] Birthday Cake Kisk" race="ASMODIANS"/>
+            <item id="166030005" name="Holy Upgrade Serum"/>
         </items>
         <items>
-            <item id="188051674" name="Fabled Godstone Bundle" count="2"/>
+            <item id="186000454" name="Spinel Medal"/>
         </items>
         <items>
-            <item id="188051758" name="[Jakunerk] Medal Pack" count="2"/>
+            <item id="186000475" name="Goldwing Insignia"/>
         </items>
         <items>
-            <item id="188052297" name="Bundle of regenerating Manastones" count="2"/>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
-            <item id="188052319" name="[Jakunerk] Box containing Wings of the Dragon Lord"/>
+            <item id="187300002" name="Estima"/>
         </items>
         <items>
-            <item id="188052320" name="[Jakunerk] Bundle of Daeva Manastones" count="2"/>
+            <item id="188052493" name="Bundle of 30 mighty Supplements (Eternal)"/>
         </items>
         <items>
-            <item id="188052321" name="[Jakunerk] Box containing the Protectorate Key (Box)" count="2"/>
+            <item id="188052496" name="Bundle of 30 mighty Supplements (Mythical)"/>
+        </items>
+        <items>
+            <item id="188053783" name="Stigma Bag"/>
+        </items>
+        <items>
+            <item id="188053846" name="Transformation Candy Box: Enamored Tiger"/>
+        </items>
+        <items>
+            <item id="188055183" name="Mighty Socketing Aid Box"/>
+        </items>
+        <items>
+            <item id="188055337" name="+6 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188055462" name="Bundle containing refined divine Recovery Serum"/>
+        </items>
+        <items>
+            <item id="188057604" name="Apollon's Weapons Chest"/>
+        </items>
+        <items>
+            <item id="188057799" name="Tower of Challenge Stigma Bundle"/>
+        </items>
+        <items>
+            <item id="188058403" name="Apollon's Armour Chest"/>
+        </items>
+        <items>
+            <random_item type="ANCIENTITEMS"/>
         </items>
     </decomposable>
     <decomposable item_id="188052319" decomposable_name="[Jakunerk] Box containing Wings of the Dragon Lord">
@@ -42279,19 +42306,19 @@
     </decomposable>
     <decomposable item_id="188052358" decomposable_name="Contents of the Treasure Chest of Battle">
         <items>
+            <item id="162001062" name="Lodas' Golden Star"/>
+        </items>
+        <items>
             <item id="165010001" name="Vindachinerk's Noble Synthesising Tool"/>
         </items>
         <items>
             <item id="166030005" name="Holy Upgrade Serum"/>
         </items>
         <items>
-            <item id="166200009" name="Scroll of Weapon Re-identification (mythical)"/>
-        </items>
-        <items>
             <item id="166200010" name="Scroll of Armour Re-identification (mythical)"/>
         </items>
         <items>
-            <item id="168310018" name="Powerful Blessed Augmentation: Level 2"/>
+            <item id="187050040" name="Wings of the Farside Lightning Dragon King"/>
         </items>
         <items>
             <item id="188051216" name="Greater Supplements Bag (Eternal)"/>
@@ -42309,12 +42336,6 @@
             <item id="188052496" name="Bundle of 30 mighty Supplements (Mythical)"/>
         </items>
         <items>
-            <item id="188052559" name="Large Box of 100% Manastone socketing aids (eternal)"/>
-        </items>
-        <items>
-            <item id="188052560" name="Large Box of 100% Manastone socketing aids (mythical)"/>
-        </items>
-        <items>
             <item id="188052568" name="Katalam Patrol Manastone Bundle"/>
         </items>
         <items>
@@ -42324,48 +42345,60 @@
             <item id="188052639" name="[Jakunerk] Bundle of Heroic Godstones"/>
         </items>
         <items>
-            <item id="188052652" name="Fine Magic Powder Bundle"/>
-        </items>
-        <items>
             <item id="188052716" name="[Jakunerk] Bag of Powerful Scrolls"/>
         </items>
         <items>
             <item id="188052717" name="[Jakunerk] Idian Bundle"/>
         </items>
         <items>
-            <item id="188052740" name="[Jakunerk] Bundle of Shimmering Ancient Manastones"/>
-        </items>
-        <items>
-            <item id="188052741" name="[Jakunerk] Bundle of Shimmering Regenerating Manastones"/>
-        </items>
-        <items>
             <item id="188052822" name="Bundle of splendid Ancient Manastones"/>
         </items>
         <items>
-            <item id="188053005" name="[Jakunerk] Hyperion Chest with Wings"/>
+            <item id="188053975" name="Normal Stigma Box"/>
         </items>
         <items>
-            <item id="188053006" name="[Jakunerk] Mythic Class Hyperion Armour Chest"/>
+            <item id="188053976" name="Greater Stigma Box"/>
         </items>
         <items>
-            <item id="188053007" name="[Jakunerk] Mythic Class Hyperion Weapons Chest"/>
+            <item id="188054451" name="[Jakunerk] Fire Dragon King's Shimmering Weapons Chest"/>
         </items>
         <items>
-            <item id="188053057" name="Suspicious Green Sack"/>
+            <item id="188055180" name="Water Dragon King's Noble Weapon Box"/>
+        </items>
+        <items>
+            <item id="188055182" name="Greater Augmentation: Level 2 Box"/>
+        </items>
+        <items>
+            <item id="188055591" name="Box of Refined Feathers of the Lord"/>
+        </items>
+        <items>
+            <item id="188057030" name="Farside Lightning Dragon King's Sublime Weapons Chest"/>
+        </items>
+        <items>
+            <item id="188057312" name="Weapons Chest of Bygone Atreia"/>
         </items>
         <items>
             <item id="188100098" name="Key for the Treasure Chest of Battle"/>
         </items>
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
+        </items>
     </decomposable>
     <decomposable item_id="188052359" decomposable_name="Treasure Chest of Wealth">
         <items>
-            <item id="165020014" name="Gleaming Packaging Scroll for Weapons (Eternal)"/>
+            <item id="162001062" name="Lodas' Golden Star"/>
+        </items>
+        <items>
+            <item id="164002228" name="Yasba's Grace - Valid 1 Time"/>
         </items>
         <items>
             <item id="165020015" name="Gleaming Packaging Scroll for Armour (Eternal)"/>
         </items>
         <items>
             <item id="165020016" name="Gleaming Packaging Scroll for Accessories (Eternal)"/>
+        </items>
+        <items>
+            <item id="165050001" name="Magic Stone for Removal of Soul-binding"/>
         </items>
         <items>
             <item id="166030005" name="Holy Upgrade Serum"/>
@@ -42380,13 +42413,19 @@
             <item id="186000231" name="Ceranium Coin"/>
         </items>
         <items>
-            <item id="186000236" name="Battle Medal"/>
+            <item id="186000236" name="Battle Medal" count="2"/>
         </items>
         <items>
             <item id="186000237" name="Ancient coin"/>
         </items>
         <items>
             <item id="186000242" name="Ceranium Medal" count="2"/>
+        </items>
+        <items>
+            <item id="186000414" name="Insignia of Honour"/>
+        </items>
+        <items>
+            <item id="187050040" name="Wings of the Farside Lightning Dragon King"/>
         </items>
         <items>
             <item id="188052102" name="[Jakunerk] Bundle of Crucible Symbols"/>
@@ -42413,34 +42452,25 @@
             <item id="188052933" name="Courage Insignia Box"/>
         </items>
         <items>
-            <item id="188053189" name="[Jakunerk] Commander's Weapon Box"/>
+            <item id="188053975" name="Normal Stigma Box"/>
         </items>
         <items>
-            <item id="188053190" name="[Jakunerk] Box: Commander's Top"/>
+            <item id="188053976" name="Greater Stigma Box"/>
         </items>
         <items>
-            <item id="188053191" name="[Jakunerk] Box: Commander's Breeches"/>
+            <item id="188054451" name="[Jakunerk] Fire Dragon King's Shimmering Weapons Chest"/>
         </items>
         <items>
-            <item id="188053192" name="[Jakunerk] Box: Commander's Spaulders"/>
+            <item id="188055180" name="Water Dragon King's Noble Weapon Box"/>
         </items>
         <items>
-            <item id="188053193" name="[Jakunerk] Box: Commander's Gloves"/>
-        </items>
-        <items>
-            <item id="188053194" name="[Jakunerk] Box: Commander's Shoes"/>
-        </items>
-        <items>
-            <item id="188053229" name="[Jakunerk] Box of Kahrun's Lucky Insignias"/>
+            <item id="188057030" name="Farside Lightning Dragon King's Sublime Weapons Chest"/>
         </items>
         <items>
             <item id="188100099" name="Key for the Treasure Chest of Wealth"/>
         </items>
         <items>
-            <item id="188950015" name="Mail attachment approval (Eternal/Level 61-65)"/>
-        </items>
-        <items>
-            <item id="188950017" name="Mail attachment approval (Abyss item/Eternal/Level 61-65)"/>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
         <items>
             <random_item type="ANCIENTITEMS"/>
@@ -42454,16 +42484,10 @@
             <item id="165010001" name="Vindachinerk's Noble Synthesising Tool"/>
         </items>
         <items>
-            <item id="166030005" name="Holy Upgrade Serum"/>
-        </items>
-        <items>
-            <item id="169405376" name="Daeva Essence"/>
+            <item id="169620084" name="Crafting Skill Improvement Scroll I (200%)"/>
         </items>
         <items>
             <item id="169629002" name="Lucky Vinna II"/>
-        </items>
-        <items>
-            <item id="169660000" name="Gender Switch Ticket"/>
         </items>
         <items>
             <item id="170190048" name="Chocolate Magic Powder Bloom"/>
@@ -42472,22 +42496,13 @@
             <item id="182007162" name="Aether Cherry"/>
         </items>
         <items>
-            <item id="187060148" name="Black and Silver Steampunk Wings"/>
-        </items>
-        <items>
-            <item id="188052131" name="[Jakunerk] Dye Bundle"/>
+            <item id="187050040" name="Wings of the Farside Lightning Dragon King"/>
         </items>
         <items>
             <item id="188052135" name="[Jakunerk] Chest containing Victory Wish Food"/>
         </items>
         <items>
             <item id="188052478" name="Bundle of Return Scrolls"/>
-        </items>
-        <items>
-            <item id="188052651" name="Chest of Title Cards"/>
-        </items>
-        <items>
-            <item id="188052652" name="Fine Magic Powder Bundle"/>
         </items>
         <items>
             <item id="188052715" name="[Jakunerk] Bag of Shugo Kisks"/>
@@ -42505,10 +42520,22 @@
             <item id="188053335" name="Chest of the Stylish Daeva"/>
         </items>
         <items>
-            <item id="188053338" name="Beautiful Daeva's Clothing Chest"/>
+            <item id="188053975" name="Normal Stigma Box"/>
         </items>
         <items>
-            <item id="188053543" name="Shughost Box"/>
+            <item id="188053976" name="Greater Stigma Box"/>
+        </items>
+        <items>
+            <item id="188054451" name="[Jakunerk] Fire Dragon King's Shimmering Weapons Chest"/>
+        </items>
+        <items>
+            <item id="188054696" name="Hell Steed Box"/>
+        </items>
+        <items>
+            <item id="188055180" name="Water Dragon King's Noble Weapon Box"/>
+        </items>
+        <items>
+            <item id="188057030" name="Farside Lightning Dragon King's Sublime Weapons Chest"/>
         </items>
         <items>
             <item id="188100100" name="Key for the Treasure Chest of Strength"/>
@@ -42520,10 +42547,13 @@
             <item id="190020175" name="Tahabata Egg"/>
         </items>
         <items>
-            <item id="190070017" name="Satan Junior Summoning Lamp"/>
+            <item id="190020208" name="Tiamat Junior Egg"/>
         </items>
         <items>
-            <item id="190100131" name="Dew Steed"/>
+            <item id="190020230" name="Blobbel Egg"/>
+        </items>
+        <items>
+            <item id="190070017" name="Satan Junior Summoning Lamp"/>
         </items>
     </decomposable>
     <decomposable item_id="188052361" decomposable_name="[Jakunerk] Internet Café Bundle">
@@ -44328,16 +44358,7 @@
     </decomposable>
     <decomposable item_id="188052425" decomposable_name="Level 60 combat support bundle">
         <items>
-            <item id="162000006" name="Enhanced Life Potion"/>
-        </items>
-        <items>
-            <item id="162000011" name="Enhanced Mana Potion"/>
-        </items>
-        <items>
-            <item id="162000137" name="Fortified Divine Life Serum"/>
-        </items>
-        <items>
-            <item id="162000139" name="Fortified Divine Mana Serum"/>
+            <item id="162000197" name="Refined Divine Recovery Serum" count="2"/>
         </items>
         <items>
             <item id="169000010" name="Power Shard: +40"/>
@@ -52857,43 +52878,79 @@
     </decomposable>
     <decomposable item_id="188052625" decomposable_name="[Jakunerk] Ice Box">
         <items>
-            <item id="162000083" name="Leader's Recovery Scroll" count="3"/>
+            <item id="162001071" name="Lodas' Greater Golden Star"/>
         </items>
         <items>
-            <item id="169000010" name="Power Shard: +40"/>
+            <item id="164002228" name="Yasba's Grace - Valid 1 Time"/>
         </items>
         <items>
-            <item id="169629000" name="Lucky Vinna"/>
+            <item id="165061003" name="Magic Stone of Level Reduction (100%)"/>
         </items>
         <items>
-            <item id="169629003" name="Luck Energy"/>
+            <item id="166030005" name="Holy Upgrade Serum"/>
         </items>
         <items>
-            <item id="170100028" name="Shade Flower Cabinet"/>
+            <item id="186000475" name="Goldwing Insignia"/>
         </items>
         <items>
-            <item id="188052319" name="[Jakunerk] Box containing Wings of the Dragon Lord"/>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
-            <item id="188052420" name="Bundle of Magic Powder"/>
+            <item id="187000241" name="Ancient Fallusha's Wings"/>
         </items>
         <items>
-            <item id="188052628" name="[Jakunerk] Box of Ice Quartz Idian"/>
+            <item id="187300002" name="Estima"/>
         </items>
         <items>
-            <item id="188052629" name="[Jakunerk] Summer Hat Pack"/>
+            <item id="188054430" name="Bundle of Lucky Stigmas"/>
         </items>
         <items>
-            <item id="188052630" name="[Jakunerk] Bundle containing Jormungand's Helm"/>
+            <item id="188055089" name="[Jakunerk] Culinary Art Bundle for High Daevas"/>
         </items>
         <items>
-            <item id="188052631" name="[Jakunerk] Ancient Spirit's Helm Disguise Package"/>
+            <item id="188055335" name="+8 Manastone Bundle"/>
         </items>
         <items>
-            <item id="188052674" name="[Jakunerk] Bundle of Heroic Godstones"/>
+            <item id="188055591" name="Box of Refined Feathers of the Lord"/>
         </items>
         <items>
-            <item id="188052675" name="[Jakunerk] Fabled Godstone Bundle"/>
+            <item id="188055630" name="Revival Stone Bundle"/>
+        </items>
+        <items>
+            <item id="188055650" name="Powerful enhancement: Level 2 Bundle"/>
+        </items>
+        <items>
+            <item id="188055651" name="Powerful Blessed Augmentation: Level 2 Bundle"/>
+        </items>
+        <items>
+            <item id="188055791" name="[Jakunerk] Weapons Chest of Bygone Atreia"/>
+        </items>
+        <items>
+            <item id="188057672" name="Noble +10 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188058064" name="Ancient Fallusha's Armour Chest"/>
+        </items>
+        <items>
+            <item id="188058269" name="Ancient Fallusha's Weapon Chest"/>
+        </items>
+        <items>
+            <item id="188058313" name="Ascended Transformation Candy Box"/>
+        </items>
+        <items>
+            <item id="188058363" name="Ancient Fallusha's Accessory Chest"/>
+        </items>
+        <items>
+            <item id="188058415" name="Dark Dragon King's Enhanced Weapons Chest"/>
+        </items>
+        <items>
+            <item id="188058647" name="Panda's Go-Kart Box"/>
+        </items>
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
+        </items>
+        <items>
+            <item id="190080014" name="Level A Minion Contract"/>
         </items>
     </decomposable>
     <decomposable item_id="188052626" decomposable_name="[Jakunerk] Cocktail Shaker">
@@ -56092,28 +56149,34 @@
             <item id="164002228" name="Yasba's Grace - Valid 1 Time"/>
         </items>
         <items>
-            <item id="186000236" name="Battle Medal"/>
+            <item id="165060001" name="Magic Stone of Level Reduction"/>
         </items>
         <items>
-            <item id="186000237" name="Ancient coin"/>
-        </items>
-        <items>
-            <item id="186000238" name="Insignia of Conquest"/>
-        </items>
-        <items>
-            <item id="186000242" name="Ceranium Medal"/>
+            <item id="166030005" name="Holy Upgrade Serum"/>
         </items>
         <items>
             <item id="186000247" name="Powerful Ancient Rune Tribe Relic"/>
         </items>
         <items>
-            <item id="186000414" name="Insignia of Honour"/>
+            <item id="186000454" name="Spinel Medal"/>
         </items>
         <items>
-            <item id="188054110" name="Reward Coin Bundle"/>
+            <item id="186000492" name="Spinel Coin"/>
+        </items>
+        <items>
+            <item id="188052496" name="Bundle of 30 mighty Supplements (Mythical)"/>
+        </items>
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
+        </items>
+        <items>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
         <items>
             <item id="188710071" name="All Boost Pack (1 Day)"/>
+        </items>
+        <items>
+            <item id="190200000" name="Minionite"/>
         </items>
     </decomposable>
     <decomposable item_id="188052731" decomposable_name="Chest of Ancient Crowns">
@@ -71674,7 +71737,7 @@
             <item id="182007148" name="[Jakunerk] Crystal of Chance"/>
         </items>
         <items>
-            <item id="186000237" name="Ancient coin" count="2"/>
+            <item id="186000475" name="Goldwing Insignia" count="2"/>
         </items>
     </decomposable>
     <decomposable item_id="188052997" decomposable_name="[Jakunerk] Bundle of Missed Opportunity">
@@ -71682,59 +71745,83 @@
             <item id="182007148" name="[Jakunerk] Crystal of Chance"/>
         </items>
         <items>
-            <item id="186000237" name="Ancient coin" count="2"/>
-        </items>
-        <items>
-            <item id="188052071" name="[Jakunerk] Box containing the Key to the Defence Corps' Treasure Lockbox"/>
+            <item id="186000475" name="Goldwing Insignia" count="2"/>
         </items>
     </decomposable>
     <decomposable item_id="188052998" decomposable_name="[Jakunerk] Bundle of Promising Opportunity">
         <items>
-            <item id="166200009" name="Scroll of Weapon Re-identification (mythical)"/>
+            <item id="162001062" name="Lodas' Golden Star"/>
+        </items>
+        <items>
+            <item id="166030005" name="Holy Upgrade Serum"/>
+        </items>
+        <items>
+            <item id="169620149" name="Crafting Skill Improvement Scroll II (500%)"/>
+        </items>
+        <items>
+            <item id="169650000" name="Plastic Surgery Ticket"/>
         </items>
         <items>
             <item id="182007148" name="[Jakunerk] Crystal of Chance"/>
         </items>
         <items>
-            <item id="186000237" name="Ancient coin" count="2"/>
+            <item id="186000475" name="Goldwing Insignia" count="2"/>
         </items>
         <items>
-            <item id="188052072" name="[Jakunerk] Box: Defence Corps Key (Crate)"/>
+            <item id="188053783" name="Stigma Bag"/>
         </items>
         <items>
-            <item id="188053000" name="[Jakunerk] Large Box of 100% Manastone socketing aids"/>
-        </items>
-        <items>
-            <item id="188053001" name="[Jakunerk] Fabled Godstone Bundle"/>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
     </decomposable>
     <decomposable item_id="188052999" decomposable_name="[Jakunerk] Prism">
         <items>
-            <item id="166200009" name="Scroll of Weapon Re-identification (mythical)"/>
+            <item id="162001062" name="Lodas' Golden Star"/>
         </items>
         <items>
-            <item id="188053000" name="[Jakunerk] Large Box of 100% Manastone socketing aids"/>
+            <item id="166030005" name="Holy Upgrade Serum" count="2"/>
         </items>
         <items>
-            <item id="188053001" name="[Jakunerk] Fabled Godstone Bundle"/>
+            <item id="169620149" name="Crafting Skill Improvement Scroll II (500%)"/>
         </items>
         <items>
-            <item id="188053002" name="[Jakunerk] Bundle of Noble Regenerating Manastones"/>
+            <item id="187000241" name="Ancient Fallusha's Wings"/>
         </items>
         <items>
-            <item id="188053003" name="[Jakunerk] Bundle with the Weapon Fragment of Magic Power"/>
+            <item id="187050040" name="Wings of the Farside Lightning Dragon King"/>
         </items>
         <items>
-            <item id="188053004" name="[Jakunerk] Dragon Lord's Weapon Box"/>
+            <item id="187300002" name="Estima"/>
         </items>
         <items>
-            <item id="188053005" name="[Jakunerk] Hyperion Chest with Wings"/>
+            <item id="188053783" name="Stigma Bag"/>
         </items>
         <items>
-            <item id="188053006" name="[Jakunerk] Mythic Class Hyperion Armour Chest"/>
+            <item id="188055183" name="Mighty Socketing Aid Box"/>
         </items>
         <items>
-            <item id="188053007" name="[Jakunerk] Mythic Class Hyperion Weapons Chest"/>
+            <item id="188055231" name="Solorius Weapons Chest"/>
+        </items>
+        <items>
+            <item id="188057030" name="Farside Lightning Dragon King's Sublime Weapons Chest"/>
+        </items>
+        <items>
+            <item id="188058361" name="Ancient Fallusha's Armour Chest"/>
+        </items>
+        <items>
+            <item id="188058362" name="Ancient Fallusha's Weapon Chest"/>
+        </items>
+        <items>
+            <item id="188058363" name="Ancient Fallusha's Accessory Chest"/>
+        </items>
+        <items>
+            <item id="188058364" name="Ancient Fallusha's Hatbox"/>
+        </items>
+        <items>
+            <item id="188058795" name="+11 Manastone Selection Bundle"/>
+        </items>
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
     </decomposable>
     <decomposable item_id="188053000" decomposable_name="[Jakunerk] Large Box of 100% Manastone socketing aids">
@@ -99765,13 +99852,31 @@
             <item id="110900443" name="Striped snake costume"/>
         </items>
         <items>
-            <item id="141000001" name="Stigma Shard"/>
+            <item id="125045612" name="Rainbow Wig"/>
         </items>
         <items>
-            <item id="160010208" name="[Jakunerk] Sweet Chocolate" count="3"/>
+            <item id="162000178" name="Refined Recovery Potion"/>
+        </items>
+        <items>
+            <item id="162000181" name="Refined Recovery Serum"/>
+        </items>
+        <items>
+            <item id="162000210" name="Refined Healing Potion"/>
+        </items>
+        <items>
+            <item id="162001062" name="Lodas' Golden Star" count="2"/>
+        </items>
+        <items>
+            <item id="162001069" name="Lodas' Silver Star" count="2"/>
+        </items>
+        <items>
+            <item id="165060001" name="Magic Stone of Level Reduction"/>
         </items>
         <items>
             <item id="166030005" name="Holy Upgrade Serum"/>
+        </items>
+        <items>
+            <item id="166230005" name="Skill Enhancement Scroll"/>
         </items>
         <items>
             <item id="169220002" name="Dye: True White"/>
@@ -99780,31 +99885,43 @@
             <item id="169220003" name="Dye: True Black"/>
         </items>
         <items>
-            <item id="169620112" name="[Jakunerk] Lord's Crafting Skill Improvement Scroll - 200%"/>
+            <item id="169250002" name="Versatile Dye"/>
         </items>
         <items>
-            <item id="186000242" name="Ceranium Medal"/>
+            <item id="169620201" name="Verdin's Noble Amulet III"/>
+        </items>
+        <items>
+            <item id="186000469" name="Petra Medal"/>
+        </items>
+        <items>
+            <item id="186000475" name="Goldwing Insignia"/>
+        </items>
+        <items>
+            <item id="186000492" name="Spinel Coin"/>
+        </items>
+        <items>
+            <item id="187000241" name="Ancient Fallusha's Wings"/>
+        </items>
+        <items>
+            <item id="187300002" name="Estima"/>
         </items>
         <items>
             <item id="188051438" name="Rainbow Dye Pack II"/>
         </items>
         <items>
-            <item id="188051854" name="[Jakunerk] Dye Bundle"/>
+            <item id="188055679" name="Noble +6 Manastone Bundle"/>
         </items>
         <items>
-            <item id="188052715" name="[Jakunerk] Bag of Shugo Kisks"/>
+            <item id="188058387" name="Sports Tournament Skill Card Bundle"/>
         </items>
         <items>
-            <item id="188052741" name="[Jakunerk] Bundle of Shimmering Regenerating Manastones"/>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
         <items>
-            <item id="188052761" name="[Jakunerk] Bundle of Entry Scrolls"/>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
         <items>
-            <item id="188053321" name="[Jakunerk] Box of Feathers of the Lord"/>
-        </items>
-        <items>
-            <item id="190100141" name="Nimble Space Glider (1 day)"/>
+            <item id="190080008" name="Cute Minion Contract"/>
         </items>
     </decomposable>
     <decomposable item_id="188053675" decomposable_name="Box of Battle Medals">
@@ -132683,7 +132800,7 @@
     </decomposable>
     <decomposable item_id="188054494" decomposable_name="[Jakunerk] Evolution Stone Reward">
         <items>
-            <item id="166030005" name="Holy Upgrade Serum"/>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
     </decomposable>
     <decomposable item_id="188054495" decomposable_name="Premium Box of Luck II">
@@ -138870,58 +138987,7 @@
     </decomposable>
     <decomposable item_id="188054773" decomposable_name="Shugo Game Box 3 (Probability)">
         <items>
-            <item id="110000062" name="Revitalising Star Bunny Jacket"/>
-        </items>
-        <items>
-            <item id="111000103" name="Revitalising Star Bunny Gloves"/>
-        </items>
-        <items>
-            <item id="112000063" name="Revitalising Star Bunny Shoulder Pads"/>
-        </items>
-        <items>
-            <item id="113000067" name="Revitalising Star Bunny Trousers"/>
-        </items>
-        <items>
-            <item id="114000105" name="Revitalising Star Bunny Shoes"/>
-        </items>
-        <items>
-            <item id="125005118" name="Revitalising Star Bunny Hat"/>
-        </items>
-        <items>
-            <item id="166040001" name="Estima Sacred Water"/>
-        </items>
-        <items>
-            <item id="166150028" name="Mighty 100% Manastone Socketing Aid (Mythical)"/>
-        </items>
-        <items>
-            <item id="182007168" name="Normal Sacred Tree"/>
-        </items>
-        <items>
-            <item id="186000454" name="Spinel Medal"/>
-        </items>
-        <items>
-            <item id="187060260" name="Droplet"/>
-        </items>
-        <items>
-            <item id="187300002" name="Estima"/>
-        </items>
-        <items>
-            <item id="188055338" name="+5 Manastone Bundle"/>
-        </items>
-        <items>
-            <item id="188055469" name="Dimension Stone Bundle"/>
-        </items>
-        <items>
-            <item id="188056786" name="Weapons Chest of the Mighty Sunset"/>
-        </items>
-        <items>
-            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
-        </items>
-        <items>
-            <item id="190020277" name="Football Egg"/>
-        </items>
-        <items>
-            <random_item type="ANCIENTITEMS"/>
+            <item id="100501270" name="Awakening Antriksha's Orb"/>
         </items>
     </decomposable>
     <decomposable item_id="188054774" decomposable_name="Shugo Game Box 4 (Probability)">
@@ -143467,7 +143533,7 @@
     </decomposable>
     <decomposable item_id="188055076" decomposable_name="Likurinerk's Special Reward 6">
         <items>
-            <item id="186000242" name="Ceranium Medal"/>
+            <item id="187000206" name="Enhanced Otherworldly Daeva Wings"/>
         </items>
     </decomposable>
     <decomposable item_id="188055077" decomposable_name="Box with a Pink Kitty Bike (30 Days)">
@@ -144048,7 +144114,7 @@
     </decomposable>
     <decomposable item_id="188055122" decomposable_name="[Jakunerk] Inferior Gift of the Magnificent Magic Tree">
         <items>
-            <item id="125045819" name="[Jakunerk] Crown of Flowers (1 day)"/>
+            <item id="125045177" name="Flower Hairpin with Summer Fragrance (1 day)"/>
         </items>
         <items>
             <item id="161001001" name="Revival Stone"/>
@@ -144060,148 +144126,154 @@
             <item id="164002167" name="[Jakunerk] Drana Coffee"/>
         </items>
         <items>
-            <item id="169405339" name="Ballasite Crystal"/>
+            <item id="166100011" name="Mighty Supplements (Mythical)"/>
         </items>
         <items>
-            <item id="186000236" name="Battle Medal"/>
+            <item id="186000475" name="Goldwing Insignia"/>
+        </items>
+        <items>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
             <item id="188051732" name="[Jakunerk] Bundle of Heroic Godstones"/>
         </items>
         <items>
-            <item id="188052559" name="Large Box of 100% Manastone socketing aids (eternal)"/>
-        </items>
-        <items>
-            <item id="188052632" name="[Jakunerk] Bundle containing high-quality Manastones"/>
-        </items>
-        <items>
             <item id="188052716" name="[Jakunerk] Bag of Powerful Scrolls"/>
+        </items>
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
     </decomposable>
     <decomposable item_id="188055123" decomposable_name="[Jakunerk] Gift of the Magnificent Magic Tree">
         <items>
-            <item id="110901008" name="Leafy Armour"/>
+            <item id="110900949" name="Spring Robe"/>
         </items>
         <items>
-            <item id="110901011" name="Flowery Dress"/>
+            <item id="110901475" name="Plague Doctor's Outfit"/>
         </items>
         <items>
-            <item id="110901143" name="Robe of the Orient"/>
+            <item id="125045162" name="Flower Hairpin with Summer Fragrance"/>
+        </items>
+        <items>
+            <item id="125045925" name="Plague Doctor's Hat"/>
+        </items>
+        <items>
+            <item id="125045931" name="Plague Doctor's Mask"/>
         </items>
         <items>
             <item id="160002497" name="Dragon Meat Salad with Oil Dressing and Fresh Plumbo"/>
-        </items>
-        <items>
-            <item id="161001001" name="Revival Stone"/>
         </items>
         <items>
             <item id="162000107" name="Saam King's Herbs"/>
         </items>
         <items>
-            <item id="169100000" name="Dye Remover"/>
+            <item id="169200005" name="Dye: True Red"/>
+        </items>
+        <items>
+            <item id="169200006" name="Dye: True White"/>
         </items>
         <items>
             <item id="169200007" name="Dye: True Black"/>
         </items>
         <items>
-            <item id="169231082" name="[Jakunerk] Dye: Romantic Pink"/>
+            <item id="169220040" name="Dye: Deep Blue"/>
         </items>
         <items>
-            <item id="169405339" name="Ballasite Crystal"/>
+            <item id="169250002" name="Versatile Dye"/>
         </items>
         <items>
-            <item id="187060091" name="Gleaming Wings of Light"/>
+            <item id="169405424" name="Spirit Stone of Eternity"/>
         </items>
         <items>
-            <item id="187060094" name="Magnificent Wings of Light"/>
+            <item id="186000475" name="Goldwing Insignia"/>
+        </items>
+        <items>
+            <item id="186000492" name="Spinel Coin"/>
+        </items>
+        <items>
+            <item id="187060260" name="Droplet"/>
         </items>
         <items>
             <item id="188051732" name="[Jakunerk] Bundle of Heroic Godstones"/>
         </items>
         <items>
-            <item id="188051759" name="Plastic Surgery Ticket Box (1 day)"/>
-        </items>
-        <items>
-            <item id="188052632" name="[Jakunerk] Bundle containing high-quality Manastones"/>
-        </items>
-        <items>
-            <item id="188054038" name="[Jakunerk] Ocean Armour Chest"/>
-        </items>
-        <items>
-            <item id="188054039" name="[Jakunerk] Ocean Wave Armour Chest"/>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
     </decomposable>
     <decomposable item_id="188055124" decomposable_name="[Jakunerk] Special Gift of the Magnificent Magic Tree">
         <items>
-            <item id="110901008" name="Leafy Armour"/>
+            <item id="110900949" name="Spring Robe"/>
         </items>
         <items>
-            <item id="110901011" name="Flowery Dress"/>
+            <item id="110901475" name="Plague Doctor's Outfit"/>
         </items>
         <items>
-            <item id="110901097" name="Neodron Armour"/>
+            <item id="125045162" name="Flower Hairpin with Summer Fragrance"/>
         </items>
         <items>
-            <item id="115001602" name="Small Crystal Clear Shield"/>
+            <item id="125045925" name="Plague Doctor's Hat"/>
+        </items>
+        <items>
+            <item id="125045931" name="Plague Doctor's Mask"/>
         </items>
         <items>
             <item id="160002497" name="Dragon Meat Salad with Oil Dressing and Fresh Plumbo"/>
         </items>
         <items>
-            <item id="161001001" name="Revival Stone"/>
+            <item id="169200005" name="Dye: True Red"/>
         </items>
         <items>
-            <item id="169100000" name="Dye Remover"/>
+            <item id="169200006" name="Dye: True White"/>
         </items>
         <items>
             <item id="169200007" name="Dye: True Black"/>
         </items>
         <items>
-            <item id="169231091" name="[Jakunerk] Dye: Fantasia Turquoise"/>
+            <item id="169220040" name="Dye: Deep Blue"/>
         </items>
         <items>
-            <item id="169405339" name="Ballasite Crystal"/>
+            <item id="169250002" name="Versatile Dye"/>
         </items>
         <items>
-            <item id="187000058" name="Ancient Spirit's Wings"/>
+            <item id="169405424" name="Spirit Stone of Eternity"/>
         </items>
         <items>
-            <item id="187000157" name="Fourth Dragon Lord's Wings"/>
+            <item id="186000475" name="Goldwing Insignia"/>
         </items>
         <items>
-            <item id="187060091" name="Gleaming Wings of Light"/>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
-            <item id="187060094" name="Magnificent Wings of Light"/>
+            <item id="187000225" name="Wings of Oblivion"/>
+        </items>
+        <items>
+            <item id="187000241" name="Ancient Fallusha's Wings"/>
+        </items>
+        <items>
+            <item id="187060260" name="Droplet"/>
         </items>
         <items>
             <item id="188051732" name="[Jakunerk] Bundle of Heroic Godstones"/>
         </items>
         <items>
-            <item id="188051759" name="Plastic Surgery Ticket Box (1 day)"/>
-        </items>
-        <items>
-            <item id="188052632" name="[Jakunerk] Bundle containing high-quality Manastones"/>
-        </items>
-        <items>
-            <item id="188054038" name="[Jakunerk] Ocean Armour Chest"/>
-        </items>
-        <items>
-            <item id="188054039" name="[Jakunerk] Ocean Wave Armour Chest"/>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
     </decomposable>
     <decomposable item_id="188055125" decomposable_name="[Jakunerk] Premium Gift of the Magnificent Magic Tree">
         <items>
-            <item id="110901097" name="Neodron Armour"/>
+            <item id="169610171" name="[Title] Friend of the Magic Tree"/>
         </items>
         <items>
-            <item id="169610170" name="[Title] Protector of the Magic Tree"/>
+            <item id="187000225" name="Wings of Oblivion"/>
         </items>
         <items>
-            <item id="187000058" name="Ancient Spirit's Wings"/>
+            <item id="187000241" name="Ancient Fallusha's Wings"/>
         </items>
         <items>
-            <item id="187000157" name="Fourth Dragon Lord's Wings"/>
+            <item id="188058858" name="Keio’s Weapons Chest (selection)"/>
+        </items>
+        <items>
+            <item id="188058859" name="Keio’s Armour Chest (selection)"/>
         </items>
     </decomposable>
     <decomposable item_id="188055126" decomposable_name="[Jakunerk] Inferior Gift of the Strong Magic Tree">
@@ -144215,139 +144287,148 @@
             <item id="164002167" name="[Jakunerk] Drana Coffee"/>
         </items>
         <items>
-            <item id="169405339" name="Ballasite Crystal"/>
+            <item id="166100011" name="Mighty Supplements (Mythical)"/>
         </items>
         <items>
-            <item id="186000236" name="Battle Medal"/>
+            <item id="186000475" name="Goldwing Insignia"/>
         </items>
         <items>
-            <item id="186000237" name="Ancient coin"/>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
             <item id="188051732" name="[Jakunerk] Bundle of Heroic Godstones"/>
         </items>
         <items>
-            <item id="188052559" name="Large Box of 100% Manastone socketing aids (eternal)"/>
-        </items>
-        <items>
-            <item id="188052632" name="[Jakunerk] Bundle containing high-quality Manastones"/>
-        </items>
-        <items>
             <item id="188052716" name="[Jakunerk] Bag of Powerful Scrolls"/>
+        </items>
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
+        </items>
+        <items>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
     </decomposable>
     <decomposable item_id="188055127" decomposable_name="[Jakunerk] Gift of the Strong Magic Tree">
         <items>
-            <item id="160002497" name="Dragon Meat Salad with Oil Dressing and Fresh Plumbo"/>
+            <item id="152012766" name="Fallusha’s Equipment Soul Stone"/>
         </items>
         <items>
-            <item id="161001001" name="Revival Stone"/>
+            <item id="160002497" name="Dragon Meat Salad with Oil Dressing and Fresh Plumbo"/>
         </items>
         <items>
             <item id="162000107" name="Saam King's Herbs"/>
         </items>
         <items>
-            <item id="169405339" name="Ballasite Crystal"/>
+            <item id="165050001" name="Magic Stone for Removal of Soul-binding"/>
         </items>
         <items>
-            <item id="186000147" name="Mithril Medal"/>
+            <item id="165060002" name="[Jakunerk] Magic Stone of Level Reduction"/>
         </items>
         <items>
-            <item id="186000236" name="Battle Medal" count="2"/>
+            <item id="169405424" name="Spirit Stone of Eternity"/>
         </items>
         <items>
-            <item id="186000242" name="Ceranium Medal" count="2"/>
+            <item id="186000454" name="Spinel Medal" count="2"/>
         </items>
         <items>
-            <item id="186000347" name="[Jakunerk] Major Ancient Crown"/>
+            <item id="186000475" name="Goldwing Insignia"/>
         </items>
         <items>
-            <item id="187000177" name="Diflodox Wings"/>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
-            <item id="188051732" name="[Jakunerk] Bundle of Heroic Godstones"/>
+            <item id="187300002" name="Estima"/>
         </items>
         <items>
-            <item id="188053208" name="[Jakunerk] Tiamat Protectorate's Eternal Armour Chest"/>
+            <item id="188055354" name="Rune Hero's Weapons Chest"/>
         </items>
         <items>
-            <item id="188053212" name="[Jakunerk] Dragon Lord's Mythical Weapons Chest"/>
+            <item id="188055355" name="Rune Hero's Armour Chest"/>
         </items>
         <items>
-            <item id="188053321" name="[Jakunerk] Box of Feathers of the Lord"/>
+            <item id="188058137" name="Guard Weapons Chest of the Holy Tower"/>
         </items>
         <items>
-            <item id="188053999" name="[Jakunerk] Kunax' Accessories Chest"/>
+            <item id="188058138" name="Guard Amour Chest of the Holy Tower"/>
         </items>
         <items>
-            <item id="188054347" name="[Jakunerk] Box: Insignia of Honour"/>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
+        </items>
+        <items>
+            <random_item type="ANCIENTITEMS"/>
         </items>
     </decomposable>
     <decomposable item_id="188055128" decomposable_name="[Jakunerk] Special Gift of the Strong Magic Tree">
         <items>
-            <item id="125004402" name="Diflonax Hairpin"/>
+            <item id="152012766" name="Fallusha’s Equipment Soul Stone"/>
         </items>
         <items>
             <item id="160002497" name="Dragon Meat Salad with Oil Dressing and Fresh Plumbo"/>
         </items>
         <items>
-            <item id="161001001" name="Revival Stone"/>
+            <item id="165050001" name="Magic Stone for Removal of Soul-binding"/>
         </items>
         <items>
-            <item id="169405339" name="Ballasite Crystal"/>
+            <item id="165060002" name="[Jakunerk] Magic Stone of Level Reduction"/>
         </items>
         <items>
-            <item id="186000147" name="Mithril Medal"/>
+            <item id="169405424" name="Spirit Stone of Eternity"/>
         </items>
         <items>
-            <item id="186000236" name="Battle Medal" count="2"/>
+            <item id="186000454" name="Spinel Medal" count="2"/>
         </items>
         <items>
-            <item id="186000242" name="Ceranium Medal" count="2"/>
+            <item id="186000475" name="Goldwing Insignia"/>
         </items>
         <items>
-            <item id="186000347" name="[Jakunerk] Major Ancient Crown"/>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
-            <item id="187000177" name="Diflodox Wings"/>
+            <item id="187300002" name="Estima"/>
         </items>
         <items>
             <item id="188051732" name="[Jakunerk] Bundle of Heroic Godstones"/>
         </items>
         <items>
-            <item id="188053208" name="[Jakunerk] Tiamat Protectorate's Eternal Armour Chest"/>
+            <item id="188055354" name="Rune Hero's Weapons Chest"/>
         </items>
         <items>
-            <item id="188053212" name="[Jakunerk] Dragon Lord's Mythical Weapons Chest"/>
+            <item id="188055355" name="Rune Hero's Armour Chest"/>
         </items>
         <items>
-            <item id="188053321" name="[Jakunerk] Box of Feathers of the Lord"/>
+            <item id="188057469" name="High Guard Leader's Accessories Chest"/>
         </items>
         <items>
-            <item id="188053705" name="Brigade General's Armour Chest"/>
+            <item id="188057482" name="High Guard Leader's Hat Box"/>
         </items>
         <items>
-            <item id="188053999" name="[Jakunerk] Kunax' Accessories Chest"/>
+            <item id="188058137" name="Guard Weapons Chest of the Holy Tower"/>
         </items>
         <items>
-            <item id="188054197" name="Enhanced Hyperion Weapons Chest"/>
+            <item id="188058138" name="Guard Amour Chest of the Holy Tower"/>
         </items>
         <items>
-            <item id="188054347" name="[Jakunerk] Box: Insignia of Honour"/>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
+        </items>
+        <items>
+            <random_item type="ANCIENTITEMS"/>
         </items>
     </decomposable>
     <decomposable item_id="188055129" decomposable_name="[Jakunerk] Premium Gift of the Strong Magic Tree">
         <items>
-            <item id="125004402" name="Diflonax Hairpin"/>
+            <item id="169610171" name="[Title] Friend of the Magic Tree"/>
         </items>
         <items>
-            <item id="169610170" name="[Title] Protector of the Magic Tree"/>
+            <item id="188057469" name="High Guard Leader's Accessories Chest"/>
         </items>
         <items>
-            <item id="188053705" name="Brigade General's Armour Chest"/>
+            <item id="188057482" name="High Guard Leader's Hat Box"/>
         </items>
         <items>
-            <item id="188054197" name="Enhanced Hyperion Weapons Chest"/>
+            <item id="188058858" name="Keio’s Weapons Chest (selection)"/>
+        </items>
+        <items>
+            <item id="188058859" name="Keio’s Armour Chest (selection)"/>
         </items>
     </decomposable>
     <decomposable item_id="188055130" decomposable_name="[Jakunerk] Inferior Gift of the Gloomy Magic Tree">
@@ -144361,19 +144442,16 @@
             <item id="164002167" name="[Jakunerk] Drana Coffee"/>
         </items>
         <items>
-            <item id="169405339" name="Ballasite Crystal"/>
+            <item id="166100011" name="Mighty Supplements (Mythical)"/>
         </items>
         <items>
-            <item id="186000236" name="Battle Medal"/>
+            <item id="186000475" name="Goldwing Insignia"/>
+        </items>
+        <items>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
             <item id="188051732" name="[Jakunerk] Bundle of Heroic Godstones"/>
-        </items>
-        <items>
-            <item id="188052559" name="Large Box of 100% Manastone socketing aids (eternal)"/>
-        </items>
-        <items>
-            <item id="188052632" name="[Jakunerk] Bundle containing high-quality Manastones"/>
         </items>
         <items>
             <item id="188052716" name="[Jakunerk] Bag of Powerful Scrolls"/>
@@ -144396,34 +144474,28 @@
             <item id="166030007" name="[Jakunerk] Holy Upgrade Serum"/>
         </items>
         <items>
-            <item id="169405339" name="Ballasite Crystal"/>
+            <item id="169405424" name="Spirit Stone of Eternity"/>
         </items>
         <items>
-            <item id="186000236" name="Battle Medal"/>
+            <item id="186000475" name="Goldwing Insignia"/>
         </items>
         <items>
-            <item id="188052070" name="[Jakunerk] Fabled Godstone Bundle"/>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
-            <item id="188052544" name="Bundle of greater Stigmas"/>
-        </items>
-        <items>
-            <item id="188052559" name="Large Box of 100% Manastone socketing aids (eternal)"/>
+            <item id="188052496" name="Bundle of 30 mighty Supplements (Mythical)"/>
         </items>
         <items>
             <item id="188052560" name="Large Box of 100% Manastone socketing aids (mythical)"/>
         </items>
         <items>
-            <item id="188052632" name="[Jakunerk] Bundle containing high-quality Manastones"/>
-        </items>
-        <items>
-            <item id="188053002" name="[Jakunerk] Bundle of Noble Regenerating Manastones"/>
-        </items>
-        <items>
             <item id="188053564" name="Bundle of Illusion Godstones"/>
         </items>
         <items>
-            <item id="188053786" name="Powerful Stigma Bundle"/>
+            <item id="188055494" name="Tike's +4 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188057889" name="Noble Stigma Box"/>
         </items>
         <items>
             <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
@@ -144434,57 +144506,63 @@
             <item id="160002497" name="Dragon Meat Salad with Oil Dressing and Fresh Plumbo"/>
         </items>
         <items>
+            <item id="165060002" name="[Jakunerk] Magic Stone of Level Reduction"/>
+        </items>
+        <items>
             <item id="166020003" name="[Jakunerk] All-Powerful Enchantment Stone" count="2"/>
         </items>
         <items>
             <item id="166030007" name="[Jakunerk] Holy Upgrade Serum" count="2"/>
         </items>
         <items>
-            <item id="169405339" name="Ballasite Crystal"/>
+            <item id="169405424" name="Spirit Stone of Eternity"/>
         </items>
         <items>
-            <item id="186000236" name="Battle Medal"/>
+            <item id="186000475" name="Goldwing Insignia"/>
         </items>
         <items>
-            <item id="188052070" name="[Jakunerk] Fabled Godstone Bundle"/>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
-            <item id="188052544" name="Bundle of greater Stigmas"/>
-        </items>
-        <items>
-            <item id="188052559" name="Large Box of 100% Manastone socketing aids (eternal)"/>
+            <item id="188052496" name="Bundle of 30 mighty Supplements (Mythical)"/>
         </items>
         <items>
             <item id="188052560" name="Large Box of 100% Manastone socketing aids (mythical)"/>
         </items>
         <items>
-            <item id="188052632" name="[Jakunerk] Bundle containing high-quality Manastones"/>
-        </items>
-        <items>
-            <item id="188053002" name="[Jakunerk] Bundle of Noble Regenerating Manastones"/>
-        </items>
-        <items>
             <item id="188053564" name="Bundle of Illusion Godstones"/>
         </items>
         <items>
-            <item id="188053786" name="Powerful Stigma Bundle" count="2"/>
+            <item id="188055494" name="Tike's +4 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188057889" name="Noble Stigma Box"/>
+        </items>
+        <items>
+            <item id="188058289" name="Box of Agent's Mythical Idian"/>
         </items>
         <items>
             <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
+        <items>
+            <random_item type="ANCIENTITEMS"/>
+        </items>
     </decomposable>
     <decomposable item_id="188055133" decomposable_name="[Jakunerk] Premium Gift of the Gloomy Magic Tree">
         <items>
-            <item id="166020003" name="[Jakunerk] All-Powerful Enchantment Stone"/>
+            <item id="166030005" name="Holy Upgrade Serum"/>
         </items>
         <items>
-            <item id="166030007" name="[Jakunerk] Holy Upgrade Serum"/>
+            <item id="169610171" name="[Title] Friend of the Magic Tree"/>
         </items>
         <items>
-            <item id="169610170" name="[Title] Protector of the Magic Tree"/>
+            <item id="188058858" name="Keio’s Weapons Chest (selection)"/>
         </items>
         <items>
-            <item id="188053786" name="Powerful Stigma Bundle"/>
+            <item id="188058859" name="Keio’s Armour Chest (selection)"/>
+        </items>
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
     </decomposable>
     <decomposable item_id="188055134" decomposable_name="[Jakunerk] Internet Cafe Lucky Chest">
@@ -146702,44 +146780,26 @@
     </decomposable>
     <decomposable item_id="188055206" decomposable_name="[Jakunerk] Premium Gift of the Magnificent Magic Tree">
         <items>
-            <item id="110901097" name="Neodron Armour"/>
+            <item id="169610170" name="[Title] Protector of the Magic Tree"/>
         </items>
         <items>
-            <item id="169610171" name="[Title] Friend of the Magic Tree"/>
-        </items>
-        <items>
-            <item id="187000058" name="Ancient Spirit's Wings"/>
-        </items>
-        <items>
-            <item id="187000157" name="Fourth Dragon Lord's Wings"/>
+            <item id="188058857" name="Keio’s Equipment Chest (selection)"/>
         </items>
     </decomposable>
     <decomposable item_id="188055207" decomposable_name="[Jakunerk] Premium Gift of the Strong Magic Tree">
         <items>
-            <item id="125004402" name="Diflonax Hairpin"/>
+            <item id="169610170" name="[Title] Protector of the Magic Tree"/>
         </items>
         <items>
-            <item id="169610171" name="[Title] Friend of the Magic Tree"/>
-        </items>
-        <items>
-            <item id="188053705" name="Brigade General's Armour Chest"/>
-        </items>
-        <items>
-            <item id="188054197" name="Enhanced Hyperion Weapons Chest"/>
+            <item id="188058857" name="Keio’s Equipment Chest (selection)"/>
         </items>
     </decomposable>
     <decomposable item_id="188055208" decomposable_name="[Jakunerk] Premium Gift of the Gloomy Magic Tree">
         <items>
-            <item id="166020003" name="[Jakunerk] All-Powerful Enchantment Stone"/>
+            <item id="169610170" name="[Title] Protector of the Magic Tree"/>
         </items>
         <items>
-            <item id="166030007" name="[Jakunerk] Holy Upgrade Serum"/>
-        </items>
-        <items>
-            <item id="169610171" name="[Title] Friend of the Magic Tree"/>
-        </items>
-        <items>
-            <item id="188053786" name="Powerful Stigma Bundle"/>
+            <item id="188058857" name="Keio’s Equipment Chest (selection)"/>
         </items>
     </decomposable>
     <decomposable item_id="188055209" decomposable_name="[Jakunerk] Holy Wings Chest of the Master Executor Commander">
@@ -146833,7 +146893,7 @@
             <item id="188053785" name="Greater Stigma Bundle"/>
         </items>
         <items>
-            <item id="190020137" name="Sophisticated Snickering Jefi Egg"/>
+            <item id="190020137" name="Sophisticated Teasing Jefi Egg"/>
         </items>
         <items>
             <item id="190020251" name="Cat Queen Egg (Buff)"/>
@@ -179589,55 +179649,40 @@
     </decomposable>
     <decomposable item_id="188056770" decomposable_name="Unlocked Powerful Treasure Chest">
         <items>
-            <item id="162001057" name="Recovery Tea - 100% recovery"/>
+            <item id="166030005" name="Holy Upgrade Serum" count="2"/>
         </items>
         <items>
-            <item id="162001063" name="[Jakunerk] Lodas' Golden Star"/>
+            <item id="166032001" name="Superior Upgrade Serum"/>
         </items>
         <items>
-            <item id="164002116" name="[Jakunerk] Major Enhanced Running Scroll"/>
+            <item id="169250002" name="Versatile Dye"/>
         </items>
         <items>
-            <item id="166020003" name="[Jakunerk] All-Powerful Enchantment Stone"/>
+            <item id="186000454" name="Spinel Medal"/>
         </items>
         <items>
-            <item id="166100011" name="Mighty Supplements (Mythical)"/>
+            <item id="187050042" name="Tiny Crystal Wings"/>
         </items>
         <items>
-            <item id="186000236" name="Battle Medal"/>
+            <item id="188055183" name="Mighty Socketing Aid Box"/>
         </items>
         <items>
-            <item id="186000237" name="Ancient coin"/>
+            <item id="188055591" name="Box of Refined Feathers of the Lord"/>
         </items>
         <items>
-            <item id="186000242" name="Ceranium Medal"/>
+            <item id="188057312" name="Weapons Chest of Bygone Atreia"/>
         </items>
         <items>
-            <item id="186000414" name="Insignia of Honour"/>
+            <item id="188058797" name="+12 Manastone Selection Bundle"/>
         </items>
         <items>
-            <item id="188051853" name="[Jakunerk] Transformation Candy Bundle"/>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
         <items>
-            <item id="188052324" name="[Jakunerk] Large Bundle of Regenerating Manastones"/>
+            <item id="190020290" name="Egg containing Puppy Knight Tom"/>
         </items>
         <items>
-            <item id="188054013" name="[Jakunerk] Chest of Friendship Kisks"/>
-        </items>
-        <items>
-            <item id="188054227" name="[Jakunerk] Box: Capra (30 days)"/>
-        </items>
-        <items>
-            <item id="188054906" name="Fiend's Weapons Chest"/>
-        </items>
-        <items>
-            <item id="188054907" name="Fiend's Armour Chest"/>
-        </items>
-        <items>
-            <item id="188055098" name="[Jakunerk] Box of Mythical Wings"/>
-        </items>
-        <items>
-            <item id="190020216" name="Pure Merek Egg (30 days)"/>
+            <item id="190080022" name="Cute Minion Contract (14 Species)"/>
         </items>
     </decomposable>
     <decomposable item_id="188056771" decomposable_name="Quest Reward Bundle">
@@ -186806,16 +186851,10 @@
     </decomposable>
     <decomposable item_id="188057040" decomposable_name="Golden Card">
         <items>
-            <item id="188055474" name="Enhanced Deformed Catalium Weapons Chest"/>
-        </items>
-        <items>
-            <item id="188055594" name="[Jakunerk] Box of Title Cards"/>
+            <item id="166032001" name="Superior Upgrade Serum"/>
         </items>
         <items>
             <item id="188055791" name="[Jakunerk] Weapons Chest of Bygone Atreia"/>
-        </items>
-        <items>
-            <item id="188056735" name="Bundle of Skill Cards"/>
         </items>
         <items>
             <item id="188056805" name="Prigga Legion's Cutting-edge Weapons Chest"/>
@@ -186830,10 +186869,28 @@
             <item id="188056958" name="High Guard Leader's Noble Armour Chest"/>
         </items>
         <items>
-            <item id="188057030" name="Farside Lightning Dragon King's Sublime Weapons Chest"/>
+            <item id="188057037" name="Noble Weapons Chest of Eternal Glory"/>
         </items>
         <items>
-            <item id="188057037" name="Noble Weapons Chest of Eternal Glory"/>
+            <item id="188058198" name="Box of Experienced Exceptional Talent/Wise Multi-talented Title Cards"/>
+        </items>
+        <items>
+            <item id="188058361" name="Ancient Fallusha's Armour Chest"/>
+        </items>
+        <items>
+            <item id="188058362" name="Ancient Fallusha's Weapon Chest"/>
+        </items>
+        <items>
+            <item id="188058363" name="Ancient Fallusha's Accessory Chest"/>
+        </items>
+        <items>
+            <item id="188058415" name="Dark Dragon King's Enhanced Weapons Chest"/>
+        </items>
+        <items>
+            <item id="188058797" name="+12 Manastone Selection Bundle"/>
+        </items>
+        <items>
+            <item id="188058857" name="Keio’s Equipment Chest (selection)"/>
         </items>
     </decomposable>
     <decomposable item_id="188057047" decomposable_name="Box containing a Unicorn (90 days)">
@@ -187532,81 +187589,87 @@
     </decomposable>
     <decomposable item_id="188057141" decomposable_name="Box for Eliminating Misfortune">
         <items>
+            <item id="166030005" name="Holy Upgrade Serum"/>
+        </items>
+        <items>
             <item id="169200006" name="Dye: True White"/>
         </items>
         <items>
             <item id="169200007" name="Dye: True Black"/>
         </items>
         <items>
-            <item id="188052319" name="[Jakunerk] Box containing Wings of the Dragon Lord"/>
+            <item id="186000237" name="Ancient coin"/>
         </items>
         <items>
-            <item id="188052632" name="[Jakunerk] Bundle containing high-quality Manastones"/>
+            <item id="186000475" name="Goldwing Insignia"/>
         </items>
         <items>
-            <item id="188052674" name="[Jakunerk] Bundle of Heroic Godstones"/>
+            <item id="187300002" name="Estima"/>
+        </items>
+        <items>
+            <item id="188052496" name="Bundle of 30 mighty Supplements (Mythical)"/>
         </items>
         <items>
             <item id="188052716" name="[Jakunerk] Bag of Powerful Scrolls"/>
         </items>
         <items>
-            <item id="188053005" name="[Jakunerk] Hyperion Chest with Wings"/>
+            <item id="188053783" name="Stigma Bag"/>
         </items>
         <items>
-            <item id="188053206" name="[Jakunerk] Stormwing's Eternal Armour Chest"/>
+            <item id="188054112" name="[Jakunerk] Ocean Armour Chest"/>
         </items>
         <items>
-            <item id="188053208" name="[Jakunerk] Tiamat Protectorate's Eternal Armour Chest"/>
+            <item id="188054113" name="[Jakunerk] Ocean Wave Armour Chest"/>
         </items>
         <items>
-            <item id="188053644" name="[Jakunerk] Small Bundle of Ancient Coins"/>
+            <item id="188055471" name="Bundle of Magic Diogenite"/>
         </items>
         <items>
-            <item id="188053663" name="[Jakunerk] Box of Battle Medals"/>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
         <items>
-            <item id="188053784" name="Normal Stigma Bundle"/>
-        </items>
-        <items>
-            <item id="188054038" name="[Jakunerk] Ocean Armour Chest"/>
-        </items>
-        <items>
-            <item id="188054039" name="[Jakunerk] Ocean Wave Armour Chest"/>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
     </decomposable>
     <decomposable item_id="188057142" decomposable_name="Box for Purging Misfortune">
         <items>
-            <item id="169405339" name="Ballasite Crystal"/>
+            <item id="162001062" name="Lodas' Golden Star"/>
         </items>
         <items>
-            <item id="187060091" name="Gleaming Wings of Light"/>
+            <item id="166030005" name="Holy Upgrade Serum"/>
         </items>
         <items>
-            <item id="187060094" name="Magnificent Wings of Light"/>
+            <item id="186000237" name="Ancient coin"/>
         </items>
         <items>
-            <item id="188052319" name="[Jakunerk] Box containing Wings of the Dragon Lord"/>
+            <item id="186000475" name="Goldwing Insignia"/>
         </items>
         <items>
-            <item id="188052559" name="Large Box of 100% Manastone socketing aids (eternal)"/>
+            <item id="187060260" name="Droplet"/>
         </items>
         <items>
-            <item id="188053005" name="[Jakunerk] Hyperion Chest with Wings"/>
+            <item id="187300002" name="Estima"/>
         </items>
         <items>
-            <item id="188053295" name="Box of Feathers of the Lord"/>
+            <item id="188052496" name="Bundle of 30 mighty Supplements (Mythical)"/>
         </items>
         <items>
-            <item id="188053663" name="[Jakunerk] Box of Battle Medals" count="3"/>
+            <item id="188054112" name="[Jakunerk] Ocean Armour Chest"/>
         </items>
         <items>
-            <item id="188053785" name="Greater Stigma Bundle"/>
+            <item id="188054113" name="[Jakunerk] Ocean Wave Armour Chest"/>
         </items>
         <items>
-            <item id="188054038" name="[Jakunerk] Ocean Armour Chest"/>
+            <item id="188055183" name="Mighty Socketing Aid Box"/>
         </items>
         <items>
-            <item id="188054039" name="[Jakunerk] Ocean Wave Armour Chest"/>
+            <item id="188055471" name="Bundle of Magic Diogenite"/>
+        </items>
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
+        </items>
+        <items>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
     </decomposable>
     <decomposable item_id="188057143" decomposable_name="Cat Mage Kashy's Ancient Relic Bundle">
@@ -187781,6 +187844,9 @@
     <decomposable item_id="188057157" decomposable_name="[Jakunerk] Twin's Gift (Level 24)">
         <items>
             <item id="152012734" name="Prigga Legion's Balaur Scale" count="4"/>
+        </items>
+        <items>
+            <item id="187060092" name="Gleaming Wings of Light (7 days)"/>
         </items>
         <items>
             <item id="188057145" name="Fine Daevanion Necklace Chest"/>
@@ -202739,14 +202805,14 @@
             <item id="190020198" name="Clever Acarun's Egg"/>
         </items>
     </decomposable>
-    <decomposable item_id="188057749" decomposable_name="Box containing a Sophisticated Sherpa Ailu Egg">
+    <decomposable item_id="188057749" decomposable_name="Box containing a Sophisticated Speckled Ailu Egg">
         <items>
-            <item id="190020135" name="Sophisticated Sherpa Ailu Egg"/>
+            <item id="190020135" name="Sophisticated Speckled Ailu Egg"/>
         </items>
     </decomposable>
-    <decomposable item_id="188057750" decomposable_name="Box containing a Sophisticated Snickering Jefi Egg">
+    <decomposable item_id="188057750" decomposable_name="Box containing a Sophisticated Teasing Jefi Egg">
         <items>
-            <item id="190020137" name="Sophisticated Snickering Jefi Egg"/>
+            <item id="190020137" name="Sophisticated Teasing Jefi Egg"/>
         </items>
     </decomposable>
     <decomposable item_id="188057751" decomposable_name="Box containing a Stormwing Egg">
@@ -204029,34 +204095,19 @@
     </decomposable>
     <decomposable item_id="188057816" decomposable_name="[Jakunerk] Ancient Relics">
         <items>
-            <item id="160002497" name="Dragon Meat Salad with Oil Dressing and Fresh Plumbo"/>
-        </items>
-        <items>
-            <item id="160002499" name="Dragon meat oil soup with fresh Plumbo"/>
-        </items>
-        <items>
             <item id="162001013" name="Recovery Tea - 100% recovery"/>
         </items>
         <items>
-            <item id="164000073" name="Courage Scroll"/>
+            <item id="166030005" name="Holy Upgrade Serum"/>
         </items>
         <items>
-            <item id="164000076" name="Running Scroll"/>
+            <item id="186000469" name="Petra Medal"/>
         </items>
         <items>
-            <item id="164000134" name="Awakening Scroll"/>
+            <item id="186000475" name="Goldwing Insignia"/>
         </items>
         <items>
-            <item id="169405339" name="Ballasite Crystal"/>
-        </items>
-        <items>
-            <item id="186000236" name="Battle Medal"/>
-        </items>
-        <items>
-            <item id="186000237" name="Ancient coin"/>
-        </items>
-        <items>
-            <item id="186000242" name="Ceranium Medal"/>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
             <item id="188051732" name="[Jakunerk] Bundle of Heroic Godstones"/>
@@ -204065,22 +204116,31 @@
             <item id="188052070" name="[Jakunerk] Fabled Godstone Bundle"/>
         </items>
         <items>
-            <item id="188053002" name="[Jakunerk] Bundle of Noble Regenerating Manastones"/>
+            <item id="188052496" name="Bundle of 30 mighty Supplements (Mythical)"/>
         </items>
         <items>
             <item id="188053564" name="Bundle of Illusion Godstones"/>
         </items>
         <items>
-            <item id="188053785" name="Greater Stigma Bundle"/>
+            <item id="188055338" name="+5 Manastone Bundle"/>
         </items>
         <items>
-            <item id="188054347" name="[Jakunerk] Box: Insignia of Honour"/>
+            <item id="188055471" name="Bundle of Magic Diogenite"/>
         </items>
         <items>
             <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
         <items>
+            <item id="188100374" name="Life Stone Fragment"/>
+        </items>
+        <items>
+            <item id="188100375" name="Fate Stone Fragment"/>
+        </items>
+        <items>
             <item id="188100391" name="Spinel Fragment"/>
+        </items>
+        <items>
+            <item id="190200000" name="Minionite"/>
         </items>
         <items>
             <random_item type="ANCIENTITEMS"/>
@@ -204088,40 +204148,37 @@
     </decomposable>
     <decomposable item_id="188057817" decomposable_name="[Jakunerk] Unsealed Cube">
         <items>
+            <item id="110901438" name="Pharoah's Robe"/>
+        </items>
+        <items>
+            <item id="125045885" name="Pharoah's Headdress"/>
+        </items>
+        <items>
             <item id="162001013" name="Recovery Tea - 100% recovery"/>
         </items>
         <items>
-            <item id="165060002" name="[Jakunerk] Magic Stone of Level Reduction"/>
+            <item id="165061002" name="Magic Stone of Level Reduction (100%)"/>
         </items>
         <items>
-            <item id="166020003" name="[Jakunerk] All-Powerful Enchantment Stone"/>
-        </items>
-        <items>
-            <item id="166030007" name="[Jakunerk] Holy Upgrade Serum"/>
-        </items>
-        <items>
-            <item id="169405339" name="Ballasite Crystal"/>
-        </items>
-        <items>
-            <item id="186000236" name="Battle Medal"/>
-        </items>
-        <items>
-            <item id="186000237" name="Ancient coin"/>
-        </items>
-        <items>
-            <item id="186000242" name="Ceranium Medal"/>
+            <item id="166030005" name="Holy Upgrade Serum"/>
         </items>
         <items>
             <item id="186000454" name="Spinel Medal"/>
         </items>
         <items>
-            <item id="188051732" name="[Jakunerk] Bundle of Heroic Godstones"/>
+            <item id="186000469" name="Petra Medal"/>
+        </items>
+        <items>
+            <item id="186000475" name="Goldwing Insignia"/>
+        </items>
+        <items>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
             <item id="188052070" name="[Jakunerk] Fabled Godstone Bundle"/>
         </items>
         <items>
-            <item id="188053002" name="[Jakunerk] Bundle of Noble Regenerating Manastones"/>
+            <item id="188052496" name="Bundle of 30 mighty Supplements (Mythical)"/>
         </items>
         <items>
             <item id="188053564" name="Bundle of Illusion Godstones"/>
@@ -204130,16 +204187,7 @@
             <item id="188053785" name="Greater Stigma Bundle"/>
         </items>
         <items>
-            <item id="188053786" name="Powerful Stigma Bundle"/>
-        </items>
-        <items>
-            <item id="188054347" name="[Jakunerk] Box: Insignia of Honour"/>
-        </items>
-        <items>
             <item id="188055183" name="Mighty Socketing Aid Box"/>
-        </items>
-        <items>
-            <item id="188055335" name="+8 Manastone Bundle"/>
         </items>
         <items>
             <item id="188055336" name="+7 Manastone Bundle"/>
@@ -204151,10 +204199,16 @@
             <item id="188055338" name="+5 Manastone Bundle"/>
         </items>
         <items>
+            <item id="188055682" name="Noble +9 Manastone Bundle"/>
+        </items>
+        <items>
             <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
         <items>
             <item id="188100391" name="Spinel Fragment"/>
+        </items>
+        <items>
+            <item id="190200000" name="Minionite"/>
         </items>
         <items>
             <random_item type="ANCIENTITEMS"/>
@@ -204162,22 +204216,34 @@
     </decomposable>
     <decomposable item_id="188057818" decomposable_name="[Jakunerk] Ancient Holy Item">
         <items>
-            <item id="166020003" name="[Jakunerk] All-Powerful Enchantment Stone"/>
+            <item id="110901438" name="Pharoah's Robe"/>
         </items>
         <items>
-            <item id="166030007" name="[Jakunerk] Holy Upgrade Serum"/>
+            <item id="125045885" name="Pharoah's Headdress"/>
         </items>
         <items>
-            <item id="188053786" name="Powerful Stigma Bundle"/>
+            <item id="166030005" name="Holy Upgrade Serum"/>
+        </items>
+        <items>
+            <item id="166032001" name="Superior Upgrade Serum"/>
         </items>
         <items>
             <item id="188055183" name="Mighty Socketing Aid Box"/>
         </items>
         <items>
-            <item id="188055335" name="+8 Manastone Bundle"/>
+            <item id="188057312" name="Weapons Chest of Bygone Atreia"/>
         </items>
         <items>
-            <item id="188055336" name="+7 Manastone Bundle"/>
+            <item id="188057889" name="Noble Stigma Box"/>
+        </items>
+        <items>
+            <item id="188058797" name="+12 Manastone Selection Bundle"/>
+        </items>
+        <items>
+            <item id="188058919" name="Guard's Weapons Chest"/>
+        </items>
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
     </decomposable>
     <decomposable item_id="188057819" decomposable_name="Bundle of Legendary Illusion Godstones">
@@ -205075,37 +205141,16 @@
     </decomposable>
     <decomposable item_id="188057871" decomposable_name="Voracious Gurriki Treasure Pack">
         <items>
-            <item id="110901564" name="Milky Way Priest's Robe"/>
+            <item id="110901005" name="Celestial Robe"/>
         </items>
         <items>
-            <item id="110901570" name="Celestial Ascension Robe"/>
+            <item id="112000044" name="Celestial Epaulette"/>
         </items>
         <items>
-            <item id="110901582" name="Battle-hardened Admiral's Robe"/>
+            <item id="125045603" name="Celestial Headdress"/>
         </items>
         <items>
-            <item id="112000067" name="Celestial Ascension Shoulder Jewellery"/>
-        </items>
-        <items>
-            <item id="112000073" name="Battle-hardened Admiral's Coat"/>
-        </items>
-        <items>
-            <item id="125046014" name="Milky Way Priest's Hat"/>
-        </items>
-        <items>
-            <item id="125046020" name="Celestial Ascension Hat"/>
-        </items>
-        <items>
-            <item id="125046032" name="Battle-hardened Admiral's Mask"/>
-        </items>
-        <items>
-            <item id="182007167" name="Greater Sacred Tree"/>
-        </items>
-        <items>
-            <item id="182007168" name="Normal Sacred Tree"/>
-        </items>
-        <items>
-            <item id="182007169" name="Lesser Sacred Tree"/>
+            <item id="166030005" name="Holy Upgrade Serum"/>
         </items>
         <items>
             <item id="186000055" name="Major Ancient Chalice"/>
@@ -205120,7 +205165,22 @@
             <item id="186000242" name="Ceranium Medal"/>
         </items>
         <items>
-            <item id="188057035" name="Archangel Wing Box"/>
+            <item id="186000247" name="Powerful Ancient Rune Tribe Relic"/>
+        </items>
+        <items>
+            <item id="187300002" name="Estima"/>
+        </items>
+        <items>
+            <item id="188052496" name="Bundle of 30 mighty Supplements (Mythical)"/>
+        </items>
+        <items>
+            <item id="188055338" name="+5 Manastone Bundle"/>
+        </items>
+        <items>
+            <item id="188055462" name="Bundle containing refined divine Recovery Serum"/>
+        </items>
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
         <items>
             <item id="188100391" name="Spinel Fragment"/>
@@ -205201,6 +205261,9 @@
     </decomposable>
     <decomposable item_id="188057874" decomposable_name="Strange Gurriki Treasure Pack">
         <items>
+            <item id="188054338" name="[Jakunerk] Lord Protector's Weapons Chest"/>
+        </items>
+        <items>
             <item id="188054339" name="[Jakunerk] Lord Protector's Armour Chest"/>
         </items>
         <items>
@@ -205216,7 +205279,22 @@
             <item id="188054907" name="Fiend's Armour Chest"/>
         </items>
         <items>
+            <item id="188054908" name="Elemental Lord's Weapons Chest"/>
+        </items>
+        <items>
             <item id="188054909" name="Elemental Lord's Armour Chest"/>
+        </items>
+        <items>
+            <item id="188055197" name="[Jakunerk] Weapons Chest of the Full Moon"/>
+        </items>
+        <items>
+            <item id="188055198" name="[Jakunerk] Armour Chest of the Full Moon"/>
+        </items>
+        <items>
+            <item id="188055199" name="[Jakunerk] Weapons Chest of Thunder"/>
+        </items>
+        <items>
+            <item id="188055200" name="[Jakunerk] Armour Chest of Thunder"/>
         </items>
         <items>
             <item id="188055353" name="Armour Chest of the Eternal Oath"/>
@@ -205229,18 +205307,6 @@
         </items>
         <items>
             <item id="188056955" name="Armour Chest of the Eternal Vow"/>
-        </items>
-        <items>
-            <item id="188057365" name="Weapons Chest of Thunder"/>
-        </items>
-        <items>
-            <item id="188057367" name="Weapons Chest of the Full Moon"/>
-        </items>
-        <items>
-            <item id="188057371" name="Weapons Chest of Demise"/>
-        </items>
-        <items>
-            <item id="188057618" name="Elemental Lord's Weapons Chest"/>
         </items>
     </decomposable>
     <decomposable item_id="188057875" decomposable_name="Greedy Gurriki Kinah Pouch">
@@ -217803,10 +217869,25 @@
     </decomposable>
     <decomposable item_id="188058391" decomposable_name="Poppy's Gift Box">
         <items>
-            <item id="186000497" name="Poppy's Pearl"/>
+            <item id="186000055" name="Major Ancient Chalice" count="2"/>
         </items>
         <items>
-            <item id="188058373" name="Poppy's Medal/Relic Bundle"/>
+            <item id="186000454" name="Spinel Medal"/>
+        </items>
+        <items>
+            <item id="186000481" name="Poppy Letter" count="3"/>
+        </items>
+        <items>
+            <item id="186000500" name="Grey Wolf Medal"/>
+        </items>
+        <items>
+            <item id="188055169" name="[Jakunerk] Relic Box of the Ancient Rune Tribe"/>
+        </items>
+        <items>
+            <item id="188057829" name="Poppy's Box of Trust"/>
+        </items>
+        <items>
+            <random_item type="ANCIENTITEMS"/>
         </items>
     </decomposable>
     <decomposable item_id="188058392" decomposable_name="Poppy's Special Gift Box">
@@ -218913,22 +218994,31 @@
     </decomposable>
     <decomposable item_id="188058576" decomposable_name="Fancy Treasure Chest Bundle of the Treasure Island of Courage">
         <items>
+            <item id="162001071" name="Lodas' Greater Golden Star"/>
+        </items>
+        <items>
             <item id="164002228" name="Yasba's Grace - Valid 1 Time"/>
+        </items>
+        <items>
+            <item id="165061003" name="Magic Stone of Level Reduction (100%)"/>
+        </items>
+        <items>
+            <item id="166030005" name="Holy Upgrade Serum"/>
+        </items>
+        <items>
+            <item id="186000475" name="Goldwing Insignia"/>
+        </items>
+        <items>
+            <item id="186000492" name="Spinel Coin"/>
         </items>
         <items>
             <item id="187000241" name="Ancient Fallusha's Wings"/>
         </items>
         <items>
-            <item id="188054038" name="[Jakunerk] Ocean Armour Chest"/>
+            <item id="187300002" name="Estima"/>
         </items>
         <items>
             <item id="188054430" name="Bundle of Lucky Stigmas"/>
-        </items>
-        <items>
-            <item id="188054431" name="Transformation Candy Box: Super Baa"/>
-        </items>
-        <items>
-            <item id="188054830" name="Advanced Daevanion Protector's Weapons Chest"/>
         </items>
         <items>
             <item id="188055089" name="[Jakunerk] Culinary Art Bundle for High Daevas"/>
@@ -218937,16 +219027,10 @@
             <item id="188055335" name="+8 Manastone Bundle"/>
         </items>
         <items>
-            <item id="188055336" name="+7 Manastone Bundle"/>
-        </items>
-        <items>
             <item id="188055591" name="Box of Refined Feathers of the Lord"/>
         </items>
         <items>
             <item id="188055630" name="Revival Stone Bundle"/>
-        </items>
-        <items>
-            <item id="188055639" name="Protector's +9 Manastone Bundle"/>
         </items>
         <items>
             <item id="188055650" name="Powerful enhancement: Level 2 Bundle"/>
@@ -218976,13 +219060,13 @@
             <item id="188058415" name="Dark Dragon King's Enhanced Weapons Chest"/>
         </items>
         <items>
-            <item id="188058426" name="Pure Merek's Wondrous Prayers Bundle"/>
+            <item id="188058647" name="Panda's Go-Kart Box"/>
+        </items>
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
         <items>
             <item id="190080014" name="Level A Minion Contract"/>
-        </items>
-        <items>
-            <item id="190100265" name="Panda's Go-Kart"/>
         </items>
     </decomposable>
     <decomposable item_id="188058577" decomposable_name="Normal Treasure Chest Bundle of the Treasure Island of Courage">
@@ -218999,16 +219083,7 @@
             <item id="164002167" name="[Jakunerk] Drana Coffee"/>
         </items>
         <items>
-            <item id="165061001" name="Magic Stone of Level Reduction (100%)"/>
-        </items>
-        <items>
-            <item id="166020005" name="[Jakunerk] All-Powerful Enchantment Stone"/>
-        </items>
-        <items>
             <item id="166030005" name="Holy Upgrade Serum"/>
-        </items>
-        <items>
-            <item id="166030007" name="[Jakunerk] Holy Upgrade Serum"/>
         </items>
         <items>
             <item id="166040001" name="Estima Sacred Water"/>
@@ -219020,10 +219095,16 @@
             <item id="185000319" name="Key to the Fancy Treasure Chest of the Treasure Island of Courage"/>
         </items>
         <items>
+            <item id="186000492" name="Spinel Coin"/>
+        </items>
+        <items>
             <item id="187300002" name="Estima"/>
         </items>
         <items>
             <item id="188052496" name="Bundle of 30 mighty Supplements (Mythical)"/>
+        </items>
+        <items>
+            <item id="188054431" name="Transformation Candy Box: Super Baa"/>
         </items>
         <items>
             <item id="188055653" name="Bundle of 400 Mighty Socketing Aids (Mythical)"/>
@@ -219048,6 +219129,9 @@
         </items>
         <items>
             <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
+        </items>
+        <items>
+            <item id="188100391" name="Spinel Fragment"/>
         </items>
         <items>
             <item id="190080005" name="Lesser Minion Contract"/>
@@ -219414,7 +219498,7 @@
     </decomposable>
     <decomposable item_id="188058653" decomposable_name="Bundle of Protectorate Gold Coins">
         <items>
-            <item id="186000507" name="Protectorate Gold Coin"/>
+            <item id="186000507" name="Protectorate Gold Coin" count="3"/>
         </items>
     </decomposable>
     <decomposable item_id="188058654" decomposable_name="Bundle of Protectorate Gold Coins">
@@ -221205,7 +221289,22 @@
     </decomposable>
     <decomposable item_id="188058939" decomposable_name="Tike's +7 Manastone Bundle">
         <items>
-            <item id="188055497" name="Tike's +7 Manastone Bundle"/>
+            <item id="167010292" name="Manastone: Power +7"/>
+        </items>
+        <items>
+            <item id="167010293" name="Manastone: Health +7"/>
+        </items>
+        <items>
+            <item id="167010294" name="Manastone: Agility +7"/>
+        </items>
+        <items>
+            <item id="167010295" name="Manastone: Accuracy +7"/>
+        </items>
+        <items>
+            <item id="167010296" name="Manastone: Knowledge +7"/>
+        </items>
+        <items>
+            <item id="167010297" name="Manastone: Will +7"/>
         </items>
     </decomposable>
     <decomposable item_id="188058940" decomposable_name="Minionite Bundle">
@@ -221327,6 +221426,373 @@
         </items>
         <items>
             <item id="152012754" name="Commander's Protective Soulstone"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058956" decomposable_name="Bonus Box">
+        <items>
+            <item id="182007396" name="[Jakunerk] Robot Energy"/>
+        </items>
+        <items>
+            <item id="188054376" name="[Jakunerk] Gift Box" count="2"/>
+        </items>
+        <items>
+            <item id="188100290" name="[Jakunerk] Toy Head"/>
+        </items>
+        <items>
+            <item id="188100291" name="[Jakunerk] Toy Body"/>
+        </items>
+        <items>
+            <item id="188100292" name="[Jakunerk] Toy Legs"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058958" decomposable_name="[Russia] Requested Bundle 02">
+        <items>
+            <item id="188100458" name="First Sunayaka Weapon Fragment"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058959" decomposable_name="[Russia] Requested Bundle 03">
+        <items>
+            <item id="188100459" name="Second Sunayaka Weapon Fragment"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058960" decomposable_name="[Russia] Requested Bundle 04">
+        <items>
+            <item id="188100460" name="Third Sunayaka Weapon Fragment"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058961" decomposable_name="[Russia] Requested Bundle 05">
+        <items>
+            <item id="188100461" name="Fourth Sunayaka Weapon Fragment"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058962" decomposable_name="[Russia] Requested Bundle 06">
+        <items>
+            <item id="165060002" name="[Jakunerk] Magic Stone of Level Reduction"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058963" decomposable_name="[Russia] Requested Bundle 07">
+        <items>
+            <item id="165061001" name="Magic Stone of Level Reduction (100%)"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058964" decomposable_name="[Russia] Requested Bundle 08">
+        <items>
+            <item id="190080039" name="Enchanting Minion Contract"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058965" decomposable_name="[Russia] Requested Bundle 09">
+        <items>
+            <item id="190080035" name="Sita Minion Contract"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058966" decomposable_name="[Russia] Requested Bundle 10">
+        <items>
+            <item id="190080036" name="Grendal Minion Contract"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058967" decomposable_name="[Russia] Requested Bundle 11">
+        <items>
+            <item id="152012752" name="Commander's Storm Soulstone"/>
+        </items>
+        <items>
+            <item id="152012753" name="Steel Wall Commander's Soulstone"/>
+        </items>
+        <items>
+            <item id="152012754" name="Commander's Protective Soulstone"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058968" decomposable_name="[Russia] Requested Bundle 12">
+        <items>
+            <item id="110901571" name="Celestial Ascension Robe"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058969" decomposable_name="[Russia] Requested Bundle 13">
+        <items>
+            <item id="112000068" name="Celestial Ascension Shoulder Jewellery"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058970" decomposable_name="[Russia] Requested Bundle 14">
+        <items>
+            <item id="125046021" name="Celestial Ascension Hat"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058971" decomposable_name="[Russia] Requested Bundle 15">
+        <items>
+            <item id="110901686" name="Flying Warrior's Robe"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058972" decomposable_name="[Russia] Requested Bundle 16">
+        <items>
+            <item id="112000110" name="Flying Warrior's Wings"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058973" decomposable_name="[Russia] Requested Bundle 17">
+        <items>
+            <item id="125046118" name="Flying Warrior's Eye Patch"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058975" decomposable_name="[Russia] Requested Bundle 19">
+        <items>
+            <item id="166060002" name="[Jakunerk] Stigma Enchantment Stone"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058979" decomposable_name="AION 9th Anniversary Lucky Bundle Collection">
+        <items>
+            <item id="167010376" name="Manastone: Power +12"/>
+        </items>
+        <items>
+            <item id="167010377" name="Manastone: Health +12"/>
+        </items>
+        <items>
+            <item id="167010378" name="Manastone: Agility +12"/>
+        </items>
+        <items>
+            <item id="167010379" name="Manastone: Accuracy +12"/>
+        </items>
+        <items>
+            <item id="167010380" name="Manastone: Knowledge +12"/>
+        </items>
+        <items>
+            <item id="167010381" name="Manastone: Will +12"/>
+        </items>
+        <items>
+            <item id="182007166" name="Mighty Sacred Tree"/>
+        </items>
+        <items>
+            <item id="188055183" name="Mighty Socketing Aid Box"/>
+        </items>
+        <items>
+            <item id="188058877" name="Executor Keio’s +9 Weapons Chest (selection)"/>
+        </items>
+        <items>
+            <item id="188058878" name="Executor Keio’s +9 Armour Chest (selection)"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058980" decomposable_name="Bundle of Poppy's Blessing Materials">
+        <items>
+            <item id="152012753" name="Steel Wall Commander's Soulstone"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058981" decomposable_name="Poppy's Magic Bundle">
+        <items>
+            <item id="162001071" name="Lodas' Greater Golden Star"/>
+        </items>
+        <items>
+            <item id="188053934" name="Augmentation Box"/>
+        </items>
+        <items>
+            <item id="188055180" name="Water Dragon King's Noble Weapon Box"/>
+        </items>
+        <items>
+            <item id="188055791" name="[Jakunerk] Weapons Chest of Bygone Atreia"/>
+        </items>
+        <items>
+            <item id="188057030" name="Farside Lightning Dragon King's Sublime Weapons Chest"/>
+        </items>
+        <items>
+            <item id="188057910" name="Cuddly Sheep Box"/>
+        </items>
+        <items>
+            <item id="188057980" name="[Jakunerk] Ancient Fallusha's Accessory Chest"/>
+        </items>
+        <items>
+            <item id="188058064" name="Ancient Fallusha's Armour Chest"/>
+        </items>
+        <items>
+            <item id="188058147" name="[Jakunerk] Bundle of Entry Scrolls"/>
+        </items>
+        <items>
+            <item id="188058385" name="Poppy's +15 Ancient Fallusha's Armour Chest"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058982" decomposable_name="Poppy's Medal/Relic Bundle">
+        <items>
+            <item id="186000055" name="Major Ancient Chalice"/>
+        </items>
+        <items>
+            <item id="186000236" name="Battle Medal"/>
+        </items>
+        <items>
+            <item id="186000454" name="Spinel Medal"/>
+        </items>
+        <items>
+            <item id="188055169" name="[Jakunerk] Relic Box of the Ancient Rune Tribe"/>
+        </items>
+        <items>
+            <random_item type="ANCIENTITEMS"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058983" decomposable_name="Bundle of Regenerating Manastones (stats)">
+        <items>
+            <item id="167010382" name="Manastone: Power +10 / Accuracy +10"/>
+        </items>
+        <items>
+            <item id="167010383" name="Manastone: Power +10 / Will +10"/>
+        </items>
+        <items>
+            <item id="167010384" name="Manastone: Power +10 / Health +10"/>
+        </items>
+        <items>
+            <item id="167010385" name="Manastone: Power +10 / Agility +10"/>
+        </items>
+        <items>
+            <item id="167010386" name="Manastone: Accuracy +10 / Health +10"/>
+        </items>
+        <items>
+            <item id="167010387" name="Manastone: Accuracy +10 / Will +10"/>
+        </items>
+        <items>
+            <item id="167010388" name="Manastone: Accuracy +10 / Agility +10"/>
+        </items>
+        <items>
+            <item id="167010389" name="Manastone: Accuracy +10 / Knowledge +10"/>
+        </items>
+        <items>
+            <item id="167010390" name="Manastone: Knowledge +10 / Health +10"/>
+        </items>
+        <items>
+            <item id="167010391" name="Manastone: Knowledge +10 / Will +10"/>
+        </items>
+        <items>
+            <item id="167010392" name="Manastone: Knowledge +10 / Agility +10"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058989" decomposable_name="Box of Regenerating Manastones">
+        <items>
+            <item id="167000718" name="Manastone: Crit Strike +19 / HP +50"/>
+        </items>
+        <items>
+            <item id="167000720" name="Manastone: Crit Strike +19 / Attack +2"/>
+        </items>
+        <items>
+            <item id="167000721" name="Manastone: Crit Strike +19 / Accuracy + 14"/>
+        </items>
+        <items>
+            <item id="167000723" name="Manastone: Crit Strike +19 / Parry + 14"/>
+        </items>
+        <items>
+            <item id="167000724" name="Manastone: Crit Strike +19 / Block +14"/>
+        </items>
+        <items>
+            <item id="167000725" name="Manastone: Crit Strike +19 / Resist Magic +8"/>
+        </items>
+        <items>
+            <item id="167000726" name="Manastone: Crit Strike +19 / Magical Accuracy +8"/>
+        </items>
+        <items>
+            <item id="167000736" name="Manastone: Magical Accuracy +16 / HP +50"/>
+        </items>
+        <items>
+            <item id="167000738" name="Manastone: Magical Accuracy +16 / Magic Boost +14"/>
+        </items>
+        <items>
+            <item id="167000739" name="Manastone: Magical Accuracy +16 / Accuracy +14"/>
+        </items>
+        <items>
+            <item id="167000743" name="Manastone: Magical Accuracy +16 / Crit Strike +9"/>
+        </items>
+        <items>
+            <item id="167010250" name="Manastone: Magic Boost: +29 / HP +50"/>
+        </items>
+        <items>
+            <item id="167010254" name="Manastone: Magic Boost +29 / Parry +14"/>
+        </items>
+        <items>
+            <item id="167010257" name="Manastone: Magic Boost +29 / Resist Magic +8"/>
+        </items>
+        <items>
+            <item id="167010258" name="Manastone: Magic Boost +29 / Magical Accuracy +8"/>
+        </items>
+        <items>
+            <item id="167010259" name="Manastone: Attack +6 / Crit Strike +9"/>
+        </items>
+        <items>
+            <item id="167010260" name="Manastone: Attack +6 / Resist Magic +8"/>
+        </items>
+        <items>
+            <item id="167010261" name="Manastone: Attack +6 / Magical Accuracy +8"/>
+        </items>
+        <items>
+            <random_item type="MANASTONE_LEGEND_GRADE_70"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058990" decomposable_name="Ancient Manastone Box">
+        <items>
+            <item id="167020074" name="Ancient Manastone: Critical Strike +24"/>
+        </items>
+        <items>
+            <item id="167020075" name="Ancient Manastone: Crit Spell +9"/>
+        </items>
+        <items>
+            <item id="167020077" name="Ancient Manastone: Physical Defence +100"/>
+        </items>
+        <items>
+            <item id="167020078" name="Ancient Manastone: Magic Resistance +20"/>
+        </items>
+        <items>
+            <item id="167020079" name="Ancient Manastone: Attack +8"/>
+        </items>
+        <items>
+            <item id="167020081" name="Ancient Manastone: Magic Boost +35"/>
+        </items>
+        <items>
+            <item id="167020082" name="Ancient Manastone: Magic Suppression +50"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058991" decomposable_name="Normal Manastone Box">
+        <items>
+            <item id="167010280" name="Manastone: Power +5"/>
+        </items>
+        <items>
+            <item id="167010281" name="Manastone: Health +5"/>
+        </items>
+        <items>
+            <item id="167010282" name="Manastone: Agility +5"/>
+        </items>
+        <items>
+            <item id="167010283" name="Manastone: Accuracy +5"/>
+        </items>
+        <items>
+            <item id="167010284" name="Manastone: Knowledge +5"/>
+        </items>
+        <items>
+            <item id="167010285" name="Manastone: Will +5"/>
+        </items>
+        <items>
+            <item id="167010298" name="Manastone: Power +8"/>
+        </items>
+        <items>
+            <item id="167010299" name="Manastone: Health +8"/>
+        </items>
+        <items>
+            <item id="167010300" name="Manastone: Agility +8"/>
+        </items>
+        <items>
+            <item id="167010301" name="Manastone: Accuracy +8"/>
+        </items>
+        <items>
+            <item id="167010302" name="Manastone: Knowledge +8"/>
+        </items>
+        <items>
+            <item id="167010303" name="Manastone: Will +8"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058994" decomposable_name="Greater Socketing Aid Box (Mythical)">
+        <items>
+            <item id="166100011" name="Mighty Supplements (Mythical)"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058996" decomposable_name="Fate Commander’s Wing of War Chest">
+        <items>
+            <item id="187000254" name="High Guard Commander's Wings of War" race="ELYOS"/>
+        </items>
+        <items>
+            <item id="187000255" name="High Archon Commander's Wings of War" race="ASMODIANS"/>
+        </items>
+    </decomposable>
+    <decomposable item_id="188058999" decomposable_name="Box of All-Powerful Enchantment Stones">
+        <items>
+            <item id="188100335" name="Magic Powder" rnd_min="100" rnd_max="1000"/>
         </items>
     </decomposable>
 </decomposable_items>
