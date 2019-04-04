@@ -216914,12 +216914,12 @@
   <string>
     <id>743484</id>
     <name>STR_CASH_COUPON_CUSTOMIZE_01_DESC</name>
-    <body>You can change your face and your physical form.\nGo to the Clothing tab in the Gold Sand shop and click on the Modify Appearance button.\nCan only be used in cities.</body>
+    <body>You can change your face and your physique.\nGo to the Clothing tab in the Gold Sand shop and click on the Modify Appearance button.\nCan only be used in cities.</body>
   </string>
   <string>
     <id>743485</id>
     <name>STR_CASH_COUPON_SEX_EXCHANGE_01_DESC</name>
-    <body>You can change your gender and your appearance.\n\nGo to the Clothing tab in the Gold Sand shop and click on the Gender Switch button.\nCan only be used in cities.</body>
+    <body>You can change your gender and appearance.\nGo to the Clothing tab in the Gold Sand shop and click on the Gender Switch button.\nCan only be used in cities.</body>
   </string>
   <string>
     <id>743486</id>
@@ -223039,7 +223039,7 @@
   <string>
     <id>744709</id>
     <name>STR_EVENT_COUPON_CUSTOMIZE_01_DESC</name>
-    <body>You can change your face and your physical form.\nGo to the Clothing tab in the Gold Sand shop and click on the Modify Appearance button.\nCan only be used in cities.</body>
+    <body>You can change your face and your physique.\nGo to the Clothing tab in the Gold Sand shop and click on the Modify Appearance button.\nCan only be used in cities.</body>
   </string>
   <string>
     <id>744710</id>
@@ -223049,7 +223049,7 @@
   <string>
     <id>744711</id>
     <name>STR_EVENT_COUPON_SEX_EXCHANGE_01_DESC</name>
-    <body>You can change your gender and your appearance.\n\nGo to the Clothing tab in the Gold Sand shop and click on the Gender Switch button.\nCan only be used in cities.</body>
+    <body>You can change your gender and appearance.\nGo to the Clothing tab in the Gold Sand shop and click on the Gender Switch button.\nCan only be used in cities.</body>
   </string>
   <string>
     <id>744712</id>
@@ -225384,7 +225384,7 @@
   <string>
     <id>745178</id>
     <name>STR_CASH_CHANGE_CHARACTER_NAME_01_DESC</name>
-    <body>It allows you to change the character name.</body>
+    <body>You can change the character name.\nAfterwards, you must wait 60 days before you can change the character name again.</body>
   </string>
   <string>
     <id>745179</id>
@@ -225394,7 +225394,7 @@
   <string>
     <id>745180</id>
     <name>STR_EVENT_CHANGE_CHARACTER_NAME_01_DESC</name>
-    <body>It allows you to change the character name.</body>
+    <body>You can change the character name.\nAfterwards, you must wait 60 days before you can change the character name again.</body>
   </string>
   <string>
     <id>745181</id>
@@ -225404,7 +225404,7 @@
   <string>
     <id>745182</id>
     <name>STR_CASH_CHANGE_LEGION_NAME_01_DESC</name>
-    <body>It allows you to change the Legion name.</body>
+    <body>You can change the legion name.\nAfterwards, you must wait one year (365 days) before you can change the legion name again.</body>
   </string>
   <string>
     <id>745183</id>
@@ -225414,7 +225414,7 @@
   <string>
     <id>745184</id>
     <name>STR_EVENT_CHANGE_LEGION_NAME_01_DESC</name>
-    <body>It allows you to change the Legion name.</body>
+    <body>You can change the legion name.\nAfterwards, you must wait one year (365 days) before you can change the legion name again.</body>
   </string>
   <string>
     <id>745185</id>

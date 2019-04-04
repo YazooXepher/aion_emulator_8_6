@@ -25753,7 +25753,7 @@
   <string>
     <id>305126</id>
     <name>STR_AkanNamed_50_Al</name>
-    <body>Bollvig Blackheart</body>
+    <body>Black Soul Bollvig</body>
   </string>
   <string>
     <id>305127</id>
@@ -30498,12 +30498,12 @@
   <string>
     <id>306075</id>
     <name>STR_LF3F3_UndeadLightWi_44_Ae</name>
-    <body>Cursed Mage Shade</body>
+    <body>Elyos Spirit Oblivion Mage</body>
   </string>
   <string>
     <id>306076</id>
     <name>STR_LF3F3_UndeadLightWi_45_Ae</name>
-    <body>Cursed Mage Shade</body>
+    <body>Elyos Spirit Oblivion Mage</body>
   </string>
   <string>
     <id>306077</id>
@@ -30513,12 +30513,12 @@
   <string>
     <id>306078</id>
     <name>STR_LF3F3_UndeadLightPr_44_Ae</name>
-    <body>Cursed Priest Shade</body>
+    <body>Elyos Spirit Oblivion Priest</body>
   </string>
   <string>
     <id>306079</id>
     <name>STR_LF3F3_UndeadLightPr_45_Ae</name>
-    <body>Cursed Priest Shade</body>
+    <body>Elyos Spirit Oblivion Priest</body>
   </string>
   <string>
     <id>306080</id>
@@ -31628,12 +31628,12 @@
   <string>
     <id>306301</id>
     <name>STR_Ab1_1211_SAM_30_An</name>
-    <body>Ancient Guardstone</body>
+    <body>Ancient Wardstone</body>
   </string>
   <string>
     <id>306302</id>
     <name>STR_Ab1_1211_SAM_31_An</name>
-    <body>Ancient Guardstone</body>
+    <body>Ancient Wardstone</body>
   </string>
   <string>
     <id>306303</id>
@@ -37308,12 +37308,12 @@
   <string>
     <id>307437</id>
     <name>STR_Ab1_1211_SAMB_32_An</name>
-    <body>Tainted Guard Stone</body>
+    <body>Tainted Wardstone</body>
   </string>
   <string>
     <id>307438</id>
     <name>STR_Ab1_1211_SAMB_33_An</name>
-    <body>Tainted Guard Stone</body>
+    <body>Tainted Wardstone</body>
   </string>
   <string>
     <id>307439</id>
@@ -66653,7 +66653,7 @@
   <string>
     <id>313739</id>
     <name>STR_G6_DrakeNamedD_45_Ah_tune</name>
-    <body>Stormwings Dugolle</body>
+    <body>Stormwings Dugor</body>
   </string>
   <string>
     <id>313740</id>
@@ -68998,17 +68998,17 @@
   <string>
     <id>315218</id>
     <name>STR_SeirenD_46_Ae</name>
-    <body>Seiren Choralist</body>
+    <body>Seiren Seasinger</body>
   </string>
   <string>
     <id>315219</id>
     <name>STR_SeirenReD_44_Ae</name>
-    <body>Seiren Wavespinner</body>
+    <body>Seiren Wavedancer</body>
   </string>
   <string>
     <id>315220</id>
     <name>STR_SeirenReD_45_Ae</name>
-    <body>Seiren Wavespinner</body>
+    <body>Seiren Wavedancer</body>
   </string>
   <string>
     <id>315221</id>
@@ -69018,12 +69018,12 @@
   <string>
     <id>315222</id>
     <name>STR_SeirenBreederD_44_Ae</name>
-    <body>Seiren Fishtamer</body>
+    <body>Seiren Whaletamer</body>
   </string>
   <string>
     <id>315223</id>
     <name>STR_SeirenBreederD_45_Ae</name>
-    <body>Seiren Fishtamer</body>
+    <body>Seiren Whaletamer</body>
   </string>
   <string>
     <id>315224</id>
@@ -71923,7 +71923,7 @@
   <string>
     <id>315803</id>
     <name>STR_ShadowStalkerD_40_An</name>
-    <body>Lament Obscura</body>
+    <body>Vengeful Obscura</body>
   </string>
   <string>
     <id>315804</id>
@@ -83058,12 +83058,12 @@
   <string>
     <id>318030</id>
     <name>STR_LF2A_SouledStoneDust_49_An</name>
-    <body>Guardian Stone Kalgolem</body>
+    <body>Wardstone Kalgolem</body>
   </string>
   <string>
     <id>318031</id>
     <name>STR_LF2A_SouledStoneDust_50_An</name>
-    <body>Guardian Stone Kalgolem</body>
+    <body>Wardstone Kalgolem</body>
   </string>
   <string>
     <id>318032</id>
@@ -90738,32 +90738,32 @@
   <string>
     <id>319566</id>
     <name>STR_LF4_A5_ShulackKn_51_Ae</name>
-    <body>Shulack Gatekeeper</body>
+    <body>Shulack Post</body>
   </string>
   <string>
     <id>319567</id>
     <name>STR_LF4_A5_ShulackKn_Talk_51_Ae</name>
-    <body>Shulack Gatekeeper</body>
+    <body>Shulack Post</body>
   </string>
   <string>
     <id>319568</id>
     <name>STR_LF4_A5_ShulackKn_Drink_51_Ae</name>
-    <body>Shulack Gatekeeper</body>
+    <body>Shulack Post</body>
   </string>
   <string>
     <id>319569</id>
     <name>STR_LF4_A5_ShulackKn_52_Ae</name>
-    <body>Shulack Gatekeeper</body>
+    <body>Shulack Post</body>
   </string>
   <string>
     <id>319570</id>
     <name>STR_LF4_A5_ShulackKn_Talk_52_Ae</name>
-    <body>Shulack Gatekeeper</body>
+    <body>Shulack Post</body>
   </string>
   <string>
     <id>319571</id>
     <name>STR_LF4_A5_ShulackKn_Drink_52_Ae</name>
-    <body>Shulack Gatekeeper</body>
+    <body>Shulack Post</body>
   </string>
   <string>
     <id>319572</id>
@@ -91878,7 +91878,7 @@
   <string>
     <id>319794</id>
     <name>STR_LF4_C5_DrakanPr_vil_55_Ae</name>
-    <body>Hanarkand Boneminder</body>
+    <body>Hanarkand Drakan Medic</body>
   </string>
   <string>
     <id>319795</id>
@@ -91903,7 +91903,7 @@
   <string>
     <id>319799</id>
     <name>STR_LF4_C5_DrakanPr_noble_55_Ae</name>
-    <body>Hanarkand Curatus</body>
+    <body>Hanarkand Drakan Curatus</body>
   </string>
   <string>
     <id>319800</id>
@@ -94868,7 +94868,7 @@
   <string>
     <id>320392</id>
     <name>STR_DF4_DrakanPr_vil_55_Ae</name>
-    <body>Mitrakand Lifekeeper</body>
+    <body>Mitrakand Drakan Bloodbinder</body>
   </string>
   <string>
     <id>320393</id>
@@ -110044,7 +110044,7 @@
   <string>
     <id>323427</id>
     <name>STR_IDRaksha_5F_Raksha_Nmd_57_Ae</name>
-    <body>Raksha</body>
+    <body>Arrogant Raksha</body>
   </string>
   <string>
     <id>323428</id>
@@ -110619,7 +110619,7 @@
   <string>
     <id>323542</id>
     <name>STR_S8_Seiren_Queen_55_Ah</name>
-    <body>Queen Alukina</body>
+    <body>Alukina, Queen of the Deep Sea</body>
   </string>
   <string>
     <id>323543</id>
@@ -110974,7 +110974,7 @@
   <string>
     <id>323613</id>
     <name>STR_IDRaksha_5F_Raksha_Nmd_58_Ae</name>
-    <body>Raksha Boilheart</body>
+    <body>Enraged Raksha</body>
   </string>
   <string>
     <id>323614</id>
@@ -270916,72 +270916,72 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2306130</id>
     <name>STR_Title_v51_ElementalFire3D_65_Ae</name>
-    <body>&lt;180&gt;</body>
+    <body>&lt;180 points&gt;</body>
   </string>
   <string>
     <id>2306131</id>
     <name>STR_Title_v51_ElementalFire2D_65_Ae</name>
-    <body>&lt;180&gt;</body>
+    <body>&lt;180 points&gt;</body>
   </string>
   <string>
     <id>2306132</id>
     <name>STR_Title_v51_SouledstoneAD_65_Ae</name>
-    <body>&lt;160&gt;</body>
+    <body>&lt;160 points&gt;</body>
   </string>
   <string>
     <id>2306133</id>
     <name>STR_Title_v51_SouledstoneDReD_65_Ae</name>
-    <body>&lt;250&gt;</body>
+    <body>&lt;250 points&gt;</body>
   </string>
   <string>
     <id>2306134</id>
     <name>STR_Title_v51_ShadowstalkerFiD_65_Ae</name>
-    <body>&lt;250&gt;</body>
+    <body>&lt;250 points&gt;</body>
   </string>
   <string>
     <id>2306135</id>
     <name>STR_Title_v51_ShadowstalkerreWi_65_Ae</name>
-    <body>&lt;660&gt;</body>
+    <body>&lt;660 points&gt;</body>
   </string>
   <string>
     <id>2306136</id>
     <name>STR_Title_v51_MaidengolemD_65_Ae</name>
-    <body>&lt;530&gt;</body>
+    <body>&lt;530 points&gt;</body>
   </string>
   <string>
     <id>2306137</id>
     <name>STR_Title_v51_SouledstoneAReNMD_65_Ae</name>
-    <body>&lt;1,740&gt;</body>
+    <body>&lt;1,740 points&gt;</body>
   </string>
   <string>
     <id>2306138</id>
     <name>STR_Title_v51_RollingwhillNamedD_65_Ae</name>
-    <body>&lt;2,040&gt;</body>
+    <body>&lt;2,040 points&gt;</body>
   </string>
   <string>
     <id>2306139</id>
     <name>STR_Title_v51_SAMNamedD_65_Ae</name>
-    <body>&lt;12,000&gt;</body>
+    <body>&lt;12,000 points&gt;</body>
   </string>
   <string>
     <id>2306140</id>
     <name>STR_Title_v51_IDCromede_01_Key_Cyclops_worker_65_An</name>
-    <body>&lt;14,400&gt;</body>
+    <body>&lt;14,400 points&gt;</body>
   </string>
   <string>
     <id>2306141</id>
     <name>STR_Title_v51_IDCromede_2up_Trigger_Wife_65_An</name>
-    <body>&lt;48,000&gt;</body>
+    <body>&lt;48,000 points&gt;</body>
   </string>
   <string>
     <id>2306142</id>
     <name>STR_Title_v51_IDCromede_2up_Named_Angry_Judge_65_An</name>
-    <body>&lt;272,000&gt;</body>
+    <body>&lt;272,000 points&gt;</body>
   </string>
   <string>
     <id>2306143</id>
     <name>STR_Title_v51_FireSanctuaryQueenBoss_65_Ae</name>
-    <body>&lt;500,000&gt;</body>
+    <body>&lt;500,000 points&gt;</body>
   </string>
   <string>
     <id>2306144</id>
@@ -279967,7 +279967,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2326847</id>
     <name>STR_IDAbRe_Core_03_Witch_D_An</name>
-    <body>Soul Icon Protection Stone Administrator</body>
+    <body>Soul Icon Wardstone Administrator</body>
   </string>
   <string>
     <id>2326848</id>
@@ -282607,7 +282607,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2327375</id>
     <name>STR_IDAbRe_Core_03_A2_Witch_D_An</name>
-    <body>Soul Icon Protection Stone Administrator</body>
+    <body>Soul Icon Wardstone Administrator</body>
   </string>
   <string>
     <id>2327376</id>
@@ -285862,7 +285862,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2328026</id>
     <name>STR_NPCTITLE_IDAbre_core_03_02</name>
-    <body>&lt;Protection Stone Supervisor&gt;</body>
+    <body>&lt;Wardstone Supervisor&gt;</body>
   </string>
   <string>
     <id>2328027</id>
@@ -290842,7 +290842,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2329022</id>
     <name>STR_Dev_Event_Seiren_Queen</name>
-    <body>Queen Alukina</body>
+    <body>Alukina, Queen of the Deep Sea</body>
   </string>
   <string>
     <id>2329023</id>
@@ -296870,6 +296870,4696 @@ Rise from your slumber, my brother!</body>
     <body>Untrained Smuggler Shukiruk</body>
   </string>
   <string>
+    <id>2330205</id>
+    <name>STR_IDF7_Mine_2line_1wave_rim_01</name>
+    <body>Cursed Rim Ore</body>
+  </string>
+  <string>
+    <id>2330206</id>
+    <name>STR_IDF7_Mine_2line_1wave_rim_02</name>
+    <body>Cursed Rim Ore</body>
+  </string>
+  <string>
+    <id>2330207</id>
+    <name>STR_IDF7_Mine_2line_1wave_rim_03</name>
+    <body>Cursed Rim Ore</body>
+  </string>
+  <string>
+    <id>2330208</id>
+    <name>STR_IDF7_Mine_2line_1wave_rim_04</name>
+    <body>Cursed Rim Ore</body>
+  </string>
+  <string>
+    <id>2330209</id>
+    <name>STR_IDF7_Mine_2line_2wave_rim_01</name>
+    <body>Highly Refined Rim Vein</body>
+  </string>
+  <string>
+    <id>2330210</id>
+    <name>STR_IDF7_Mine_2line_3wave_rim_01</name>
+    <body>Highly Refined Rim Vein</body>
+  </string>
+  <string>
+    <id>2330211</id>
+    <name>STR_Lehpar_Test</name>
+    <body>Test of the Lepharist Outfit</body>
+  </string>
+  <string>
+    <id>2330212</id>
+    <name>STR_BOY_L_Test</name>
+    <body>Elyos Child (Test)</body>
+  </string>
+  <string>
+    <id>2330213</id>
+    <name>STR_GIRL_L_Test</name>
+    <body>Elyos Child (Test)</body>
+  </string>
+  <string>
+    <id>2330214</id>
+    <name>STR_BOY_D_Test</name>
+    <body>Asmodian Child (Test)</body>
+  </string>
+  <string>
+    <id>2330215</id>
+    <name>STR_GIRL_D_Test</name>
+    <body>Asmodian Child (Test)</body>
+  </string>
+  <string>
+    <id>2330216</id>
+    <name>STR_IDF7_Ere_Drakan_Rider_High_F</name>
+    <body>37th Drakan Superior Assault Officer</body>
+  </string>
+  <string>
+    <id>2330217</id>
+    <name>STR_IDF7_Ere_Drakan_Rider_F</name>
+    <body>37th Drakan Superior Trooper</body>
+  </string>
+  <string>
+    <id>2330218</id>
+    <name>STR_IDF7_Ere_Drakan_Rider_High_G</name>
+    <body>37th Drakan Superior Assault Officer</body>
+  </string>
+  <string>
+    <id>2330219</id>
+    <name>STR_IDF7_Ere_Drakan_Rider_G</name>
+    <body>37th Drakan Superior Trooper</body>
+  </string>
+  <string>
+    <id>2330220</id>
+    <name>STR_IDF7_Ere_Drakan_Rider_High_J</name>
+    <body>37th Drakan Superior Assault Officer</body>
+  </string>
+  <string>
+    <id>2330221</id>
+    <name>STR_IDF7_Ere_Drakan_Rider_J</name>
+    <body>37th Drakan Superior Trooper</body>
+  </string>
+  <string>
+    <id>2330222</id>
+    <name>STR_IDF7_Ere_Drakan_Ra_High_D</name>
+    <body>37th Drakan Superior Search Officer</body>
+  </string>
+  <string>
+    <id>2330223</id>
+    <name>STR_IDF7_Ere_Drakan_Ra_D</name>
+    <body>37th Drakan Superior Scout</body>
+  </string>
+  <string>
+    <id>2330224</id>
+    <name>STR_IDF7_Ere_Drakan_Ra_High_G</name>
+    <body>37th Drakan Superior Search Officer</body>
+  </string>
+  <string>
+    <id>2330225</id>
+    <name>STR_IDF7_Ere_Drakan_Ra_G</name>
+    <body>37th Drakan Superior Scout</body>
+  </string>
+  <string>
+    <id>2330226</id>
+    <name>STR_IDF7_Ere_Drakan_Ra_High_H</name>
+    <body>37th Drakan Superior Search Officer</body>
+  </string>
+  <string>
+    <id>2330227</id>
+    <name>STR_IDF7_Ere_Drakan_Ra_H</name>
+    <body>37th Drakan Superior Scout</body>
+  </string>
+  <string>
+    <id>2330228</id>
+    <name>STR_IDF7_Ere_Drakan_Ra_High_N</name>
+    <body>37th Drakan Superior Search Officer</body>
+  </string>
+  <string>
+    <id>2330229</id>
+    <name>STR_IDF7_Ere_Drakan_Ra_N</name>
+    <body>37th Drakan Superior Scout</body>
+  </string>
+  <string>
+    <id>2330230</id>
+    <name>STR_IDF7_Ere_Drakan_Ra_High_J</name>
+    <body>37th Drakan Superior Search Officer</body>
+  </string>
+  <string>
+    <id>2330231</id>
+    <name>STR_IDF7_Ere_Drakan_Ra_J</name>
+    <body>37th Drakan Superior Scout</body>
+  </string>
+  <string>
+    <id>2330232</id>
+    <name>STR_IDF7_Ere_Drakan_Pr_High_C</name>
+    <body>37th Drakan Superior Doctor</body>
+  </string>
+  <string>
+    <id>2330233</id>
+    <name>STR_IDF7_Ere_Drakan_Pr_C</name>
+    <body>37th Drakan Superior Medic</body>
+  </string>
+  <string>
+    <id>2330234</id>
+    <name>STR_IDF7_Ere_Drakan_Pr_High_E</name>
+    <body>37th Drakan Superior Doctor</body>
+  </string>
+  <string>
+    <id>2330235</id>
+    <name>STR_IDF7_Ere_Drakan_Pr_E</name>
+    <body>37th Drakan Superior Medic</body>
+  </string>
+  <string>
+    <id>2330236</id>
+    <name>STR_IDF7_Ere_Drakan_Pr_High_I</name>
+    <body>37th Drakan Superior Doctor</body>
+  </string>
+  <string>
+    <id>2330237</id>
+    <name>STR_IDF7_Ere_Drakan_Pr_I</name>
+    <body>37th Drakan Superior Medic</body>
+  </string>
+  <string>
+    <id>2330238</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_High_B</name>
+    <body>37th Drakan Superior Prefect</body>
+  </string>
+  <string>
+    <id>2330239</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_B</name>
+    <body>37th Drakan Superior Fighters</body>
+  </string>
+  <string>
+    <id>2330240</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_High_E</name>
+    <body>37th Drakan Superior Prefect</body>
+  </string>
+  <string>
+    <id>2330241</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_B_E</name>
+    <body>37th Drakan Superior Fighters</body>
+  </string>
+  <string>
+    <id>2330242</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_High_H</name>
+    <body>37th Drakan Superior Prefect</body>
+  </string>
+  <string>
+    <id>2330243</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_B_H</name>
+    <body>37th Drakan Superior Fighters</body>
+  </string>
+  <string>
+    <id>2330244</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_High_L</name>
+    <body>37th Drakan Superior Prefect</body>
+  </string>
+  <string>
+    <id>2330245</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_B_L</name>
+    <body>37th Drakan Superior Fighters</body>
+  </string>
+  <string>
+    <id>2330246</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_High_N</name>
+    <body>37th Drakan Superior Prefect</body>
+  </string>
+  <string>
+    <id>2330247</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_B_N</name>
+    <body>37th Drakan Superior Fighters</body>
+  </string>
+  <string>
+    <id>2330248</id>
+    <name>STR_IDF7_Ere_Drakan_Wi_High_B</name>
+    <body>37th Drakan Superior Sorcerer Officer</body>
+  </string>
+  <string>
+    <id>2330249</id>
+    <name>STR_IDF7_Ere_Drakan_Wi_B</name>
+    <body>37th Drakan Superior Foot Soldier</body>
+  </string>
+  <string>
+    <id>2330250</id>
+    <name>STR_IDF7_Ere_Drakan_Wi_High_C</name>
+    <body>37th Drakan Superior Sorcerer Officer</body>
+  </string>
+  <string>
+    <id>2330251</id>
+    <name>STR_IDF7_Ere_Drakan_Wi_C</name>
+    <body>37th Drakan Superior Foot Soldier</body>
+  </string>
+  <string>
+    <id>2330252</id>
+    <name>STR_IDF7_Ere_Drakan_Wi_High_F</name>
+    <body>37th Drakan Superior Sorcerer Officer</body>
+  </string>
+  <string>
+    <id>2330253</id>
+    <name>STR_IDF7_Ere_Drakan_Wi_F</name>
+    <body>37th Drakan Superior Foot Soldier</body>
+  </string>
+  <string>
+    <id>2330254</id>
+    <name>STR_IDF7_Ere_Drakan_Wi_High_I</name>
+    <body>37th Drakan Superior Sorcerer Officer</body>
+  </string>
+  <string>
+    <id>2330255</id>
+    <name>STR_IDF7_Ere_Drakan_Wi_I</name>
+    <body>37th Drakan Superior Foot Soldier</body>
+  </string>
+  <string>
+    <id>2330256</id>
+    <name>STR_IDF7_Ere_Kuillus_Kerberos_D</name>
+    <body>Tamed Kirrin</body>
+  </string>
+  <string>
+    <id>2330257</id>
+    <name>STR_IDF7_Ere_Kuillus_Kerberos_L</name>
+    <body>Tamed Kirrin</body>
+  </string>
+  <string>
+    <id>2330258</id>
+    <name>STR_IDF7_Ere_Kuillus_Kerberos_N</name>
+    <body>Tamed Kirrin</body>
+  </string>
+  <string>
+    <id>2330259</id>
+    <name>STR_IDF7_Ere_Minus_DrakanKiller_Fi_C</name>
+    <body>37th Drakan Special Inspector</body>
+  </string>
+  <string>
+    <id>2330260</id>
+    <name>STR_IDF7_Ere_Minus_DrakanKiller_Fi_H</name>
+    <body>37th Drakan Special Inspector</body>
+  </string>
+  <string>
+    <id>2330261</id>
+    <name>STR_IDF7_Ere_Minus_DrakanKiller_As_F</name>
+    <body>37th Drakan Special Inspector</body>
+  </string>
+  <string>
+    <id>2330262</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Li_Fi_C</name>
+    <body>Superior Fighter of the Vanguard of the Dragon Lord's Penal Squad</body>
+  </string>
+  <string>
+    <id>2330263</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Li_As_H</name>
+    <body>Superior Fencer of the Vanguard of the Dragon Lord's Penal Squad</body>
+  </string>
+  <string>
+    <id>2330264</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Da_Fi_C</name>
+    <body>Superior Fighter of the Vanguard of the Dragon Lord's Cleanup Squad</body>
+  </string>
+  <string>
+    <id>2330265</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Da_As_H</name>
+    <body>Superior Fencer of the Vanguard of the Dragon Lord's Cleanup Squad</body>
+  </string>
+  <string>
+    <id>2330266</id>
+    <name>STR_IDF7_Ere_Minus_Npc_Li_Wi_F</name>
+    <body>Special Ops of the Life Protectorate of the Dragon Lord's Penal Squad</body>
+  </string>
+  <string>
+    <id>2330267</id>
+    <name>STR_IDF7_Ere_Minus_Npc_Da_Wi_F</name>
+    <body>Special Ops of the Wise Protectorate of the Dragon Lord's Cleanup Squad</body>
+  </string>
+  <string>
+    <id>2330268</id>
+    <name>STR_IDF7_Ere_Minus_BaseGuard_Li_Fi_A</name>
+    <body>Superior Fighter of the Vanguard of the Dragon Lord's Penal Squad</body>
+  </string>
+  <string>
+    <id>2330269</id>
+    <name>STR_IDF7_Ere_Minus_BaseGuard_Da_Fi_A</name>
+    <body>Superior Fighter of the Vanguard of the Dragon Lord's Cleanup Squad</body>
+  </string>
+  <string>
+    <id>2330270</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Rider_High_F</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330271</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Rider_High_G</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330272</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Rider_High_J</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330273</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Ra_High_D</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330274</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Ra_High_G</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330275</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Ra_High_H</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330276</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Ra_High_N</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330277</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Ra_High_J</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330278</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Pr_High_C</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330279</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Pr_High_E</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330280</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Pr_High_I</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330281</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Fi_High_B</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330282</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Fi_High_E</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330283</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Fi_High_H</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330284</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Fi_High_L</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330285</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Fi_High_N</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330286</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Wi_High_B</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330287</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Wi_High_C</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330288</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Wi_High_F</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330289</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_Wi_High_I</name>
+    <body>&lt;63 points&gt;</body>
+  </string>
+  <string>
+    <id>2330290</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Minus_Guard_Li_Fi_C</name>
+    <body>&lt;-124 points&gt;</body>
+  </string>
+  <string>
+    <id>2330291</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Minus_Guard_Li_As_H</name>
+    <body>&lt;-124 points&gt;</body>
+  </string>
+  <string>
+    <id>2330292</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Minus_Guard_Da_Fi_C</name>
+    <body>&lt;-124 points&gt;</body>
+  </string>
+  <string>
+    <id>2330293</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Minus_Guard_Da_As_H</name>
+    <body>&lt;-124 points&gt;</body>
+  </string>
+  <string>
+    <id>2330294</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Minus_Npc_Li_Wi_F</name>
+    <body>&lt;-124 points&gt;</body>
+  </string>
+  <string>
+    <id>2330295</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Minus_Npc_Da_Wi_F</name>
+    <body>&lt;-124 points&gt;</body>
+  </string>
+  <string>
+    <id>2330296</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Minus_BaseGuard_Li_Fi_A</name>
+    <body>&lt;-124 points&gt;</body>
+  </string>
+  <string>
+    <id>2330297</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Minus_BaseGuard_Da_Fi_A</name>
+    <body>&lt;-124 points&gt;</body>
+  </string>
+  <string>
+    <id>2330298</id>
+    <name>STR_IDF7_Ere_wall_break_01</name>
+    <body>Sturdy Balaur Iron Fence</body>
+  </string>
+  <string>
+    <id>2330299</id>
+    <name>STR_IDF7_Ere_wall_break_02</name>
+    <body>Sturdy Balaur Iron Fence</body>
+  </string>
+  <string>
+    <id>2330300</id>
+    <name>STR_IDF7_Ere_wall_break_03</name>
+    <body>Sturdy Balaur Iron Fence</body>
+  </string>
+  <string>
+    <id>2330301</id>
+    <name>STR_IDF7_Ere_wall_break_04</name>
+    <body>Sturdy Balaur Iron Fence</body>
+  </string>
+  <string>
+    <id>2330302</id>
+    <name>STR_IDF7_Ere_wall_break_05</name>
+    <body>Sturdy Balaur Iron Fence</body>
+  </string>
+  <string>
+    <id>2330303</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_High_C</name>
+    <body>37th Drakan Superior Prefect</body>
+  </string>
+  <string>
+    <id>2330304</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_C</name>
+    <body>37th Drakan Superior Fighters</body>
+  </string>
+  <string>
+    <id>2330305</id>
+    <name>STR_IDF7_Ere_Drakan_Pr_High_H</name>
+    <body>37th Drakan Superior Doctor</body>
+  </string>
+  <string>
+    <id>2330306</id>
+    <name>STR_IDF7_Ere_Drakan_Pr_H</name>
+    <body>37th Drakan Superior Medic</body>
+  </string>
+  <string>
+    <id>2330307</id>
+    <name>STR_IDF7_Ere_Kuillus_Kerberos_I</name>
+    <body>Tamed Kirrin</body>
+  </string>
+  <string>
+    <id>2330308</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Li_Fi_all</name>
+    <body>Rookie of the Vanguard of the Dragon Lord's Penal Squad</body>
+  </string>
+  <string>
+    <id>2330309</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Li_As_all</name>
+    <body>Robber of the Vanguard of the Dragon Lord's Penal Squad</body>
+  </string>
+  <string>
+    <id>2330310</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Li_Wi_all</name>
+    <body>Foot Soldier of the Vanguard of the Dragon Lord's Penal Squad</body>
+  </string>
+  <string>
+    <id>2330311</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Da_Fi_all</name>
+    <body>Rookie of the Vanguard of the Dragon Lord's Cleanup Squad</body>
+  </string>
+  <string>
+    <id>2330312</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Da_As_all</name>
+    <body>Robber of the Vanguard of the Dragon Lord's Cleanup Squad</body>
+  </string>
+  <string>
+    <id>2330313</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Da_Wi_all</name>
+    <body>Foot Soldier of the Vanguard of the Dragon Lord's Cleanup Squad</body>
+  </string>
+  <string>
+    <id>2330314</id>
+    <name>STR_IDF7_Ere_DrakanTank</name>
+    <body>37th Siege Tank</body>
+  </string>
+  <string>
+    <id>2330315</id>
+    <name>STR_IDF7_Ere_CastleDoor_01</name>
+    <body>Outer Fortress Gate</body>
+  </string>
+  <string>
+    <id>2330316</id>
+    <name>STR_IDF7_Ere_RockDoor_01</name>
+    <body>Fallen Rocks</body>
+  </string>
+  <string>
+    <id>2330317</id>
+    <name>STR_IDF7_Ere_Minus_NPC_Li_Fi_all</name>
+    <body>Slayer of the Life Protectorate of the Dragon Lord's Penal Squad</body>
+  </string>
+  <string>
+    <id>2330318</id>
+    <name>STR_IDF7_Ere_Minus_NPC_Li_As_all</name>
+    <body>Scout Officer of the Life Protectorate of the Dragon Lord's Penal Squad</body>
+  </string>
+  <string>
+    <id>2330319</id>
+    <name>STR_IDF7_Ere_Minus_NPC_Li_Wi_all</name>
+    <body>Sorcerer Officer of the Life Protectorate of the Dragon Lord's Penal Squad</body>
+  </string>
+  <string>
+    <id>2330320</id>
+    <name>STR_IDF7_Ere_Minus_NPC_Da_Fi_all</name>
+    <body>Slayer of the Wise Protectorate of the Dragon Lord's Cleanup Squad</body>
+  </string>
+  <string>
+    <id>2330321</id>
+    <name>STR_IDF7_Ere_Minus_NPC_Da_As_all</name>
+    <body>Scout Officer of the Wise Protectorate of the Dragon Lord's Cleanup Squad</body>
+  </string>
+  <string>
+    <id>2330322</id>
+    <name>STR_IDF7_Ere_Minus_NPC_Da_Wi_all</name>
+    <body>Sorcerer Officer of the Wise Protectorate of the Dragon Lord's Cleanup Squad</body>
+  </string>
+  <string>
+    <id>2330323</id>
+    <name>STR_IDF7_Ere_Eresukigal</name>
+    <body>3rd Dragon Lord Ereshkigal</body>
+  </string>
+  <string>
+    <id>2330324</id>
+    <name>STR_IDF7_Ere_Sub_Named_Fi</name>
+    <body>37th Battle Commander Jave</body>
+  </string>
+  <string>
+    <id>2330325</id>
+    <name>STR_IDF7_Ere_Sub_Named_Kn</name>
+    <body>37th Guard Leader Baikunta</body>
+  </string>
+  <string>
+    <id>2330326</id>
+    <name>STR_IDF7_Ere_Sub_Named_Pr</name>
+    <body>37th Supreme Healer Merabu</body>
+  </string>
+  <string>
+    <id>2330327</id>
+    <name>STR_IDF7_Ere_Sub_Named_Wi</name>
+    <body>37th Supreme Sorcerer Sarashkal</body>
+  </string>
+  <string>
+    <id>2330328</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Eresukigal</name>
+    <body>&lt;3,616 points&gt;</body>
+  </string>
+  <string>
+    <id>2330329</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Sub_Named_Fi</name>
+    <body>&lt;201 points&gt;</body>
+  </string>
+  <string>
+    <id>2330330</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Sub_Named_Kn</name>
+    <body>&lt;201 points&gt;</body>
+  </string>
+  <string>
+    <id>2330331</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Sub_Named_Pr</name>
+    <body>&lt;201 points&gt;</body>
+  </string>
+  <string>
+    <id>2330332</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Sub_Named_Wi</name>
+    <body>&lt;201 points&gt;</body>
+  </string>
+  <string>
+    <id>2330333</id>
+    <name>STR_OBJ_IDF7_Mine_Barricade_01</name>
+    <body>Spirit Wall</body>
+  </string>
+  <string>
+    <id>2330334</id>
+    <name>STR_OBJ_IDF7_Mine_Barricade_02</name>
+    <body>Thick Spirit Wall</body>
+  </string>
+  <string>
+    <id>2330335</id>
+    <name>STR_OBJ_IDF7_Mine_Barricade_03</name>
+    <body>Solid Spirit Wall</body>
+  </string>
+  <string>
+    <id>2330336</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Li_Fi_L</name>
+    <body>Imprisoned Soldier of the Vanguard of the Dragon Lord's Penal Squad</body>
+  </string>
+  <string>
+    <id>2330337</id>
+    <name>STR_IDF7_Ere_Minus_Guard_Da_Fi_L</name>
+    <body>Imprisoned Soldier of the Vanguard of the Dragon Lord's Cleanup Squad</body>
+  </string>
+  <string>
+    <id>2330338</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Minus_Guard_Li_Fi_L</name>
+    <body>&lt;124 points&gt;</body>
+  </string>
+  <string>
+    <id>2330339</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Minus_Guard_Da_Fi_L</name>
+    <body>&lt;124 points&gt;</body>
+  </string>
+  <string>
+    <id>2330340</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_key_D1</name>
+    <body>37th Drakan Guardian</body>
+  </string>
+  <string>
+    <id>2330341</id>
+    <name>STR_IDF7_Ere_Drakan_Fi_key_L</name>
+    <body>37th Drakan Guardian</body>
+  </string>
+  <string>
+    <id>2330342</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Drakan_key</name>
+    <body>&lt;Key Keeper&gt;</body>
+  </string>
+  <string>
+    <id>2330343</id>
+    <name>STR_IDF7_Ere_Jail_save</name>
+    <body>Prisoner Soldier of the Vanguard</body>
+  </string>
+  <string>
+    <id>2330344</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_1</name>
+    <body>Undead Rim Miner</body>
+  </string>
+  <string>
+    <id>2330345</id>
+    <name>STR_IDF7_Mine_UndeadDarkRaD_1</name>
+    <body>Undead Rim Crusher</body>
+  </string>
+  <string>
+    <id>2330346</id>
+    <name>STR_IDF7_Mine_UndeadLight_fi_1</name>
+    <body>Cursed Fiend</body>
+  </string>
+  <string>
+    <id>2330347</id>
+    <name>STR_IDF7_Mine_UndeadLight_wi_1</name>
+    <body>Lunatic Fiend</body>
+  </string>
+  <string>
+    <id>2330348</id>
+    <name>STR_IDF7_Mine_MutantBeast_Undead_58_An_1</name>
+    <body>Centipede caught in the Rim</body>
+  </string>
+  <string>
+    <id>2330349</id>
+    <name>STR_IDF7_Mine_LDF5_Under_KuillusM_65_An_1</name>
+    <body>Sparkle controlled by Rim</body>
+  </string>
+  <string>
+    <id>2330350</id>
+    <name>STR_IDF7_Mine_ShellizaardUndead_56_Ae_1</name>
+    <body>Ksellid caught in the Rim</body>
+  </string>
+  <string>
+    <id>2330351</id>
+    <name>STR_IDF7_Mine_MBrownieFWaCra_50_Ae_1</name>
+    <body>Undead Kobold Peon</body>
+  </string>
+  <string>
+    <id>2330352</id>
+    <name>STR_IDF7_Mine_MBrownieMWaCra_50_Ae_1</name>
+    <body>Undead Kobold Peon</body>
+  </string>
+  <string>
+    <id>2330353</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_23_An_2</name>
+    <body>Quarry Boss Dimo</body>
+  </string>
+  <string>
+    <id>2330354</id>
+    <name>STR_IDF7_Mine_UndeadDarkRaD_24_An_2</name>
+    <body>Deputy Rolenta</body>
+  </string>
+  <string>
+    <id>2330355</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_23_An_2_2</name>
+    <body>Expedition Leader Torben</body>
+  </string>
+  <string>
+    <id>2330356</id>
+    <name>STR_IDF7_Mine_world_event_edu_spirit_01_2_2</name>
+    <body>Head Researcher Allimas</body>
+  </string>
+  <string>
+    <id>2330357</id>
+    <name>STR_IDF7_Mine_Ratman_Standby_2_2</name>
+    <body>Undead Kobold Digger</body>
+  </string>
+  <string>
+    <id>2330358</id>
+    <name>STR_IDF7_Mine_Ratman_Standby_2_3</name>
+    <body>Undead Kobold Digging Supervisor</body>
+  </string>
+  <string>
+    <id>2330359</id>
+    <name>STR_IDF7_Mine_ShelukD_49_An_2</name>
+    <body>Klaw in the Rim Mine</body>
+  </string>
+  <string>
+    <id>2330360</id>
+    <name>STR_IDF7_Mine_ShelukD_49_An_2_2</name>
+    <body>Klaw Devourer of the Rim Mine</body>
+  </string>
+  <string>
+    <id>2330361</id>
+    <name>STR_IDF7_Mine_UndeadDarkRaD_24_n_1</name>
+    <body>Undead Rim Worker</body>
+  </string>
+  <string>
+    <id>2330362</id>
+    <name>STR_IDF7_Mine_Ratman_Standby_2_4</name>
+    <body>Undead Kobold Labourer</body>
+  </string>
+  <string>
+    <id>2330363</id>
+    <name>STR_IDF7_Mine_DramataEgg_57_l</name>
+    <body>Gallery fence</body>
+  </string>
+  <string>
+    <id>2330364</id>
+    <name>STR_IDF7_Mine_ShelukD_49_An_3</name>
+    <body>Klaw Soldier of the Rim Mine</body>
+  </string>
+  <string>
+    <id>2330365</id>
+    <name>STR_IDF7_Mine_ShelukD_49_An_3_1</name>
+    <body>Klaw Queen of the Gigantic Rim Mine</body>
+  </string>
+  <string>
+    <id>2330366</id>
+    <name>STR_IDF7_Mine_DramataEgg_57_2</name>
+    <body>Klaw Egg in the Rim Mine</body>
+  </string>
+  <string>
+    <id>2330367</id>
+    <name>STR_IDF7_Mine_PirateZombie_80_An_1</name>
+    <body>Klaw Looter of the Rim Mine</body>
+  </string>
+  <string>
+    <id>2330368</id>
+    <name>STR_IDF7_Mine_PirateZombieRe_80_An_1</name>
+    <body>Manipulated Rim Robber</body>
+  </string>
+  <string>
+    <id>2330369</id>
+    <name>STR_IDF7_Mine_PirateZombieRe_80_An_2</name>
+    <body>Manipulated Rim Robber</body>
+  </string>
+  <string>
+    <id>2330370</id>
+    <name>STR_IDF7_Mine_PirateZombie_80_An_2</name>
+    <body>Manipulated Rim Looter</body>
+  </string>
+  <string>
+    <id>2330371</id>
+    <name>STR_IDF7_Mine_PirateZombie_80_An_3</name>
+    <body>Manipulated Leader of the Rim Looters</body>
+  </string>
+  <string>
+    <id>2330372</id>
+    <name>STR_IDF7_Mine_Monster_M_Flyingeye</name>
+    <body>Oculazen in the Rim Mine</body>
+  </string>
+  <string>
+    <id>2330373</id>
+    <name>STR_IDF7_Mine_Prison_Undead_67_An_1</name>
+    <body>Resentful Commander Girad</body>
+  </string>
+  <string>
+    <id>2330374</id>
+    <name>STR_IDF7_Mine_Prison_Undead_67_An_2</name>
+    <body>Resentful Commander Girad</body>
+  </string>
+  <string>
+    <id>2330375</id>
+    <name>STR_IDF7_Mine_Prison_Undead_67_An_3</name>
+    <body>Resentful Commander Girad</body>
+  </string>
+  <string>
+    <id>2330376</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_23_An</name>
+    <body>Dark Mage Bukarota</body>
+  </string>
+  <string>
+    <id>2330377</id>
+    <name>Event_cubic_Shulack_01</name>
+    <body>6.2 Cube_Event_Shulack</body>
+  </string>
+  <string>
+    <id>2330378</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_1_gossip</name>
+    <body>Undead Rim Miner</body>
+  </string>
+  <string>
+    <id>2330379</id>
+    <name>STR_IDF7_Mine_MBrownieFWaCra_50_Ae_1_gossip</name>
+    <body>Undead Kobold Peon</body>
+  </string>
+  <string>
+    <id>2330380</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_1_2</name>
+    <body>Undead Rim Miner</body>
+  </string>
+  <string>
+    <id>2330381</id>
+    <name>STR_IDF7_Mine_UndeadDarkRaD_1_2</name>
+    <body>Undead Rim Crusher</body>
+  </string>
+  <string>
+    <id>2330382</id>
+    <name>STR_IDF7_Mine_UndeadLight_fi_1_2</name>
+    <body>Cursed Fiend</body>
+  </string>
+  <string>
+    <id>2330383</id>
+    <name>STR_IDF7_Mine_UndeadLight_wi_1_2</name>
+    <body>Lunatic Fiend</body>
+  </string>
+  <string>
+    <id>2330384</id>
+    <name>STR_IDF7_Mine_MutantBeast_Undead_58_An_1_2</name>
+    <body>Centipede caught in the Rim</body>
+  </string>
+  <string>
+    <id>2330385</id>
+    <name>STR_IDF7_Mine_LDF5_Under_KuillusM_65_An_1_2</name>
+    <body>Sparkle controlled by Rim</body>
+  </string>
+  <string>
+    <id>2330386</id>
+    <name>STR_IDF7_Mine_ShellizaardUndead_56_Ae_1_2</name>
+    <body>Ksellid caught in the Rim</body>
+  </string>
+  <string>
+    <id>2330387</id>
+    <name>STR_IDF7_Mine_MBrownieFWaCra_50_Ae_1_2</name>
+    <body>Undead Kobold Peon</body>
+  </string>
+  <string>
+    <id>2330388</id>
+    <name>STR_IDF7_Mine_MBrownieMWaCra_50_Ae_1_2</name>
+    <body>Undead Kobold Peon</body>
+  </string>
+  <string>
+    <id>2330389</id>
+    <name>STR_IDF7_Mine_MBrownieFWaCra_50_Ae_1_gossip1</name>
+    <body>Undead Kobold Peon</body>
+  </string>
+  <string>
+    <id>2330390</id>
+    <name>STR_IDF7_Mine_MBrownieMWaCra_50_Ae_1_gossip</name>
+    <body>Undead Kobold Peon</body>
+  </string>
+  <string>
+    <id>2330391</id>
+    <name>STR_IDF7_Mine_MBrownieMWaCra_50_Ae_1_gossip2</name>
+    <body>Undead Kobold Peon</body>
+  </string>
+  <string>
+    <id>2330392</id>
+    <name>STR_IDF7_Mine_Ratman_Standby_2_4_event</name>
+    <body>Undead Kobold Smuggler</body>
+  </string>
+  <string>
+    <id>2330393</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_23_An_3</name>
+    <body>Dark Mage Bukarota</body>
+  </string>
+  <string>
+    <id>2330394</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_23_An_4</name>
+    <body>Dark Mage Bukarota</body>
+  </string>
+  <string>
+    <id>2330395</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_23_An_5</name>
+    <body>Dark Mage Bukarota</body>
+  </string>
+  <string>
+    <id>2330396</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_23_An_6</name>
+    <body>Dark Mage Bukarota</body>
+  </string>
+  <string>
+    <id>2330397</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_23_An_7</name>
+    <body>Dark Mage Bukarota</body>
+  </string>
+  <string>
+    <id>2330398</id>
+    <name>STR_IDF7_Mine_UndeadDarkFiD_23_An_8</name>
+    <body>Dark Mage Bukarota</body>
+  </string>
+  <string>
+    <id>2330399</id>
+    <name>STR_PandoraRaid_MermanWarrior</name>
+    <body>Aquan Defender of Honour</body>
+  </string>
+  <string>
+    <id>2330400</id>
+    <name>STR_PandoraRaid_MermanMage</name>
+    <body>Aquan Shaman of Honour</body>
+  </string>
+  <string>
+    <id>2330401</id>
+    <name>STR_PandoraRaid_MermanPriest</name>
+    <body>Aquan Healer of Honour</body>
+  </string>
+  <string>
+    <id>2330402</id>
+    <name>STR_PandoraRaid_MermanScout</name>
+    <body>Aquan Scourge of Honour</body>
+  </string>
+  <string>
+    <id>2330403</id>
+    <name>STR_PandoraRaid_Driton_Fish</name>
+    <body>Summoned Triton</body>
+  </string>
+  <string>
+    <id>2330404</id>
+    <name>STR_PandoraRaid_MermanMage_Named</name>
+    <body>Cruel Nekmaru</body>
+  </string>
+  <string>
+    <id>2330405</id>
+    <name>STR_PandoraRaid_MermanWarrior_Named</name>
+    <body>Usurper Demaruk</body>
+  </string>
+  <string>
+    <id>2330406</id>
+    <name>STR_PandoraRaid_DrakanFighter</name>
+    <body>Fighter of the 48th Invasion Troop</body>
+  </string>
+  <string>
+    <id>2330407</id>
+    <name>STR_PandoraRaid_DrakanGunnerF</name>
+    <body>Sniper of the 48th Invasion Troop</body>
+  </string>
+  <string>
+    <id>2330408</id>
+    <name>STR_PandoraRaid_DrakanMageF</name>
+    <body>Foot Soldier of the 48th Invasion Troop</body>
+  </string>
+  <string>
+    <id>2330409</id>
+    <name>STR_PandoraRaid_DrakanScout</name>
+    <body>Scout of the 48th Invasion Troop</body>
+  </string>
+  <string>
+    <id>2330410</id>
+    <name>STR_PandoraRaid_DrakanScout_Ra</name>
+    <body>Reinforcements of the 48th Invasion Troop</body>
+  </string>
+  <string>
+    <id>2330411</id>
+    <name>STR_PandoraRaid_DrakanBard</name>
+    <body>Military Musician of the 48th Invasion Troop</body>
+  </string>
+  <string>
+    <id>2330412</id>
+    <name>STR_PandoraRaid_DrakanMageF_Named</name>
+    <body>Reinforcements Leader of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330413</id>
+    <name>STR_PandoraRaid_DrakanFighter_Named</name>
+    <body>Chief Administrator of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330414</id>
+    <name>STR_PandoraRaid_DrakanBeastRider_Named</name>
+    <body>Training Leader of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330415</id>
+    <name>STR_PandoraRaid_GolemPrime_Vritra</name>
+    <body>Sinister Nazralm</body>
+  </string>
+  <string>
+    <id>2330416</id>
+    <name>STR_PandoraRaid_Octaside</name>
+    <body>Blackthorn Arachna</body>
+  </string>
+  <string>
+    <id>2330417</id>
+    <name>STR_PandoraRaid_Octaside_Ra</name>
+    <body>Blackthorn Arachna</body>
+  </string>
+  <string>
+    <id>2330418</id>
+    <name>STR_PandoraRaid_Octaside_Forest</name>
+    <body>Claw Arachna</body>
+  </string>
+  <string>
+    <id>2330419</id>
+    <name>STR_PandoraRaid_SpiderQueen</name>
+    <body>Harken Oktamain</body>
+  </string>
+  <string>
+    <id>2330420</id>
+    <name>STR_PandoraRaid_Dragonfly_Locust</name>
+    <body>Pitch Black Leowasp</body>
+  </string>
+  <string>
+    <id>2330421</id>
+    <name>STR_PandoraRaid_Guardian_Sea</name>
+    <body>True Black Protector</body>
+  </string>
+  <string>
+    <id>2330422</id>
+    <name>STR_PandoraRaid_LizardmanFighter_Bone</name>
+    <body>Dead Lizadra</body>
+  </string>
+  <string>
+    <id>2330423</id>
+    <name>STR_PandoraRaid_LizardmanRanger_Bone</name>
+    <body>Dead Lizadra</body>
+  </string>
+  <string>
+    <id>2330424</id>
+    <name>STR_PandoraRaid_HippolizardRe2</name>
+    <body>Bonescale Tipolid</body>
+  </string>
+  <string>
+    <id>2330425</id>
+    <name>STR_PandoraRaid_SkeletonKing</name>
+    <body>Deadly Skelia</body>
+  </string>
+  <string>
+    <id>2330426</id>
+    <name>STR_PandoraRaid_Rafflesia_SeaRe</name>
+    <body>Mist-Thorn Malodor</body>
+  </string>
+  <string>
+    <id>2330427</id>
+    <name>STR_PandoraRaid_Chimera</name>
+    <body>Roaring Tyrannika</body>
+  </string>
+  <string>
+    <id>2330428</id>
+    <name>STR_PandoraRaid_FrillFaimam_Green</name>
+    <body>Sawtooth Frillneck</body>
+  </string>
+  <string>
+    <id>2330429</id>
+    <name>STR_PandoraRaid_SandShark_Sea</name>
+    <body>Mirage Zanthay</body>
+  </string>
+  <string>
+    <id>2330430</id>
+    <name>STR_PandoraRaid_Bat_Crack</name>
+    <body>Red Thorn Birrell</body>
+  </string>
+  <string>
+    <id>2330431</id>
+    <name>STR_PandoraRaid_Agrint_Coral</name>
+    <body>Stalwart Coral Krox</body>
+  </string>
+  <string>
+    <id>2330432</id>
+    <name>STR_PandoraRaid_Elementalearth2_Sea</name>
+    <body>Rabid Highland Spirit</body>
+  </string>
+  <string>
+    <id>2330433</id>
+    <name>STR_PandoraRaid_Varanus_Sea</name>
+    <body>Blue Scale Monitor</body>
+  </string>
+  <string>
+    <id>2330434</id>
+    <name>STR_PandoraRaid_SandWorm</name>
+    <body>Cruel Nadanitasha</body>
+  </string>
+  <string>
+    <id>2330435</id>
+    <name>STR_PandoraRaid_LizardmanFighter</name>
+    <body>Ruthless Canyon Lizadra</body>
+  </string>
+  <string>
+    <id>2330436</id>
+    <name>STR_PandoraRaid_LizardmanPriest</name>
+    <body>Dangerous Canyon Lizadra</body>
+  </string>
+  <string>
+    <id>2330437</id>
+    <name>STR_PandoraRaid_Condor</name>
+    <body>Raging Conchy</body>
+  </string>
+  <string>
+    <id>2330438</id>
+    <name>STR_PandoraRaid_Rafflesia_Sea</name>
+    <body>Ruins Malodor</body>
+  </string>
+  <string>
+    <id>2330439</id>
+    <name>STR_IDF7_Ere_Eresukigal_AKT_Cannon_Li</name>
+    <body>Battered Balaur Killer Cannon (Elyos)</body>
+  </string>
+  <string>
+    <id>2330440</id>
+    <name>STR_IDF7_Ere_Eresukigal_AKT_Cannon_Da</name>
+    <body>Battered Balaur Killer Cannon (Asmodian)</body>
+  </string>
+  <string>
+    <id>2330441</id>
+    <name>STR_IDBattleChange_Polymorph_Kn_NPC_Li_01</name>
+    <body>Transformation Statue: Purple Inquin with Longsword</body>
+  </string>
+  <string>
+    <id>2330442</id>
+    <name>STR_IDBattleChange_Polymorph_Kn_NPC_Li_02</name>
+    <body>Transformation Statue: Purple Inquin with Longsword</body>
+  </string>
+  <string>
+    <id>2330443</id>
+    <name>STR_IDBattleChange_Polymorph_Kn_NPC_Li_03</name>
+    <body>Transformation Statue: Purple Inquin with Longsword</body>
+  </string>
+  <string>
+    <id>2330444</id>
+    <name>STR_IDBattleChange_Polymorph_Kn_NPC_Da_01</name>
+    <body>Transformation Statue: Purple Inquin with Longsword</body>
+  </string>
+  <string>
+    <id>2330445</id>
+    <name>STR_IDBattleChange_Polymorph_Kn_NPC_Da_02</name>
+    <body>Transformation Statue: Purple Inquin with Longsword</body>
+  </string>
+  <string>
+    <id>2330446</id>
+    <name>STR_IDBattleChange_Polymorph_Kn_NPC_Da_03</name>
+    <body>Transformation Statue: Purple Inquin with Longsword</body>
+  </string>
+  <string>
+    <id>2330447</id>
+    <name>STR_IDBattleChange_Polymorph_Fi_NPC_Li_01</name>
+    <body>Transformation Statue: Desert Fox with Greatsword</body>
+  </string>
+  <string>
+    <id>2330448</id>
+    <name>STR_IDBattleChange_Polymorph_Fi_NPC_Li_02</name>
+    <body>Transformation Statue: Desert Fox with Greatsword</body>
+  </string>
+  <string>
+    <id>2330449</id>
+    <name>STR_IDBattleChange_Polymorph_Fi_NPC_Li_03</name>
+    <body>Transformation Statue: Desert Fox with Greatsword</body>
+  </string>
+  <string>
+    <id>2330450</id>
+    <name>STR_IDBattleChange_Polymorph_Fi_NPC_Da_01</name>
+    <body>Transformation Statue: Desert Fox with Greatsword</body>
+  </string>
+  <string>
+    <id>2330451</id>
+    <name>STR_IDBattleChange_Polymorph_Fi_NPC_Da_02</name>
+    <body>Transformation Statue: Desert Fox with Greatsword</body>
+  </string>
+  <string>
+    <id>2330452</id>
+    <name>STR_IDBattleChange_Polymorph_Fi_NPC_Da_03</name>
+    <body>Transformation Statue: Desert Fox with Greatsword</body>
+  </string>
+  <string>
+    <id>2330453</id>
+    <name>STR_IDBattleChange_Polymorph_Wi_NPC_Li_01</name>
+    <body>Transformation Statue: Cat with Spellbook</body>
+  </string>
+  <string>
+    <id>2330454</id>
+    <name>STR_IDBattleChange_Polymorph_Wi_NPC_Li_02</name>
+    <body>Transformation Statue: Cat with Spellbook</body>
+  </string>
+  <string>
+    <id>2330455</id>
+    <name>STR_IDBattleChange_Polymorph_Wi_NPC_Li_03</name>
+    <body>Transformation Statue: Cat with Spellbook</body>
+  </string>
+  <string>
+    <id>2330456</id>
+    <name>STR_IDBattleChange_Polymorph_Wi_NPC_Da_01</name>
+    <body>Transformation Statue: Cat with Spellbook</body>
+  </string>
+  <string>
+    <id>2330457</id>
+    <name>STR_IDBattleChange_Polymorph_Wi_NPC_Da_02</name>
+    <body>Transformation Statue: Cat with Spellbook</body>
+  </string>
+  <string>
+    <id>2330458</id>
+    <name>STR_IDBattleChange_Polymorph_Wi_NPC_Da_03</name>
+    <body>Transformation Statue: Cat with Spellbook</body>
+  </string>
+  <string>
+    <id>2330459</id>
+    <name>STR_IDBattleChange_Polymorph_Gu_NPC_Li_01</name>
+    <body>Transformation Statue: Rabbit Bandit with Aether Cannon</body>
+  </string>
+  <string>
+    <id>2330460</id>
+    <name>STR_IDBattleChange_Polymorph_Gu_NPC_Li_02</name>
+    <body>Transformation Statue: Rabbit Bandit with Aether Cannon</body>
+  </string>
+  <string>
+    <id>2330461</id>
+    <name>STR_IDBattleChange_Polymorph_Gu_NPC_Li_03</name>
+    <body>Transformation Statue: Rabbit Bandit with Aether Cannon</body>
+  </string>
+  <string>
+    <id>2330462</id>
+    <name>STR_IDBattleChange_Polymorph_Gu_NPC_Da_01</name>
+    <body>Transformation Statue: Rabbit Bandit with Aether Cannon</body>
+  </string>
+  <string>
+    <id>2330463</id>
+    <name>STR_IDBattleChange_Polymorph_Gu_NPC_Da_02</name>
+    <body>Transformation Statue: Rabbit Bandit with Aether Cannon</body>
+  </string>
+  <string>
+    <id>2330464</id>
+    <name>STR_IDBattleChange_Polymorph_Gu_NPC_Da_03</name>
+    <body>Transformation Statue: Rabbit Bandit with Aether Cannon</body>
+  </string>
+  <string>
+    <id>2330465</id>
+    <name>STR_IDBattleChange_Polymorph_Pr_NPC_Li_01</name>
+    <body>Transformation Statue: Bah with Mace</body>
+  </string>
+  <string>
+    <id>2330466</id>
+    <name>STR_IDBattleChange_Polymorph_Pr_NPC_Li_02</name>
+    <body>Transformation Statue: Bah with Mace</body>
+  </string>
+  <string>
+    <id>2330467</id>
+    <name>STR_IDBattleChange_Polymorph_Pr_NPC_Li_03</name>
+    <body>Transformation Statue: Bah with Mace</body>
+  </string>
+  <string>
+    <id>2330468</id>
+    <name>STR_IDBattleChange_Polymorph_Pr_NPC_Da_01</name>
+    <body>Transformation Statue: Bah with Mace</body>
+  </string>
+  <string>
+    <id>2330469</id>
+    <name>STR_IDBattleChange_Polymorph_Pr_NPC_Da_02</name>
+    <body>Transformation Statue: Bah with Mace</body>
+  </string>
+  <string>
+    <id>2330470</id>
+    <name>STR_IDBattleChange_Polymorph_Pr_NPC_Da_03</name>
+    <body>Transformation Statue: Bah with Mace</body>
+  </string>
+  <string>
+    <id>2330471</id>
+    <name>STR_IDBattleChange_Polymorph_Ch_NPC_Li_01</name>
+    <body>Transformation Statue: Pomeranian with Staff</body>
+  </string>
+  <string>
+    <id>2330472</id>
+    <name>STR_IDBattleChange_Polymorph_Ch_NPC_Li_02</name>
+    <body>Transformation Statue: Pomeranian with Staff</body>
+  </string>
+  <string>
+    <id>2330473</id>
+    <name>STR_IDBattleChange_Polymorph_Ch_NPC_Li_03</name>
+    <body>Transformation Statue: Pomeranian with Staff</body>
+  </string>
+  <string>
+    <id>2330474</id>
+    <name>STR_IDBattleChange_Polymorph_Ch_NPC_Da_01</name>
+    <body>Transformation Statue: Pomeranian with Staff</body>
+  </string>
+  <string>
+    <id>2330475</id>
+    <name>STR_IDBattleChange_Polymorph_Ch_NPC_Da_02</name>
+    <body>Transformation Statue: Pomeranian with Staff</body>
+  </string>
+  <string>
+    <id>2330476</id>
+    <name>STR_IDBattleChange_Polymorph_Ch_NPC_Da_03</name>
+    <body>Transformation Statue: Pomeranian with Staff</body>
+  </string>
+  <string>
+    <id>2330477</id>
+    <name>STR_IDWarterWorld_Shulack_Low_Fi_63_An_Nmd</name>
+    <body>Captain Muata</body>
+  </string>
+  <string>
+    <id>2330478</id>
+    <name>STR_IDWarterWorld_Brownie_Low_63_An_Nmd</name>
+    <body>Doctor Arcetto</body>
+  </string>
+  <string>
+    <id>2330479</id>
+    <name>STR_IDWarterWorld_Ratman_Low_63_An_Nmd</name>
+    <body>Waterworld_Skurv_Given Nmd_Special Dungeon_63</body>
+  </string>
+  <string>
+    <id>2330480</id>
+    <name>STR_IDWarterWorld_Shadowstalker_Low_63_An_Nmd</name>
+    <body>Waterworld_ShadowStalker_Given Nmd_Special Dungeon_63</body>
+  </string>
+  <string>
+    <id>2330481</id>
+    <name>STR_IDWarterWorld_Shulack_Low_As_63_An_Nmd</name>
+    <body>Madame Chichiriko</body>
+  </string>
+  <string>
+    <id>2330482</id>
+    <name>STR_IDWarterWorld_Shulack_Low_Ri_63_An2_Nmd</name>
+    <body>Returned Grogget</body>
+  </string>
+  <string>
+    <id>2330483</id>
+    <name>STR_IDWarterWorld_ShulackAs_Work_51_Ae</name>
+    <body>Waterworld_Shulack Assassin Work_51_Ae</body>
+  </string>
+  <string>
+    <id>2330484</id>
+    <name>STR_IDWarterWorld_ShulackAs_Work_52_Ae</name>
+    <body>Waterworld_Shulack Assassin Work_52_Ae</body>
+  </string>
+  <string>
+    <id>2330485</id>
+    <name>STR_IDWarterWorld_ShulackWi_Work_52_Ae</name>
+    <body>Waterworld_Shulack Sorcerer Work_52_Ae</body>
+  </string>
+  <string>
+    <id>2330486</id>
+    <name>STR_IDWarterWorld_ShulackPr_Work_51_Ae</name>
+    <body>Waterworld_Shulack Priest Work_51_Ae</body>
+  </string>
+  <string>
+    <id>2330487</id>
+    <name>STR_IDWarterWorld_ShulackPr_Work_52_Ae</name>
+    <body>Waterworld_Shulack Priest Work_52_Ae</body>
+  </string>
+  <string>
+    <id>2330488</id>
+    <name>STR_IDWarterWorld_ShulackFi_Work_51_Ae</name>
+    <body>Waterworld_Shulack Fighter Work_51_Ae</body>
+  </string>
+  <string>
+    <id>2330489</id>
+    <name>STR_IDWarterWorld_ShulackFi_Work_52_Ae</name>
+    <body>Waterworld_Shulack Fighter Work_52_Ae</body>
+  </string>
+  <string>
+    <id>2330490</id>
+    <name>STR_IDWarterWorld_ShulackKn_Work_52_Ae</name>
+    <body>Waterworld_Shulack Templar Work_52_Ae</body>
+  </string>
+  <string>
+    <id>2330491</id>
+    <name>STR_IDWarterWorld_ShulackRa_Work_51_Ae</name>
+    <body>Waterworld_Shulack Hunter Work_51_Ae</body>
+  </string>
+  <string>
+    <id>2330492</id>
+    <name>STR_IDWarterWorld_BrownieMWo_41_Ae_Work</name>
+    <body>Waterworld_Kobold Worker_41_Ae_Work</body>
+  </string>
+  <string>
+    <id>2330493</id>
+    <name>STR_IDWarterWorld_BrownieMWo_44_Ae_Work</name>
+    <body>Waterworld_Kobold Worker_44_Ae_Work</body>
+  </string>
+  <string>
+    <id>2330494</id>
+    <name>STR_BLDF7_1521_Miston_v65_ATK_Tank_Li</name>
+    <body>Elyos Auxiliary Siege Tank</body>
+  </string>
+  <string>
+    <id>2330495</id>
+    <name>STR_BLDF7_1521_Miston_v65_DEF_Cannon_Li</name>
+    <body>Elyos Auxiliary Siege Cannon</body>
+  </string>
+  <string>
+    <id>2330496</id>
+    <name>STR_BLDF7_1521_Miston_v65_ATK_Guard_Fi_Li</name>
+    <body>Slayer of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330497</id>
+    <name>STR_BLDF7_1521_Miston_v65_ATK_Guard_Wi_Li</name>
+    <body>High Magus of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330498</id>
+    <name>STR_BLDF7_1521_Miston_v65_ATK_Boss_Li</name>
+    <body>Guardian General Apprentice of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330499</id>
+    <name>STR_BLDF7_1521_Miston_v65_ATK_Killer_Li</name>
+    <body>Attack Officer of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330500</id>
+    <name>STR_BLDF7_1521_Miston_v65_DEF_Guard_Fi_Li</name>
+    <body>Slayer of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330501</id>
+    <name>STR_BLDF7_1521_Miston_v65_DEF_Guard_Wi_Li</name>
+    <body>High Magus of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330502</id>
+    <name>STR_BLDF7_1521_Miston_v65_DEF_Boss_Li</name>
+    <body>Guardian General Apprentice of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330503</id>
+    <name>STR_BLDF7_1521_Miston_v65_DEF_Healer_Li</name>
+    <body>Priest of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330504</id>
+    <name>STR_BLDF7_1521_Miston_v65_ATK_Tank_Da</name>
+    <body>Asmodian Auxiliary Siege Tank</body>
+  </string>
+  <string>
+    <id>2330505</id>
+    <name>STR_BLDF7_1521_Miston_v65_DEF_Cannon_Da</name>
+    <body>Asmodian Auxiliary Siege Cannon</body>
+  </string>
+  <string>
+    <id>2330506</id>
+    <name>STR_BLDF7_1521_Miston_v65_ATK_Guard_Fi_Da</name>
+    <body>Slayer of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330507</id>
+    <name>STR_BLDF7_1521_Miston_v65_ATK_Guard_Wi_Da</name>
+    <body>High Magus of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330508</id>
+    <name>STR_BLDF7_1521_Miston_v65_ATK_Boss_Da</name>
+    <body>Guardian General Apprentice of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330509</id>
+    <name>STR_BLDF7_1521_Miston_v65_ATK_Killer_Da</name>
+    <body>Attack Officer of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330510</id>
+    <name>STR_BLDF7_1521_Miston_v65_DEF_Guard_Fi_Da</name>
+    <body>Slayer of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330511</id>
+    <name>STR_BLDF7_1521_Miston_v65_DEF_Guard_Wi_Da</name>
+    <body>High Magus of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330512</id>
+    <name>STR_BLDF7_1521_Miston_v65_DEF_Boss_Da</name>
+    <body>Guardian General Apprentice of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330513</id>
+    <name>STR_BLDF7_1521_Miston_v65_DEF_Healer_Da</name>
+    <body>Priest of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330514</id>
+    <name>STR_BAb1_1011_Miston_v65_Guard_Fi_Li</name>
+    <body>Slayer of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330515</id>
+    <name>STR_BAb1_1011_Miston_v65_Guard_Wi_Li</name>
+    <body>High Magus of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330516</id>
+    <name>STR_BAb1_1011_Miston_v65_Boss_Li</name>
+    <body>Guardian General Apprentice of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330517</id>
+    <name>STR_BAb1_1011_Miston_v65_Killer_Li</name>
+    <body>Attack Officer of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330518</id>
+    <name>STR_BAb1_1011_Miston_v65_Guard_Fi_Da</name>
+    <body>Slayer of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330519</id>
+    <name>STR_BAb1_1011_Miston_v65_Guard_Wi_Da</name>
+    <body>High Magus of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330520</id>
+    <name>STR_BAb1_1011_Miston_v65_Boss_Da</name>
+    <body>Guardian General Apprentice of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330521</id>
+    <name>STR_BAb1_1011_Miston_v65_Killer_Da</name>
+    <body>Attack Officer of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330522</id>
+    <name>STR_BAb1_1011_Miston_v65_Basic_Guard_Fi_Li</name>
+    <body>Fighter of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330523</id>
+    <name>STR_BAb1_1011_Miston_v65_Basic_Guard_Wi_Li</name>
+    <body>Battle Mage of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330524</id>
+    <name>STR_BAb1_1011_Miston_v65_Basic_Guard_As_Li</name>
+    <body>Robber of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330525</id>
+    <name>STR_BAb1_1011_Miston_v65_Basic_Guard_Ra_Li</name>
+    <body>Archer of the Elyos Strike Troop</body>
+  </string>
+  <string>
+    <id>2330526</id>
+    <name>STR_BAb1_1011_Miston_v65_Basic_Guard_Fi_Da</name>
+    <body>Fighter of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330527</id>
+    <name>STR_BAb1_1011_Miston_v65_Basic_Guard_Wi_Da</name>
+    <body>Battle Mage of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330528</id>
+    <name>STR_BAb1_1011_Miston_v65_Basic_Guard_As_Da</name>
+    <body>Robber of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330529</id>
+    <name>STR_BAb1_1011_Miston_v65_Basic_Guard_Ra_Da</name>
+    <body>Archer of the Asmodian Strike Troop</body>
+  </string>
+  <string>
+    <id>2330530</id>
+    <name>STR_PandoraRaid_LF5_Boss</name>
+    <body>Sapiens Leader</body>
+  </string>
+  <string>
+    <id>2330531</id>
+    <name>STR_PandoraRaid_LF5_Boss_Li</name>
+    <body>Elyos Leader</body>
+  </string>
+  <string>
+    <id>2330532</id>
+    <name>STR_PandoraRaid_LF5_Boss_Da</name>
+    <body>Asmodian Leader</body>
+  </string>
+  <string>
+    <id>2330533</id>
+    <name>STR_PandoraRaid_DF5_Boss</name>
+    <body>Balaur Leader</body>
+  </string>
+  <string>
+    <id>2330534</id>
+    <name>STR_PandoraRaid_DF5_Boss_Li</name>
+    <body>Elyos Leader</body>
+  </string>
+  <string>
+    <id>2330535</id>
+    <name>STR_PandoraRaid_DF5_Boss_Da</name>
+    <body>Asmodian Leader</body>
+  </string>
+  <string>
+    <id>2330536</id>
+    <name>STR_IDBattleChange_LiTower</name>
+    <body>Icons of Life</body>
+  </string>
+  <string>
+    <id>2330537</id>
+    <name>STR_IDBattleChange_DaTower</name>
+    <body>Icons of Wisdom</body>
+  </string>
+  <string>
+    <id>2330538</id>
+    <name>STR_IDBattleChange_NPC_Li_Fi_all</name>
+    <body>Life Debt Fighter</body>
+  </string>
+  <string>
+    <id>2330539</id>
+    <name>STR_IDBattleChange_NPC_Li_As_all</name>
+    <body>Life Debt Assassins</body>
+  </string>
+  <string>
+    <id>2330540</id>
+    <name>STR_IDBattleChange_NPC_Li_Wi_all</name>
+    <body>Life Debt Foot Soldier</body>
+  </string>
+  <string>
+    <id>2330541</id>
+    <name>STR_IDBattleChange_NPC_Da_Fi_all</name>
+    <body>Wise Judgement Fighter</body>
+  </string>
+  <string>
+    <id>2330542</id>
+    <name>STR_IDBattleChange_NPC_Da_As_all</name>
+    <body>Wise Judgement Assassins</body>
+  </string>
+  <string>
+    <id>2330543</id>
+    <name>STR_IDBattleChange_NPC_Da_Wi_all</name>
+    <body>Wise Judgement Foot Soldier</body>
+  </string>
+  <string>
+    <id>2330544</id>
+    <name>STR_IDBattleChange_Cannon_Li_06</name>
+    <body>Guardian Siege Tank</body>
+  </string>
+  <string>
+    <id>2330545</id>
+    <name>STR_IDBattleChange_Cannon_Da_06</name>
+    <body>Archon Siege Tank</body>
+  </string>
+  <string>
+    <id>2330546</id>
+    <name>STR_NPC_IDF7_Ere_Prison_Nepilim_01</name>
+    <body>Jarba</body>
+  </string>
+  <string>
+    <id>2330547</id>
+    <name>STR_NPC_IDF7_Ere_Prison_Nepilim_02</name>
+    <body>Cursed Senekta Statue</body>
+  </string>
+  <string>
+    <id>2330548</id>
+    <name>STR_NPC_IDF7_Ere_Weapon</name>
+    <body>Senekta Petralith</body>
+  </string>
+  <string>
+    <id>2330549</id>
+    <name>STR_IDBattle_Change_Boss_80_Ah</name>
+    <body>Illusory Kunax</body>
+  </string>
+  <string>
+    <id>2330550</id>
+    <name>STR_CUBIC_STAT_EresukigalATK_01_Info</name>
+    <body>Ereshkigal Ranger's Gold Cube</body>
+  </string>
+  <string>
+    <id>2330551</id>
+    <name>STR_CUBIC_STAT_EresukigalATK_02_Info</name>
+    <body>Ereshkigal Ranger's Silver Cube</body>
+  </string>
+  <string>
+    <id>2330552</id>
+    <name>STR_CUBIC_STAT_EresukigalATK_03_Info</name>
+    <body>Ereshkigal Ranger's Bronze Cube</body>
+  </string>
+  <string>
+    <id>2330553</id>
+    <name>STR_CUBIC_STAT_EresukigalDEF_01_Info</name>
+    <body>Ereshkigal Expert's Gold Cube</body>
+  </string>
+  <string>
+    <id>2330554</id>
+    <name>STR_CUBIC_STAT_EresukigalDEF_02_Info</name>
+    <body>Ereshkigal Expert's Silver Cube</body>
+  </string>
+  <string>
+    <id>2330555</id>
+    <name>STR_CUBIC_STAT_EresukigalDEF_03_Info</name>
+    <body>Ereshkigal Expert's Bronze Cube</body>
+  </string>
+  <string>
+    <id>2330556</id>
+    <name>STR_CUBIC_STAT_EresukigalATK_01_Info_DESC</name>
+    <body>A cube that increase the damage from attacks on Ereshkigal.</body>
+  </string>
+  <string>
+    <id>2330557</id>
+    <name>STR_CUBIC_STAT_EresukigalATK_02_Info_DESC</name>
+    <body>A cube that increase the damage from attacks on Ereshkigal.</body>
+  </string>
+  <string>
+    <id>2330558</id>
+    <name>STR_CUBIC_STAT_EresukigalATK_03_Info_DESC</name>
+    <body>A cube that increase the damage from attacks on Ereshkigal.</body>
+  </string>
+  <string>
+    <id>2330559</id>
+    <name>STR_CUBIC_STAT_EresukigalDEF_01_Info_DESC</name>
+    <body>A cube that improves the defence from Ereshkigal's attacks.</body>
+  </string>
+  <string>
+    <id>2330560</id>
+    <name>STR_CUBIC_STAT_EresukigalDEF_02_Info_DESC</name>
+    <body>A cube that improves the defence from Ereshkigal's attacks.</body>
+  </string>
+  <string>
+    <id>2330561</id>
+    <name>STR_CUBIC_STAT_EresukigalDEF_03_Info_DESC</name>
+    <body>A cube that improves the defence from Ereshkigal's attacks.</body>
+  </string>
+  <string>
+    <id>2330562</id>
+    <name>STR_IDF7_Mine_DramataEgg_57_2_2</name>
+    <body>An egg that has almost fully hatched.</body>
+  </string>
+  <string>
+    <id>2330563</id>
+    <name>STR_LF5_PRaid_LGuard_Kn01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330564</id>
+    <name>STR_LF5_PRaid_LGuard_Kn01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330565</id>
+    <name>STR_LF5_PRaid_LGuard_Fi01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330566</id>
+    <name>STR_LF5_PRaid_LGuard_Fi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330567</id>
+    <name>STR_LF5_PRaid_LGuard_As01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330568</id>
+    <name>STR_LF5_PRaid_LGuard_As01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330569</id>
+    <name>STR_LF5_PRaid_LGuard_Ra01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330570</id>
+    <name>STR_LF5_PRaid_LGuard_Ra01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330571</id>
+    <name>STR_LF5_PRaid_LGuard_Ra01_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330572</id>
+    <name>STR_LF5_PRaid_LGuard_Wi01_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330573</id>
+    <name>STR_LF5_PRaid_LGuard_Wi01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330574</id>
+    <name>STR_LF5_PRaid_LGuard_Wi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330575</id>
+    <name>STR_LF5_PRaid_LGuard_Kn02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330576</id>
+    <name>STR_LF5_PRaid_LGuard_Kn02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330577</id>
+    <name>STR_LF5_PRaid_LGuard_Fi02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330578</id>
+    <name>STR_LF5_PRaid_LGuard_Fi02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330579</id>
+    <name>STR_LF5_PRaid_LGuard_As02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330580</id>
+    <name>STR_LF5_PRaid_LGuard_As02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330581</id>
+    <name>STR_LF5_PRaid_LGuard_Ra02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330582</id>
+    <name>STR_LF5_PRaid_LGuard_Ra02_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330583</id>
+    <name>STR_LF5_PRaid_LGuard_Ra02_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330584</id>
+    <name>STR_LF5_PRaid_LGuard_Wi02_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330585</id>
+    <name>STR_LF5_PRaid_LGuard_Wi02_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330586</id>
+    <name>STR_LF5_PRaid_LGuard_Wi02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330587</id>
+    <name>STR_LF5_PRaid_LGuard_Kn03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330588</id>
+    <name>STR_LF5_PRaid_LGuard_Kn03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330589</id>
+    <name>STR_LF5_PRaid_LGuard_Fi03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330590</id>
+    <name>STR_LF5_PRaid_LGuard_Fi03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330591</id>
+    <name>STR_LF5_PRaid_LGuard_As03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330592</id>
+    <name>STR_LF5_PRaid_LGuard_As03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330593</id>
+    <name>STR_LF5_PRaid_LGuard_Ra03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330594</id>
+    <name>STR_LF5_PRaid_LGuard_Ra03_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330595</id>
+    <name>STR_LF5_PRaid_LGuard_Ra03_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330596</id>
+    <name>STR_LF5_PRaid_LGuard_Wi03_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330597</id>
+    <name>STR_LF5_PRaid_LGuard_Wi03_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330598</id>
+    <name>STR_LF5_PRaid_LGuard_Wi03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330599</id>
+    <name>STR_DF5_PRaid_DGuard_Kn01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330600</id>
+    <name>STR_DF5_PRaid_DGuard_Kn01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330601</id>
+    <name>STR_DF5_PRaid_DGuard_Fi01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330602</id>
+    <name>STR_DF5_PRaid_DGuard_Fi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330603</id>
+    <name>STR_DF5_PRaid_DGuard_As01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330604</id>
+    <name>STR_DF5_PRaid_DGuard_As01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330605</id>
+    <name>STR_DF5_PRaid_DGuard_Ra01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330606</id>
+    <name>STR_DF5_PRaid_DGuard_Ra01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330607</id>
+    <name>STR_DF5_PRaid_DGuard_Ra01_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330608</id>
+    <name>STR_DF5_PRaid_DGuard_Wi01_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330609</id>
+    <name>STR_DF5_PRaid_DGuard_Wi01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330610</id>
+    <name>STR_DF5_PRaid_DGuard_Wi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330611</id>
+    <name>STR_DF5_PRaid_DGuard_Kn02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330612</id>
+    <name>STR_DF5_PRaid_DGuard_Kn02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330613</id>
+    <name>STR_DF5_PRaid_DGuard_Fi02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330614</id>
+    <name>STR_DF5_PRaid_DGuard_Fi02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330615</id>
+    <name>STR_DF5_PRaid_DGuard_As02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330616</id>
+    <name>STR_DF5_PRaid_DGuard_As02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330617</id>
+    <name>STR_DF5_PRaid_DGuard_Ra02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330618</id>
+    <name>STR_DF5_PRaid_DGuard_Ra02_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330619</id>
+    <name>STR_DF5_PRaid_DGuard_Ra02_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330620</id>
+    <name>STR_DF5_PRaid_DGuard_Wi02_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330621</id>
+    <name>STR_DF5_PRaid_DGuard_Wi02_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330622</id>
+    <name>STR_DF5_PRaid_DGuard_Wi02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330623</id>
+    <name>STR_DF5_PRaid_DGuard_Kn03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330624</id>
+    <name>STR_DF5_PRaid_DGuard_Kn03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330625</id>
+    <name>STR_DF5_PRaid_DGuard_Fi03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330626</id>
+    <name>STR_DF5_PRaid_DGuard_Fi03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330627</id>
+    <name>STR_DF5_PRaid_DGuard_As03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330628</id>
+    <name>STR_DF5_PRaid_DGuard_As03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330629</id>
+    <name>STR_DF5_PRaid_DGuard_Ra03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330630</id>
+    <name>STR_DF5_PRaid_DGuard_Ra03_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330631</id>
+    <name>STR_DF5_PRaid_DGuard_Ra03_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330632</id>
+    <name>STR_DF5_PRaid_DGuard_Wi03_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330633</id>
+    <name>STR_DF5_PRaid_DGuard_Wi03_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330634</id>
+    <name>STR_DF5_PRaid_DGuard_Wi03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330635</id>
+    <name>STR_NPCTITLE_PandoraR_Guard</name>
+    <body>&lt;Reinforcement for the Gate Control&gt;</body>
+  </string>
+  <string>
+    <id>2330636</id>
+    <name>STR_LF5_Energy_Li_01</name>
+    <body>Mist-Thorn Resource Transport</body>
+  </string>
+  <string>
+    <id>2330637</id>
+    <name>STR_DF5_Energy_Li_02</name>
+    <body>Ruins Resource Transport</body>
+  </string>
+  <string>
+    <id>2330638</id>
+    <name>STR_LF5_Energy_Da_01</name>
+    <body>Mist-Thorn Resource Transport</body>
+  </string>
+  <string>
+    <id>2330639</id>
+    <name>STR_DF5_Energy_Da_02</name>
+    <body>Ruins Resource Transport</body>
+  </string>
+  <string>
+    <id>2330640</id>
+    <name>STR_IDF7_Mine_DOOR_Failed</name>
+    <body>The door cannot be used.</body>
+  </string>
+  <string>
+    <id>2330641</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Prison_Nepilim_01</name>
+    <body>&lt;Eastern Protector of Senekta&gt;</body>
+  </string>
+  <string>
+    <id>2330642</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Prison_Nepilim_02</name>
+    <body>&lt;Western Protector of Senekta&gt;</body>
+  </string>
+  <string>
+    <id>2330643</id>
+    <name>STR_NPCTITLE_IDBattle_Change_step_01</name>
+    <body>&lt;Level 1&gt;</body>
+  </string>
+  <string>
+    <id>2330644</id>
+    <name>STR_NPCTITLE_IDBattle_Change_step_02</name>
+    <body>&lt;Level 2&gt;</body>
+  </string>
+  <string>
+    <id>2330645</id>
+    <name>STR_NPCTITLE_IDBattle_Change_step_03</name>
+    <body>&lt;Level 3&gt;</body>
+  </string>
+  <string>
+    <id>2330646</id>
+    <name>STR_NPCTITLE_IDBattle_Change_Point_200</name>
+    <body>&lt;100 points&gt;</body>
+  </string>
+  <string>
+    <id>2330647</id>
+    <name>STR_NPCTITLE_IDBattle_Change_Point_500</name>
+    <body>&lt;4,000 points&gt;</body>
+  </string>
+  <string>
+    <id>2330648</id>
+    <name>STR_NPCTITLE_IDBattle_Change_Point_10000</name>
+    <body>&lt;10,000 points&gt;</body>
+  </string>
+  <string>
+    <id>2330649</id>
+    <name>STR_IDF7_Ere_Eresukigal_Nepilim_Def</name>
+    <body>Arbo's Ghost</body>
+  </string>
+  <string>
+    <id>2330650</id>
+    <name>STR_IDF7_Ere_Eresukigal_Magic_Square_Drakan</name>
+    <body>37th High Shaman Munisha</body>
+  </string>
+  <string>
+    <id>2330651</id>
+    <name>STR_IDF7_Ere_Eresukigal_Damage</name>
+    <body>Dying Ereshkigal</body>
+  </string>
+  <string>
+    <id>2330652</id>
+    <name>STR_NPCTITLE_IDF7_Ere_Eresukigal_Damage</name>
+    <body>&lt;Failure: Control of the Relic&gt;</body>
+  </string>
+  <string>
+    <id>2330653</id>
+    <name>STR_IDBattle_Change_Buff_Heal</name>
+    <body>Energy of Regeneration</body>
+  </string>
+  <string>
+    <id>2330654</id>
+    <name>STR_IDBattle_Change_Buff_Offense</name>
+    <body>Energy of Battle</body>
+  </string>
+  <string>
+    <id>2330655</id>
+    <name>STR_IDBattle_Change_Buff_Deffense</name>
+    <body>Energy of Protection</body>
+  </string>
+  <string>
+    <id>2330656</id>
+    <name>STR_LF5_RewardBox_01</name>
+    <body>Settlement Reward Chest</body>
+  </string>
+  <string>
+    <id>2330657</id>
+    <name>STR_LF5_RewardBox_02</name>
+    <body>Battlefield Reward Chest</body>
+  </string>
+  <string>
+    <id>2330658</id>
+    <name>STR_LF5_RewardBox_03</name>
+    <body>Settlement Reward Chest</body>
+  </string>
+  <string>
+    <id>2330659</id>
+    <name>STR_DF5_RewardBox_01</name>
+    <body>Settlement Reward Chest</body>
+  </string>
+  <string>
+    <id>2330660</id>
+    <name>STR_DF5_RewardBox_02</name>
+    <body>Battlefield Reward Chest</body>
+  </string>
+  <string>
+    <id>2330661</id>
+    <name>STR_DF5_RewardBox_03</name>
+    <body>Battlefield Reward Chest</body>
+  </string>
+  <string>
+    <id>2330662</id>
+    <name>STR_NPCTITLE_LDF5_RewardBox</name>
+    <body>&lt;Pandora Projects Office&gt;</body>
+  </string>
+  <string>
+    <id>2330663</id>
+    <name>STR_PandoraRaid_Drakanv01_Fighter</name>
+    <body>Attacker of the 141st Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330664</id>
+    <name>STR_PandoraRaid_Drakanv01_GunnerF</name>
+    <body>Sniper of the 141st Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330665</id>
+    <name>STR_PandoraRaid_Drakanv01_MageF</name>
+    <body>Foot Soldier of the 141st Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330666</id>
+    <name>STR_PandoraRaid_Drakanv01_Scout</name>
+    <body>Trapper of the 141st Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330667</id>
+    <name>STR_PandoraRaid_Drakanv01_Scout_Ra</name>
+    <body>Reinforcements of the 141st Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330668</id>
+    <name>STR_PandoraRaid_Drakanv01_Bard</name>
+    <body>Military Musician of the 141st Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330669</id>
+    <name>STR_PandoraRaid_Drakanv02_Fighter</name>
+    <body>Attacker of the 142nd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330670</id>
+    <name>STR_PandoraRaid_Drakanv02_GunnerF</name>
+    <body>Sniper of the 142nd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330671</id>
+    <name>STR_PandoraRaid_Drakanv02_MageF</name>
+    <body>Foot Soldier of the 142nd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330672</id>
+    <name>STR_PandoraRaid_Drakanv02_Scout</name>
+    <body>Trapper of the 142nd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330673</id>
+    <name>STR_PandoraRaid_Drakanv02_Scout_Ra</name>
+    <body>Reinforcements of the 142nd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330674</id>
+    <name>STR_PandoraRaid_Drakanv02_Bard</name>
+    <body>Military Musician of the 142nd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330675</id>
+    <name>STR_PandoraRaid_Drakanv03_Fighter</name>
+    <body>Attacker of the 143rd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330676</id>
+    <name>STR_PandoraRaid_Drakanv03_GunnerF</name>
+    <body>Sniper of the 143rd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330677</id>
+    <name>STR_PandoraRaid_Drakanv03_MageF</name>
+    <body>Foot Soldier of the 143rd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330678</id>
+    <name>STR_PandoraRaid_Drakanv03_Scout</name>
+    <body>Trapper of the 143rd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330679</id>
+    <name>STR_PandoraRaid_Drakanv03_Scout_Ra</name>
+    <body>Reinforcements of the 143rd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330680</id>
+    <name>STR_PandoraRaid_Drakanv03_Bard</name>
+    <body>Military Musician of the 143rd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330681</id>
+    <name>STR_PandoraRaid_Drakanv04_Fighter</name>
+    <body>Attacker of the 144th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330682</id>
+    <name>STR_PandoraRaid_Drakanv04_GunnerF</name>
+    <body>Sniper of the 144th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330683</id>
+    <name>STR_PandoraRaid_Drakanv04_MageF</name>
+    <body>Foot Soldier of the 144th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330684</id>
+    <name>STR_PandoraRaid_Drakanv04_Scout</name>
+    <body>Trapper of the 144th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330685</id>
+    <name>STR_PandoraRaid_Drakanv04_Scout_Ra</name>
+    <body>Reinforcements of the 144th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330686</id>
+    <name>STR_PandoraRaid_Drakanv04_Bard</name>
+    <body>Military Musician of the 144th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330687</id>
+    <name>STR_PandoraRaid_Drakanv05_Fighter</name>
+    <body>Attacker of the 145th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330688</id>
+    <name>STR_PandoraRaid_Drakanv05_GunnerF</name>
+    <body>Sniper of the 145th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330689</id>
+    <name>STR_PandoraRaid_Drakanv05_MageF</name>
+    <body>Foot Soldier of the 145th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330690</id>
+    <name>STR_PandoraRaid_Drakanv05_Scout</name>
+    <body>Trapper of the 145th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330691</id>
+    <name>STR_PandoraRaid_Drakanv05_Scout_Ra</name>
+    <body>Reinforcements of the 145th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330692</id>
+    <name>STR_PandoraRaid_Drakanv05_Bard</name>
+    <body>Military Musician of the 145th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330693</id>
+    <name>STR_PandoraRaid_Drakanv06_Fighter</name>
+    <body>Attacker of the 146th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330694</id>
+    <name>STR_PandoraRaid_Drakanv06_GunnerF</name>
+    <body>Sniper of the 146th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330695</id>
+    <name>STR_PandoraRaid_Drakanv06_MageF</name>
+    <body>Foot Soldier of the 146th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330696</id>
+    <name>STR_PandoraRaid_Drakanv06_Scout</name>
+    <body>Trapper of the 146th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330697</id>
+    <name>STR_PandoraRaid_Drakanv06_Scout_Ra</name>
+    <body>Reinforcements of the 146th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330698</id>
+    <name>STR_PandoraRaid_Drakanv06_Bard</name>
+    <body>Military Musician of the 146th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330699</id>
+    <name>STR_PandoraRaid_Drakanv07_Fighter</name>
+    <body>Attacker of the 147th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330700</id>
+    <name>STR_PandoraRaid_Drakanv07_GunnerF</name>
+    <body>Sniper of the 147th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330701</id>
+    <name>STR_PandoraRaid_Drakanv07_MageF</name>
+    <body>Foot Soldier of the 147th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330702</id>
+    <name>STR_PandoraRaid_Drakanv07_Scout</name>
+    <body>Trapper of the 147th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330703</id>
+    <name>STR_PandoraRaid_Drakanv07_Scout_Ra</name>
+    <body>Reinforcements of the 147th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330704</id>
+    <name>STR_PandoraRaid_Drakanv07_Bard</name>
+    <body>Military Musician of the 147th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2330705</id>
+    <name>STR_PandoraRaid_DrakanAttack_Fighter</name>
+    <body>Attacker of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330706</id>
+    <name>STR_PandoraRaid_DrakanAttack_GunnerF</name>
+    <body>Sniper of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330707</id>
+    <name>STR_PandoraRaid_DrakanAttack_MageF</name>
+    <body>Recruit of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330708</id>
+    <name>STR_PandoraRaid_DrakanAttack_Scout</name>
+    <body>Trapper of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330709</id>
+    <name>STR_PandoraRaid_DrakanAttack_Scout_Ra</name>
+    <body>Reinforcements of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330710</id>
+    <name>STR_PandoraRaid_DrakanAttack_Bard</name>
+    <body>Military Musician of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330711</id>
+    <name>STR_NPCTITLE_Drakanv01</name>
+    <body>&lt;Nazra Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330712</id>
+    <name>STR_NPCTITLE_Drakanv02</name>
+    <body>&lt;Nazra Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330713</id>
+    <name>STR_NPCTITLE_Drakanv03</name>
+    <body>&lt;Nazra Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330714</id>
+    <name>STR_NPCTITLE_Drakanv04</name>
+    <body>&lt;Nazra Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330715</id>
+    <name>STR_NPCTITLE_Drakanv05</name>
+    <body>&lt;Nazra Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330716</id>
+    <name>STR_NPCTITLE_Drakanv06</name>
+    <body>&lt;Nazra Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330717</id>
+    <name>STR_NPCTITLE_Drakanv07</name>
+    <body>&lt;Nazra Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330718</id>
+    <name>STR_NPCTITLE_DrakanAttack</name>
+    <body>&lt;8th Unit of the Beritra Army&gt;</body>
+  </string>
+  <string>
+    <id>2330719</id>
+    <name>STR_NPCTITLE_DrakanAttack02</name>
+    <body>&lt;8th Unit of the Beritra Army&gt;</body>
+  </string>
+  <string>
+    <id>2330720</id>
+    <name>STR_NPCTITLE_DrakanAttack03</name>
+    <body>&lt;8th Unit of the Beritra Army&gt;</body>
+  </string>
+  <string>
+    <id>2330721</id>
+    <name>STR_PandoraRaid_DrakanAttack02_Fighter</name>
+    <body>Attacker of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330722</id>
+    <name>STR_PandoraRaid_DrakanAttack02_GunnerF</name>
+    <body>Sniper of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330723</id>
+    <name>STR_PandoraRaid_DrakanAttack02_MageF</name>
+    <body>Recruit of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330724</id>
+    <name>STR_PandoraRaid_DrakanAttack02_Scout</name>
+    <body>Trapper of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330725</id>
+    <name>STR_PandoraRaid_DrakanAttack02_Scout_Ra</name>
+    <body>Reinforcements of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330726</id>
+    <name>STR_PandoraRaid_DrakanAttack02_Bard</name>
+    <body>Military Musician of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330727</id>
+    <name>STR_PandoraRaid_DrakanAttack03_Fighter</name>
+    <body>Attacker of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330728</id>
+    <name>STR_PandoraRaid_DrakanAttack03_GunnerF</name>
+    <body>Sniper of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330729</id>
+    <name>STR_PandoraRaid_DrakanAttack03_MageF</name>
+    <body>Recruit of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330730</id>
+    <name>STR_PandoraRaid_DrakanAttack03_Scout</name>
+    <body>Trapper of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330731</id>
+    <name>STR_PandoraRaid_DrakanAttack03_Scout_Ra</name>
+    <body>Reinforcements of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330732</id>
+    <name>STR_PandoraRaid_DrakanAttack03_Bard</name>
+    <body>Military Musician of the 48th Raider Squad</body>
+  </string>
+  <string>
+    <id>2330733</id>
+    <name>STR_PandoraRaid_DF5Liv01_Fi</name>
+    <body>Fighter of the 141st Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330734</id>
+    <name>STR_PandoraRaid_DF5Liv01_As</name>
+    <body>Scout of the 141st Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330735</id>
+    <name>STR_PandoraRaid_DF5Liv01_Wi</name>
+    <body>Recruit of the 141st Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330736</id>
+    <name>STR_PandoraRaid_DF5Liv01_Pr</name>
+    <body>Bloodbinder of the 141st Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330737</id>
+    <name>STR_PandoraRaid_DF5Dav01_Fi</name>
+    <body>Fighter of the 141st Defence Troop</body>
+  </string>
+  <string>
+    <id>2330738</id>
+    <name>STR_PandoraRaid_DF5Dav01_As</name>
+    <body>Scout of the 141st Defence Troop</body>
+  </string>
+  <string>
+    <id>2330739</id>
+    <name>STR_PandoraRaid_DF5Dav01_Wi</name>
+    <body>Recruit of the 141st Defence Troop</body>
+  </string>
+  <string>
+    <id>2330740</id>
+    <name>STR_PandoraRaid_DF5Dav01_Pr</name>
+    <body>Bloodbinder of the 141st Defence Troop</body>
+  </string>
+  <string>
+    <id>2330741</id>
+    <name>STR_PandoraRaid_DF5Liv02_Fi</name>
+    <body>Fighter of the 142nd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330742</id>
+    <name>STR_PandoraRaid_DF5Liv02_As</name>
+    <body>Scout of the 142nd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330743</id>
+    <name>STR_PandoraRaid_DF5Liv02_Wi</name>
+    <body>Recruit of the 142nd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330744</id>
+    <name>STR_PandoraRaid_DF5Liv02_Pr</name>
+    <body>Bloodbinder of the 142nd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330745</id>
+    <name>STR_PandoraRaid_DF5Dav02_Fi</name>
+    <body>Fighter of the 142nd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330746</id>
+    <name>STR_PandoraRaid_DF5Dav02_As</name>
+    <body>Scout of the 142nd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330747</id>
+    <name>STR_PandoraRaid_DF5Dav02_Wi</name>
+    <body>Recruit of the 142nd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330748</id>
+    <name>STR_PandoraRaid_DF5Dav02_Pr</name>
+    <body>Bloodbinder of the 142nd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330749</id>
+    <name>STR_PandoraRaid_DF5Liv03_Fi</name>
+    <body>Fighter of the 143rd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330750</id>
+    <name>STR_PandoraRaid_DF5Liv03_As</name>
+    <body>Scout of the 143rd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330751</id>
+    <name>STR_PandoraRaid_DF5Liv03_Wi</name>
+    <body>Recruit of the 143rd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330752</id>
+    <name>STR_PandoraRaid_DF5Liv03_Pr</name>
+    <body>Bloodbinder of the 143rd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330753</id>
+    <name>STR_PandoraRaid_DF5Dav03_Fi</name>
+    <body>Fighter of the 143rd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330754</id>
+    <name>STR_PandoraRaid_DF5Dav03_As</name>
+    <body>Scout of the 143rd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330755</id>
+    <name>STR_PandoraRaid_DF5Dav03_Wi</name>
+    <body>Recruit of the 143rd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330756</id>
+    <name>STR_PandoraRaid_DF5Dav03_Pr</name>
+    <body>Bloodbinder of the 143rd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330757</id>
+    <name>STR_PandoraRaid_DF5Liv04_Fi</name>
+    <body>Fighter of the 144th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330758</id>
+    <name>STR_PandoraRaid_DF5Liv04_As</name>
+    <body>Scout of the 144th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330759</id>
+    <name>STR_PandoraRaid_DF5Liv04_Wi</name>
+    <body>Recruit of the 144th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330760</id>
+    <name>STR_PandoraRaid_DF5Liv04_Pr</name>
+    <body>Bloodbinder of the 144th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330761</id>
+    <name>STR_PandoraRaid_DF5Dav04_Fi</name>
+    <body>Fighter of the 144th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330762</id>
+    <name>STR_PandoraRaid_DF5Dav04_As</name>
+    <body>Scout of the 144th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330763</id>
+    <name>STR_PandoraRaid_DF5Dav04_Wi</name>
+    <body>Recruit of the 144th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330764</id>
+    <name>STR_PandoraRaid_DF5Dav04_Pr</name>
+    <body>Bloodbinder of the 144th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330765</id>
+    <name>STR_PandoraRaid_DF5Liv05_Fi</name>
+    <body>Fighter of the 145th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330766</id>
+    <name>STR_PandoraRaid_DF5Liv05_As</name>
+    <body>Scout of the 145th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330767</id>
+    <name>STR_PandoraRaid_DF5Liv05_Wi</name>
+    <body>Recruit of the 145th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330768</id>
+    <name>STR_PandoraRaid_DF5Liv05_Pr</name>
+    <body>Bloodbinder of the 145th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330769</id>
+    <name>STR_PandoraRaid_DF5Dav05_Fi</name>
+    <body>Fighter of the 145th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330770</id>
+    <name>STR_PandoraRaid_DF5Dav05_As</name>
+    <body>Scout of the 145th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330771</id>
+    <name>STR_PandoraRaid_DF5Dav05_Wi</name>
+    <body>Recruit of the 145th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330772</id>
+    <name>STR_PandoraRaid_DF5Dav05_Pr</name>
+    <body>Bloodbinder of the 145th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330773</id>
+    <name>STR_PandoraRaid_DF5Liv06_Fi</name>
+    <body>Fighter of the 146th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330774</id>
+    <name>STR_PandoraRaid_DF5Liv06_As</name>
+    <body>Scout of the 146th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330775</id>
+    <name>STR_PandoraRaid_DF5Liv06_Wi</name>
+    <body>Recruit of the 146th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330776</id>
+    <name>STR_PandoraRaid_DF5Liv06_Pr</name>
+    <body>Bloodbinder of the 146th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330777</id>
+    <name>STR_PandoraRaid_DF5Dav06_Fi</name>
+    <body>Fighter of the 146th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330778</id>
+    <name>STR_PandoraRaid_DF5Dav06_As</name>
+    <body>Scout of the 146th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330779</id>
+    <name>STR_PandoraRaid_DF5Dav06_Wi</name>
+    <body>Recruit of the 146th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330780</id>
+    <name>STR_PandoraRaid_DF5Dav06_Pr</name>
+    <body>Bloodbinder of the 146th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330781</id>
+    <name>STR_PandoraRaid_DF5Liv07_Fi</name>
+    <body>Fighter of the 147th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330782</id>
+    <name>STR_PandoraRaid_DF5Liv07_As</name>
+    <body>Scout of the 147th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330783</id>
+    <name>STR_PandoraRaid_DF5Liv07_Wi</name>
+    <body>Recruit of the 147th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330784</id>
+    <name>STR_PandoraRaid_DF5Liv07_Pr</name>
+    <body>Bloodbinder of the 147th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330785</id>
+    <name>STR_PandoraRaid_DF5Dav07_Fi</name>
+    <body>Fighter of the 147th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330786</id>
+    <name>STR_PandoraRaid_DF5Dav07_As</name>
+    <body>Scout of the 147th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330787</id>
+    <name>STR_PandoraRaid_DF5Dav07_Wi</name>
+    <body>Recruit of the 147th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330788</id>
+    <name>STR_PandoraRaid_DF5Dav07_Pr</name>
+    <body>Bloodbinder of the 147th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330789</id>
+    <name>STR_PandoraRaid_LF5Liv01_Fi</name>
+    <body>Fighter of the 181st Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330790</id>
+    <name>STR_PandoraRaid_LF5Liv01_As</name>
+    <body>Scout of the 181st Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330791</id>
+    <name>STR_PandoraRaid_LF5Liv01_Wi</name>
+    <body>Recruit of the 181st Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330792</id>
+    <name>STR_PandoraRaid_LF5Liv01_Pr</name>
+    <body>Bloodbinder of the 181st Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330793</id>
+    <name>STR_PandoraRaid_LF5Dav01_Fi</name>
+    <body>Fighter of the 181st Defence Troop</body>
+  </string>
+  <string>
+    <id>2330794</id>
+    <name>STR_PandoraRaid_LF5Dav01_As</name>
+    <body>Scout of the 181st Defence Troop</body>
+  </string>
+  <string>
+    <id>2330795</id>
+    <name>STR_PandoraRaid_LF5Dav01_Wi</name>
+    <body>Recruit of the 181st Defence Troop</body>
+  </string>
+  <string>
+    <id>2330796</id>
+    <name>STR_PandoraRaid_LF5Dav01_Pr</name>
+    <body>Bloodbinder of the 181st Defence Troop</body>
+  </string>
+  <string>
+    <id>2330797</id>
+    <name>STR_PandoraRaid_Sharkv01_Fi</name>
+    <body>Attacker of the 181st Village</body>
+  </string>
+  <string>
+    <id>2330798</id>
+    <name>STR_PandoraRaid_Sharkv01_As</name>
+    <body>Outrider of the 181st Village</body>
+  </string>
+  <string>
+    <id>2330799</id>
+    <name>STR_PandoraRaid_Sharkv01_Wi</name>
+    <body>Graveknight Fighter of the 181st Village</body>
+  </string>
+  <string>
+    <id>2330800</id>
+    <name>STR_PandoraRaid_Sharkv01_Pr</name>
+    <body>Medic of the 181st Village</body>
+  </string>
+  <string>
+    <id>2330801</id>
+    <name>STR_PandoraRaid_LF5Liv02_Fi</name>
+    <body>Fighter of the 182nd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330802</id>
+    <name>STR_PandoraRaid_LF5Liv02_As</name>
+    <body>Scout of the 182nd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330803</id>
+    <name>STR_PandoraRaid_LF5Liv02_Wi</name>
+    <body>Recruit of the 182nd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330804</id>
+    <name>STR_PandoraRaid_LF5Liv02_Pr</name>
+    <body>Bloodbinder of the 182nd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330805</id>
+    <name>STR_PandoraRaid_LF5Dav02_Fi</name>
+    <body>Fighter of the 182nd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330806</id>
+    <name>STR_PandoraRaid_LF5Dav02_As</name>
+    <body>Scout of the 182nd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330807</id>
+    <name>STR_PandoraRaid_LF5Dav02_Wi</name>
+    <body>Recruit of the 182nd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330808</id>
+    <name>STR_PandoraRaid_LF5Dav02_Pr</name>
+    <body>Bloodbinder of the 182nd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330809</id>
+    <name>STR_PandoraRaid_Sharkv02_Fi</name>
+    <body>Attacker of the 182nd Village</body>
+  </string>
+  <string>
+    <id>2330810</id>
+    <name>STR_PandoraRaid_Sharkv02_As</name>
+    <body>Outrider of the 182nd Village</body>
+  </string>
+  <string>
+    <id>2330811</id>
+    <name>STR_PandoraRaid_Sharkv02_Wi</name>
+    <body>Graveknight Fighter of the 182nd Village</body>
+  </string>
+  <string>
+    <id>2330812</id>
+    <name>STR_PandoraRaid_Sharkv02_Pr</name>
+    <body>Medic of the 182nd Village</body>
+  </string>
+  <string>
+    <id>2330813</id>
+    <name>STR_PandoraRaid_LF5Liv03_Fi</name>
+    <body>Fighter of the 183rd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330814</id>
+    <name>STR_PandoraRaid_LF5Liv03_As</name>
+    <body>Scout of the 183rd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330815</id>
+    <name>STR_PandoraRaid_LF5Liv03_Wi</name>
+    <body>Recruit of the 183rd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330816</id>
+    <name>STR_PandoraRaid_LF5Liv03_Pr</name>
+    <body>Bloodbinder of the 183rd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330817</id>
+    <name>STR_PandoraRaid_LF5Dav03_Fi</name>
+    <body>Fighter of the 183rd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330818</id>
+    <name>STR_PandoraRaid_LF5Dav03_As</name>
+    <body>Scout of the 183rd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330819</id>
+    <name>STR_PandoraRaid_LF5Dav03_Wi</name>
+    <body>Recruit of the 183rd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330820</id>
+    <name>STR_PandoraRaid_LF5Dav03_Pr</name>
+    <body>Bloodbinder of the 183rd Defence Troop</body>
+  </string>
+  <string>
+    <id>2330821</id>
+    <name>STR_PandoraRaid_Sharkv03_Fi</name>
+    <body>Attacker of the 183rd Village</body>
+  </string>
+  <string>
+    <id>2330822</id>
+    <name>STR_PandoraRaid_Sharkv03_As</name>
+    <body>Outrider of the 183rd Village</body>
+  </string>
+  <string>
+    <id>2330823</id>
+    <name>STR_PandoraRaid_Sharkv03_Wi</name>
+    <body>Graveknight Fighter of the 183rd Village</body>
+  </string>
+  <string>
+    <id>2330824</id>
+    <name>STR_PandoraRaid_Sharkv03_Pr</name>
+    <body>Medic of the 183rd Village</body>
+  </string>
+  <string>
+    <id>2330825</id>
+    <name>STR_PandoraRaid_LF5Liv04_Fi</name>
+    <body>Fighter of the 184th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330826</id>
+    <name>STR_PandoraRaid_LF5Liv04_As</name>
+    <body>Scout of the 184th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330827</id>
+    <name>STR_PandoraRaid_LF5Liv04_Wi</name>
+    <body>Recruit of the 184th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330828</id>
+    <name>STR_PandoraRaid_LF5Liv04_Pr</name>
+    <body>Bloodbinder of the 184th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330829</id>
+    <name>STR_PandoraRaid_LF5Dav04_Fi</name>
+    <body>Fighter of the 184th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330830</id>
+    <name>STR_PandoraRaid_LF5Dav04_As</name>
+    <body>Scout of the 184th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330831</id>
+    <name>STR_PandoraRaid_LF5Dav04_Wi</name>
+    <body>Recruit of the 184th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330832</id>
+    <name>STR_PandoraRaid_LF5Dav04_Pr</name>
+    <body>Bloodbinder of the 184th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330833</id>
+    <name>STR_PandoraRaid_Sharkv04_Fi</name>
+    <body>Attacker of the 184th Village</body>
+  </string>
+  <string>
+    <id>2330834</id>
+    <name>STR_PandoraRaid_Sharkv04_As</name>
+    <body>Outrider of the 184th Village</body>
+  </string>
+  <string>
+    <id>2330835</id>
+    <name>STR_PandoraRaid_Sharkv04_Wi</name>
+    <body>Graveknight Fighter of the 184th Village</body>
+  </string>
+  <string>
+    <id>2330836</id>
+    <name>STR_PandoraRaid_Sharkv04_Pr</name>
+    <body>Medic of the 184th Village</body>
+  </string>
+  <string>
+    <id>2330837</id>
+    <name>STR_PandoraRaid_LF5Liv05_Fi</name>
+    <body>Fighter of the 185th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330838</id>
+    <name>STR_PandoraRaid_LF5Liv05_As</name>
+    <body>Scout of the 185th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330839</id>
+    <name>STR_PandoraRaid_LF5Liv05_Wi</name>
+    <body>Recruit of the 185th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330840</id>
+    <name>STR_PandoraRaid_LF5Liv05_Pr</name>
+    <body>Bloodbinder of the 185th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2330841</id>
+    <name>STR_PandoraRaid_LF5Dav05_Fi</name>
+    <body>Fighter of the 185th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330842</id>
+    <name>STR_PandoraRaid_LF5Dav05_As</name>
+    <body>Scout of the 185th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330843</id>
+    <name>STR_PandoraRaid_LF5Dav05_Wi</name>
+    <body>Recruit of the 185th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330844</id>
+    <name>STR_PandoraRaid_LF5Dav05_Pr</name>
+    <body>Bloodbinder of the 185th Defence Troop</body>
+  </string>
+  <string>
+    <id>2330845</id>
+    <name>STR_PandoraRaid_Sharkv05_Fi</name>
+    <body>Attacker of the 185th Village</body>
+  </string>
+  <string>
+    <id>2330846</id>
+    <name>STR_PandoraRaid_Sharkv05_As</name>
+    <body>Outrider of the 185th Village</body>
+  </string>
+  <string>
+    <id>2330847</id>
+    <name>STR_PandoraRaid_Sharkv05_Wi</name>
+    <body>Graveknight Fighter of the 185th Village</body>
+  </string>
+  <string>
+    <id>2330848</id>
+    <name>STR_PandoraRaid_Sharkv05_Pr</name>
+    <body>Medic of the 185th Village</body>
+  </string>
+  <string>
+    <id>2330849</id>
+    <name>STR_NPCTITLE_DF5Liv01</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330850</id>
+    <name>STR_NPCTITLE_DF5Liv02</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330851</id>
+    <name>STR_NPCTITLE_DF5Liv03</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330852</id>
+    <name>STR_NPCTITLE_DF5Liv04</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330853</id>
+    <name>STR_NPCTITLE_DF5Liv05</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330854</id>
+    <name>STR_NPCTITLE_DF5Liv06</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330855</id>
+    <name>STR_NPCTITLE_DF5Liv07</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330856</id>
+    <name>STR_NPCTITLE_DF5Dav01</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330857</id>
+    <name>STR_NPCTITLE_DF5Dav02</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330858</id>
+    <name>STR_NPCTITLE_DF5Dav03</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330859</id>
+    <name>STR_NPCTITLE_DF5Dav04</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330860</id>
+    <name>STR_NPCTITLE_DF5Dav05</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330861</id>
+    <name>STR_NPCTITLE_DF5Dav06</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330862</id>
+    <name>STR_NPCTITLE_DF5Dav07</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330863</id>
+    <name>STR_NPCTITLE_LF5Liv01</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330864</id>
+    <name>STR_NPCTITLE_LF5Liv02</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330865</id>
+    <name>STR_NPCTITLE_LF5Liv03</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330866</id>
+    <name>STR_NPCTITLE_LF5Liv04</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330867</id>
+    <name>STR_NPCTITLE_LF5Liv05</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330868</id>
+    <name>STR_NPCTITLE_LF5Dav01</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330869</id>
+    <name>STR_NPCTITLE_LF5Dav02</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330870</id>
+    <name>STR_NPCTITLE_LF5Dav03</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330871</id>
+    <name>STR_NPCTITLE_LF5Dav04</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330872</id>
+    <name>STR_NPCTITLE_LF5Dav05</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330873</id>
+    <name>STR_NPCTITLE_Sharkv01</name>
+    <body>&lt;Black Fins Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330874</id>
+    <name>STR_NPCTITLE_Sharkv02</name>
+    <body>&lt;Black Fins Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330875</id>
+    <name>STR_NPCTITLE_Sharkv03</name>
+    <body>&lt;Black Fins Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330876</id>
+    <name>STR_NPCTITLE_Sharkv04</name>
+    <body>&lt;Black Fins Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330877</id>
+    <name>STR_NPCTITLE_Sharkv05</name>
+    <body>&lt;Black Fins Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2330878</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss01_Li</name>
+    <body>Incomplete Rekranon</body>
+  </string>
+  <string>
+    <id>2330879</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss02_Li</name>
+    <body>Incomplete Rekranon</body>
+  </string>
+  <string>
+    <id>2330880</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss03_Li</name>
+    <body>Incomplete Rekranon</body>
+  </string>
+  <string>
+    <id>2330881</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss01_Da</name>
+    <body>Unstable Rekranon</body>
+  </string>
+  <string>
+    <id>2330882</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss02_Da</name>
+    <body>Unstable Rekranon</body>
+  </string>
+  <string>
+    <id>2330883</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss03_Da</name>
+    <body>Unstable Rekranon</body>
+  </string>
+  <string>
+    <id>2330884</id>
+    <name>STR_NPCTITLE_BodyGuard_Boss_Li</name>
+    <body>&lt;Modified Pandora Weapon&gt;</body>
+  </string>
+  <string>
+    <id>2330885</id>
+    <name>STR_NPCTITLE_BodyGuard_Boss_Da</name>
+    <body>&lt;Modified Pandora Weapon&gt;</body>
+  </string>
+  <string>
+    <id>2330886</id>
+    <name>STR_NPCTITLE_IDF7_Mine_01</name>
+    <body>&lt;Rolenta's Husband&gt;</body>
+  </string>
+  <string>
+    <id>2330887</id>
+    <name>STR_NPCTITLE_IDF7_Mine_02</name>
+    <body>&lt;Dimos' Wife&gt;</body>
+  </string>
+  <string>
+    <id>2330888</id>
+    <name>STR_NPCTITLE_IDF7_Mine_03</name>
+    <body>&lt;Allimas' Feud&gt;</body>
+  </string>
+  <string>
+    <id>2330889</id>
+    <name>STR_NPCTITLE_IDF7_Mine_04</name>
+    <body>&lt;Torben's Feud&gt;</body>
+  </string>
+  <string>
+    <id>2330890</id>
+    <name>STR_NPCTITLE_IDF7_Mine_05</name>
+    <body>&lt;Mutation caused by Rim&gt;</body>
+  </string>
+  <string>
+    <id>2330891</id>
+    <name>STR_NPCTITLE_IDF7_Mine_06</name>
+    <body>&lt;Nimble Observer&gt;</body>
+  </string>
+  <string>
+    <id>2330892</id>
+    <name>STR_NPCTITLE_IDF7_Mine_07</name>
+    <body>&lt;Clone of Strength&gt;</body>
+  </string>
+  <string>
+    <id>2330893</id>
+    <name>STR_NPCTITLE_IDF7_Mine_08</name>
+    <body>&lt;Clone of Knowledge&gt;</body>
+  </string>
+  <string>
+    <id>2330894</id>
+    <name>STR_NPCTITLE_IDF7_Mine_09</name>
+    <body>&lt;Clone of Fighting Spirit&gt;</body>
+  </string>
+  <string>
+    <id>2330895</id>
+    <name>STR_NPCTITLE_IDF7_Mine_10</name>
+    <body>&lt;Girad's Willwarper&gt;</body>
+  </string>
+  <string>
+    <id>2330896</id>
+    <name>STR_NPCTITLE_IDF7_Mine_11</name>
+    <body>&lt;Unbelievable Little Chicken&gt;</body>
+  </string>
+  <string>
+    <id>2330897</id>
+    <name>STR_IDBattle_Change_Buff_Heal_all_01</name>
+    <body>Illumiel's Uniformity Protection</body>
+  </string>
+  <string>
+    <id>2330898</id>
+    <name>STR_IDBattle_Change_Buff_Heal_all_02</name>
+    <body>Illumiel's Uniformity Protection</body>
+  </string>
+  <string>
+    <id>2330899</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss04_Li</name>
+    <body>Incomplete Rekranon</body>
+  </string>
+  <string>
+    <id>2330900</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss05_Li</name>
+    <body>Incomplete Rekranon</body>
+  </string>
+  <string>
+    <id>2330901</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss06_Li</name>
+    <body>Incomplete Rekranon</body>
+  </string>
+  <string>
+    <id>2330902</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss04_Da</name>
+    <body>Unstable Rekranon</body>
+  </string>
+  <string>
+    <id>2330903</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss05_Da</name>
+    <body>Unstable Rekranon</body>
+  </string>
+  <string>
+    <id>2330904</id>
+    <name>STR_PandoraRaid_BodyGuard_Boss06_Da</name>
+    <body>Unstable Rekranon</body>
+  </string>
+  <string>
+    <id>2330905</id>
+    <name>STR_LF5_PRaid_LCampGuard_Kn01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330906</id>
+    <name>STR_LF5_PRaid_LCampGuard_Kn01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330907</id>
+    <name>STR_LF5_PRaid_LCampGuard_Fi01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330908</id>
+    <name>STR_LF5_PRaid_LCampGuard_Fi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330909</id>
+    <name>STR_LF5_PRaid_LCampGuard_As01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330910</id>
+    <name>STR_LF5_PRaid_LCampGuard_As01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330911</id>
+    <name>STR_LF5_PRaid_LCampGuard_Ra01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330912</id>
+    <name>STR_LF5_PRaid_LCampGuard_Ra01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330913</id>
+    <name>STR_LF5_PRaid_LCampGuard_Ra01_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330914</id>
+    <name>STR_LF5_PRaid_LCampGuard_Wi01_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330915</id>
+    <name>STR_LF5_PRaid_LCampGuard_Wi01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330916</id>
+    <name>STR_LF5_PRaid_LCampGuard_Wi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330917</id>
+    <name>STR_LF5_PRaid_LCampGuard_Kn02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330918</id>
+    <name>STR_LF5_PRaid_LCampGuard_Kn02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330919</id>
+    <name>STR_LF5_PRaid_LCampGuard_Fi02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330920</id>
+    <name>STR_LF5_PRaid_LCampGuard_Fi02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330921</id>
+    <name>STR_LF5_PRaid_LCampGuard_As02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330922</id>
+    <name>STR_LF5_PRaid_LCampGuard_As02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330923</id>
+    <name>STR_LF5_PRaid_LCampGuard_Ra02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330924</id>
+    <name>STR_LF5_PRaid_LCampGuard_Ra02_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330925</id>
+    <name>STR_LF5_PRaid_LCampGuard_Ra02_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330926</id>
+    <name>STR_LF5_PRaid_LCampGuard_Wi02_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330927</id>
+    <name>STR_LF5_PRaid_LCampGuard_Wi02_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330928</id>
+    <name>STR_LF5_PRaid_LCampGuard_Wi02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330929</id>
+    <name>STR_LF5_PRaid_LCampGuard_Kn03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330930</id>
+    <name>STR_LF5_PRaid_LCampGuard_Kn03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330931</id>
+    <name>STR_LF5_PRaid_LCampGuard_Fi03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330932</id>
+    <name>STR_LF5_PRaid_LCampGuard_Fi03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330933</id>
+    <name>STR_LF5_PRaid_LCampGuard_As03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330934</id>
+    <name>STR_LF5_PRaid_LCampGuard_As03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330935</id>
+    <name>STR_LF5_PRaid_LCampGuard_Ra03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330936</id>
+    <name>STR_LF5_PRaid_LCampGuard_Ra03_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330937</id>
+    <name>STR_LF5_PRaid_LCampGuard_Ra03_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330938</id>
+    <name>STR_LF5_PRaid_LCampGuard_Wi03_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330939</id>
+    <name>STR_LF5_PRaid_LCampGuard_Wi03_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330940</id>
+    <name>STR_LF5_PRaid_LCampGuard_Wi03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330941</id>
+    <name>STR_DF5_PRaid_DCampGuard_Kn01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330942</id>
+    <name>STR_DF5_PRaid_DCampGuard_Kn01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330943</id>
+    <name>STR_DF5_PRaid_DCampGuard_Fi01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330944</id>
+    <name>STR_DF5_PRaid_DCampGuard_Fi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330945</id>
+    <name>STR_DF5_PRaid_DCampGuard_As01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330946</id>
+    <name>STR_DF5_PRaid_DCampGuard_As01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330947</id>
+    <name>STR_DF5_PRaid_DCampGuard_Ra01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330948</id>
+    <name>STR_DF5_PRaid_DCampGuard_Ra01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330949</id>
+    <name>STR_DF5_PRaid_DCampGuard_Ra01_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330950</id>
+    <name>STR_DF5_PRaid_DCampGuard_Wi01_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330951</id>
+    <name>STR_DF5_PRaid_DCampGuard_Wi01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330952</id>
+    <name>STR_DF5_PRaid_DCampGuard_Wi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330953</id>
+    <name>STR_DF5_PRaid_DCampGuard_Kn02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330954</id>
+    <name>STR_DF5_PRaid_DCampGuard_Kn02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330955</id>
+    <name>STR_DF5_PRaid_DCampGuard_Fi02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330956</id>
+    <name>STR_DF5_PRaid_DCampGuard_Fi02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330957</id>
+    <name>STR_DF5_PRaid_DCampGuard_As02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330958</id>
+    <name>STR_DF5_PRaid_DCampGuard_As02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330959</id>
+    <name>STR_DF5_PRaid_DCampGuard_Ra02_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330960</id>
+    <name>STR_DF5_PRaid_DCampGuard_Ra02_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330961</id>
+    <name>STR_DF5_PRaid_DCampGuard_Ra02_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330962</id>
+    <name>STR_DF5_PRaid_DCampGuard_Wi02_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330963</id>
+    <name>STR_DF5_PRaid_DCampGuard_Wi02_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330964</id>
+    <name>STR_DF5_PRaid_DCampGuard_Wi02_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330965</id>
+    <name>STR_DF5_PRaid_DCampGuard_Kn03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330966</id>
+    <name>STR_DF5_PRaid_DCampGuard_Kn03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330967</id>
+    <name>STR_DF5_PRaid_DCampGuard_Fi03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330968</id>
+    <name>STR_DF5_PRaid_DCampGuard_Fi03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330969</id>
+    <name>STR_DF5_PRaid_DCampGuard_As03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330970</id>
+    <name>STR_DF5_PRaid_DCampGuard_As03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330971</id>
+    <name>STR_DF5_PRaid_DCampGuard_Ra03_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330972</id>
+    <name>STR_DF5_PRaid_DCampGuard_Ra03_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330973</id>
+    <name>STR_DF5_PRaid_DCampGuard_Ra03_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330974</id>
+    <name>STR_DF5_PRaid_DCampGuard_Wi03_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330975</id>
+    <name>STR_DF5_PRaid_DCampGuard_Wi03_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2330976</id>
+    <name>STR_DF5_PRaid_DCampGuard_Wi03_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2330977</id>
+    <name>STR_Event_Evileye_Soccer</name>
+    <body>Colossal Football</body>
+  </string>
+  <string>
+    <id>2330978</id>
+    <name>STR_Event_Evileye_Soccer_Sum</name>
+    <body>Football Fairy</body>
+  </string>
+  <string>
+    <id>2330979</id>
+    <name>STR_Event_Saam_Soccer</name>
+    <body>Football Fairy</body>
+  </string>
+  <string>
+    <id>2330980</id>
+    <name>STR_Event_LDF7_E_Raid_Named_80_Al</name>
+    <body>Mindless Anomos</body>
+  </string>
+  <string>
+    <id>2330981</id>
+    <name>STR_Event_LDF7_Raid_Item_Box</name>
+    <body>Treasure Chest of the Mutated Scout Troop</body>
+  </string>
+  <string>
+    <id>2330982</id>
+    <name>STR_IDDF2_dflame_Event_skill_Knight_Monster</name>
+    <body>Angry Lanzenerk</body>
+  </string>
+  <string>
+    <id>2330983</id>
+    <name>STR_IDDF2_dflame_Event_skill_Fighter_Monster</name>
+    <body>Renegade Artunerk</body>
+  </string>
+  <string>
+    <id>2330984</id>
+    <name>STR_IDDF2_dflame_Event_skill_Magician_Monster</name>
+    <body>Miffed Merlinerk</body>
+  </string>
+  <string>
+    <id>2330985</id>
+    <name>STR_IDWarterWorld_A_ShulackAs_Work_80_An</name>
+    <body>Steel Rake Shulack Assassin</body>
+  </string>
+  <string>
+    <id>2330986</id>
+    <name>STR_IDWarterWorld_A_ShulackWi_Work_80_An</name>
+    <body>Steel Rake Fortress Shaman</body>
+  </string>
+  <string>
+    <id>2330987</id>
+    <name>STR_IDWarterWorld_A_ShulackPr_Work_80_An</name>
+    <body>Steel Rake Shulack Supervisor</body>
+  </string>
+  <string>
+    <id>2330988</id>
+    <name>STR_IDWarterWorld_A_ShulackFi_Work_80_An</name>
+    <body>Steel Rake Shulack Scourge</body>
+  </string>
+  <string>
+    <id>2330989</id>
+    <name>STR_IDWarterWorld_A_ShulackKn_Work_80_An</name>
+    <body>Steel Rake Shulack Repairer</body>
+  </string>
+  <string>
+    <id>2330990</id>
+    <name>STR_IDWarterWorld_A_ShulackRa_Work_80_An</name>
+    <body>Steel Rake Shulack Hunter</body>
+  </string>
+  <string>
+    <id>2330991</id>
+    <name>STR_IDWarterWorld_A_BrownieMWo_Work_80_An</name>
+    <body>Steel Rake Shulack Cleaner</body>
+  </string>
+  <string>
+    <id>2330992</id>
+    <name>STR_IDWarterWorld_A_ShulackFi_Wave_80_An</name>
+    <body>Sector-A-Wave_01</body>
+  </string>
+  <string>
+    <id>2330993</id>
+    <name>STR_IDWarterWorld_A_ShulackKn_Box_80_An</name>
+    <body>Sector-A-Wave_Object in box</body>
+  </string>
+  <string>
+    <id>2330994</id>
+    <name>STR_IDWarterWorld_B_ShulackAs_Work_80_An</name>
+    <body>Steel Rake Shulack Assassin</body>
+  </string>
+  <string>
+    <id>2330995</id>
+    <name>STR_IDWarterWorld_B_ShulackWi_Work_80_An</name>
+    <body>Steel Rake Fortress Shaman</body>
+  </string>
+  <string>
+    <id>2330996</id>
+    <name>STR_IDWarterWorld_B_ShulackPr_Work_80_An</name>
+    <body>Steel Rake Shulack Supervisor</body>
+  </string>
+  <string>
+    <id>2330997</id>
+    <name>STR_IDWarterWorld_B_ShulackFi_Work_80_An</name>
+    <body>Steel Rake Shulack Scourge</body>
+  </string>
+  <string>
+    <id>2330998</id>
+    <name>STR_IDWarterWorld_B_ShulackKn_Work_80_An</name>
+    <body>Steel Rake Shulack Repairer</body>
+  </string>
+  <string>
+    <id>2330999</id>
+    <name>STR_IDWarterWorld_B_ShulackRa_Work_80_An</name>
+    <body>Steel Rake Shulack Hunter</body>
+  </string>
+  <string>
+    <id>2331000</id>
+    <name>STR_IDWarterWorld_B_BrownieMWo_Work_80_An</name>
+    <body>Watchful Steel Rake Kobold Cleaner</body>
+  </string>
+  <string>
+    <id>2331001</id>
+    <name>STR_IDWarterWorld_B_ShulackFi_Wave_80_An</name>
+    <body>Sector-B-Wave_01</body>
+  </string>
+  <string>
+    <id>2331002</id>
+    <name>STR_IDWarterWorld_B_ShulackKn_Box_80_An</name>
+    <body>Sector-B-Wave_Object in box</body>
+  </string>
+  <string>
+    <id>2331003</id>
+    <name>STR_IDWarterWorld_C_ShulackAs_Work_80_An</name>
+    <body>Steel Rake Shulack Assassin</body>
+  </string>
+  <string>
+    <id>2331004</id>
+    <name>STR_IDWarterWorld_C_ShulackWi_Work_80_An</name>
+    <body>Steel Rake Fortress Shaman</body>
+  </string>
+  <string>
+    <id>2331005</id>
+    <name>STR_IDWarterWorld_C_ShulackPr_Work_80_An</name>
+    <body>Steel Rake Shulack Supervisor</body>
+  </string>
+  <string>
+    <id>2331006</id>
+    <name>STR_IDWarterWorld_C_ShulackFi_Work_80_An</name>
+    <body>Tenacious Steel Rake Shulack Scourge</body>
+  </string>
+  <string>
+    <id>2331007</id>
+    <name>STR_IDWarterWorld_C_ShulackKn_Work_80_An</name>
+    <body>Steel Rake Shulack Repairer</body>
+  </string>
+  <string>
+    <id>2331008</id>
+    <name>STR_IDWarterWorld_C_ShulackRa_Work_80_An</name>
+    <body>Steel Rake Shulack Hunter</body>
+  </string>
+  <string>
+    <id>2331009</id>
+    <name>STR_IDWarterWorld_C_BrownieMWo_Work_80_An</name>
+    <body>Steel Rake Shulack Cleaner</body>
+  </string>
+  <string>
+    <id>2331010</id>
+    <name>STR_IDWarterWorld_C_ShulackFi_Wave_80_An</name>
+    <body>Sector-C-Wave_01</body>
+  </string>
+  <string>
+    <id>2331011</id>
+    <name>STR_IDWarterWorld_C_ShulackKn_Box_80_An</name>
+    <body>Sector-C-Wave_Object in box</body>
+  </string>
+  <string>
+    <id>2331012</id>
+    <name>STR_IDWaterWorld_A_Slave_Shugo_01</name>
+    <body>Lutarinerk</body>
+  </string>
+  <string>
+    <id>2331013</id>
+    <name>STR_IDWaterWorld_A_Slave_Shugo_02</name>
+    <body>Komarinerk</body>
+  </string>
+  <string>
+    <id>2331014</id>
+    <name>STR_IDWaterWorld_A_Slave_Shugo_03</name>
+    <body>Shunamonerk</body>
+  </string>
+  <string>
+    <id>2331015</id>
+    <name>STR_IDWaterWorld_A_Slave_Shugo_Real_01</name>
+    <body>Sunanerk</body>
+  </string>
+  <string>
+    <id>2331016</id>
+    <name>STR_IDWaterWorld_A_Slave_Shugo_Real_02</name>
+    <body>Gotunerk</body>
+  </string>
+  <string>
+    <id>2331017</id>
+    <name>STR_IDWaterWorld_A_Slave_Shugo_Real_03</name>
+    <body>Shuftinerk</body>
+  </string>
+  <string>
+    <id>2331018</id>
+    <name>STR_IDWaterWorld_B_Slave_Shugo_Tower</name>
+    <body>Hadoranerk</body>
+  </string>
+  <string>
+    <id>2331019</id>
+    <name>STR_IDWaterWorld_B_Slave_Shugo_Tower02</name>
+    <body>Mosurinerk</body>
+  </string>
+  <string>
+    <id>2331020</id>
+    <name>STR_IDWaterWorld_C_Slave_Shugo_01</name>
+    <body>Todonerk</body>
+  </string>
+  <string>
+    <id>2331021</id>
+    <name>STR_IDWaterWorld_C_Slave_Shugo_02</name>
+    <body>Chodanerk</body>
+  </string>
+  <string>
+    <id>2331022</id>
+    <name>STR_IDWaterWorld_C_Slave_Shugo_03</name>
+    <body>Hedanerk</body>
+  </string>
+  <string>
+    <id>2331023</id>
+    <name>STR_IDWaterWorld_attackable01</name>
+    <body>Ring</body>
+  </string>
+  <string>
+    <id>2331024</id>
+    <name>STR_NPCTITLE_Ddefence</name>
+    <body>&lt;Pandora Projects Office&gt;</body>
+  </string>
+  <string>
+    <id>2331025</id>
+    <name>STR_NPCTITLE_PCampGuard</name>
+    <body>&lt;Transport Base Reinforcements&gt;</body>
+  </string>
+  <string>
+    <id>2331026</id>
+    <name>STR_NPCTITLE_1521_Miston_v65_Li_Atk</name>
+    <body>&lt;Lakrum Fortress Attack Group&gt;</body>
+  </string>
+  <string>
+    <id>2331027</id>
+    <name>STR_NPCTITLE_1521_Miston_v65_Li_Def</name>
+    <body>&lt;Lakrum Fortress Reinforcements Unit&gt;</body>
+  </string>
+  <string>
+    <id>2331028</id>
+    <name>STR_NPCTITLE_1521_Miston_v65_Da_Atk</name>
+    <body>&lt;Lakrum Fortress Infiltration Squad&gt;</body>
+  </string>
+  <string>
+    <id>2331029</id>
+    <name>STR_NPCTITLE_1521_Miston_v65_Da_Def</name>
+    <body>&lt;Lakrum Fortress Reinforcement Squad&gt;</body>
+  </string>
+  <string>
+    <id>2331030</id>
+    <name>STR_NPCTITLE_1011_Miston_v65_Li</name>
+    <body>&lt;Divine Fortress Attack Group&gt;</body>
+  </string>
+  <string>
+    <id>2331031</id>
+    <name>STR_NPCTITLE_1011_Miston_v65_Da</name>
+    <body>&lt;Divine Fortress Infiltration Squad&gt;</body>
+  </string>
+  <string>
+    <id>2331032</id>
+    <name>STR_PandoraRaid_LF5_v01_Boss</name>
+    <body>Chieftain of the 181st Village</body>
+  </string>
+  <string>
+    <id>2331033</id>
+    <name>STR_PandoraRaid_LF5_v02_Boss</name>
+    <body>Chieftain of the 182nd Village</body>
+  </string>
+  <string>
+    <id>2331034</id>
+    <name>STR_PandoraRaid_LF5_v03_Boss</name>
+    <body>Chieftain of the 183rd Village</body>
+  </string>
+  <string>
+    <id>2331035</id>
+    <name>STR_PandoraRaid_LF5_v04_Boss</name>
+    <body>Chieftain of the 184th Village</body>
+  </string>
+  <string>
+    <id>2331036</id>
+    <name>STR_PandoraRaid_LF5_v05_Boss</name>
+    <body>Chieftain of the 185th Village</body>
+  </string>
+  <string>
+    <id>2331037</id>
+    <name>STR_PandoraRaid_LF5_v01_Boss_Li</name>
+    <body>Legate of the 181st Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331038</id>
+    <name>STR_PandoraRaid_LF5_v02_Boss_Li</name>
+    <body>Legate of the 182nd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331039</id>
+    <name>STR_PandoraRaid_LF5_v03_Boss_Li</name>
+    <body>Legate of the 183rd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331040</id>
+    <name>STR_PandoraRaid_LF5_v04_Boss_Li</name>
+    <body>Legate of the 184th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331041</id>
+    <name>STR_PandoraRaid_LF5_v05_Boss_Li</name>
+    <body>Legate of the 185th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331042</id>
+    <name>STR_PandoraRaid_LF5_v01_Boss_Da</name>
+    <body>Legate of the 181st Defence Troop</body>
+  </string>
+  <string>
+    <id>2331043</id>
+    <name>STR_PandoraRaid_LF5_v02_Boss_Da</name>
+    <body>Legate of the 182nd Defence Troop</body>
+  </string>
+  <string>
+    <id>2331044</id>
+    <name>STR_PandoraRaid_LF5_v03_Boss_Da</name>
+    <body>Legate of the 183rd Defence Troop</body>
+  </string>
+  <string>
+    <id>2331045</id>
+    <name>STR_PandoraRaid_LF5_v04_Boss_Da</name>
+    <body>Legate of the 184th Defence Troop</body>
+  </string>
+  <string>
+    <id>2331046</id>
+    <name>STR_PandoraRaid_LF5_v05_Boss_Da</name>
+    <body>Legate of the 185th Defence Troop</body>
+  </string>
+  <string>
+    <id>2331047</id>
+    <name>STR_PandoraRaid_DF5_v01_Boss</name>
+    <body>Legate of the 141st Conquest Squad</body>
+  </string>
+  <string>
+    <id>2331048</id>
+    <name>STR_PandoraRaid_DF5_v02_Boss</name>
+    <body>Legate of the 142nd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2331049</id>
+    <name>STR_PandoraRaid_DF5_v03_Boss</name>
+    <body>Legate of the 143rd Conquest Squad</body>
+  </string>
+  <string>
+    <id>2331050</id>
+    <name>STR_PandoraRaid_DF5_v04_Boss</name>
+    <body>Legate of the 144th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2331051</id>
+    <name>STR_PandoraRaid_DF5_v05_Boss</name>
+    <body>Legate of the 145th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2331052</id>
+    <name>STR_PandoraRaid_DF5_v06_Boss</name>
+    <body>Legate of the 146th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2331053</id>
+    <name>STR_PandoraRaid_DF5_v07_Boss</name>
+    <body>Legate of the 147th Conquest Squad</body>
+  </string>
+  <string>
+    <id>2331054</id>
+    <name>STR_PandoraRaid_DF5_v01_Boss_Li</name>
+    <body>Legate of the 141st Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331055</id>
+    <name>STR_PandoraRaid_DF5_v02_Boss_Li</name>
+    <body>Legate of the 142nd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331056</id>
+    <name>STR_PandoraRaid_DF5_v03_Boss_Li</name>
+    <body>Legate of the 143rd Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331057</id>
+    <name>STR_PandoraRaid_DF5_v04_Boss_Li</name>
+    <body>Legate of the 144th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331058</id>
+    <name>STR_PandoraRaid_DF5_v05_Boss_Li</name>
+    <body>Legate of the 145th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331059</id>
+    <name>STR_PandoraRaid_DF5_v06_Boss_Li</name>
+    <body>Legate of the 146th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331060</id>
+    <name>STR_PandoraRaid_DF5_v07_Boss_Li</name>
+    <body>Legate of the 147th Occupation Troop</body>
+  </string>
+  <string>
+    <id>2331061</id>
+    <name>STR_PandoraRaid_DF5_v01_Boss_Da</name>
+    <body>Legate of the 141st Defence Troop</body>
+  </string>
+  <string>
+    <id>2331062</id>
+    <name>STR_PandoraRaid_DF5_v02_Boss_Da</name>
+    <body>Legate of the 142nd Defence Troop</body>
+  </string>
+  <string>
+    <id>2331063</id>
+    <name>STR_PandoraRaid_DF5_v03_Boss_Da</name>
+    <body>Legate of the 143rd Defence Troop</body>
+  </string>
+  <string>
+    <id>2331064</id>
+    <name>STR_PandoraRaid_DF5_v04_Boss_Da</name>
+    <body>Legate of the 144th Defence Troop</body>
+  </string>
+  <string>
+    <id>2331065</id>
+    <name>STR_PandoraRaid_DF5_v05_Boss_Da</name>
+    <body>Legate of the 145th Defence Troop</body>
+  </string>
+  <string>
+    <id>2331066</id>
+    <name>STR_PandoraRaid_DF5_v06_Boss_Da</name>
+    <body>Legate of the 146th Defence Troop</body>
+  </string>
+  <string>
+    <id>2331067</id>
+    <name>STR_PandoraRaid_DF5_v07_Boss_Da</name>
+    <body>Legate of the 147th Defence Troop</body>
+  </string>
+  <string>
+    <id>2331068</id>
+    <name>STR_NPCTITLE_LF5R_Village_Boss</name>
+    <body>&lt;Black Fins Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2331069</id>
+    <name>STR_NPCTITLE_LF5R_Village_Li</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2331070</id>
+    <name>STR_NPCTITLE_LF5R_Village_Da</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2331071</id>
+    <name>STR_NPCTITLE_DF5R_Village_Boss</name>
+    <body>&lt;Nazra Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2331072</id>
+    <name>STR_NPCTITLE_DF5R_Village_Li</name>
+    <body>&lt;Guardian Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2331073</id>
+    <name>STR_NPCTITLE_DF5R_Village_Da</name>
+    <body>&lt;Archon Occupation Troop&gt;</body>
+  </string>
+  <string>
+    <id>2331074</id>
+    <name>STR_NPCTITLE_LF5R_DrakanNormal</name>
+    <body>&lt;8th Unit of the Beritra Army&gt;</body>
+  </string>
+  <string>
+    <id>2331075</id>
+    <name>STR_NPCTITLE_LF5R_DrakanNamed</name>
+    <body>&lt;Nazra's Lackey&gt;</body>
+  </string>
+  <string>
+    <id>2331076</id>
+    <name>STR_NPCTITLE_LF5R_DrakanBoss</name>
+    <body>&lt;Weapon of the Nazra Legion&gt;</body>
+  </string>
+  <string>
+    <id>2331077</id>
+    <name>STR_NPCTITLE_DF5R_MermanNamed</name>
+    <body>&lt;Demaruk's Servant&gt;</body>
+  </string>
+  <string>
+    <id>2331078</id>
+    <name>STR_NPCTITLE_DF5R_MermanBoss</name>
+    <body>&lt;Prince of the Sea Spirits&gt;</body>
+  </string>
+  <string>
+    <id>2331079</id>
+    <name>STR_NPCTITLE_LF5R_WaveNamed</name>
+    <body>&lt;Mist-Thorn Chieftains&gt;</body>
+  </string>
+  <string>
+    <id>2331080</id>
+    <name>STR_NPCTITLE_DF5R_WaveNamed</name>
+    <body>&lt;Ruins Chieftains&gt;</body>
+  </string>
+  <string>
+    <id>2331081</id>
+    <name>STR_DF4_Owllau_As_51_Ae_Unused</name>
+    <body>Strigik Novice Gangster</body>
+  </string>
+  <string>
+    <id>2331082</id>
+    <name>STR_LF4_A5_ShulackAs_Talk_51_Ae_Unused</name>
+    <body>Shulack Novice Gangster</body>
+  </string>
+  <string>
+    <id>2331083</id>
+    <name>STR_LF4_A5_ShulackAs_51_Ae_Unused</name>
+    <body>Shulack Novice Gangster</body>
+  </string>
+  <string>
+    <id>2331084</id>
+    <name>STR_LF4_A5_ShulackFi_Drink_51_Ae_Unused</name>
+    <body>Shulack Novice Patrol</body>
+  </string>
+  <string>
+    <id>2331085</id>
+    <name>STR_LF4_A5_ShulackFi_Talk_52_Ae_Unused</name>
+    <body>Shulack Novice Patrol</body>
+  </string>
+  <string>
+    <id>2331086</id>
+    <name>STR_LF4_A5_ShulackPr_Talk_51_Ae_Unused</name>
+    <body>Shulack Novice Herbalist</body>
+  </string>
+  <string>
+    <id>2331087</id>
+    <name>STR_LF4_A5_ShulackPr_51_Ae_Unused</name>
+    <body>Shulack Novice Herbalist</body>
+  </string>
+  <string>
+    <id>2331088</id>
+    <name>STR_LF4_A5_ShulackPr_52_Ae_Unused</name>
+    <body>Shulack Novice Herbalist</body>
+  </string>
+  <string>
+    <id>2331089</id>
+    <name>STR_LF4_A5_ShulackRa_Talk_51_Ae_Unused</name>
+    <body>Shulack Novice Ranger</body>
+  </string>
+  <string>
+    <id>2331090</id>
+    <name>STR_LF4_A5_ShulackRa_52_Ae_Unused</name>
+    <body>Shulack Novice Ranger</body>
+  </string>
+  <string>
+    <id>2331091</id>
+    <name>STR_LF4_C5_DrakanWi_noble_NamedQ_55_Ae_Unused</name>
+    <body>Elder Zaruta</body>
+  </string>
+  <string>
+    <id>2331092</id>
+    <name>STR_LF4_C5_DrakanAs_noble_55_Ae_Unused</name>
+    <body>Hanarkand Drakan Novice Attack Captain</body>
+  </string>
+  <string>
+    <id>2331093</id>
+    <name>STR_LF4_C5_DrakanFi_noble_55_Ae_Unused</name>
+    <body>Hanarkand Drakan Novice Legate</body>
+  </string>
+  <string>
+    <id>2331094</id>
+    <name>STR_LF4_C5_DrakanRa_noble_55_Ae_Unused</name>
+    <body>Hanarkand Drakan Novice Triaris</body>
+  </string>
+  <string>
+    <id>2331095</id>
+    <name>STR_LF4_C5_DrakanWi_noble_55_Ae_Unused</name>
+    <body>Hanarkand Drakan Novice Mage</body>
+  </string>
+  <string>
+    <id>2331096</id>
+    <name>STR_LF4_C5_DrakanWi_vil_55_Ae_Unused</name>
+    <body>Hanarkand Drakan Novice Battle Mage</body>
+  </string>
+  <string>
+    <id>2331097</id>
+    <name>STR_LF4_C5_DrakanRa_vil_55_Ae_Unused</name>
+    <body>Hanarkand Drakan Novice Seeker</body>
+  </string>
+  <string>
+    <id>2331098</id>
+    <name>STR_LF4_C5_DrakanFi_vil_55_Ae_Unused</name>
+    <body>Hanarkand Drakan Novice Fighter</body>
+  </string>
+  <string>
+    <id>2331099</id>
+    <name>STR_LF4_C5_DrakanAs_vil_55_Ae_Unused</name>
+    <body>Hanarkand Drakan Novice Robber</body>
+  </string>
+  <string>
+    <id>2331100</id>
+    <name>STR_PandoraRaid_MermanMage_Named02</name>
+    <body>Cunning Meramaru</body>
+  </string>
+  <string>
+    <id>2331101</id>
+    <name>STR_NPCTITLE_PandoraR_RewardBox_24</name>
+    <body>&lt;Pandora Development Area (24 people)&gt;</body>
+  </string>
+  <string>
+    <id>2331102</id>
+    <name>STR_NPCTITLE_PandoraR_RewardBox_48</name>
+    <body>&lt;Pandora Development Area (48 people)&gt;</body>
+  </string>
+  <string>
+    <id>2331103</id>
+    <name>STR_IDF7_Ere_Eresukigal_Summon_01</name>
+    <body>Ice Storm</body>
+  </string>
+  <string>
+    <id>2331104</id>
+    <name>STR_IDF7_Ere_Eresukigal_Summon_02</name>
+    <body>Cold Fragment</body>
+  </string>
+  <string>
+    <id>2331105</id>
+    <name>STR_IDWaterWorld_Real_01</name>
+    <body>Shugo thanks Daeva! Shugo is free at last!</body>
+  </string>
+  <string>
+    <id>2331106</id>
+    <name>STR_LF5_PRaid_LDirectGuard_Kn01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331107</id>
+    <name>STR_LF5_PRaid_LDirectGuard_Kn01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331108</id>
+    <name>STR_LF5_PRaid_LDirectGuard_Fi01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331109</id>
+    <name>STR_LF5_PRaid_LDirectGuard_Fi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331110</id>
+    <name>STR_LF5_PRaid_LDirectGuard_As01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331111</id>
+    <name>STR_LF5_PRaid_LDirectGuard_As01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331112</id>
+    <name>STR_LF5_PRaid_LDirectGuard_Ra01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331113</id>
+    <name>STR_LF5_PRaid_LDirectGuard_Ra01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331114</id>
+    <name>STR_LF5_PRaid_LDirectGuard_Ra01_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331115</id>
+    <name>STR_LF5_PRaid_LDirectGuard_Wi01_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331116</id>
+    <name>STR_LF5_PRaid_LDirectGuard_Wi01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331117</id>
+    <name>STR_LF5_PRaid_LDirectGuard_Wi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331118</id>
+    <name>STR_IDBattleChange_Base_LiTower</name>
+    <body>Illumiel Wardstone</body>
+  </string>
+  <string>
+    <id>2331119</id>
+    <name>STR_LF5_PRaid_TDirectGuard_Kn01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331120</id>
+    <name>STR_LF5_PRaid_TDirectGuard_Kn01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331121</id>
+    <name>STR_LF5_PRaid_TDirectGuard_Fi01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331122</id>
+    <name>STR_LF5_PRaid_TDirectGuard_Fi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331123</id>
+    <name>STR_LF5_PRaid_TDirectGuard_As01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331124</id>
+    <name>STR_LF5_PRaid_TDirectGuard_As01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331125</id>
+    <name>STR_LF5_PRaid_TDirectGuard_Ra01_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331126</id>
+    <name>STR_LF5_PRaid_TDirectGuard_Ra01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331127</id>
+    <name>STR_LF5_PRaid_TDirectGuard_Ra01_80_Al</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331128</id>
+    <name>STR_LF5_PRaid_TDirectGuard_Wi01_80_Ah</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331129</id>
+    <name>STR_LF5_PRaid_TDirectGuard_Wi01_NoMove_80_Ah</name>
+    <body>Pandora Projects Office Soldier</body>
+  </string>
+  <string>
+    <id>2331130</id>
+    <name>STR_LF5_PRaid_TDirectGuard_Wi01_80_Al</name>
+    <body>Pandora Projects Office Elite Soldier</body>
+  </string>
+  <string>
+    <id>2331131</id>
+    <name>STR_IDWaterWorld_A_Slave_Shugo_Real_01_motion</name>
+    <body>Mondanerk</body>
+  </string>
+  <string>
+    <id>2331132</id>
+    <name>STR_IDWaterWorld_A_Slave_Shugo_Real_02_motion</name>
+    <body>Gogunerk</body>
+  </string>
+  <string>
+    <id>2331133</id>
+    <name>STR_IDWaterWorld_A_Slave_Shugo_01_motion</name>
+    <body>Jadamonerk</body>
+  </string>
+  <string>
+    <id>2331134</id>
+    <name>STR_IDWaterWorld_A_Slave_Shugo_02_motion</name>
+    <body>Hadonerk</body>
+  </string>
+  <string>
+    <id>2331135</id>
+    <name>STR_IDWaterworld_Barricade_02</name>
+    <body>Hard Reef</body>
+  </string>
+  <string>
+    <id>2331136</id>
+    <name>STR_IDWaterworld_Barricade_03</name>
+    <body>Steel Rake Fortress Gate</body>
+  </string>
+  <string>
+    <id>2331137</id>
+    <name>STR_NPCTITLE_IDWaterworld_Named</name>
+    <body>&lt;Grogget's Servants&gt;</body>
+  </string>
+  <string>
+    <id>2331138</id>
+    <name>STR_NPCTITLE_IDWaterworld_Boss</name>
+    <body>&lt;Commander of the Steel Rake Fortress&gt;</body>
+  </string>
+  <string>
+    <id>2331139</id>
+    <name>STR_JS_Test1</name>
+    <body>Compliance_Boss Mob</body>
+  </string>
+  <string>
+    <id>2331140</id>
+    <name>STR_JS_Test2</name>
+    <body>Compliance_Opponent Mob</body>
+  </string>
+  <string>
+    <id>2331141</id>
+    <name>STR_MS_Test1</name>
+    <body>Requirement_Boss Mob</body>
+  </string>
+  <string>
+    <id>2331142</id>
+    <name>STR_MS_Test2</name>
+    <body>Requirement_Opponent Mob</body>
+  </string>
+  <string>
     <id>2331143</id>
     <name>STR_IDEvent_solo2_Saam_10_N</name>
     <body>Thriving Ginseng</body>
@@ -297013,6 +301703,11 @@ Rise from your slumber, my brother!</body>
     <id>2331171</id>
     <name>STR_IDEvent_solo2_Tog_Pet_10</name>
     <body>Tamed Tog</body>
+  </string>
+  <string>
+    <id>2331172</id>
+    <name>STR_v65_Event_Monster_80_N</name>
+    <body>Giant Snowman</body>
   </string>
   <string>
     <id>2331173</id>

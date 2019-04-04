@@ -123001,7 +123001,7 @@
   <string>
     <id>790367</id>
     <name>STR_TIAMAT_BANNER_01</name>
-    <body>Tiamat Legion Epaulet</body>
+    <body>Tiamat Legion Epaulettes</body>
   </string>
   <string>
     <id>790368</id>
@@ -137476,7 +137476,7 @@
   <string>
     <id>793242</id>
     <name>STR_DECO_ACHIEVE_DEFENDSTONE_C_01</name>
-    <body>[Souvenir] Reian Guardian Stone Replica</body>
+    <body>[Souvenir] Reian Wardstone Replica</body>
   </string>
   <string>
     <id>793243</id>
@@ -137521,7 +137521,7 @@
   <string>
     <id>793251</id>
     <name>STR_DECO_ACHIEVE_DEFENDSTONE_C_01_DESC</name>
-    <body>A Reian guardian stone replica.\nIt can be used for decorating a house.</body>
+    <body>A Reian wardstone replica.\nIt can be used for decorating a house.</body>
   </string>
   <string>
     <id>793252</id>
@@ -143582,7 +143582,7 @@
   <string>
     <id>794461</id>
     <name>STR_NPC_LT_TORSO_YUN_STONE_01</name>
-    <body>NPC_Jerkin_Yun Guardian Stone Manager</body>
+    <body>NPC_Jerkin_Yun Wardstone Manager</body>
   </string>
   <string>
     <id>794462</id>
@@ -143672,7 +143672,7 @@
   <string>
     <id>794479</id>
     <name>STR_NPC_LT_GLOVE_YUN_STONE_01</name>
-    <body>NPC_Vambraces_Yun Guardian Stone Manager</body>
+    <body>NPC_Vambraces_Yun Wardstone Manager</body>
   </string>
   <string>
     <id>794480</id>
@@ -143717,7 +143717,7 @@
   <string>
     <id>794488</id>
     <name>STR_NPC_LT_SHOULDER_YUN_STONE_01</name>
-    <body>NPC_Leather Spaulders_Yun Guardian Stone Manager</body>
+    <body>NPC_Leather Spaulders_Yun Wardstone Manager</body>
   </string>
   <string>
     <id>794489</id>
@@ -143772,7 +143772,7 @@
   <string>
     <id>794499</id>
     <name>STR_NPC_LT_PANTS_YUN_STONE_01</name>
-    <body>NPC_Leather Pants_Yun Guardian Stone Manager</body>
+    <body>NPC_Leather Pants_Yun Wardstone Manager</body>
   </string>
   <string>
     <id>794500</id>
@@ -143827,7 +143827,7 @@
   <string>
     <id>794510</id>
     <name>STR_NPC_LT_SHOES_YUN_STONE_01</name>
-    <body>NPC_Leather Shoes_Yun Guardian Stone Manager</body>
+    <body>NPC_Leather Shoes_Yun Wardstone Manager</body>
   </string>
   <string>
     <id>794511</id>
@@ -143872,7 +143872,7 @@
   <string>
     <id>794519</id>
     <name>STR_NPC_LT_HEAD_YUN_STONE_01</name>
-    <body>NPC_Leather Hat_Yun Guardian Stone Manager</body>
+    <body>NPC_Leather Hat_Yun Wardstone Manager</body>
   </string>
   <string>
     <id>794520</id>
@@ -151347,7 +151347,7 @@
   <string>
     <id>795998</id>
     <name>STR_TIAMAT_BANNER_01_DESC</name>
-    <body>An epaulet of Tiamat Drakan.</body>
+    <body>An epaulette of Tiamat Drakan.</body>
   </string>
   <string>
     <id>795999</id>
@@ -152852,7 +152852,7 @@
   <string>
     <id>796299</id>
     <name>STR_WORLD_CASH_COUPON_CUSTOMIZE_01_60M_DESC</name>
-    <body>You can change your face and your physical form.\nGo to the Clothing tab in the Gold Sand shop and click on the Modify Appearance button.\nCan only be used in cities.</body>
+    <body>You can change your face and your physique.\nGo to the Clothing tab in the Gold Sand shop and click on the Modify Appearance button.\nCan only be used in cities.</body>
   </string>
   <string>
     <id>796300</id>
@@ -152862,7 +152862,7 @@
   <string>
     <id>796301</id>
     <name>STR_WORLD_CASH_COUPON_SEX_EXCHANGE_01_60M_DESC</name>
-    <body>You can change your gender and your appearance.\n\nGo to the Clothing tab in the Gold Sand shop and click on the Gender Switch button.\nCan only be used in cities.</body>
+    <body>You can change your gender and appearance.\nGo to the Clothing tab in the Gold Sand shop and click on the Gender Switch button.\nCan only be used in cities.</body>
   </string>
   <string>
     <id>796302</id>
@@ -166861,122 +166861,122 @@
   <string>
     <id>799092</id>
     <name>STR_REC_L_EVENT_CV_REMEDY_HP_60A</name>
-    <body>[Jakunerk] Icy Fine Life Potion, Alchemical Transformation</body>
+    <body>[Jakunerk] Icy Fine Life Potion, Morph</body>
   </string>
   <string>
     <id>799093</id>
     <name>STR_REC_L_EVENT_CV_POTION_HP_60A</name>
-    <body>[Jakunerk] Icy Fine Life Serum, Alchemical Transformation</body>
+    <body>[Jakunerk] Icy Fine Life Serum, Morph</body>
   </string>
   <string>
     <id>799094</id>
     <name>STR_REC_L_EVENT_CV_REMEDY_MP_60A</name>
-    <body>[Jakunerk] Icy Fine Mana Potion, Alchemical Transformation</body>
+    <body>[Jakunerk] Icy Fine Mana Potion, Morph</body>
   </string>
   <string>
     <id>799095</id>
     <name>STR_REC_L_EVENT_CV_POTION_MP_60A</name>
-    <body>[Jakunerk] Icy Fine Mana Serum, Alchemical Transformation</body>
+    <body>[Jakunerk] Icy Fine Mana Serum, Morph</body>
   </string>
   <string>
     <id>799096</id>
     <name>STR_REC_L_EVENT_CV_REMEDY_HP_50A</name>
-    <body>[Jakunerk] Enhanced Life Potion, Alchemical Transformation</body>
+    <body>[Jakunerk] Enhanced Life Potion, Morph</body>
   </string>
   <string>
     <id>799097</id>
     <name>STR_REC_L_EVENT_CV_POTION_HP_50A</name>
-    <body>[Jakunerk] Enhanced Life Serum, Alchemical Transformation</body>
+    <body>[Jakunerk] Enhanced Life Serum, Morph</body>
   </string>
   <string>
     <id>799098</id>
     <name>STR_REC_L_EVENT_CV_REMEDY_MP_50A</name>
-    <body>[Jakunerk] Enhanced Mana Potion, Alchemical Transformation</body>
+    <body>[Jakunerk] Enhanced Mana Potion, Morph</body>
   </string>
   <string>
     <id>799099</id>
     <name>STR_REC_L_EVENT_CV_POTION_MP_50A</name>
-    <body>[Jakunerk] Enhanced Mana Serum, Alchemical Transformation</body>
+    <body>[Jakunerk] Enhanced Mana Serum, Morph</body>
   </string>
   <string>
     <id>799100</id>
     <name>STR_REC_L_EVENT_CV_WS_AB_material_d_r_60A</name>
-    <body>[Jakunerk] Wrath Manifested, Alchemical Transformation</body>
+    <body>[Jakunerk] Wrath Manifested, Morph</body>
   </string>
   <string>
     <id>799101</id>
     <name>STR_REC_L_EVENT_CV_MEDAL_01</name>
-    <body>[Jakunerk] Gold Medal, Alchemical Transformation</body>
+    <body>[Jakunerk] Gold Medal, Morph</body>
   </string>
   <string>
     <id>799102</id>
     <name>STR_REC_L_EVENT_CV_MEDAL_03</name>
-    <body>[Jakunerk] Platinum Medal, Alchemical Transformation</body>
+    <body>[Jakunerk] Platinum Medal, Morph</body>
   </string>
   <string>
     <id>799103</id>
     <name>STR_REC_L_EVENT_CV_NECKLACE_A_U2_40A</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Centurion's Garnet Necklace</body>
+    <body>[Jakunerk] Morph: Guardian Centurion's Garnet Necklace</body>
   </string>
   <string>
     <id>799104</id>
     <name>STR_REC_L_EVENT_CV_NECKLACE_A_U2_40B</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Centurion's Lazuli Necklace</body>
+    <body>[Jakunerk] Morph: Guardian Centurion's Lazuli Necklace</body>
   </string>
   <string>
     <id>799105</id>
     <name>STR_REC_L_EVENT_CV_NECKLACE_A_U2_50A</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Tribunus's Ruby Necklace</body>
+    <body>[Jakunerk] Morph: Guardian Tribunus's Ruby Necklace</body>
   </string>
   <string>
     <id>799106</id>
     <name>STR_REC_L_EVENT_CV_NECKLACE_A_U2_50B</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Tribunus's Sapphire Necklace</body>
+    <body>[Jakunerk] Morph: Guardian Tribunus's Sapphire Necklace</body>
   </string>
   <string>
     <id>799107</id>
     <name>STR_REC_L_EVENT_CV_NECKLACE_A_U2_55A</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Primus Pilus's Corundum Necklace</body>
+    <body>[Jakunerk] Morph: Guardian Primus Pilus's Corundum Necklace</body>
   </string>
   <string>
     <id>799108</id>
     <name>STR_REC_L_EVENT_CV_NECKLACE_A_U2_55B</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Primus Pilus's Turquoise Necklace</body>
+    <body>[Jakunerk] Morph: Guardian Primus Pilus's Turquoise Necklace</body>
   </string>
   <string>
     <id>799109</id>
     <name>STR_REC_L_EVENT_CV_RING_A_U2_40A</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Centurion's Garnet Ring</body>
+    <body>[Jakunerk] Morph: Guardian Centurion's Garnet Ring</body>
   </string>
   <string>
     <id>799110</id>
     <name>STR_REC_L_EVENT_CV_RING_A_U2_40B</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Centurion's Lazuli Ring</body>
+    <body>[Jakunerk] Morph: Guardian Centurion's Lazuli Ring</body>
   </string>
   <string>
     <id>799111</id>
     <name>STR_REC_L_EVENT_CV_RING_A_U2_50A</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Tribunus's Ruby Ring</body>
+    <body>[Jakunerk] Morph: Guardian Tribunus's Ruby Ring</body>
   </string>
   <string>
     <id>799112</id>
     <name>STR_REC_L_EVENT_CV_RING_A_U2_50B</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Tribunus's Sapphire Ring</body>
+    <body>[Jakunerk] Morph: Guardian Tribunus's Sapphire Ring</body>
   </string>
   <string>
     <id>799113</id>
     <name>STR_REC_L_EVENT_CV_RING_A_U2_55A</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Primus Pilus's Corundum Ring</body>
+    <body>[Jakunerk] Morph: Guardian Primus Pilus's Corundum Ring</body>
   </string>
   <string>
     <id>799114</id>
     <name>STR_REC_L_EVENT_CV_RING_A_U2_55B</name>
-    <body>[Jakunerk] Alchemical Transformation: Guardian Primus Pilus's Turquoise Ring</body>
+    <body>[Jakunerk] Morph: Guardian Primus Pilus's Turquoise Ring</body>
   </string>
   <string>
     <id>799115</id>
     <name>STR_REC_L_EVENT_CV_DROPMATERIAL_N_E_60A</name>
-    <body>[Jakunerk] Life Leaf, Alchemical Transformation</body>
+    <body>[Jakunerk] Life Leaf, Morph</body>
   </string>
   <string>
     <id>799116</id>
@@ -167101,122 +167101,122 @@
   <string>
     <id>799140</id>
     <name>STR_REC_D_EVENT_CV_REMEDY_HP_60A</name>
-    <body>[Jakunerk] Icy Fine Life Potion, Alchemical Transformation</body>
+    <body>[Jakunerk] Icy Fine Life Potion, Morph</body>
   </string>
   <string>
     <id>799141</id>
     <name>STR_REC_D_EVENT_CV_POTION_HP_60A</name>
-    <body>[Jakunerk] Icy Fine Life Serum, Alchemical Transformation</body>
+    <body>[Jakunerk] Icy Fine Life Serum, Morph</body>
   </string>
   <string>
     <id>799142</id>
     <name>STR_REC_D_EVENT_CV_REMEDY_MP_60A</name>
-    <body>[Jakunerk] Icy Fine Mana Potion, Alchemical Transformation</body>
+    <body>[Jakunerk] Icy Fine Mana Potion, Morph</body>
   </string>
   <string>
     <id>799143</id>
     <name>STR_REC_D_EVENT_CV_POTION_MP_60A</name>
-    <body>[Jakunerk] Icy Fine Mana Serum, Alchemical Transformation</body>
+    <body>[Jakunerk] Icy Fine Mana Serum, Morph</body>
   </string>
   <string>
     <id>799144</id>
     <name>STR_REC_D_EVENT_CV_REMEDY_HP_50A</name>
-    <body>[Jakunerk] Enhanced Life Potion, Alchemical Transformation</body>
+    <body>[Jakunerk] Enhanced Life Potion, Morph</body>
   </string>
   <string>
     <id>799145</id>
     <name>STR_REC_D_EVENT_CV_POTION_HP_50A</name>
-    <body>[Jakunerk] Enhanced Life Serum, Alchemical Transformation</body>
+    <body>[Jakunerk] Enhanced Life Serum, Morph</body>
   </string>
   <string>
     <id>799146</id>
     <name>STR_REC_D_EVENT_CV_REMEDY_MP_50A</name>
-    <body>[Jakunerk] Enhanced Mana Potion, Alchemical Transformation</body>
+    <body>[Jakunerk] Enhanced Mana Potion, Morph</body>
   </string>
   <string>
     <id>799147</id>
     <name>STR_REC_D_EVENT_CV_POTION_MP_50A</name>
-    <body>[Jakunerk] Enhanced Mana Serum, Alchemical Transformation</body>
+    <body>[Jakunerk] Enhanced Mana Serum, Morph</body>
   </string>
   <string>
     <id>799148</id>
     <name>STR_REC_D_EVENT_CV_WS_AB_material_d_r_60A</name>
-    <body>[Jakunerk] Wrath Manifested, Alchemical Transformation</body>
+    <body>[Jakunerk] Wrath Manifested, Morph</body>
   </string>
   <string>
     <id>799149</id>
     <name>STR_REC_D_EVENT_CV_MEDAL_01</name>
-    <body>[Jakunerk] Gold Medal, Alchemical Transformation</body>
+    <body>[Jakunerk] Gold Medal, Morph</body>
   </string>
   <string>
     <id>799150</id>
     <name>STR_REC_D_EVENT_CV_MEDAL_03</name>
-    <body>[Jakunerk] Platinum Medal, Alchemical Transformation</body>
+    <body>[Jakunerk] Platinum Medal, Morph</body>
   </string>
   <string>
     <id>799151</id>
     <name>STR_REC_D_EVENT_CV_NECKLACE_D_A_U2_40A</name>
-    <body>[Jakunerk] Alchemical Transformation: Archon Centurion's Garnet Necklace</body>
+    <body>[Jakunerk] Morph: Archon Centurion's Garnet Necklace</body>
   </string>
   <string>
     <id>799152</id>
     <name>STR_REC_D_EVENT_CV_NECKLACE_D_A_U2_40B</name>
-    <body>[Jakunerk] Archon Centurion's Lazuli Necklace, Alchemical Transformation</body>
+    <body>[Jakunerk] Archon Centurion's Lazuli Necklace, Morph</body>
   </string>
   <string>
     <id>799153</id>
     <name>STR_REC_D_EVENT_CV_NECKLACE_D_A_U2_50A</name>
-    <body>[Jakunerk] Alchemical Transformation: Archon Tribunus's Ruby Necklace</body>
+    <body>[Jakunerk] Morph: Archon Tribunus's Ruby Necklace</body>
   </string>
   <string>
     <id>799154</id>
     <name>STR_REC_D_EVENT_CV_NECKLACE_D_A_U2_50B</name>
-    <body>[Jakunerk] Alchemical Transformation: Archon Tribunus's Sapphire Necklace</body>
+    <body>[Jakunerk] Morph: Archon Tribunus's Sapphire Necklace</body>
   </string>
   <string>
     <id>799155</id>
     <name>STR_REC_D_EVENT_CV_NECKLACE_D_A_U2_55A</name>
-    <body>[Jakunerk] Alchemical Transformation: Archon Primus Pilus's Corundum Necklace</body>
+    <body>[Jakunerk] Morph: Archon Primus Pilus's Corundum Necklace</body>
   </string>
   <string>
     <id>799156</id>
     <name>STR_REC_D_EVENT_CV_NECKLACE_D_A_U2_55B</name>
-    <body>[Jakunerk] Alchemical Transformation: Archon Primus Pilus's Turquoise Necklace</body>
+    <body>[Jakunerk] Morph: Archon Primus Pilus's Turquoise Necklace</body>
   </string>
   <string>
     <id>799157</id>
     <name>STR_REC_D_EVENT_CV_RING_D_A_U2_40A</name>
-    <body>[Jakunerk] Alchemical Transformation: Archon Centurion's Garnet Ring</body>
+    <body>[Jakunerk] Morph: Archon Centurion's Garnet Ring</body>
   </string>
   <string>
     <id>799158</id>
     <name>STR_REC_D_EVENT_CV_RING_D_A_U2_40B</name>
-    <body>[Jakunerk] Alchemical Transformation: Archon Centurion's Lazuli Ring</body>
+    <body>[Jakunerk] Morph: Archon Centurion's Lazuli Ring</body>
   </string>
   <string>
     <id>799159</id>
     <name>STR_REC_D_EVENT_CV_RING_D_A_U2_50A</name>
-    <body>[Jakunerk] Alchemical Transformation: Archon Tribunus's Ruby Ring</body>
+    <body>[Jakunerk] Morph: Archon Tribunus's Ruby Ring</body>
   </string>
   <string>
     <id>799160</id>
     <name>STR_REC_D_EVENT_CV_RING_D_A_U2_50B</name>
-    <body>[Jakunerk] Alchemical Transformation: Archon Tribunus's Sapphire Ring</body>
+    <body>[Jakunerk] Morph: Archon Tribunus's Sapphire Ring</body>
   </string>
   <string>
     <id>799161</id>
     <name>STR_REC_D_EVENT_CV_RING_D_A_U2_55A</name>
-    <body>[Jakunerk] Alchemical Transformation: Archon Primus Pilus's Corundum Ring</body>
+    <body>[Jakunerk] Morph: Archon Primus Pilus's Corundum Ring</body>
   </string>
   <string>
     <id>799162</id>
     <name>STR_REC_D_EVENT_CV_RING_D_A_U2_55B</name>
-    <body>[Jakunerk] Alchemical Transformation: Archon Primus Pilus's Turquoise Ring</body>
+    <body>[Jakunerk] Morph: Archon Primus Pilus's Turquoise Ring</body>
   </string>
   <string>
     <id>799163</id>
     <name>STR_REC_D_EVENT_CV_DROPMATERIAL_D_N_E_60A</name>
-    <body>[Jakunerk] Life Leaf, Alchemical Transformation</body>
+    <body>[Jakunerk] Life Leaf, Morph</body>
   </string>
   <string>
     <id>799164</id>
@@ -167351,232 +167351,232 @@
   <string>
     <id>799190</id>
     <name>STR_event_cv_remedy_hp_60a</name>
-    <body>Alchemical Transformation: Refined Life Potion</body>
+    <body>Morph: Refined Life Potion</body>
   </string>
   <string>
     <id>799191</id>
     <name>STR_event_cv_potion_hp_60a</name>
-    <body>Alchemical Transformation: Refined Life Serum</body>
+    <body>Morph: Refined Life Serum</body>
   </string>
   <string>
     <id>799192</id>
     <name>STR_event_cv_remedy_mp_60a</name>
-    <body>Alchemical Transformation: Refined Mana Potion</body>
+    <body>Morph: Refined Mana Potion</body>
   </string>
   <string>
     <id>799193</id>
     <name>STR_event_cv_potion_mp_60a</name>
-    <body>Alchemical Transformation: Refined Mana Serum</body>
+    <body>Morph: Refined Mana Serum</body>
   </string>
   <string>
     <id>799194</id>
     <name>STR_event_cv_remedy_hp_50a</name>
-    <body>Alchemical Transformation: Powerful Life Potion</body>
+    <body>Morph: Powerful Life Potion</body>
   </string>
   <string>
     <id>799195</id>
     <name>STR_event_cv_potion_hp_50a</name>
-    <body>Alchemical Transformation: Powerful Life Serum</body>
+    <body>Morph: Powerful Life Serum</body>
   </string>
   <string>
     <id>799196</id>
     <name>STR_event_cv_remedy_mp_50a</name>
-    <body>Alchemical Transformation: Powerful Mana Potion</body>
+    <body>Morph: Powerful Mana Potion</body>
   </string>
   <string>
     <id>799197</id>
     <name>STR_event_cv_potion_mp_50a</name>
-    <body>Alchemical Transformation: Powerful Mana Serum</body>
+    <body>Morph: Powerful Mana Serum</body>
   </string>
   <string>
     <id>799198</id>
     <name>STR_l_event_cv_ws_ab_material_d_r_60a</name>
-    <body>Alchemical Transformation: Wrath Manifested</body>
+    <body>Morph: Wrath Manifested</body>
   </string>
   <string>
     <id>799199</id>
     <name>STR_event_cv_medal_01</name>
-    <body>Alchemical Transformation: Gold Medal</body>
+    <body>Morph: Gold Medal</body>
   </string>
   <string>
     <id>799200</id>
     <name>STR_event_cv_medal_03</name>
-    <body>Alchemical Transformation: Platinum Medal</body>
+    <body>Morph: Platinum Medal</body>
   </string>
   <string>
     <id>799201</id>
     <name>STR_l_event_cv_necklace_a_u2_40a</name>
-    <body>Alchemical Transformation: Guardian Centurion's Garnet Necklace</body>
+    <body>Morph: Guardian Centurion's Garnet Necklace</body>
   </string>
   <string>
     <id>799202</id>
     <name>STR_l_event_cv_necklace_a_u2_40b</name>
-    <body>Alchemical Transformation: Guardian Centurion's Lazuli Necklace</body>
+    <body>Morph: Guardian Centurion's Lazuli Necklace</body>
   </string>
   <string>
     <id>799203</id>
     <name>STR_l_event_cv_necklace_a_u2_50a</name>
-    <body>Alchemical Transformation: Guardian Tribunus' Ruby Necklace</body>
+    <body>Morph: Guardian Tribunus' Ruby Necklace</body>
   </string>
   <string>
     <id>799204</id>
     <name>STR_l_event_cv_necklace_a_u2_50b</name>
-    <body>Alchemical Transformation: Guardian Tribunus' Sapphire Necklace</body>
+    <body>Morph: Guardian Tribunus' Sapphire Necklace</body>
   </string>
   <string>
     <id>799205</id>
     <name>STR_l_event_cv_necklace_a_u2_55a</name>
-    <body>Alchemical Transformation: Archon Primus Pilus's Corundum Necklace</body>
+    <body>Morph: Archon Primus Pilus's Corundum Necklace</body>
   </string>
   <string>
     <id>799206</id>
     <name>STR_l_event_cv_necklace_a_u2_55b</name>
-    <body>Alchemical Transformation: Archon Primus Pilus's Turquoise Necklace</body>
+    <body>Morph: Archon Primus Pilus's Turquoise Necklace</body>
   </string>
   <string>
     <id>799207</id>
     <name>STR_l_event_cv_ring_a_u2_40a</name>
-    <body>Alchemical Transformation: Guardian Centurion's Garnet Ring</body>
+    <body>Morph: Guardian Centurion's Garnet Ring</body>
   </string>
   <string>
     <id>799208</id>
     <name>STR_l_event_cv_ring_a_u2_40b</name>
-    <body>Alchemical Transformation: Guardian Centurion's Lazuli Ring</body>
+    <body>Morph: Guardian Centurion's Lazuli Ring</body>
   </string>
   <string>
     <id>799209</id>
     <name>STR_l_event_cv_ring_a_u2_50a</name>
-    <body>Alchemical Transformation: Guardian Tribunus' Ruby Ring</body>
+    <body>Morph: Guardian Tribunus' Ruby Ring</body>
   </string>
   <string>
     <id>799210</id>
     <name>STR_l_event_cv_ring_a_u2_50b</name>
-    <body>Alchemical Transformation: Guardian Tribunus' Sapphire Ring</body>
+    <body>Morph: Guardian Tribunus' Sapphire Ring</body>
   </string>
   <string>
     <id>799211</id>
     <name>STR_l_event_cv_ring_a_u2_55a</name>
-    <body>Alchemical Transformation: Guardian Primus Pilus's Corundum Ring</body>
+    <body>Morph: Guardian Primus Pilus's Corundum Ring</body>
   </string>
   <string>
     <id>799212</id>
     <name>STR_l_event_cv_ring_a_u2_55b</name>
-    <body>Alchemical Transmutation: Guardian Primus Pilus's Turquoise Ring</body>
+    <body>Morph: Guardian Primus Pilus's Turquoise Ring</body>
   </string>
   <string>
     <id>799213</id>
     <name>STR_l_event_cv_dropmaterial_n_e_60a</name>
-    <body>Alchemical Transformation: Life Leaf</body>
+    <body>Morph: Life Leaf</body>
   </string>
   <string>
     <id>799214</id>
     <name>STR_d_event_cv_ws_ab_material_d_r_60a</name>
-    <body>Alchemical Transformation: Wrath Manifested</body>
+    <body>Morph: Wrath Manifested</body>
   </string>
   <string>
     <id>799215</id>
     <name>STR_d_event_cv_necklace_d_a_u2_40a</name>
-    <body>Alchemical Transformation, Archon Centurion's Garnet Necklace</body>
+    <body>Morph, Archon Centurion's Garnet Necklace</body>
   </string>
   <string>
     <id>799216</id>
     <name>STR_d_event_cv_necklace_d_a_u2_40b</name>
-    <body>Alchemical Transformation: Archon Centurion's Lazuli Necklace</body>
+    <body>Morph: Archon Centurion's Lazuli Necklace</body>
   </string>
   <string>
     <id>799217</id>
     <name>STR_d_event_cv_necklace_d_a_u2_50a</name>
-    <body>Alchemical Transformation: Archon Chiliarch's Ruby Necklace</body>
+    <body>Morph: Archon Chiliarch's Ruby Necklace</body>
   </string>
   <string>
     <id>799218</id>
     <name>STR_d_event_cv_necklace_d_a_u2_50b</name>
-    <body>Alchemical Transformation: Archon Chiliarch's Sapphire Necklace</body>
+    <body>Morph: Archon Chiliarch's Sapphire Necklace</body>
   </string>
   <string>
     <id>799219</id>
     <name>STR_d_event_cv_necklace_d_a_u2_55a</name>
-    <body>Alchemical Transformation: Archon Primus Pilus's Corundum Necklace</body>
+    <body>Morph: Archon Primus Pilus's Corundum Necklace</body>
   </string>
   <string>
     <id>799220</id>
     <name>STR_d_event_cv_necklace_d_a_u2_55b</name>
-    <body>Alchemical Transformation: Archon Primus Pilus's Turquoise Necklace</body>
+    <body>Morph: Archon Primus Pilus's Turquoise Necklace</body>
   </string>
   <string>
     <id>799221</id>
     <name>STR_d_event_cv_ring_d_a_u2_40a</name>
-    <body>Alchemical Transformation: Archon Centurion's Garnet Ring</body>
+    <body>Morph: Archon Centurion's Garnet Ring</body>
   </string>
   <string>
     <id>799222</id>
     <name>STR_d_event_cv_ring_d_a_u2_40b</name>
-    <body>Alchemical Transformation: Archon Centurion's Lazuli Ring</body>
+    <body>Morph: Archon Centurion's Lazuli Ring</body>
   </string>
   <string>
     <id>799223</id>
     <name>STR_d_event_cv_ring_d_a_u2_50a</name>
-    <body>Alchemical Transformation: Archon Tribunus' Ruby Ring</body>
+    <body>Morph: Archon Tribunus' Ruby Ring</body>
   </string>
   <string>
     <id>799224</id>
     <name>STR_d_event_cv_ring_d_a_u2_50b</name>
-    <body>Alchemical Transformation: Archon Tribunus' Sapphire Ring</body>
+    <body>Morph: Archon Tribunus' Sapphire Ring</body>
   </string>
   <string>
     <id>799225</id>
     <name>STR_d_event_cv_ring_d_a_u2_55a</name>
-    <body>Alchemical Transformation: Archon Primus Pilus's Corundum Ring</body>
+    <body>Morph: Archon Primus Pilus's Corundum Ring</body>
   </string>
   <string>
     <id>799226</id>
     <name>STR_d_event_cv_ring_d_a_u2_55b</name>
-    <body>Alchemical Transformation: Archon Primus Pilus's Turquoise Ring</body>
+    <body>Morph: Archon Primus Pilus's Turquoise Ring</body>
   </string>
   <string>
     <id>799227</id>
     <name>STR_d_event_cv_dropmaterial_d_n_e_60a</name>
-    <body>Alchemical Transformation: Life Leaf</body>
+    <body>Morph: Life Leaf</body>
   </string>
   <string>
     <id>799228</id>
     <name>STR_WRAP_EVENT_ALCHEMY_NECKLACE_LIGHT_01</name>
-    <body>[Jakunerk] Alchemical Transformation Bundle for Guardians' Necklace</body>
+    <body>[Jakunerk] Morph Bundle for Guardians' Necklace</body>
   </string>
   <string>
     <id>799229</id>
     <name>STR_WRAP_EVENT_ALCHEMY_NECKLACE_DARK_01</name>
-    <body>[Jakunerk] Alchemical Transformation Bundle for Archons' Necklace</body>
+    <body>[Jakunerk] Morph Bundle for Archons' Necklace</body>
   </string>
   <string>
     <id>799230</id>
     <name>STR_WRAP_EVENT_ALCHEMY_RING_LIGHT_01</name>
-    <body>[Jakunerk] Alchemical Transformation Bundle for Guardians' Ring</body>
+    <body>[Jakunerk] Morph Bundle for Guardians' Ring</body>
   </string>
   <string>
     <id>799231</id>
     <name>STR_WRAP_EVENT_ALCHEMY_RING_DARK_01</name>
-    <body>[Jakunerk] Alchemical Transformation Bundle for Archons' Ring</body>
+    <body>[Jakunerk] Morph Bundle for Archons' Ring</body>
   </string>
   <string>
     <id>799232</id>
     <name>STR_WRAP_EVENT_ALCHEMY_NECKLACE_LIGHT_01_DESC</name>
-    <body>Bundle with Alchemical Transformation for making a Guardian Necklace or Transformation for making Life Leaf.\nDouble-click to open.</body>
+    <body>Bundle with Morph for making a Guardian Necklace or Transformation for making Life Leaf.\nDouble-click to open.</body>
   </string>
   <string>
     <id>799233</id>
     <name>STR_WRAP_EVENT_ALCHEMY_NECKLACE_DARK_01_DESC</name>
-    <body>Bundle with Alchemical Transformation for making an Archons' Necklace or Transformation for making Life Leaf.\nDouble-click to open.</body>
+    <body>Bundle with Morph for making an Archons' Necklace or Transformation for making Life Leaf.\nDouble-click to open.</body>
   </string>
   <string>
     <id>799234</id>
     <name>STR_WRAP_EVENT_ALCHEMY_RING_LIGHT_01_DESC</name>
-    <body>Bundle with Alchemical Transformation for making Guardian Ring or Transformation for making Life Leaf.\nDouble-click to open.</body>
+    <body>Bundle with Morph for making Guardian Ring or Transformation for making Life Leaf.\nDouble-click to open.</body>
   </string>
   <string>
     <id>799235</id>
     <name>STR_WRAP_EVENT_ALCHEMY_RING_DARK_01_DESC</name>
-    <body>Bundle with Alchemical Transformation for making an Archons' Ring or Transformation for making Life Leaf.\nDouble-click to open.</body>
+    <body>Bundle with Morph for making an Archons' Ring or Transformation for making Life Leaf.\nDouble-click to open.</body>
   </string>
   <string>
     <id>799236</id>
@@ -167631,7 +167631,7 @@
   <string>
     <id>799246</id>
     <name>STR_REC_L_EVENT_CV_WRAP_TREASURE_01A</name>
-    <body>[Jakunerk] Alchemical Transformation: Bundle of Powerful Crowns</body>
+    <body>[Jakunerk] Morph: Bundle of Powerful Crowns</body>
   </string>
   <string>
     <id>799247</id>
@@ -167641,7 +167641,7 @@
   <string>
     <id>799248</id>
     <name>STR_REC_D_EVENT_CV_WRAP_TREASURE_01A</name>
-    <body>[Jakunerk] Alchemical Transformation: Bundle of Powerful Crowns</body>
+    <body>[Jakunerk] Morph: Bundle of Powerful Crowns</body>
   </string>
   <string>
     <id>799249</id>
@@ -167661,7 +167661,7 @@
   <string>
     <id>799252</id>
     <name>STR_event_cv_wrap_treasure_01a</name>
-    <body>Alchemical Transformation: Bundle of Powerful Crowns</body>
+    <body>Morph: Bundle of Powerful Crowns</body>
   </string>
   <string>
     <id>799253</id>
@@ -168316,7 +168316,7 @@
   <string>
     <id>799383</id>
     <name>STR_REC_L_EVENT_CV_WRAP_CARUN_COIN_01</name>
-    <body>[Jakunerk] Kahrun's Insignia Box, Alchemical Transformation</body>
+    <body>[Jakunerk] Kahrun's Insignia Box, Morph</body>
   </string>
   <string>
     <id>799384</id>
@@ -168326,7 +168326,7 @@
   <string>
     <id>799385</id>
     <name>STR_REC_D_EVENT_CV_WRAP_CARUN_COIN_01</name>
-    <body>[Jakunerk] Kahrun's Insignia Box, Alchemical Transformation</body>
+    <body>[Jakunerk] Kahrun's Insignia Box, Morph</body>
   </string>
   <string>
     <id>799386</id>
@@ -168336,7 +168336,7 @@
   <string>
     <id>799387</id>
     <name>STR_event_cv_wrap_carun_coin_01</name>
-    <body>Alchemical Transformation: Kahrun's Insignia Box</body>
+    <body>Morph: Kahrun's Insignia Box</body>
   </string>
   <string>
     <id>799388</id>
@@ -180100,47 +180100,47 @@
   <string>
     <id>801695</id>
     <name>STR_WORLD_CASH_GATHER_BOOST_200_01_DESC</name>
-    <body>You receive 200%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 200%% more skill points for gathering and essencetapping while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>801696</id>
     <name>STR_WORLD_CASH_GATHER_BOOST_100_01_DESC</name>
-    <body>You receive 100%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 100%% more skill points for gathering and essencetapping while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>801697</id>
     <name>STR_WORLD_CASH_GATHER_BOOST_50_01_DESC</name>
-    <body>You receive 50%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 50%% more skill points for gathering and essencetapping while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>801698</id>
     <name>STR_WORLD_CASH_GATHER_BOOST_200_02_DESC</name>
-    <body>You receive 200%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 200%% more skill points for gathering and essencetapping while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801699</id>
     <name>STR_WORLD_CASH_GATHER_BOOST_100_02_DESC</name>
-    <body>You receive 100%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 100%% more skill points for gathering and essencetapping while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801700</id>
     <name>STR_WORLD_CASH_GATHER_BOOST_50_02_DESC</name>
-    <body>You receive 50%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 50%% more skill points for gathering and essencetapping while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801701</id>
     <name>STR_WORLD_CASH_GATHER_BOOST_200_03_DESC</name>
-    <body>You receive 200%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 200%% more skill points for gathering and essencetapping while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801702</id>
     <name>STR_WORLD_CASH_GATHER_BOOST_100_03_DESC</name>
-    <body>You receive 100%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 100%% more skill points for gathering and essencetapping while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801703</id>
     <name>STR_WORLD_CASH_GATHER_BOOST_50_03_DESC</name>
-    <body>You receive 50%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 50%% more skill points for gathering and essencetapping while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801704</id>
@@ -180205,62 +180205,62 @@
   <string>
     <id>801716</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_200_01_DESC</name>
-    <body>You receive 200%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 200%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>801717</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_100_01_DESC</name>
-    <body>You receive 100%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 100%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>801718</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_50_01_DESC</name>
-    <body>You receive 50%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 50%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>801719</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_200_02_DESC</name>
-    <body>You receive 200%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 200%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801720</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_100_02_DESC</name>
-    <body>You receive 100%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 100%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801721</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_50_02_DESC</name>
-    <body>You receive 50%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 50%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801722</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_200_03_DESC</name>
-    <body>You receive 200%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
+    <body>You receive 200%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
   </string>
   <string>
     <id>801723</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_100_03_DESC</name>
-    <body>You receive 100%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
+    <body>You receive 100%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
   </string>
   <string>
     <id>801724</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_50_03_DESC</name>
-    <body>You receive 50%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
+    <body>You receive 50%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
   </string>
   <string>
     <id>801725</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_200_04_DESC</name>
-    <body>You receive 200%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 200%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801726</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_100_04_DESC</name>
-    <body>You receive 100%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 100%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801727</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_50_04_DESC</name>
-    <body>You receive 50%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 50%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>801728</id>
@@ -182185,7 +182185,7 @@
   <string>
     <id>802112</id>
     <name>STR_REC_ALL_CASH_CV_WRAP_CARUN_COIN_01</name>
-    <body>Box of the Alchemical Transformation Formula Compacted Kahrun's Favour</body>
+    <body>Box of the Morph Formula Compacted Kahrun's Favour</body>
   </string>
   <string>
     <id>802113</id>
@@ -182205,7 +182205,7 @@
   <string>
     <id>802116</id>
     <name>STR_all_cash_cv_wrap_carun_coin_01</name>
-    <body>Alchemical transformation: Box filled with Kahrun's Symbols</body>
+    <body>Morph: Box filled with Kahrun's Insignia</body>
   </string>
   <string>
     <id>802117</id>
@@ -304311,7 +304311,7 @@
   <string>
     <id>826527</id>
     <name>STR_WORLD_WRAP_EVENT_ALCHEMIST_C_SCROLL01</name>
-    <body>[Jakunerk] Transformation Scroll Bag</body>
+    <body>[Jakunerk] Bag of Transformation Scrolls</body>
   </string>
   <string>
     <id>826528</id>
@@ -304351,7 +304351,7 @@
   <string>
     <id>826535</id>
     <name>STR_WORLD_WRAP_EVENT_ALCHEMIST_C_SCROLL01_DESC</name>
-    <body>Contains a Transformation Scroll.\nDouble-click to open.</body>
+    <body>Contains Transformation Scrolls.\nDouble-click to open.</body>
   </string>
   <string>
     <id>826536</id>
@@ -317701,22 +317701,22 @@
   <string>
     <id>829205</id>
     <name>STR_WORLD_EVENT_DAEVA_GATHER_BOOST_100_DESC</name>
-    <body>You receive 100%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for 2 hours and the cooldown is one hour.</body>
+    <body>You receive 100%% more skill points for gathering and essencetapping while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is one hour.</body>
   </string>
   <string>
     <id>829206</id>
     <name>STR_WORLD_EVENT_DAEVA_CRAFT_BOOST_100_DESC</name>
-    <body>You receive 100%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is one hour.</body>
+    <body>You receive 100%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is one hour.</body>
   </string>
   <string>
     <id>829207</id>
     <name>STR_WORLD_EVENT_DAEVA_GATHER_BOOST_200_DESC</name>
-    <body>You receive 200%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for 6 hours and the cooldown is one hour.</body>
+    <body>You receive 200%% more skill points for gathering and essencetapping while this effect lasts. \nThe effect lasts for 6 hours and the cooldown is one hour.</body>
   </string>
   <string>
     <id>829208</id>
     <name>STR_WORLD_EVENT_DAEVA_CRAFT_BOOST_200_DESC</name>
-    <body>You receive 200%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 6 hours and the cooldown is one hour.</body>
+    <body>You receive 200%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 6 hours and the cooldown is one hour.</body>
   </string>
   <string>
     <id>829209</id>

@@ -2073,7 +2073,7 @@
   <string>
     <id>831744</id>
     <name>STR_CASH_PACK_AC_E_60A</name>
-    <body>Packaging Scroll for accessories (Eternal)</body>
+    <body>Packaging Scroll for Accessories and Headwear (Eternal)</body>
   </string>
   <string>
     <id>831745</id>
@@ -2088,7 +2088,7 @@
   <string>
     <id>831747</id>
     <name>STR_CASH_PACK_AC_E_60A_DESC</name>
-    <body>Can be used on packable eternal (or lesser) accessories up to level 60 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (right-click) on this scroll, then select the item to package.</body>
+    <body>Can be used on packable eternal (or lesser) accessories and headwear up to level 60 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>831748</id>
@@ -4743,7 +4743,7 @@
   <string>
     <id>832278</id>
     <name>STR_CASH_PACK_AC_U_60A</name>
-    <body>Packaging Scroll for accessories (Fabled)</body>
+    <body>Packaging Scroll for Accessories and Headwear (Fabled)</body>
   </string>
   <string>
     <id>832279</id>
@@ -4758,7 +4758,7 @@
   <string>
     <id>832281</id>
     <name>STR_CASH_PACK_AC_U_60A_DESC</name>
-    <body>Can be used on packable fabled (or lesser) accessories up to level 60 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable fabled (or lesser) accessories and headwear up to level 60 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>832282</id>
@@ -11383,7 +11383,7 @@
   <string>
     <id>833606</id>
     <name>STR_WORLD_EVENT_WINTER_GATHER_BOOST_200_DESC</name>
-    <body>You receive 200%% more skill points for gathering and Essencetapping while the effect lasts.  \nThe effect lasts for 30 minutes and the cooldown is 30 minutes. \nThe effect applies to all group members.</body>
+    <body>You receive 200%% more skill points for gathering and essencetapping while the effect lasts.  \nThe effect lasts for 30 minutes and the cooldown is 30 minutes. \nThe effect applies to all group members.</body>
   </string>
   <string>
     <id>833607</id>
@@ -11393,7 +11393,7 @@
   <string>
     <id>833608</id>
     <name>STR_WORLD_EVENT_WINTER_CRAFT_BOOST_200_DESC</name>
-    <body>You receive 200%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 30 minutes and the cooldown is 30 minutes. \nThe effect applies to all group members.</body>
+    <body>You receive 200%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 30 minutes and the cooldown is 30 minutes. \nThe effect applies to all group members.</body>
   </string>
   <string>
     <id>833609</id>
@@ -16913,7 +16913,7 @@
   <string>
     <id>834712</id>
     <name>STR_CASH_PACK_AC_E_65A</name>
-    <body>Gleaming Packaging Scroll for Accessories (Eternal)</body>
+    <body>Noble Packaging Scroll for Accessories and Headwear (Eternal)</body>
   </string>
   <string>
     <id>834713</id>
@@ -16928,7 +16928,7 @@
   <string>
     <id>834715</id>
     <name>STR_CASH_PACK_AC_U_65A</name>
-    <body>Gleaming Packaging Scroll for Accessories (Fabled)</body>
+    <body>Noble Packaging Scroll for Accessories and Headwear (Fabled)</body>
   </string>
   <string>
     <id>834716</id>
@@ -16943,7 +16943,7 @@
   <string>
     <id>834718</id>
     <name>STR_CASH_PACK_AC_E_65A_DESC</name>
-    <body>Can be used on packable eternal (or lesser) accessories up to level 65 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable eternal (or lesser) accessories and headwear up to level 65 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>834719</id>
@@ -16958,7 +16958,7 @@
   <string>
     <id>834721</id>
     <name>STR_CASH_PACK_AC_U_65A_DESC</name>
-    <body>Can be used on packable fabled (or lesser) accessories up to level 65 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable fabled (or lesser) accessories and headwear up to level 65 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>834722</id>
@@ -31983,7 +31983,7 @@
   <string>
     <id>837726</id>
     <name>STR_IDF5_FORTRESS_RE_DEFBUFF_DESC</name>
-    <body>This scroll increases PvP Defence against melee attack by 10%%.\nCan only be used in the Runatorium.</body>
+    <body>This scroll increases Physical Defence against melee attacks by 1,000.\nCan only be used in the Runatorium.</body>
   </string>
   <string>
     <id>837727</id>
@@ -32213,92 +32213,92 @@
   <string>
     <id>837772</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_300_01_DESC</name>
-    <body>You receive 300%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 300%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>837773</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_500_01_DESC</name>
-    <body>You receive 500%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 500%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>837774</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_200_01A_DESC</name>
-    <body>You receive 200%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 200%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>837775</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_100_01A_DESC</name>
-    <body>You receive 100%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 100%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>837776</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_50_01A_DESC</name>
-    <body>You receive 50%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 50%% more skill points for crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>837777</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_300_01A_DESC</name>
-    <body>You receive 300%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 300%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>837778</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_500_01A_DESC</name>
-    <body>You receive 500%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 500%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>837779</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_300_02_DESC</name>
-    <body>You receive 300%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 300%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>837780</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_500_02_DESC</name>
-    <body>You receive 500%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 500%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>837781</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_300_02A_DESC</name>
-    <body>You receive 300%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 300%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>837782</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_500_02A_DESC</name>
-    <body>You receive 500%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
+    <body>You receive 500%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 2 hours and the cooldown is 10 hours.</body>
   </string>
   <string>
     <id>837783</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_300_03_DESC</name>
-    <body>You receive 300%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
+    <body>You receive 300%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
   </string>
   <string>
     <id>837784</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_500_03_DESC</name>
-    <body>You receive 500%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
+    <body>You receive 500%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
   </string>
   <string>
     <id>837785</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_200_03A_DESC</name>
-    <body>You receive 200%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
+    <body>You receive 200%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
   </string>
   <string>
     <id>837786</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_100_03A_DESC</name>
-    <body>You receive 100%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
+    <body>You receive 100%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
   </string>
   <string>
     <id>837787</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_50_03A_DESC</name>
-    <body>You receive 50%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
+    <body>You receive 50%% more skill points for crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
   </string>
   <string>
     <id>837788</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_300_03A_DESC</name>
-    <body>You receive 300%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
+    <body>You receive 300%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
   </string>
   <string>
     <id>837789</id>
     <name>STR_WORLD_CASH_CRAFT_BOOST_500_03A_DESC</name>
-    <body>You receive 500%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
+    <body>You receive 500%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 5 hours and the cooldown is 5 hours.</body>
   </string>
   <string>
     <id>837790</id>
@@ -36983,17 +36983,17 @@
   <string>
     <id>838726</id>
     <name>STR_REC_EVENT_CV_MEDAL_05_A</name>
-    <body>[Jakunerk] Ceranium Medal, Alchemical Transformation</body>
+    <body>[Jakunerk] Ceranium Medal, Morph</body>
   </string>
   <string>
     <id>838727</id>
     <name>STR_REC_EVENT_CV_MEDAL_04_A</name>
-    <body>[Jakunerk] Mithril Medal, Alchemical Transformation</body>
+    <body>[Jakunerk] Mithril Medal, Morph</body>
   </string>
   <string>
     <id>838728</id>
     <name>STR_REC_EVENT_CV_MEDAL_03_A</name>
-    <body>[Jakunerk] Platinum Medal, Alchemical Transformation</body>
+    <body>[Jakunerk] Platinum Medal, Morph</body>
   </string>
   <string>
     <id>838729</id>
@@ -37018,12 +37018,12 @@
   <string>
     <id>838733</id>
     <name>STR_event_cv_medal_04_a</name>
-    <body>Alchemical Transformation: Mithril Medal</body>
+    <body>Morph: Mithril Medal</body>
   </string>
   <string>
     <id>838734</id>
     <name>STR_event_cv_medal_03_a</name>
-    <body>Alchemical Transformation: Platinum Medal</body>
+    <body>Morph: Platinum Medal</body>
   </string>
   <string>
     <id>838735</id>
@@ -40718,42 +40718,42 @@
   <string>
     <id>839473</id>
     <name>STR_REC_GROWTH_EVENT_CV_COIN_ARENA_PVP_01</name>
-    <body>[Jakunerk] Alchemical Transformation: Courage Insignia</body>
+    <body>[Jakunerk] Morph: Courage Insignia</body>
   </string>
   <string>
     <id>839474</id>
     <name>STR_REC_GROWTH_EVENT_CV_KARON_COIN_01</name>
-    <body>[Jakunerk] Alchemical Transformation: Kahrun's Symbol</body>
+    <body>[Jakunerk] Morph: Kahrun's Insignia</body>
   </string>
   <string>
     <id>839475</id>
     <name>STR_REC_GROWTH_EVENT_CV_WRAP_EVENT_GROUP_COIN_D_MUNIN_01</name>
-    <body>[Jakunerk] Alchemical Transformation: Group Coin Chest</body>
+    <body>[Jakunerk] Morph: Group Coin Chest</body>
   </string>
   <string>
     <id>839476</id>
     <name>STR_REC_GROWTH_EVENT_CV_MEDAL_03</name>
-    <body>[Jakunerk] Alchemical Transformation: Platinum Medal</body>
+    <body>[Jakunerk] Morph: Platinum Medal</body>
   </string>
   <string>
     <id>839477</id>
     <name>STR_REC_GROWTH_EVENT_CV_COIN_ARENA_PVP_01_D</name>
-    <body>[Jakunerk] Alchemical Transformation: Courage Insignia</body>
+    <body>[Jakunerk] Morph: Courage Insignia</body>
   </string>
   <string>
     <id>839478</id>
     <name>STR_REC_GROWTH_EVENT_CV_KARON_COIN_01_D</name>
-    <body>[Jakunerk] Alchemical Transformation: Kahrun's Symbol</body>
+    <body>[Jakunerk] Morph: Kahrun's Insignia</body>
   </string>
   <string>
     <id>839479</id>
     <name>STR_REC_GROWTH_EVENT_CV_WRAP_EVENT_GROUP_COIN_D_MUNIN_01_D</name>
-    <body>[Jakunerk] Alchemical Transformation: Group Coin Chest</body>
+    <body>[Jakunerk] Morph: Group Coin Chest</body>
   </string>
   <string>
     <id>839480</id>
     <name>STR_REC_GROWTH_EVENT_CV_MEDAL_03_D</name>
-    <body>[Jakunerk] Alchemical Transformation: Platinum Medal</body>
+    <body>[Jakunerk] Morph: Platinum Medal</body>
   </string>
   <string>
     <id>839481</id>
@@ -48893,7 +48893,7 @@
   <string>
     <id>841108</id>
     <name>STR_CASH_COUPON_CUSTOMIZE_01_TEST_DESC</name>
-    <body>You can change your face and your physical form.\nGo to the Clothing tab in the Gold Sand shop and click on the Modify Appearance button.\nCan only be used in cities.</body>
+    <body>You can change your face and your physique.\nGo to the Clothing tab in the Gold Sand shop and click on the Modify Appearance button.\nCan only be used in cities.</body>
   </string>
   <string>
     <id>841109</id>
@@ -48903,7 +48903,7 @@
   <string>
     <id>841110</id>
     <name>STR_CASH_COUPON_SEX_EXCHANGE_01_TEST_DESC</name>
-    <body>You can change your gender and your appearance.\n\nGo to the Clothing tab in the Gold Sand shop and click on the Gender Switch button.\nCan only be used in cities.</body>
+    <body>You can change your gender and appearance.\nGo to the Clothing tab in the Gold Sand shop and click on the Gender Switch button.\nCan only be used in cities.</body>
   </string>
   <string>
     <id>841111</id>
@@ -57248,12 +57248,12 @@
   <string>
     <id>842785</id>
     <name>STR_REC_EVENT_CV_WRAP_NSHOP3_COIN_PVP_01_BOX</name>
-    <body>Box of Battle Medals, Alchemical Transformation</body>
+    <body>Box of Battle Medals, Morph</body>
   </string>
   <string>
     <id>842786</id>
     <name>STR_REC_CASH_CV_WRAP_CASH_NSHOP3_COIN_PVP_01_BOX</name>
-    <body>Box of Noble Battle Medals, Alchemical Transformation</body>
+    <body>Box of Noble Battle Medals, Morph</body>
   </string>
   <string>
     <id>842787</id>
@@ -57268,12 +57268,12 @@
   <string>
     <id>842789</id>
     <name>STR_event_cv_wrap_nshop3_coin_pvp_01_box</name>
-    <body>Alchemical Transformation: Box of Battle Medals</body>
+    <body>Morph: Box of Battle Medals</body>
   </string>
   <string>
     <id>842790</id>
     <name>STR_cash_cv_wrap_cash_nshop3_coin_pvp_01_box</name>
-    <body>Alchemical Transformation: Box of Noble Battle Medals</body>
+    <body>Morph: Box of Noble Battle Medals</body>
   </string>
   <string>
     <id>842791</id>
@@ -57693,7 +57693,7 @@
   <string>
     <id>842874</id>
     <name>STR_SPECIAL_PACK_AC_E_50A</name>
-    <body>Special Packaging Scroll (Accessories; Eternal)</body>
+    <body>Special Packaging Scroll for Accessories and Headwear (Eternal)</body>
   </string>
   <string>
     <id>842875</id>
@@ -57708,7 +57708,7 @@
   <string>
     <id>842877</id>
     <name>STR_SPECIAL_PACK_AC_U_50A</name>
-    <body>Special Packaging Scroll (Accessories; Fabled)</body>
+    <body>Special Packaging Scroll for Accessories and Headwear (Fabled)</body>
   </string>
   <string>
     <id>842878</id>
@@ -57723,7 +57723,7 @@
   <string>
     <id>842880</id>
     <name>STR_SPECIAL_PACK_AC_L_50A</name>
-    <body>Special Packaging Scroll (Accessories; Heroic)</body>
+    <body>Special Packaging Scroll for Accessories and Headwear (Heroic)</body>
   </string>
   <string>
     <id>842881</id>
@@ -57738,7 +57738,7 @@
   <string>
     <id>842883</id>
     <name>STR_SPECIAL_PACK_AC_E_50A_DESC</name>
-    <body>Can be used on packable eternal (or lesser) accessories up to level 50 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable eternal (or lesser) accessories and headwear up to level 50 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>842884</id>
@@ -57753,7 +57753,7 @@
   <string>
     <id>842886</id>
     <name>STR_SPECIAL_PACK_AC_U_50A_DESC</name>
-    <body>Can be used on packable fabled (or lesser) accessories up to level 50 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable fabled (or lesser) accessories and headwear up to level 50 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>842887</id>
@@ -57768,7 +57768,7 @@
   <string>
     <id>842889</id>
     <name>STR_SPECIAL_PACK_AC_L_50A_DESC</name>
-    <body>Can be used on packable heroic (or lesser) accessories up to level 50 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable heroic (or lesser) accessories and headwear up to level 50 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>842890</id>
@@ -79128,7 +79128,7 @@
   <string>
     <id>847163</id>
     <name>STR_SPECIAL_PACK_AC_M_50A</name>
-    <body>Special Packaging Scroll (Accessories; Mythical)</body>
+    <body>Special Packaging Scroll for Accessories and Headwear (Mythical)</body>
   </string>
   <string>
     <id>847164</id>
@@ -79143,7 +79143,7 @@
   <string>
     <id>847166</id>
     <name>STR_SPECIAL_PACK_AC_M_50A_DESC</name>
-    <body>Can be used on packable mythical (or lesser) accessories up to level 50 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable mythical (or lesser) accessories and headwear up to level 50 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>847167</id>
@@ -92803,7 +92803,7 @@
   <string>
     <id>849898</id>
     <name>STR_CASH_GATHER_BOOST_50_1HOUR_DESC</name>
-    <body>You receive 50%% more skill points for gathering and Essencetapping while the effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
+    <body>You receive 50%% more skill points for gathering and essencetapping while the effect lasts. \nThe effect lasts for one hour and the cooldown is one hour.</body>
   </string>
   <string>
     <id>849899</id>
@@ -94323,7 +94323,7 @@
   <string>
     <id>850202</id>
     <name>STR_WORLD_EVENT_MATRYOSHKA_GATHER_BOOST_200_DESC</name>
-    <body>You receive 200%% more skill points for gathering and Essencetapping while the effect lasts.  \nThe effect lasts for 30 minutes and the cooldown is 30 minutes. \nThe effect applies to all group members.</body>
+    <body>You receive 200%% more skill points for gathering and essencetapping while the effect lasts.  \nThe effect lasts for 30 minutes and the cooldown is 30 minutes. \nThe effect applies to all group members.</body>
   </string>
   <string>
     <id>850203</id>
@@ -94333,7 +94333,7 @@
   <string>
     <id>850204</id>
     <name>STR_WORLD_EVENT_MATRYOSHKA_CRAFT_BOOST_200_DESC</name>
-    <body>You receive 200%% more skill points for Magical Crafting while this effect lasts. \nThe effect lasts for 30 minutes and the cooldown is 30 minutes. \nThe effect applies to all group members.</body>
+    <body>You receive 200%% more skill points for magical crafting while this effect lasts. \nThe effect lasts for 30 minutes and the cooldown is 30 minutes. \nThe effect applies to all group members.</body>
   </string>
   <string>
     <id>850205</id>
@@ -98378,12 +98378,12 @@
   <string>
     <id>851013</id>
     <name>STR_CASH_PACK_AC_M_65A</name>
-    <body>Packaging Scroll for accessories (Mythic)</body>
+    <body>Noble Packaging Scroll for Accessories and Headwear (Mythical)</body>
   </string>
   <string>
     <id>851014</id>
     <name>STR_CASH_PACK_AC_M_65A_DESC</name>
-    <body>Can be used on packable mythical (or lesser) accessories up to level 65 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable mythical (or lesser) accessories and headwear up to level 65 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>851015</id>
@@ -163618,12 +163618,12 @@
   <string>
     <id>864068</id>
     <name>STR_WORLD_WRAP_CASH_RU_GACHA_09_CHARGE_DESC</name>
-    <body>Contains a Greater Blessed Conditioning: Level 2.\nDouble-click to open.</body>
+    <body>Contains a Greater Blessed Level 2 Enhancement. \nDouble-click to open.</body>
   </string>
   <string>
     <id>864069</id>
     <name>STR_WORLD_WRAP_CASH_RU_GACHA_10_ACHARGE_DESC</name>
-    <body>Contains a Greater Blessed Augmentation: Level 2.\nDouble-click to open.</body>
+    <body>Contains a Greater Blessed Level 2 Augmentation.\nDouble-click to open.</body>
   </string>
   <string>
     <id>864070</id>
@@ -163633,7 +163633,7 @@
   <string>
     <id>864071</id>
     <name>STR_WORLD_WRAP_CASH_RU_GACHA_12_MATTER_DESC</name>
-    <body>Contains 400 Large Socketing aids (Mythical). \nDouble-click to open.</body>
+    <body>Contains 400 Large Socketing Aids (Mythical). \nDouble-click to open.</body>
   </string>
   <string>
     <id>864072</id>
@@ -170223,7 +170223,7 @@
   <string>
     <id>865389</id>
     <name>STR_SPECIAL_PACK_AC_E_55A</name>
-    <body>Special Packaging Scroll for Accessories (Level 55; Eternal)</body>
+    <body>Special Packaging Scroll for Accessories and Headwear (Level 55; Eternal)</body>
   </string>
   <string>
     <id>865390</id>
@@ -170238,7 +170238,7 @@
   <string>
     <id>865392</id>
     <name>STR_SPECIAL_PACK_AC_U_55A</name>
-    <body>Special Packaging Scroll for Accessories (Level 55; Fabled)</body>
+    <body>Special Packaging Scroll for Accessories and Headwear (Level 55; Fabled)</body>
   </string>
   <string>
     <id>865393</id>
@@ -170253,7 +170253,7 @@
   <string>
     <id>865395</id>
     <name>STR_SPECIAL_PACK_AC_L_55A</name>
-    <body>Special Packaging Scroll for Accessories (Level 55; Heroic)</body>
+    <body>Special Packaging Scroll for Accessories and Headwear (Level 55; Heroic)</body>
   </string>
   <string>
     <id>865396</id>
@@ -170268,7 +170268,7 @@
   <string>
     <id>865398</id>
     <name>STR_SPECIAL_PACK_AC_E_55A_DESC</name>
-    <body>Can be used on packable eternal (or lesser) accessories up to level 55 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable eternal (or lesser) accessories and headwear up to level 55 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>865399</id>
@@ -170283,7 +170283,7 @@
   <string>
     <id>865401</id>
     <name>STR_SPECIAL_PACK_AC_U_55A_DESC</name>
-    <body>Can be used on packable fabled (or lesser) accessories up to level 55 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable fabled (or lesser) accessories and headwear up to level 55 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>865402</id>
@@ -170298,7 +170298,7 @@
   <string>
     <id>865404</id>
     <name>STR_SPECIAL_PACK_AC_L_55A_DESC</name>
-    <body>Can be used on packable heroic (or lesser) accessories up to level 55 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable heroic (or lesser) accessories and headwear up to level 55 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>865405</id>
@@ -170313,7 +170313,7 @@
   <string>
     <id>865407</id>
     <name>STR_SPECIAL_PACK_AC_M_55A</name>
-    <body>Special Greater Packaging Scroll (Accessories; Mythical)</body>
+    <body>Special Greater Packaging Scroll for Accessories and Headwear (Mythical)</body>
   </string>
   <string>
     <id>865408</id>
@@ -170328,7 +170328,7 @@
   <string>
     <id>865410</id>
     <name>STR_SPECIAL_PACK_AC_M_55A_DESC</name>
-    <body>Can be used on packable mythical (or lesser) accessories up to level 55 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable mythical (or lesser) accessories and headwear up to level 55 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>865411</id>
@@ -182133,7 +182133,7 @@
   <string>
     <id>867771</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_06A</name>
-    <body>[Jakunerk] Master Executor Commander's Holy Shield Chest</body>
+    <body>[Jakunerk] Master Executor Commander's Holy Shield Box</body>
   </string>
   <string>
     <id>867772</id>
@@ -182153,7 +182153,7 @@
   <string>
     <id>867775</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_10A</name>
-    <body>[Jakunerk] Master Executor's Holy Shield Chest</body>
+    <body>[Jakunerk] Master Executor's Holy Shield Box</body>
   </string>
   <string>
     <id>867776</id>
@@ -182193,57 +182193,57 @@
   <string>
     <id>867783</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_01A_DESC</name>
-    <body>Contains the Special Ops Commander's Weapons.\nDouble-click to open.</body>
+    <body>Contains the Special Ops Commander's Weapons Chest.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867784</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_02A_DESC</name>
-    <body>Contains Master Executor's weapons.\nDouble-click to open.</body>
+    <body>Contains the Master Executor's Weapons Chest.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867785</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_03A_DESC</name>
-    <body>Contains the Special Leaders' Holy Armour jackets.\nDouble-click to open.</body>
+    <body>Contains the Special Leaders' Holy Armour Jacket Chest.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867786</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_04A_DESC</name>
-    <body>Contains the Special Leaders' Holy Armour trousers.\nDouble-click to open.</body>
+    <body>Contains the Special Leaders' Holy Armour Trousers Chest.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867787</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_05A_DESC</name>
-    <body>Contains the Special Leaders' Holy Armour gloves/shoulder guards/shoes.\nDouble-click to open.</body>
+    <body>Contains the Special Leaders' Holy Armour Glove/Pauldrons/Shoes Chest.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867788</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_06A_DESC</name>
-    <body>Contains Master Executor Commander's holy shield.\nDouble-click to open.</body>
+    <body>Contains the Master Executor Commander's Holy Shield Chest.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867789</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_07A_DESC</name>
-    <body>Contains the Master/Special Executors' Holy Armour jackets.\nDouble-click to open.</body>
+    <body>Contains the Master/Special Executors' Holy Armour Jacket Chest.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867790</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_08A_DESC</name>
-    <body>Contains the Master/Special Executors' Holy Armour trousers.\nDouble-click to open.</body>
+    <body>Contains the Master/Special Executors' Holy Armour Trousers Chest.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867791</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_09A_DESC</name>
-    <body>Contains the Master/Special Executors' Holy Armour gloves/shoulder guards/shoes.\nDouble-click to open.</body>
+    <body>Contains the Master/Special Executors' Holy Armour Gloves/Shoulder/Shoes Chest.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867792</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_10A_DESC</name>
-    <body>Contains Master Executor Commander's holy shield.\nDouble-click to open.</body>
+    <body>Contains the Master Executors' Holy Shield Chest.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867793</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_11A_DESC</name>
-    <body>Contains the Master Executor's Holy Accessories.\nDouble-click to open.</body>
+    <body>Contains the Master Executors' Holy Accessories Chest.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867794</id>
@@ -182263,7 +182263,7 @@
   <string>
     <id>867797</id>
     <name>STR_WORLD_WRAP_KM_REWARDBOX_15A_DESC</name>
-    <body>Contains All-Powerful Enchantment Stones.\nDouble-click to open.</body>
+    <body>Contains a Box of All-Powerful Enchantment Stones.\nDouble-click to open.</body>
   </string>
   <string>
     <id>867798</id>
@@ -215945,7 +215945,7 @@ Double-click to open.</body>
   <string>
     <id>874538</id>
     <name>STR_ITEM_CORE_03_STONE_01_DESC</name>
-    <body>Contains a pictogram. Part of the name of the Soul Icon Protection Stone is engraved here, which maintains the energy supply to the storeroom.</body>
+    <body>Contains a pictogram. Part of the name of the Soul Icon Wardstone is engraved here, which maintains the energy supply to the storeroom.</body>
   </string>
   <string>
     <id>874539</id>
@@ -215955,7 +215955,7 @@ Double-click to open.</body>
   <string>
     <id>874540</id>
     <name>STR_ITEM_CORE_03_STONE_02_DESC</name>
-    <body>Contains a pictogram. Part of the name of the Soul Icon Protection Stone is engraved here, which maintains the energy supply to the storeroom.</body>
+    <body>Contains a pictogram. Part of the name of the Soul Icon Wardstone is engraved here, which maintains the energy supply to the storeroom.</body>
   </string>
   <string>
     <id>874541</id>
@@ -215965,7 +215965,7 @@ Double-click to open.</body>
   <string>
     <id>874542</id>
     <name>STR_ITEM_CORE_03_STONE_03_DESC</name>
-    <body>Contains a pictogram. Part of the name of the Soul Icon Protection Stone is engraved here, which maintains the energy supply to the storeroom.</body>
+    <body>Contains a pictogram. Part of the name of the Soul Icon Wardstone is engraved here, which maintains the energy supply to the storeroom.</body>
   </string>
   <string>
     <id>874543</id>
@@ -215975,7 +215975,7 @@ Double-click to open.</body>
   <string>
     <id>874544</id>
     <name>STR_ITEM_CORE_03_STONE_04_DESC</name>
-    <body>Contains a pictogram. Part of the name of the Soul Icon Protection Stone is engraved here, which maintains the energy supply to the storeroom.</body>
+    <body>Contains a pictogram. Part of the name of the Soul Icon Wardstone is engraved here, which maintains the energy supply to the storeroom.</body>
   </string>
   <string>
     <id>874545</id>
@@ -215985,7 +215985,7 @@ Double-click to open.</body>
   <string>
     <id>874546</id>
     <name>STR_ITEM_CORE_03_STONE_05_DESC</name>
-    <body>Contains a pictogram. Part of the name of the Soul Icon Protection Stone is engraved here, which maintains the energy supply to the storeroom.</body>
+    <body>Contains a pictogram. Part of the name of the Soul Icon Wardstone is engraved here, which maintains the energy supply to the storeroom.</body>
   </string>
   <string>
     <id>874547</id>
@@ -245365,7 +245365,7 @@ Double-click to open.</body>
   <string>
     <id>880422</id>
     <name>STR_WRAP_EVENT_2017KINA_MINION_CONTRACT03_MASTER_DESC</name>
-    <body>Contains Special Greater Minion Contracts.\nDouble-click to open.</body>
+    <body>Contains greater minion contracts.\nDouble-click to open.</body>
   </string>
   <string>
     <id>880423</id>
@@ -245795,7 +245795,7 @@ Double-click to open.</body>
   <string>
     <id>880508</id>
     <name>STR_CASH_PACK_AC_M_80A</name>
-    <body>Packaging Scroll for Accessories (Level 80; Mythical)</body>
+    <body>Packaging Scroll for Accessories and Headwear (Level 80; Mythical)</body>
   </string>
   <string>
     <id>880509</id>
@@ -245815,7 +245815,7 @@ Double-click to open.</body>
   <string>
     <id>880512</id>
     <name>STR_CASH_PACK_AC_M_80A_DESC</name>
-    <body>Can be used on packable mythical (or lesser) accessories up to level 80 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click (or right-click) on the packaging scroll, then select the item to package.</body>
+    <body>Can be used on packable mythical (or lesser) accessories and headwear up to level 80 so that they can be traded afterwards.\nThe packaged item can only be traded once.\nDouble-click on the scroll, then select the item to package.</body>
   </string>
   <string>
     <id>880513</id>
@@ -248275,7 +248275,7 @@ Double-click to open.</body>
   <string>
     <id>881004</id>
     <name>STR_WORLD_WRAP_EVENT_RANDOMBOX_01A</name>
-    <body>Mysterious Coin Bundle</body>
+    <body>Contains Mysterious Coins.\nDouble-click to open.</body>
   </string>
   <string>
     <id>881005</id>
@@ -250545,12 +250545,12 @@ Double-click to open.</body>
   <string>
     <id>881458</id>
     <name>STR_WRAP_CASH_MASTER_SPACEHOVER_02</name>
-    <body>Box: Manoeuvrable Space Glider (30 days)</body>
+    <body>Box: Special Space Glider (30 days)</body>
   </string>
   <string>
     <id>881459</id>
     <name>STR_WRAP_CASH_UNICORN_01_30DAY</name>
-    <body>Box: Unicorn (30 days)</body>
+    <body>Box: Special Unicorn (30 days)</body>
   </string>
   <string>
     <id>881460</id>
