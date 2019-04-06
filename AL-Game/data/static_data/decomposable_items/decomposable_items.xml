@@ -226231,10 +226231,13 @@
             <item id="100050012" name="Daeva Apprentice's Longsword" player_class="WARRIOR"/>
         </items>
         <items>
-            <item id="100150012" name="Daeva Apprentice's Mace" count="2" player_class="CLERIC"/>
+            <item id="100150012" name="Daeva Apprentice's Mace" player_class="CLERIC"/>
         </items>
         <items>
             <item id="100150012" name="Daeva Apprentice's Mace" player_class="CHANTER"/>
+        </items>
+		<items>
+            <item id="100150012" name="Daeva Apprentice's Mace" player_class="PRIEST"/>
         </items>
         <items>
             <item id="100250012" name="Daeva Apprentice's Dagger" player_class="ASSASSIN"/>
@@ -226305,10 +226308,13 @@
             <item id="110350025" name="Daeva Apprentice's Jerkin" player_class="RIDER"/>
         </items>
         <items>
-            <item id="110550024" name="Daeva Apprentice's Chain Cuirass" count="2" player_class="CLERIC"/>
+            <item id="110550024" name="Daeva Apprentice's Chain Cuirass" player_class="CLERIC"/>
         </items>
         <items>
             <item id="110550024" name="Daeva Apprentice's Chain Cuirass" player_class="CHANTER"/>
+        </items>
+		<items>
+            <item id="110550024" name="Daeva Apprentice's Chain Cuirass" player_class="PRIEST"/>
         </items>
         <items>
             <item id="110650012" name="Daeva Apprentice's Breastplate" player_class="GLADIATOR"/>
@@ -226355,10 +226361,13 @@
             <item id="113350025" name="Daeva Apprentice's Breeches" player_class="RIDER"/>
         </items>
         <items>
-            <item id="113550024" name="Daeva Apprentice's Chausses" count="2" player_class="CLERIC"/>
+            <item id="113550024" name="Daeva Apprentice's Chausses" player_class="CLERIC"/>
         </items>
         <items>
             <item id="113550024" name="Daeva Apprentice's Chausses" player_class="CHANTER"/>
+        </items>
+		<items>
+            <item id="113550024" name="Daeva Apprentice's Chausses" player_class="PRIEST"/>
         </items>
         <items>
             <item id="113650012" name="Daeva Apprentice's Plate Greaves" player_class="GLADIATOR"/>
@@ -226405,10 +226414,13 @@
             <item id="112350025" name="Daeva Apprentice's Leather Epaulettes" player_class="RIDER"/>
         </items>
         <items>
-            <item id="112550024" name="Daeva Apprentice's Spaulders" count="2" player_class="CLERIC"/>
+            <item id="112550024" name="Daeva Apprentice's Spaulders" player_class="CLERIC"/>
         </items>
         <items>
             <item id="112550024" name="Daeva Apprentice's Spaulders" player_class="CHANTER"/>
+        </items>
+		<items>
+            <item id="112550024" name="Daeva Apprentice's Spaulders" player_class="PRIEST"/>
         </items>
         <items>
             <item id="112650012" name="Daeva Apprentice's Shoulderplates" player_class="GLADIATOR"/>
@@ -226455,10 +226467,13 @@
             <item id="111350025" name="Daeva Apprentice's Leather Gauntlets" player_class="RIDER"/>
         </items>
         <items>
-            <item id="111550024" name="Daeva Apprentice's Chain Gauntlets" count="2" player_class="CLERIC"/>
+            <item id="111550024" name="Daeva Apprentice's Chain Gauntlets" player_class="CLERIC"/>
         </items>
         <items>
             <item id="111550024" name="Daeva Apprentice's Chain Gauntlets" player_class="CHANTER"/>
+        </items>
+		<items>
+            <item id="111550024" name="Daeva Apprentice's Chain Gauntlets" player_class="PRIEST"/>
         </items>
         <items>
             <item id="111650012" name="Daeva Apprentice's Plate Gauntlets" player_class="GLADIATOR"/>
@@ -226505,10 +226520,13 @@
             <item id="114350025" name="Daeva Apprentice's Leather Footwear" player_class="RIDER"/>
         </items>
         <items>
-            <item id="114550024" name="Daeva Apprentice's Brogans" count="2" player_class="CLERIC"/>
+            <item id="114550024" name="Daeva Apprentice's Brogans" player_class="CLERIC"/>
         </items>
         <items>
             <item id="114550024" name="Daeva Apprentice's Brogans" player_class="CHANTER"/>
+        </items>
+		<items>
+            <item id="114550024" name="Daeva Apprentice's Brogans" player_class="PRIEST"/>
         </items>
         <items>
             <item id="114650012" name="Daeva Apprentice's Sabatons" player_class="GLADIATOR"/>
@@ -228912,7 +228930,10 @@
             <item id="120003098" name="Ancient Hamerun War Earring" player_class="WARRIOR"/>
         </items>
         <items>
-            <item id="120003099" name="Ancient Hamerun Magic Earring" count="2" player_class="CLERIC"/>
+            <item id="120003099" name="Ancient Hamerun Magic Earring" player_class="CLERIC"/>
+        </items>
+        <items>
+            <item id="120003099" name="Ancient Hamerun Magic Earring" player_class="PRIEST"/>
         </items>
         <items>
             <item id="120003099" name="Ancient Hamerun Magic Earring" player_class="ARTIST"/>
@@ -228960,7 +228981,10 @@
             <item id="121003098" name="Ancient Hamerun War Necklace" player_class="WARRIOR"/>
         </items>
         <items>
-            <item id="121003099" name="Ancient Hamerun Magic Necklace" count="2" player_class="CLERIC"/>
+            <item id="121003099" name="Ancient Hamerun Magic Necklace" player_class="CLERIC"/>
+        </items>
+		<items>
+            <item id="121003099" name="Ancient Hamerun Magic Necklace" player_class="PRIEST"/>
         </items>
         <items>
             <item id="121003099" name="Ancient Hamerun Magic Necklace" player_class="ARTIST"/>
@@ -229008,7 +229032,10 @@
             <item id="122003098" name="Ancient Hamerun War Ring" player_class="WARRIOR"/>
         </items>
         <items>
-            <item id="122003099" name="Ancient Hamerun Magic Ring" count="2" player_class="CLERIC"/>
+            <item id="122003099" name="Ancient Hamerun Magic Ring" player_class="CLERIC"/>
+        </items>
+        <items>
+            <item id="122003099" name="Ancient Hamerun Magic Ring" player_class="PRIEST"/>
         </items>
         <items>
             <item id="122003099" name="Ancient Hamerun Magic Ring" player_class="ARTIST"/>
@@ -229056,7 +229083,10 @@
             <item id="123003098" name="Ancient Hamerun War Belt" player_class="WARRIOR"/>
         </items>
         <items>
-            <item id="123003099" name="Ancient Hamerun Magic Sash" count="2" player_class="CLERIC"/>
+            <item id="123003099" name="Ancient Hamerun Magic Sash" player_class="CLERIC"/>
+        </items>
+        <items>
+            <item id="123003099" name="Ancient Hamerun Magic Sash" player_class="PRIEST"/>
         </items>
         <items>
             <item id="123003099" name="Ancient Hamerun Magic Sash" player_class="ARTIST"/>
