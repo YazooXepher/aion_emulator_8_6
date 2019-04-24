@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2019-04-23 14:59 -->
+<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2019-04-24 22:57 -->
 <skill_data>
     <skill_template skill_id="1" name="Transformation: White Tiger" nameId="4571867" name_desc="RA_Light_WhiteTiger_G1" cooldownId="792" stack="SKILLN_RA_LIGHT_WHITETIGER" lvl="1" skill_group="RA_WhiteTiger" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="100" duration="0" cancel_rate="20">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
@@ -2537,7 +2537,7 @@
         </useconditions>
         <effects>
             <statboost effectid="105481" e="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="50"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="50"/>
             </statboost>
         </effects>
     </skill_template>
@@ -5121,7 +5121,7 @@
         </startconditions>
         <effects>
             <statup duration2="7200000" effectid="101741" e="1" basiclvl="100" noresist="true">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="50"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="50"/>
             </statup>
         </effects>
         <motion name="alterfire" speed="50" instant_skill="true"/>
@@ -5133,7 +5133,7 @@
         </startconditions>
         <effects>
             <statup duration2="7200000" effectid="101741" e="1" basiclvl="100" noresist="true">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="100"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="100"/>
             </statup>
         </effects>
         <motion name="alterfire" speed="50" instant_skill="true"/>
@@ -5145,7 +5145,7 @@
         </startconditions>
         <effects>
             <statup duration2="7200000" effectid="101741" e="1" basiclvl="100" noresist="true">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="150"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="150"/>
             </statup>
         </effects>
         <motion name="alterfire" speed="50" instant_skill="true"/>
@@ -8499,9 +8499,9 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="50"/>
             </boosthate>
             <statup effectid="102584" e="4" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="400"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="400"/>
                 <change stat="FEAR_RESISTANCE" func="ADD" value="300"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="400"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="400"/>
             </statup>
         </effects>
         <motion name="phbuff" speed="80" instant_skill="true"/>
@@ -18352,7 +18352,7 @@
         <effects>
             <shield hitvalue="155" hitdelta="14" value="155" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="468"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -18368,7 +18368,7 @@
         <effects>
             <shield hitvalue="436" hitdelta="16" value="436" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="702"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -18384,7 +18384,7 @@
         <effects>
             <shield hitvalue="716" hitdelta="20" value="716" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="936"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -18400,7 +18400,7 @@
         <effects>
             <shield hitvalue="996" hitdelta="22" value="996" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="1170"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -18416,7 +18416,7 @@
         <effects>
             <shield hitvalue="1277" hitdelta="26" value="1277" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="1404"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -18432,7 +18432,7 @@
         <effects>
             <shield hitvalue="1557" hitdelta="28" value="1557" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="1638"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -18448,7 +18448,7 @@
         <effects>
             <shield hitvalue="1837" hitdelta="30" value="1837" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="1872"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -18464,7 +18464,7 @@
         <effects>
             <shield hitvalue="2118" hitdelta="34" value="2118" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="2106"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -18480,7 +18480,7 @@
         <effects>
             <shield hitvalue="2398" hitdelta="36" value="2398" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="2340"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -18496,7 +18496,7 @@
         <effects>
             <shield hitvalue="2678" hitdelta="40" value="2678" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="2574"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -18512,7 +18512,7 @@
         <effects>
             <shield hitvalue="2959" hitdelta="42" value="2959" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="2808"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -18528,7 +18528,7 @@
         <effects>
             <shield hitvalue="3239" hitdelta="44" value="3239" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="3042"/>
             <statup duration2="300000" effectid="113772" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -38161,7 +38161,7 @@
         </useequipmentconditions>
         <effects>
             <statup duration2="8000" effectid="135151" e="1" noresist="true" hoptype="SKILLLV" hopb="2178">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="2000"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="2000"/>
                 <change stat="MAGICAL_RESIST" func="ADD" value="1300"/>
                 <change stat="STUN_RESISTANCE" func="ADD" value="500"/>
                 <change stat="STUMBLE_RESISTANCE" func="ADD" value="500"/>
@@ -45945,7 +45945,7 @@
         <effects>
             <statup duration2="20000" effectid="936621" e="1" noresist="true" hoptype="SKILLLV" hopb="2550">
                 <change stat="PARRY" func="ADD" value="260"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="240"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="240"/>
                 <change stat="BIND_RESISTANCE" func="ADD" value="300"/>
             </statup>
             <statup duration2="20000" effectid="938212" e="2" noresist="true" preeffect="1">
@@ -45971,7 +45971,7 @@
         <effects>
             <statup duration2="20000" effectid="936621" e="1" basiclvl="10" noresist="true" hoptype="SKILLLV" hopb="2601">
                 <change stat="PARRY" func="ADD" value="360"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="270"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="270"/>
                 <change stat="BIND_RESISTANCE" func="ADD" value="325"/>
             </statup>
             <statup duration2="20000" effectid="938212" e="2" basiclvl="10" noresist="true" preeffect="1">
@@ -45997,7 +45997,7 @@
         <effects>
             <statup duration2="20000" effectid="936621" e="1" basiclvl="20" noresist="true" hoptype="SKILLLV" hopb="2676">
                 <change stat="PARRY" func="ADD" value="460"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="300"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="300"/>
                 <change stat="BIND_RESISTANCE" func="ADD" value="350"/>
             </statup>
             <statup duration2="20000" effectid="938212" e="2" basiclvl="20" noresist="true" preeffect="1">
@@ -46023,7 +46023,7 @@
         <effects>
             <statup duration2="20000" effectid="936621" e="1" basiclvl="30" noresist="true" hoptype="SKILLLV" hopb="2769">
                 <change stat="PARRY" func="ADD" value="570"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="330"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="330"/>
                 <change stat="BIND_RESISTANCE" func="ADD" value="400"/>
             </statup>
             <statup duration2="20000" effectid="938212" e="2" basiclvl="30" noresist="true" preeffect="1">
@@ -46049,7 +46049,7 @@
         <effects>
             <statup duration2="20000" effectid="936621" e="1" basiclvl="40" noresist="true" hoptype="SKILLLV" hopb="2853">
                 <change stat="PARRY" func="ADD" value="670"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="360"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="360"/>
                 <change stat="BIND_RESISTANCE" func="ADD" value="450"/>
             </statup>
             <statup duration2="20000" effectid="938212" e="2" basiclvl="40" noresist="true" preeffect="1">
@@ -46075,7 +46075,7 @@
         <effects>
             <statup duration2="20000" effectid="936621" e="1" basiclvl="50" noresist="true" hoptype="SKILLLV" hopb="2955">
                 <change stat="PARRY" func="ADD" value="770"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="400"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="400"/>
                 <change stat="BIND_RESISTANCE" func="ADD" value="500"/>
             </statup>
             <statup duration2="20000" effectid="938212" e="2" basiclvl="50" noresist="true" preeffect="1">
@@ -46789,7 +46789,7 @@
                 <change stat="STAGGER_RESISTANCE" func="ADD" value="200"/>
                 <change stat="SPIN_RESISTANCE" func="ADD" value="200"/>
                 <change stat="OPENAREIAL_RESISTANCE" func="ADD" value="200"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1500"/>
             </statup>
         </effects>
         <actions>
@@ -46820,7 +46820,7 @@
                 <change stat="STAGGER_RESISTANCE" func="ADD" value="250"/>
                 <change stat="SPIN_RESISTANCE" func="ADD" value="250"/>
                 <change stat="OPENAREIAL_RESISTANCE" func="ADD" value="250"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1750"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1750"/>
             </statup>
         </effects>
         <actions>
@@ -46851,7 +46851,7 @@
                 <change stat="STAGGER_RESISTANCE" func="ADD" value="300"/>
                 <change stat="SPIN_RESISTANCE" func="ADD" value="300"/>
                 <change stat="OPENAREIAL_RESISTANCE" func="ADD" value="300"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="2000"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="2000"/>
             </statup>
         </effects>
         <actions>
@@ -53988,7 +53988,7 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="10"/>
             </boosthate>
             <statup e="2" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="100"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="100"/>
             </statup>
             <statdown e="3" noresist="true" preeffect="2">
                 <change stat="MAGICAL_ATTACK" func="ADD" value="-30"/>
@@ -54006,7 +54006,7 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="14"/>
             </boosthate>
             <statup e="2" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="180"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="180"/>
             </statup>
             <statdown e="3" noresist="true" preeffect="2">
                 <change stat="MAGICAL_ATTACK" func="ADD" value="-45"/>
@@ -54024,7 +54024,7 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="16"/>
             </boosthate>
             <statup e="2" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="260"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="260"/>
             </statup>
             <statdown e="3" noresist="true" preeffect="2">
                 <change stat="MAGICAL_ATTACK" func="ADD" value="-60"/>
@@ -54042,7 +54042,7 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="20"/>
             </boosthate>
             <statup e="2" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="340"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="340"/>
             </statup>
             <statdown e="3" noresist="true" preeffect="2">
                 <change stat="MAGICAL_ATTACK" func="ADD" value="-75"/>
@@ -54060,7 +54060,7 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="24"/>
             </boosthate>
             <statup e="2" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="420"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="420"/>
             </statup>
             <statdown e="3" noresist="true" preeffect="2">
                 <change stat="MAGICAL_ATTACK" func="ADD" value="-90"/>
@@ -54078,7 +54078,7 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="28"/>
             </boosthate>
             <statup e="2" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
             <statdown e="3" noresist="true" preeffect="2">
                 <change stat="MAGICAL_ATTACK" func="ADD" value="-105"/>
@@ -54096,7 +54096,7 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="32"/>
             </boosthate>
             <statup e="2" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="580"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="580"/>
             </statup>
             <statdown e="3" noresist="true" preeffect="2">
                 <change stat="MAGICAL_ATTACK" func="ADD" value="-130"/>
@@ -54114,7 +54114,7 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="36"/>
             </boosthate>
             <statup e="2" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="660"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="660"/>
             </statup>
             <statdown e="3" noresist="true" preeffect="2">
                 <change stat="MAGICAL_ATTACK" func="ADD" value="-145"/>
@@ -54132,7 +54132,7 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="40"/>
             </boosthate>
             <statup e="2" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="740"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="740"/>
             </statup>
             <statdown e="3" noresist="true" preeffect="2">
                 <change stat="MAGICAL_ATTACK" func="ADD" value="-160"/>
@@ -54150,7 +54150,7 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="45"/>
             </boosthate>
             <statup e="2" noresist="true" preeffect="1" hoptype="SKILLLV">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="770"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="770"/>
             </statup>
             <statdown e="3" noresist="true" preeffect="2">
                 <change stat="MAGICAL_ATTACK" func="ADD" value="-175"/>
@@ -54168,7 +54168,7 @@
                 <change stat="BOOST_HATE" func="PERCENT" value="50"/>
             </boosthate>
             <statup e="2" noresist="true" preeffect="1" hoptype="SKILLLV">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="800"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="800"/>
             </statup>
             <statdown e="3" noresist="true" preeffect="2">
                 <change stat="MAGICAL_ATTACK" func="ADD" value="-200"/>
@@ -55577,8 +55577,8 @@
         <effects>
             <statup duration2="120000" effectid="104381" e="1" noresist="true" hoptype="SKILLLV" hopb="36303">
                 <change stat="MAXHP" func="ADD" value="1600"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="160"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="160"/>
             </statup>
         </effects>
         <actions>
@@ -55600,8 +55600,8 @@
         <effects>
             <statup duration2="120000" effectid="104381" e="1" basiclvl="20" noresist="true" hoptype="SKILLLV" hopb="40503">
                 <change stat="MAXHP" func="ADD" value="1800"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="160"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="160"/>
             </statup>
         </effects>
         <actions>
@@ -55623,8 +55623,8 @@
         <effects>
             <statup duration2="120000" effectid="104381" e="1" basiclvl="40" noresist="true" hoptype="SKILLLV" hopb="44703">
                 <change stat="MAXHP" func="ADD" value="2000"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="160"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="160"/>
             </statup>
         </effects>
         <actions>
@@ -55646,8 +55646,8 @@
         <effects>
             <statup duration2="120000" effectid="104381" e="1" basiclvl="60" noresist="true" hoptype="SKILLLV" hopb="48903">
                 <change stat="MAXHP" func="ADD" value="2200"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="160"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="160"/>
             </statup>
         </effects>
         <actions>
@@ -55669,8 +55669,8 @@
         <effects>
             <statup duration2="120000" effectid="104381" e="1" basiclvl="80" noresist="true" hoptype="SKILLLV" hopb="53103">
                 <change stat="MAXHP" func="ADD" value="2400"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="160"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="160"/>
             </statup>
         </effects>
         <actions>
@@ -55692,8 +55692,8 @@
         <effects>
             <statup duration2="120000" effectid="104381" e="1" basiclvl="100" noresist="true" hoptype="SKILLLV" hopb="60318">
                 <change stat="MAXHP" func="ADD" value="2600"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="160"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="160"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="160"/>
             </statup>
         </effects>
         <actions>
@@ -58073,7 +58073,7 @@
                 <change stat="PHYSICAL_ATTACK" func="PERCENT" value="-10"/>
             </statdown>
             <statup effectid="123514" e="3" noresist="true" element="FIRE" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1000"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="1000"/>
             </statup>
         </effects>
         <motion name="shieldstance" speed="50" instant_skill="true"/>
@@ -59857,7 +59857,7 @@
         <effects>
             <healinstant percent="true" value="25" e="1" noresist="true" element="WATER" hoptype="SKILLLV" hopb="43626"/>
             <statup duration2="60000" effectid="105062" e="2" noresist="true" element="FIRE" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="350"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="350"/>
             </statup>
             <statup duration2="60000" effectid="105062" e="3" noresist="true" element="WATER" preeffect="1">
                 <change stat="MAXHP" func="PERCENT" value="50"/>
@@ -85146,7 +85146,7 @@
             <healinstant value="2917" delta="32" e="1" noresist="true" element="WATER" hoptype="SKILLLV" hopb="38616"/>
             <heal checktime="2000" value="240" delta="3" duration2="6000" effectid="947192" e="2" noresist="true" element="WATER" preeffect="1" hoptype="SKILLLV" hopb="48474" hopa="458"/>
             <statup duration2="20000" effectid="947193" e="3" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1550"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1550"/>
             </statup>
         </effects>
         <actions>
@@ -85170,7 +85170,7 @@
             <healinstant value="2827" delta="36" e="1" noresist="true" element="WATER" hoptype="SKILLLV" hopb="42723"/>
             <heal checktime="2000" value="240" delta="3" duration2="6000" effectid="947192" e="2" noresist="true" element="WATER" preeffect="1" hoptype="SKILLLV" hopb="48474" hopa="458"/>
             <statup duration2="20000" effectid="947193" e="3" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1550"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1550"/>
             </statup>
         </effects>
         <actions>
@@ -85194,7 +85194,7 @@
             <healinstant value="3040" delta="38" e="1" noresist="true" element="WATER" hoptype="SKILLLV" hopb="46830"/>
             <heal checktime="2000" value="240" delta="3" duration2="6000" effectid="947192" e="2" noresist="true" element="WATER" preeffect="1" hoptype="SKILLLV" hopb="48474" hopa="458"/>
             <statup duration2="20000" effectid="947193" e="3" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1550"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1550"/>
             </statup>
         </effects>
         <actions>
@@ -85218,7 +85218,7 @@
             <healinstant value="3252" delta="40" e="1" noresist="true" element="WATER" hoptype="SKILLLV" hopb="50940"/>
             <heal checktime="2000" value="240" delta="3" duration2="6000" effectid="947192" e="2" noresist="true" element="WATER" preeffect="1" hoptype="SKILLLV" hopb="48474" hopa="458"/>
             <statup duration2="20000" effectid="947193" e="3" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1550"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1550"/>
             </statup>
         </effects>
         <actions>
@@ -86053,7 +86053,7 @@
         <effects>
             <shield hitvalue="621" hitdelta="12" value="621" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="468"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="10" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -86075,7 +86075,7 @@
         <effects>
             <shield hitvalue="730" hitdelta="14" value="764" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="702"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="20" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -86097,7 +86097,7 @@
         <effects>
             <shield hitvalue="1027" hitdelta="18" value="904" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="936"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="30" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -86119,7 +86119,7 @@
         <effects>
             <shield hitvalue="1324" hitdelta="20" value="1047" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="1170"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="40" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -86141,7 +86141,7 @@
         <effects>
             <shield hitvalue="1621" hitdelta="24" value="1188" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="1404"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="50" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -86163,7 +86163,7 @@
         <effects>
             <shield hitvalue="1918" hitdelta="26" value="1330" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="1638"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="60" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -86185,7 +86185,7 @@
         <effects>
             <shield hitvalue="2215" hitdelta="30" value="1471" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="1872"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="70" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -86207,7 +86207,7 @@
         <effects>
             <shield hitvalue="2512" hitdelta="32" value="1613" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="2106"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="80" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -86229,7 +86229,7 @@
         <effects>
             <shield hitvalue="2809" hitdelta="34" value="1756" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="2340"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="90" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -86251,7 +86251,7 @@
         <effects>
             <shield hitvalue="3106" hitdelta="38" value="1896" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="2574"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="100" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -86273,7 +86273,7 @@
         <effects>
             <shield hitvalue="3403" hitdelta="40" value="2039" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="2808"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="110" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -86295,7 +86295,7 @@
         <effects>
             <shield hitvalue="3700" hitdelta="44" value="2180" duration2="300000" effectid="154" e="1" basiclvl="100" noresist="true" hittypeprob2="1000" hoptype="SKILLLV" hopb="3042"/>
             <statup duration2="300000" effectid="943632" e="2" basiclvl="120" noresist="true" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <actions>
@@ -88439,7 +88439,7 @@
                 <change stat="STAGGER_RESISTANCE" func="ADD" value="800"/>
                 <change stat="SPIN_RESISTANCE" func="ADD" value="800"/>
                 <change stat="OPENAREIAL_RESISTANCE" func="ADD" value="800"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="800"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="800"/>
             </statup>
         </effects>
         <actions>
@@ -88465,7 +88465,7 @@
                 <change stat="STAGGER_RESISTANCE" func="ADD" value="1000"/>
                 <change stat="SPIN_RESISTANCE" func="ADD" value="1000"/>
                 <change stat="OPENAREIAL_RESISTANCE" func="ADD" value="1000"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1000"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1000"/>
             </statup>
         </effects>
         <actions>
@@ -93590,7 +93590,7 @@
         </useequipmentconditions>
         <effects>
             <statup duration2="10000" effectid="135151" e="1" noresist="true" hoptype="SKILLLV" hopb="2178">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="3000"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="3000"/>
                 <change stat="MAGICAL_RESIST" func="ADD" value="1300"/>
                 <change stat="STUN_RESISTANCE" func="ADD" value="500"/>
                 <change stat="STUMBLE_RESISTANCE" func="ADD" value="500"/>
@@ -93779,7 +93779,7 @@
                 <change stat="PARRY" func="ADD" value="243"/>
             </statup>
             <statup e="3" noresist="true" element="EARTH" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="520"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="520"/>
             </statup>
         </effects>
         <actions>
@@ -96308,8 +96308,8 @@
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <statup duration2="15000" effectid="936612" e="1" noresist="true" element="FIRE" hoptype="SKILLLV">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="300"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="300"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="300"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="300"/>
             </statup>
         </effects>
         <motion name="normalfire" instant_skill="true"/>
@@ -96318,8 +96318,8 @@
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <statup duration2="15000" effectid="936612" e="1" noresist="true" element="FIRE" hoptype="SKILLLV">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <motion name="normalfire" instant_skill="true"/>
@@ -99212,7 +99212,7 @@
                 <change stat="STAGGER_RESISTANCE" func="ADD" value="500"/>
                 <change stat="SPIN_RESISTANCE" func="ADD" value="500"/>
                 <change stat="OPENAREIAL_RESISTANCE" func="ADD" value="500"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="2000"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="2000"/>
             </statup>
             <statup duration2="8000" effectid="936691" e="3" basiclvl="20" noresist="true" preeffect="1">
                 <change stat="SNARE_RESISTANCE" func="ADD" value="300"/>
@@ -99248,7 +99248,7 @@
                 <change stat="STAGGER_RESISTANCE" func="ADD" value="1000"/>
                 <change stat="SPIN_RESISTANCE" func="ADD" value="1000"/>
                 <change stat="OPENAREIAL_RESISTANCE" func="ADD" value="1000"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="2000"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="2000"/>
             </statup>
         </effects>
         <actions>
@@ -99443,7 +99443,7 @@
                 <change stat="STAGGER_RESISTANCE" func="ADD" value="300"/>
                 <change stat="SPIN_RESISTANCE" func="ADD" value="300"/>
                 <change stat="OPENAREIAL_RESISTANCE" func="ADD" value="300"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="300"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="300"/>
             </statup>
         </effects>
         <actions>
@@ -103332,7 +103332,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202745" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="PHYSICAL_DEFENSE" func="PERCENT" value="35"/>
@@ -103345,7 +103345,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202827" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202746" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="MAGICAL_ATTACK" func="PERCENT" value="41"/>
@@ -103359,7 +103359,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202828" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202747" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="PHYSICAL_ACCURACY" func="PERCENT" value="99"/>
@@ -103372,7 +103372,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202829" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202748" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="PHYSICAL_ATTACK" func="PERCENT" value="41"/>
@@ -103386,7 +103386,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202749" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="PHYSICAL_ATTACK" func="PERCENT" value="41"/>
@@ -103400,7 +103400,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202750" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="MAGICAL_ATTACK" func="PERCENT" value="41"/>
@@ -103414,7 +103414,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202751" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="PHYSICAL_ATTACK" func="PERCENT" value="41"/>
@@ -103428,7 +103428,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202752" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="MAGICAL_CRITICAL" func="PERCENT" value="78"/>
@@ -103441,7 +103441,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202753" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="PHYSICAL_CRITICAL" func="PERCENT" value="78"/>
@@ -103454,7 +103454,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202754" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="MAGICAL_RESIST" func="PERCENT" value="35"/>
@@ -103467,7 +103467,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202755" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="MAGICAL_RESIST" func="PERCENT" value="113"/>
@@ -103480,7 +103480,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202756" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="MAGICAL_ACCURACY" func="PERCENT" value="99"/>
@@ -103493,7 +103493,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202757" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="PARRY" func="PERCENT" value="113"/>
@@ -103506,7 +103506,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202758" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="EVASION" func="PERCENT" value="113"/>
@@ -103519,7 +103519,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202759" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="BLOCK" func="PERCENT" value="113"/>
@@ -103532,7 +103532,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202760" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="HEAL_BOOST" func="PERCENT" value="26"/>
@@ -103546,7 +103546,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202761" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="MAGICAL_RESIST" func="PERCENT" value="143"/>
@@ -103560,7 +103560,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202762" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="30"/>
                 <change stat="HEAL_BOOST" func="PERCENT" value="26"/>
@@ -103574,7 +103574,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202763" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="SPEED" func="PERCENT" value="35"/>
                 <change stat="EVASION" func="PERCENT" value="207"/>
@@ -103588,7 +103588,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202764" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-9"/>
                 <change stat="SPEED" func="PERCENT" value="30"/>
@@ -103603,7 +103603,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202765" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-9"/>
                 <change stat="SPEED" func="PERCENT" value="30"/>
@@ -103618,7 +103618,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202766" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-6"/>
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="4"/>
@@ -103636,7 +103636,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202767" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="11"/>
                 <change stat="MAGICAL_ATTACK" func="PERCENT" value="63"/>
@@ -103650,7 +103650,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202768" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-11"/>
                 <change stat="PHYSICAL_ATTACK" func="PERCENT" value="63"/>
@@ -103664,7 +103664,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202769" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-7"/>
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="5"/>
@@ -103679,7 +103679,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202770" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-6"/>
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="4"/>
@@ -103697,7 +103697,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202771" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="11"/>
                 <change stat="HEAL_BOOST" func="PERCENT" value="40"/>
@@ -103711,7 +103711,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202772" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-6"/>
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="4"/>
@@ -103729,7 +103729,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202773" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="9"/>
                 <change stat="SPEED" func="PERCENT" value="30"/>
@@ -103744,7 +103744,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202774" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="9"/>
                 <change stat="SPEED" func="PERCENT" value="30"/>
@@ -103759,7 +103759,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202775" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="9"/>
                 <change stat="SPEED" func="PERCENT" value="30"/>
@@ -103774,7 +103774,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202776" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="9"/>
                 <change stat="SPEED" func="PERCENT" value="30"/>
@@ -103789,7 +103789,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202777" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="20"/>
                 <change stat="SPEED" func="PERCENT" value="40"/>
@@ -103808,7 +103808,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202778" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-25"/>
                 <change stat="PHYSICAL_ATTACK" func="PERCENT" value="72"/>
@@ -103827,7 +103827,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202779" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="20"/>
                 <change stat="SPEED" func="PERCENT" value="40"/>
@@ -103846,7 +103846,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202780" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-20"/>
                 <change stat="SPEED" func="PERCENT" value="40"/>
@@ -103865,7 +103865,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202781" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="25"/>
                 <change stat="MAGICAL_ATTACK" func="PERCENT" value="72"/>
@@ -103884,7 +103884,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202782" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-20"/>
                 <change stat="SPEED" func="PERCENT" value="40"/>
@@ -103903,7 +103903,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202783" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-15"/>
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="11"/>
@@ -103924,7 +103924,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202784" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-12"/>
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="9"/>
@@ -103945,7 +103945,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202785" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="25"/>
                 <change stat="HEAL_BOOST" func="PERCENT" value="45"/>
@@ -103964,7 +103964,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202786" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="20"/>
                 <change stat="SPEED" func="PERCENT" value="40"/>
@@ -103983,7 +103983,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202787" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-12"/>
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="9"/>
@@ -104004,7 +104004,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202788" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-35"/>
                 <change stat="SPEED" func="PERCENT" value="60"/>
@@ -104025,7 +104025,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202789" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="35"/>
                 <change stat="SPEED" func="PERCENT" value="60"/>
@@ -104046,7 +104046,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202790" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-45"/>
                 <change stat="PHYSICAL_ATTACK" func="PERCENT" value="90"/>
@@ -104067,7 +104067,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202791" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="45"/>
                 <change stat="HEAL_BOOST" func="PERCENT" value="57"/>
@@ -104088,7 +104088,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202792" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-35"/>
                 <change stat="SPEED" func="PERCENT" value="60"/>
@@ -104109,7 +104109,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202793" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="35"/>
                 <change stat="SPEED" func="PERCENT" value="60"/>
@@ -104130,7 +104130,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202794" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-25"/>
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="18"/>
@@ -104154,7 +104154,7 @@
             <target value="PC"/>
         </startconditions>
         <effects>
-            <shapechange model="202826" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <shapechange model="202795" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
             <statup duration2="600000" e="2" noresist="true" element="WIND">
                 <change stat="ATTACK_SPEED" func="PERCENT" value="-60"/>
                 <change stat="BOOST_CASTING_TIME" func="PERCENT" value="45"/>
@@ -117180,12 +117180,12 @@
         <effects>
             <statup duration2="4800000" effectid="988671" e="1" basiclvl="10" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="260"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="260"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="260"/>
                 <change stat="MAXHP" func="ADD" value="4000"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="2" basiclvl="10" noresist="true" preeffect="1">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="320"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="320"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="320"/>
                 <change stat="HEAL_BOOST" func="ADD" value="100"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="3" basiclvl="10" noresist="true" preeffect="1"/>
@@ -117203,12 +117203,12 @@
         <effects>
             <statup duration2="4800000" effectid="988671" e="1" basiclvl="20" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="520"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="520"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="520"/>
                 <change stat="MAXHP" func="ADD" value="8000"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="2" basiclvl="20" noresist="true" preeffect="1">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="640"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="640"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="640"/>
                 <change stat="HEAL_BOOST" func="ADD" value="200"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="3" basiclvl="20" noresist="true" preeffect="1"/>
@@ -117226,12 +117226,12 @@
         <effects>
             <statup duration2="4800000" effectid="988671" e="1" basiclvl="30" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="1040"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1040"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1040"/>
                 <change stat="MAXHP" func="ADD" value="16000"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="2" basiclvl="30" noresist="true" preeffect="1">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="1280"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1280"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="1280"/>
                 <change stat="HEAL_BOOST" func="ADD" value="300"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="3" basiclvl="30" noresist="true" preeffect="1"/>
@@ -117249,12 +117249,12 @@
         <effects>
             <statup duration2="4800000" effectid="988671" e="1" basiclvl="40" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="1560"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1560"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1560"/>
                 <change stat="MAXHP" func="ADD" value="60000"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="2" basiclvl="40" noresist="true" preeffect="1">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="1920"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1920"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="1920"/>
                 <change stat="HEAL_BOOST" func="ADD" value="400"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="3" basiclvl="40" noresist="true" preeffect="1">
@@ -117274,12 +117274,12 @@
         <effects>
             <statup duration2="4800000" effectid="988671" e="1" basiclvl="50" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="2600"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="2600"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="2600"/>
                 <change stat="MAXHP" func="ADD" value="200000"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="2" basiclvl="50" noresist="true" preeffect="1">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="3200"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="3200"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="3200"/>
                 <change stat="HEAL_BOOST" func="ADD" value="800"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="3" basiclvl="50" noresist="true" preeffect="1">
@@ -117299,12 +117299,12 @@
         <effects>
             <statup duration2="4800000" effectid="988671" e="1" basiclvl="10" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="260"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="260"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="260"/>
                 <change stat="MAXHP" func="ADD" value="4000"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="2" basiclvl="10" noresist="true" preeffect="1">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="320"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="320"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="320"/>
                 <change stat="HEAL_BOOST" func="ADD" value="100"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="3" basiclvl="10" noresist="true" preeffect="1"/>
@@ -117322,12 +117322,12 @@
         <effects>
             <statup duration2="4800000" effectid="988671" e="1" basiclvl="20" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="520"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="520"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="520"/>
                 <change stat="MAXHP" func="ADD" value="8000"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="2" basiclvl="20" noresist="true" preeffect="1">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="640"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="640"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="640"/>
                 <change stat="HEAL_BOOST" func="ADD" value="200"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="3" basiclvl="20" noresist="true" preeffect="1"/>
@@ -117345,12 +117345,12 @@
         <effects>
             <statup duration2="4800000" effectid="988671" e="1" basiclvl="30" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="1040"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1040"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1040"/>
                 <change stat="MAXHP" func="ADD" value="16000"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="2" basiclvl="30" noresist="true" preeffect="1">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="1280"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1280"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="1280"/>
                 <change stat="HEAL_BOOST" func="ADD" value="300"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="3" basiclvl="30" noresist="true" preeffect="1"/>
@@ -117368,12 +117368,12 @@
         <effects>
             <statup duration2="4800000" effectid="988671" e="1" basiclvl="40" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="1560"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1560"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1560"/>
                 <change stat="MAXHP" func="ADD" value="60000"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="2" basiclvl="40" noresist="true" preeffect="1">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="1920"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1920"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="1920"/>
                 <change stat="HEAL_BOOST" func="ADD" value="400"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="3" basiclvl="40" noresist="true" preeffect="1">
@@ -117393,12 +117393,12 @@
         <effects>
             <statup duration2="4800000" effectid="988671" e="1" basiclvl="50" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="2600"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="2600"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="2600"/>
                 <change stat="MAXHP" func="ADD" value="200000"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="2" basiclvl="50" noresist="true" preeffect="1">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="3200"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="3200"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="3200"/>
                 <change stat="HEAL_BOOST" func="ADD" value="800"/>
             </statup>
             <statup duration2="4800000" effectid="988672" e="3" basiclvl="50" noresist="true" preeffect="1">
@@ -118554,8 +118554,8 @@
         </useconditions>
         <effects>
             <statup duration2="5000" effectid="185024" e="1" noresist="true" element="EARTH" hoptype="SKILLLV">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="200"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="200"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="200"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="200"/>
             </statup>
         </effects>
     </skill_template>
@@ -118669,8 +118669,8 @@
         </useconditions>
         <effects>
             <statup duration2="5000" effectid="185024" e="1" noresist="true" element="EARTH" hoptype="SKILLLV">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="200"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="200"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="200"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="200"/>
             </statup>
         </effects>
     </skill_template>
@@ -141977,7 +141977,7 @@
         </useconditions>
         <effects>
             <statup duration2="1800000" effectid="11233" e="1" noresist="true" element="WIND">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="500"/>
             </statup>
         </effects>
         <motion name="phburst"/>
@@ -142009,7 +142009,7 @@
         </useconditions>
         <effects>
             <statup duration2="1800000" effectid="11233" e="1" noresist="true" element="WIND">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1000"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1000"/>
             </statup>
         </effects>
         <motion name="phburst"/>
@@ -142041,7 +142041,7 @@
         </useconditions>
         <effects>
             <statup duration2="1800000" effectid="11233" e="1" noresist="true" element="WIND">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="1500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="1500"/>
             </statup>
         </effects>
         <motion name="phburst"/>
@@ -145000,7 +145000,7 @@
         <effects>
             <statup duration2="600000" effectid="1114061" e="1" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="150"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="150"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="150"/>
             </statup>
             <statup duration2="600000" effectid="1114062" e="2" basiclvl="100" noresist="true" preeffect="1">
                 <change stat="SPEED" func="PERCENT" value="2"/>
@@ -146239,7 +146239,7 @@
         <effects>
             <statup duration2="600000" effectid="1114661" e="1" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="250"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="250"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="250"/>
             </statup>
             <statup duration2="600000" effectid="1114662" e="2" basiclvl="100" noresist="true" preeffect="1">
                 <change stat="SPEED" func="PERCENT" value="3"/>
@@ -146261,7 +146261,7 @@
         <effects>
             <statup duration2="600000" effectid="1114671" e="1" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="250"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="250"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="250"/>
             </statup>
             <statup duration2="600000" effectid="1114672" e="2" basiclvl="100" noresist="true" preeffect="1">
                 <change stat="SPEED" func="PERCENT" value="3"/>
@@ -146283,7 +146283,7 @@
         <effects>
             <statup duration2="600000" effectid="1114681" e="1" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="150"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="150"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="150"/>
             </statup>
             <statup duration2="600000" effectid="1114682" e="2" basiclvl="100" noresist="true" preeffect="1">
                 <change stat="SPEED" func="PERCENT" value="2"/>
@@ -146416,7 +146416,7 @@
         <effects>
             <statup duration2="600000" effectid="1116251" e="1" noresist="true">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="250"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="250"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="250"/>
             </statup>
             <statup duration2="600000" effectid="1116252" e="2" basiclvl="100" noresist="true" preeffect="1">
                 <change stat="SPEED" func="PERCENT" value="3"/>
@@ -146438,7 +146438,7 @@
         <effects>
             <statup duration2="600000" effectid="1116261" e="1" noresist="true">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="250"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="250"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="250"/>
             </statup>
             <statup duration2="600000" effectid="1116262" e="2" basiclvl="100" noresist="true" preeffect="1">
                 <change stat="SPEED" func="PERCENT" value="3"/>
@@ -146460,7 +146460,7 @@
         <effects>
             <statup duration2="600000" effectid="1116271" e="1" noresist="true">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="150"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="150"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="150"/>
             </statup>
             <statup duration2="600000" effectid="1116272" e="2" basiclvl="100" noresist="true" preeffect="1">
                 <change stat="SPEED" func="PERCENT" value="2"/>
@@ -146482,7 +146482,7 @@
         <effects>
             <statup duration2="600000" effectid="1116281" e="1" noresist="true">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="150"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="150"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="150"/>
             </statup>
             <statup duration2="600000" effectid="1116282" e="2" basiclvl="100" noresist="true" preeffect="1">
                 <change stat="SPEED" func="PERCENT" value="2"/>
@@ -147752,7 +147752,7 @@
         </useconditions>
         <effects>
             <statup duration2="10000" effectid="2117071" e="1" noresist="true">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="100"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="100"/>
             </statup>
         </effects>
     </skill_template>
@@ -147774,7 +147774,7 @@
         </useconditions>
         <effects>
             <statup duration2="10000" effectid="2117091" e="1" noresist="true">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="100"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="100"/>
             </statup>
         </effects>
     </skill_template>
@@ -151133,7 +151133,7 @@
         <effects>
             <statup duration2="1800000" effectid="121871" e="1" basiclvl="100" noresist="true">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="260"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="260"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="260"/>
             </statup>
         </effects>
     </skill_template>
@@ -151147,7 +151147,7 @@
         </useconditions>
         <effects>
             <statup duration2="1800000" effectid="121871" e="1" basiclvl="100" noresist="true">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="260"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="260"/>
             </statup>
         </effects>
     </skill_template>
@@ -151176,7 +151176,7 @@
         <effects>
             <statup duration2="1800000" effectid="121881" e="1" basiclvl="100" noresist="true">
                 <change stat="PVP_ATTACK_RATIO" func="ADD" value="260"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="260"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="260"/>
             </statup>
         </effects>
     </skill_template>
@@ -151218,7 +151218,7 @@
         </useconditions>
         <effects>
             <statup duration2="3600000" e="1" noresist="true">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="250"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="250"/>
             </statup>
         </effects>
     </skill_template>
@@ -154158,8 +154158,8 @@
         <properties first_target="TARGET" first_target_range="25" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <statup duration2="5000" effectid="9131851" e="1" noresist="true">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="400"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="400"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="400"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="400"/>
             </statup>
         </effects>
         <motion instant_skill="true"/>
@@ -172104,7 +172104,7 @@
             <shapechange model="656408" type="FORM1" panelid="152" duration2="86400000" effectid="175" e="1" basiclvl="255" noresist="true"/>
             <statup duration2="86400000" effectid="10200212" e="2" noresist="true" preeffect="1">
                 <change stat="MAXHP" func="ADD" value="400000"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="5000"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="5000"/>
                 <change stat="PARALYZE_RESISTANCE" func="ADD" value="9000"/>
                 <change stat="STUN_RESISTANCE" func="ADD" value="9000"/>
                 <change stat="STUMBLE_RESISTANCE" func="ADD" value="9000"/>
@@ -227110,7 +227110,7 @@
                 <change stat="FLY_SPEED" func="PERCENT" value="-20"/>
             </snare>
             <statdown duration2="3000" e="2" basiclvl="80" element="EARTH" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="-500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="-500"/>
             </statdown>
         </effects>
         <motion name="normalfire"/>
@@ -235690,7 +235690,7 @@
                 <change stat="FLY_SPEED" func="PERCENT" value="-25"/>
             </snare>
             <statdown duration2="3000" e="2" basiclvl="80" element="EARTH" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="-500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="-500"/>
             </statdown>
         </effects>
         <motion name="normalfire"/>
@@ -235706,7 +235706,7 @@
                 <change stat="FLY_SPEED" func="PERCENT" value="-30"/>
             </snare>
             <statdown duration2="3000" e="2" basiclvl="80" element="EARTH" preeffect="1">
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="-500"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" value="-500"/>
             </statdown>
         </effects>
         <motion name="normalfire"/>
@@ -239836,7 +239836,7 @@
         <effects>
             <statup duration2="86399000" effectid="2229821" e="1" noresist="true">
                 <change stat="PVE_ATTACK_RATIO" func="ADD" value="400"/>
-                <change stat="PVP_ATTACK_RATIO" func="ADD" value="300"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" value="300"/>
             </statup>
         </effects>
         <motion name="normalfire"/>
