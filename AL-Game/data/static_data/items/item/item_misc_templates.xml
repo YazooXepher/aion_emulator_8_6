@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2019-04-04 18:32 -->
+<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2019-04-25 14:39 -->
 <item_templates>
     <item_template id="141000001" name="Stigma Shard" desc="1403357" name_desc="stigma_shard" level="1" mask="12364" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY"/>
     <item_template id="152010310" name="Thin Rawhide" desc="1407915" name_desc="rawhide_n_c_01a" level="10" mask="12364" category="RAWHIDE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY"/>
@@ -184779,25 +184779,25 @@
         </actions>
         <uselimits usedelay="1000" usedelayid="80"/>
     </item_template>
-    <item_template id="188120026" name="?" desc="4008153" name_desc="assembly_event_letter_1" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188120026" name="[Event] Cherry Blossom A" desc="4008153" name_desc="assembly_event_letter_1" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
         <actions>
             <assemble item="000000000"/>
         </actions>
         <uselimits usedelay="1000" usedelayid="80"/>
     </item_template>
-    <item_template id="188120027" name="?" desc="4008155" name_desc="assembly_event_letter_2" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188120027" name="[Event] Cherry Blossom I" desc="4008155" name_desc="assembly_event_letter_2" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
         <actions>
             <assemble item="000000000"/>
         </actions>
         <uselimits usedelay="1000" usedelayid="80"/>
     </item_template>
-    <item_template id="188120028" name="?" desc="4008157" name_desc="assembly_event_letter_3" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188120028" name="[Event] Cherry Blossom O" desc="4008157" name_desc="assembly_event_letter_3" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
         <actions>
             <assemble item="000000000"/>
         </actions>
         <uselimits usedelay="1000" usedelayid="80"/>
     </item_template>
-    <item_template id="188120029" name="?" desc="4008159" name_desc="assembly_event_letter_4" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188120029" name="[Event] Cherry Blossom N" desc="4008159" name_desc="assembly_event_letter_4" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
         <actions>
             <assemble item="000000000"/>
         </actions>
