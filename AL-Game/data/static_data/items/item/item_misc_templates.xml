@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2019-04-25 14:39 -->
+<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2019-05-11 14:11 -->
 <item_templates>
     <item_template id="141000001" name="Stigma Shard" desc="1403357" name_desc="stigma_shard" level="1" mask="12364" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY"/>
     <item_template id="152010310" name="Thin Rawhide" desc="1407915" name_desc="rawhide_n_c_01a" level="10" mask="12364" category="RAWHIDE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY"/>
@@ -107380,6 +107380,12 @@
         </actions>
         <uselimits usedelay="10000" usedelayid="1" ownership_world="302540000"/>
     </item_template>
+    <item_template id="164012058" name="?" desc="4008727" name_desc="cash_scroll_start_kit_24hour" level="1" mask="4168" category="NONE" max_stack_count="100" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <skilluse level="1" skillid="13377"/>
+        </actions>
+        <uselimits usedelay="15000" usedelayid="31"/>
+    </item_template>
     <item_template id="164020000" name="Test_Multi-return Scroll_01" desc="1664401" name_desc="test_scroll_multi_return_1" level="1" mask="12414" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
         <actions>
             <multi_return_item id="1"/>
@@ -182101,6 +182107,101 @@
         </actions>
         <acquisition type="REWARD" count="8" item="186020050"/>
     </item_template>
+    <item_template id="188072185" name="Box of Form Contracts" desc="1787623" name_desc="world_wrap_trans_contract_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="50" item="186020041"/>
+    </item_template>
+    <item_template id="188072186" name="?" desc="4008571" name_desc="world_wrap_trans_contract_G3_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="500" item="186020041"/>
+    </item_template>
+    <item_template id="188072187" name="?" desc="4008573" name_desc="world_wrap_matter_enchant_r_pve_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="150" item="186020041"/>
+    </item_template>
+    <item_template id="188072188" name="?" desc="4008575" name_desc="world_wrap_matter_enchant_f_pve_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="750" item="186020041"/>
+    </item_template>
+    <item_template id="188072189" name="Bundle of Transparent Transformation Scrolls (10)" desc="4002769" name_desc="world_wrap_transparent_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="20" item="186020041"/>
+    </item_template>
+    <item_template id="188072190" name="?" desc="4007713" name_desc="world_wrap_devaskill_trillirung" level="10" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="50" item="186020041"/>
+    </item_template>
+    <item_template id="188072191" name="?" desc="4008577" name_desc="world_wrap_trans_contract_g4_select_10ea_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose select="true"/>
+        </actions>
+        <acquisition type="REWARD" count="2000" item="186020041"/>
+    </item_template>
+    <item_template id="188072192" name="Box of Major Transformation Contracts (16 types)" desc="4003471" name_desc="world_wrap_trans_contract_g2_all_16ea_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="RARE" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="300" item="186020041"/>
+    </item_template>
+    <item_template id="188072193" name="Box of Ancient Transformation Contracts (18 types)" desc="4003473" name_desc="world_wrap_trans_contract_g3_all_18ea_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072194" name="Box of Legendary Transformation Contracts (10 types)" desc="4003475" name_desc="world_wrap_trans_contract_g4_all_10ea_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="1000" item="186020041"/>
+    </item_template>
+    <item_template id="188072195" name="?" desc="4008579" name_desc="world_wrap_landom_kinahbox_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="10" item="186020041"/>
+    </item_template>
+    <item_template id="188072196" name="?" desc="4008581" name_desc="world_wrap_KinahBox_50thou" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072197" name="?" desc="4008583" name_desc="world_wrap_KinahBox_250thou_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072198" name="?" desc="4008585" name_desc="world_wrap_KinahBox_500thou" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072207" name="?" desc="4008659" name_desc="world_wrap_weapon_idf7_ere_pve_f1_80a" level="80" mask="12414" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose select="true"/>
+        </actions>
+    </item_template>
+    <item_template id="188072208" name="?" desc="4008661" name_desc="world_wrap_armor_idf7_ere_pve_f1_80a" level="80" mask="12414" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose select="true"/>
+        </actions>
+    </item_template>
+    <item_template id="188072209" name="?" desc="4008663" name_desc="world_wrap_wing_idf7_ere_pve_f1_80a" level="80" mask="12414" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose select="true"/>
+        </actions>
+    </item_template>
     <item_template id="188100001" name="Assembly Testing Item 01" desc="1567843" name_desc="assembly_material_test_01" level="50" mask="12414" category="NONE" max_stack_count="100" item_type="NORMAL" quality="RARE" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
         <actions>
             <assemble item="186000018"/>
@@ -185441,6 +185542,11 @@
             <animation idle="21"/>
         </actions>
         <acquisition type="REWARD" count="250" item="186020016"/>
+    </item_template>
+    <item_template id="188509014" name="[Motion Card] Leisurely Stroll" desc="1781287" name_desc="world_cash_add_customize_motion_walkway_01" level="1" mask="4216" category="NONE" max_stack_count="1" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <animation idle="39"/>
+        </actions>
     </item_template>
     <item_template id="188600000" name="Draupnir Cooldown Scroll" desc="1540803" name_desc="scroll_init_coolt_instance_IDDF3_Dragon" level="1" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1">
         <actions>
@@ -193892,6 +193998,46 @@
     <item_template id="190120091" name="Goldsqueak - Health Recovery (30 days)" desc="4006983" name_desc="world_cash_ride_goldpig_01_30day" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1000" expire_time="43201">
         <actions>
             <ride npc_id="2000173"/>
+        </actions>
+    </item_template>
+    <item_template id="190120094" name="?" desc="4008695" name_desc="cash_ride_gold_grimhorse_live_1DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1000" expire_time="1441">
+        <actions>
+            <ride npc_id="2000117"/>
+        </actions>
+    </item_template>
+    <item_template id="190120095" name="?" desc="4008697" name_desc="cash_ride_gold_grimhorse_live_7DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1000" expire_time="10081">
+        <actions>
+            <ride npc_id="2000117"/>
+        </actions>
+    </item_template>
+    <item_template id="190120096" name="?" desc="4008699" name_desc="cash_ride_gold_grimhorse_live_15DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1000" expire_time="21601">
+        <actions>
+            <ride npc_id="2000117"/>
+        </actions>
+    </item_template>
+    <item_template id="190120097" name="?" desc="4008701" name_desc="cash_ride_gold_grimhorse_live_30DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1000" expire_time="43201">
+        <actions>
+            <ride npc_id="2000117"/>
+        </actions>
+    </item_template>
+    <item_template id="190120098" name="?" desc="4008711" name_desc="cash_ride_highcraft_kuillusrider_01_1DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1000" expire_time="1441">
+        <actions>
+            <ride npc_id="2000083"/>
+        </actions>
+    </item_template>
+    <item_template id="190120099" name="?" desc="4008713" name_desc="cash_ride_highcraft_kuillusrider_01_7DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1000" expire_time="10081">
+        <actions>
+            <ride npc_id="2000083"/>
+        </actions>
+    </item_template>
+    <item_template id="190120100" name="?" desc="4008715" name_desc="cash_ride_highcraft_kuillusrider_01_15DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1000" expire_time="21601">
+        <actions>
+            <ride npc_id="2000083"/>
+        </actions>
+    </item_template>
+    <item_template id="190120101" name="?" desc="4008717" name_desc="cash_ride_highcraft_kuillusrider_01_30DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" activate_target="STANDALONE" activate_count="1000" expire_time="43201">
+        <actions>
+            <ride npc_id="2000083"/>
         </actions>
     </item_template>
     <item_template id="190200000" name="Class A Minionite" desc="1743361" name_desc="minion_evolutionstone_01" level="10" mask="12364" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY"/>
