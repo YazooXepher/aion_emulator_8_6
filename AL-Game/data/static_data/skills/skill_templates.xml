@@ -95445,7 +95445,7 @@
         </actions>
         <motion name="phburst"/>
     </skill_template>
-    <skill_template skill_id="4882" name="Soul Wave" nameId="4580809" name_desc="SpiritAtK_A001_1_1" cooldownId="1861" stack="SKILLN_BP_SH_SPIRITATK_A001_1" lvl="1" skill_group="BP_Sh_SpiritAtK_A001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4882" name="Soul Wave" nameId="4580809" name_desc="SpiritAtK_A001_1_1" cooldownId="1861" stack="SKILLN_BP_SH_SPIRITATK_A001_1" lvl="1" skill_group="BP_Sh_SpiritAtK_A001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <statup duration2="15000" effectid="936612" e="1" noresist="true" hoptype="SKILLLV">
@@ -95455,7 +95455,7 @@
         </effects>
         <motion name="buff" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4883" name="Boosted Soul Wave" nameId="4580813" name_desc="SpiritAtK_A001_2_1" cooldownId="1861" stack="SKILLN_BP_SH_SPIRITATK_A001_2_1" lvl="2" skill_group="BP_Sh_SpiritAtK_A001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4883" name="Boosted Soul Wave" nameId="4580813" name_desc="SpiritAtK_A001_2_1" cooldownId="1861" stack="SKILLN_BP_SH_SPIRITATK_A001_2_1" lvl="2" skill_group="BP_Sh_SpiritAtK_A001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <statup duration2="15000" effectid="936612" e="1" noresist="true" hoptype="SKILLLV">
@@ -95465,21 +95465,21 @@
         </effects>
         <motion name="buff" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4884" name="Horror Beast" nameId="4580817" name_desc="DeathWolf_A001_3_2" cooldownId="1862" stack="SKILLN_BP_SH_DEATHWOLF_A001_3_2" lvl="1" skill_group="BP_Sh_DeathWolf_A001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" req_dispel_level="1" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4884" name="Horror Beast" nameId="4580817" name_desc="DeathWolf_A001_3_2" cooldownId="1862" stack="SKILLN_BP_SH_DEATHWOLF_A001_3_2" lvl="1" skill_group="BP_Sh_DeathWolf_A001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" req_dispel_level="1" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9339" provoke_target="OPPONENT" effectid="109192" e="1" basiclvl="60" noresist="true" hittype="NMLATK" hittypeprob2="10" element="FIRE" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4885" name="Durable Horror Beast" nameId="4580821" name_desc="DeathWolf_A001_4_2" cooldownId="1862" stack="SKILLN_BP_SH_DEATHWOLF_A001_4_2" lvl="2" skill_group="BP_Sh_DeathWolf_A001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" req_dispel_level="1" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4885" name="Durable Horror Beast" nameId="4580821" name_desc="DeathWolf_A001_4_2" cooldownId="1862" stack="SKILLN_BP_SH_DEATHWOLF_A001_4_2" lvl="2" skill_group="BP_Sh_DeathWolf_A001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" req_dispel_level="1" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9370" provoke_target="OPPONENT" effectid="109192" e="1" basiclvl="70" noresist="true" hittype="NMLATK" hittypeprob2="20" element="FIRE" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4886" name="Glacier Veil of Wrath" nameId="4580827" name_desc="Iceball_A002_1_1" cooldownId="1861" stack="SKILLN_BP_GR_ICEBALL_A002_1" lvl="1" skill_group="BP_Gr_Iceball_A002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4886" name="Glacier Veil of Wrath" nameId="4580827" name_desc="Iceball_A002_1_1" cooldownId="1861" stack="SKILLN_BP_GR_ICEBALL_A002_1" lvl="1" skill_group="BP_Gr_Iceball_A002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <randommoveloc direction="0" distance="10" effectid="936612" e="1" noresist="true" hoptype="SKILLLV"/>
@@ -95489,7 +95489,7 @@
         </effects>
         <motion name="normalfire" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4887" name="Boosted Glacier Veil of Wrath" nameId="4580831" name_desc="Iceball_A002_2_1" cooldownId="1861" stack="SKILLN_BP_GR_ICEBALL_A002_2_1" lvl="2" skill_group="BP_Gr_Iceball_A002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4887" name="Boosted Glacier Veil of Wrath" nameId="4580831" name_desc="Iceball_A002_2_1" cooldownId="1861" stack="SKILLN_BP_GR_ICEBALL_A002_2_1" lvl="2" skill_group="BP_Gr_Iceball_A002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <randommoveloc direction="0" distance="10" effectid="936612" e="1" noresist="true" hoptype="SKILLLV"/>
@@ -95501,21 +95501,21 @@
         </effects>
         <motion name="normalfire" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4888" name="Ragman" nameId="4580835" name_desc="Teleport_A002_3_2" cooldownId="1862" stack="SKILLN_BP_GR_TELEPORT_A002_3_2" lvl="1" skill_group="BP_Gr_Teleport_A002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4888" name="Ragman" nameId="4580835" name_desc="Teleport_A002_3_2" cooldownId="1862" stack="SKILLN_BP_GR_TELEPORT_A002_3_2" lvl="1" skill_group="BP_Gr_Teleport_A002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9315" provoke_target="ME" effectid="109192" e="1" basiclvl="60" noresist="true" hittypeprob2="20" element="WATER" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4889" name="Durable Ragman" nameId="4580839" name_desc="Teleport_A002_4_2" cooldownId="1862" stack="SKILLN_BP_GR_TELEPORT_A002_4_2" lvl="2" skill_group="BP_Gr_Teleport_A002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4889" name="Durable Ragman" nameId="4580839" name_desc="Teleport_A002_4_2" cooldownId="1862" stack="SKILLN_BP_GR_TELEPORT_A002_4_2" lvl="2" skill_group="BP_Gr_Teleport_A002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9315" provoke_target="ME" effectid="109192" e="1" basiclvl="70" noresist="true" hittypeprob2="40" element="WATER" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4890" name="Darting Blow" nameId="4580845" name_desc="bash_B001_1_1" cooldownId="1861" stack="SKILLN_BP_HA_BASH_B001_1" lvl="1" skill_group="BP_Ha_bash_B001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4890" name="Darting Blow" nameId="4580845" name_desc="bash_B001_1_1" cooldownId="1861" stack="SKILLN_BP_HA_BASH_B001_1" lvl="1" skill_group="BP_Ha_bash_B001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <weaponstatboost duration2="20000" effectid="936612" e="1" noresist="true">
@@ -95524,7 +95524,7 @@
         </effects>
         <motion name="buff" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4891" name="Durable Darting Blow" nameId="4580849" name_desc="bash_B001_2_1" cooldownId="1861" stack="SKILLN_BP_HA_BASH_B001_2_1" lvl="2" skill_group="BP_Ha_bash_B001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4891" name="Durable Darting Blow" nameId="4580849" name_desc="bash_B001_2_1" cooldownId="1861" stack="SKILLN_BP_HA_BASH_B001_2_1" lvl="2" skill_group="BP_Ha_bash_B001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <weaponstatboost duration2="30000" effectid="936612" e="1" noresist="true">
@@ -95533,21 +95533,21 @@
         </effects>
         <motion name="buff" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4892" name="Hamerun's Wrath" nameId="4580853" name_desc="Rage_B001_3_2" cooldownId="1862" stack="SKILLN_BP_HA_RAGE_B001_3_2" lvl="1" skill_group="BP_Ha_Rage_B001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" req_dispel_level="1" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4892" name="Hamerun's Wrath" nameId="4580853" name_desc="Rage_B001_3_2" cooldownId="1862" stack="SKILLN_BP_HA_RAGE_B001_3_2" lvl="1" skill_group="BP_Ha_Rage_B001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" req_dispel_level="1" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9360" provoke_target="OPPONENT" effectid="109192" e="1" basiclvl="60" noresist="true" hittype="NMLATK" hittypeprob2="30" element="FIRE" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4893" name="Hamerun's Durable Wrath" nameId="4580859" name_desc="Rage_B001_4_2" cooldownId="1862" stack="SKILLN_BP_HA_RAGE_B001_4_2" lvl="2" skill_group="BP_Ha_Rage_B001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" req_dispel_level="1" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4893" name="Hamerun's Durable Wrath" nameId="4580859" name_desc="Rage_B001_4_2" cooldownId="1862" stack="SKILLN_BP_HA_RAGE_B001_4_2" lvl="2" skill_group="BP_Ha_Rage_B001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" req_dispel_level="1" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9371" provoke_target="OPPONENT" effectid="109192" e="1" basiclvl="70" noresist="true" hittype="NMLATK" hittypeprob2="50" element="FIRE" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4894" name="Sphere of Life" nameId="4580865" name_desc="Fireball_B002_1_1" cooldownId="1861" stack="SKILLN_BP_AH_FIREBALL_B002_1" lvl="1" skill_group="BP_Ah_Fireball_B002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4894" name="Sphere of Life" nameId="4580865" name_desc="Fireball_B002_1_1" cooldownId="1861" stack="SKILLN_BP_AH_FIREBALL_B002_1" lvl="1" skill_group="BP_Ah_Fireball_B002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <healinstant value="1200" delta="20" effectid="936612" e="1" noresist="true" hoptype="SKILLLV"/>
@@ -95555,7 +95555,7 @@
         </effects>
         <motion name="pointfire" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4895" name="Boosted Sphere of Life" nameId="4580869" name_desc="Fireball_B002_2_1" cooldownId="1861" stack="SKILLN_BP_AH_FIREBALL_B002_2_1" lvl="2" skill_group="BP_Ah_Fireball_B002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4895" name="Boosted Sphere of Life" nameId="4580869" name_desc="Fireball_B002_2_1" cooldownId="1861" stack="SKILLN_BP_AH_FIREBALL_B002_2_1" lvl="2" skill_group="BP_Ah_Fireball_B002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <healinstant value="1200" delta="20" effectid="936612" e="1" noresist="true" hoptype="SKILLLV"/>
@@ -95563,98 +95563,98 @@
         </effects>
         <motion name="pointfire" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4896" name="Improved Stamina" nameId="4580873" name_desc="PotentialHealth_B002_3_2" cooldownId="1862" stack="SKILLN_BP_AH_POTENTIALHEALTH_B002_3_2" lvl="1" skill_group="BP_Ah_PotentialHealth_B002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4896" name="Improved Stamina" nameId="4580873" name_desc="PotentialHealth_B002_3_2" cooldownId="1862" stack="SKILLN_BP_AH_POTENTIALHEALTH_B002_3_2" lvl="1" skill_group="BP_Ah_PotentialHealth_B002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9145" provoke_target="ME" effectid="109192" e="1" basiclvl="60" noresist="true" hittypeprob2="50" element="WATER" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4897" name="Durable Improved Stamina" nameId="4580877" name_desc="PotentialHealth_B002_4_2" cooldownId="1862" stack="SKILLN_BP_AH_POTENTIALHEALTH_B002_4_2" lvl="2" skill_group="BP_Ah_PotentialHealth_B002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4897" name="Durable Improved Stamina" nameId="4580877" name_desc="PotentialHealth_B002_4_2" cooldownId="1862" stack="SKILLN_BP_AH_POTENTIALHEALTH_B002_4_2" lvl="2" skill_group="BP_Ah_PotentialHealth_B002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9145" provoke_target="ME" effectid="109192" e="1" basiclvl="70" noresist="true" hittypeprob2="80" element="WATER" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4898" name="Powerful Shot" nameId="4580883" name_desc="Shot_C001_1_1" cooldownId="1861" stack="SKILLN_BP_RO_SHOT_C001_1" lvl="1" skill_group="BP_Ro_Shot_C001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4898" name="Powerful Shot" nameId="4580883" name_desc="Shot_C001_1_1" cooldownId="1861" stack="SKILLN_BP_RO_SHOT_C001_1" lvl="1" skill_group="BP_Ro_Shot_C001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9358" provoke_target="OPPONENT" duration2="20000" effectid="936612" e="1" basiclvl="60" noresist="true" hittype="NMLATK" hittypeprob2="300" element="FIRE" hoptype="DAMAGE"/>
         </effects>
         <motion name="pointfire" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4899" name="Durable Powerful Shot" nameId="4580887" name_desc="Shot_C001_2_1" cooldownId="1861" stack="SKILLN_BP_RO_SHOT_C001_2_1" lvl="2" skill_group="BP_Ro_Shot_C001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4899" name="Durable Powerful Shot" nameId="4580887" name_desc="Shot_C001_2_1" cooldownId="1861" stack="SKILLN_BP_RO_SHOT_C001_2_1" lvl="2" skill_group="BP_Ro_Shot_C001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9372" provoke_target="OPPONENT" duration2="30000" effectid="936612" e="1" basiclvl="70" noresist="true" hittype="NMLATK" hittypeprob2="300" element="FIRE" hoptype="DAMAGE"/>
         </effects>
         <motion name="pointfire" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4900" name="Projectile of Mind Division" nameId="4580891" name_desc="MPAttack_C001_3_2" cooldownId="1862" stack="SKILLN_BP_RO_MPATTACK_C001_3_2" lvl="1" skill_group="BP_Ro_MPAttack_C001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4900" name="Projectile of Mind Division" nameId="4580891" name_desc="MPAttack_C001_3_2" cooldownId="1862" stack="SKILLN_BP_RO_MPATTACK_C001_3_2" lvl="1" skill_group="BP_Ro_MPAttack_C001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9359" provoke_target="OPPONENT" effectid="109192" e="1" basiclvl="60" noresist="true" hittypeprob2="30" element="FIRE" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4901" name="Durable Projectile of Mind Division" nameId="4580895" name_desc="MPAttack_C001_4_2" cooldownId="1862" stack="SKILLN_BP_RO_MPATTACK_C001_4_2" lvl="2" skill_group="BP_Ro_MPAttack_C001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4901" name="Durable Projectile of Mind Division" nameId="4580895" name_desc="MPAttack_C001_4_2" cooldownId="1862" stack="SKILLN_BP_RO_MPATTACK_C001_4_2" lvl="2" skill_group="BP_Ro_MPAttack_C001" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9373" provoke_target="OPPONENT" effectid="109192" e="1" basiclvl="70" noresist="true" hittypeprob2="50" element="FIRE" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4902" name="Water Energy" nameId="4580899" name_desc="Recovery_C002_1_1" cooldownId="1861" stack="SKILLN_BP_SE_RECOVERY_C002_1" lvl="1" skill_group="BP_Se_Recovery_C002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4902" name="Water Energy" nameId="4580899" name_desc="Recovery_C002_1_1" cooldownId="1861" stack="SKILLN_BP_SE_RECOVERY_C002_1" lvl="1" skill_group="BP_Se_Recovery_C002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <shield hitvalue="2000" value="2000" duration2="8000" effectid="936612" e="1" basiclvl="60" noresist="true" hittypeprob2="1000" hoptype="SKILLLV"/>
         </effects>
         <motion name="normalfire" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4903" name="Durable Energy of Water" nameId="4580905" name_desc="Recovery_C002_2_1" cooldownId="1861" stack="SKILLN_BP_SE_RECOVERY_C002_2_1" lvl="2" skill_group="BP_Se_Recovery_C002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20">
+    <skill_template skill_id="4903" name="Durable Energy of Water" nameId="4580905" name_desc="Recovery_C002_2_1" cooldownId="1861" stack="SKILLN_BP_SE_RECOVERY_C002_2_1" lvl="2" skill_group="BP_Se_Recovery_C002" skilltype="MAGICAL" skillsubtype="HEAL" tslot="BUFF" dispel_category="BUFF" req_dispel_level="2" activation="ACTIVE" cooldown="3000" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <shield hitvalue="3000" value="3000" duration2="10000" effectid="936612" e="1" basiclvl="70" noresist="true" hittypeprob2="1000" hoptype="SKILLLV"/>
         </effects>
         <motion name="normalfire" instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4904" name="Summon Waterdrop" nameId="4580911" name_desc="WaterShield_C002_3_2" cooldownId="1862" stack="SKILLN_BP_SE_WATERSHIELD_C002_3_2" lvl="1" skill_group="BP_Se_WaterShield_C002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4904" name="Summon Waterdrop" nameId="4580911" name_desc="WaterShield_C002_3_2" cooldownId="1862" stack="SKILLN_BP_SE_WATERSHIELD_C002_3_2" lvl="1" skill_group="BP_Se_WaterShield_C002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9145" provoke_target="ME" effectid="109192" e="1" noresist="true" hittypeprob2="30" element="WATER" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4905" name="Summon Durable Waterdrop" nameId="4580917" name_desc="WaterShield_C002_4_2" cooldownId="1862" stack="SKILLN_BP_SE_WATERSHIELD_C002_4_2" lvl="2" skill_group="BP_Se_WaterShield_C002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4905" name="Summon Durable Waterdrop" nameId="4580917" name_desc="WaterShield_C002_4_2" cooldownId="1862" stack="SKILLN_BP_SE_WATERSHIELD_C002_4_2" lvl="2" skill_group="BP_Se_WaterShield_C002" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9145" provoke_target="ME" effectid="109192" e="1" noresist="true" hittypeprob2="50" element="WATER" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4906" name="Sleeping Dragon Kick" nameId="4580923" name_desc="Kick_A003_1_1" cooldownId="1862" stack="SKILLN_BP_CH_KICK_A003_1" lvl="4" skill_group="BP_Ch_Kick" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" dispel_category="BUFF" req_dispel_level="2" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4906" name="Sleeping Dragon Kick" nameId="4580923" name_desc="Kick_A003_1_1" cooldownId="1862" stack="SKILLN_BP_CH_KICK_A003_1" lvl="4" skill_group="BP_Ch_Kick" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" dispel_category="BUFF" req_dispel_level="2" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9367" provoke_target="OPPONENT" effectid="936612" e="1" noresist="true" hittype="NMLATK" element="WIND" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4907" name="Sleeping Dragon Kick" nameId="4580927" name_desc="Kick_B003_1_1" cooldownId="1862" stack="SKILLN_BP_CH_KICK_B003_1" lvl="3" skill_group="BP_Ch_Kick" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" dispel_category="BUFF" req_dispel_level="2" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4907" name="Sleeping Dragon Kick" nameId="4580927" name_desc="Kick_B003_1_1" cooldownId="1862" stack="SKILLN_BP_CH_KICK_B003_1" lvl="3" skill_group="BP_Ch_Kick" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" dispel_category="BUFF" req_dispel_level="2" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9367" provoke_target="OPPONENT" effectid="936612" e="1" noresist="true" hittype="NMLATK" hittypeprob2="70" element="WIND" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4908" name="Sleeping Dragon Kick" nameId="4580931" name_desc="Kick_C003_1_1" cooldownId="1862" stack="SKILLN_BP_CH_KICK_C003_1" lvl="2" skill_group="BP_Ch_Kick" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" dispel_category="BUFF" req_dispel_level="2" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4908" name="Sleeping Dragon Kick" nameId="4580931" name_desc="Kick_C003_1_1" cooldownId="1862" stack="SKILLN_BP_CH_KICK_C003_1" lvl="2" skill_group="BP_Ch_Kick" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" dispel_category="BUFF" req_dispel_level="2" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9367" provoke_target="OPPONENT" effectid="109192" e="1" noresist="true" hittype="NMLATK" hittypeprob2="50" element="WIND" hoptype="SKILLLV"/>
         </effects>
         <motion instant_skill="true"/>
     </skill_template>
-    <skill_template skill_id="4909" name="Sleeping Dragon Kick" nameId="4580935" name_desc="Kick_D001_1_1" cooldownId="1862" stack="SKILLN_BP_CH_KICK_D001_1" lvl="1" skill_group="BP_Ch_Kick" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" dispel_category="BUFF" req_dispel_level="2" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20">
+    <skill_template skill_id="4909" name="Sleeping Dragon Kick" nameId="4580935" name_desc="Kick_D001_1_1" cooldownId="1862" stack="SKILLN_BP_CH_KICK_D001_1" lvl="1" skill_group="BP_Ch_Kick" skilltype="MAGICAL" skillsubtype="BUFF" tslot="NOSHOW" dispel_category="BUFF" req_dispel_level="2" activation="TOGGLE" cooldown="0" duration="0" cancel_rate="20" is_minion_skill="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
         <effects>
             <provoker skill_id="9367" provoke_target="OPPONENT" effectid="109192" e="1" noresist="true" hittype="NMLATK" hittypeprob2="30" element="WIND" hoptype="SKILLLV"/>
