@@ -67828,7 +67828,7 @@
   <string>
     <id>844903</id>
     <name>STR_STIGMA_N_EL_ORDER_DESTRUCTIMPACT_G1_DESC</name>
-    <body>Only for a Greater Stigma slot.\nEquip this stone in a Stigma slot to use the Command: Ruinous Offensive skill.\nSee a Stigma Master to equip it. You need a second, identical stone for this.</body>
+    <body>Only for a Greater Stigma slot.\nEquip in a Stigma slot to use the Command: Ruinous Offensive skill.\nSee a Stigma Master to socket/enchant the stone, or double-click to socket it. May be enchanted with a Stigma Enchantment Stone or the same Stigma.</body>
   </string>
   <string>
     <id>844904</id>
@@ -67863,7 +67863,7 @@
   <string>
     <id>844910</id>
     <name>STR_STIGMA_N_EL_ORDER_ETHERERUPTION_G1_DESC</name>
-    <body>Equip this stone in a Stigma slot to use the Command: Burn-to-Ashes skill.\nSee a Stigma Master to equip it. You need a second, identical stone for this.</body>
+    <body>Equip in a Stigma slot to use the Command: Burn-to-Ashes skill.\nSee a Stigma Master to socket/enchant the stone, or double-click to socket it. May be enchanted with a Stigma Enchantment Stone or the same Stigma.</body>
   </string>
   <string>
     <id>844911</id>
@@ -67878,7 +67878,7 @@
   <string>
     <id>844913</id>
     <name>STR_STIGMA_N_EL_ORDER_ELEMENTALFIELD_G1_DESC</name>
-    <body>Equip this stone in a Stigma slot to use the Command: Wall of Protection skill.\nSee a Stigma Master to equip it. You need a second, identical stone for this.</body>
+    <body>Equip in a Stigma slot to use the Command: Wall of Protection skill.\nSee a Stigma Master to socket/enchant the stone, or double-click to socket it. May be enchanted with a Stigma Enchantment Stone or the same Stigma.</body>
   </string>
   <string>
     <id>844914</id>

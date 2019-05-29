@@ -90997,7 +90997,7 @@
   <string>
     <id>783939</id>
     <name>STR_TEST_2HSWORD_N_E1_55B_DESC</name>
-    <body>This is to test if the Skill Resistance Option is applied as intended.\nApplicable for Poison and Fear resistance.</body>
+    <body>This is to test if the Skill Resistance Option is applied as intended.\nApplicable for poison resistance and resist fear.</body>
   </string>
   <string>
     <id>783940</id>
@@ -91007,7 +91007,7 @@
   <string>
     <id>783941</id>
     <name>STR_TEST_2HSWORD_N_E1_55D_DESC</name>
-    <body>This is to test if the Skill Resistance Penetration Value Option is applied as intended.\nApplicable for Poison and Fear resistance.</body>
+    <body>This is to test if the Skill Resistance Penetration Value Option is applied as intended.\nApplicable for poison resistance and resist fear.</body>
   </string>
   <string>
     <id>783942</id>

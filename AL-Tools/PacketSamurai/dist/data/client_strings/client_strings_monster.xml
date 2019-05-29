@@ -14573,7 +14573,7 @@
   <string>
     <id>302914</id>
     <name>STR_Spectre_40_An</name>
-    <body>Specter</body>
+    <body>Spectre</body>
   </string>
   <string>
     <id>302915</id>
@@ -14718,7 +14718,7 @@
   <string>
     <id>302943</id>
     <name>STR_Spectre_42_An</name>
-    <body>Specter</body>
+    <body>Spectre</body>
   </string>
   <string>
     <id>302944</id>
@@ -14863,7 +14863,7 @@
   <string>
     <id>302972</id>
     <name>STR_Spectre_43_An</name>
-    <body>Specter</body>
+    <body>Spectre</body>
   </string>
   <string>
     <id>302973</id>
@@ -14888,7 +14888,7 @@
   <string>
     <id>302977</id>
     <name>STR_Spectre_44_An</name>
-    <body>Cruel Specter</body>
+    <body>Cruel Spectre</body>
   </string>
   <string>
     <id>302978</id>
@@ -14983,7 +14983,7 @@
   <string>
     <id>302996</id>
     <name>STR_Spectre_45_An</name>
-    <body>Merciless Specter</body>
+    <body>Merciless Spectre</body>
   </string>
   <string>
     <id>302997</id>
@@ -22763,7 +22763,7 @@
   <string>
     <id>304552</id>
     <name>STR_Spectre_41_An</name>
-    <body>Vicious Specter</body>
+    <body>Vicious Spectre</body>
   </string>
   <string>
     <id>304553</id>
@@ -37963,7 +37963,7 @@
   <string>
     <id>307568</id>
     <name>STR_LF1B_SpectreQ_21_Ae</name>
-    <body>Assassin Specter</body>
+    <body>Assassin Spectre</body>
   </string>
   <string>
     <id>307569</id>
@@ -40603,12 +40603,12 @@
   <string>
     <id>308107</id>
     <name>STR_SpectreD_38_An</name>
-    <body>Gloomy Specter</body>
+    <body>Gloomy Spectre</body>
   </string>
   <string>
     <id>308108</id>
     <name>STR_SpectreD_39_An</name>
-    <body>Gloomy Specter</body>
+    <body>Gloomy Spectre</body>
   </string>
   <string>
     <id>308109</id>
@@ -73843,7 +73843,7 @@
   <string>
     <id>316187</id>
     <name>STR_BLF3_NM_DMGhostEL_42_Ae</name>
-    <body>Dark Shaman Specter</body>
+    <body>Dark Shaman Spectre</body>
   </string>
   <string>
     <id>316188</id>
@@ -95288,12 +95288,12 @@
   <string>
     <id>320476</id>
     <name>STR_IDCatacombsH_Specter1_55_Ae</name>
-    <body>Roaming Specter</body>
+    <body>Roaming Spectre</body>
   </string>
   <string>
     <id>320477</id>
     <name>STR_IDCatacombsH_Specter2_55_Ae</name>
-    <body>Wandering Specter</body>
+    <body>Wandering Spectre</body>
   </string>
   <string>
     <id>320478</id>
@@ -95693,12 +95693,12 @@
   <string>
     <id>320557</id>
     <name>STR_IDCatacombsN_Specter1_55_Ae</name>
-    <body>Roaming Specter</body>
+    <body>Roaming Spectre</body>
   </string>
   <string>
     <id>320558</id>
     <name>STR_IDCatacombsN_Specter2_55_Ae</name>
-    <body>Wandering Specter</body>
+    <body>Wandering Spectre</body>
   </string>
   <string>
     <id>320559</id>
@@ -101188,12 +101188,12 @@
   <string>
     <id>321656</id>
     <name>STR_IDCatacombs_Specter1_55_Ae</name>
-    <body>Roaming Specter</body>
+    <body>Roaming Spectre</body>
   </string>
   <string>
     <id>321657</id>
     <name>STR_IDCatacombs_Specter2_55_Ae</name>
-    <body>Wandering Specter</body>
+    <body>Wandering Spectre</body>
   </string>
   <string>
     <id>321658</id>
@@ -126584,17 +126584,17 @@
   <string>
     <id>326742</id>
     <name>STR_BLDF5_SoulStone_65_An</name>
-    <body>BLDF5_Wall Stone Golem</body>
+    <body>BLDF5_Wall_Angolem</body>
   </string>
   <string>
     <id>326743</id>
     <name>STR_BLDF5_SoulStoneID_65_An</name>
-    <body>BLDF5_Dark Stone Golem</body>
+    <body>BLDF5_Dark Angolem</body>
   </string>
   <string>
     <id>326744</id>
     <name>STR_BLDF5_SoulStoneR_65_An</name>
-    <body>BLDF5_Rock Stone Golem</body>
+    <body>BLDF5_Rock_Angolem</body>
   </string>
   <string>
     <id>326745</id>
@@ -128499,17 +128499,17 @@
   <string>
     <id>327125</id>
     <name>STR_BLDF5_SoulStone_SN_65_An</name>
-    <body>BLDF5_Wall Stone Golem_Jun named</body>
+    <body>BLDF5_Wall_Angolem_Jun named</body>
   </string>
   <string>
     <id>327126</id>
     <name>STR_BLDF5_SoulStoneID_SN_65_An</name>
-    <body>BLDF5_Dark Stone Golem_Jun named</body>
+    <body>BLDF5_Dark Angolem_Jun named</body>
   </string>
   <string>
     <id>327127</id>
     <name>STR_BLDF5_SoulStoneR_SN_65_An</name>
-    <body>BLDF5_Rock Stone Golem_Jun named</body>
+    <body>BLDF5_Rock_Angolem_Jun named</body>
   </string>
   <string>
     <id>327128</id>
@@ -130344,7 +130344,7 @@
   <string>
     <id>327495</id>
     <name>STR_LDF5A_E4_Souledstone_D_64_An</name>
-    <body>Frost Stone Golem</body>
+    <body>Frost Angolem</body>
   </string>
   <string>
     <id>327496</id>
@@ -160359,7 +160359,7 @@
   <string>
     <id>333498</id>
     <name>STR_BIDSeal_StoneGolem_65_Ae</name>
-    <body>Normal_Stone Golem</body>
+    <body>Normal_Angolem</body>
   </string>
   <string>
     <id>333499</id>
@@ -203783,7 +203783,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>342652</id>
     <name>STR_ChristmasEvent_Rudolph_King_20_n</name>
-    <body>Red Nosed Granker King</body>
+    <body>Red Nose Granker King</body>
   </string>
   <string>
     <id>342653</id>
@@ -204058,7 +204058,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>342707</id>
     <name>STR_Event_WingWar_Rudolph_King_20_n</name>
-    <body>Red Nosed Granker King</body>
+    <body>Red Nose Granker King</body>
   </string>
   <string>
     <id>342708</id>
@@ -257528,12 +257528,12 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2303443</id>
     <name>STR_BLF6_F_24_Named_RuinsGolem_70_Al</name>
-    <body>BLF6_F_24People_Named_Stone Golem_70_Al</body>
+    <body>BLF6_F_24People_Named_Angolem_70_Al</body>
   </string>
   <string>
     <id>2303444</id>
     <name>STR_BLF6_E_Environment_SoulStone_66_An</name>
-    <body>BLF6_F_Area monster_Stone Golem_66_An</body>
+    <body>BLF6_F_Area monster_Angolem_66_An</body>
   </string>
   <string>
     <id>2303445</id>
@@ -273721,7 +273721,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2306692</id>
     <name>STR_LF6_22_Boss</name>
-    <body>Specter</body>
+    <body>Spectre</body>
   </string>
   <string>
     <id>2306693</id>
@@ -273886,7 +273886,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2306725</id>
     <name>STR_LF6_21_Normal</name>
-    <body>Specter</body>
+    <body>Spectre</body>
   </string>
   <string>
     <id>2306726</id>
@@ -275711,7 +275711,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2325998</id>
     <name>STR_Event_Christmas_Rudolph_King_70_n</name>
-    <body>Red Nosed Granker King</body>
+    <body>Red Nose Granker King</body>
   </string>
   <string>
     <id>2325999</id>
@@ -275721,7 +275721,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2326000</id>
     <name>STR_Event_Christmas_Rudolph_King_50_n</name>
-    <body>Red Nosed Granker King</body>
+    <body>Red Nose Granker King</body>
   </string>
   <string>
     <id>2326001</id>
@@ -296632,17 +296632,17 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2330157</id>
     <name>STR_CUBIC_STAT_BLOCK_01_Info</name>
-    <body>Gold Cube of the Stone Golem's Vow</body>
+    <body>Gold Cube of the Angolem's Vow</body>
   </string>
   <string>
     <id>2330158</id>
     <name>STR_CUBIC_STAT_BLOCK_02_Info</name>
-    <body>Silver Cube of the Stone Golem's Vow</body>
+    <body>Silver Cube of the Angolem's Vow</body>
   </string>
   <string>
     <id>2330159</id>
     <name>STR_CUBIC_STAT_BLOCK_03_Info</name>
-    <body>Bronze Cube of the Stone Golem's Vow</body>
+    <body>Bronze Cube of the Angolem's Vow</body>
   </string>
   <string>
     <id>2330160</id>

@@ -23569,7 +23569,7 @@ Summon Wind Servant – Summon Gust Servant</body>
   <string>
     <id>286030</id>
     <name>STR_SKILL_EL_Order_ElementalField_G1</name>
-    <body>Spirit Wall of Protection I</body>
+    <body>Command: Wall of Protection I</body>
   </string>
   <string>
     <id>286031</id>
@@ -26257,7 +26257,7 @@ Stigma Skill</body>
   <string>
     <id>286549</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G1_Fire</name>
-    <body>Spirit Wall of Protection I Fire</body>
+    <body>Command: Wall of Protection I Fire</body>
   </string>
   <string>
     <id>286550</id>
@@ -26267,7 +26267,7 @@ Stigma Skill</body>
   <string>
     <id>286551</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G1_Water</name>
-    <body>Spirit Wall of Protection I Water</body>
+    <body>Command: Wall of Protection I Water</body>
   </string>
   <string>
     <id>286552</id>
@@ -26277,7 +26277,7 @@ Stigma Skill</body>
   <string>
     <id>286553</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G1_Air</name>
-    <body>Spirit Wall of Protection I Wind</body>
+    <body>Command: Wall of Protection I Wind</body>
   </string>
   <string>
     <id>286554</id>
@@ -26287,7 +26287,7 @@ Stigma Skill</body>
   <string>
     <id>286555</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G1_Earth</name>
-    <body>Spirit Wall of Protection I Earth</body>
+    <body>Command: Wall of Protection I Earth</body>
   </string>
   <string>
     <id>286556</id>
@@ -28466,7 +28466,7 @@ Summon Wind Servant – Summon Gust Servant</body>
   <string>
     <id>286978</id>
     <name>STR_SKILL_EL_Order_ElementalField_G2</name>
-    <body>Spirit Wall of Protection II</body>
+    <body>Command: Wall of Protection II</body>
   </string>
   <string>
     <id>286979</id>
@@ -32418,7 +32418,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287745</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G2_Fire</name>
-    <body>Spirit Wall of Protection II Fire</body>
+    <body>Command: Wall of Protection II Fire</body>
   </string>
   <string>
     <id>287746</id>
@@ -32428,7 +32428,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287747</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G2_Water</name>
-    <body>Spirit Wall of Protection II Water</body>
+    <body>Command: Wall of Protection II Water</body>
   </string>
   <string>
     <id>287748</id>
@@ -32438,7 +32438,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287749</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G2_Air</name>
-    <body>Spirit Wall of Protection II Wind</body>
+    <body>Command: Wall of Protection II Wind</body>
   </string>
   <string>
     <id>287750</id>
@@ -32448,7 +32448,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287751</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G2_Earth</name>
-    <body>Spirit Wall of Protection II Earth</body>
+    <body>Command: Wall of Protection II Earth</body>
   </string>
   <string>
     <id>287752</id>
@@ -33103,7 +33103,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287882</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G3_Fire</name>
-    <body>Spirit Wall of Protection III Fire</body>
+    <body>Command: Wall of Protection III Fire</body>
   </string>
   <string>
     <id>287883</id>
@@ -33113,7 +33113,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287884</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G3_Water</name>
-    <body>Spirit Wall of Protection III Water</body>
+    <body>Command: Wall of Protection III Water</body>
   </string>
   <string>
     <id>287885</id>
@@ -33123,7 +33123,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287886</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G3_Air</name>
-    <body>Spirit Wall of Protection III Wind</body>
+    <body>Command: Wall of Protection III Wind</body>
   </string>
   <string>
     <id>287887</id>
@@ -33133,7 +33133,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287888</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G3_Earth</name>
-    <body>Spirit Wall of Protection III Earth</body>
+    <body>Command: Wall of Protection III Earth</body>
   </string>
   <string>
     <id>287889</id>
@@ -33143,7 +33143,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287890</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G4_Fire</name>
-    <body>Spirit Wall of Protection IV Fire</body>
+    <body>Command: Wall of Protection IV Fire</body>
   </string>
   <string>
     <id>287891</id>
@@ -33153,7 +33153,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287892</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G4_Water</name>
-    <body>Spirit Wall of Protection IV Water</body>
+    <body>Command: Wall of Protection IV Water</body>
   </string>
   <string>
     <id>287893</id>
@@ -33163,7 +33163,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287894</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G4_Air</name>
-    <body>Spirit Wall of Protection IV Wind</body>
+    <body>Command: Wall of Protection IV Wind</body>
   </string>
   <string>
     <id>287895</id>
@@ -33173,7 +33173,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287896</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G4_Earth</name>
-    <body>Spirit Wall of Protection IV Earth</body>
+    <body>Command: Wall of Protection IV Earth</body>
   </string>
   <string>
     <id>287897</id>
@@ -33183,7 +33183,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287898</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G1_Tempest</name>
-    <body>Spirit Wall of Protection I Tempest</body>
+    <body>Command: Wall of Protection I Tempest</body>
   </string>
   <string>
     <id>287899</id>
@@ -33193,7 +33193,7 @@ Chain Skill Level 1</body>
   <string>
     <id>287900</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G1_Magma</name>
-    <body>Spirit Wall of Protection I Lava</body>
+    <body>Command: Wall of Protection I Lava</body>
   </string>
   <string>
     <id>287901</id>
@@ -59135,7 +59135,7 @@ Stigma Skill</body>
   <string>
     <id>293037</id>
     <name>STR_SKILL_EL_Stigma_Order_EtherEruption_G1</name>
-    <body>Spirit Burn-to-Ashes I</body>
+    <body>Command: Burn-to-Ashes I</body>
   </string>
   <string>
     <id>293038</id>
@@ -59169,7 +59169,7 @@ Magma Spirit: Magical Earth Strike</body>
   <string>
     <id>293041</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G1_Air</name>
-    <body>Spirit Burn-to-Ashes I Wind</body>
+    <body>Command: Burn-to-Ashes I Wind</body>
   </string>
   <string>
     <id>293042</id>
@@ -59179,22 +59179,22 @@ Magma Spirit: Magical Earth Strike</body>
   <string>
     <id>293043</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G2_Air</name>
-    <body>Spirit Burn-to-Ashes II Wind</body>
+    <body>Command: Burn-to-Ashes II Wind</body>
   </string>
   <string>
     <id>293044</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G3_Air</name>
-    <body>Spirit Burn-to-Ashes III Wind</body>
+    <body>Command: Burn-to-Ashes III Wind</body>
   </string>
   <string>
     <id>293045</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G4_Air</name>
-    <body>Spirit Burn-to-Ashes IV Wind</body>
+    <body>Command: Burn-to-Ashes IV Wind</body>
   </string>
   <string>
     <id>293046</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G1_Fire</name>
-    <body>Spirit Burn-to-Ashes I Fire</body>
+    <body>Command: Burn-to-Ashes I Fire</body>
   </string>
   <string>
     <id>293047</id>
@@ -59204,22 +59204,22 @@ Magma Spirit: Magical Earth Strike</body>
   <string>
     <id>293048</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G2_Fire</name>
-    <body>Spirit Burn-to-Ashes II Fire</body>
+    <body>Command: Burn-to-Ashes II Fire</body>
   </string>
   <string>
     <id>293049</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G3_Fire</name>
-    <body>Spirit Burn-to-Ashes III Fire</body>
+    <body>Command: Burn-to-Ashes III Fire</body>
   </string>
   <string>
     <id>293050</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G4_Fire</name>
-    <body>Spirit Burn-to-Ashes IV Fire</body>
+    <body>Command: Burn-to-Ashes IV Fire</body>
   </string>
   <string>
     <id>293051</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G1_Earth</name>
-    <body>Spirit Burn-to-Ashes I Earth</body>
+    <body>Command: Burn-to-Ashes I Earth</body>
   </string>
   <string>
     <id>293052</id>
@@ -59229,22 +59229,22 @@ Magma Spirit: Magical Earth Strike</body>
   <string>
     <id>293053</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G2_Earth</name>
-    <body>Spirit Burn-to-Ashes II Earth</body>
+    <body>Command: Burn-to-Ashes II Earth</body>
   </string>
   <string>
     <id>293054</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G3_Earth</name>
-    <body>Spirit Burn-to-Ashes III Earth</body>
+    <body>Command: Burn-to-Ashes III Earth</body>
   </string>
   <string>
     <id>293055</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G4_Earth</name>
-    <body>Spirit Burn-to-Ashes IV Earth</body>
+    <body>Command: Burn-to-Ashes IV Earth</body>
   </string>
   <string>
     <id>293056</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G1_Water</name>
-    <body>Spirit Burn-to-Ashes I Water</body>
+    <body>Command: Burn-to-Ashes I Water</body>
   </string>
   <string>
     <id>293057</id>
@@ -59254,17 +59254,17 @@ Magma Spirit: Magical Earth Strike</body>
   <string>
     <id>293058</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G2_Water</name>
-    <body>Spirit Burn-to-Ashes II Water</body>
+    <body>Command: Burn-to-Ashes II Water</body>
   </string>
   <string>
     <id>293059</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G3_Water</name>
-    <body>Spirit Burn-to-Ashes III Water</body>
+    <body>Command: Burn-to-Ashes III Water</body>
   </string>
   <string>
     <id>293060</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G1_Magma</name>
-    <body>Spirit Burn-to-Ashes I Lava</body>
+    <body>Command: Burn-to-Ashes I Lava</body>
   </string>
   <string>
     <id>293061</id>
@@ -59274,7 +59274,7 @@ Magma Spirit: Magical Earth Strike</body>
   <string>
     <id>293062</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G1_Tempest</name>
-    <body>Spirit Burn-to-Ashes I Tempest</body>
+    <body>Command: Burn-to-Ashes I Tempest</body>
   </string>
   <string>
     <id>293063</id>
@@ -62272,7 +62272,7 @@ Stigma Skill</body>
   <string>
     <id>293645</id>
     <name>STR_SKILL_EL_Stigma_Order_DestructImpact_G1</name>
-    <body>Spirit Ruinous Offensive I</body>
+    <body>Command: Ruinous Offensive I</body>
   </string>
   <string>
     <id>293646</id>
@@ -62371,7 +62371,7 @@ Stigma Skill</body>
   <string>
     <id>293664</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G1_Air</name>
-    <body>Spirit Ruinous Offensive I Wind</body>
+    <body>Command: Ruinous Offensive I Wind</body>
   </string>
   <string>
     <id>293665</id>
@@ -62386,22 +62386,22 @@ Stigma Skill</body>
   <string>
     <id>293667</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G2_Air</name>
-    <body>Spirit Ruinous Offensive II Wind</body>
+    <body>Command: Ruinous Offensive II Wind</body>
   </string>
   <string>
     <id>293668</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G3_Air</name>
-    <body>Spirit Ruinous Offensive III Wind</body>
+    <body>Command: Ruinous Offensive III Wind</body>
   </string>
   <string>
     <id>293669</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G4_Air</name>
-    <body>Spirit Ruinous Offensive IV Wind</body>
+    <body>Command: Ruinous Offensive IV Wind</body>
   </string>
   <string>
     <id>293670</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G1_Fire</name>
-    <body>Spirit Ruinous Offensive I Fire</body>
+    <body>Command: Ruinous Offensive I Fire</body>
   </string>
   <string>
     <id>293671</id>
@@ -62411,22 +62411,22 @@ Stigma Skill</body>
   <string>
     <id>293672</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G2_Fire</name>
-    <body>Spirit Ruinous Offensive II Fire</body>
+    <body>Command: Ruinous Offensive II Fire</body>
   </string>
   <string>
     <id>293673</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G3_Fire</name>
-    <body>Spirit Ruinous Offensive III Fire</body>
+    <body>Command: Ruinous Offensive III Fire</body>
   </string>
   <string>
     <id>293674</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G4_Fire</name>
-    <body>Spirit Ruinous Offensive IV Fire</body>
+    <body>Command: Ruinous Offensive IV Fire</body>
   </string>
   <string>
     <id>293675</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G1_Earth</name>
-    <body>Spirit Ruinous Offensive I Earth</body>
+    <body>Command: Ruinous Offensive I Earth</body>
   </string>
   <string>
     <id>293676</id>
@@ -62441,22 +62441,22 @@ Stigma Skill</body>
   <string>
     <id>293678</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G2_Earth</name>
-    <body>Spirit Ruinous Offensive II Earth</body>
+    <body>Command: Ruinous Offensive II Earth</body>
   </string>
   <string>
     <id>293679</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G3_Earth</name>
-    <body>Spirit Ruinous Offensive III Earth</body>
+    <body>Command: Ruinous Offensive III Earth</body>
   </string>
   <string>
     <id>293680</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G4_Earth</name>
-    <body>Spirit Ruinous Offensive IV Earth</body>
+    <body>Command: Ruinous Offensive IV Earth</body>
   </string>
   <string>
     <id>293681</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G1_Water</name>
-    <body>Spirit Ruinous Offensive I Water</body>
+    <body>Command: Ruinous Offensive I Water</body>
   </string>
   <string>
     <id>293682</id>
@@ -62466,17 +62466,17 @@ Stigma Skill</body>
   <string>
     <id>293683</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G2_Water</name>
-    <body>Spirit Ruinous Offensive II Water</body>
+    <body>Command: Ruinous Offensive II Water</body>
   </string>
   <string>
     <id>293684</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G3_Water</name>
-    <body>Spirit Ruinous Offensive III Water</body>
+    <body>Command: Ruinous Offensive III Water</body>
   </string>
   <string>
     <id>293685</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G1_Tempest</name>
-    <body>Spirit Ruinous Offensive IV Tempest</body>
+    <body>Command: Ruinous Offensive IV Tempest</body>
   </string>
   <string>
     <id>293686</id>
@@ -62491,7 +62491,7 @@ Stigma Skill</body>
   <string>
     <id>293688</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G1_Magma</name>
-    <body>Spirit Ruinous Offensive IV Lava</body>
+    <body>Command: Ruinous Offensive IV Lava</body>
   </string>
   <string>
     <id>293689</id>
@@ -72444,7 +72444,7 @@ Stigma Skill</body>
   <string>
     <id>295659</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G4_Water</name>
-    <body>Spirit Immolation IV Water</body>
+    <body>Command: Immolation IV Water</body>
   </string>
   <string>
     <id>295660</id>
@@ -72464,7 +72464,7 @@ Stigma Skill</body>
   <string>
     <id>295663</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G4_Water</name>
-    <body>Spirit Ruinous Offensive IV Water</body>
+    <body>Command: Ruinous Offensive IV Water</body>
   </string>
   <string>
     <id>295664</id>
@@ -75443,7 +75443,7 @@ Stigma Skill</body>
   <string>
     <id>296318</id>
     <name>STR_PreChain_EL_DestructImpact</name>
-    <body>Spirit Ruinous Offensive</body>
+    <body>Command: Ruinous Offensive</body>
   </string>
   <string>
     <id>296319</id>
@@ -91356,22 +91356,22 @@ Stigma Skill</body>
   <string>
     <id>299505</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G5_Fire</name>
-    <body>Spirit Wall of Protection V Fire</body>
+    <body>Command: Wall of Protection V Fire</body>
   </string>
   <string>
     <id>299506</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G5_Air</name>
-    <body>Spirit Wall of Protection V Wind</body>
+    <body>Command: Wall of Protection V Wind</body>
   </string>
   <string>
     <id>299507</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G2_Tempest</name>
-    <body>Spirit Wall of Protection II Tempest</body>
+    <body>Command: Wall of Protection II Tempest</body>
   </string>
   <string>
     <id>299508</id>
     <name>STR_NPC_SKILL_Order_ElementalField_G2_Magma</name>
-    <body>Spirit Wall of Protection II Lava</body>
+    <body>Command: Wall of Protection II Lava</body>
   </string>
   <string>
     <id>299509</id>
@@ -91556,22 +91556,22 @@ Stigma Skill</body>
   <string>
     <id>299545</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G5_Fire</name>
-    <body>Spirit Burn-to-Ashes V Fire</body>
+    <body>Command: Burn-to-Ashes V Fire</body>
   </string>
   <string>
     <id>299546</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G5_Air</name>
-    <body>Spirit Burn-to-Ashes V Wind</body>
+    <body>Command: Burn-to-Ashes V Wind</body>
   </string>
   <string>
     <id>299547</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G2_Magma</name>
-    <body>Spirit Burn-to-Ashes V Lava</body>
+    <body>Command: Burn-to-Ashes V Lava</body>
   </string>
   <string>
     <id>299548</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G2_Tempest</name>
-    <body>Spirit Burn-to-Ashes V Tempest</body>
+    <body>Command: Burn-to-Ashes V Tempest</body>
   </string>
   <string>
     <id>299549</id>
@@ -91626,23 +91626,23 @@ Stigma Skill</body>
   <string>
     <id>299559</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G5_Fire</name>
-    <body>Spirit Ruinous Offensive V Fire</body>
+    <body>Command: Ruinous Offensive V Fire</body>
   </string>
   <string>
     <id>299560</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G5_Air</name>
-    <body>Spirit Ruinous Offensive V Wind</body>
+    <body>Command: Ruinous Offensive V Wind</body>
   </string>
   <string>
     <id>299561</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G2_Magma</name>
-    <body>Order: Ruinous Offensive II Lava</body>
+    <body>Command: Ruinous Offensive II Lava</body>
     <message_type>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G2_Tempest</message_type>
   </string>
   <string>
     <id>299562</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G2_Tempest</name>
-    <body>Order: Ruinous Offensive II Storm</body>
+    <body>Command: Ruinous Offensive II Storm</body>
   </string>
   <string>
     <id>299563</id>
@@ -101540,7 +101540,7 @@ Repeats 3 times</body>
   <string>
     <id>2281541</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G5_Earth</name>
-    <body>Command: Burn to Ashes V Earth</body>
+    <body>Command: Burn-to-Ashes V Earth</body>
   </string>
   <string>
     <id>2281542</id>
@@ -101560,7 +101560,7 @@ Repeats 3 times</body>
   <string>
     <id>2281545</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G5_Earth</name>
-    <body>Command: Ruinous Attack V Earth</body>
+    <body>Command: Ruinous Offensive V Earth</body>
   </string>
   <string>
     <id>2281546</id>
@@ -101680,7 +101680,7 @@ Repeats 3 times</body>
   <string>
     <id>2281569</id>
     <name>STR_NPC_SKILL_EL_Order_EtherEruption_G5_Water</name>
-    <body>Command: Burn to Ashes V Water</body>
+    <body>Command: Burn-to-Ashes V Water</body>
   </string>
   <string>
     <id>2281570</id>
@@ -101700,7 +101700,7 @@ Repeats 3 times</body>
   <string>
     <id>2281573</id>
     <name>STR_NPC_SKILL_EL_Stigma_Order_DestructImpact_G5_Water</name>
-    <body>Command: Ruinous Attack V Water</body>
+    <body>Command: Ruinous Offensive V Water</body>
   </string>
   <string>
     <id>2281574</id>
@@ -127720,7 +127720,9 @@ Active Skill</body>
   <string>
     <id>2286761</id>
     <name>STR_SKILLN_RI_MagneticField_DESC</name>
-    <body>[%e1.StatUp.StatName] is increased by [%e1.StatUp.Value] and your resistance to stun, binding and fear is increased by [%e2.StatUp.Value] by [%e1.StatUp.RemainTime]. If you are attacked by a player, you also take less damage.</body>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases Stun, Bind and Resist Fear by [%e2.StatUp.Value].
+Increases PvP defence.</body>
   </string>
   <string>
     <id>2286762</id>
@@ -142093,7 +142095,7 @@ Perfect Gust Requiem</body>
   <string>
     <id>2289702</id>
     <name>STR_SKILLN_EV_ProvokeWave</name>
-    <body>Wrath Wave</body>
+    <body>Rage Brand</body>
   </string>
   <string>
     <id>2289703</id>
@@ -158465,5 +158467,23 @@ This mode is not removed by attacks.</body>
     <id>2293566</id>
     <name>STR_IDF7_Ere_Dreagon_Pulled_Dmg_Desc_Abnormal</name>
     <body>Movement speed has temporarily slowed. Can be removed</body>
+  </string>
+  <string>
+    <id>2294257</id>
+    <name>STR_cash_item_start_kit_24hour</name>
+    <body>Yasba's Grace</body>
+  </string>
+  <string>
+    <id>2294258</id>
+    <name>STR_cash_item_start_kit_24hour_DESC</name>
+    <body>No Soul Sickness if you are killed, and you keep all your XP. Teleport and flight only cost 1 Kinah.</body>
+  </string>
+  <string>
+    <id>2294268</id>
+    <name>STR_WORLD_EVENTSKILL_RETURN_STATUP</name>
+  </string>
+  <string>
+    <id>2294269</id>
+    <name>STR_WORLD_EVENTSKILL_RETURN_STATUP_Abnormal</name>
   </string>
 </strings>

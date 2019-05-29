@@ -93594,52 +93594,52 @@
   <string>
     <id>718728</id>
     <name>STR_JUNK_SPECTRE_05</name>
-    <body>Tattered Specter Rags</body>
+    <body>Tattered Spectre Rags</body>
   </string>
   <string>
     <id>718729</id>
     <name>STR_JUNK_SPECTRE_10</name>
-    <body>Shabby Specter Rags</body>
+    <body>Shabby Spectre Rags</body>
   </string>
   <string>
     <id>718730</id>
     <name>STR_JUNK_SPECTRE_15</name>
-    <body>Torn Specter Rags</body>
+    <body>Torn Spectre Rags</body>
   </string>
   <string>
     <id>718731</id>
     <name>STR_JUNK_SPECTRE_20</name>
-    <body>Worn Specter Rags</body>
+    <body>Worn Spectre Rags</body>
   </string>
   <string>
     <id>718732</id>
     <name>STR_JUNK_SPECTRE_25</name>
-    <body>Old Specter Rags</body>
+    <body>Old Spectre Rags</body>
   </string>
   <string>
     <id>718733</id>
     <name>STR_JUNK_SPECTRE_30</name>
-    <body>Dirty Specter Rags</body>
+    <body>Dirty Spectre Rags</body>
   </string>
   <string>
     <id>718734</id>
     <name>STR_JUNK_SPECTRE_35</name>
-    <body>Mended Specter Rags</body>
+    <body>Mended Spectre Rags</body>
   </string>
   <string>
     <id>718735</id>
     <name>STR_JUNK_SPECTRE_40</name>
-    <body>Unkempt Specter Rags</body>
+    <body>Unkempt Spectre Rags</body>
   </string>
   <string>
     <id>718736</id>
     <name>STR_JUNK_SPECTRE_45</name>
-    <body>Specter Rags</body>
+    <body>Spectre Rags</body>
   </string>
   <string>
     <id>718737</id>
     <name>STR_JUNK_SPECTRE_50</name>
-    <body>Blessed Specter Rags</body>
+    <body>Blessed Spectre Rags</body>
   </string>
   <string>
     <id>718738</id>
@@ -140539,7 +140539,7 @@
   <string>
     <id>728117</id>
     <name>STR_STIGMA_EL_EL_ORDER_ELEMENTALFIELD_G1</name>
-    <body>[Kinah] Spirit Wall of Protection I (damaged)</body>
+    <body>[Kinah] Command: Wall of Protection I (damaged)</body>
   </string>
   <string>
     <id>728118</id>
@@ -143169,7 +143169,7 @@
   <string>
     <id>728643</id>
     <name>STR_DROPMATERIAL_N_R_40E</name>
-    <body>Bone with Specter Magic</body>
+    <body>Bone with Spectre Magic</body>
   </string>
   <string>
     <id>728644</id>
@@ -143344,7 +143344,7 @@
   <string>
     <id>728678</id>
     <name>STR_DROPMATERIAL_N_R_40E_DESC</name>
-    <body>A bone infused with the magical power of Specters. A material for weapons and armour.</body>
+    <body>A bone infused with the magical power of Spectres. A material for weapons and armour.</body>
   </string>
   <string>
     <id>728679</id>
@@ -144779,7 +144779,7 @@
   <string>
     <id>728965</id>
     <name>STR_BOOK_D_N_R1_S_37A</name>
-    <body>Specter's Book</body>
+    <body>Spectre's Book</body>
   </string>
   <string>
     <id>728966</id>
@@ -144794,7 +144794,7 @@
   <string>
     <id>728968</id>
     <name>STR_BOOK_D_N_R2_S_37A</name>
-    <body>Noble Specter's Book</body>
+    <body>Noble Spectre's Book</body>
   </string>
   <string>
     <id>728969</id>
@@ -146004,12 +146004,12 @@
   <string>
     <id>729210</id>
     <name>STR_RB_PANTS_D_N_R1_S_37A</name>
-    <body>Specter's Cloth Breeches</body>
+    <body>Spectre's Cloth Breeches</body>
   </string>
   <string>
     <id>729211</id>
     <name>STR_RB_PANTS_D_N_R2_S_37A</name>
-    <body>Noble Specter's Cloth Breeches</body>
+    <body>Noble Spectre's Cloth Breeches</body>
   </string>
   <string>
     <id>729212</id>
@@ -146184,12 +146184,12 @@
   <string>
     <id>729246</id>
     <name>STR_RB_SHOES_D_N_R1_S_37A</name>
-    <body>Specter's Cloth Shoes</body>
+    <body>Spectre's Cloth Shoes</body>
   </string>
   <string>
     <id>729247</id>
     <name>STR_RB_SHOES_D_N_R2_S_37A</name>
-    <body>Noble Specter's Cloth Shoes</body>
+    <body>Noble Spectre's Cloth Shoes</body>
   </string>
   <string>
     <id>729248</id>
@@ -177834,12 +177834,12 @@
   <string>
     <id>735594</id>
     <name>STR_D_TA_RB_SHOES_D_N_R1_S_37A</name>
-    <body>Specter's Cloth Shoes</body>
+    <body>Spectre's Cloth Shoes</body>
   </string>
   <string>
     <id>735595</id>
     <name>STR_D_TA_RB_PANTS_D_N_R1_S_37A</name>
-    <body>Specter's Cloth Breeches</body>
+    <body>Spectre's Cloth Breeches</body>
   </string>
   <string>
     <id>735596</id>
@@ -179944,7 +179944,7 @@
   <string>
     <id>736016</id>
     <name>STR_D_AL_BOOK_D_N_R1_S_37A</name>
-    <body>Specter's Book</body>
+    <body>Spectre's Book</body>
   </string>
   <string>
     <id>736017</id>
@@ -185254,12 +185254,12 @@
   <string>
     <id>737078</id>
     <name>STR_REC_D_TA_RB_SHOES_D_N_R1_S_37A</name>
-    <body>Design: Specter's Cloth Shoes</body>
+    <body>Design: Spectre's Cloth Shoes</body>
   </string>
   <string>
     <id>737079</id>
     <name>STR_REC_D_TA_RB_PANTS_D_N_R1_S_37A</name>
-    <body>Design: Specter's Cloth Breeches</body>
+    <body>Design: Spectre's Cloth Breeches</body>
   </string>
   <string>
     <id>737080</id>
@@ -187364,7 +187364,7 @@
   <string>
     <id>737500</id>
     <name>STR_REC_D_AL_BOOK_D_N_R1_S_37A</name>
-    <body>Design: Specter's Book</body>
+    <body>Design: Spectre's Book</body>
   </string>
   <string>
     <id>737501</id>
@@ -192674,12 +192674,12 @@
   <string>
     <id>738562</id>
     <name>STR_REC_D_TA_RB_SHOES_D_N_R1_S_37A_DESC</name>
-    <body>Teaches how to tailor Specter's Cloth Shoes.</body>
+    <body>Teaches how to tailor Spectre's Cloth Shoes.</body>
   </string>
   <string>
     <id>738563</id>
     <name>STR_REC_D_TA_RB_PANTS_D_N_R1_S_37A_DESC</name>
-    <body>Teaches how to tailor Specter's Cloth Breeches.</body>
+    <body>Teaches how to tailor Spectre's Cloth Breeches.</body>
   </string>
   <string>
     <id>738564</id>
@@ -194784,7 +194784,7 @@
   <string>
     <id>738984</id>
     <name>STR_REC_D_AL_BOOK_D_N_R1_S_37A_DESC</name>
-    <body>Teaches how to craft Specter's Books.</body>
+    <body>Teaches how to craft Spectre's Books.</body>
   </string>
   <string>
     <id>738985</id>
@@ -214809,7 +214809,7 @@
   <string>
     <id>743063</id>
     <name>STR_STIGMA_EL_EL_STIGMA_ORDER_ETHERERUPTION_G1</name>
-    <body>[Kinah] Spirit Burn-to-Ashes I (damaged)</body>
+    <body>[Kinah] Command: Burn-to-Ashes I (damaged)</body>
   </string>
   <string>
     <id>743064</id>
@@ -223344,27 +223344,27 @@
   <string>
     <id>744770</id>
     <name>STR_RING_TEST_FEAR_10</name>
-    <body>Ring_Test_Fear Resistance_10</body>
+    <body>Ring_Test_Resist_Fear_10</body>
   </string>
   <string>
     <id>744771</id>
     <name>STR_RING_TEST_FEAR_20</name>
-    <body>Ring_Test_Fear Resistance_20</body>
+    <body>Ring_Test_Resist_Fear_20</body>
   </string>
   <string>
     <id>744772</id>
     <name>STR_RING_TEST_FEAR_30</name>
-    <body>Ring_Test_Fear Resistance_30</body>
+    <body>Ring_Test_Resist_Fear_30</body>
   </string>
   <string>
     <id>744773</id>
     <name>STR_RING_TEST_FEAR_40</name>
-    <body>Ring_Test_Fear Resistance_40</body>
+    <body>Ring_Test_Resist_Fear_40</body>
   </string>
   <string>
     <id>744774</id>
     <name>STR_RING_TEST_FEAR_50</name>
-    <body>Ring_Test_Fear Resistance_50</body>
+    <body>Ring_Test_Resist_Fear_50</body>
   </string>
   <string>
     <id>744775</id>
@@ -260564,12 +260564,12 @@
   <string>
     <id>752210</id>
     <name>STR_JUNK_SPECTRE_55</name>
-    <body>Contaminated Specter Rags</body>
+    <body>Contaminated Spectre Rags</body>
   </string>
   <string>
     <id>752211</id>
     <name>STR_JUNK_SPECTRE_60</name>
-    <body>Cursed Specter Rags</body>
+    <body>Cursed Spectre Rags</body>
   </string>
   <string>
     <id>752212</id>
