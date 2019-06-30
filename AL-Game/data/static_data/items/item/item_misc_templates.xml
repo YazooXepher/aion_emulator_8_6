@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2019-06-18 12:20 -->
+<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2019-06-30 09:47 -->
 <item_templates>
     <item_template id="141000001" name="Stigma Shard" desc="1403357" name_desc="stigma_shard" level="1" mask="12364" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="152010310" name="Thin Rawhide" desc="1407915" name_desc="rawhide_n_c_01a" level="10" mask="12364" category="RAWHIDE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
@@ -175,7 +175,7 @@
     <item_template id="152012021" name="Boiling Turquoise Blood" desc="1457281" name_desc="dropmaterial_n_r_40b" level="42" mask="12364" category="DROP_MATERIAL" max_stack_count="1000" item_type="NORMAL" quality="RARE" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="152012022" name="Hazy Fluid" desc="1457283" name_desc="dropmaterial_n_r_40c" level="44" mask="12364" category="DROP_MATERIAL" max_stack_count="1000" item_type="NORMAL" quality="RARE" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="152012023" name="Unfest Soul" desc="1457285" name_desc="dropmaterial_n_r_40d" level="44" mask="12364" category="DROP_MATERIAL" max_stack_count="1000" item_type="NORMAL" quality="RARE" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="152012024" name="Bone with Specter Magic" desc="1457287" name_desc="dropmaterial_n_r_40e" level="45" mask="12364" category="DROP_MATERIAL" max_stack_count="1000" item_type="NORMAL" quality="RARE" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="152012024" name="Bone with Spectre Magic" desc="1457287" name_desc="dropmaterial_n_r_40e" level="45" mask="12364" category="DROP_MATERIAL" max_stack_count="1000" item_type="NORMAL" quality="RARE" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="152012025" name="Kratia's Scale" desc="1457289" name_desc="dropmaterial_n_l_30a" level="33" mask="12364" category="DROP_MATERIAL" max_stack_count="1000" item_type="NORMAL" quality="LEGEND" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="152012026" name="Millennium Carapace" desc="1457291" name_desc="dropmaterial_n_l_30b" level="39" mask="12364" category="DROP_MATERIAL" max_stack_count="1000" item_type="NORMAL" quality="LEGEND" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="152012027" name="Flaming Elemental Water" desc="1457293" name_desc="dropmaterial_n_l_30c" level="39" mask="12364" category="DROP_MATERIAL" max_stack_count="1000" item_type="NORMAL" quality="LEGEND" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
@@ -32728,13 +32728,13 @@
         </actions>
         <uselimits usedelayid="52"/>
     </item_template>
-    <item_template id="152205880" name="Design: Specter's Cloth Shoes" desc="1474157" name_desc="rec_d_ta_rb_shoes_d_n_r1_s_37a" level="37" mask="12364" category="RECIPE" max_stack_count="20" item_type="NORMAL" quality="RARE" price="0" race="ASMODIANS" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="152205880" name="Design: Spectre's Cloth Shoes" desc="1474157" name_desc="rec_d_ta_rb_shoes_d_n_r1_s_37a" level="37" mask="12364" category="RECIPE" max_stack_count="20" item_type="NORMAL" quality="RARE" price="0" race="ASMODIANS" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <craftlearn recipeid="155005880"/>
         </actions>
         <uselimits usedelayid="52"/>
     </item_template>
-    <item_template id="152205881" name="Design: Specter's Cloth Breeches" desc="1474159" name_desc="rec_d_ta_rb_pants_d_n_r1_s_37a" level="37" mask="12364" category="RECIPE" max_stack_count="20" item_type="NORMAL" quality="RARE" price="0" race="ASMODIANS" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="152205881" name="Design: Spectre's Cloth Breeches" desc="1474159" name_desc="rec_d_ta_rb_pants_d_n_r1_s_37a" level="37" mask="12364" category="RECIPE" max_stack_count="20" item_type="NORMAL" quality="RARE" price="0" race="ASMODIANS" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <craftlearn recipeid="155005881"/>
         </actions>
@@ -35356,7 +35356,7 @@
         </actions>
         <uselimits usedelayid="52"/>
     </item_template>
-    <item_template id="152206307" name="Design: Specter's Book" desc="1475001" name_desc="rec_d_al_book_d_n_r1_s_37a" level="37" mask="12364" category="RECIPE" max_stack_count="20" item_type="NORMAL" quality="RARE" price="0" race="ASMODIANS" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="152206307" name="Design: Spectre's Book" desc="1475001" name_desc="rec_d_al_book_d_n_r1_s_37a" level="37" mask="12364" category="RECIPE" max_stack_count="20" item_type="NORMAL" quality="RARE" price="0" race="ASMODIANS" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <craftlearn recipeid="155006307"/>
         </actions>
@@ -107380,6 +107380,12 @@
         </actions>
         <uselimits usedelay="10000" usedelayid="1" ownership_world="302540000"/>
     </item_template>
+    <item_template id="164012058" name="Yasba's Grace (24 hours) - Valid 1 time" desc="4008727" name_desc="cash_scroll_start_kit_24hour" level="1" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <skilluse level="1" skillid="13377"/>
+        </actions>
+        <uselimits usedelay="86400000" usedelayid="39"/>
+    </item_template>
     <item_template id="164020000" name="Test_Multi-return Scroll_01" desc="1664401" name_desc="test_scroll_multi_return_1" level="1" mask="12414" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <multi_return_item id="1"/>
@@ -117567,16 +117573,16 @@
     <item_template id="182004800" name="Glossy Sparkie Carapace" desc="1437451" name_desc="junk_spaky_40" level="40" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="182004801" name="Hazy Sparkie Carapace" desc="1437453" name_desc="junk_spaky_45" level="45" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="182004802" name="Noble Sparkie Carapace" desc="1437455" name_desc="junk_spaky_50" level="50" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182004803" name="Tattered Specter Rags" desc="1437457" name_desc="junk_spectre_05" level="5" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182004804" name="Shabby Specter Rags" desc="1437459" name_desc="junk_spectre_10" level="10" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182004805" name="Torn Specter Rags" desc="1437461" name_desc="junk_spectre_15" level="15" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182004806" name="Worn Specter Rags" desc="1437463" name_desc="junk_spectre_20" level="20" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182004807" name="Old Specter Rags" desc="1437465" name_desc="junk_spectre_25" level="25" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182004808" name="Dirty Specter Rags" desc="1437467" name_desc="junk_spectre_30" level="30" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182004809" name="Mended Specter Rags" desc="1437469" name_desc="junk_spectre_35" level="35" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182004810" name="Unkempt Specter Rags" desc="1437471" name_desc="junk_spectre_40" level="40" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182004811" name="Specter Rags" desc="1437473" name_desc="junk_spectre_45" level="45" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182004812" name="Blessed Specter Rags" desc="1437475" name_desc="junk_spectre_50" level="50" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182004803" name="Tattered Spectre Rags" desc="1437457" name_desc="junk_spectre_05" level="5" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182004804" name="Shabby Spectre Rags" desc="1437459" name_desc="junk_spectre_10" level="10" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182004805" name="Torn Spectre Rags" desc="1437461" name_desc="junk_spectre_15" level="15" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182004806" name="Worn Spectre Rags" desc="1437463" name_desc="junk_spectre_20" level="20" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182004807" name="Old Spectre Rags" desc="1437465" name_desc="junk_spectre_25" level="25" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182004808" name="Dirty Spectre Rags" desc="1437467" name_desc="junk_spectre_30" level="30" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182004809" name="Mended Spectre Rags" desc="1437469" name_desc="junk_spectre_35" level="35" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182004810" name="Unkempt Spectre Rags" desc="1437471" name_desc="junk_spectre_40" level="40" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182004811" name="Spectre Rags" desc="1437473" name_desc="junk_spectre_45" level="45" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182004812" name="Blessed Spectre Rags" desc="1437475" name_desc="junk_spectre_50" level="50" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="182004813" name="Tattered Sprigg Leather" desc="1437477" name_desc="junk_sprigg1_05" level="5" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="182004814" name="Rough Sprigg Leather" desc="1437479" name_desc="junk_sprigg1_10" level="10" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="182004815" name="Holey Sprigg Leather" desc="1437481" name_desc="junk_sprigg1_15" level="15" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
@@ -118527,8 +118533,8 @@
     <item_template id="182005750" name="Sparkle Leg of Another World" desc="1504415" name_desc="junk_spakle_60" level="60" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="182005751" name="Beautiful Sparkie Carapace" desc="1504417" name_desc="junk_spaky_55" level="55" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="182005752" name="Mutated Sparkie Carapace" desc="1504419" name_desc="junk_spaky_60" level="60" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182005753" name="Contaminated Specter Rags" desc="1504421" name_desc="junk_spectre_55" level="55" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="182005754" name="Cursed Specter Rags" desc="1504423" name_desc="junk_spectre_60" level="60" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182005753" name="Contaminated Spectre Rags" desc="1504421" name_desc="junk_spectre_55" level="55" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="182005754" name="Cursed Spectre Rags" desc="1504423" name_desc="junk_spectre_60" level="60" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="182005755" name="Fine Sprigg Leather" desc="1504425" name_desc="junk_sprigg1_55" level="55" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="182005756" name="Beautiful Sprigg Leather" desc="1504427" name_desc="junk_sprigg1_60" level="60" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="182005757" name="Contaminated Spriggan Pelt" desc="1504429" name_desc="junk_sprigg2_55" level="55" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="JUNK" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
@@ -173803,7 +173809,7 @@
         </actions>
         <uselimits usedelay="3000" usedelayid="81"/>
     </item_template>
-    <item_template id="188058949" name="+10 Armour Chest of Eternal Glory" desc="1783679" name_desc="world_wrap_forever_glory_item_box_15" level="65" mask="12414" category="NONE" max_stack_count="100" item_type="NORMAL" quality="MYTHIC" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188058949" name="+15 Armour Chest of Eternal Glory" desc="1783679" name_desc="world_wrap_forever_glory_item_box_15" level="65" mask="12414" category="NONE" max_stack_count="100" item_type="NORMAL" quality="MYTHIC" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose select="true"/>
         </actions>
@@ -180974,7 +180980,7 @@
         </actions>
         <acquisition type="REWARD" count="3" item="186020029"/>
     </item_template>
-    <item_template id="188071326" name="?" desc="1790771" name_desc="world_wrap_cash_GF_happybox_30Day" level="65" mask="4160" category="NONE" max_stack_count="1" item_type="NORMAL" quality="RARE" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="43201">
+    <item_template id="188071326" name="Shugocopia (30 days)" desc="1790771" name_desc="world_wrap_cash_GF_happybox_30Day" level="65" mask="4160" category="NONE" max_stack_count="1" item_type="NORMAL" quality="RARE" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="43201">
         <actions>
             <decompose/>
         </actions>
@@ -181939,49 +181945,49 @@
         </actions>
         <acquisition type="REWARD" count="1400" item="186020017"/>
     </item_template>
-    <item_template id="188072105" name="?" desc="4007667" name_desc="world_wrap_KinahBox_1mil" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072105" name="Kinah Box (1 million)" desc="4007667" name_desc="world_wrap_KinahBox_1mil" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
     </item_template>
-    <item_template id="188072106" name="?" desc="4007669" name_desc="world_wrap_KinahBox_2mil" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072106" name="Kinah Box (2 million)" desc="4007669" name_desc="world_wrap_KinahBox_2mil" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
     </item_template>
-    <item_template id="188072107" name="?" desc="4007671" name_desc="world_wrap_KinahBox_250thou" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072107" name="Kinah Box (2.5 million)" desc="4007671" name_desc="world_wrap_KinahBox_250thou" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
     </item_template>
-    <item_template id="188072108" name="?" desc="4007673" name_desc="world_wrap_KinahBox_5mil" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072108" name="Kinah Box (5 million)" desc="4007673" name_desc="world_wrap_KinahBox_5mil" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
     </item_template>
-    <item_template id="188072109" name="?" desc="4007675" name_desc="world_wrap_KinahBox_10mil" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072109" name="Kinah Box (10 million)" desc="4007675" name_desc="world_wrap_KinahBox_10mil" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
     </item_template>
-    <item_template id="188072110" name="?" desc="4007677" name_desc="world_wrap_KinahBox_50mil" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072110" name="Kinah Box (50 million)" desc="4007677" name_desc="world_wrap_KinahBox_50mil" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
     </item_template>
-    <item_template id="188072111" name="?" desc="4007679" name_desc="world_wrap_SpringEvent_TreasureBox_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072111" name="Spring Treasure Chest" desc="4007679" name_desc="world_wrap_SpringEvent_TreasureBox_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="1750" item="186020049"/>
     </item_template>
-    <item_template id="188072112" name="?" desc="4007679" name_desc="world_wrap_SpringEvent_TreasureBox_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072112" name="Spring Treasure Chest" desc="4007679" name_desc="world_wrap_SpringEvent_TreasureBox_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="15" item="186020050"/>
     </item_template>
-    <item_template id="188072113" name="?" desc="4007681" name_desc="world_wrap_SpringEvent_KinahBox" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072113" name="Spring Kinah Box" desc="4007681" name_desc="world_wrap_SpringEvent_KinahBox" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
@@ -181993,113 +181999,300 @@
         </actions>
         <acquisition type="REWARD" count="50" item="186020049"/>
     </item_template>
-    <item_template id="188072115" name="?" desc="4007683" name_desc="world_wrap_SpringEvent_matter_option_r" level="1" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072115" name="[Rune] Selection Box of Legendary Manastones" desc="4007683" name_desc="world_wrap_SpringEvent_matter_option_r" level="1" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose select="true"/>
         </actions>
         <acquisition type="REWARD" count="2" item="186020050"/>
     </item_template>
-    <item_template id="188072116" name="?" desc="4007685" name_desc="world_wrap_SpringEvent_matter_option_f" level="1" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072116" name="[Rune] Selection Box of Ultimate Manastones" desc="4007685" name_desc="world_wrap_SpringEvent_matter_option_f" level="1" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose select="true"/>
         </actions>
         <acquisition type="REWARD" count="5" item="186020050"/>
     </item_template>
-    <item_template id="188072117" name="?" desc="4007707" name_desc="world_wrap_trans_contract_G3_all_18ea_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072117" name="Bundle of Ancient Transformation Contracts (18 types)" desc="4007707" name_desc="world_wrap_trans_contract_G3_all_18ea_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="3000" item="186020049"/>
     </item_template>
-    <item_template id="188072118" name="?" desc="4007707" name_desc="world_wrap_trans_contract_G3_all_18ea_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072118" name="Bundle of Ancient Transformation Contracts (18 types)" desc="4007707" name_desc="world_wrap_trans_contract_G3_all_18ea_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="20" item="186020050"/>
     </item_template>
-    <item_template id="188072119" name="?" desc="4007709" name_desc="world_wrap_matter_enchant_r_pve_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072119" name="Box of Legendary PvE Enchantment Stones" desc="4007709" name_desc="world_wrap_matter_enchant_r_pve_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="500" item="186020049"/>
     </item_template>
-    <item_template id="188072120" name="?" desc="4007711" name_desc="world_wrap_matter_enchant_f_pve_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072120" name="Box of Ultimate PvE Enchantment Stones" desc="4007711" name_desc="world_wrap_matter_enchant_f_pve_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="2000" item="186020049"/>
     </item_template>
-    <item_template id="188072121" name="?" desc="4007709" name_desc="world_wrap_matter_enchant_r_pve_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072121" name="Box of Legendary PvE Enchantment Stones" desc="4007709" name_desc="world_wrap_matter_enchant_r_pve_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="2" item="186020050"/>
     </item_template>
-    <item_template id="188072122" name="?" desc="4007711" name_desc="world_wrap_matter_enchant_f_pve_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072122" name="Box of Ultimate PvE Enchantment Stones" desc="4007711" name_desc="world_wrap_matter_enchant_f_pve_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="15" item="186020050"/>
     </item_template>
-    <item_template id="188072123" name="?" desc="4007713" name_desc="world_wrap_SpringEvent_devaskill_landom_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072123" name="Daevanion Skill Chest (10 types)" desc="4007713" name_desc="world_wrap_SpringEvent_devaskill_landom_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="1500" item="186020049"/>
     </item_template>
-    <item_template id="188072124" name="?" desc="4007713" name_desc="world_wrap_SpringEvent_devaskill_landom_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072124" name="Daevanion Skill Chest (10 types)" desc="4007713" name_desc="world_wrap_SpringEvent_devaskill_landom_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="15" item="186020050"/>
     </item_template>
-    <item_template id="188072125" name="?" desc="4007715" name_desc="world_wrap_SpringEvent_goods" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072125" name="Bundle of Consumables" desc="4007715" name_desc="world_wrap_SpringEvent_goods" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="200" item="186020049"/>
     </item_template>
-    <item_template id="188072126" name="?" desc="4007725" name_desc="world_wrap_torso_nature_02_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072126" name="Flowery Dress Chest" desc="4007725" name_desc="world_wrap_torso_nature_02_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="1000" item="186020049"/>
     </item_template>
-    <item_template id="188072127" name="?" desc="4007727" name_desc="world_wrap_head_nature_02_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072127" name="Flower Decoration Chest" desc="4007727" name_desc="world_wrap_head_nature_02_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="1000" item="186020049"/>
     </item_template>
-    <item_template id="188072128" name="?" desc="4007725" name_desc="world_wrap_torso_nature_02_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072128" name="Flowery Dress Chest" desc="4007725" name_desc="world_wrap_torso_nature_02_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="5" item="186020050"/>
     </item_template>
-    <item_template id="188072129" name="?" desc="4007727" name_desc="world_wrap_head_nature_02_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072129" name="Flower Decoration Chest" desc="4007727" name_desc="world_wrap_head_nature_02_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="5" item="186020050"/>
     </item_template>
-    <item_template id="188072130" name="?" desc="4007733" name_desc="world_wrap_torso_STvalkyrie_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072130" name="Celestial Ascension Clothing Chest" desc="4007733" name_desc="world_wrap_torso_STvalkyrie_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="8" item="186020050"/>
     </item_template>
-    <item_template id="188072131" name="?" desc="4007735" name_desc="world_wrap_shoulder_STvalkyrie_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072131" name="Celestial Ascension Shoulder Jewellery Box" desc="4007735" name_desc="world_wrap_shoulder_STvalkyrie_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="8" item="186020050"/>
     </item_template>
-    <item_template id="188072132" name="?" desc="4007737" name_desc="world_wrap_head_STvalkyrie_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188072132" name="Celestial Ascension Hat Box" desc="4007737" name_desc="world_wrap_head_STvalkyrie_01" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
         </actions>
         <acquisition type="REWARD" count="8" item="186020050"/>
+    </item_template>
+    <item_template id="188072185" name="Box of Form Contracts" desc="1787623" name_desc="world_wrap_trans_contract_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="50" item="186020041"/>
+    </item_template>
+    <item_template id="188072186" name="Box of Ancient Transformation Contracts" desc="4008571" name_desc="world_wrap_trans_contract_G3_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="500" item="186020041"/>
+    </item_template>
+    <item_template id="188072187" name="Bundle of Legendary PvE Enchantment Stones" desc="4008573" name_desc="world_wrap_matter_enchant_r_pve_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="150" item="186020041"/>
+    </item_template>
+    <item_template id="188072188" name="Bundle of Ultimate PvE Enchantment Stones" desc="4008575" name_desc="world_wrap_matter_enchant_f_pve_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="750" item="186020041"/>
+    </item_template>
+    <item_template id="188072189" name="Bundle of Transparent Transformation Scrolls (10)" desc="4002769" name_desc="world_wrap_transparent_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="20" item="186020041"/>
+    </item_template>
+    <item_template id="188072190" name="Daevanion Skill Chest (10 types)" desc="4007713" name_desc="world_wrap_devaskill_trillirung" level="10" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="750" item="186020041"/>
+    </item_template>
+    <item_template id="188072191" name="Selection Box of Legendary Transformation Contracts" desc="4008577" name_desc="world_wrap_trans_contract_g4_select_10ea_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose select="true"/>
+        </actions>
+        <acquisition type="REWARD" count="2000" item="186020041"/>
+    </item_template>
+    <item_template id="188072192" name="Box of Major Transformation Contracts (16 types)" desc="4003471" name_desc="world_wrap_trans_contract_g2_all_16ea_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="RARE" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="300" item="186020041"/>
+    </item_template>
+    <item_template id="188072193" name="Box of Ancient Transformation Contracts (18 types)" desc="4003473" name_desc="world_wrap_trans_contract_g3_all_18ea_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072194" name="Box of Legendary Transformation Contracts (10 types)" desc="4003475" name_desc="world_wrap_trans_contract_g4_all_10ea_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="1000" item="186020041"/>
+    </item_template>
+    <item_template id="188072195" name="Auspicious Kinah Box" desc="4008579" name_desc="world_wrap_landom_kinahbox_trillirung" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="10" item="186020041"/>
+    </item_template>
+    <item_template id="188072196" name="Kinah Box (50,000)" desc="4008581" name_desc="world_wrap_KinahBox_50thou" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072197" name="Kinah Box (250,000)" desc="4008583" name_desc="world_wrap_KinahBox_250thou_02" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072198" name="Kinah Box (500,000)" desc="4008585" name_desc="world_wrap_KinahBox_500thou" level="1" mask="12360" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072207" name="Ultimate Ereshkigal Weapon Selection Box" desc="4008659" name_desc="world_wrap_weapon_idf7_ere_pve_f1_80a" level="80" mask="12414" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose select="true"/>
+        </actions>
+    </item_template>
+    <item_template id="188072208" name="Ultimate Ereshkigal Armour Selection Box" desc="4008661" name_desc="world_wrap_armor_idf7_ere_pve_f1_80a" level="80" mask="12414" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose select="true"/>
+        </actions>
+    </item_template>
+    <item_template id="188072209" name="Ultimate Ereshkigal Wings Selection Box" desc="4008663" name_desc="world_wrap_wing_idf7_ere_pve_f1_80a" level="80" mask="12414" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose select="true"/>
+        </actions>
+    </item_template>
+    <item_template id="188072296" name="?" desc="4009563" name_desc="world_wrap_cash_trillirung_Reward_01" level="80" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072448" name="?" desc="4012957" name_desc="world_wrap_US_ride_Whale_001" level="10" mask="4152" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072449" name="?" desc="4012959" name_desc="world_wrap_US_ride_Whale_002" level="10" mask="4152" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072450" name="?" desc="4012961" name_desc="world_wrap_US_ride_Whale_003" level="10" mask="4152" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
+    <item_template id="188072451" name="?" desc="4012963" name_desc="world_wrap_US_ride_jetski_01" level="10" mask="4152" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="3000" item="186020023"/>
+    </item_template>
+    <item_template id="188072452" name="Bundle of Legendary PvE Enchantment Stones" desc="4008573" name_desc="world_wrap_matter_enchant_r_pve_WaterWorld" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="750" item="186020023"/>
+    </item_template>
+    <item_template id="188072453" name="Bundle of Ultimate PvE Enchantment Stones" desc="4008575" name_desc="world_wrap_matter_enchant_f_pve_WaterWorld" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="2000" item="186020023"/>
+    </item_template>
+    <item_template id="188072454" name="Bundle of Legendary PvE Enchantment Stones" desc="4008573" name_desc="world_EU_wrap_matter_enchant_r_pve_WaterWorld" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="300" item="186020023"/>
+    </item_template>
+    <item_template id="188072455" name="?" desc="4012993" name_desc="world_EU_wrap_matter_enchant_r_pvp_WaterWorld" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="RELIC" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="400" item="186020023"/>
+    </item_template>
+    <item_template id="188072456" name="?" desc="4012995" name_desc="world_EU_wrap_trans_contract_62a_WaterWorld" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="400" item="186020023"/>
+    </item_template>
+    <item_template id="188072457" name="?" desc="4012997" name_desc="world_EU_wrap_head_pcaptain_WaterWorld" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="25" item="186020023"/>
+    </item_template>
+    <item_template id="188072458" name="?" desc="4012999" name_desc="world_EU_wrap_clothes_piratec_WaterWorld" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="100" item="186020023"/>
+    </item_template>
+    <item_template id="188072459" name="?" desc="4013001" name_desc="world_EU_wrap_head_pbandana_WaterWorld" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="25" item="186020023"/>
+    </item_template>
+    <item_template id="188072460" name="?" desc="4013003" name_desc="world_EU_wrap_clothes_pirates_WaterWorld" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="100" item="186020023"/>
+    </item_template>
+    <item_template id="188072463" name="?" desc="4013075" name_desc="world_EU_wrap_event_coin_refill_idwaterworld" level="1" mask="12352" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="3" item="186020002"/>
+    </item_template>
+    <item_template id="188072464" name="?" desc="4013075" name_desc="world_US_wrap_event_coin_refill_idwaterworld" level="1" mask="12352" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+        <acquisition type="REWARD" count="2" item="186020002"/>
     </item_template>
     <item_template id="188100001" name="Assembly Testing Item 01" desc="1567843" name_desc="assembly_material_test_01" level="50" mask="12414" category="NONE" max_stack_count="100" item_type="NORMAL" quality="RARE" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
@@ -184779,25 +184972,25 @@
         </actions>
         <uselimits usedelay="1000" usedelayid="80"/>
     </item_template>
-    <item_template id="188120026" name="[Event] Cherry Blossom A" desc="4008153" name_desc="assembly_event_letter_1" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188120026" name="[Event] Cherry Blossom Letter A" desc="4008153" name_desc="assembly_event_letter_1" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <assemble item="000000000"/>
         </actions>
         <uselimits usedelay="1000" usedelayid="80"/>
     </item_template>
-    <item_template id="188120027" name="[Event] Cherry Blossom I" desc="4008155" name_desc="assembly_event_letter_2" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188120027" name="[Event] Cherry Blossom Letter I" desc="4008155" name_desc="assembly_event_letter_2" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <assemble item="000000000"/>
         </actions>
         <uselimits usedelay="1000" usedelayid="80"/>
     </item_template>
-    <item_template id="188120028" name="[Event] Cherry Blossom O" desc="4008157" name_desc="assembly_event_letter_3" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188120028" name="[Event] Cherry Blossom Letter O" desc="4008157" name_desc="assembly_event_letter_3" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <assemble item="000000000"/>
         </actions>
         <uselimits usedelay="1000" usedelayid="80"/>
     </item_template>
-    <item_template id="188120029" name="[Event] Cherry Blossom N" desc="4008159" name_desc="assembly_event_letter_4" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188120029" name="[Event] Cherry Blossom Letter N" desc="4008159" name_desc="assembly_event_letter_4" level="1" mask="12360" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <assemble item="000000000"/>
         </actions>
@@ -184924,17 +185117,17 @@
         </tradein_list>
     </item_template>
     <item_template id="188200055" name="Bronze Cubelet of Phantom Honour" desc="1782035" name_desc="cubic_stat_parry_03" level="1" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
-    <item_template id="188200056" name="Gold Cubelet of the Stone Golem's Vow" desc="1782037" name_desc="cubic_stat_block_01" level="1" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE">
+    <item_template id="188200056" name="Gold Cubelet of the Angolem's Vow" desc="1782037" name_desc="cubic_stat_block_01" level="1" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE">
         <tradein_list>
             <tradein_item id="188200057" count="5"/>
         </tradein_list>
     </item_template>
-    <item_template id="188200057" name="Silver Cubelet of the Stone Golem's Vow" desc="1782039" name_desc="cubic_stat_block_02" level="1" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE">
+    <item_template id="188200057" name="Silver Cubelet of the Angolem's Vow" desc="1782039" name_desc="cubic_stat_block_02" level="1" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE">
         <tradein_list>
             <tradein_item id="188200058" count="5"/>
         </tradein_list>
     </item_template>
-    <item_template id="188200058" name="Bronze Cubelet of the Stone Golem's Vow" desc="1782041" name_desc="cubic_stat_block_03" level="1" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
+    <item_template id="188200058" name="Bronze Cubelet of the Angolem's Vow" desc="1782041" name_desc="cubic_stat_block_03" level="1" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="188200059" name="Gold Cubelet of Caryatid Silence" desc="1782043" name_desc="cubic_stat_magicalresist_01" level="1" mask="12364" category="NONE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE">
         <tradein_list>
             <tradein_item id="188200060" count="5"/>
@@ -185441,6 +185634,11 @@
             <animation idle="21"/>
         </actions>
         <acquisition type="REWARD" count="250" item="186020016"/>
+    </item_template>
+    <item_template id="188509014" name="[Motion Card] Leisurely Stroll" desc="1781287" name_desc="world_cash_add_customize_motion_walkway_01" level="1" mask="4216" category="NONE" max_stack_count="1" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <animation idle="39"/>
+        </actions>
     </item_template>
     <item_template id="188600000" name="Draupnir Cooldown Scroll" desc="1540803" name_desc="scroll_init_coolt_instance_IDDF3_Dragon" level="1" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="COMMON" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
@@ -188276,19 +188474,19 @@
         </actions>
         <uselimits usedelay="15000" usedelayid="88"/>
     </item_template>
-    <item_template id="188605024" name="?" desc="4007495" name_desc="world_scroll_init_coolt_idseal" level="10" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="ANCIENT" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188605024" name="Entry Scroll for Makarna" desc="4007495" name_desc="world_scroll_init_coolt_idseal" level="10" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="ANCIENT" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <instancetimeclear sync_ids="127"/>
         </actions>
         <uselimits usedelay="1000" usedelayid="88"/>
     </item_template>
-    <item_template id="188605025" name="?" desc="4007497" name_desc="world_scroll_init_coolt_IDF7_Ere" level="10" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="ANCIENT" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188605025" name="Entry Scroll for Senekta" desc="4007497" name_desc="world_scroll_init_coolt_IDF7_Ere" level="10" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="ANCIENT" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <instancetimeclear sync_ids="181"/>
         </actions>
         <uselimits usedelay="1000" usedelayid="88"/>
     </item_template>
-    <item_template id="188605026" name="?" desc="4007499" name_desc="world_scroll_init_coolt_IDF7_Mine" level="10" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="ANCIENT" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+    <item_template id="188605026" name="Entry Scroll for the Hererim Mine" desc="4007499" name_desc="world_scroll_init_coolt_IDF7_Mine" level="10" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="ANCIENT" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <instancetimeclear sync_ids="180"/>
         </actions>
@@ -193892,6 +194090,66 @@
     <item_template id="190120091" name="Goldsqueak - Health Recovery (30 days)" desc="4006983" name_desc="world_cash_ride_goldpig_01_30day" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="43201">
         <actions>
             <ride npc_id="2000173"/>
+        </actions>
+    </item_template>
+    <item_template id="190120094" name="Hero's Legendary Noble Steed (1 day)" desc="4008695" name_desc="cash_ride_gold_grimhorse_live_1DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="1441">
+        <actions>
+            <ride npc_id="2000117"/>
+        </actions>
+    </item_template>
+    <item_template id="190120095" name="Hero's Legendary Noble Steed (7 days)" desc="4008697" name_desc="cash_ride_gold_grimhorse_live_7DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="10081">
+        <actions>
+            <ride npc_id="2000117"/>
+        </actions>
+    </item_template>
+    <item_template id="190120096" name="Hero's Legendary Noble Steed (15 days)" desc="4008699" name_desc="cash_ride_gold_grimhorse_live_15DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="21601">
+        <actions>
+            <ride npc_id="2000117"/>
+        </actions>
+    </item_template>
+    <item_template id="190120097" name="Hero's Legendary Noble Steed (30 days)" desc="4008701" name_desc="cash_ride_gold_grimhorse_live_30DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="43201">
+        <actions>
+            <ride npc_id="2000117"/>
+        </actions>
+    </item_template>
+    <item_template id="190120098" name="Turbo Kirrin (1 day)" desc="4008711" name_desc="cash_ride_highcraft_kuillusrider_01_1DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="1441">
+        <actions>
+            <ride npc_id="2000083"/>
+        </actions>
+    </item_template>
+    <item_template id="190120099" name="Turbo Kirrin (7 days)" desc="4008713" name_desc="cash_ride_highcraft_kuillusrider_01_7DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="10081">
+        <actions>
+            <ride npc_id="2000083"/>
+        </actions>
+    </item_template>
+    <item_template id="190120100" name="Turbo Kirrin (15 days)" desc="4008715" name_desc="cash_ride_highcraft_kuillusrider_01_15DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="21601">
+        <actions>
+            <ride npc_id="2000083"/>
+        </actions>
+    </item_template>
+    <item_template id="190120101" name="Turbo Kirrin (30 days)" desc="4008717" name_desc="cash_ride_highcraft_kuillusrider_01_30DAY" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="43201">
+        <actions>
+            <ride npc_id="2000083"/>
+        </actions>
+    </item_template>
+    <item_template id="190120110" name="Blue Surfrider" desc="1583543" name_desc="world_US_ride_Whale_001" level="10" mask="4120" category="NONE" max_stack_count="1" item_type="NORMAL" quality="EPIC" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000">
+        <actions>
+            <ride npc_id="2000010"/>
+        </actions>
+    </item_template>
+    <item_template id="190120111" name="Sandburst Surfrider" desc="1594979" name_desc="world_US_ride_Whale_002" level="10" mask="4120" category="NONE" max_stack_count="1" item_type="NORMAL" quality="EPIC" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000">
+        <actions>
+            <ride npc_id="2000022"/>
+        </actions>
+    </item_template>
+    <item_template id="190120112" name="Waveform Surfrider" desc="1583547" name_desc="world_US_ride_Whale_003" level="10" mask="4120" category="NONE" max_stack_count="1" item_type="NORMAL" quality="EPIC" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000">
+        <actions>
+            <ride npc_id="2000012"/>
+        </actions>
+    </item_template>
+    <item_template id="190120113" name="?" desc="4012955" name_desc="world_US_ride_jetski_01" level="10" mask="4120" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000">
+        <actions>
+            <ride npc_id="2000161"/>
         </actions>
     </item_template>
     <item_template id="190200000" name="Class A Minionite" desc="1743361" name_desc="minion_evolutionstone_01" level="10" mask="12364" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE"/>
