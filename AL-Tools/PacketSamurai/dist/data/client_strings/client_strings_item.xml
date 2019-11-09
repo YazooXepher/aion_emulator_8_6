@@ -4438,7 +4438,7 @@
   <string>
     <id>700888</id>
     <name>STR_RB_TORSO_N_C_45A</name>
-    <body>Tunic of Battle</body>
+    <body>Battle Tunic</body>
   </string>
   <string>
     <id>700889</id>
@@ -4493,7 +4493,7 @@
   <string>
     <id>700899</id>
     <name>STR_RB_PANTS_N_C_45A</name>
-    <body>Battle Cloth Breeches</body>
+    <body>Cloth Battle Breeches</body>
   </string>
   <string>
     <id>700900</id>
@@ -4543,7 +4543,7 @@
   <string>
     <id>700909</id>
     <name>STR_RB_SHOES_N_C_45A</name>
-    <body>Cloth Shoes of Battle</body>
+    <body>Cloth Battle Shoes</body>
   </string>
   <string>
     <id>700910</id>
@@ -4588,7 +4588,7 @@
   <string>
     <id>700918</id>
     <name>STR_RB_GLOVE_N_C_45A</name>
-    <body>Battle Cloth Gloves</body>
+    <body>Cloth Battle Gloves</body>
   </string>
   <string>
     <id>700919</id>
@@ -4788,7 +4788,7 @@
   <string>
     <id>700958</id>
     <name>STR_LT_SHOES_N_C_45A</name>
-    <body>Battle Leather Shoes</body>
+    <body>Leather Battle Shoes</body>
   </string>
   <string>
     <id>700959</id>
@@ -4983,7 +4983,7 @@
   <string>
     <id>700997</id>
     <name>STR_CH_PANTS_N_C_45A</name>
-    <body>Battle Chain Breeches</body>
+    <body>Chain Battle Breeches</body>
   </string>
   <string>
     <id>700998</id>
@@ -5078,7 +5078,7 @@
   <string>
     <id>701016</id>
     <name>STR_CH_GLOVE_N_C_45A</name>
-    <body>Battle Chain Gauntlets</body>
+    <body>Chain Battle Gauntlets</body>
   </string>
   <string>
     <id>701017</id>
@@ -5163,7 +5163,7 @@
   <string>
     <id>701033</id>
     <name>STR_PL_TORSO_N_C_45A</name>
-    <body>Breastplate of Battle</body>
+    <body>Battle Breastplate</body>
   </string>
   <string>
     <id>701034</id>
@@ -5208,7 +5208,7 @@
   <string>
     <id>701042</id>
     <name>STR_PL_PANTS_N_C_45A</name>
-    <body>Plate Greaves of Battle</body>
+    <body>Plate Battle Greaves</body>
   </string>
   <string>
     <id>701043</id>
@@ -5253,7 +5253,7 @@
   <string>
     <id>701051</id>
     <name>STR_PL_SHOES_N_C_45A</name>
-    <body>Sabatons of Battle</body>
+    <body>Battle Sabatons</body>
   </string>
   <string>
     <id>701052</id>
@@ -5298,7 +5298,7 @@
   <string>
     <id>701060</id>
     <name>STR_PL_GLOVE_N_C_45A</name>
-    <body>Plate Gauntlets of Battle</body>
+    <body>Plate Battle Gauntlets</body>
   </string>
   <string>
     <id>701061</id>
@@ -5508,22 +5508,22 @@
   <string>
     <id>701102</id>
     <name>STR_HEADGEAR_N_C_46A</name>
-    <body>Battle Hairpin</body>
+    <body>Hairpin of Battle</body>
   </string>
   <string>
     <id>701103</id>
     <name>STR_HEADGEAR_N_C_46B</name>
-    <body>Battle Leather Hat</body>
+    <body>Leather Battle Hat</body>
   </string>
   <string>
     <id>701104</id>
     <name>STR_HEADGEAR_N_C_46C</name>
-    <body>Battle Chain Helm</body>
+    <body>Chain Battle Helm</body>
   </string>
   <string>
     <id>701105</id>
     <name>STR_HEADGEAR_N_C_46D</name>
-    <body>Plate Helm of Battle</body>
+    <body>Plate Battle Helm</body>
   </string>
   <string>
     <id>701106</id>
@@ -5578,12 +5578,12 @@
   <string>
     <id>701116</id>
     <name>STR_EARRING_N_C_46A</name>
-    <body>Battle Earring</body>
+    <body>Earring of Battle</body>
   </string>
   <string>
     <id>701117</id>
     <name>STR_EARRING_N_C_46B</name>
-    <body>Battle Ear Accessory</body>
+    <body>Ear Accessory of Battle</body>
   </string>
   <string>
     <id>701118</id>
@@ -5638,12 +5638,12 @@
   <string>
     <id>701128</id>
     <name>STR_NECKLACE_N_C_46A</name>
-    <body>Battle Necklace</body>
+    <body>Necklace of Battle</body>
   </string>
   <string>
     <id>701129</id>
     <name>STR_NECKLACE_N_C_46B</name>
-    <body>Battle Neck Accessory</body>
+    <body>Neck Accessory of Battle</body>
   </string>
   <string>
     <id>701130</id>
@@ -5698,12 +5698,12 @@
   <string>
     <id>701140</id>
     <name>STR_RING_N_C_46A</name>
-    <body>Battle Ring</body>
+    <body>Ring of Battle</body>
   </string>
   <string>
     <id>701141</id>
     <name>STR_RING_N_C_46B</name>
-    <body>Battle Circlet</body>
+    <body>Circlet of Battle</body>
   </string>
   <string>
     <id>701142</id>
@@ -9148,12 +9148,12 @@
   <string>
     <id>701830</id>
     <name>STR_BANDAGE_01_DESC</name>
-    <body>Use with the Bandage Heal skill on yourself.</body>
+    <body>You need this material for when you use Bandage Heal.</body>
   </string>
   <string>
     <id>701831</id>
     <name>STR_FIRST_AID_DESC</name>
-    <body>Used with the 'Herb Treatment' skill. Cannot be used directly.</body>
+    <body>Used in the 'Herb Treatment' and 'Mana Treatment' skills. Cannot be used directly.</body>
   </string>
   <string>
     <id>701832</id>
@@ -21159,7 +21159,7 @@
   <string>
     <id>704241</id>
     <name>STR_R_WS_Q5036</name>
-    <body>Repaired Battle Polearm</body>
+    <body>Battle Polearm</body>
   </string>
   <string>
     <id>704242</id>
@@ -21364,7 +21364,7 @@
   <string>
     <id>704282</id>
     <name>STR_R_AS_Q5136</name>
-    <body>Repaired Battle Hauberk</body>
+    <body>Battle Hauberk</body>
   </string>
   <string>
     <id>704283</id>
@@ -21569,7 +21569,7 @@
   <string>
     <id>704323</id>
     <name>STR_R_TA_Q5236</name>
-    <body>Mended Battle Cloth Breeches</body>
+    <body>Cloth Battle Breeches</body>
   </string>
   <string>
     <id>704324</id>
@@ -21769,7 +21769,7 @@
   <string>
     <id>704363</id>
     <name>STR_R_HA_Q5335</name>
-    <body>Repaired Battle Staff</body>
+    <body>Battle Staff</body>
   </string>
   <string>
     <id>704364</id>
@@ -21974,7 +21974,7 @@
   <string>
     <id>704404</id>
     <name>STR_R_AL_Q5435</name>
-    <body>Repaired Battle Orb</body>
+    <body>Battle Orb</body>
   </string>
   <string>
     <id>704405</id>
@@ -22799,7 +22799,7 @@
   <string>
     <id>704569</id>
     <name>STR_ITEM_R_TA_Q5236</name>
-    <body>Design: Mended Battle Cloth Breeches</body>
+    <body>Design: Mended Cloth Battle Breeches</body>
   </string>
   <string>
     <id>704570</id>
@@ -24029,7 +24029,7 @@
   <string>
     <id>704815</id>
     <name>STR_ITEM_R_TA_Q5236_DESC</name>
-    <body>Teaches how to mend Battle Cloth Breeches.</body>
+    <body>Teaches how to mend Cloth Battle Breeches.</body>
   </string>
   <string>
     <id>704816</id>
@@ -117674,7 +117674,7 @@
   <string>
     <id>723544</id>
     <name>STR_EVENT_01</name>
-    <body>An appearance-modifying item. An equipment appearance modifier in the city can make another item look like this.</body>
+    <body>An appearance-modifying item. You can use this to change the appearance of another item in the Modify Appearance menu under [Boost/Modify].</body>
   </string>
   <string>
     <id>723545</id>
@@ -118019,7 +118019,7 @@
   <string>
     <id>723613</id>
     <name>STR_ITEM_shield_all_50A</name>
-    <body>All Damage Absorption</body>
+    <body>Leibo Protection</body>
   </string>
   <string>
     <id>723614</id>
@@ -118034,7 +118034,7 @@
   <string>
     <id>723616</id>
     <name>STR_ITEM_shield_all_50A_DESC</name>
-    <body>There is a 100%% chance of absorbing [%e1.Shield.CoverValue] damage for each attack and up to [%e1.Shield.ShieldValue] damage in total.</body>
+    <body>Erects a shield that has a 100%% chance of blocking up to [%e1.Shield.ShieldValue] damage per attack.</body>
   </string>
   <string>
     <id>723617</id>
@@ -146874,27 +146874,27 @@
   <string>
     <id>729384</id>
     <name>STR_REMEDY_HP_MP_10_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>729385</id>
     <name>STR_REMEDY_HP_MP_20_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>729386</id>
     <name>STR_REMEDY_HP_MP_30_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>729387</id>
     <name>STR_REMEDY_HP_MP_40_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>729388</id>
     <name>STR_REMEDY_HP_MP_50_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>729389</id>
@@ -146974,27 +146974,27 @@
   <string>
     <id>729404</id>
     <name>STR_REMEDY_HP_MP_10A_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>729405</id>
     <name>STR_REMEDY_HP_MP_20A_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>729406</id>
     <name>STR_REMEDY_HP_MP_30A_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>729407</id>
     <name>STR_REMEDY_HP_MP_40A_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>729408</id>
     <name>STR_REMEDY_HP_MP_50A_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>729409</id>
@@ -204414,7 +204414,7 @@
   <string>
     <id>740961</id>
     <name>STR_QUEST_REMEDY_HP_MP_10A_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>740962</id>
@@ -216994,7 +216994,7 @@
   <string>
     <id>743500</id>
     <name>STR_PARTOFDIMENSION_G1_DESC</name>
-    <body>A medium needed to create a rift in the fabric of space and time. It is used when casting summoning skills.</body>
+    <body>A medium needed to create a rift in the fabric of space and time. You need this material for when you use Summon Skills.</body>
   </string>
   <string>
     <id>743501</id>
@@ -219119,42 +219119,42 @@
   <string>
     <id>743925</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_DESC</name>
-    <body>Summons a Kisk for resurrection. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>743926</id>
     <name>STR_KISK_LIGHT_PARTY_SMALL_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 6 group members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 6 Alliance members.\nOnly usable by members of the same group as the summoner.</body>
   </string>
   <string>
     <id>743927</id>
     <name>STR_KISK_LIGHT_FORCE_MEDIUM_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 24 Alliance members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 24 Alliance members.\nOnly usable by members of the same alliance as the summoner.</body>
   </string>
   <string>
     <id>743928</id>
     <name>STR_KISK_LIGHT_LEGION_LARGE_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 48 Legion members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 48 Alliance members.\nOnly usable by members of the same legion as the summoner.</body>
   </string>
   <string>
     <id>743929</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_DESC</name>
-    <body>Summons a Kisk for resurrection. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>743930</id>
     <name>STR_KISK_DARK_PARTY_SMALL_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 6 group members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 6 Alliance members.\nOnly usable by members of the same group as the summoner.</body>
   </string>
   <string>
     <id>743931</id>
     <name>STR_KISK_DARK_FORCE_MEDIUM_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 24 Alliance members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 24 Alliance members.\nOnly usable by members of the same alliance as the summoner.</body>
   </string>
   <string>
     <id>743932</id>
     <name>STR_KISK_DARK_LEGION_LARGE_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 48 Legion members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 48 Alliance members.\nOnly usable by members of the same legion as the summoner.</body>
   </string>
   <string>
     <id>743933</id>
@@ -229049,7 +229049,7 @@
   <string>
     <id>745911</id>
     <name>STR_STIGMA_EL_EL_ENCHANTARMOR_G1</name>
-    <body>[Abyss Points] Armour Spirit I (damaged)</body>
+    <body>[Abyss Points] Strengthening Spirit: Armour Spirit I (damaged)</body>
   </string>
   <string>
     <id>745912</id>
@@ -231799,12 +231799,12 @@
   <string>
     <id>746461</id>
     <name>STR_EVENT_F_KISK_LIGHT_PRIVATE_SMALL_DESC</name>
-    <body>Summons a Kisk for resurrection. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>746462</id>
     <name>STR_EVENT_F_KISK_DARK_PRIVATE_SMALL_DESC</name>
-    <body>Summons a Kisk for resurrection. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>746463</id>
@@ -238873,32 +238873,32 @@
   <string>
     <id>747875</id>
     <name>STR_EVENT_KISK_LIGHT_PRIVATE_SMALL_DESC</name>
-    <body>Summons a Kisk for resurrection. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>747876</id>
     <name>STR_EVENT_KISK_LIGHT_PARTY_SMALL_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 6 group members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 6 Alliance members.\nOnly usable by members of the same group as the summoner.</body>
   </string>
   <string>
     <id>747877</id>
     <name>STR_EVENT_KISK_LIGHT_FORCE_MEDIUM_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 24 Alliance members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 24 Alliance members.\nOnly usable by members of the same alliance as the summoner.</body>
   </string>
   <string>
     <id>747878</id>
     <name>STR_EVENT_KISK_DARK_PRIVATE_SMALL_DESC</name>
-    <body>Summons a Kisk for resurrection. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>747879</id>
     <name>STR_EVENT_KISK_DARK_PARTY_SMALL_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 6 group members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 6 Alliance members.\nOnly usable by members of the same group as the summoner.</body>
   </string>
   <string>
     <id>747880</id>
     <name>STR_EVENT_KISK_DARK_FORCE_MEDIUM_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 24 Alliance members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 24 Alliance members.\nOnly usable by members of the same alliance as the summoner.</body>
   </string>
   <string>
     <id>747881</id>
@@ -242228,7 +242228,7 @@
   <string>
     <id>748546</id>
     <name>STR_CASH_KISK_LIGHT_PARTY_SMALL_SPECIAL_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 6 group members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 6 Alliance members.\nOnly usable by members of the same group as the summoner.</body>
   </string>
   <string>
     <id>748547</id>
@@ -242238,7 +242238,7 @@
   <string>
     <id>748548</id>
     <name>STR_CASH_KISK_DARK_PARTY_SMALL_SPECIAL_DESC</name>
-    <body>Establishes a resurrection Kisk. It lasts for 2 hours and allows the registration of up to 6 group members.</body>
+    <body>Summons a Kisk which resurrects the fallen at its location. It lasts for 2 hours and can be activated by up to 6 Alliance members.\nOnly usable by members of the same group as the summoner.</body>
   </string>
   <string>
     <id>748549</id>
@@ -264714,7 +264714,7 @@
   <string>
     <id>753162</id>
     <name>STR_STIGMA_KN_KN_DESTRUCTSHIELD_G1</name>
-    <body>[Abyss Points] Shieldburst I (damaged)</body>
+    <body>[Abyss Points] Shield Blast I (damaged)</body>
   </string>
   <string>
     <id>753163</id>
@@ -265459,7 +265459,7 @@
   <string>
     <id>753312</id>
     <name>STR_STIGMA_EL_EL_ENCHANTARMOR_G2</name>
-    <body>[Abyss Points] Armour Spirit II (damaged)</body>
+    <body>[Abyss Points] Strengthening Spirit: Armour Spirit II (damaged)</body>
   </string>
   <string>
     <id>753313</id>
@@ -265484,7 +265484,7 @@
   <string>
     <id>753317</id>
     <name>STR_STIGMA_EL_EL_ENCHANTARMOR_G3</name>
-    <body>[Abyss Points] Armour Spirit III (damaged)</body>
+    <body>[Abyss Points] Strengthening Spirit: Armour Spirit III (damaged)</body>
   </string>
   <string>
     <id>753318</id>
@@ -265544,7 +265544,7 @@
   <string>
     <id>753329</id>
     <name>STR_STIGMA_EL_EL_ENCHANTARMOR_G4</name>
-    <body>[Abyss Points] Armour Spirit IV (damaged)</body>
+    <body>[Abyss Points] Strengthening Spirit: Armour Spirit IV (damaged)</body>
   </string>
   <string>
     <id>753330</id>
@@ -266994,12 +266994,12 @@
   <string>
     <id>753620</id>
     <name>STR_ITEM_SHAPE_AB1_1011_BOSS_LI_1</name>
-    <body>[Jakunerk] Guardian General Form Candy (Elyos)</body>
+    <body>GM Event Transformation Candy: Guardian General (Elyos)</body>
   </string>
   <string>
     <id>753621</id>
     <name>STR_ITEM_SHAPE_AB1_1011_BOSS_DA_1</name>
-    <body>[Jakunerk] Guardian General Form Candy (Asmodian)</body>
+    <body>GM Event Transformation Candy: Guardian General (Asmodian)</body>
   </string>
   <string>
     <id>753622</id>
@@ -300094,7 +300094,7 @@
   <string>
     <id>760240</id>
     <name>STR_REMEDY_HP_MP_60A_DESC</name>
-    <body>Recovers the target's HP by [%e3.Heal.CheckTimeHeal] points and its MP by [%e4.MpHeal.CheckTimeHeal] points every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
+    <body>Regenerates [%e3.Heal.CheckTimeHeal] HP and [%e4.MpHeal.CheckTimeHeal] MP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
   <string>
     <id>760241</id>
@@ -321048,52 +321048,52 @@
   <string>
     <id>764437</id>
     <name>STR_CASH_FOOD_L_SEAMAN_01</name>
-    <body>Pirate Form Candy a</body>
+    <body>Transformation Candy: Pirate A</body>
   </string>
   <string>
     <id>764438</id>
     <name>STR_CASH_FOOD_D_SEAMAN_01</name>
-    <body>Pirate Form Candy a</body>
+    <body>Transformation Candy: Pirate A</body>
   </string>
   <string>
     <id>764439</id>
     <name>STR_CASH_FOOD_L_SEAMAN_02</name>
-    <body>Pirate Form Candy b</body>
+    <body>Transformation Candy: Pirate B</body>
   </string>
   <string>
     <id>764440</id>
     <name>STR_CASH_FOOD_D_SEAMAN_02</name>
-    <body>Pirate Form Candy b</body>
+    <body>Transformation Candy: Pirate B</body>
   </string>
   <string>
     <id>764441</id>
     <name>STR_CASH_FOOD_L_SEAMAN_03</name>
-    <body>Pirate Form Candy c</body>
+    <body>Transformation Candy: Pirate C</body>
   </string>
   <string>
     <id>764442</id>
     <name>STR_CASH_FOOD_D_SEAMAN_03</name>
-    <body>Pirate Form Candy c</body>
+    <body>Transformation Candy: Pirate C</body>
   </string>
   <string>
     <id>764443</id>
     <name>STR_CASH_FOOD_L_SEAMAN_04</name>
-    <body>Pirate Form Candy d</body>
+    <body>Transformation Candy: Pirate D</body>
   </string>
   <string>
     <id>764444</id>
     <name>STR_CASH_FOOD_D_SEAMAN_04</name>
-    <body>Pirate Form Candy d</body>
+    <body>Transformation Candy: Pirate D</body>
   </string>
   <string>
     <id>764445</id>
     <name>STR_CASH_FOOD_L_SEAMAN_05</name>
-    <body>Pirate Form Candy e</body>
+    <body>Transformation Candy: Pirate E</body>
   </string>
   <string>
     <id>764446</id>
     <name>STR_CASH_FOOD_D_SEAMAN_05</name>
-    <body>Pirate Form Candy e</body>
+    <body>Transformation Candy: Pirate E</body>
   </string>
   <string>
     <id>764447</id>
@@ -327353,27 +327353,27 @@
   <string>
     <id>765698</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_SNOW01_DESC</name>
-    <body>Summons a Kisk for resurrection. It is white to blend into snow. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Tundra Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>765699</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_WAVE01_DESC</name>
-    <body>Summons a Kisk for resurrection. It is blue to blend into water. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Marine Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>765700</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_DESERT01_DESC</name>
-    <body>Summons a Kisk for resurrection. It's the colour of gold to blend in with the sand. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Sandy Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>765701</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_LAVA01_DESC</name>
-    <body>Summons a Kisk for resurrection. It is red to blend into lava. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Fiery Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>765702</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_GRASS01_DESC</name>
-    <body>Summons a Kisk for resurrection. It is green to blend into open plains. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Steppe Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>765703</id>
@@ -327453,27 +327453,27 @@
   <string>
     <id>765718</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_SNOW01_DESC</name>
-    <body>Summons a Kisk for resurrection. It is white to blend into snow. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Tundra Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>765719</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_WAVE01_DESC</name>
-    <body>Summons a Kisk for resurrection. It is blue to blend into water. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Marine Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>765720</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_DESERT01_DESC</name>
-    <body>Summons a Kisk for resurrection. It's the colour of gold to blend in with the sand. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Sandy Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>765721</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_LAVA01_DESC</name>
-    <body>Summons a Kisk for resurrection. It is red to blend into lava. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Fiery Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>765722</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_GRASS01_DESC</name>
-    <body>Summons a Kisk for resurrection. It is green to blend into open plains. The summoned Kisk will remain summoned for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Steppe Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
   </string>
   <string>
     <id>765723</id>
