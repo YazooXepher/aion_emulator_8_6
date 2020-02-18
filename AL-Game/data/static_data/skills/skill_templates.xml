@@ -149421,12 +149421,18 @@
         <useconditions>
             <move_casting allow="false"/>
         </useconditions>
+		<effects>
+			<silverstar points="35000" e="1" noresist="true"/>
+		</effects>
     </skill_template>
     <skill_template skill_id="11184" name="Nabaru's Silver Apple" nameId="4580173" name_desc="cash_master_absoluteap_recovery_12000" stack="CASH_MASTER_ABSOLUTEAP_RECOVERY_12000" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="NONE" tslot="NONE" dispel_category="BUFF" activation="ACTIVE" cooldown="0" duration="0">
         <properties first_target="ME" target_relation="FRIEND" target_type="ONLYONE"/>
         <useconditions>
             <move_casting allow="false"/>
         </useconditions>
+		<effects>
+			<silverstar points="12000" e="1" noresist="true"/>
+		</effects>
     </skill_template>
     <skill_template skill_id="11185" name="Transformation into a Courageous Super Doberman" nameId="4580297" name_desc="cash_food_l_phy_dog_live_01" stack="CASH_FOOD_PHY_DOG_LIVE" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" tslot_level="2" activation="ACTIVE" cooldown="0" duration="0" noremoveatdie="true">
         <properties first_target="ME" target_relation="FRIEND" target_type="ONLYONE"/>
@@ -152319,6 +152325,9 @@
         <useconditions>
             <move_casting allow="false"/>
         </useconditions>
+		<effects>
+			<silverstar points="30000" e="1" noresist="true"/>
+		</effects>
     </skill_template>
     <skill_template skill_id="11355" name="Halloween Baa Transformation" nameId="4581757" name_desc="world_skill_food_l_halloween_01" stack="WORLD_SKILL_FOOD_HALLOWEEN" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" tslot_level="2" activation="ACTIVE" cooldown="0" duration="0" noremoveatdie="true">
         <properties first_target="ME" target_relation="FRIEND" target_type="ONLYONE"/>
@@ -156502,6 +156511,9 @@
         <useconditions>
             <move_casting allow="false"/>
         </useconditions>
+		<effects>
+			<silverstar points="250000" e="1" noresist="true"/>
+		</effects>
     </skill_template>
     <skill_template skill_id="11733" name="MP reduction by 5,000" nameId="4585643" name_desc="world_skill_scroll_MPAttack_01" stack="WORLD_SKILL_SCROLL_MPATTACK" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="NONE" tslot="NONE" activation="ACTIVE" cooldown="0" duration="0">
         <properties first_target="TARGET" first_target_range="20" target_relation="ENEMY" target_type="ONLYONE" target_species="PC"/>
