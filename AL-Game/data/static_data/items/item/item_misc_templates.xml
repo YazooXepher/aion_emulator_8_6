@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2020-04-06 17:13 -->
+<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2020-05-02 17:12 -->
 <item_templates>
     <item_template id="141000001" name="Stigma Shard" desc="1403357" name_desc="stigma_shard" level="1" mask="12364" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
     <item_template id="152010310" name="Thin Rawhide" desc="1407915" name_desc="rawhide_n_c_01a" level="10" mask="12364" category="RAWHIDE" max_stack_count="1000" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE"/>
@@ -123361,6 +123361,7 @@
     <item_template id="188051505" name="Seal Removal Scroll Package (50)" desc="1585673" name_desc="wrap_special_unseal_scall_1" level="1" mask="4416" category="NONE" max_stack_count="1" item_type="NORMAL" quality="RARE" price="5" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
+            <unseal action="0"/>
         </actions>
         <uselimits usedelay="3000" usedelayid="88"/>
     </item_template>
@@ -183441,6 +183442,17 @@
             <decompose/>
         </actions>
     </item_template>
+    <item_template id="188075510" name="?" desc="4047183" name_desc="world_wrap_cash_f2_pvp_15enchant_select_box" level="10" mask="12408" category="NONE" max_stack_count="1" item_type="NORMAL" quality="FINALITY" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose select="true"/>
+        </actions>
+        <uselimits usedelay="1000" usedelayid="85"/>
+    </item_template>
+    <item_template id="188075511" name="?" desc="4047185" name_desc="world_wrap_cash_ride_cosmos_moon_01" level="10" mask="12408" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
+        <actions>
+            <decompose/>
+        </actions>
+    </item_template>
     <item_template id="188075525" name="?" desc="4047251" name_desc="wrap_event_IDRun_S2_Reward" level="1" mask="12360" category="NONE" max_stack_count="100" item_type="NORMAL" quality="COMMON" price="0" race="PC_ALL" restrict="1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1">
         <actions>
             <decompose/>
@@ -196291,6 +196303,11 @@
     <item_template id="190120155" name="Goldsqueak – Health Recovery (30 days)" desc="4042423" name_desc="world_boba_gf_ride_goldpig_01_30day" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000" expire_time="43201">
         <actions>
             <ride npc_id="2000173"/>
+        </actions>
+    </item_template>
+    <item_template id="190120156" name="?" desc="4047187" name_desc="world_cash_ride_cosmos_moon_01" level="10" mask="4168" category="NONE" max_stack_count="1" item_type="NORMAL" quality="ANCIENT" price="0" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE" activate_target="STANDALONE" activate_count="1000">
+        <actions>
+            <ride npc_id="2000199"/>
         </actions>
     </item_template>
     <item_template id="190200000" name="Class A Minionite" desc="1743361" name_desc="minion_evolutionstone_01" level="10" mask="12364" category="NONE" max_stack_count="10000" item_type="NORMAL" quality="ANCIENT" price="5" race="PC_ALL" restrict="10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10,10" bonus_apply="INVENTORY" enchant_type="NONE"/>
