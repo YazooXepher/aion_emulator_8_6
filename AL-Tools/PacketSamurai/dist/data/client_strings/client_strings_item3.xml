@@ -31973,7 +31973,7 @@
   <string>
     <id>837724</id>
     <name>STR_IDF5_FORTRESS_RE_BOMB_DESC</name>
-    <body>This bomb deals additional damage to your target.\nCan only be used in the Runatorium.</body>
+    <body>This bomb deals 80,000 damage to your target.\nCan only be used in the Runatorium.</body>
   </string>
   <string>
     <id>837725</id>
@@ -31983,7 +31983,7 @@
   <string>
     <id>837726</id>
     <name>STR_IDF5_FORTRESS_RE_DEFBUFF_DESC</name>
-    <body>This scroll increases Physical Defence against melee attacks by 1,000.\nCan only be used in the Runatorium.</body>
+    <body>This scroll increases physical defence against melee attacks.\nCan only be used in the Runatorium.</body>
   </string>
   <string>
     <id>837727</id>
@@ -57773,242 +57773,242 @@
   <string>
     <id>842890</id>
     <name>STR_SPECIAL_KISK_LIGHT_PRIVATE_SMALL</name>
-    <body>[E] Personal Kisk (special)</body>
+    <body>Special Personal Kisk (Elyos)</body>
   </string>
   <string>
     <id>842891</id>
     <name>STR_SPECIAL_KISK_LIGHT_PARTY_SMALL</name>
-    <body>[E] Group Kisk (special)</body>
+    <body>Special Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>842892</id>
     <name>STR_SPECIAL_KISK_LIGHT_FORCE_MEDIUM</name>
-    <body>[E] Alliance Kisk (special)</body>
+    <body>Special Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>842893</id>
     <name>STR_SPECIAL_KISK_LIGHT_LEGION_LARGE</name>
-    <body>[E] Legion Kisk (special)</body>
+    <body>Special Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>842894</id>
     <name>STR_SPECIAL_KISK_DARK_PRIVATE_SMALL</name>
-    <body>(A) Personal Kisk (special)</body>
+    <body>Special Personal Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842895</id>
     <name>STR_SPECIAL_KISK_DARK_PARTY_SMALL</name>
-    <body>[A] Group Kisk (special)</body>
+    <body>Special Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842896</id>
     <name>STR_SPECIAL_KISK_DARK_FORCE_MEDIUM</name>
-    <body>[A] Alliance Kisk (special)</body>
+    <body>Special Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842897</id>
     <name>STR_SPECIAL_KISK_DARK_LEGION_LARGE</name>
-    <body>(A) Legion Kisk (special)</body>
+    <body>Special Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842898</id>
     <name>STR_SPECIAL_KISK_LIGHT_PRIVATE_SMALL_SNOW01</name>
-    <body>[E] Personal Tundra Kisk (special)</body>
+    <body>Special Personal Tundra Kisk (Elyos)</body>
   </string>
   <string>
     <id>842899</id>
     <name>STR_SPECIAL_KISK_LIGHT_PRIVATE_SMALL_WAVE01</name>
-    <body>[E] Personal Marine Kisk (special)</body>
+    <body>Special Personal Marine Kisk (Elyos)</body>
   </string>
   <string>
     <id>842900</id>
     <name>STR_SPECIAL_KISK_LIGHT_PRIVATE_SMALL_DESERT01</name>
-    <body>[E] Personal Sandy Kisk (special)</body>
+    <body>Special Personal Sandy Kisk (Elyos)</body>
   </string>
   <string>
     <id>842901</id>
     <name>STR_SPECIAL_KISK_LIGHT_PRIVATE_SMALL_LAVA01</name>
-    <body>[E] Personal Fiery Kisk (special)</body>
+    <body>Special Personal Fiery Kisk (Elyos)</body>
   </string>
   <string>
     <id>842902</id>
     <name>STR_SPECIAL_KISK_LIGHT_PRIVATE_SMALL_GRASS01</name>
-    <body>[E] Personal Steppe Kisk (Special)</body>
+    <body>Special Personal Steppe Kisk (Elyos)</body>
   </string>
   <string>
     <id>842903</id>
     <name>STR_SPECIAL_KISK_LIGHT_PARTY_SMALL_SNOW01</name>
-    <body>[E] Tundra Kisk (Group; special)</body>
+    <body>Special Tundra Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>842904</id>
     <name>STR_SPECIAL_KISK_LIGHT_PARTY_SMALL_WAVE01</name>
-    <body>[E] Marine Kisk (Group; special)</body>
+    <body>Special Marine Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>842905</id>
     <name>STR_SPECIAL_KISK_LIGHT_PARTY_SMALL_DESERT01</name>
-    <body>[E] Sandy Kisk (Group; special)</body>
+    <body>Special Sandy Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>842906</id>
     <name>STR_SPECIAL_KISK_LIGHT_PARTY_SMALL_LAVA01</name>
-    <body>[E] Fiery Kisk (Group; special)</body>
+    <body>Special Fiery Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>842907</id>
     <name>STR_SPECIAL_KISK_LIGHT_PARTY_SMALL_GRASS01</name>
-    <body>[E] Steppe Kisk (Group; special)</body>
+    <body>Special Steppe Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>842908</id>
     <name>STR_SPECIAL_KISK_LIGHT_FORCE_MEDIUM_SNOW01</name>
-    <body>[E] Tundra Kisk (Alliance; special)</body>
+    <body>Special Tundra Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>842909</id>
     <name>STR_SPECIAL_KISK_LIGHT_FORCE_MEDIUM_WAVE01</name>
-    <body>[E] Marine Kisk (Alliance; special)</body>
+    <body>Special Marine Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>842910</id>
     <name>STR_SPECIAL_KISK_LIGHT_FORCE_MEDIUM_DESERT01</name>
-    <body>[E] Sandy Kisk (Alliance; special)</body>
+    <body>Special Sandy Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>842911</id>
     <name>STR_SPECIAL_KISK_LIGHT_FORCE_MEDIUM_LAVA01</name>
-    <body>[E] Fiery Kisk (Alliance; special)</body>
+    <body>Special Fiery Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>842912</id>
     <name>STR_SPECIAL_KISK_LIGHT_FORCE_MEDIUM_GRASS01</name>
-    <body>[E] Steppe Kisk (Alliance; special)</body>
+    <body>Special Steppe Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>842913</id>
     <name>STR_SPECIAL_KISK_LIGHT_LEGION_LARGE_SNOW01</name>
-    <body>[E] Tundra Kisk (Legion; special)</body>
+    <body>Special Tundra Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>842914</id>
     <name>STR_SPECIAL_KISK_LIGHT_LEGION_LARGE_WAVE01</name>
-    <body>[E] Marine Kisk (Legion; special)</body>
+    <body>Special Marine Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>842915</id>
     <name>STR_SPECIAL_KISK_LIGHT_LEGION_LARGE_DESERT01</name>
-    <body>[E] Sandy Kisk (Legion; special)</body>
+    <body>Special Sandy Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>842916</id>
     <name>STR_SPECIAL_KISK_LIGHT_LEGION_LARGE_LAVA01</name>
-    <body>[E] Fiery Kisk (Legion; special)</body>
+    <body>Special Fiery Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>842917</id>
     <name>STR_SPECIAL_KISK_LIGHT_LEGION_LARGE_GRASS01</name>
-    <body>[E] Steppe Kisk (Legion; special)</body>
+    <body>Special Steppe Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>842918</id>
     <name>STR_SPECIAL_KISK_DARK_PRIVATE_SMALL_SNOW01</name>
-    <body>(A) Personal Tundra Kisk (special)</body>
+    <body>Special Personal Tundra Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842919</id>
     <name>STR_SPECIAL_KISK_DARK_PRIVATE_SMALL_WAVE01</name>
-    <body>(A) Personal Marine Kisk (special)</body>
+    <body>Special Personal Marine Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842920</id>
     <name>STR_SPECIAL_KISK_DARK_PRIVATE_SMALL_DESERT01</name>
-    <body>(A) Personal Sandy Kisk (special)</body>
+    <body>Special Personal Sandy Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842921</id>
     <name>STR_SPECIAL_KISK_DARK_PRIVATE_SMALL_LAVA01</name>
-    <body>(A) Personal Fiery Kisk (special)</body>
+    <body>Special Personal Fiery Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842922</id>
     <name>STR_SPECIAL_KISK_DARK_PRIVATE_SMALL_GRASS01</name>
-    <body>(A) Personal Steppe Kisk (special)</body>
+    <body>Special Personal Steppe Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842923</id>
     <name>STR_SPECIAL_KISK_DARK_PARTY_SMALL_SNOW01</name>
-    <body>[A] Tundra Kisk (Group; special)</body>
+    <body>Special Tundra Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842924</id>
     <name>STR_SPECIAL_KISK_DARK_PARTY_SMALL_WAVE01</name>
-    <body>[A] Marine Kisk (Group; special)</body>
+    <body>Special Marine Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842925</id>
     <name>STR_SPECIAL_KISK_DARK_PARTY_SMALL_DESERT01</name>
-    <body>[A] Sandy Kisk (Group; special)</body>
+    <body>Special Sandy Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842926</id>
     <name>STR_SPECIAL_KISK_DARK_PARTY_SMALL_LAVA01</name>
-    <body>[A] Fiery Kisk (Group; special)</body>
+    <body>Special Fiery Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842927</id>
     <name>STR_SPECIAL_KISK_DARK_PARTY_SMALL_GRASS01</name>
-    <body>[A] Steppe Kisk (Group; special)</body>
+    <body>Special Steppe Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842928</id>
     <name>STR_SPECIAL_KISK_DARK_FORCE_MEDIUM_SNOW01</name>
-    <body>[A] Tundra Kisk (Alliance; special)</body>
+    <body>Special Tundra Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842929</id>
     <name>STR_SPECIAL_KISK_DARK_FORCE_MEDIUM_WAVE01</name>
-    <body>[A] Marine Kisk (Alliance; special)</body>
+    <body>Special Marine Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842930</id>
     <name>STR_SPECIAL_KISK_DARK_FORCE_MEDIUM_DESERT01</name>
-    <body>[A] Sandy Kisk (Alliance; special)</body>
+    <body>Special Sandy Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842931</id>
     <name>STR_SPECIAL_KISK_DARK_FORCE_MEDIUM_LAVA01</name>
-    <body>[A] Fiery Kisk (Alliance; special)</body>
+    <body>Special Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842932</id>
     <name>STR_SPECIAL_KISK_DARK_FORCE_MEDIUM_GRASS01</name>
-    <body>[A] Steppe Kisk (Alliance; special)</body>
+    <body>Special Steppe Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842933</id>
     <name>STR_SPECIAL_KISK_DARK_LEGION_LARGE_SNOW01</name>
-    <body>[A] Tundra Kisk (Legion; special)</body>
+    <body>Special Tundra Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842934</id>
     <name>STR_SPECIAL_KISK_DARK_LEGION_LARGE_WAVE01</name>
-    <body>[A] Marine Kisk (Legion; special)</body>
+    <body>Special Marine Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842935</id>
     <name>STR_SPECIAL_KISK_DARK_LEGION_LARGE_DESERT01</name>
-    <body>[A] Sandy Kisk (Legion; special)</body>
+    <body>Special Sandy Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842936</id>
     <name>STR_SPECIAL_KISK_DARK_LEGION_LARGE_LAVA01</name>
-    <body>[A] Fiery Kisk (Legion; special)</body>
+    <body>Special Fiery Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842937</id>
     <name>STR_SPECIAL_KISK_DARK_LEGION_LARGE_GRASS01</name>
-    <body>[A] Steppe Kisk (Legion; special)</body>
+    <body>Special Steppe Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>842938</id>
@@ -70013,7 +70013,7 @@
   <string>
     <id>845340</id>
     <name>STR_SCROLL_RETURN_L_LF5_01</name>
-    <body>Signia Scroll</body>
+    <body>Signia Return Scroll</body>
   </string>
   <string>
     <id>845341</id>
@@ -70898,22 +70898,22 @@
   <string>
     <id>845517</id>
     <name>STR_WRAP_CASH_KISK_PARTY_HIDE_BIG_DESC</name>
-    <body>Contains 50 camouflaged Group Kisks.\nDouble-click to open.</body>
+    <body>Contains 50 Camouflaged Group Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>845518</id>
     <name>STR_WRAP_CASH_KISK_FORCE_HIDE_BIG_DESC</name>
-    <body>Contains 50 camouflaged Alliance Kisks.\nDouble-click to open.</body>
+    <body>Contains 50 Camouflaged Alliance Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>845519</id>
     <name>STR_WRAP_CASH_KISK_PARTY_HIDE_SMALL_DESC</name>
-    <body>Contains 5 camouflaged Group Kisks.\nDouble-click to open.</body>
+    <body>Contains 5 Camouflaged Group Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>845520</id>
     <name>STR_WRAP_CASH_KISK_FORCE_HIDE_SMALL_DESC</name>
-    <body>Contains 5 camouflaged Alliance Kisks.\nDouble-click to open.</body>
+    <body>Contains 5 Camouflaged Alliance Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>845521</id>
@@ -77328,22 +77328,22 @@
   <string>
     <id>846803</id>
     <name>STR_WRAP_EVENT_SPECIAL_KISK_L</name>
-    <body>Bundle of Group Kisks (special)</body>
+    <body>Bundle of Special Group Kisks</body>
   </string>
   <string>
     <id>846804</id>
     <name>STR_WRAP_EVENT_SPECIAL_KISK_D</name>
-    <body>Bundle of Group Kisks (special)</body>
+    <body>Bundle of Special Group Kisks</body>
   </string>
   <string>
     <id>846805</id>
     <name>STR_WRAP_EVENT_SPECIAL_KISK_L_DESC</name>
-    <body>Contains 10 Group Kisks (special).\nDouble-click to open.</body>
+    <body>Contains 10 Special Group Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>846806</id>
     <name>STR_WRAP_EVENT_SPECIAL_KISK_D_DESC</name>
-    <body>Contains 10 Group Kisks (special).\nDouble-click to open.</body>
+    <body>Contains 10 Special Group Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>846807</id>
@@ -79633,62 +79633,62 @@
   <string>
     <id>847264</id>
     <name>STR_WORLD_EVENT_KISK_LIGHT_PARTY_MATROSIKA_01</name>
-    <body>[Jakunerk] Friendship Kisk (Elyos; Group)</body>
+    <body>[Jakunerk] Friendship Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>847265</id>
     <name>STR_WORLD_EVENT_KISK_LIGHT_FORCE_MATROSIKA_01</name>
-    <body>[Jakunerk] Friendship Kisk (Elyos; Alliance)</body>
+    <body>[Jakunerk] Friendship Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>847266</id>
     <name>STR_WORLD_EVENT_KISK_LIGHT_LEGION_MATROSIKA_01</name>
-    <body>[Jakunerk] Friendship Kisk (Elyos; Legion)</body>
+    <body>[Jakunerk] Friendship Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>847267</id>
     <name>STR_WORLD_EVENT_KISK_DARK_PARTY_MATROSIKA_01</name>
-    <body>[Jakunerk] Friendship Kisk (Asmodian; Group)</body>
+    <body>[Jakunerk] Friendship Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>847268</id>
     <name>STR_WORLD_EVENT_KISK_DARK_FORCE_MATROSIKA_01</name>
-    <body>[Jakunerk] Friendship Kisk (Asmodian; Alliance)</body>
+    <body>[Jakunerk] Friendship Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>847269</id>
     <name>STR_WORLD_EVENT_KISK_DARK_LEGION_MATROSIKA_01</name>
-    <body>[Jakunerk] Friendship Kisk (Asmodian; Legion)</body>
+    <body>[Jakunerk] Friendship Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>847270</id>
     <name>STR_WORLD_KISK_LIGHT_PARTY_MATROSIKA_01</name>
-    <body>[Elyos] Friendship Kisk (Group)</body>
+    <body>Friendship Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>847271</id>
     <name>STR_WORLD_KISK_LIGHT_FORCE_MATROSIKA_01</name>
-    <body>[Elyos] Friendship Kisk (Alliance)</body>
+    <body>Friendship Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>847272</id>
     <name>STR_WORLD_KISK_LIGHT_LEGION_MATROSIKA_01</name>
-    <body>[Elyos] Friendship Kisk (Legion)</body>
+    <body>Friendship Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>847273</id>
     <name>STR_WORLD_KISK_DARK_PARTY_MATROSIKA_01</name>
-    <body>[Asmodian] Friendship Kisk (Group)</body>
+    <body>Friendship Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>847274</id>
     <name>STR_WORLD_KISK_DARK_FORCE_MATROSIKA_01</name>
-    <body>[Asmodian] Friendship Kisk (Alliance)</body>
+    <body>Friendship Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>847275</id>
     <name>STR_WORLD_KISK_DARK_LEGION_MATROSIKA_01</name>
-    <body>[Asmodian] Friendship Kisk (Legion)</body>
+    <body>Friendship Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>847276</id>
@@ -79718,7 +79718,7 @@
   <string>
     <id>847281</id>
     <name>STR_WORLD_KISK_LIGHT_FORCE_MEDIUM_HIDE</name>
-    <body>[Jakunerk] Camouflaged Elyos Alliance Kisk</body>
+    <body>[Jakunerk] Camouflaged Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>847282</id>
@@ -79728,7 +79728,7 @@
   <string>
     <id>847283</id>
     <name>STR_WORLD_KISK_DARK_FORCE_MEDIUM_HIDE</name>
-    <body>[Jakunerk] Camouflaged Asmodian Alliance Kisk</body>
+    <body>[Jakunerk] Camouflaged Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>847284</id>
@@ -79753,42 +79753,42 @@
   <string>
     <id>847288</id>
     <name>STR_WORLD_EVENT_KISK_LIGHT_PARTY_RABBITALIVE_01</name>
-    <body>[Jakunerk] Moon Rabbit Kisk (Elyos; Group)</body>
+    <body>[Jakunerk] Moon Rabbit Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>847289</id>
     <name>STR_WORLD_EVENT_KISK_LIGHT_FORCE_RABBITALIVE_01</name>
-    <body>[Jakunerk] Moon Rabbit Kisk (Elyos; Alliance)</body>
+    <body>[Jakunerk] Moon Rabbit Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>847290</id>
     <name>STR_WORLD_EVENT_KISK_DARK_PARTY_RABBITALIVE_01</name>
-    <body>[Jakunerk] Moon Rabbit Kisk (Asmodian; Group)</body>
+    <body>[Jakunerk] Moon Rabbit Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>847291</id>
     <name>STR_WORLD_EVENT_KISK_DARK_FORCE_RABBITALIVE_01</name>
-    <body>[Jakunerk] Moon Rabbit Kisk (Asmodian; Alliance)</body>
+    <body>[Jakunerk] Moon Rabbit Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>847292</id>
     <name>STR_WORLD_KISK_LIGHT_PARTY_RABBITALIVE_01</name>
-    <body>[Elyos] Moon Rabbit Kisk (Group)</body>
+    <body>Moon Rabbit Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>847293</id>
     <name>STR_WORLD_KISK_LIGHT_FORCE_RABBITALIVE_01</name>
-    <body>[Elyos] Moon Rabbit Kisk (Alliance)</body>
+    <body>Moon Rabbit Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>847294</id>
     <name>STR_WORLD_KISK_DARK_PARTY_RABBITALIVE_01</name>
-    <body>[Asmodian] Moon Rabbit Kisk (Group)</body>
+    <body>Moon Rabbit Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>847295</id>
     <name>STR_WORLD_KISK_DARK_FORCE_RABBITALIVE_01</name>
-    <body>[Asmodian] Moon Rabbit Kisk (Alliance)</body>
+    <body>Moon Rabbit Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>847296</id>
@@ -79803,27 +79803,27 @@
   <string>
     <id>847298</id>
     <name>STR_WORLD_CASH_KIKS_PARTY_MATROSIKA</name>
-    <body>Chest containing Friendship Kisks (3 pieces; Group)</body>
+    <body>Chest containing Friendship Group Kisks (3 pieces)</body>
   </string>
   <string>
     <id>847299</id>
     <name>STR_WORLD_CASH_KIKS_FORCE_MATROSIKA</name>
-    <body>Chest containing Friendship Kisks (3 pieces; Alliance)</body>
+    <body>Chest containing Friendship Alliance Kisks (3 pieces)</body>
   </string>
   <string>
     <id>847300</id>
     <name>STR_WORLD_CASH_KIKS_LEGION_MATROSIKA</name>
-    <body>Chest containing Friendship Kisks (3 pieces; Legion)</body>
+    <body>Chest containing Friendship Guild Kisks (3 pieces)</body>
   </string>
   <string>
     <id>847301</id>
     <name>STR_WORLD_CASH_KIKS_PARTY_RABBITALIVE</name>
-    <body>Chest containing Moon Rabbit Kisks (3 pieces; Group)</body>
+    <body>Chest containing Moon Rabbit Group Kisks (3 pieces)</body>
   </string>
   <string>
     <id>847302</id>
     <name>STR_WORLD_CASH_KIKS_FORCE_RABBITALIVE</name>
-    <body>Chest containing Moon Rabbit Kisks (3 pieces; Alliance)</body>
+    <body>Chest containing Moon Rabbit Alliance Kisks (3 pieces)</body>
   </string>
   <string>
     <id>847303</id>
@@ -79878,27 +79878,27 @@
   <string>
     <id>847313</id>
     <name>STR_WORLD_CASH_KIKS_PARTY_MATROSIKA_DESC</name>
-    <body>Contains 3 Friendship Kisks for groups.\nDouble-click to open.</body>
+    <body>Contains 3 Friendship Group Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>847314</id>
     <name>STR_WORLD_CASH_KIKS_FORCE_MATROSIKA_DESC</name>
-    <body>Contains 3 Friendship Kisks for alliances.\nDouble-click to open.</body>
+    <body>Contains 3 Friendship Alliance Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>847315</id>
     <name>STR_WORLD_CASH_KIKS_LEGION_MATROSIKA_DESC</name>
-    <body>Contains 3 Friendship Kisks for legions.\nDouble-click to open.</body>
+    <body>Contains 3 Friendship Legion Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>847316</id>
     <name>STR_WORLD_CASH_KIKS_PARTY_RABBITALIVE_DESC</name>
-    <body>Contains 3 Moon Rabbit Kisks for groups.\nDouble-click to open.</body>
+    <body>Contains 3 Moon Rabbit Group Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>847317</id>
     <name>STR_WORLD_CASH_KIKS_FORCE_RABBITALIVE_DESC</name>
-    <body>Contains 3 Moon Rabbit Kisks for alliances.\nDouble-click to open.</body>
+    <body>Contains 3 Moon Rabbit Alliance Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>847318</id>
@@ -87063,12 +87063,12 @@
   <string>
     <id>848750</id>
     <name>STR_COIN_KISK_LIGHT_LEGION_LARGE_HIDE</name>
-    <body>Camouflaged Elyos Legion Kisk</body>
+    <body>Camouflaged Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>848751</id>
     <name>STR_COIN_KISK_DARK_LEGION_LARGE_HIDE</name>
-    <body>Camouflaged Asmodian Legion Kisk</body>
+    <body>Camouflaged Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>848752</id>
@@ -96863,12 +96863,12 @@
   <string>
     <id>850710</id>
     <name>STR_CASH_KISK_LIGHT_FORCE_RABBITALIVE_01</name>
-    <body>[Elyos] Moon Rabbit Kisk (Alliance)</body>
+    <body>Moon Rabbit Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>850711</id>
     <name>STR_CASH_KISK_DARK_FORCE_RABBITALIVE_01</name>
-    <body>[Asmodian] Moon Rabbit Kisk (Alliance)</body>
+    <body>Moon Rabbit Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>850712</id>
@@ -97068,7 +97068,7 @@
   <string>
     <id>850751</id>
     <name>STR_WRAP_CASH_ICESTORE_KISK_FORCE_RABBITALIVE_01</name>
-    <body>Box: Moon Rabbit Kisk (Alliance; 20 Pieces)</body>
+    <body>Chest containing Moon Rabbit Alliance Kisks (20 pieces)</body>
   </string>
   <string>
     <id>850752</id>
@@ -97128,7 +97128,7 @@
   <string>
     <id>850763</id>
     <name>STR_WRAP_CASH_ICESTORE_KISK_FORCE_RABBITALIVE_01_DESC</name>
-    <body>Contains 20 Moon Rabbit Kisks for alliances.\nDouble-click to open.</body>
+    <body>Contains 20 Moon Rabbit Alliance Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>850764</id>
@@ -103063,12 +103063,12 @@
   <string>
     <id>851952</id>
     <name>STR_WRAP_EVENT_KISK_FORCE_RABBITALIVE_5STACK</name>
-    <body>Box: Moon Rabbit Kisk (Alliance; 5 pieces)</body>
+    <body>Chest containing Moon Rabbit Alliance Kisks (5 pieces)</body>
   </string>
   <string>
     <id>851953</id>
     <name>STR_WRAP_EVENT_KISK_FORCE_RABBITALIVE_5STACK_DESC</name>
-    <body>Contains 5 Moon Rabbit Kisks (Alliance).\nDouble-click to open.</body>
+    <body>Contains 5 Moon Rabbit Alliance Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>851954</id>
@@ -148063,22 +148063,22 @@
   <string>
     <id>860956</id>
     <name>STR_CASH_KISK_LIGHT_PARTY_RABBITALIVE_01</name>
-    <body>[Elyos] Moon Rabbit Kisk (Group)</body>
+    <body>Moon Rabbit Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>860957</id>
     <name>STR_CASH_KISK_DARK_PARTY_RABBITALIVE_01</name>
-    <body>[Asmodian] Moon Rabbit Kisk (Group)</body>
+    <body>Moon Rabbit Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>860958</id>
     <name>STR_WRAP_EVENT_KISK_PARTY_RABBITALIVE_3STACK</name>
-    <body>Chest containing Moon Rabbit Kisks (3 pieces; Group)</body>
+    <body>Chest containing Moon Rabbit Group Kisks (3 pieces)</body>
   </string>
   <string>
     <id>860959</id>
     <name>STR_WRAP_EVENT_KISK_PARTY_RABBITALIVE_3STACK_DESC</name>
-    <body>Contains 3 Moon Rabbit Kisks (Group).\nDouble-click to open.</body>
+    <body>Contains 3 Moon Rabbit Group Kisks.\nDouble-click to open.</body>
   </string>
   <string>
     <id>860960</id>
@@ -187315,7 +187315,7 @@ Double-click to open.</body>
   <string>
     <id>868807</id>
     <name>STR_WRAP_EVENT_KISK_FORCE_MEDIUM_CAKE</name>
-    <body>[Jakunerk] Box of Cake-Shaped Victory Wish Kisk</body>
+    <body>[Jakunerk] Box with a Victory Cake Kisk</body>
   </string>
   <string>
     <id>868808</id>
@@ -190980,17 +190980,17 @@ Double-click to open.</body>
   <string>
     <id>869540</id>
     <name>STR_CASH_KISK_LIGHT_FORCE_PUNGYPINK</name>
-    <body>Pink Mookie Kisk (Elyos, Alliance)</body>
+    <body>Pink Mookie Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>869541</id>
     <name>STR_CASH_KISK_DARK_FORCE_PUNGYPINK</name>
-    <body>Pink Mookie Kisk (Asmodian, Alliance)</body>
+    <body>Pink Mookie Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>869542</id>
     <name>STR_WRAP_CASH_SHUGO4_KISK_FORCE_FUNGYPINK_5STACK</name>
-    <body>Chest containing Pink Mookie Kisks (5 pieces; Alliance)</body>
+    <body>Chest containing Pink Mookie Alliance Kisks (5 pieces)</body>
   </string>
   <string>
     <id>869543</id>
@@ -192150,12 +192150,12 @@ Double-click to open.</body>
   <string>
     <id>869774</id>
     <name>STR_IDETERNITY_WAR_KISK_LIGHT_PRATY_01</name>
-    <body>Battle Kisk (Elyos, Group)</body>
+    <body>Battle Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>869775</id>
     <name>STR_IDETERNITY_WAR_KISK_DARK_PRATY_01</name>
-    <body>Battle Kisk (Asmodian, Group)</body>
+    <body>Battle Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>869776</id>
@@ -244035,12 +244035,12 @@ Double-click to open.</body>
   <string>
     <id>880156</id>
     <name>STR_KISK_LIGHT_FORCE_MEDIUM_HIDE_TREE</name>
-    <body>Camouflaged Elyos Alliance Kisk (Little Tree)</body>
+    <body>Tree Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>880157</id>
     <name>STR_KISK_DARK_FORCE_MEDIUM_HIDE_TREE</name>
-    <body>Camouflaged Asmodian Alliance Kisk (Little Tree)</body>
+    <body>Tree Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>880158</id>
@@ -244055,12 +244055,12 @@ Double-click to open.</body>
   <string>
     <id>880160</id>
     <name>STR_WRAP_CASH_IDSWEEP_02_KISK_LIGHT_FORCE_MEDIUM_HIDE_TREE_LIVE</name>
-    <body>Box containing Camouflaged Alliance Kisk (Little Tree)</body>
+    <body>Box with a Tree Alliance Kisk</body>
   </string>
   <string>
     <id>880161</id>
     <name>STR_WRAP_CASH_IDSWEEP_02_KISK_LIGHT_FORCE_MEDIUM_HIDE_TREE_MASTER</name>
-    <body>Bundle containing Camouflaged Alliance Kisk (Little Tree)</body>
+    <body>Bundle with a Tree Alliance Kisk</body>
   </string>
   <string>
     <id>880162</id>
@@ -252720,17 +252720,17 @@ Double-click to open.</body>
   <string>
     <id>881893</id>
     <name>STR_CASH_MINION_CONTRACT_A_WEATHA_DESC</name>
-    <body>A Weda minion contract.\nDouble-click to open and become the proud owner of a summoned minion.</body>
+    <body>A minion contract for Weda.\nDouble-click to open and become the proud owner of a summoned minion.</body>
   </string>
   <string>
     <id>881894</id>
     <name>STR_CASH_MINION_CONTRACT_A_CROMEDE_DESC</name>
-    <body>A Kromede minion contract.\nDouble-click to open and become the proud owner of a summoned minion.</body>
+    <body>A minion contract for Kromede.\nDouble-click to open and become the proud owner of a summoned minion.</body>
   </string>
   <string>
     <id>881895</id>
     <name>STR_CASH_MINION_CONTRACT_A_ANCIENTARM_DESC</name>
-    <body>A Hyperion minion contract.\nDouble-click to open and become the proud owner of a summoned minion.</body>
+    <body>A minion contract for Hyperion.\nDouble-click to open and become the proud owner of a summoned minion.</body>
   </string>
   <string>
     <id>881896</id>

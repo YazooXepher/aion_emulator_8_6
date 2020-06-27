@@ -71734,32 +71734,32 @@
   <string>
     <id>714356</id>
     <name>STR_BIND_STONE_LIGHT_SMALL</name>
-    <body>(E) Small Kisk</body>
+    <body>Small Kisk (Elyos)</body>
   </string>
   <string>
     <id>714357</id>
     <name>STR_BIND_STONE_LIGHT_MEDIUM</name>
-    <body>(E) Medium Kisk</body>
+    <body>Medium Kisk (Elyos)</body>
   </string>
   <string>
     <id>714358</id>
     <name>STR_BIND_STONE_LIGHT_LARGE</name>
-    <body>(E) Large Kisk</body>
+    <body>Large Kisk (Elyos)</body>
   </string>
   <string>
     <id>714359</id>
     <name>STR_BIND_STONE_DARK_SMALL</name>
-    <body>(A) Small Kisk</body>
+    <body>Small Kisk (Asmodian)</body>
   </string>
   <string>
     <id>714360</id>
     <name>STR_BIND_STONE_DARK_MEDIUM</name>
-    <body>(A) Medium Kisk</body>
+    <body>Medium Kisk (Asmodian)</body>
   </string>
   <string>
     <id>714361</id>
     <name>STR_BIND_STONE_DARK_LARGE</name>
-    <body>(A) Large Kisk</body>
+    <body>Large Kisk (Asmodian)</body>
   </string>
   <string>
     <id>714362</id>
@@ -207229,12 +207229,12 @@
   <string>
     <id>741533</id>
     <name>STR_WING_DARK_30A_DESC</name>
-    <body>Wings crafted by an apprentice from the 9th Pandaemonium Research Center.</body>
+    <body>Wings crafted by an apprentice from the 9th Pandaemonium Research Centre.</body>
   </string>
   <string>
     <id>741534</id>
     <name>STR_WING_DARK_40A_DESC</name>
-    <body>Greater Wings of superb quality crafted by an expert from the 9th Pandaemonium Research Center.</body>
+    <body>Greater Wings of superb quality crafted by an expert from the 9th Pandaemonium Research Centre.</body>
   </string>
   <string>
     <id>741535</id>
@@ -207619,12 +207619,12 @@
   <string>
     <id>741611</id>
     <name>STR_RMC_BIND_STONE_LIGHT_SMALL</name>
-    <body>[Legion Reward] (E) Small Kisk</body>
+    <body>[Legion Reward] Small Kisk (Elyos)</body>
   </string>
   <string>
     <id>741612</id>
     <name>STR_RMC_BIND_STONE_DARK_SMALL</name>
-    <body>[Legion Reward] (A) Small Kisk</body>
+    <body>[Legion Reward] Small Kisk (Asmodian)</body>
   </string>
   <string>
     <id>741613</id>
@@ -219079,42 +219079,42 @@
   <string>
     <id>743917</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL</name>
-    <body>(E) Personal Kisk</body>
+    <body>Personal Kisk (Elyos)</body>
   </string>
   <string>
     <id>743918</id>
     <name>STR_KISK_LIGHT_PARTY_SMALL</name>
-    <body>(E) Group Kisk</body>
+    <body>Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>743919</id>
     <name>STR_KISK_LIGHT_FORCE_MEDIUM</name>
-    <body>(E) Alliance Kisk</body>
+    <body>Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>743920</id>
     <name>STR_KISK_LIGHT_LEGION_LARGE</name>
-    <body>(E) Legion Kisk</body>
+    <body>Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>743921</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL</name>
-    <body>(A) Personal Kisk</body>
+    <body>Personal Kisk (Asmodian)</body>
   </string>
   <string>
     <id>743922</id>
     <name>STR_KISK_DARK_PARTY_SMALL</name>
-    <body>(A) Group Kisk</body>
+    <body>Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>743923</id>
     <name>STR_KISK_DARK_FORCE_MEDIUM</name>
-    <body>(A) Alliance Kisk</body>
+    <body>Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>743924</id>
     <name>STR_KISK_DARK_LEGION_LARGE</name>
-    <body>(A) Legion Kisk</body>
+    <body>Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>743925</id>
@@ -224699,17 +224699,17 @@
   <string>
     <id>745041</id>
     <name>STR_KEY_LF2A_LAB_04A_DESC</name>
-    <body>A key with a waterdrop-shaped emblem for the left door of the Research Center.</body>
+    <body>A key with a waterdrop-shaped emblem for the left door of the Research Centre.</body>
   </string>
   <string>
     <id>745042</id>
     <name>STR_KEY_LF2A_LAB_04B_DESC</name>
-    <body>A key with a root-shaped emblem for the middle door of the Research Center.</body>
+    <body>A key with a root-shaped emblem for the middle door of the Research Centre.</body>
   </string>
   <string>
     <id>745043</id>
     <name>STR_KEY_LF2A_LAB_04C_DESC</name>
-    <body>A key with a wind-shaped emblem for the right door of the Research Center.</body>
+    <body>A key with a wind-shaped emblem for the right door of the Research Centre.</body>
   </string>
   <string>
     <id>745044</id>
@@ -231789,12 +231789,12 @@
   <string>
     <id>746459</id>
     <name>STR_EVENT_F_KISK_LIGHT_PRIVATE_SMALL</name>
-    <body>[Jakunerk] (E) Personal Reusable Kisk</body>
+    <body>[Jakunerk] Personal Reusable Kisk (Elyos)</body>
   </string>
   <string>
     <id>746460</id>
     <name>STR_EVENT_F_KISK_DARK_PRIVATE_SMALL</name>
-    <body>[Jakunerk] (A) Personal Reusable Kisk</body>
+    <body>[Jakunerk] Personal Reusable Kisk (Asmodian)</body>
   </string>
   <string>
     <id>746461</id>
@@ -238843,32 +238843,32 @@
   <string>
     <id>747869</id>
     <name>STR_EVENT_KISK_LIGHT_PRIVATE_SMALL</name>
-    <body>[Jakunerk] (E) Personal Kisk</body>
+    <body>[Jakunerk] Personal Kisk (Elyos)</body>
   </string>
   <string>
     <id>747870</id>
     <name>STR_EVENT_KISK_LIGHT_PARTY_SMALL</name>
-    <body>[Jakunerk] (E) Group Kisk</body>
+    <body>[Jakunerk] Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>747871</id>
     <name>STR_EVENT_KISK_LIGHT_FORCE_MEDIUM</name>
-    <body>[Jakunerk] (E) Alliance Kisk</body>
+    <body>[Jakunerk] Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>747872</id>
     <name>STR_EVENT_KISK_DARK_PRIVATE_SMALL</name>
-    <body>[Jakunerk] (A) Personal Kisk</body>
+    <body>[Jakunerk] Personal Kisk (Asmodian)</body>
   </string>
   <string>
     <id>747873</id>
     <name>STR_EVENT_KISK_DARK_PARTY_SMALL</name>
-    <body>[Jakunerk] (A) Group Kisk</body>
+    <body>[Jakunerk] Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>747874</id>
     <name>STR_EVENT_KISK_DARK_FORCE_MEDIUM</name>
-    <body>[Jakunerk] (A) Alliance Kisk</body>
+    <body>[Jakunerk] Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>747875</id>
@@ -310003,7 +310003,7 @@
   <string>
     <id>762220</id>
     <name>STR_WING_DARK_30B_DESC</name>
-    <body>Wings made by the 9th Pandaemonium Research Center, which remodeled the Midnight Wings for mass production.</body>
+    <body>Wings made by the 9th Pandaemonium Research Centre, which remodelled the Midnight Wings for mass production.</body>
   </string>
   <string>
     <id>762221</id>
@@ -310013,7 +310013,7 @@
   <string>
     <id>762222</id>
     <name>STR_WING_DARK_30C_DESC</name>
-    <body>Wings made by the 9th Pandaemonium Research Center, which remodeled the Midnight Wings for use by commander-rank officers.</body>
+    <body>Wings made by the 9th Pandaemonium Research Centre, which remodelled the Midnight Wings for use by commander-rank officers.</body>
   </string>
   <string>
     <id>762223</id>
@@ -327153,202 +327153,202 @@
   <string>
     <id>765658</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_SNOW01</name>
-    <body>(E) Tundra Personal Kisk</body>
+    <body>Tundra Personal Kisk (Elyos)</body>
   </string>
   <string>
     <id>765659</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_WAVE01</name>
-    <body>(E) Marine Personal Kisk</body>
+    <body>Marine Personal Kisk (Elyos)</body>
   </string>
   <string>
     <id>765660</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_DESERT01</name>
-    <body>(E) Sandy Personal Kisk</body>
+    <body>Sandy Personal Kisk (Elyos)</body>
   </string>
   <string>
     <id>765661</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_LAVA01</name>
-    <body>(E) Fiery Personal Kisk</body>
+    <body>Fiery Personal Kisk (Elyos)</body>
   </string>
   <string>
     <id>765662</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_GRASS01</name>
-    <body>(E) Steppe Personal Kisk</body>
+    <body>Steppe Personal Kisk (Elyos)</body>
   </string>
   <string>
     <id>765663</id>
     <name>STR_KISK_LIGHT_PARTY_SMALL_SNOW01</name>
-    <body>(E) Tundra Group Kisk</body>
+    <body>Tundra Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>765664</id>
     <name>STR_KISK_LIGHT_PARTY_SMALL_WAVE01</name>
-    <body>(E) Marine Group Kisk</body>
+    <body>Marine Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>765665</id>
     <name>STR_KISK_LIGHT_PARTY_SMALL_DESERT01</name>
-    <body>(E) Sandy Group Kisk</body>
+    <body>Sandy Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>765666</id>
     <name>STR_KISK_LIGHT_PARTY_SMALL_LAVA01</name>
-    <body>(E) Fiery Group Kisk</body>
+    <body>Fiery Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>765667</id>
     <name>STR_KISK_LIGHT_PARTY_SMALL_GRASS01</name>
-    <body>(E) Steppe Group Kisk</body>
+    <body>Steppe Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>765668</id>
     <name>STR_KISK_LIGHT_FORCE_MEDIUM_SNOW01</name>
-    <body>(E) Tundra Alliance Kisk</body>
+    <body>Tundra Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>765669</id>
     <name>STR_KISK_LIGHT_FORCE_MEDIUM_WAVE01</name>
-    <body>(E) Marine Alliance Kisk</body>
+    <body>Marine Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>765670</id>
     <name>STR_KISK_LIGHT_FORCE_MEDIUM_DESERT01</name>
-    <body>(E) Sandy Alliance Kisk</body>
+    <body>Sandy Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>765671</id>
     <name>STR_KISK_LIGHT_FORCE_MEDIUM_LAVA01</name>
-    <body>(E) Fiery Alliance Kisk</body>
+    <body>Fiery Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>765672</id>
     <name>STR_KISK_LIGHT_FORCE_MEDIUM_GRASS01</name>
-    <body>(E) Steppe Alliance Kisk</body>
+    <body>Steppe Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>765673</id>
     <name>STR_KISK_LIGHT_LEGION_LARGE_SNOW01</name>
-    <body>(E) Tundra Legion Kisk</body>
+    <body>Tundra Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>765674</id>
     <name>STR_KISK_LIGHT_LEGION_LARGE_WAVE01</name>
-    <body>(E) Marine Legion Kisk</body>
+    <body>Marine Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>765675</id>
     <name>STR_KISK_LIGHT_LEGION_LARGE_DESERT01</name>
-    <body>(E) Sandy Legion Kisk</body>
+    <body>Sandy Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>765676</id>
     <name>STR_KISK_LIGHT_LEGION_LARGE_LAVA01</name>
-    <body>(E) Fiery Legion Kisk</body>
+    <body>Fiery Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>765677</id>
     <name>STR_KISK_LIGHT_LEGION_LARGE_GRASS01</name>
-    <body>(E) Steppe Legion Kisk</body>
+    <body>Steppe Legion Kisk (Elyos)</body>
   </string>
   <string>
     <id>765678</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_SNOW01</name>
-    <body>(A) Tundra Personal Kisk</body>
+    <body>Tundra Personal Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765679</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_WAVE01</name>
-    <body>(A) Marine Personal Kisk</body>
+    <body>Marine Personal Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765680</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_DESERT01</name>
-    <body>(A) Sandy Personal Kisk</body>
+    <body>Sandy Personal Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765681</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_LAVA01</name>
-    <body>(A) Fiery Personal Kisk</body>
+    <body>Fiery Personal Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765682</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_GRASS01</name>
-    <body>(A) Steppe Personal Kisk</body>
+    <body>Steppe Personal Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765683</id>
     <name>STR_KISK_DARK_PARTY_SMALL_SNOW01</name>
-    <body>(A) Tundra Group Kisk</body>
+    <body>Tundra Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765684</id>
     <name>STR_KISK_DARK_PARTY_SMALL_WAVE01</name>
-    <body>(A) Marine Group Kisk</body>
+    <body>Marine Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765685</id>
     <name>STR_KISK_DARK_PARTY_SMALL_DESERT01</name>
-    <body>(A) Sandy Group Kisk</body>
+    <body>Sandy Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765686</id>
     <name>STR_KISK_DARK_PARTY_SMALL_LAVA01</name>
-    <body>(A) Fiery Group Kisk</body>
+    <body>Fiery Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765687</id>
     <name>STR_KISK_DARK_PARTY_SMALL_GRASS01</name>
-    <body>(A) Steppe Group Kisk</body>
+    <body>Steppe Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765688</id>
     <name>STR_KISK_DARK_FORCE_MEDIUM_SNOW01</name>
-    <body>(A) Tundra Alliance Kisk</body>
+    <body>Tundra Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765689</id>
     <name>STR_KISK_DARK_FORCE_MEDIUM_WAVE01</name>
-    <body>(A) Marine Alliance Kisk</body>
+    <body>Marine Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765690</id>
     <name>STR_KISK_DARK_FORCE_MEDIUM_DESERT01</name>
-    <body>(A) Sandy Alliance Kisk</body>
+    <body>Sandy Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765691</id>
     <name>STR_KISK_DARK_FORCE_MEDIUM_LAVA01</name>
-    <body>(A) Fiery Alliance Kisk</body>
+    <body>Fiery Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765692</id>
     <name>STR_KISK_DARK_FORCE_MEDIUM_GRASS01</name>
-    <body>(A) Steppe Alliance Kisk</body>
+    <body>Steppe Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765693</id>
     <name>STR_KISK_DARK_LEGION_LARGE_SNOW01</name>
-    <body>(A) Tundra Legion Kisk</body>
+    <body>Tundra Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765694</id>
     <name>STR_KISK_DARK_LEGION_LARGE_WAVE01</name>
-    <body>(A) Marine Legion Kisk</body>
+    <body>Marine Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765695</id>
     <name>STR_KISK_DARK_LEGION_LARGE_DESERT01</name>
-    <body>(A) Sandy Legion Kisk</body>
+    <body>Sandy Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765696</id>
     <name>STR_KISK_DARK_LEGION_LARGE_LAVA01</name>
-    <body>(A) Fiery Legion Kisk</body>
+    <body>Fiery Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765697</id>
     <name>STR_KISK_DARK_LEGION_LARGE_GRASS01</name>
-    <body>(A) Steppe Legion Kisk</body>
+    <body>Steppe Legion Kisk (Asmodian)</body>
   </string>
   <string>
     <id>765698</id>
@@ -327358,22 +327358,22 @@
   <string>
     <id>765699</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_WAVE01_DESC</name>
-    <body>Summons a Marine Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Tundra Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the kisk.</body>
   </string>
   <string>
     <id>765700</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_DESERT01_DESC</name>
-    <body>Summons a Sandy Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Tundra Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the kisk.</body>
   </string>
   <string>
     <id>765701</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_LAVA01_DESC</name>
-    <body>Summons a Fiery Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Tundra Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the kisk.</body>
   </string>
   <string>
     <id>765702</id>
     <name>STR_KISK_LIGHT_PRIVATE_SMALL_GRASS01_DESC</name>
-    <body>Summons a Steppe Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Tundra Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the kisk.</body>
   </string>
   <string>
     <id>765703</id>
@@ -327458,22 +327458,22 @@
   <string>
     <id>765719</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_WAVE01_DESC</name>
-    <body>Summons a Marine Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Tundra Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the kisk.</body>
   </string>
   <string>
     <id>765720</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_DESERT01_DESC</name>
-    <body>Summons a Sandy Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Tundra Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the kisk.</body>
   </string>
   <string>
     <id>765721</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_LAVA01_DESC</name>
-    <body>Summons a Fiery Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Tundra Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the kisk.</body>
   </string>
   <string>
     <id>765722</id>
     <name>STR_KISK_DARK_PRIVATE_SMALL_GRASS01_DESC</name>
-    <body>Summons a Steppe Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the Kisk.</body>
+    <body>Summons a Tundra Kisk which resurrects the fallen at its location. It lasts for 2 hours and has a cooldown time of 30 minutes.\nOnly the caster can use the kisk.</body>
   </string>
   <string>
     <id>765723</id>

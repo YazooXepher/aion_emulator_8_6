@@ -129191,7 +129191,7 @@
   <string>
     <id>791605</id>
     <name>STR_JUNK_WORLD_EVENT_WEBSHOP_01A</name>
-    <body>[Jakunerk] Pilit Cloth Bandana</body>
+    <body>[Jakunerk] Tulip Headband</body>
   </string>
   <string>
     <id>791606</id>
@@ -152162,7 +152162,7 @@
   <string>
     <id>796161</id>
     <name>STR_WORLD_EVENT_HEAD_FLOWER_02_FESTA_1</name>
-    <body>[Jakunerk] Festive Tulip Hairband (1 day)</body>
+    <body>[Jakunerk] Festive Tulip Headband (1 day)</body>
   </string>
   <string>
     <id>796162</id>
@@ -180910,7 +180910,7 @@
   <string>
     <id>801857</id>
     <name>STR_KEY_FORTRESS_TEST_01</name>
-    <body>Research Center Key</body>
+    <body>Research Centre Key</body>
   </string>
   <string>
     <id>801858</id>
@@ -181685,7 +181685,7 @@
   <string>
     <id>802012</id>
     <name>STR_KEY_IDLDF5RE_SOLO_02</name>
-    <body>Key to the Idgel Storehouse</body>
+    <body>Key for the Camp of the Ancestors</body>
   </string>
   <string>
     <id>802013</id>
@@ -181695,7 +181695,7 @@
   <string>
     <id>802014</id>
     <name>STR_KEY_IDLDF5RE_SOLO_02_DESC</name>
-    <body>It's the key that opens the Idgel Storehouse.</body>
+    <body>A key that opens the Camp of the Ancestors.</body>
   </string>
   <string>
     <id>802015</id>
@@ -202405,7 +202405,7 @@
   <string>
     <id>806156</id>
     <name>STR_EVENT_KISK_LIGHT_FORCE_MEDIUM_CAKE_01</name>
-    <body>[Jakunerk] Cake-shaped Victory Wish Kisk</body>
+    <body>[Jakunerk] Victory Cake Kisk</body>
   </string>
   <string>
     <id>806157</id>
@@ -202415,7 +202415,7 @@
   <string>
     <id>806158</id>
     <name>STR_EVENT_KISK_DARK_FORCE_MEDIUM_CAKE_01</name>
-    <body>[Jakunerk] Cake-shaped Victory Wish Kisk</body>
+    <body>[Jakunerk] Victory Cake Kisk</body>
   </string>
   <string>
     <id>806159</id>
@@ -214447,12 +214447,12 @@
   <string>
     <id>808568</id>
     <name>STR_WORLD_CASH_KISK_LIGHT_PARTY_SMALL_SPECIAL</name>
-    <body>(E) Small Group Kisk</body>
+    <body>Small Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>808569</id>
     <name>STR_WORLD_CASH_KISK_DARK_PARTY_SMALL_SPECIAL</name>
-    <body>(A) Small Group Kisk</body>
+    <body>Small Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>808570</id>
@@ -225887,22 +225887,22 @@
   <string>
     <id>810856</id>
     <name>STR_KISK_LIGHT_PARTY_SMALL_HIDE</name>
-    <body>(E) Camouflaged Group Kisk</body>
+    <body>Camouflaged Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>810857</id>
     <name>STR_KISK_LIGHT_FORCE_MEDIUM_HIDE</name>
-    <body>(E) Camouflaged Alliance Kisk</body>
+    <body>Camouflaged Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>810858</id>
     <name>STR_KISK_DARK_PARTY_SMALL_HIDE</name>
-    <body>(A) Camouflaged Group Kisk</body>
+    <body>Camouflaged Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>810859</id>
     <name>STR_KISK_DARK_FORCE_MEDIUM_HIDE</name>
-    <body>(A) Camouflaged Alliance Kisk</body>
+    <body>Camouflaged Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>810860</id>
@@ -226667,12 +226667,12 @@
   <string>
     <id>811012</id>
     <name>STR_KISK_LIGHT_PARTY_SMALL_HIDE_B</name>
-    <body>(E) Camouflaged Group Kisk</body>
+    <body>Camouflaged Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>811013</id>
     <name>STR_KISK_DARK_PARTY_SMALL_HIDE_B</name>
-    <body>(A) Camouflaged Group Kisk</body>
+    <body>Camouflaged Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>811014</id>
@@ -280979,22 +280979,22 @@
   <string>
     <id>821874</id>
     <name>STR_ANCIENT_COIN_KISK_LIGHT_PARTY_HIDE</name>
-    <body>(E) Camouflaged Group Kisk</body>
+    <body>Camouflaged Group Kisk (Elyos)</body>
   </string>
   <string>
     <id>821875</id>
     <name>STR_ANCIENT_COIN_KISK_LIGHT_FORCE_HIDE</name>
-    <body>(E) Camouflaged Alliance Kisk</body>
+    <body>Camouflaged Alliance Kisk (Elyos)</body>
   </string>
   <string>
     <id>821876</id>
     <name>STR_ANCIENT_COIN_KISK_DARK_PARTY_HIDE</name>
-    <body>(A) Camouflaged Group Kisk</body>
+    <body>Camouflaged Group Kisk (Asmodian)</body>
   </string>
   <string>
     <id>821877</id>
     <name>STR_ANCIENT_COIN_KISK_DARK_FORCE_HIDE</name>
-    <body>(A) Camouflaged Alliance Kisk</body>
+    <body>Camouflaged Alliance Kisk (Asmodian)</body>
   </string>
   <string>
     <id>821878</id>
@@ -285736,7 +285736,7 @@
   <string>
     <id>822810</id>
     <name>STR_KEY_IDLDF5RE_02_03</name>
-    <body>Research Center Key</body>
+    <body>Research Centre Key</body>
   </string>
   <string>
     <id>822811</id>
