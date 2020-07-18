@@ -183584,7 +183584,7 @@ This item can only be used in the Genesis Battle Arena. Disappears when you leav
   <string>
     <id>2018807</id>
     <name>STR_CASH_ANOTHER_TRANS_CONTRACT_02_9EA_DESC</name>
-    <body>A contract for a legendary Apostle or an Irunin transformation as well as an ultimate transformation.\nDouble-click to use.</body>
+    <body>A contract for a legendary or an ultimate Apostle or Irunin transformation.\nDouble-click to use.</body>
   </string>
   <string>
     <id>2018808</id>
@@ -190185,6 +190185,16 @@ Increases [%e3.StatUp.StatName3] by [%e3.StatUp.Value3]%%.</body>
     <body>Increases your Glory XP gain by 50%% for 30 min.\nDouble-click to open.</body>
   </string>
   <string>
+    <id>2024869</id>
+    <name>STR_WORLD_CASH_MS_TORSO_PARTYDRESS_01</name>
+    <body>Gala Dress</body>
+  </string>
+  <string>
+    <id>2024870</id>
+    <name>STR_WORLD_CASH_HEAD_PARTYDRESS_01</name>
+    <body>Gala Hat</body>
+  </string>
+  <string>
     <id>2024903</id>
     <name>STR_WORLD_CASH_COIN_ANOTHER_01</name>
     <body>[Rune] Balaurea Coin</body>
@@ -190692,7 +190702,7 @@ Increases [%e3.StatUp.StatName3] by [%e3.StatUp.Value3]%%.</body>
   <string>
     <id>2025455</id>
     <name>STR_WORLD_EU_BOBA_CASH_PETCARD_WARE_U_LITTLESHUGOF_01</name>
-    <body>Shugo Lad Egg</body>
+    <body>Shugo Lass Egg</body>
   </string>
   <string>
     <id>2025456</id>
@@ -190768,6 +190778,16 @@ Increases [%e3.StatUp.StatName3] by [%e3.StatUp.Value3]%%.</body>
     <id>2025470</id>
     <name>STR_WORLD_EU_BOBA_WRAP_CASH_MATTER_ENCHANT_BOX_DESC</name>
     <body>Contains an ultimate [Rune] PvE or [Rune] PvP Enchantment Stone.\nDouble-click to open.</body>
+  </string>
+  <string>
+    <id>2025485</id>
+    <name>STR_WORLD_CASH_ADD_CUSTOMIZE_MOTION_WALKWAY3_IDLE</name>
+    <body>[Motion Card] Pleasant Outing</body>
+  </string>
+  <string>
+    <id>2025486</id>
+    <name>STR_WORLD_CASH_ADD_CUSTOMIZE_MOTION_WALKWAY3_IDLE_DESC</name>
+    <body>You go on a pleasant outing while you wait.</body>
   </string>
   <string>
     <id>2025519</id>
@@ -191083,5 +191103,95 @@ Increases [%e3.StatUp.StatName3] by [%e3.StatUp.Value3]%%.</body>
     <id>2025583</id>
     <name>STR_WORLD_EU_PL_HEAD_IDCATACOMBS_PVE_A0_A_58A</name>
     <body>Ancient Stormwing's Plate Helm</body>
+  </string>
+  <string>
+    <id>2025634</id>
+    <name>STR_WORLD_WRAP_ODIAN_GOLD_01</name>
+    <body>Golden Odian Chest</body>
+  </string>
+  <string>
+    <id>2025635</id>
+    <name>STR_WORLD_WRAP_ODIAN_NORMAL_01</name>
+    <body>Regular Odian Chest</body>
+  </string>
+  <string>
+    <id>2025636</id>
+    <name>STR_WORLD_WRAP_RUNE_GOLD_01</name>
+    <body>Golden Rune Chest</body>
+  </string>
+  <string>
+    <id>2025637</id>
+    <name>STR_WORLD_WRAP_RUNE_NORMAL_01</name>
+    <body>Regular Rune Chest</body>
+  </string>
+  <string>
+    <id>2025638</id>
+    <name>STR_WORLD_WRAP_ODIAN_GOLD_01_DESC</name>
+    <body>Contains Odians.\nDouble-click to open.</body>
+  </string>
+  <string>
+    <id>2025639</id>
+    <name>STR_WORLD_WRAP_ODIAN_NORMAL_01_DESC</name>
+    <body>Contains Odians.\nDouble-click to open.</body>
+  </string>
+  <string>
+    <id>2025640</id>
+    <name>STR_WORLD_WRAP_RUNE_GOLD_01_DESC</name>
+    <body>Contains Runes.\nDouble-click to open.</body>
+  </string>
+  <string>
+    <id>2025641</id>
+    <name>STR_WORLD_WRAP_RUNE_NORMAL_01_DESC</name>
+    <body>Contains Runes.\nDouble-click to open.</body>
+  </string>
+  <string>
+    <id>2025650</id>
+    <name>STR_WORLD_WRAP_CASH_LUXURY_LUCKYBOX_01</name>
+    <body>[Rune] MuMu Alpha Box</body>
+  </string>
+  <string>
+    <id>2025651</id>
+    <name>STR_WORLD_WRAP_CASH_LUXURY_LUCKYBOX_02</name>
+    <body>[Rune] Luxurinerk’s Mega Alpha Box</body>
+  </string>
+  <string>
+    <id>2025652</id>
+    <name>STR_WORLD_WRAP_CASH_LUXURY_LUCKYBOX_01_DESC</name>
+    <body>A fantastic surprise box.\nDouble-click to open.</body>
+  </string>
+  <string>
+    <id>2025653</id>
+    <name>STR_WORLD_WRAP_CASH_LUXURY_LUCKYBOX_02_DESC</name>
+    <body>A magnificent box from Luxurinerk.\nDouble-click to open.</body>
+  </string>
+  <string>
+    <id>2025741</id>
+    <name>STR_WORLD_EU_CH_TORSO_N_E_LOOK_P_69A</name>
+    <body>Mended Tunic of the Steel Rose Pirates</body>
+  </string>
+  <string>
+    <id>2025742</id>
+    <name>STR_WORLD_EU_CH_GLOVE_N_E_LOOK_P_69A</name>
+    <body>Mended Cloth Gloves of the Steel Rose Pirates</body>
+  </string>
+  <string>
+    <id>2025743</id>
+    <name>STR_WORLD_EU_CH_SHOULDER_N_E_LOOK_P_69A</name>
+    <body>Mended Pauldrons of the Steel Rose Pirates</body>
+  </string>
+  <string>
+    <id>2025744</id>
+    <name>STR_WORLD_EU_CH_PANTS_N_E_LOOK_P_69A</name>
+    <body>Mended Cloth Breeches of the Steel Rose Pirates</body>
+  </string>
+  <string>
+    <id>2025745</id>
+    <name>STR_WORLD_EU_CH_SHOES_N_E_LOOK_P_69A</name>
+    <body>Mended Cloth Shoes of the Steel Rose Pirates</body>
+  </string>
+  <string>
+    <id>2025746</id>
+    <name>STR_WORLD_EU_CH_HEAD_N_E_LOOK_P_69A</name>
+    <body>Mended Cloth Bandana of the Steel Rose Pirates</body>
   </string>
 </strings>

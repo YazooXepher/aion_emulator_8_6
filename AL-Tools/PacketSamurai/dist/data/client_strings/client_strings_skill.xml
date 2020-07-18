@@ -119423,7 +119423,7 @@ Increases PvP attack and defence.</body>
   <string>
     <id>2285086</id>
     <name>STR_LDF5_F_GuardianHead_PerfectDefend_DESC</name>
-    <body>The Steel Wall is removed when you recapture all Balaur defence bases.</body>
+    <body>The Steel Wall will be removed if all castle gates are destroyed.</body>
   </string>
   <string>
     <id>2285087</id>
@@ -178252,6 +178252,16 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
     <id>2296548</id>
     <name>STR_WORLD_US_CHOCOLATE_HEART_BUFF_DESC</name>
     <body>Increases the chance of loot by 10%%, [%e2.StatUp.StatName] by [%e2.StatUp.Value], [%e2.StatUp.StatName2] by [%e2.StatUp.Value2] and [%e2.StatUp.StatName3] by [%e2.StatUp.Value3]%% for [%e1.DrBoost.RemainTime].</body>
+  </string>
+  <string>
+    <id>2296557</id>
+    <name>STR_Ab1_F_GuardianHead_Idle</name>
+    <body>Steel Wall</body>
+  </string>
+  <string>
+    <id>2296558</id>
+    <name>STR_Ab1_F_GuardianHead_Idle_DESC</name>
+    <body>The Steel Wall is removed when you recapture all Balaur defence bases.</body>
   </string>
   <string>
     <id>2296624</id>
