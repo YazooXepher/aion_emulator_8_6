@@ -5118,22 +5118,22 @@
   <string>
     <id>832353</id>
     <name>STR_WORLD_CASH_CHANGESKIN_PL_TORSO_N_E1_60A</name>
-    <body>Ancient Spirit's Breastplate</body>
+    <body>Primal Spirit Breastplate</body>
   </string>
   <string>
     <id>832354</id>
     <name>STR_WORLD_CASH_CHANGESKIN_CH_TORSO_N_E1_60A</name>
-    <body>Ancient Spirit's Hauberk</body>
+    <body>Primal Spirit Hauberk</body>
   </string>
   <string>
     <id>832355</id>
     <name>STR_WORLD_CASH_CHANGESKIN_LT_TORSO_N_E1_60A</name>
-    <body>Ancient Spirit's Jerkin</body>
+    <body>Primal Spirit Jerkin</body>
   </string>
   <string>
     <id>832356</id>
     <name>STR_WORLD_CASH_CHANGESKIN_RB_TORSO_N_E1_60A</name>
-    <body>Ancient Spirit's Tunic</body>
+    <body>Primal Spirit Tunic</body>
   </string>
   <string>
     <id>832357</id>
@@ -5158,22 +5158,22 @@
   <string>
     <id>832361</id>
     <name>STR_WORLD_CASH_CHANGESKIN_PL_GLOVE_N_E1_60A</name>
-    <body>Ancient Spirit's Plate Gauntlets</body>
+    <body>Primal Spirit Plate Gauntlets</body>
   </string>
   <string>
     <id>832362</id>
     <name>STR_WORLD_CASH_CHANGESKIN_CH_GLOVE_N_E1_60A</name>
-    <body>Ancient Spirit's Chain Gauntlets</body>
+    <body>Primal Spirit Chain Gauntlets</body>
   </string>
   <string>
     <id>832363</id>
     <name>STR_WORLD_CASH_CHANGESKIN_LT_GLOVE_N_E1_60A</name>
-    <body>Ancient Spirit's Vambraces</body>
+    <body>Primal Spirit Vambraces</body>
   </string>
   <string>
     <id>832364</id>
     <name>STR_WORLD_CASH_CHANGESKIN_RB_GLOVE_N_E1_60A</name>
-    <body>Ancient Spirit's Cloth Gloves</body>
+    <body>Primal Spirit Cloth Gloves</body>
   </string>
   <string>
     <id>832365</id>
@@ -5198,22 +5198,22 @@
   <string>
     <id>832369</id>
     <name>STR_WORLD_CASH_CHANGESKIN_PL_SHOULDER_N_E1_60A</name>
-    <body>Ancient Spirit's Plate Spaulders</body>
+    <body>Primal Spirit Plate Spaulders</body>
   </string>
   <string>
     <id>832370</id>
     <name>STR_WORLD_CASH_CHANGESKIN_CH_SHOULDER_N_E1_60A</name>
-    <body>Ancient Spirit's Chain Pauldrons</body>
+    <body>Primal Spirit Chain Pauldrons</body>
   </string>
   <string>
     <id>832371</id>
     <name>STR_WORLD_CASH_CHANGESKIN_LT_SHOULDER_N_E1_60A</name>
-    <body>Ancient Spirit's Leather Spaulders</body>
+    <body>Primal Spirit Leather Spaulders</body>
   </string>
   <string>
     <id>832372</id>
     <name>STR_WORLD_CASH_CHANGESKIN_RB_SHOULDER_N_E1_60A</name>
-    <body>Ancient Spirit's Cloth Spaulders</body>
+    <body>Primal Spirit Pauldrons</body>
   </string>
   <string>
     <id>832373</id>
@@ -5238,22 +5238,22 @@
   <string>
     <id>832377</id>
     <name>STR_WORLD_CASH_CHANGESKIN_PL_PANTS_N_E1_60A</name>
-    <body>Ancient Spirit's Plate Chausses</body>
+    <body>Primal Spirit Plate Chausses</body>
   </string>
   <string>
     <id>832378</id>
     <name>STR_WORLD_CASH_CHANGESKIN_CH_PANTS_N_E1_60A</name>
-    <body>Ancient Spirit's Chain Leggings</body>
+    <body>Primal Spirit Chain Leggings</body>
   </string>
   <string>
     <id>832379</id>
     <name>STR_WORLD_CASH_CHANGESKIN_LT_PANTS_N_E1_60A</name>
-    <body>Ancient Spirit's Leather Breeches</body>
+    <body>Primal Spirit Leather Breeches</body>
   </string>
   <string>
     <id>832380</id>
     <name>STR_WORLD_CASH_CHANGESKIN_RB_PANTS_N_E1_60A</name>
-    <body>Ancient Spirit's Cloth Breeches</body>
+    <body>Primal Spirit Cloth Breeches</body>
   </string>
   <string>
     <id>832381</id>
@@ -5278,22 +5278,22 @@
   <string>
     <id>832385</id>
     <name>STR_WORLD_CASH_CHANGESKIN_PL_SHOES_N_E1_60A</name>
-    <body>Ancient Spirit's Plate Sabatons</body>
+    <body>Primal Spirit Plate Sabatons</body>
   </string>
   <string>
     <id>832386</id>
     <name>STR_WORLD_CASH_CHANGESKIN_CH_SHOES_N_E1_60A</name>
-    <body>Ancient Spirit's Chain Sabatons</body>
+    <body>Primal Spirit Chain Sabatons</body>
   </string>
   <string>
     <id>832387</id>
     <name>STR_WORLD_CASH_CHANGESKIN_LT_SHOES_N_E1_60A</name>
-    <body>Ancient Spirit's Leather Shoes</body>
+    <body>Primal Spirit Leather Shoes</body>
   </string>
   <string>
     <id>832388</id>
     <name>STR_WORLD_CASH_CHANGESKIN_RB_SHOES_N_E1_60A</name>
-    <body>Ancient Spirit's Cloth Shoes</body>
+    <body>Primal Spirit Cloth Shoes</body>
   </string>
   <string>
     <id>832389</id>
@@ -5303,7 +5303,7 @@
   <string>
     <id>832390</id>
     <name>STR_WORLD_CASH_CHANGESKIN_SHIELD_N_U1_KN_60A</name>
-    <body>Ancient Spirit's Shield</body>
+    <body>Primal Spirit Shield</body>
   </string>
   <string>
     <id>832391</id>
@@ -5828,7 +5828,7 @@
   <string>
     <id>832495</id>
     <name>STR_wing_cash_element_cash</name>
-    <body>Wings of the Ancient Spirit</body>
+    <body>Primal Spirit Wings</body>
   </string>
   <string>
     <id>832496</id>
@@ -37103,7 +37103,7 @@
   <string>
     <id>838750</id>
     <name>STR_WRAP_EVENT_2014YEAR_IDELEMENTAL_ARMOR_E_60</name>
-    <body>[Jakunerk] Ancient Spirit's Eternal Armour Chest</body>
+    <body>[Jakunerk] Primal Spirit Eternal Armour Chest</body>
   </string>
   <string>
     <id>838751</id>
@@ -37133,7 +37133,7 @@
   <string>
     <id>838756</id>
     <name>STR_WRAP_EVENT_2014YEAR_IDELEMENTAL_ARMOR_E_60_DESC</name>
-    <body>Contains Ancient Spirit's eternal armour parts.\nDouble-click to open.</body>
+    <body>Contains Primal Spirit eternal armour parts.\nDouble-click to open.</body>
   </string>
   <string>
     <id>838757</id>
@@ -38698,32 +38698,32 @@
   <string>
     <id>839069</id>
     <name>STR_WRAP_EVENT_XENOPHON_ALL_HEAD_E_60A</name>
-    <body>[Jakunerk] Box for the Ancient Spirit's Hat</body>
+    <body>[Jakunerk] Primal Spirit Hat Box</body>
   </string>
   <string>
     <id>839070</id>
     <name>STR_WRAP_EVENT_XENOPHON_PL_HEAD_E_60A</name>
-    <body>[Jakunerk] Box for the Ancient Spirit's Plate Helm</body>
+    <body>[Jakunerk] Primal Spirit Plate Helm Box</body>
   </string>
   <string>
     <id>839071</id>
     <name>STR_WRAP_EVENT_XENOPHON_CH_HEAD_E_60A</name>
-    <body>[Jakunerk] Box for the Ancient Spirit's Chain Helm</body>
+    <body>[Jakunerk] Primal Spirit Chain Helm Box</body>
   </string>
   <string>
     <id>839072</id>
     <name>STR_WRAP_EVENT_XENOPHON_CH_HEAD_E_60B</name>
-    <body>[Jakunerk] Box for the Ancient Spirit's Chain Battle Hood</body>
+    <body>[Jakunerk] Primal Spirit Chain Battle Hood Box</body>
   </string>
   <string>
     <id>839073</id>
     <name>STR_WRAP_EVENT_XENOPHON_LT_HEAD_E_60A</name>
-    <body>[Jakunerk] Box for the Ancient Spirit's Leather Hat</body>
+    <body>[Jakunerk] Primal Spirit Leather Hat Box</body>
   </string>
   <string>
     <id>839074</id>
     <name>STR_WRAP_EVENT_XENOPHON_RB_HEAD_E_60A</name>
-    <body>[Jakunerk] Box for the Ancient Spirit's Cloth Bandana</body>
+    <body>[Jakunerk] Primal Spirit Cloth Bandana Box</body>
   </string>
   <string>
     <id>839075</id>
@@ -38743,32 +38743,32 @@
   <string>
     <id>839078</id>
     <name>STR_WRAP_EVENT_XENOPHON_ALL_HEAD_E_60A_DESC</name>
-    <body>Contains various Ancient Spirit's hats.\nDouble-click to open.</body>
+    <body>Contains various Primal Spirit hats.\nDouble-click to open.</body>
   </string>
   <string>
     <id>839079</id>
     <name>STR_WRAP_EVENT_XENOPHON_PL_HEAD_E_60A_DESC</name>
-    <body>Contains an Ancient Spirit's Plate Helm.\nDouble-click to open.</body>
+    <body>Contains a Primal Spirit Plate Helm.\nDouble-click to open.</body>
   </string>
   <string>
     <id>839080</id>
     <name>STR_WRAP_EVENT_XENOPHON_CH_HEAD_E_60A_DESC</name>
-    <body>Contains an Ancient Spirit's Chain Helm.\nDouble-click to open.</body>
+    <body>Contains a Primal Spirit Chain Helm.\nDouble-click to open.</body>
   </string>
   <string>
     <id>839081</id>
     <name>STR_WRAP_EVENT_XENOPHON_CH_HEAD_E_60B_DESC</name>
-    <body>Contains an Ancient Spirit's Chain Headwear.\nDouble-click to open.</body>
+    <body>Contains some Primal Spirit Chain Headwear.\nDouble-click to open.</body>
   </string>
   <string>
     <id>839082</id>
     <name>STR_WRAP_EVENT_XENOPHON_LT_HEAD_E_60A_DESC</name>
-    <body>Contains an Ancient Spirit's Leather Hat.\nDouble-click to open.</body>
+    <body>Contains a Primal Spirit Leather Hat.\nDouble-click to open.</body>
   </string>
   <string>
     <id>839083</id>
     <name>STR_WRAP_EVENT_XENOPHON_RB_HEAD_E_60A_DESC</name>
-    <body>Contains an Ancient Spirit's Cloth Bandana.\nDouble-click to open.</body>
+    <body>Contains a Primal Spirit Cloth Bandana.\nDouble-click to open.</body>
   </string>
   <string>
     <id>839084</id>
@@ -83438,7 +83438,7 @@
   <string>
     <id>848025</id>
     <name>STR_UP_EQUIPMENT_N_M_IDELEMENTAL_65A</name>
-    <body>Ancient Spirit's Ore</body>
+    <body>Primal Spirit Ore</body>
   </string>
   <string>
     <id>848026</id>
@@ -83488,7 +83488,7 @@
   <string>
     <id>848035</id>
     <name>STR_UP_EQUIPMENT_N_M_IDELEMENTAL_65A_DESC</name>
-    <body>Ancient Spirit's ore.\nIt can be exchanged for Ancient Spirit's equipment.</body>
+    <body>The ore of a Primal Spirit.\nIt can be exchanged for Primal Spirit equipment.</body>
   </string>
   <string>
     <id>848036</id>
@@ -86648,32 +86648,32 @@
   <string>
     <id>848667</id>
     <name>STR_EARRING_U_IDLF2A_MASTER_50A</name>
-    <body>Ancient Spirit's Master Ruby Earring</body>
+    <body>Primal Spirit Master Ruby Earring</body>
   </string>
   <string>
     <id>848668</id>
     <name>STR_RING_U_IDLF2A_MASTER_50A</name>
-    <body>Ancient Spirit's Master Ruby Ring</body>
+    <body>Primal Spirit Master Ruby Ring</body>
   </string>
   <string>
     <id>848669</id>
     <name>STR_NECKLACE_U_IDLF2A_MASTER_50A</name>
-    <body>Ancient Spirit's Master Ruby Necklace</body>
+    <body>Primal Spirit Master Ruby Necklace</body>
   </string>
   <string>
     <id>848670</id>
     <name>STR_EARRING_U_IDLF2A_MASTER_50B</name>
-    <body>Ancient Spirit's Master Sapphire Earring</body>
+    <body>Primal Spirit Master Sapphire Earring</body>
   </string>
   <string>
     <id>848671</id>
     <name>STR_RING_U_IDLF2A_MASTER_50B</name>
-    <body>Ancient Spirit's Master Sapphire Ring</body>
+    <body>Primal Spirit Master Sapphire Ring</body>
   </string>
   <string>
     <id>848672</id>
     <name>STR_NECKLACE_U_IDLF2A_MASTER_50B</name>
-    <body>Ancient Spirit's Master Sapphire Necklace</body>
+    <body>Primal Spirit Master Sapphire Necklace</body>
   </string>
   <string>
     <id>848673</id>
@@ -91418,12 +91418,12 @@
   <string>
     <id>849621</id>
     <name>STR_ACC_IDLF2A_MASTER_50A</name>
-    <body>Ancient Spirit's Master Ruby Set</body>
+    <body>Primal Spirit Master Ruby Set</body>
   </string>
   <string>
     <id>849622</id>
     <name>STR_ACC_IDLF2A_MASTER_50B</name>
-    <body>Ancient Spirit's Master Sapphire Set</body>
+    <body>Primal Spirit Master Sapphire Set</body>
   </string>
   <string>
     <id>849623</id>
@@ -100618,17 +100618,17 @@
   <string>
     <id>851463</id>
     <name>STR_EVENT_EARRING_N_L2_50A</name>
-    <body>Ancient Spirit's Mysterious Ruby Earring</body>
+    <body>Primal Spirit Mysterious Ruby Earring</body>
   </string>
   <string>
     <id>851464</id>
     <name>STR_EVENT_EARRING_N_L2_50B</name>
-    <body>Ancient Spirit's Mysterious Sapphire Earring</body>
+    <body>Primal Spirit Mysterious Sapphire Earring</body>
   </string>
   <string>
     <id>851465</id>
     <name>STR_EVENT_EARRING_N_L2_50C</name>
-    <body>Ancient Spirit's Mysterious Diamond Earring</body>
+    <body>Primal Spirit Mysterious Diamond Earring</body>
   </string>
   <string>
     <id>851466</id>
@@ -100648,17 +100648,17 @@
   <string>
     <id>851469</id>
     <name>STR_EVENT_NECKLACE_N_L2_50A</name>
-    <body>Ancient Spirit's Mysterious Ruby Necklace</body>
+    <body>Primal Spirit Mysterious Ruby Necklace</body>
   </string>
   <string>
     <id>851470</id>
     <name>STR_EVENT_NECKLACE_N_L2_50B</name>
-    <body>Ancient Spirit's Mysterious Sapphire Necklace</body>
+    <body>Primal Spirit Mysterious Sapphire Necklace</body>
   </string>
   <string>
     <id>851471</id>
     <name>STR_EVENT_NECKLACE_N_L2_50C</name>
-    <body>Ancient Spirit's Mysterious Diamond Necklace</body>
+    <body>Primal Spirit Mysterious Diamond Necklace</body>
   </string>
   <string>
     <id>851472</id>
@@ -100678,17 +100678,17 @@
   <string>
     <id>851475</id>
     <name>STR_EVENT_RING_N_L2_50A</name>
-    <body>Ancient Spirit's Mysterious Ruby Ring</body>
+    <body>Primal Spirit Mysterious Ruby Ring</body>
   </string>
   <string>
     <id>851476</id>
     <name>STR_EVENT_RING_N_L2_50B</name>
-    <body>Ancient Spirit's Mysterious Sapphire Ring</body>
+    <body>Primal Spirit Mysterious Sapphire Ring</body>
   </string>
   <string>
     <id>851477</id>
     <name>STR_EVENT_RING_N_L2_50C</name>
-    <body>Ancient Spirit's Mysterious Diamond Ring</body>
+    <body>Primal Spirit Mysterious Diamond Ring</body>
   </string>
   <string>
     <id>851478</id>
@@ -100793,17 +100793,17 @@
   <string>
     <id>851498</id>
     <name>STR_MASTER_WRAP_IDLF2A_ACC_U_50A</name>
-    <body>Ruby Accessories Chest of the Ancient Spirit</body>
+    <body>Primal Spirit Ruby Accessories Chest</body>
   </string>
   <string>
     <id>851499</id>
     <name>STR_MASTER_WRAP_IDLF2A_ACC_U_50B</name>
-    <body>Sapphire Accessories Chest of the Ancient Spirit</body>
+    <body>Primal Spirit Sapphire Accessories Chest</body>
   </string>
   <string>
     <id>851500</id>
     <name>STR_MASTER_WRAP_IDLF2A_ACC_U_50C</name>
-    <body>Diamond Accessories Chest of the Ancient Spirit</body>
+    <body>Primal Spirit Diamond Accessories Chest</body>
   </string>
   <string>
     <id>851501</id>
@@ -100978,7 +100978,7 @@
   <string>
     <id>851535</id>
     <name>STR_MASTER_WRAP_LAB_MASTER_ACC_U_50A</name>
-    <body>Master Accessories Chest of the Ancient Spirit</body>
+    <body>Primal Spirit Master Accessories Chest</body>
   </string>
   <string>
     <id>851536</id>
@@ -101078,17 +101078,17 @@
   <string>
     <id>851555</id>
     <name>STR_MASTER_WRAP_IDLF2A_ACC_U_50A_DESC</name>
-    <body>Contains Ruby Accessories of the Ancient Spirit. \nDouble-click to open.</body>
+    <body>Contains Primal Spirit Ruby Accessories. \nDouble-click to open.</body>
   </string>
   <string>
     <id>851556</id>
     <name>STR_MASTER_WRAP_IDLF2A_ACC_U_50B_DESC</name>
-    <body>Contains Sapphire Accessories of the Ancient Spirit. \nDouble-click to open.</body>
+    <body>Contains Primal Spirit Sapphire Accessories. \nDouble-click to open.</body>
   </string>
   <string>
     <id>851557</id>
     <name>STR_MASTER_WRAP_IDLF2A_ACC_U_50C_DESC</name>
-    <body>Contains Diamond Accessories of the Ancient Spirit. \nDouble-click to open.</body>
+    <body>Contains Primal Spirit Diamond Accessories. \nDouble-click to open.</body>
   </string>
   <string>
     <id>851558</id>
@@ -101263,7 +101263,7 @@
   <string>
     <id>851592</id>
     <name>STR_MASTER_WRAP_LAB_MASTER_ACC_U_50A_DESC</name>
-    <body>Contains Master Accessories of the Ancient Spirit. \nDouble-click to open.</body>
+    <body>Contains Primal Spirit Master Accessories. \nDouble-click to open.</body>
   </string>
   <string>
     <id>851593</id>
@@ -101398,7 +101398,7 @@
   <string>
     <id>851619</id>
     <name>STR_WRAP_EVENT_DREAM_ACC_N_ID50</name>
-    <body>Mysterious Accessories Chest of the Ancient Spirit</body>
+    <body>Primal Spirit Mysterious Accessories Chest</body>
   </string>
   <string>
     <id>851620</id>
@@ -101428,7 +101428,7 @@
   <string>
     <id>851625</id>
     <name>STR_WRAP_EVENT_DREAM_ACC_N_ID50_DESC</name>
-    <body>Contains the Ancient Spirit's Mysterious Accessories.\nDouble-click to open.</body>
+    <body>Contains the Primal Spirit Mysterious Accessories.\nDouble-click to open.</body>
   </string>
   <string>
     <id>851626</id>
@@ -202160,17 +202160,17 @@ Double-click to open.</body>
   <string>
     <id>871776</id>
     <name>STR_WRAP_IDETERNITY_WAR_SP_IDLF2A_ACC_U_50C</name>
-    <body>Diamond Accessories Chest of the Ancient Spirit</body>
+    <body>Primal Spirit Diamond Accessories Chest</body>
   </string>
   <string>
     <id>871777</id>
     <name>STR_WRAP_IDETERNITY_WAR_SP_IDLF2A_ACC_U_50A</name>
-    <body>Ruby Accessories Chest of the Ancient Spirit</body>
+    <body>Primal Spirit Ruby Accessories Chest</body>
   </string>
   <string>
     <id>871778</id>
     <name>STR_WRAP_IDETERNITY_WAR_SP_IDLF2A_ACC_U_50B</name>
-    <body>Sapphire Accessories Chest of the Ancient Spirit</body>
+    <body>Primal Spirit Sapphire Accessories Chest</body>
   </string>
   <string>
     <id>871779</id>
@@ -202195,12 +202195,12 @@ Double-click to open.</body>
   <string>
     <id>871783</id>
     <name>STR_WRAP_IDETERNITY_WAR_SP_MASTER_IDLF2A_ACC_U_50B</name>
-    <body>Master Sapphire Accessories Chest of the Ancient Spirit</body>
+    <body>Primal Spirit Master Sapphire Accessories Chest</body>
   </string>
   <string>
     <id>871784</id>
     <name>STR_WRAP_IDETERNITY_WAR_SP_MASTER_IDLF2A_ACC_U_50A</name>
-    <body>Master Ruby Accessories Chest of the Ancient Spirit</body>
+    <body>Primal Spirit Master Ruby Accessories Chest</body>
   </string>
   <string>
     <id>871785</id>
@@ -202545,17 +202545,17 @@ Double-click to open.</body>
   <string>
     <id>871853</id>
     <name>STR_WRAP_IDETERNITY_WAR_SP_IDLF2A_ACC_U_50C_DESC</name>
-    <body>Contains the Ancient Spirit's diamond accessories.\nDouble-click to open.</body>
+    <body>Contains Primal Spirit diamond accessories.\nDouble-click to open.</body>
   </string>
   <string>
     <id>871854</id>
     <name>STR_WRAP_IDETERNITY_WAR_SP_IDLF2A_ACC_U_50A_DESC</name>
-    <body>Contains Ancient Spirit's ruby accessories.\nDouble-click to open.</body>
+    <body>Contains Primal Spirit ruby accessories.\nDouble-click to open.</body>
   </string>
   <string>
     <id>871855</id>
     <name>STR_WRAP_IDETERNITY_WAR_SP_IDLF2A_ACC_U_50B_DESC</name>
-    <body>Contains the Ancient Spirit's sapphire accessories.\nDouble-click to open.</body>
+    <body>Contains Primal Spirit sapphire accessories.\nDouble-click to open.</body>
   </string>
   <string>
     <id>871856</id>
@@ -202580,12 +202580,12 @@ Double-click to open.</body>
   <string>
     <id>871860</id>
     <name>STR_WRAP_IDETERNITY_WAR_SP_MASTER_IDLF2A_ACC_U_50B_DESC</name>
-    <body>Contains the Ancient Spirit's master sapphire accessories.\nDouble-click to open.</body>
+    <body>Contains the Primal Spirit master sapphire accessories.\nDouble-click to open.</body>
   </string>
   <string>
     <id>871861</id>
     <name>STR_WRAP_IDETERNITY_WAR_SP_MASTER_IDLF2A_ACC_U_50A_DESC</name>
-    <body>Contains Ancient Spirit's master ruby accessories.\nDouble-click to open.</body>
+    <body>Contains Primal Spirit master ruby accessories.\nDouble-click to open.</body>
   </string>
   <string>
     <id>871862</id>
@@ -219830,7 +219830,7 @@ Double-click to open.</body>
   <string>
     <id>875315</id>
     <name>STR_CASH_KEY_IDEVENT_DEF_PRISON_DESC</name>
-    <body>This key opens the Prison Camp on the hidden Incognito Hellpath.\nThis item will disappear at the end of the event.</body>
+    <body>This key opens the Prison Camp on the Secret Hellpath.\nThis item will disappear at the end of the event.</body>
   </string>
   <string>
     <id>875316</id>
@@ -244055,7 +244055,7 @@ Double-click to open.</body>
   <string>
     <id>880160</id>
     <name>STR_WRAP_CASH_IDSWEEP_02_KISK_LIGHT_FORCE_MEDIUM_HIDE_TREE_LIVE</name>
-    <body>Box with a Tree Alliance Kisk</body>
+    <body>Box containing Camouflaged Alliance Kisk (Little Tree)</body>
   </string>
   <string>
     <id>880161</id>
@@ -246540,12 +246540,12 @@ Double-click to open.</body>
   <string>
     <id>880657</id>
     <name>STR_IDRUN_HEROFORCE_02</name>
-    <body>[Event] Racerinerk's Message</body>
+    <body>[Event] Shugolaf’s Message</body>
   </string>
   <string>
     <id>880658</id>
     <name>STR_IDRUN_HEROFORCE_02_DESC</name>
-    <body>"Welcome to the Farm Race!\nDaeva can use the peculiar device at the start to transform and benefit from useful skills in the race.\nIf Daeva brings Shugo the medals Daeva won in the race, Shugo will exchange them for a reward."</body>
+    <body>‘Today Shugolaf is going to propose to his Shugoline!\nBut wait! Where’s the ring? Shugolaf is such a scatterbrain!\nThe animals on the farm must have seen something...\nShugoline still has to try the chocolate ring that Shugo baked for her!’</body>
   </string>
   <string>
     <id>880659</id>

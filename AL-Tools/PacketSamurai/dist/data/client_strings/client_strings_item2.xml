@@ -77008,7 +77008,7 @@
   <string>
     <id>781143</id>
     <name>STR_STAFF_N_U1_CH_60A</name>
-    <body>Primal Spirit Staff</body>
+    <body>Primal Spirit Stick</body>
   </string>
   <string>
     <id>781144</id>
@@ -78190,7 +78190,7 @@
   <string>
     <id>781379</id>
     <name>STR_RB_TORSO_N_E1_60A</name>
-    <body>Ancient Spirit's Tunic</body>
+    <body>Primal Spirit Tunic</body>
   </string>
   <string>
     <id>781380</id>
@@ -78950,7 +78950,7 @@
   <string>
     <id>781531</id>
     <name>STR_CH_TORSO_N_E1_60A</name>
-    <body>Ancient Spirit's Hauberk</body>
+    <body>Primal Spirit Hauberk</body>
   </string>
   <string>
     <id>781532</id>
@@ -79330,7 +79330,7 @@
   <string>
     <id>781607</id>
     <name>STR_PL_TORSO_N_E1_60A</name>
-    <body>Ancient Spirit's Breastplate</body>
+    <body>Primal Spirit Breastplate</body>
   </string>
   <string>
     <id>781608</id>
@@ -80470,7 +80470,7 @@
   <string>
     <id>781835</id>
     <name>STR_CH_GLOVE_N_E1_60A</name>
-    <body>Ancient Spirit's Chain Gauntlets</body>
+    <body>Primal Spirit Chain Gauntlets</body>
   </string>
   <string>
     <id>781836</id>
@@ -83130,7 +83130,7 @@
   <string>
     <id>782367</id>
     <name>STR_LT_PANTS_N_E1_60A</name>
-    <body>Primal Spirit Breeches</body>
+    <body>Primal Spirit Leather Breeches</body>
   </string>
   <string>
     <id>782368</id>
@@ -142081,7 +142081,7 @@
   <string>
     <id>794161</id>
     <name>WING_N_E1_60A</name>
-    <body>Ancient Spirit's Wings</body>
+    <body>Primal Spirit Wings</body>
   </string>
   <string>
     <id>794162</id>
@@ -154147,12 +154147,12 @@
   <string>
     <id>796558</id>
     <name>STR_LT_IDELEMENTAL_E_60A</name>
-    <body>Primal Spirit Leather Set</body>
+    <body>Primal Spirit Leather Armour Set</body>
   </string>
   <string>
     <id>796559</id>
     <name>STR_CH_IDELEMENTAL_E_60A</name>
-    <body>Primal Spirit Chain Set</body>
+    <body>Primal Spirit Chain Armour Set</body>
   </string>
   <string>
     <id>796560</id>
@@ -182015,7 +182015,7 @@
   <string>
     <id>802078</id>
     <name>STR_WRAP_EVENT_35VBEFORE_UNIQUE_WING</name>
-    <body>[Jakunerk] Box for the Ancient Spirit's Wings</body>
+    <body>[Jakunerk] Primal Spirit Wings Box</body>
   </string>
   <string>
     <id>802079</id>
@@ -186900,7 +186900,7 @@
   <string>
     <id>803055</id>
     <name>STR_RING_N_E1_L_60J</name>
-    <body>Signet Ring of the Altar of Greed</body>
+    <body>Signet Ring of the Altar of Avarice</body>
   </string>
   <string>
     <id>803056</id>
@@ -202680,12 +202680,12 @@
   <string>
     <id>806211</id>
     <name>STR_GUN_N_U1_60C</name>
-    <body>Ancient Spirit's Aether Revolver</body>
+    <body>Primal Spirit Aether Revolver</body>
   </string>
   <string>
     <id>806212</id>
     <name>STR_GUN_N_U1_60D</name>
-    <body>Ancient Spirit's Aether Revolver</body>
+    <body>Primal Spirit Aether Revolver</body>
   </string>
   <string>
     <id>806213</id>
@@ -203010,7 +203010,7 @@
   <string>
     <id>806277</id>
     <name>STR_HARP_N_U1_BD_60A</name>
-    <body>Ancient Spirit's Stringed Instrument</body>
+    <body>Primal Spirit Stringed Instrument</body>
   </string>
   <string>
     <id>806278</id>
@@ -203025,7 +203025,7 @@
   <string>
     <id>806280</id>
     <name>STR_HARP_N_U1_60C</name>
-    <body>Ancient Spirit's Stringed Instrument</body>
+    <body>Primal Spirit Stringed Instrument</body>
   </string>
   <string>
     <id>806281</id>
@@ -203230,7 +203230,7 @@
   <string>
     <id>806321</id>
     <name>STR_CANNON_N_U1_60C</name>
-    <body>Ancient Spirit's Aether Cannon</body>
+    <body>Primal Spirit Aether Cannon</body>
   </string>
   <string>
     <id>806322</id>
@@ -206562,7 +206562,7 @@
   <string>
     <id>806987</id>
     <name>STR_wing_cash_element_7days</name>
-    <body>Wings of the Ancient Spirit (7 days)</body>
+    <body>Primal Spirit Wings (7 days)</body>
   </string>
   <string>
     <id>806988</id>
@@ -206722,7 +206722,7 @@
   <string>
     <id>807019</id>
     <name>STR_wing_cash_element_30days</name>
-    <body>Wings of the Ancient Spirit (30 days)</body>
+    <body>Primal Spirit Wings (30 days)</body>
   </string>
   <string>
     <id>807020</id>
@@ -276192,27 +276192,27 @@
   <string>
     <id>820917</id>
     <name>STR_LT_TORSO_N_E1_60B</name>
-    <body>Ancient Spirit's Leather Jacket</body>
+    <body>Primal Spirit Leather Jacket</body>
   </string>
   <string>
     <id>820918</id>
     <name>STR_LT_GLOVE_N_E1_60B</name>
-    <body>Ancient Spirit's Leather Gauntlets</body>
+    <body>Primal Spirit Leather Gauntlets</body>
   </string>
   <string>
     <id>820919</id>
     <name>STR_LT_SHOULDER_N_E1_60B</name>
-    <body>Ancient Spirit's Shoulder Straps</body>
+    <body>Primal Spirit Shoulder Straps</body>
   </string>
   <string>
     <id>820920</id>
     <name>STR_LT_PANTS_N_E1_60B</name>
-    <body>Ancient Spirit's Leather Leggings</body>
+    <body>Primal Spirit Leather Leggings</body>
   </string>
   <string>
     <id>820921</id>
     <name>STR_LT_SHOES_N_E1_60B</name>
-    <body>Ancient Spirit's Leather Footwear</body>
+    <body>Primal Spirit Leather Footwear</body>
   </string>
   <string>
     <id>820922</id>
@@ -277232,7 +277232,7 @@
   <string>
     <id>821125</id>
     <name>STR_LT_IDELEMENTAL_E_60B</name>
-    <body>Ancient Spirit's Magic Leather Armour Set</body>
+    <body>Primal Spirit Magic Leather Armour Set</body>
   </string>
   <string>
     <id>821126</id>
@@ -299481,7 +299481,7 @@
   <string>
     <id>825559</id>
     <name>STR_WORLD_WRAP_EVENT_ELEMENTAL_01</name>
-    <body>[Jakunerk] Ancient Spirit's Helm Disguise Package</body>
+    <body>[Jakunerk] Primal Spirit Helm Disguise Package</body>
   </string>
   <string>
     <id>825560</id>
@@ -299516,7 +299516,7 @@
   <string>
     <id>825566</id>
     <name>STR_WORLD_WRAP_EVENT_ELEMENTAL_01_DESC</name>
-    <body>Ancient Spirit's Helm Disguise Package. Contains disguises such as Plate Helm, Chain Helm, Leather Hat and Cloth Bandana of the Ancient Spirit.</body>
+    <body>A Primal Spirit Helm bundle. Contains disguises such as the Primal Spirit Plate Helm, Chain Helm, Leather Hat and Cloth Bandana.</body>
   </string>
   <string>
     <id>825567</id>
@@ -307061,32 +307061,32 @@
   <string>
     <id>827077</id>
     <name>STR_CH_TORSO_N_E1_60B</name>
-    <body>Ancient Spirit's Chain Cuirass</body>
+    <body>Primal Spirit Chain Cuirass</body>
   </string>
   <string>
     <id>827078</id>
     <name>STR_CH_GLOVE_N_E1_60B</name>
-    <body>Ancient Spirit's Chain Fighting Gauntlets</body>
+    <body>Primal Spirit Chain Fighting Gauntlets</body>
   </string>
   <string>
     <id>827079</id>
     <name>STR_CH_SHOULDER_N_E1_60B</name>
-    <body>Ancient Spirit's Chain Shoulderplates</body>
+    <body>Primal Spirit Chain Shoulderplates</body>
   </string>
   <string>
     <id>827080</id>
     <name>STR_CH_PANTS_N_E1_60B</name>
-    <body>Ancient Spirit's Chausses</body>
+    <body>Primal Spirit Chausses</body>
   </string>
   <string>
     <id>827081</id>
     <name>STR_CH_SHOES_N_E1_60B</name>
-    <body>Ancient Spirit's Chain Gaiters</body>
+    <body>Primal Spirit Chain Gaiters</body>
   </string>
   <string>
     <id>827082</id>
     <name>STR_CH_HEAD_N_E1_60B</name>
-    <body>Ancient Spirit's Chain Headwear</body>
+    <body>Primal Spirit Chain Headwear</body>
   </string>
   <string>
     <id>827083</id>
@@ -311056,7 +311056,7 @@
   <string>
     <id>827876</id>
     <name>STR_KEYBLADE_N_U1_MC_60A</name>
-    <body>Ancient Spirit's Aether Key</body>
+    <body>Primal Spirit Aether Key</body>
   </string>
   <string>
     <id>827877</id>
@@ -323886,7 +323886,7 @@
   <string>
     <id>830442</id>
     <name>STR_CH_IDELEMENTAL_E_60B</name>
-    <body>Ancient Spirit's Set of Magic Chain Armour</body>
+    <body>Primal Spirit Magic Chain Armour Set</body>
   </string>
   <string>
     <id>830443</id>

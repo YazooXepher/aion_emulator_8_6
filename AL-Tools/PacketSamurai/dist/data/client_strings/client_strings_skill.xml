@@ -96539,17 +96539,17 @@ Stigma Skill</body>
   <string>
     <id>2280528</id>
     <name>STR_NGR_DeathCount6s_Nr_New</name>
-    <body>Death Sentence</body>
+    <body>Ice Cold Death Sentence</body>
   </string>
   <string>
     <id>2280529</id>
     <name>STR_NGR_DeathCount6s_Nr_New_DESC</name>
-    <body>Death Sentence</body>
+    <body>Death is near... The Death Sentence can be removed by the powerful paralysis effect of Icy Wind.</body>
   </string>
   <string>
     <id>2280530</id>
     <name>STR_NGR_DeathCount6s_Nr_New_DESC_Abnormal</name>
-    <body>If this special status isn't removed, you will start to suffer fatal damage after a while. You can remove special statuses by using healing magic or potions.</body>
+    <body>Death is near... The Death Sentence can be removed by the powerful paralysis effect of Icy Wind.</body>
   </string>
   <string>
     <id>2280531</id>
@@ -121727,7 +121727,7 @@ If the seal explodes after a certain time, you inflict critical damage on all Da
   <string>
     <id>2285546</id>
     <name>STR_IDSeal_Immortal_AreaATK</name>
-    <body>Explosive Ice</body>
+    <body>Froststorm</body>
   </string>
   <string>
     <id>2285547</id>
@@ -121737,12 +121737,12 @@ If the seal explodes after a certain time, you inflict critical damage on all Da
   <string>
     <id>2285548</id>
     <name>STR_IDSeal_Immortal_NormalFire</name>
-    <body>Mastery of Eternity</body>
+    <body>Unstoppable Awakening</body>
   </string>
   <string>
     <id>2285549</id>
     <name>STR_IDSeal_Immortal_NormalFire_Abnormal</name>
-    <body>If Oris' health falls under 50%%, your HP will be restored to 100%%.</body>
+    <body>Unstoppable Awakening restores your HP and increases your attack power. Your max. HP is reduced though. Your attack power increases every time Unstoppable Awakening is activated. Your max. HP is further reduced though.</body>
   </string>
   <string>
     <id>2285550</id>
@@ -121972,7 +121972,7 @@ If the seal explodes after a certain time, you inflict critical damage on all Da
   <string>
     <id>2285595</id>
     <name>STR_IDSeal_Immortal_Summon</name>
-    <body>Summon Freezing Crystal</body>
+    <body>Summoning: Ice Droplets</body>
   </string>
   <string>
     <id>2285596</id>
@@ -124412,7 +124412,7 @@ Reduces the casting time of all magic skills by [%e2.BoostSkillCastingTime.Casti
   <string>
     <id>2286080</id>
     <name>STR_SKILLN_Ba_SongofDestroy_Abnormal</name>
-    <body>[%e1.StatUp.StatName] is increased by [%e1.StatUp.Value]%% and [%e1.StatUp.StatName2] is increased by [%e1.StatUp.Value2]%%. The cast time for all magic skills is decreased by [%e2.BoostSkillCastingTime.CastingBonus] for [%e2.BoostSkillCastingTime.RemainTime].</body>
+    <body>[%e1.StatUp.StatName] is increased by [%e1.StatUp.Value]%% and [%e1.StatUp.StatName2] by [%e1.StatUp.Value2]%%. Magic skill cast times are reduced by [%e2.BoostSkillCastingTime.CastingBonus]%%.</body>
   </string>
   <string>
     <id>2286081</id>
@@ -125169,7 +125169,7 @@ Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].</body>
   <string>
     <id>2286222</id>
     <name>STR_SKILLN_PR_BindingHeal_DESC</name>
-    <body>Restores [%e1.Heal_Instant.Heal] HP.
+    <body>Restores [%e1.Heal_Instant.Heal] HP to allies.
 Regenerates part of your HP.</body>
   </string>
   <string>
@@ -125241,7 +125241,7 @@ It vanishes after a while.</body>
   <string>
     <id>2286236</id>
     <name>STR_SKILLN_PR_Tranquility_DESC</name>
-    <body>Removes up to 5 altered states from a group member.
+    <body>Removes altered states from a group member.
 Restores [%e2.Heal_Instant.Heal] HP.
 Also restores an additional [%e3.Heal.CheckTimeHeal] HP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
@@ -126468,12 +126468,13 @@ Active Skill</body>
     <id>2286468</id>
     <name>STR_SKILLN_CH_Providence_DESC</name>
     <body>Increases [%e1.StatUp.StatName] of group members by [%e1.StatUp.Value]%% for [%e1.StatUp.RemainTime].
-Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value]%%.</body>
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value]%%.
+Reduces the casting time of all magic skills by [%e3.BoostSkillCastingTime.CastingBonus]%%.</body>
   </string>
   <string>
     <id>2286469</id>
     <name>STR_SKILLN_CH_Providence_Abnormal</name>
-    <body>[%e1.StatUp.StatName] is increased by [%e1.StatUp.Value]%% and [%e2.StatUp.StatName] by [%e2.StatUp.Value]%%.</body>
+    <body>[%e1.StatUp.StatName] is increased by [%e1.StatUp.Value]%% and [%e2.StatUp.StatName] by [%e2.StatUp.Value]%%. Magic skill cast times are reduced by [%e3.BoostSkillCastingTime.CastingBonus]%%.</body>
   </string>
   <string>
     <id>2286470</id>
@@ -127072,12 +127073,13 @@ Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].</body>
     <id>2286583</id>
     <name>STR_SKILLN_Gu_EmpowerAmmo_DESC</name>
     <body>Deals [%e1.Provoker.RemainTime] additional damage with each attack for [%e1.Provoker.OtherSkill.e1.ProcATK_Instant.Damage].
-Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].</body>
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].</body>
   </string>
   <string>
     <id>2286584</id>
     <name>STR_SKILLN_Gu_EmpowerAmmo_Abnormal</name>
-    <body>Always deals additional [%e1.Provoker.OtherSkill.e1.ProcATK_Instant.Damage] damage with a [%e1.Provoker.ConditionProb]%% chance for [%e1.Provoker.RemainTime] when you perform [%e1.Provoker.Condition], and increases your attack on other players.</body>
+    <body>Always deals additional [%e1.Provoker.OtherSkill.e1.ProcATK_Instant.Damage] damage with a [%e1.Provoker.ConditionProb]%% chance for [%e1.Provoker.RemainTime] when you perform [%e1.Provoker.Condition], and increases [%e2.StatUp.StatName] and [%e2.StatUp.StatName2] by [%e2.StatUp.Value].</body>
   </string>
   <string>
     <id>2286585</id>
@@ -127184,7 +127186,7 @@ Knocks the target back.</body>
     <id>2286604</id>
     <name>STR_SKILLN_Gu_IceCannon_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical water damage.
-Immobilises the target for [%e2.Root.RemainTime]. You only have a small chance to remove this state.</body>
+Immobilises the target for [%e2.Root.RemainTime]. There is only a slight chance this state can be removed.</body>
   </string>
   <string>
     <id>2286605</id>
@@ -128523,7 +128525,7 @@ Deals additional damage if the target is a Balaur.</body>
     <id>2286837</id>
     <name>STR_SKILLN_RI_BindingSlam_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical wind damage.
-Immobilises the target for [%e2.Root.RemainTime].</body>
+Immobilises the target for [%e2.Root.RemainTime]. There is only a slight chance this state can be removed.</body>
   </string>
   <string>
     <id>2286838</id>
@@ -129848,7 +129850,7 @@ If the target is a player, their targeting is cancelled for a moment.</body>
   <string>
     <id>2287078</id>
     <name>STR_SKILLN_AS_WideNewBlindingBurst_Abnormal</name>
-    <body>Decreases accuracy and magical accuracy. Your attacks will very likely fail.</body>
+    <body>Blindness and [%e2.StatDown.StatName] are reduced by [%e2.StatDown.Value].</body>
   </string>
   <string>
     <id>2287079</id>
@@ -130235,7 +130237,7 @@ Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
   <string>
     <id>2287151</id>
     <name>STR_SKILLN_AS_BlindingBurst_Abnormal</name>
-    <body>You are blinded. Your physical attacks are likely to be unsuccessful.</body>
+    <body>Blindness and [%e2.StatDown.StatName] are reduced by [%e2.StatDown.Value].</body>
   </string>
   <string>
     <id>2287152</id>
@@ -133129,7 +133131,7 @@ Active Skill</body>
   <string>
     <id>2287675</id>
     <name>STR_SKILLN_FI_AnkleGrab_DESC</name>
-    <body>Immobilises the target for [%e1.Root.RemainTime]. You only have a small chance to remove this state.
+    <body>Immobilises the target for [%e1.Root.RemainTime]. There is only a slight chance this state can be removed.
 Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
   </string>
   <string>
@@ -134133,7 +134135,7 @@ Reduces the target's movement speed for [%e2.Snare.RandomTime] to [%e2.Snare.Rem
   <string>
     <id>2287864</id>
     <name>STR_SKILLN_RA_EnchantBow_DESC</name>
-    <body>Increases [%e1.WeaponStatUp.StatName] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].
+    <body>Increases [%e1.WeaponStatUp.StatName] of [%e1.WeaponStatUp.WeaponCategory] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].
 Increases [%e1.WeaponStatUp.StatName2] by [%e1.WeaponStatUp.Value2].</body>
   </string>
   <string>
@@ -134314,7 +134316,7 @@ Multicast 3 times</body>
     <id>2287898</id>
     <name>STR_SKILLN_RA_Stigma_TigerEye_DESC</name>
     <body>Reduces [%e1.WeaponStatUp.StatName] of [%e1.WeaponStatUp.WeaponCategory] by 5m.
-Increases [%e2.WeaponStatUp.StatName] by [%e2.WeaponStatUp.Value].
+Increases [%e2.WeaponStatUp.StatName] of [%e1.WeaponStatUp.WeaponCategory] by [%e2.WeaponStatUp.Value].
 Increases [%e3.WeaponStatUp.StatName] by [%e3.WeaponStatUp.Value]%%.
 Increases [%e4.StatUp.StatName] by [%e4.StatUp.Value].
 Active Skill</body>
@@ -134364,7 +134366,7 @@ The effect cannot be removed.</body>
   <string>
     <id>2287907</id>
     <name>STR_SKILLN_RA_SnakeEye_DESC</name>
-    <body>Increases [%e1.WeaponStatUp.StatName] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].</body>
+    <body>Increases [%e1.WeaponStatUp.StatName] of [%e1.WeaponStatUp.WeaponCategory] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].</body>
   </string>
   <string>
     <id>2287908</id>
@@ -146267,7 +146269,9 @@ Restores [%e2.MPHeal_Instant.Heal] MP.</body>
   <string>
     <id>2290301</id>
     <name>STR_WORLD_RUSSIA_F2P_PACK_BUFF_DESC</name>
-    <body>Your physical/magic attack increases by 115 points, your physical/magic defence by 76 points and your crit strike/crit spell by 220 points.</body>
+    <body>Increases [%e1.StatUp.StatName] and [%e1.StatUp.StatName2] by [%e1.StatUp.Value] points.
+Increases [%e2.StatUp.StatName] and [%e2.StatUp.StatName2] by [%e2.StatUp.Value] points.
+Increases [%e3.StatUp.StatName] and [%e3.StatUp.StatName2] by [%e3.StatUp.Value] points.</body>
   </string>
   <string>
     <id>2290302</id>
@@ -153838,7 +153842,7 @@ The duration is reduced by 50%% when applied to a player.</body>
   <string>
     <id>2291763</id>
     <name>STR_SKILLN_EL_TerrorSpirit_Custom_A_Abnormal</name>
-    <body>The movement speed is reduced and [%e4.StatUp.StatName] and [%e4.StatUp.StatName3] increase by [%e4.StatUp.Value]. Terrifies the target.</body>
+    <body>The movement speed is reduced and [%e4.StatUp.StatName] and [%e4.StatUp.StatName2] increase by [%e4.StatUp.Value]. Terrifies the target.</body>
   </string>
   <string>
     <id>2291764</id>
@@ -153907,9 +153911,7 @@ Resets the cooldown of Restraint Cannon.</body>
 Resets the cooldown of Headshot.
 Resets the cooldown of Soul Shot.
 Resets the cooldown of Enhance Magic Projectile.
-Resets the cooldown of Flight Instinct.
-Increases magic damage by 10%% for 5 seconds.
-Increases attack speed by 20%%.</body>
+Resets the cooldown of Flight Instinct.</body>
   </string>
   <string>
     <id>2291775</id>
@@ -153957,7 +153959,6 @@ Knocks the target back.</body>
     <id>2291783</id>
     <name>STR_SKILLN_Gu_ForeHeadSnipe_Custom_B_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical earth damage.
-Knocks the target back.
 Increases your attack speed by 30%% for 2.5 seconds.
 All attack skills are carried out as Crit Strikes.</body>
   </string>
@@ -156287,7 +156288,7 @@ Multicast 3 times</body>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical fire damage.
 Restores [%e0.Gu_DrainAttack_Custom_C_sys.e2.Heal_Instant.Heal] HP.
 Reduces the cooldown for Materialised Magic Form by 20%%.
-You also resist a physical attack.</body>
+You also evade a physical attack.</body>
   </string>
   <string>
     <id>2292227</id>
@@ -164948,7 +164949,7 @@ Deals [%e1.SkillATK_Instant.AddDamage] additional damage and makes the target st
     <id>2293928</id>
     <name>STR_SKILLN_RA_RootArrow_Custom_A_DESC_up</name>
     <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage.
-Immobilises the target for [%e2.Root.RemainTime]. You only have a small chance to remove this state.
+Immobilises the target for [%e2.Root.RemainTime]. There is only a slight chance this state can be removed.
 Reduces [%e3.StatDown.StatName] by [%e3.StatDown.Value].
 Reduces [%e3.StatDown.StatName2] by [%e3.StatDown.Value2]%%.</body>
   </string>
@@ -165860,7 +165861,7 @@ The duration is reduced by 50%% when applied to a player.</body>
   <string>
     <id>2294088</id>
     <name>STR_SKILLN_EL_TerrorSpirit_Custom_A_Abnormal_up</name>
-    <body>The movement speed is reduced and [%e4.StatUp.StatName] and [%e4.StatUp.StatName3] increase by [%e4.StatUp.Value]. Terrifies the target.</body>
+    <body>The movement speed is reduced and [%e4.StatUp.StatName] and [%e4.StatUp.StatName2] increase by [%e4.StatUp.Value]. Terrifies the target.</body>
   </string>
   <string>
     <id>2294089</id>
@@ -166029,9 +166030,7 @@ Deals [%e1.SpellATK_Instant.AddDamage] extra damage if the target is a spirit.</
 Resets the cooldown of Headshot.
 Resets the cooldown of Soul Shot.
 Resets the cooldown of Enhance Magic Projectile.
-Resets the cooldown of Flight Instinct.
-Increases magic damage by 15%% for 5 seconds.
-Increases attack speed by 30%%.</body>
+Resets the cooldown of Flight Instinct.</body>
   </string>
   <string>
     <id>2294119</id>
@@ -166081,7 +166080,6 @@ Knocks the target back.</body>
     <id>2294127</id>
     <name>STR_SKILLN_Gu_ForeHeadSnipe_Custom_B_DESC_up</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical earth damage.
-Knocks the target back.
 Increases your attack speed by 30%% for 3 seconds.
 All attack skills are carried out as Crit Strikes.</body>
   </string>
@@ -166125,7 +166123,7 @@ Multicast 3 times</body>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical fire damage.
 Restores [%e0.Gu_DrainAttack_Custom_C_sys_up.e2.Heal_Instant.Heal] HP.
 Reduces the cooldown for Materialised Magic Form by 20%%.
-You also resist a physical attack.</body>
+You also evade a physical attack.</body>
   </string>
   <string>
     <id>2294135</id>
@@ -169539,7 +169537,7 @@ Causes the target to stumble.</body>
     <id>2294853</id>
     <name>STR_SKILLN_FI_A_KneeCrash_DESC</name>
     <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage.
-Immobilises the target for [%e2.Root.RemainTime]. You only have a small chance to remove this state.</body>
+Immobilises the target for [%e2.Root.RemainTime]. There is only a slight chance this state can be removed.</body>
   </string>
   <string>
     <id>2294854</id>
@@ -169645,7 +169643,7 @@ Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].</body>
   <string>
     <id>2294873</id>
     <name>STR_SKILLN_FI_A_AnkleGrab_DESC</name>
-    <body>Immobilises the target for [%e1.Root.RemainTime]. You only have a small chance to remove this state.
+    <body>Immobilises the target for [%e1.Root.RemainTime]. There is only a slight chance this state can be removed.
 Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
   </string>
   <string>
@@ -169846,7 +169844,7 @@ The effect cannot be removed.</body>
     <id>2294910</id>
     <name>STR_SKILLN_KN_A_FortitudeWave_DESC</name>
     <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage.
-Immobilises the target for [%e2.Root.RemainTime]. You only have a small chance to remove this state.</body>
+Immobilises the target for [%e2.Root.RemainTime]. There is only a slight chance this state can be removed.</body>
   </string>
   <string>
     <id>2294911</id>
@@ -170030,7 +170028,7 @@ If the target is a player, their targeting is cancelled for a moment.</body>
   <string>
     <id>2294944</id>
     <name>STR_SKILLN_AS_A_WideNewBlindingBurst_Abnormal</name>
-    <body>Reduces accuracy and magical accuracy. Your attacks will very likely fail.</body>
+    <body>Blindness and [%e2.StatDown.StatName] are reduced by [%e2.StatDown.Value].</body>
   </string>
   <string>
     <id>2294945</id>
@@ -170169,7 +170167,7 @@ Inflicts a Rune Carve up to level [%e1.CarveSignet.SignetGrade] on the target.</
   <string>
     <id>2294970</id>
     <name>STR_SKILLN_AS_A_StabStance_DESC</name>
-    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value].
 Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
   </string>
   <string>
@@ -170535,7 +170533,7 @@ You also resist [%e2.AlwaysResist.Count] magic attacks for [%e2.AlwaysResist.Rem
   <string>
     <id>2295037</id>
     <name>STR_SKILLN_RA_A_EnchantBow_DESC</name>
-    <body>Increases [%e1.WeaponStatUp.StatName] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].
+    <body>Increases [%e1.WeaponStatUp.StatName] of [%e1.WeaponStatUp.WeaponCategory] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].
 Increases [%e1.WeaponStatUp.StatName2] by [%e1.WeaponStatUp.Value2].</body>
   </string>
   <string>
@@ -171614,7 +171612,7 @@ It vanishes after a while.</body>
   <string>
     <id>2295232</id>
     <name>STR_SKILLN_PR_A_Tranquility_DESC</name>
-    <body>Removes up to 5 altered states from a group member.
+    <body>Removes altered states from a group member.
 Restores [%e2.Heal_Instant.Heal] HP.
 Also restores an additional [%e3.Heal.CheckTimeHeal] HP every [%e3.Heal.CheckTime] for [%e3.Heal.RemainTime].</body>
   </string>
@@ -171717,7 +171715,7 @@ Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].</body>
   <string>
     <id>2295251</id>
     <name>STR_SKILLN_PR_A_BindingHeal_DESC</name>
-    <body>Restores [%e1.Heal_Instant.Heal] HP.
+    <body>Restores [%e1.Heal_Instant.Heal] HP to allies.
 Regenerates part of your HP.</body>
   </string>
   <string>
@@ -171923,12 +171921,13 @@ Reduces the target's healing effects by 50%%.</body>
     <id>2295289</id>
     <name>STR_SKILLN_GU_A_EmpowerAmmo_DESC</name>
     <body>Deals [%e1.Provoker.RemainTime] additional damage with each attack for [%e1.Provoker.OtherSkill.e1.ProcATK_Instant.Damage].
-Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].</body>
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].</body>
   </string>
   <string>
     <id>2295290</id>
     <name>STR_SKILLN_GU_A_EmpowerAmmo_Abnormal</name>
-    <body>Always deals additional [%e1.Provoker.OtherSkill.e1.ProcATK_Instant.Damage] damage with a [%e1.Provoker.ConditionProb]%% chance for [%e1.Provoker.RemainTime] when you perform [%e1.Provoker.Condition], and increases your attack on other players.</body>
+    <body>Always deals additional [%e1.Provoker.OtherSkill.e1.ProcATK_Instant.Damage] damage with a [%e1.Provoker.ConditionProb]%% chance for [%e1.Provoker.RemainTime] when you perform [%e1.Provoker.Condition], and increases [%e2.StatUp.StatName] and [%e2.StatUp.StatName2] by [%e2.StatUp.Value].</body>
   </string>
   <string>
     <id>2295291</id>
@@ -172025,7 +172024,7 @@ Reduces the target's [%e2.StatDown.StatName] by [%e2.StatDown.Value] for [%e2.St
     <id>2295308</id>
     <name>STR_SKILLN_GU_A_IceCannon_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical water damage.
-Immobilises the target for [%e2.Root.RemainTime]. You only have a small chance to remove this state.</body>
+Immobilises the target for [%e2.Root.RemainTime]. There is only a slight chance this state can be removed.</body>
   </string>
   <string>
     <id>2295309</id>
@@ -172555,7 +172554,7 @@ Active Skill</body>
     <id>2295405</id>
     <name>STR_SKILLN_RI_A_BindingSlam_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical wind damage.
-Immobilises the target for [%e2.Root.RemainTime].</body>
+Immobilises the target for [%e2.Root.RemainTime]. There is only a slight chance this state can be removed.</body>
   </string>
   <string>
     <id>2295406</id>
@@ -174222,7 +174221,7 @@ Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%%.</body>
   <string>
     <id>2295722</id>
     <name>STR_rune_bindpenetrate_DESC</name>
-    <body>Increases your Resist Binding Penetration by [%e1.StatUp.Value].</body>
+    <body>Increases Binding Penetration by [%e1.StatUp.Value].</body>
   </string>
   <string>
     <id>2295723</id>
@@ -174252,7 +174251,7 @@ Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%%.</body>
   <string>
     <id>2295728</id>
     <name>STR_rune_openpenetrate_DESC</name>
-    <body>Increases your Aether's Hold Resistance Penetration by [%e1.StatUp.Value].</body>
+    <body>Increases Aether's Hold Resistance Penetration by [%e1.StatUp.Value].</body>
   </string>
   <string>
     <id>2295729</id>
@@ -174282,7 +174281,7 @@ Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%%.</body>
   <string>
     <id>2295734</id>
     <name>STR_rune_pullpenetrate_DESC</name>
-    <body>Increases your Captivity Penetration by [%e1.StatUp.Value].</body>
+    <body>Increases Captivity Penetration by [%e1.StatUp.Value].</body>
   </string>
   <string>
     <id>2295735</id>
@@ -174302,7 +174301,7 @@ Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%%.</body>
   <string>
     <id>2295738</id>
     <name>STR_rune_boosthealing_DESC</name>
-    <body>Increases your healing by [%e1.DeboostHealAmount.DeBoostPenalty.absolute]%%.</body>
+    <body>Increases healing by [%e1.DeboostHealAmount.DeBoostPenalty.absolute]%%.</body>
   </string>
   <string>
     <id>2295739</id>
@@ -174498,9 +174497,9 @@ The effect cannot be removed.</body>
     <id>2295817</id>
     <name>STR_Odian_FortitudeWave_DESC</name>
     <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage.
-Immobilises the target for [%e2.Root.RemainTime]. You only have a small chance to remove this state.
+Immobilises the target for [%e2.Root.RemainTime]. There is only a slight chance this state can be removed.
 Knocks the target back.
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -174811,13 +174810,14 @@ The effect cannot be removed.</body>
     <id>2295868</id>
     <name>STR_Odian_ChargingPlaster_DESC</name>
     <body>The target is petrified for [%e1.Petrification.RemainTime.float].
+Increases the petrified target's physical and magic defence.
 If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
 The effect cannot be removed.</body>
   </string>
   <string>
     <id>2295869</id>
     <name>STR_Odian_ChargingPlaster_Abnormal</name>
-    <body>You are petrified.</body>
+    <body>You are petrified. Physical and magic defence are partially increased.</body>
   </string>
   <string>
     <id>2295870</id>
@@ -177428,6 +177428,16 @@ Crit strikes cause bonus physical damage.</body>
     <body>Increases [%e1.Statup.Statname], [%e1.Statup.Statname2] and [%e1.Statup.Statname3] by [%e1.Statup.Value]%%.</body>
   </string>
   <string>
+    <id>2296379</id>
+    <name>STR_NPC_Paralyze_Dispel_ID</name>
+    <body>Frost Shock</body>
+  </string>
+  <string>
+    <id>2296380</id>
+    <name>STR_NPC_Paralyze_Dispel_ID_DESC</name>
+    <body>Frost Shock froze your body to the core. This condition cannot be removed.</body>
+  </string>
+  <string>
     <id>2296381</id>
     <name>STR_Trans_Grade_04_SKill_21_ArielApostle</name>
     <body>Ariel's Apostle</body>
@@ -177862,37 +177872,6 @@ If you use Yasba's Grace, you will lose the Transport Bonus.</body>
     <body>The probability of a crit strike increases considerably.</body>
   </string>
   <string>
-    <id>2296466</id>
-    <name>STR_72_WORLD_EVENT_WINTER_COOKIE_BUFF</name>
-    <body>Icinerk's Buff Cookie</body>
-  </string>
-  <string>
-    <id>2296467</id>
-    <name>STR_72_WORLD_EVENT_WINTER_COOKIE_BUFF_DESC</name>
-    <body>Increases the target's [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
-Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
-Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
-Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
-Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
-Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].
-Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value]%%.
-Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2]%%.
-Increases [%e3.StatUp.StatName3] by [%e3.StatUp.Value3]%%.</body>
-  </string>
-  <string>
-    <id>2296468</id>
-    <name>STR_72_WORLD_EVENT_WINTER_COOKIE_BUFF_DESC_test</name>
-    <body>Increases the target's [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
-Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
-Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
-Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
-Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
-Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].
-Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value]%%.
-Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2]%%.
-Increases [%e3.StatUp.StatName3] by [%e3.StatUp.Value3]%%.</body>
-  </string>
-  <string>
     <id>2296471</id>
     <name>STR_Event_CheerUp_NPR_HealIns_Small</name>
     <body>Cold Recovery</body>
@@ -178093,6 +178072,75 @@ Increases [%e3.StatUp.StatName3] by [%e3.StatUp.Value3]%%.</body>
     <body>Temperature Drop</body>
   </string>
   <string>
+    <id>2296522</id>
+    <name>STR_Trans_Skill_PCEvent_201912_A</name>
+    <body>Mouse Ranger</body>
+  </string>
+  <string>
+    <id>2296523</id>
+    <name>STR_Trans_Skill_PCEvent_201912_B</name>
+    <body>Keyboard Ranger</body>
+  </string>
+  <string>
+    <id>2296524</id>
+    <name>STR_Trans_Skill_PCEvent_201912_A_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
+[%e3.StatUp.StatName3] +[%e3.StatUp.Value3]
+[%e3.StatUp.StatName4] +[%e3.StatUp.Value4]
+[%e4.StatUp.StatName] +[%e4.StatUp.Value]</body>
+  </string>
+  <string>
+    <id>2296525</id>
+    <name>STR_Trans_Skill_PCEvent_201912_B_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
+[%e3.StatUp.StatName3] +[%e3.StatUp.Value3]
+[%e3.StatUp.StatName4] +[%e3.StatUp.Value4]
+[%e4.StatUp.StatName] +[%e4.StatUp.Value]</body>
+  </string>
+  <string>
+    <id>2296526</id>
+    <name>STR_Trans_Collection_Skill_PCEvent_Buff</name>
+    <body>PC방 컬렉션 축복</body>
+  </string>
+  <string>
+    <id>2296527</id>
+    <name>STR_Trans_Collection_Skill_PCEvent_Buff_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value]%% for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2]%%.
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].</body>
+  </string>
+  <string>
+    <id>2296528</id>
+    <name>STR_Trans_Collection_Skill_PCEvent_Buff_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value]%%, [%e1.StatUp.StatName2] by [%e1.StatUp.Value2]%%, [%e1.StatUp.StatName3] by [%e1.StatUp.Value3], and [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].</body>
+  </string>
+  <string>
+    <id>2296529</id>
+    <name>STR_ClassMaster_Event_Buff</name>
+    <body>Growth Blessing</body>
+  </string>
+  <string>
+    <id>2296530</id>
+    <name>STR_ClassMaster_Event_Buff_DESC</name>
+    <body>Increases XP gain by 100%% while the blessing lasts.
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value]%%.
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%%.
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3]%%.
+Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
+Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2].</body>
+  </string>
+  <string>
     <id>2296532</id>
     <name>STR_Trans_Grade_05_SKill_03_Eresh</name>
     <body>Ereshkigal</body>
@@ -178219,7 +178267,7 @@ Increases [%e3.StatUp.StatName3] by [%e3.StatUp.Value3]%%.</body>
   <string>
     <id>2296544</id>
     <name>STR_Trans_SKill_Hanfu</name>
-    <body>Hanfu Pixel's Blessing</body>
+    <body>Hanfu Pixel’s Blessing</body>
   </string>
   <string>
     <id>2296545</id>
@@ -178252,6 +178300,46 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
     <id>2296548</id>
     <name>STR_WORLD_US_CHOCOLATE_HEART_BUFF_DESC</name>
     <body>Increases the chance of loot by 10%%, [%e2.StatUp.StatName] by [%e2.StatUp.Value], [%e2.StatUp.StatName2] by [%e2.StatUp.Value2] and [%e2.StatUp.StatName3] by [%e2.StatUp.Value3]%% for [%e1.DrBoost.RemainTime].</body>
+  </string>
+  <string>
+    <id>2296549</id>
+    <name>STR_IDRun_Summon_Polymorph_09</name>
+    <body>Tetragon Hopper</body>
+  </string>
+  <string>
+    <id>2296550</id>
+    <name>STR_IDRun_Summon_Polymorph_10</name>
+    <body>Goldsqueak</body>
+  </string>
+  <string>
+    <id>2296551</id>
+    <name>STR_IDRun_Summon_Polymorph_09_Abnormal</name>
+    <body>You are a Tetragon Hopper. Now you can run around happily.</body>
+  </string>
+  <string>
+    <id>2296552</id>
+    <name>STR_IDRun_Summon_Polymorph_10_Abnormal</name>
+    <body>You are a Goldsqueak. Now you can run around happily.</body>
+  </string>
+  <string>
+    <id>2296553</id>
+    <name>STR_AUTOHUNT_BOOSTING_BUFF_EXP</name>
+    <body>Experience Potion</body>
+  </string>
+  <string>
+    <id>2296554</id>
+    <name>STR_AUTOHUNT_BOOSTING_BUFF_EXP_DESC</name>
+    <body>Increases XP gain by 50%% for [%e1.XPBoost.RemainTime].</body>
+  </string>
+  <string>
+    <id>2296555</id>
+    <name>STR_FAME_BOOSTING_BUFF_FEXP</name>
+    <body>Glory Potion</body>
+  </string>
+  <string>
+    <id>2296556</id>
+    <name>STR_FAME_BOOSTING_BUFF_FEXP_DESC</name>
+    <body>Increases Glory XP gain by 50%%.</body>
   </string>
   <string>
     <id>2296557</id>
@@ -178292,5 +178380,45 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
     <id>2296629</id>
     <name>STR_WORLD_BOOSTING_BUFF_FEXP_50_30M_DESC</name>
     <body>Increases Glory XP gain by 50%%.</body>
+  </string>
+  <string>
+    <id>2296630</id>
+    <name>STR_HeavenWeapon_itembuff</name>
+    <body>[Rune] Baldach Cookie</body>
+  </string>
+  <string>
+    <id>2296631</id>
+    <name>STR_HeavenWeapon_itembuff_Abnormal</name>
+    <body>Your [%e1.StatUp.StatName] increases by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].</body>
+  </string>
+  <string>
+    <id>2296683</id>
+    <name>STR_world_tiamat_jelly_pvp_01</name>
+    <body>Ascension Jam (PvP Attack)</body>
+  </string>
+  <string>
+    <id>2296684</id>
+    <name>STR_world_tiamat_jelly_pvp_02</name>
+    <body>Ascension Jam (PvP Defence)</body>
+  </string>
+  <string>
+    <id>2296685</id>
+    <name>STR_world_tiamat_jelly_pvp_01_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for 60 minutes.</body>
+  </string>
+  <string>
+    <id>2296686</id>
+    <name>STR_world_tiamat_jelly_pvp_02_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for 60 minutes.</body>
+  </string>
+  <string>
+    <id>2296690</id>
+    <name>STR_WORLD_EVENT_ICECREAM_BUFF</name>
+    <body>Soft and Creamy</body>
+  </string>
+  <string>
+    <id>2296691</id>
+    <name>STR_WORLD_EVENT_ICECREAM_BUFF_DESC</name>
+    <body>Increases the chance of loot by 10%%, [%e2.StatUp.StatName] by [%e2.StatUp.Value], [%e2.StatUp.StatName2] by [%e2.StatUp.Value2] and [%e2.StatUp.StatName3] by [%e2.StatUp.Value3]%% for [%e1.DrBoost.RemainTime].</body>
   </string>
 </strings>

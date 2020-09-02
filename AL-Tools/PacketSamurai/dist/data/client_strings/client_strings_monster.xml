@@ -329100,7 +329100,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2336684</id>
     <name>STR_BIDSeal_H_Boss_02_Oritsa_80_Ah</name>
-    <body>Sullen Oris</body>
+    <body>Raging Oris</body>
   </string>
   <string>
     <id>2336685</id>
@@ -330503,6 +330503,16 @@ Rise from your slumber, my brother!</body>
     <body>&lt;Master of Pain&gt;</body>
   </string>
   <string>
+    <id>2336968</id>
+    <name>STR_BIDEvent_Def_Key_Monster_01</name>
+    <body>Wildcat</body>
+  </string>
+  <string>
+    <id>2336969</id>
+    <name>STR_TITLE_BIDEvent_Def_Key_Monster_01</name>
+    <body>&lt;Hides on the Hellpath&gt;</body>
+  </string>
+  <string>
     <id>2336998</id>
     <name>STR_WORLD_EVENT_V72_VALENTINE_SHULACK_COUPLE_80</name>
     <body>Singleton Shulack</body>
@@ -330521,5 +330531,45 @@ Rise from your slumber, my brother!</body>
     <id>2337001</id>
     <name>STR_TITLE_WORLD_EVENT_V72_VALENTINE_BROWNIE_SOLO_80</name>
     <body>&lt;Lovestruck&gt;</body>
+  </string>
+  <string>
+    <id>2337002</id>
+    <name>STR_Bevent_2020_newyear_mouse</name>
+    <body>Lucky Rat</body>
+  </string>
+  <string>
+    <id>2337003</id>
+    <name>STR_NPCTITLE_Bevent_2020_newyear_mouse</name>
+    <body>&lt;Year of the Rat&gt;</body>
+  </string>
+  <string>
+    <id>2337031</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_ATK_02_Info</name>
+    <body>Makarna (difficult) – Raging Oris Hunter’s Silver Cube</body>
+  </string>
+  <string>
+    <id>2337032</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_ATK_03_Info</name>
+    <body>Makarna (difficult) – Raging Oris Hunter’s Gold Cube</body>
+  </string>
+  <string>
+    <id>2337033</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_ATK_04_Info</name>
+    <body>Makarna (difficult) – Raging Oris Hunter’s Platinum Cube</body>
+  </string>
+  <string>
+    <id>2337034</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_DEF_02_Info</name>
+    <body>Makarna (difficult) – Raging Oris Expert’s Silver Cube</body>
+  </string>
+  <string>
+    <id>2337035</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_DEF_03_Info</name>
+    <body>Makarna (difficult) – Raging Oris Expert’s Gold Cube</body>
+  </string>
+  <string>
+    <id>2337036</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_DEF_04_Info</name>
+    <body>Makarna (difficult) – Raging Oris Expert’s Platinum Cube</body>
   </string>
 </strings>
