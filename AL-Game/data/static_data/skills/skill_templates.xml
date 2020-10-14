@@ -172906,18 +172906,27 @@
         <useconditions>
             <move_casting allow="false"/>
         </useconditions>
+        <effects>
+            <worldplaytime points="30" e="1" noresist="true"/>
+        </effects>
     </skill_template>
     <skill_template skill_id="13395" name="Dimension Hourglass" nameId="4588669" name_desc="WorldPlayTime_recovery_60" stack="TOTAL_WORLD_PLAYTIME_RECOVERY" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="NONE" tslot="NONE" dispel_category="BUFF" activation="ACTIVE" cooldown="0" duration="0">
         <properties first_target="ME" target_relation="FRIEND" target_type="ONLYONE"/>
         <useconditions>
             <move_casting allow="false"/>
         </useconditions>
+        <effects>
+            <worldplaytime points="60" e="1" noresist="true"/>
+        </effects>
     </skill_template>
     <skill_template skill_id="13396" name="Dimension Hourglass" nameId="4588669" name_desc="WorldPlayTime_recovery_120" stack="TOTAL_WORLD_PLAYTIME_RECOVERY" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="NONE" tslot="NONE" dispel_category="BUFF" activation="ACTIVE" cooldown="0" duration="0">
         <properties first_target="ME" target_relation="FRIEND" target_type="ONLYONE"/>
         <useconditions>
             <move_casting allow="false"/>
         </useconditions>
+        <effects>
+            <worldplaytime points="120" e="1" noresist="true"/>
+        </effects>
     </skill_template>
     <skill_template skill_id="13397" name="Katalam Protector's Might I" nameId="4588727" name_desc="Best_BoostMaxHPMP_G1" stack="BEST_BOOSTMAXHPMP" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" dispel_category="BUFF" activation="ACTIVE" cooldown="3000" duration="5000" cancel_rate="9999" noremoveatdie="true">
         <properties first_target="ME" first_target_range="1" target_relation="FRIEND" target_type="ONLYONE"/>
