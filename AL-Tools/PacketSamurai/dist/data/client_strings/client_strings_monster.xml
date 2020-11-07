@@ -186984,17 +186984,17 @@
   <string>
     <id>338832</id>
     <name>STR_NPCTITLE_Ab1_OPBoss_Fi_65_Ae</name>
-    <body>&lt;15,000 points&gt;</body>
+    <body>&lt;5,000 points&gt;</body>
   </string>
   <string>
     <id>338833</id>
     <name>STR_NPCTITLE_Ab1_OPBoss_Fi_65_2_Ae</name>
-    <body>&lt;15,000 points&gt;</body>
+    <body>&lt;5,000 points&gt;</body>
   </string>
   <string>
     <id>338834</id>
     <name>STR_NPCTITLE_Ab1_OPBoss_Fi_65_3_Ae</name>
-    <body>&lt;20,000 points&gt;</body>
+    <body>&lt;5,000 points&gt;</body>
   </string>
   <string>
     <id>338835</id>
@@ -269542,7 +269542,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2305847</id>
     <name>STR_IDF6_LF1_Anuhart_FireAttack_NoShow</name>
-    <body>Rega Legion</body>
+    <body>Snuwa Clan</body>
   </string>
   <string>
     <id>2305848</id>
@@ -329020,17 +329020,17 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2336668</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_1ST_ATK_02_Info</name>
-    <body>Makarna (difficult) – Raging Magma/Heat Protector Hunter’s Silver Cube</body>
+    <body>Raging Magma/Heat Protector Hunter’s Silver Cube (Makarna of Bitterness, difficult)</body>
   </string>
   <string>
     <id>2336669</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_1ST_ATK_03_Info</name>
-    <body>Makarna (difficult) – Raging Magma/Heat Protector Hunter’s Gold Cube</body>
+    <body>Raging Magma/Heat Protector Hunter’s Gold Cube (Makarna of Bitterness, difficult)</body>
   </string>
   <string>
     <id>2336670</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_1ST_ATK_04_Info</name>
-    <body>Makarna (difficult) – Raging Magma/Heat Protector Hunter’s Platinum Cube</body>
+    <body>Raging Magma/Heat Protector Hunter’s Platinum Cube (Makarna of Bitterness, difficult)</body>
   </string>
   <string>
     <id>2336671</id>
@@ -329050,17 +329050,17 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2336674</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_1ST_DEF_02_Info</name>
-    <body>Makarna (difficult) – Raging Magma/Heat Protector Expert’s Silver Cube</body>
+    <body>Raging Magma/Heat Protector Expert’s Silver Cube (Makarna of Bitterness, difficult)</body>
   </string>
   <string>
     <id>2336675</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_1ST_DEF_03_Info</name>
-    <body>Makarna (difficult) – Raging Magma/Heat Protector Expert’s Gold Cube</body>
+    <body>Raging Magma/Heat Protector Expert’s Gold Cube (Makarna of Bitterness, difficult)</body>
   </string>
   <string>
     <id>2336676</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_1ST_DEF_04_Info</name>
-    <body>Makarna (difficult) – Raging Magma/Heat Protector Expert’s Platinum Cube</body>
+    <body>Raging Magma/Heat Protector Expert’s Platinum Cube (Makarna of Bitterness, difficult)</body>
   </string>
   <string>
     <id>2336677</id>
@@ -330295,7 +330295,7 @@ Rise from your slumber, my brother!</body>
   <string>
     <id>2336923</id>
     <name>STR_NPCTITLE_IDUnite_legion_score06</name>
-    <body>&lt;1,500 points.</body>
+    <body>&lt;1,500 points&gt;</body>
   </string>
   <string>
     <id>2336924</id>
@@ -330503,6 +330503,21 @@ Rise from your slumber, my brother!</body>
     <body>&lt;Master of Pain&gt;</body>
   </string>
   <string>
+    <id>2336965</id>
+    <name>STR_Underpass_b1_test_whiteghost</name>
+    <body>Marble Ghost</body>
+  </string>
+  <string>
+    <id>2336966</id>
+    <name>STR_BIDCT_SumWind_lightning_80_Ae</name>
+    <body>St. Elmo’s Fire</body>
+  </string>
+  <string>
+    <id>2336967</id>
+    <name>STR_BIDCT_SumWind_tornado_80_Ae</name>
+    <body>Cumulonimbus</body>
+  </string>
+  <string>
     <id>2336968</id>
     <name>STR_BIDEvent_Def_Key_Monster_01</name>
     <body>Wildcat</body>
@@ -330511,6 +330526,147 @@ Rise from your slumber, my brother!</body>
     <id>2336969</id>
     <name>STR_TITLE_BIDEvent_Def_Key_Monster_01</name>
     <body>&lt;Hides on the Hellpath&gt;</body>
+  </string>
+  <string>
+    <id>2336970</id>
+    <name>STR_BIDCatacombs_Rudra_80_Ah</name>
+    <body>Stormwing</body>
+  </string>
+  <string>
+    <id>2336971</id>
+    <name>STR_BIDCatacombs_DrakanMonkBossNmd_80_Ah</name>
+    <body>Asuritya</body>
+  </string>
+  <string>
+    <id>2336972</id>
+    <name>STR_BIDCatacombs_DrakanFiNmd_80_Ah</name>
+    <body>Hephraos</body>
+  </string>
+  <string>
+    <id>2336973</id>
+    <name>STR_v77_Underpass_b1_Nepilim_Sun_80_Ae</name>
+    <body>Nephilim Ignis</body>
+  </string>
+  <string>
+    <id>2336974</id>
+    <name>STR_v77_Underpass_b1_Nepilim_Earth_80_Ae</name>
+    <body>Earth Teredda</body>
+  </string>
+  <string>
+    <id>2336975</id>
+    <name>STR_v77_Underpass_b1_Nepilim_Water_80_Ae</name>
+    <body>Nephilim Aqua</body>
+    <message_type>물의 아쿠안</message_type>
+  </string>
+  <string>
+    <id>2336976</id>
+    <name>STR_v77_Underpass_b1_Nepilim_Pure_80_Ae</name>
+    <body>Jotun Tempi</body>
+  </string>
+  <string>
+    <id>2336977</id>
+    <name>STR_v77_Underpass_b1_Ancient_Giant_80_Ae</name>
+    <body>Foul Ferryman</body>
+  </string>
+  <string>
+    <id>2336978</id>
+    <name>STR_v77_Underpass_b1_NepilmWorker_80_Ae</name>
+    <body>Nephi Driver</body>
+  </string>
+  <string>
+    <id>2336979</id>
+    <name>STR_v77_Underpass_b1_DrakanWorker_Fi_PD_80_An</name>
+    <body>Muzzled Uni</body>
+  </string>
+  <string>
+    <id>2336980</id>
+    <name>STR_v77_Underpass_b1_Lepisma_PD_80_An</name>
+    <body>Silent Slink</body>
+  </string>
+  <string>
+    <id>2336981</id>
+    <name>STR_v77_Underpass_b1_Neutl_PD_80_An</name>
+    <body>Muzzled Klaw</body>
+  </string>
+  <string>
+    <id>2336982</id>
+    <name>STR_v77_Underpass_b1_Bat_PD_80_An</name>
+    <body>Silent Bloodwing</body>
+  </string>
+  <string>
+    <id>2336983</id>
+    <name>STR_v77_Underpass_b1_Kuillus_PD_80_An</name>
+    <body>Silent Kirrin</body>
+  </string>
+  <string>
+    <id>2336984</id>
+    <name>STR_v77_Underpass_b1_Bighands_80_Ae</name>
+    <body>Mild Hand</body>
+  </string>
+  <string>
+    <id>2336985</id>
+    <name>STR_NPCTITLE_Underpass_b1_Nepilim_Sun</name>
+    <body>&lt;Elementalist&gt;</body>
+  </string>
+  <string>
+    <id>2336986</id>
+    <name>STR_NPCTITLE_Underpass_b1_Nepilim_Earth</name>
+    <body>&lt;Elementalist&gt;</body>
+  </string>
+  <string>
+    <id>2336987</id>
+    <name>STR_NPCTITLE_Underpass_b1_Nepilim_Water</name>
+    <body>&lt;Elementalist&gt;</body>
+  </string>
+  <string>
+    <id>2336988</id>
+    <name>STR_NPCTITLE_Underpass_b1_Nepilim_Pure</name>
+    <body>&lt;Velutians&gt;</body>
+  </string>
+  <string>
+    <id>2336989</id>
+    <name>STR_NPCTITLE_Underpass_b1_Ancient_Giant</name>
+    <body>&lt;Elementalist&gt;</body>
+  </string>
+  <string>
+    <id>2336990</id>
+    <name>STR_NPCTITLE_Underpass_b1_NepilmWorker</name>
+    <body>&lt;Velutians&gt;</body>
+  </string>
+  <string>
+    <id>2336991</id>
+    <name>STR_NPCTITLE_Bevent_waterworld_monster_01</name>
+    <body>&lt;Maw of the Sea&gt;</body>
+  </string>
+  <string>
+    <id>2336992</id>
+    <name>STR_Bevent_waterwar_FlowerWorm_80</name>
+    <body>Miss Mussel</body>
+  </string>
+  <string>
+    <id>2336993</id>
+    <name>STR_Bevent_waterwar_Snail_seastar_80</name>
+    <body>Blood Star</body>
+  </string>
+  <string>
+    <id>2336994</id>
+    <name>STR_Bevent_waterwar_Python_Sea_80</name>
+    <body>Piqued Python</body>
+  </string>
+  <string>
+    <id>2336995</id>
+    <name>STR_Bevent_waterwar_Dionaea_Sea_80</name>
+    <body>Tender Dionae</body>
+  </string>
+  <string>
+    <id>2336996</id>
+    <name>STR_Bevent_waterwar_Shadowstalker_80</name>
+    <body>Oceanide</body>
+  </string>
+  <string>
+    <id>2336997</id>
+    <name>STR_Bevent_waterwar_Jellyfish_80</name>
+    <body>Bursting Jellyfish</body>
   </string>
   <string>
     <id>2336998</id>
@@ -330543,33 +330699,558 @@ Rise from your slumber, my brother!</body>
     <body>&lt;Year of the Rat&gt;</body>
   </string>
   <string>
+    <id>2337004</id>
+    <name>STR_BIDCatacombs_Rudra_DrakanFiHigh_80_Ae</name>
+    <body>Storm Legate</body>
+  </string>
+  <string>
+    <id>2337005</id>
+    <name>STR_BIDCatacombs_Rudra_DrakanWiHigh_80_Ae</name>
+    <body>Storm Mage</body>
+  </string>
+  <string>
+    <id>2337006</id>
+    <name>STR_BIDCatacombs_Rudra_DrakanScHigh_80_Ae</name>
+    <body>Storm Gunner</body>
+  </string>
+  <string>
+    <id>2337007</id>
+    <name>STR_BIDCatacombs_Rudra_DrakanClHigh_80_Ae</name>
+    <body>Storm Medic</body>
+  </string>
+  <string>
+    <id>2337008</id>
+    <name>STR_NPCTITLE_IDCatacombs_Rudra_Drakan</name>
+    <body>&lt;Stormwing Legion&gt;</body>
+  </string>
+  <string>
+    <id>2337009</id>
+    <name>STR_NPCTITLE_IDCatacombs_Rudra_Defender</name>
+    <body>&lt;Stormwing Guard&gt;</body>
+  </string>
+  <string>
+    <id>2337010</id>
+    <name>STR_BIDCatacombs_Rudra_DrakanAsHigh_80_Ae</name>
+    <body>Storm Creeper</body>
+  </string>
+  <string>
+    <id>2337011</id>
+    <name>STR_Bevent_waterwar_noshow_npc_03</name>
+    <body>Water Trap</body>
+  </string>
+  <string>
+    <id>2337012</id>
+    <name>STR_IDCatacombs_Rudra_Shulack_Ra_80_Ae</name>
+    <body>Stellaminator</body>
+  </string>
+  <string>
+    <id>2337013</id>
+    <name>STR_IDCatacombs_Rudra_Shulack_Gu_80_Ae</name>
+    <body>Stella Spy</body>
+  </string>
+  <string>
+    <id>2337014</id>
+    <name>STR_IDCatacombs_Rudra_StellaGuard_Fi_80_Ae</name>
+    <body>Agent 5te11a</body>
+  </string>
+  <string>
+    <id>2337015</id>
+    <name>STR_IDCatacombs_Rudra_Box_Off</name>
+    <body>Stella Support Box</body>
+  </string>
+  <string>
+    <id>2337016</id>
+    <name>STR_IDCatacombs_Rudra_Box_On</name>
+    <body>Stella Support Box</body>
+  </string>
+  <string>
+    <id>2337017</id>
+    <name>STR_IDCatacombs_Rudra_UnDrakanGhostFi_80_Ae</name>
+    <body>Vehala Ghost</body>
+  </string>
+  <string>
+    <id>2337018</id>
+    <name>STR_IDCatacombs_Rudra_UnDrakanGhostCl_80_Ae</name>
+    <body>Vehala Stitcher</body>
+  </string>
+  <string>
+    <id>2337019</id>
+    <name>STR_IDCatacombs_Rudra_UnDrakanGhostWi_80_Ae</name>
+    <body>Vehala Spirit</body>
+  </string>
+  <string>
+    <id>2337020</id>
+    <name>STR_IDCatacombs_Rudra_UnDrakanGhostAs_80_Ae</name>
+    <body>Vehala Soul</body>
+  </string>
+  <string>
+    <id>2337021</id>
+    <name>STR_IDCatacombs_Rudra_UnDrakanBoneFi_80_Ae</name>
+    <body>Undead Drakan Legate</body>
+  </string>
+  <string>
+    <id>2337022</id>
+    <name>STR_IDCatacombs_Rudra_UnDrakanBonePr_80_Ae</name>
+    <body>Koschei Surgeon</body>
+  </string>
+  <string>
+    <id>2337023</id>
+    <name>STR_IDCatacombs_Rudra_UnDrakanBoneWi_80_Ae</name>
+    <body>Undead Drakan Mage</body>
+  </string>
+  <string>
+    <id>2337024</id>
+    <name>STR_IDCatacombs_Rudra_UnDrakanBoneAs_80_Ae</name>
+    <body>Undead Drakan Attack Officer</body>
+  </string>
+  <string>
+    <id>2337025</id>
+    <name>STR_IDCatacombs_Rudra_UnDrakanBoneSc_80_Ae</name>
+    <body>Undead Drakan Executioner</body>
+  </string>
+  <string>
+    <id>2337026</id>
+    <name>STR_IDCatacombs_Rudra_DrakanBone_Fi_80_Ae</name>
+    <body>Drakan Superior Legate</body>
+  </string>
+  <string>
+    <id>2337027</id>
+    <name>STR_IDCatacombs_Rudra_DrakanBone_Cl_80_Ae</name>
+    <body>Drakan Superior Surgeon</body>
+  </string>
+  <string>
+    <id>2337028</id>
+    <name>STR_IDCatacombs_Rudra_DrakanBone_Wi_80_Ae</name>
+    <body>Drakan Superior Mage</body>
+  </string>
+  <string>
+    <id>2337029</id>
+    <name>STR_IDCatacombs_Rudra_DrakanBone_Ra_80_Ae</name>
+    <body>Drakan Superior Triaris</body>
+  </string>
+  <string>
+    <id>2337030</id>
+    <name>STR_BIDSeal_H_Boss_03_Vrita_80_Ah</name>
+    <body>Raging Beritra</body>
+  </string>
+  <string>
     <id>2337031</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_ATK_02_Info</name>
-    <body>Makarna (difficult) – Raging Oris Hunter’s Silver Cube</body>
+    <body>Raging Oris Hunter’s Silver Cube (Makarna of Bitterness, difficult)</body>
   </string>
   <string>
     <id>2337032</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_ATK_03_Info</name>
-    <body>Makarna (difficult) – Raging Oris Hunter’s Gold Cube</body>
+    <body>Raging Oris Hunter’s Gold Cube (Makarna of Bitterness, difficult)</body>
   </string>
   <string>
     <id>2337033</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_ATK_04_Info</name>
-    <body>Makarna (difficult) – Raging Oris Hunter’s Platinum Cube</body>
+    <body>Raging Oris Hunter’s Platinum Cube (Makarna of Bitterness, difficult)</body>
   </string>
   <string>
     <id>2337034</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_DEF_02_Info</name>
-    <body>Makarna (difficult) – Raging Oris Expert’s Silver Cube</body>
+    <body>Raging Oris Expert’s Silver Cube (Makarna of Bitterness, difficult)</body>
   </string>
   <string>
     <id>2337035</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_DEF_03_Info</name>
-    <body>Makarna (difficult) – Raging Oris Expert’s Gold Cube</body>
+    <body>Raging Oris Expert’s Gold Cube (Makarna of Bitterness, difficult)</body>
   </string>
   <string>
     <id>2337036</id>
     <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_2ND_DEF_04_Info</name>
-    <body>Makarna (difficult) – Raging Oris Expert’s Platinum Cube</body>
+    <body>Raging Oris Expert’s Platinum Cube (Makarna of Bitterness, difficult)</body>
+  </string>
+  <string>
+    <id>2337037</id>
+    <name>STR_IDCatacombs_Rudra_Shulack_Hint</name>
+    <body>Spy in Hot Water</body>
+  </string>
+  <string>
+    <id>2337038</id>
+    <name>STR_BIDSeal_H_Boss_03_Chief_80_Ae</name>
+    <body>Seal Guardian</body>
+  </string>
+  <string>
+    <id>2337039</id>
+    <name>STR_BIDSeal_H_Boss_03_Guardian_Summon_80_Ae</name>
+    <body>Shade Guardian</body>
+  </string>
+  <string>
+    <id>2337040</id>
+    <name>STR_BIDSeal_H_Boss_03_Boss_Human_80_Ah</name>
+    <body>Beritra</body>
+  </string>
+  <string>
+    <id>2337041</id>
+    <name>STR_v77_Underpass_b1_DrakanWorker_Fi_PD_80_Q</name>
+    <body>Muzzled Uni</body>
+  </string>
+  <string>
+    <id>2337042</id>
+    <name>STR_v77_Underpass_b1_Lepisma_PD_80_Q</name>
+    <body>Silent Slink</body>
+  </string>
+  <string>
+    <id>2337043</id>
+    <name>STR_v77_Underpass_b1_Neutl_PD_80_Q</name>
+    <body>Muzzled Klaw</body>
+  </string>
+  <string>
+    <id>2337044</id>
+    <name>STR_v77_Underpass_b1_Bat_PD_80_Q</name>
+    <body>Silent Bloodwing</body>
+  </string>
+  <string>
+    <id>2337045</id>
+    <name>STR_v77_Underpass_b1_Kuillus_PD_80_Q</name>
+    <body>Silent Kirrin</body>
+  </string>
+  <string>
+    <id>2337046</id>
+    <name>STR_BIDCatacombs_Rudra_UnDrakanGhostFi_80_Ae</name>
+    <body>Vehala Ghost</body>
+  </string>
+  <string>
+    <id>2337047</id>
+    <name>STR_BIDCatacombs_Rudra_UnDrakanGhostCl_80_Ae</name>
+    <body>Vehala Phantasm</body>
+  </string>
+  <string>
+    <id>2337048</id>
+    <name>STR_BIDCatacombs_Rudra_UnDrakanGhostWi_80_Ae</name>
+    <body>Vehala Spirit</body>
+  </string>
+  <string>
+    <id>2337049</id>
+    <name>STR_BIDCatacombs_Rudra_UnDrakanGhostAs_80_Ae</name>
+    <body>Vehala Soul</body>
+  </string>
+  <string>
+    <id>2337050</id>
+    <name>STR_BIDCatacombs_Rudra_UnDrakanBoneFi_80_Ae</name>
+    <body>Undead Drakan Legate</body>
+  </string>
+  <string>
+    <id>2337051</id>
+    <name>STR_BIDCatacombs_Rudra_UnDrakanBonePr_80_Ae</name>
+    <body>Koschei Curatus</body>
+  </string>
+  <string>
+    <id>2337052</id>
+    <name>STR_BIDCatacombs_Rudra_UnDrakanBoneWi_80_Ae</name>
+    <body>Undead Drakan Mage</body>
+  </string>
+  <string>
+    <id>2337053</id>
+    <name>STR_BIDCatacombs_Rudra_UnDrakanBoneAs_80_Ae</name>
+    <body>Undead Drakan Attack Officer</body>
+  </string>
+  <string>
+    <id>2337054</id>
+    <name>STR_BIDCatacombs_Rudra_UnDrakanBoneSc_80_Ae</name>
+    <body>Undead Drakan Executioner</body>
+  </string>
+  <string>
+    <id>2337055</id>
+    <name>STR_Underpass_b1_Hunt_soul</name>
+    <body>Soul</body>
+  </string>
+  <string>
+    <id>2337056</id>
+    <name>STR_NPCTITLE_Underpass_b1_Hunt_soul</name>
+    <body>&lt;Boundary Quarry&gt;</body>
+  </string>
+  <string>
+    <id>2337057</id>
+    <name>STR_CUBIC_STAT_CATACOMBS_3RD_ATK_02_Info</name>
+    <body>Stormwing Hunter’s Silver Cube (Beshmundir Storm Temple, normal)</body>
+  </string>
+  <string>
+    <id>2337058</id>
+    <name>STR_CUBIC_STAT_CATACOMBS_3RD_ATK_03_Info</name>
+    <body>Stormwing Hunter’s Gold Cube (Beshmundir Storm Temple, normal)</body>
+  </string>
+  <string>
+    <id>2337059</id>
+    <name>STR_CUBIC_STAT_CATACOMBS_3RD_ATK_04_Info</name>
+    <body>Stormwing Hunter’s Platinum Cube (Beshmundir Storm Temple, normal)</body>
+  </string>
+  <string>
+    <id>2337060</id>
+    <name>STR_CUBIC_STAT_CATACOMBS_3RD_DEF_02_Info</name>
+    <body>Stormwing Expert’s Silver Cube (Beshmundir Storm Temple, normal)</body>
+  </string>
+  <string>
+    <id>2337061</id>
+    <name>STR_CUBIC_STAT_CATACOMBS_3RD_DEF_03_Info</name>
+    <body>Stormwing Expert’s Gold Cube (Beshmundir Storm Temple, normal)</body>
+  </string>
+  <string>
+    <id>2337062</id>
+    <name>STR_CUBIC_STAT_CATACOMBS_3RD_DEF_04_Info</name>
+    <body>Stormwing Expert’s Platinum Cube (Beshmundir Storm Temple, normal)</body>
+  </string>
+  <string>
+    <id>2337063</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_3RD_ATK_02_Info</name>
+    <body>Raging Beritra Hunter’s Silver Cube (Makarna of Bitterness, difficult)</body>
+  </string>
+  <string>
+    <id>2337064</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_3RD_ATK_03_Info</name>
+    <body>Raging Beritra Hunter’s Gold Cube (Makarna of Bitterness, difficult)</body>
+  </string>
+  <string>
+    <id>2337065</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_3RD_ATK_04_Info</name>
+    <body>Raging Beritra Hunter’s Platinum Cube (Makarna of Bitterness, difficult)</body>
+  </string>
+  <string>
+    <id>2337066</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_3RD_DEF_02_Info</name>
+    <body>Raging Beritra Expert’s Silver Cube (Makarna of Bitterness, difficult)</body>
+  </string>
+  <string>
+    <id>2337067</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_3RD_DEF_03_Info</name>
+    <body>Raging Beritra Expert’s Gold Cube (Makarna of Bitterness, difficult)</body>
+  </string>
+  <string>
+    <id>2337068</id>
+    <name>STR_CUBIC_STAT_IDSEAL_HARD_BOSS_3RD_DEF_04_Info</name>
+    <body>Raging Beritra Expert’s Platinum Cube (Makarna of Bitterness, difficult)</body>
+  </string>
+  <string>
+    <id>2337069</id>
+    <name>STR_IDEvent_Damage_01_Normal_Tesinon_80_Ah_field</name>
+    <body>Lucent Lokhril</body>
+  </string>
+  <string>
+    <id>2337070</id>
+    <name>STR_IDEvent_Damage_01_Normal_Silika_80_Ah_field</name>
+    <body>Holy Orkanimum</body>
+  </string>
+  <string>
+    <id>2337071</id>
+    <name>STR_NPCTITLE_IDEvent_Damage_01_Normal_Tesinon_80_Ah_field</name>
+    <body>&lt;Escaped from the Abyssal Ruins&gt;</body>
+  </string>
+  <string>
+    <id>2337072</id>
+    <name>STR_NPCTITLE_IDEvent_Damage_01_Normal_Silika_80_Ah_field</name>
+    <body>&lt;Escaped from the Abyssal Ruins&gt;</body>
+  </string>
+  <string>
+    <id>2337073</id>
+    <name>STR_BIDCatacombs_Rudra_80_Ah_80_easy</name>
+    <body>Pale Stormwing</body>
+  </string>
+  <string>
+    <id>2337074</id>
+    <name>STR_BIDCatacombs_DrakanMonkBossNmd_80_Ah_80_easy</name>
+    <body>Pale Asuritya</body>
+  </string>
+  <string>
+    <id>2337075</id>
+    <name>STR_BIDCatacombs_DrakanFiNmd_80_Ah_80_easy</name>
+    <body>Pale Hephraos</body>
+  </string>
+  <string>
+    <id>2337076</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Seed_01</name>
+    <body>Earth Mound</body>
+  </string>
+  <string>
+    <id>2337077</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Seed_02</name>
+    <body>Earth Mound</body>
+  </string>
+  <string>
+    <id>2337078</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Seed_03</name>
+    <body>Earth Mound</body>
+  </string>
+  <string>
+    <id>2337079</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Seed_04</name>
+    <body>Earth Mound</body>
+  </string>
+  <string>
+    <id>2337080</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Seed_05</name>
+    <body>Earth Mound</body>
+  </string>
+  <string>
+    <id>2337081</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Corn_00</name>
+    <body>Greenhaven Frightcorn</body>
+  </string>
+  <string>
+    <id>2337082</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Corn_01</name>
+    <body>Greenhaven Frightcorn</body>
+  </string>
+  <string>
+    <id>2337083</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Corn_02</name>
+    <body>Greenhaven Frightcorn</body>
+  </string>
+  <string>
+    <id>2337084</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Corn_03</name>
+    <body>Greenhaven Frightcorn</body>
+  </string>
+  <string>
+    <id>2337085</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Corn_04</name>
+    <body>Greenhaven Frightcorn</body>
+  </string>
+  <string>
+    <id>2337086</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_S_Corn_00</name>
+    <body>Arbour Frightcorn</body>
+  </string>
+  <string>
+    <id>2337087</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_S_Corn_01</name>
+    <body>Arbour Frightcorn</body>
+  </string>
+  <string>
+    <id>2337088</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_S_Corn_02</name>
+    <body>Arbour Frightcorn</body>
+  </string>
+  <string>
+    <id>2337089</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_S_Corn_03</name>
+    <body>Arbour Frightcorn</body>
+  </string>
+  <string>
+    <id>2337090</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_S_Corn_04</name>
+    <body>Arbour Frightcorn</body>
+  </string>
+  <string>
+    <id>2337091</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Fungus_Flower_00</name>
+    <body>Greenhaven Fladia</body>
+  </string>
+  <string>
+    <id>2337092</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Fungus_Flower_01</name>
+    <body>Greenhaven Fladia</body>
+  </string>
+  <string>
+    <id>2337093</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Fungus_Flower_02</name>
+    <body>Greenhaven Fladia</body>
+  </string>
+  <string>
+    <id>2337094</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Fungus_Flower_03</name>
+    <body>Greenhaven Fladia</body>
+  </string>
+  <string>
+    <id>2337095</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Fungus_Flower_04</name>
+    <body>Greenhaven Fladia</body>
+  </string>
+  <string>
+    <id>2337096</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_S_Fungus_Flower_00</name>
+    <body>Arbour Fladia</body>
+  </string>
+  <string>
+    <id>2337097</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_S_Fungus_Flower_01</name>
+    <body>Arbour Fladia</body>
+  </string>
+  <string>
+    <id>2337098</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_S_Fungus_Flower_02</name>
+    <body>Arbour Fladia</body>
+  </string>
+  <string>
+    <id>2337099</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_S_Fungus_Flower_03</name>
+    <body>Arbour Fladia</body>
+  </string>
+  <string>
+    <id>2337100</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_S_Fungus_Flower_04</name>
+    <body>Arbour Fladia</body>
+  </string>
+  <string>
+    <id>2337101</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Fungus_00</name>
+    <body>Greenhaven Fungie</body>
+  </string>
+  <string>
+    <id>2337102</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Fungus_01</name>
+    <body>Greenhaven Fungie</body>
+  </string>
+  <string>
+    <id>2337103</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Fungus_02</name>
+    <body>Greenhaven Fungie</body>
+  </string>
+  <string>
+    <id>2337104</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Fungus_03</name>
+    <body>Greenhaven Fungie</body>
+  </string>
+  <string>
+    <id>2337105</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_Fungus_04</name>
+    <body>Greenhaven Fungie</body>
+  </string>
+  <string>
+    <id>2337106</id>
+    <name>STR_NPCTITLE_Ver70_Event_AION_Farm_00</name>
+    <body>&lt;Scion&gt;</body>
+  </string>
+  <string>
+    <id>2337107</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_badLarva</name>
+    <body>Greenhaven Tenaklu</body>
+  </string>
+  <string>
+    <id>2337108</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_BrownieW</name>
+    <body>Dukaki Thief</body>
+  </string>
+  <string>
+    <id>2337109</id>
+    <name>STR_IDEvent_Legion_ATREIA_Garden_BrownieM</name>
+    <body>Dukaki Thief</body>
+  </string>
+  <string>
+    <id>2337110</id>
+    <name>STR_IDCatacombs_Rudra_DrakanBone_As_80_Ae</name>
+    <body>Drakan Superior Attack Officer</body>
+  </string>
+  <string>
+    <id>2337116</id>
+    <name>STR_Event_Instance_Mob_01</name>
+    <body>Tonton</body>
+  </string>
+  <string>
+    <id>2337117</id>
+    <name>STR_Event_Instance_Mob_02</name>
+    <body>Ponpon</body>
+  </string>
+  <string>
+    <id>2337121</id>
+    <name>STR_NPCTITLE_Event_Drakan</name>
+    <body>&lt;Thief of Mysteries&gt;</body>
+  </string>
+  <string>
+    <id>2337122</id>
+    <name>STR_Bevent_Drakan_Fi_80_Ae</name>
+    <body>Drakan Racer</body>
   </string>
 </strings>

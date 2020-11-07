@@ -93976,12 +93976,12 @@ Chain Skill Level 4 (Final)</body>
   <string>
     <id>2280016</id>
     <name>STR_Material_housing_ProcDPHeal_Instant_DESC</name>
-    <body>Recovers your repose energy by up to 15%%. Your HP and MP are recovered, too.</body>
+    <body>Restores your Energy of Repose by up to 100%%. Your HP and MP are restored, too.</body>
   </string>
   <string>
     <id>2280017</id>
     <name>STR_Material_housing_ProcDPHeal_Instant_DESC_Abnormal</name>
-    <body>Recovers your repose energy by up to 15%%. Your HP and MP are recovered, too.</body>
+    <body>Restores your Energy of Repose by up to 100%%. Your HP and MP are restored, too.</body>
   </string>
   <string>
     <id>2280018</id>
@@ -119423,7 +119423,7 @@ Increases PvP attack and defence.</body>
   <string>
     <id>2285086</id>
     <name>STR_LDF5_F_GuardianHead_PerfectDefend_DESC</name>
-    <body>The Steel Wall will be removed if all castle gates are destroyed.</body>
+    <body>The Steel Wall is removed when you recapture all Balaur defence bases.</body>
   </string>
   <string>
     <id>2285087</id>
@@ -124251,8 +124251,7 @@ The duration is reduced by 50%% when applied to a player.</body>
     <id>2286051</id>
     <name>STR_SKILLN_Ba_SongofDimensionDoor_DESC</name>
     <body>You teleport to the location.
-Removes immobilisation.
-Removes reduced movement speed.</body>
+Removes movement-impairing states.</body>
   </string>
   <string>
     <id>2286052</id>
@@ -129596,7 +129595,7 @@ Reduces your damage by [%e2.Shield.CoverValue]%% for [%e2.Shield.RemainTime].</b
   <string>
     <id>2287032</id>
     <name>STR_SkillN_KN_PurifyWing_DESC</name>
-    <body>Removes all your magical debuffs which restrict movement.
+    <body>Removes movement-impairing states.
 Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value2] for [%e2.StatUp.RemainTime.float].
 Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].</body>
   </string>
@@ -130210,7 +130209,8 @@ Causes the target to stumble.</body>
     <id>2287146</id>
     <name>STR_SKILLN_AS_ShadowDodge_DESC</name>
     <body>You teleport [%e1.RandomMoveLoc.Distance]m forwards.
-Removes all effects that cause immobilisation and reduce movement speed.</body>
+Removes movement-impairing states.
+Grants basic stealth mode for [%e2.Hide.RemainTime.float].</body>
   </string>
   <string>
     <id>2287147</id>
@@ -130389,7 +130389,7 @@ Increases MP regeneration.</body>
   <string>
     <id>2287180</id>
     <name>STR_SKILLN_SC_Hide</name>
-    <body>Hide</body>
+    <body>Hide 2</body>
   </string>
   <string>
     <id>2287181</id>
@@ -131452,7 +131452,7 @@ The duration is reduced by 50%% when applied to a player.</body>
   <string>
     <id>2287370</id>
     <name>STR_SKILLN_EL_FireFear_Abnormal</name>
-    <body>The movement speed is reduced and [%e4.StatUp.StatName] and [%e4.StatUp.StatName3] increase by [%e4.StatUp.Value]. Terrifies the target.</body>
+    <body>The movement speed is reduced and [%e4.StatUp.StatName] and [%e4.StatUp.StatName3] increase by [%e4.StatUp.Value]. Terrifies the target. This skill cannot be removed.</body>
   </string>
   <string>
     <id>2287371</id>
@@ -131471,7 +131471,7 @@ The duration is reduced by 50%% when applied to a player.</body>
   <string>
     <id>2287373</id>
     <name>STR_SKILLN_EL_WaterFear_Abnormal</name>
-    <body>The movement speed is reduced and [%e4.StatUp.StatName] and [%e4.StatUp.StatName3] increase by [%e4.StatUp.Value]. Terrifies the target.</body>
+    <body>The movement speed is reduced and [%e4.StatUp.StatName] and [%e4.StatUp.StatName3] increase by [%e4.StatUp.Value]. Terrifies the target. This skill cannot be removed.</body>
   </string>
   <string>
     <id>2287374</id>
@@ -132969,7 +132969,7 @@ Causes the target to stumble.</body>
   <string>
     <id>2287646</id>
     <name>STR_SKILLN_FI_EnergyWing_DESC</name>
-    <body>Removes magical debuffs that restrict movement.
+    <body>Removes movement-impairing states.
 Flight does not consume Flight Time.
 Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value] for [%e2.StatUp.RemainTime.float].
 Increases [%e4.StatUp.StatName] by [%e4.StatUp.Value].
@@ -133762,7 +133762,7 @@ Reduces [%e3.StatDown.StatName] by [%e3.StatDown.Value].</body>
   <string>
     <id>2287794</id>
     <name>STR_SKILLN_RA_Hide</name>
-    <body>Hide</body>
+    <body>Hide 1</body>
   </string>
   <string>
     <id>2287795</id>
@@ -134011,7 +134011,7 @@ Reduces the attack speed.</body>
     <id>2287840</id>
     <name>STR_SKILLN_RA_InstantSprint_DESC</name>
     <body>You teleport [%e1.RandomMoveLoc.Distance]m forwards.
-Removes all effects that cause immobilisation and reduce movement speed.</body>
+Removes movement-impairing states.</body>
   </string>
   <string>
     <id>2287841</id>
@@ -134135,7 +134135,7 @@ Reduces the target's movement speed for [%e2.Snare.RandomTime] to [%e2.Snare.Rem
   <string>
     <id>2287864</id>
     <name>STR_SKILLN_RA_EnchantBow_DESC</name>
-    <body>Increases [%e1.WeaponStatUp.StatName] of [%e1.WeaponStatUp.WeaponCategory] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].
+    <body>Increases [%e1.WeaponStatUp.StatName] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].
 Increases [%e1.WeaponStatUp.StatName2] by [%e1.WeaponStatUp.Value2].</body>
   </string>
   <string>
@@ -134316,7 +134316,7 @@ Multicast 3 times</body>
     <id>2287898</id>
     <name>STR_SKILLN_RA_Stigma_TigerEye_DESC</name>
     <body>Reduces [%e1.WeaponStatUp.StatName] of [%e1.WeaponStatUp.WeaponCategory] by 5m.
-Increases [%e2.WeaponStatUp.StatName] of [%e1.WeaponStatUp.WeaponCategory] by [%e2.WeaponStatUp.Value].
+Increases [%e2.WeaponStatUp.StatName] by [%e2.WeaponStatUp.Value].
 Increases [%e3.WeaponStatUp.StatName] by [%e3.WeaponStatUp.Value]%%.
 Increases [%e4.StatUp.StatName] by [%e4.StatUp.Value].
 Active Skill</body>
@@ -134366,7 +134366,7 @@ The effect cannot be removed.</body>
   <string>
     <id>2287907</id>
     <name>STR_SKILLN_RA_SnakeEye_DESC</name>
-    <body>Increases [%e1.WeaponStatUp.StatName] of [%e1.WeaponStatUp.WeaponCategory] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].</body>
+    <body>Increases [%e1.WeaponStatUp.StatName] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].</body>
   </string>
   <string>
     <id>2287908</id>
@@ -134979,8 +134979,7 @@ The duration is reduced by 50%% when applied to a player.</body>
     <id>2288023</id>
     <name>STR_SKILLN_WI_DimensionDoor_DESC</name>
     <body>You teleport [%e1.RandomMoveLoc.Distance]m backwards.
-Removes your immobilisation.
-Removes reduced movement speed.</body>
+Removes movement-impairing states.</body>
   </string>
   <string>
     <id>2288024</id>
@@ -142697,12 +142696,12 @@ Causes additional damage if the target has transformed into a warrior.</body>
   <string>
     <id>2289607</id>
     <name>STR_SKILLN_Highdeva_fire_G2_Proc2</name>
-    <body>Flickering Flames</body>
+    <body>Rune 1</body>
   </string>
   <string>
     <id>2289608</id>
     <name>STR_SKILLN_Highdeva_fire_G2_Proc2_Abnormal</name>
-    <body>Deals continuous fire damage.</body>
+    <body>You are at the 1st Rune level.</body>
   </string>
   <string>
     <id>2289609</id>
@@ -143107,8 +143106,8 @@ Perfect Aimed Cannon Shot</body>
     <name>STR_SKILLN_EV_RapidStance_DESC</name>
     <body>Increases [%e1.StatBoost.StatName] by [%e1.StatBoost.RateValue]%%.
 Additional PvE attack is increased by 520.
-Has a [%e3.Provoker.ConditionProb]%% chance to inflict additional [%e3.Provoker.OtherSkill.e1.ProcATK_Instant.Damage] damage on the target whenever you perform [%e3.Provoker.Condition].
-Active Skill</body>
+For each [%e3.Provoker.Condition], there is a [%e3.Provoker.ConditionProb]%% chance that [%e3.Provoker.OtherSkill.e1.StatUp.StatName] will be increased by [%e3.Provoker.OtherSkill.e1.StatUp.Value].
+Active skill.</body>
   </string>
   <string>
     <id>2289681</id>
@@ -143193,10 +143192,9 @@ Perfect Snowflower Song</body>
     <id>2289694</id>
     <name>STR_SKILLN_EV_SongofDimensionDoor_DESC</name>
     <body>You teleport [%e1.RandomMoveLoc.Distance]m forwards.
-Removes immobilisation.
-Removes reduced movement speed.
+Removes movement-impairing states.
 Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value]%% for [%e3.StatUp.RemainTime].
-Perfect Disturbing Dance</body>
+Perfect disturbing dance.</body>
   </string>
   <string>
     <id>2289695</id>
@@ -152075,7 +152073,7 @@ If the target is a player, the damage is reduced. Additionally, the monster sust
   <string>
     <id>2291458</id>
     <name>STR_IDCubic_SignetBurst_DESC</name>
-    <body>Deals blast damage to a target within an 8m radius.</body>
+    <body>Deals blast damage to a target within a [%First_Target_Valid_Distance]m radius.</body>
   </string>
   <string>
     <id>2291459</id>
@@ -153434,8 +153432,8 @@ After using the skill, the casting time of magic recovery skills is reduced by 8
     <id>2291694</id>
     <name>STR_SKILLN_PR_DivineSpark_Custom_A_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical wind damage.
-Paralyses the target for [%e2.Paralyze.RemainTime].
-If the attack lands a Crit Strike, paralyses the target for 2 seconds.</body>
+Paralyses the target for 1.5 seconds.
+A hit reduces the cooldown for Paralysing Blow by 7 seconds.</body>
   </string>
   <string>
     <id>2291695</id>
@@ -153959,8 +153957,8 @@ Knocks the target back.</body>
     <id>2291783</id>
     <name>STR_SKILLN_Gu_ForeHeadSnipe_Custom_B_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical earth damage.
-Increases your attack speed by 30%% for 2.5 seconds.
-All attack skills are carried out as Crit Strikes.</body>
+Increases your attack speed by 30%% for 7 seconds.
+Attack skills deal crit strikes 3 times.</body>
   </string>
   <string>
     <id>2291784</id>
@@ -154690,7 +154688,7 @@ Vaizel's Perfect Wisdom</body>
   <string>
     <id>2291920</id>
     <name>STR_Gu_ForeHeadSnipe_Custom_B_sys_Abnormal</name>
-    <body>Crit Strikes are carried out with a 100%% probability, and attack speed is increased.</body>
+    <body>Magic skills deal 100%% crit strikes 3 times, and attack speed is increased.</body>
   </string>
   <string>
     <id>2291921</id>
@@ -165184,8 +165182,8 @@ After using the skill, the casting time of magic recovery skills is reduced by 8
     <id>2293969</id>
     <name>STR_SKILLN_PR_DivineSpark_Custom_A_DESC_up</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical wind damage.
-Paralyses the target for 1.5 seconds.
-Paralyses the target for 2.5 seconds if the attack lands a Crit Strike.</body>
+Paralyses the target for [%e2.Paralyze.RemainTime].
+A hit reduces the cooldown for Paralysing Blow by 11 seconds.</body>
   </string>
   <string>
     <id>2293970</id>
@@ -166080,8 +166078,8 @@ Knocks the target back.</body>
     <id>2294127</id>
     <name>STR_SKILLN_Gu_ForeHeadSnipe_Custom_B_DESC_up</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical earth damage.
-Increases your attack speed by 30%% for 3 seconds.
-All attack skills are carried out as Crit Strikes.</body>
+Increases your attack speed by 30%% for 10 seconds.
+Attack skills deal crit strikes 4 times.</body>
   </string>
   <string>
     <id>2294128</id>
@@ -166185,7 +166183,7 @@ Reduces the target's movement speed.</body>
   <string>
     <id>2294146</id>
     <name>STR_Gu_ForeHeadSnipe_Custom_B_sys_Abnormal_up</name>
-    <body>Crit Strikes are carried out with a 100%% probability, and attack speed is increased.</body>
+    <body>Magic skills deal 100%% crit strike 4 times, and attack speed is increased.</body>
   </string>
   <string>
     <id>2294147</id>
@@ -167213,7 +167211,7 @@ Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].</body>
   <string>
     <id>2294336</id>
     <name>STR_test_PC_onlyskill_G1</name>
-    <body>PC방 워리어</body>
+    <body>PC방 워리어 I</body>
   </string>
   <string>
     <id>2294337</id>
@@ -167254,7 +167252,7 @@ Multicast 3 times</body>
   <string>
     <id>2294346</id>
     <name>STR_IDSeal_Boss1_Delay_Skill_AbNormal</name>
-    <body>Removes the Protective Shield from companions of Magma and Heat Protectors in the vicinity.</body>
+    <body>Removes the Protective Shield from companions of Magma and Heat Protectors in the specified area.</body>
   </string>
   <string>
     <id>2294347</id>
@@ -168079,6 +168077,465 @@ Increases the casting time by 13%%.
 Increases maximum HP by 3,000.</body>
   </string>
   <string>
+    <id>2294512</id>
+    <name>STR_shiS_buff_G2</name>
+    <body>[Evolution] Soul Wave (Level 2)</body>
+  </string>
+  <string>
+    <id>2294513</id>
+    <name>STR_shiS_buff_G2_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].
+Group members receive 60%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294514</id>
+    <name>STR_shiS_buff_G2_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].</body>
+  </string>
+  <string>
+    <id>2294515</id>
+    <name>STR_shiS_buff_G2_AddEffect_sys</name>
+    <body>[Evolution] Soul Wave (Level 2)</body>
+  </string>
+  <string>
+    <id>2294516</id>
+    <name>STR_shiS_buff_G2_AddEffect_Abnormal</name>
+    <body>Increases additional PvP attack by 375.
+Increases additional PvE attack by 375.</body>
+  </string>
+  <string>
+    <id>2294517</id>
+    <name>STR_CroS_buff_G2</name>
+    <body>[Evolution] Repeated Jolting Strike (Level 2)</body>
+  </string>
+  <string>
+    <id>2294518</id>
+    <name>STR_CroS_buff_G2_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].
+Group members receive 60%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294519</id>
+    <name>STR_CroS_buff_G2_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].</body>
+  </string>
+  <string>
+    <id>2294520</id>
+    <name>STR_CroS_buff_G2_AddEffect_sys</name>
+    <body>[Evolution] Repeated Jolting Strike (Level 2)</body>
+  </string>
+  <string>
+    <id>2294521</id>
+    <name>STR_CroS_buff_G2_AddEffect_Abnormal</name>
+    <body>Increases additional PvP attack by 375.
+Increases additional PvE attack by 375.</body>
+  </string>
+  <string>
+    <id>2294522</id>
+    <name>STR_GrenS_buff_G2</name>
+    <body>[Evolution] Glacier Veil of Wrath (Level 2)</body>
+  </string>
+  <string>
+    <id>2294523</id>
+    <name>STR_GrenS_buff_G2_DESC</name>
+    <body>You teleport [%e1.RandomMoveLoc.Distance]m forwards.
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value] for [%e2.StatUp.RemainTime].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Group members receive 60%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294524</id>
+    <name>STR_GrenS_buff_G2_Abnormal</name>
+    <body>Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value] for [%e2.StatUp.RemainTime].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].</body>
+  </string>
+  <string>
+    <id>2294525</id>
+    <name>STR_GrenS_buff_G2_AddEffect_sys</name>
+    <body>[Evolution] Glacier Veil of Wrath (Level 2)</body>
+  </string>
+  <string>
+    <id>2294526</id>
+    <name>STR_GrenS_buff_G2_AddEffect_Abnormal</name>
+    <body>Boosts resistance to all special statuses by 375.
+Boosts resistance to all special statuses by 375.
+Increases movement and flight speed by 18.</body>
+  </string>
+  <string>
+    <id>2294527</id>
+    <name>STR_HypS_buff_G2</name>
+    <body>[Evolution] Energy Concentration (Level 2)</body>
+  </string>
+  <string>
+    <id>2294528</id>
+    <name>STR_HypS_buff_G2_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].
+Group members receive 60%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294529</id>
+    <name>STR_HypS_buff_G2_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].</body>
+  </string>
+  <string>
+    <id>2294530</id>
+    <name>STR_HypS_buff_G2_AddEffect_sys</name>
+    <body>[Evolution] Energy Concentration (Level 2)</body>
+  </string>
+  <string>
+    <id>2294531</id>
+    <name>STR_HypS_buff_G2_AddEffect_Abnormal</name>
+    <body>Increases additional PvP defence by 375.
+Increases additional PvE defence by 375.</body>
+  </string>
+  <string>
+    <id>2294532</id>
+    <name>STR_WedS_buff_G2</name>
+    <body>[Evolution] Weda’s Splendour (Level 2)</body>
+  </string>
+  <string>
+    <id>2294533</id>
+    <name>STR_WedS_buff_G2_DESC</name>
+    <body>Increases magic damage by [%e2.BoostSpellAttackEffect.EffectBonus1]%% for 30 seconds.
+Increases attack speed by [%e1.Statup.Value]%%.
+Increases casting speed by [%e1.Statup.Value3]%%.
+Increases maximum HP by [%e1.Statup.Value2].
+Group members receive 60%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294534</id>
+    <name>STR_WedS_buff_G2_Abnormal</name>
+    <body>Increases magic damage by 18%%.
+Increases attack speed by 25%%.
+Increases the casting time by 25%%.
+Increases maximum HP by 6,000.</body>
+  </string>
+  <string>
+    <id>2294535</id>
+    <name>STR_WedS_buff_G2_AddEffect_sys</name>
+    <body>[Evolution] Weda’s Splendour (Level 2)</body>
+  </string>
+  <string>
+    <id>2294536</id>
+    <name>STR_WedS_buff_G2_AddEffect_Abnormal</name>
+    <body>Increases magic damage by 11%%.
+Increases attack speed by 15%%.
+Increases the casting time by 15%%.
+Increases maximum HP by 3,750.</body>
+  </string>
+  <string>
+    <id>2294537</id>
+    <name>STR_shiS_buff_G3</name>
+    <body>[Evolution] Soul Wave (Level 3)</body>
+  </string>
+  <string>
+    <id>2294538</id>
+    <name>STR_shiS_buff_G3_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].
+Group members receive 70%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294539</id>
+    <name>STR_shiS_buff_G3_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].</body>
+  </string>
+  <string>
+    <id>2294540</id>
+    <name>STR_shiS_buff_G3_AddEffect_sys</name>
+    <body>[Evolution] Soul Wave (Level 3)</body>
+  </string>
+  <string>
+    <id>2294541</id>
+    <name>STR_shiS_buff_G3_AddEffect_Abnormal</name>
+    <body>Increases additional PvP attack by 455.
+Increases additional PvE attack by 455.</body>
+  </string>
+  <string>
+    <id>2294542</id>
+    <name>STR_CroS_buff_G3</name>
+    <body>[Evolution] Repeated Jolting Strike (Level 3)</body>
+  </string>
+  <string>
+    <id>2294543</id>
+    <name>STR_CroS_buff_G3_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].
+Group members receive 70%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294544</id>
+    <name>STR_CroS_buff_G3_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].</body>
+  </string>
+  <string>
+    <id>2294545</id>
+    <name>STR_CroS_buff_G3_AddEffect_sys</name>
+    <body>[Evolution] Repeated Jolting Strike (Level 3)</body>
+  </string>
+  <string>
+    <id>2294546</id>
+    <name>STR_CroS_buff_G3_AddEffect_Abnormal</name>
+    <body>Increases additional PvP attack by 455.
+Increases additional PvE attack by 455.</body>
+  </string>
+  <string>
+    <id>2294547</id>
+    <name>STR_GrenS_buff_G3</name>
+    <body>[Evolution] Glacier Veil of Wrath (Level 3)</body>
+  </string>
+  <string>
+    <id>2294548</id>
+    <name>STR_GrenS_buff_G3_DESC</name>
+    <body>You teleport [%e1.RandomMoveLoc.Distance]m forwards.
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value] for [%e2.StatUp.RemainTime].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Group members receive 70%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294549</id>
+    <name>STR_GrenS_buff_G3_Abnormal</name>
+    <body>Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value] for [%e2.StatUp.RemainTime].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].</body>
+  </string>
+  <string>
+    <id>2294550</id>
+    <name>STR_GrenS_buff_G3_AddEffect_sys</name>
+    <body>[Evolution] Glacier Veil of Wrath (Level 3)</body>
+  </string>
+  <string>
+    <id>2294551</id>
+    <name>STR_GrenS_buff_G3_AddEffect_Abnormal</name>
+    <body>Boosts resistance to all special statuses by 455.
+Boosts resistance to all special statuses by 455.
+Increases movement and flight speed by 21.</body>
+  </string>
+  <string>
+    <id>2294552</id>
+    <name>STR_HypS_buff_G3</name>
+    <body>[Evolution] Energy Concentration (Level 3)</body>
+  </string>
+  <string>
+    <id>2294553</id>
+    <name>STR_HypS_buff_G3_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].
+Group members receive 70%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294554</id>
+    <name>STR_HypS_buff_G3_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].</body>
+  </string>
+  <string>
+    <id>2294555</id>
+    <name>STR_HypS_buff_G3_AddEffect_sys</name>
+    <body>[Evolution] Energy Concentration (Level 3)</body>
+  </string>
+  <string>
+    <id>2294556</id>
+    <name>STR_HypS_buff_G3_AddEffect_Abnormal</name>
+    <body>Increases additional PvP defence by 455.
+Increases additional PvE defence by 455.</body>
+  </string>
+  <string>
+    <id>2294557</id>
+    <name>STR_WedS_buff_G3</name>
+    <body>[Evolution] Weda’s Splendour (Level 3)</body>
+  </string>
+  <string>
+    <id>2294558</id>
+    <name>STR_WedS_buff_G3_DESC</name>
+    <body>Increases magic damage by [%e2.BoostSpellAttackEffect.EffectBonus1]%% for 30 seconds.
+Increases attack speed by [%e1.Statup.Value]%%.
+Increases casting speed by [%e1.Statup.Value3]%%.
+Increases maximum HP by [%e1.Statup.Value2].
+Group members receive 70%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294559</id>
+    <name>STR_WedS_buff_G3_Abnormal</name>
+    <body>Increases magic damage by 18%%.
+Increases attack speed by 25%%.
+Increases the casting time by 25%%.
+Increases maximum HP by 6,000.</body>
+  </string>
+  <string>
+    <id>2294560</id>
+    <name>STR_WedS_buff_G3_AddEffect_sys</name>
+    <body>[Evolution] Weda’s Splendour (Level 3)</body>
+  </string>
+  <string>
+    <id>2294561</id>
+    <name>STR_WedS_buff_G3_AddEffect_Abnormal</name>
+    <body>Increases magic damage by 13%%.
+Increases attack speed by 19%%.
+Increases the casting time by 19%%.
+Increases maximum HP by 4,550.</body>
+  </string>
+  <string>
+    <id>2294562</id>
+    <name>STR_shiS_buff_G4</name>
+    <body>[Evolution] Soul Wave (Level 4)</body>
+  </string>
+  <string>
+    <id>2294563</id>
+    <name>STR_shiS_buff_G4_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].
+Group members receive 80%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294564</id>
+    <name>STR_shiS_buff_G4_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].</body>
+  </string>
+  <string>
+    <id>2294565</id>
+    <name>STR_shiS_buff_G4_AddEffect_sys</name>
+    <body>[Evolution] Soul Wave (Level 4)</body>
+  </string>
+  <string>
+    <id>2294566</id>
+    <name>STR_shiS_buff_G4_AddEffect_Abnormal</name>
+    <body>Increases additional PvP attack by 560.
+Increases additional PvE attack by 560.</body>
+  </string>
+  <string>
+    <id>2294567</id>
+    <name>STR_CroS_buff_G4</name>
+    <body>[Evolution] Repeated Jolting Strike (Level 4)</body>
+  </string>
+  <string>
+    <id>2294568</id>
+    <name>STR_CroS_buff_G4_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].
+Group members receive 80%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294569</id>
+    <name>STR_CroS_buff_G4_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].</body>
+  </string>
+  <string>
+    <id>2294570</id>
+    <name>STR_CroS_buff_G4_AddEffect_sys</name>
+    <body>[Evolution] Repeated Jolting Strike (Level 4)</body>
+  </string>
+  <string>
+    <id>2294571</id>
+    <name>STR_CroS_buff_G4_AddEffect_Abnormal</name>
+    <body>Increases additional PvP attack by 560.
+Increases additional PvE attack by 560.</body>
+  </string>
+  <string>
+    <id>2294572</id>
+    <name>STR_GrenS_buff_G4</name>
+    <body>[Evolution] Glacier Veil of Wrath (Level 4)</body>
+  </string>
+  <string>
+    <id>2294573</id>
+    <name>STR_GrenS_buff_G4_DESC</name>
+    <body>You teleport [%e1.RandomMoveLoc.Distance]m forwards.
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value] for [%e2.StatUp.RemainTime].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Group members receive 80%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294574</id>
+    <name>STR_GrenS_buff_G4_Abnormal</name>
+    <body>Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value] for [%e2.StatUp.RemainTime].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].</body>
+  </string>
+  <string>
+    <id>2294575</id>
+    <name>STR_GrenS_buff_G4_AddEffect_sys</name>
+    <body>[Evolution] Glacier Veil of Wrath (Level 4)</body>
+  </string>
+  <string>
+    <id>2294576</id>
+    <name>STR_GrenS_buff_G4_AddEffect_Abnormal</name>
+    <body>Boosts resistance to all special statuses by 560.
+Boosts resistance to all special statuses by 560.
+Increases movement and flight speed by 24.</body>
+  </string>
+  <string>
+    <id>2294577</id>
+    <name>STR_HypS_buff_G4</name>
+    <body>[Evolution] Energy Concentration (Level 4)</body>
+  </string>
+  <string>
+    <id>2294578</id>
+    <name>STR_HypS_buff_G4_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].
+Group members receive 80%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294579</id>
+    <name>STR_HypS_buff_G4_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value].</body>
+  </string>
+  <string>
+    <id>2294580</id>
+    <name>STR_HypS_buff_G4_AddEffect_sys</name>
+    <body>[Evolution] Energy Concentration (Level 4)</body>
+  </string>
+  <string>
+    <id>2294581</id>
+    <name>STR_HypS_buff_G4_AddEffect_Abnormal</name>
+    <body>Increases additional PvP defence by 560.
+Increases additional PvE defence by 560.</body>
+  </string>
+  <string>
+    <id>2294582</id>
+    <name>STR_WedS_buff_G4</name>
+    <body>[Evolution] Weda’s Splendour (Level 4)</body>
+  </string>
+  <string>
+    <id>2294583</id>
+    <name>STR_WedS_buff_G4_DESC</name>
+    <body>Increases magic damage by [%e2.BoostSpellAttackEffect.EffectBonus1]%% for 30 seconds.
+Increases attack speed by [%e1.Statup.Value]%%.
+Increases casting speed by [%e1.Statup.Value3]%%.
+Increases maximum HP by [%e1.Statup.Value2].
+Group members receive 80%% of the effect.</body>
+  </string>
+  <string>
+    <id>2294584</id>
+    <name>STR_WedS_buff_G4_Abnormal</name>
+    <body>Increases magic damage by 20%%.
+Increases attack speed by 25%%.
+Increases the casting time by 25%%.
+Increases maximum HP by 7,000.</body>
+  </string>
+  <string>
+    <id>2294585</id>
+    <name>STR_WedS_buff_G4_AddEffect_sys</name>
+    <body>[Evolution] Weda’s Splendour (Level 4)</body>
+  </string>
+  <string>
+    <id>2294586</id>
+    <name>STR_WedS_buff_G4_AddEffect_Abnormal</name>
+    <body>Increases magic damage by 16%%.
+Increases attack speed by 20%%.
+Increases the casting time by 20%%.
+Increases maximum HP by 5,600.</body>
+  </string>
+  <string>
     <id>2294587</id>
     <name>STR_ShiS_provoke_G1_proc</name>
     <body>[Evolution] Horror Beast (Level 1)</body>
@@ -168243,7 +168700,7 @@ Increases the effect of healing skills by 40%%.</body>
   <string>
     <id>2294619</id>
     <name>STR_IDF8_Dragon_Altar_moltenimpact</name>
-    <body>Lava Splash</body>
+    <body>Lava Eruption</body>
   </string>
   <string>
     <id>2294620</id>
@@ -168952,7 +169409,7 @@ Resets the cooldown of Sage's Wisdom.</body>
   <string>
     <id>2294750</id>
     <name>STR_PR_SecretPrecept_Custom_B_DESC</name>
-    <body>Restores 30%% of the maximum HP.
+    <body>Restores [%e2.Heal_Instant.Heal]%% of the maximum HP.
 Restores [%e1.MPHeal_Instant.Heal]%% of max MP.
 Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value] for [%e3.StatUp.RemainTime].
 Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2].</body>
@@ -168987,7 +169444,7 @@ Resets the cooldowns of Sage's Wisdom and Amplification.</body>
   <string>
     <id>2294756</id>
     <name>STR_PR_SecretPrecept_Custom_B_up_DESC</name>
-    <body>Restores 40%% of the maximum HP.
+    <body>Restores [%e2.Heal_Instant.Heal]%% of the maximum HP.
 Restores [%e1.MPHeal_Instant.Heal]%% of max MP.
 Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value] for [%e3.StatUp.RemainTime].
 Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2].</body>
@@ -170533,7 +170990,7 @@ You also resist [%e2.AlwaysResist.Count] magic attacks for [%e2.AlwaysResist.Rem
   <string>
     <id>2295037</id>
     <name>STR_SKILLN_RA_A_EnchantBow_DESC</name>
-    <body>Increases [%e1.WeaponStatUp.StatName] of [%e1.WeaponStatUp.WeaponCategory] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].
+    <body>Increases [%e1.WeaponStatUp.StatName] by [%e1.WeaponStatUp.Value] for [%e1.WeaponStatUp.RemainTime].
 Increases [%e1.WeaponStatUp.StatName2] by [%e1.WeaponStatUp.Value2].</body>
   </string>
   <string>
@@ -170905,8 +171362,7 @@ Absorbs HP from the enemy equal to the amount of damage dealt.</body>
     <id>2295106</id>
     <name>STR_SKILLN_EL_A_SoulProtect_DESC</name>
     <body>Commands the spirit to protect the target.
-The spirit absorbs all damage suffered by the target.
-The spirit only suffers 70%% of the damage.</body>
+The spirit absorbs 70%% of the damage instead of the caster.</body>
   </string>
   <string>
     <id>2295107</id>
@@ -174081,7 +174537,7 @@ Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%%.</body>
   <string>
     <id>2295694</id>
     <name>STR_rune_alwayshit_DESC</name>
-    <body>For every attack there is a [%e1.Provoker.ConditionProb]%% chance that your attack skills will strike [%e1.Provoker.OtherSkill.e1.OneTimeBoostSkillAttack.AttackCount] times for [%e1.Provoker.OtherSkill.e1.OneTimeBoostSkillAttack.Remaintime.float].</body>
+    <body>For every attack there is a [%e1.Provoker.ConditionProb]%% chance that for [%e1.Provoker.OtherSkill.e1.OneTimeBoostSkillAttack.Remaintime.float] your next [%e1.Provoker.OtherSkill.e1.OneTimeBoostSkillAttack.AttackCount] attack skills will be guaranteed to hit.</body>
   </string>
   <string>
     <id>2295695</id>
@@ -174357,6 +174813,219 @@ This effect occurs before similar effects.</body>
     <body>Transformation: Pandarung Shugo</body>
   </string>
   <string>
+    <id>2295750</id>
+    <name>STR_ShiS_provoke_G3_proc</name>
+    <body>[Evolution] Horror Beast (Level 3)</body>
+  </string>
+  <string>
+    <id>2295751</id>
+    <name>STR_ShiS_provoke_G3_proc_DESC</name>
+    <body>You have a 3.3%% chance of silencing the target for 4 seconds.</body>
+  </string>
+  <string>
+    <id>2295752</id>
+    <name>STR_ShiS_provoke_G3_proc_Abnormal</name>
+    <body>You are silenced. You can remove altered states by using physical healing spells or potions.</body>
+  </string>
+  <string>
+    <id>2295753</id>
+    <name>STR_CroS_provoke_G3_proc</name>
+    <body>[Evolution] Miserable Struggle (Level 3)</body>
+  </string>
+  <string>
+    <id>2295754</id>
+    <name>STR_CroS_provoke_G3_proc_DESC</name>
+    <body>You have a 3.3%% chance of stunning the target for 3 sec.</body>
+  </string>
+  <string>
+    <id>2295755</id>
+    <name>STR_CroS_provoke_G3_proc_Abnormal</name>
+    <body>You are stunned.</body>
+  </string>
+  <string>
+    <id>2295756</id>
+    <name>STR_GrenS_provoke_G3_proc</name>
+    <body>[Evolution] Ragman (Level 3)</body>
+  </string>
+  <string>
+    <id>2295757</id>
+    <name>STR_GrenS_provoke_G3_proc_DESC</name>
+    <body>You have a 6.3%% chance of removing debuffs when you sustain damage.</body>
+  </string>
+  <string>
+    <id>2295758</id>
+    <name>STR_HypS_provoke_G3_proc</name>
+    <body>[Evolution] Id Aetheric Field (Level 3)</body>
+  </string>
+  <string>
+    <id>2295759</id>
+    <name>STR_HypS_provoke_G3_proc_DESC</name>
+    <body>When you are attacked, there is a 4.3%% chance that damage is reduced for 8 seconds.</body>
+  </string>
+  <string>
+    <id>2295760</id>
+    <name>STR_HypS_provoke_G3_proc_Abnormal</name>
+    <body>The sustained damage is reduced.</body>
+  </string>
+  <string>
+    <id>2295761</id>
+    <name>STR_WedS_provoke_G3_proc</name>
+    <body>[Evolution] Enchantment: Old Friend (Level 3)</body>
+  </string>
+  <string>
+    <id>2295762</id>
+    <name>STR_WedS_provoke_G3_proc_DESC</name>
+    <body>Each time you are attacked, there is a 4.3%% chance that your movement and flight speed will increase by 25%% for 10 seconds.
+Increases the effect of healing skills by 40%%.</body>
+  </string>
+  <string>
+    <id>2295763</id>
+    <name>STR_WedS_provoke_G3_proc_Abnormal</name>
+    <body>Movement speed, flight speed and the effect of healing skills are increased.</body>
+  </string>
+  <string>
+    <id>2295764</id>
+    <name>STR_ShiS_provoke_G4_proc</name>
+    <body>[Evolution] Horror Beast (Level 4)</body>
+  </string>
+  <string>
+    <id>2295765</id>
+    <name>STR_ShiS_provoke_G4_proc_DESC</name>
+    <body>You have a 3.6%% chance of silencing the target for 4 seconds.</body>
+  </string>
+  <string>
+    <id>2295766</id>
+    <name>STR_ShiS_provoke_G4_proc_Abnormal</name>
+    <body>You are silenced. You can remove altered states by using physical healing spells or potions.</body>
+  </string>
+  <string>
+    <id>2295767</id>
+    <name>STR_CroS_provoke_G4_proc</name>
+    <body>[Evolution] Miserable Struggle (Level 4)</body>
+  </string>
+  <string>
+    <id>2295768</id>
+    <name>STR_CroS_provoke_G4_proc_DESC</name>
+    <body>You have a 3.6%% chance of stunning the target for 3 sec.</body>
+  </string>
+  <string>
+    <id>2295769</id>
+    <name>STR_CroS_provoke_G4_proc_Abnormal</name>
+    <body>You are stunned.</body>
+  </string>
+  <string>
+    <id>2295770</id>
+    <name>STR_GrenS_provoke_G4_proc</name>
+    <body>[Evolution] Ragman (Level 4)</body>
+  </string>
+  <string>
+    <id>2295771</id>
+    <name>STR_GrenS_provoke_G4_proc_DESC</name>
+    <body>You have a 6.6%% chance of removing debuffs when you sustain damage.</body>
+  </string>
+  <string>
+    <id>2295772</id>
+    <name>STR_HypS_provoke_G4_proc</name>
+    <body>[Evolution] Id Aetheric Field (Level 4)</body>
+  </string>
+  <string>
+    <id>2295773</id>
+    <name>STR_HypS_provoke_G4_proc_DESC</name>
+    <body>When you are attacked, there is a 4.6%% chance that damage is reduced for 8 seconds.</body>
+  </string>
+  <string>
+    <id>2295774</id>
+    <name>STR_HypS_provoke_G4_proc_Abnormal</name>
+    <body>The sustained damage is reduced.</body>
+  </string>
+  <string>
+    <id>2295775</id>
+    <name>STR_WedS_provoke_G4_proc</name>
+    <body>[Evolution] Enchantment: Old Friend (Level 4)</body>
+  </string>
+  <string>
+    <id>2295776</id>
+    <name>STR_WedS_provoke_G4_proc_DESC</name>
+    <body>Each time you are attacked, there is a 4.6%% chance that your movement and flight speed will increase by 25%% for 10 seconds.
+Increases the effect of healing skills by 40%%.</body>
+  </string>
+  <string>
+    <id>2295777</id>
+    <name>STR_WedS_provoke_G4_proc_Abnormal</name>
+    <body>Movement speed, flight speed and the effect of healing skills are increased.</body>
+  </string>
+  <string>
+    <id>2295778</id>
+    <name>STR_ShiS_provoke_G5_proc</name>
+    <body>[Evolution] Horror Beast (Level 5)</body>
+  </string>
+  <string>
+    <id>2295779</id>
+    <name>STR_ShiS_provoke_G5_proc_DESC</name>
+    <body>You have a 4%% chance of silencing the target for 4 seconds.</body>
+  </string>
+  <string>
+    <id>2295780</id>
+    <name>STR_ShiS_provoke_G5_proc_Abnormal</name>
+    <body>You are silenced. You can remove altered states by using physical healing spells or potions.</body>
+  </string>
+  <string>
+    <id>2295781</id>
+    <name>STR_CroS_provoke_G5_proc</name>
+    <body>[Evolution] Miserable Struggle (Level 5)</body>
+  </string>
+  <string>
+    <id>2295782</id>
+    <name>STR_CroS_provoke_G5_proc_DESC</name>
+    <body>You have a 4%% chance of stunning the target for 3 sec.</body>
+  </string>
+  <string>
+    <id>2295783</id>
+    <name>STR_CroS_provoke_G5_proc_Abnormal</name>
+    <body>You are stunned.</body>
+  </string>
+  <string>
+    <id>2295784</id>
+    <name>STR_GrenS_provoke_G5_proc</name>
+    <body>[Evolution] Ragman (Level 5)</body>
+  </string>
+  <string>
+    <id>2295785</id>
+    <name>STR_GrenS_provoke_G5_proc_DESC</name>
+    <body>You have a 7%% chance of removing debuffs when you sustain damage.</body>
+  </string>
+  <string>
+    <id>2295786</id>
+    <name>STR_HypS_provoke_G5_proc</name>
+    <body>[Evolution] Id Aetheric Field (Level 5)</body>
+  </string>
+  <string>
+    <id>2295787</id>
+    <name>STR_HypS_provoke_G5_proc_DESC</name>
+    <body>When you are attacked, there is a 5%% chance that damage is reduced for 8 seconds.</body>
+  </string>
+  <string>
+    <id>2295788</id>
+    <name>STR_HypS_provoke_G5_proc_Abnormal</name>
+    <body>The sustained damage is reduced.</body>
+  </string>
+  <string>
+    <id>2295789</id>
+    <name>STR_WedS_provoke_G5_proc</name>
+    <body>[Evolution] Enchantment: Old Friend (Level 5)</body>
+  </string>
+  <string>
+    <id>2295790</id>
+    <name>STR_WedS_provoke_G5_proc_DESC</name>
+    <body>Each time you are attacked, there is a 5%% chance that your movement and flight speed will increase by 25%% for 10 seconds.
+Increases the effect of healing skills by 40%%.</body>
+  </string>
+  <string>
+    <id>2295791</id>
+    <name>STR_WedS_provoke_G5_proc_Abnormal</name>
+    <body>Movement speed, flight speed and the effect of healing skills are increased.</body>
+  </string>
+  <string>
     <id>2295792</id>
     <name>STR_test_PC_onlyskill_G2</name>
     <body>PC방 워리어 II</body>
@@ -174532,8 +175201,8 @@ If the caster has a +5 Enchantment, reduces the target's cooldown for Remove Sho
   <string>
     <id>2295823</id>
     <name>STR_Odian_DashAttack_DESC</name>
-    <body>Deals [%e1.DashATK.FixDamage] physical damage to the target in a shock state.
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+    <body>Deals [%e1.DashATK.FixDamage] physical damage to the target that is immobilised, slowed or in a shock state.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -174609,7 +175278,7 @@ The effect cannot be removed.</body>
     <id>2295835</id>
     <name>STR_Odian_InstantSprint_DESC</name>
     <body>You teleport [%e1.RandomMoveLoc.Distance]m backwards.
-Removes all effects that cause immobilisation and reduce movement speed.
+Removes movement-impairing states.
 Grants basic stealth mode for [%e2.Hide.RemainTime.float].
 If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.</body>
   </string>
@@ -174920,7 +175589,7 @@ If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 
   <string>
     <id>2295886</id>
     <name>STR_Odian_PhysicalWall_Abnormal</name>
-    <body>You are immune to all attacks. You cannot use any skills during this time.</body>
+    <body>Reduces all damage dealt. You cannot use any skills during this time.</body>
   </string>
   <string>
     <id>2295887</id>
@@ -175000,6 +175669,11 @@ If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 
     <id>2295900</id>
     <name>STR_IDF8_Dragon_Altar_Statdown_HP_Abnormal</name>
     <body>The curse inflicts agonising pain on you. Your maximum health is reduced. Cannot be cured.</body>
+  </string>
+  <string>
+    <id>2295901</id>
+    <name>STR_Event_DeadorAlive_Event_ServerNmd_Trans_Collection_Skill_02</name>
+    <body>Spooks and Spoofs</body>
   </string>
   <string>
     <id>2295902</id>
@@ -175252,6 +175926,21 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
     <id>2295942</id>
     <name>STR_IDSeal_Hard_M_Ju_IDF8_House_Boss_Charge_1st_Statup_Abnormal</name>
     <body>Enlightenment increases your attack power.</body>
+  </string>
+  <string>
+    <id>2295943</id>
+    <name>STR_Odian_DashAttack_art</name>
+    <body>살성_오디안스킬1_임시</body>
+  </string>
+  <string>
+    <id>2295944</id>
+    <name>STR_Odian_ShockReflect_art</name>
+    <body>치유_오디안스킬3_임시</body>
+  </string>
+  <string>
+    <id>2295945</id>
+    <name>STR_Odian_PaintThrow_art</name>
+    <body>채화_오디안스킬1_임시</body>
   </string>
   <string>
     <id>2295946</id>
@@ -177673,6 +178362,36 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
     <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] and [%e1.StatUp.StatName2] by [%e1.StatUp.Value2] for 5 minutes.</body>
   </string>
   <string>
+    <id>2296416</id>
+    <name>STR_IDUnite_legion_v75_SummonTrap01</name>
+    <body>Summon Popoku Group 1</body>
+  </string>
+  <string>
+    <id>2296417</id>
+    <name>STR_IDUnite_legion_v75_SummonTrap02</name>
+    <body>Summon Popoku Group 2</body>
+  </string>
+  <string>
+    <id>2296418</id>
+    <name>STR_IDUnite_legion_v75_SummonTrap03</name>
+    <body>Summon Popoku Group 3</body>
+  </string>
+  <string>
+    <id>2296419</id>
+    <name>STR_IDUnite_legion_v75_SummonTrap04</name>
+    <body>Summon Popoku Group 4</body>
+  </string>
+  <string>
+    <id>2296420</id>
+    <name>STR_IDUnite_legion_v75_SummonTrap05</name>
+    <body>Temporary</body>
+  </string>
+  <string>
+    <id>2296421</id>
+    <name>STR_IDUnite_legion_v75_SummonTrap06</name>
+    <body>Temporary</body>
+  </string>
+  <string>
     <id>2296422</id>
     <name>STR_SUMMON_EVENT_RUDRA_REWARD_LV1</name>
     <body>Summon Stormwing (Level 1)</body>
@@ -177810,6 +178529,26 @@ If you use Yasba's Grace, you will lose the Transport Bonus.</body>
     <body>Absorbing Protective Shield</body>
   </string>
   <string>
+    <id>2296444</id>
+    <name>STR_EVENT_2019_DEC_WINTER_AREAFROZEN</name>
+    <body>Temperature Drop</body>
+  </string>
+  <string>
+    <id>2296445</id>
+    <name>STR_EVENT_2019_DEC_WINTER_SUMMON_MONSTER_01</name>
+    <body>Unearthly Shriek</body>
+  </string>
+  <string>
+    <id>2296446</id>
+    <name>STR_EVENT_2019_DEC_WINTER_SUMMON_MONSTER_02</name>
+    <body>Unearthly Shriek</body>
+  </string>
+  <string>
+    <id>2296447</id>
+    <name>STR_EVENT_2019_DEC_WINTER_SUMMON_MONSTER_03</name>
+    <body>Please deliver this!</body>
+  </string>
+  <string>
     <id>2296448</id>
     <name>STR_event_Rudra_Reward_buff_Lv1</name>
     <body>Stormwing's Cheering (Level 1)</body>
@@ -177870,6 +178609,89 @@ If you use Yasba's Grace, you will lose the Transport Bonus.</body>
     <id>2296457</id>
     <name>STR_IDUnite_legion_BUFF_Critical_Abnormal</name>
     <body>The probability of a crit strike increases considerably.</body>
+  </string>
+  <string>
+    <id>2296458</id>
+    <name>STR_trans_december_event_1</name>
+    <body>[Event] Masquerade: Warm Cookie</body>
+  </string>
+  <string>
+    <id>2296459</id>
+    <name>STR_trans_december_event_1_DESC</name>
+    <body>You transform into a Cookie for 10 minutes.\nThis item will disappear at the end of the event.</body>
+  </string>
+  <string>
+    <id>2296460</id>
+    <name>STR_trans_december_event_2</name>
+    <body>[Event] Masquerade: Warm Rudolph</body>
+  </string>
+  <string>
+    <id>2296461</id>
+    <name>STR_trans_december_event_2_DESC</name>
+    <body>You transform into a Rudolph for 10 minutes.\nThis item will disappear at the end of the event.</body>
+  </string>
+  <string>
+    <id>2296462</id>
+    <name>STR_trans_december_event_3</name>
+    <body>[Event] Masquerade: Warm Santa</body>
+  </string>
+  <string>
+    <id>2296463</id>
+    <name>STR_trans_december_event_3_DESC</name>
+    <body>You transform into a Santa for 10 minutes.\nThis item will disappear at the end of the event.</body>
+  </string>
+  <string>
+    <id>2296464</id>
+    <name>STR_trans_december_event_4</name>
+    <body>[Event] Masquerade: Warm Snowman</body>
+  </string>
+  <string>
+    <id>2296465</id>
+    <name>STR_trans_december_event_4_DESC</name>
+    <body>You transform into a Snowman for 10 minutes.\nThis item will disappear at the end of the event.</body>
+  </string>
+  <string>
+    <id>2296466</id>
+    <name>STR_72_WORLD_EVENT_WINTER_COOKIE_BUFF</name>
+    <body>Icinerk's Buff Cookie</body>
+  </string>
+  <string>
+    <id>2296467</id>
+    <name>STR_72_WORLD_EVENT_WINTER_COOKIE_BUFF_DESC</name>
+    <body>Increases the target's [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].
+Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value]%%.
+Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2]%%.
+Increases [%e3.StatUp.StatName3] by [%e3.StatUp.Value3]%%.</body>
+  </string>
+  <string>
+    <id>2296468</id>
+    <name>STR_72_WORLD_EVENT_WINTER_COOKIE_BUFF_DESC_test</name>
+    <body>Increases the target's [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].
+Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value]%%.
+Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2]%%.
+Increases [%e3.StatUp.StatName3] by [%e3.StatUp.Value3]%%.</body>
+  </string>
+  <string>
+    <id>2296469</id>
+    <name>STR_Odian_SongofGale_test</name>
+    <body>불협화현_test</body>
+  </string>
+  <string>
+    <id>2296470</id>
+    <name>STR_Odian_SongofGale_DESC_test</name>
+    <body>[Effect] [%e1.SpellATK_Instant.FixDamage] Magical Wind Damage
+[Bonus Effect] Reduces healing by 30%% for [%e2.SkillLauncher.OtherSkill.e1.DeboostHealAmount.RemainTime.float] (cannot be removed).
+[Requirement] The bonus effect is activated when you have +5 Enchantment.</body>
   </string>
   <string>
     <id>2296471</id>
@@ -177955,6 +178777,19 @@ If you use Yasba's Grace, you will lose the Transport Bonus.</body>
     <id>2296487</id>
     <name>STR_Event_CheerUp_NGR_PolyMorphSUspeed_mushroom_DESC_Abnormal</name>
     <body>You've transformed into an ugly mushroom. [%e2.StatUp.StatName] is increased.</body>
+  </string>
+  <string>
+    <id>2296488</id>
+    <name>STR_Odian_SongofGale_test2</name>
+    <body>불협화현_test2</body>
+  </string>
+  <string>
+    <id>2296489</id>
+    <name>STR_Odian_SongofGale_DESC_test2</name>
+    <body>Deals [%e1.SpellATK_Instant.FixDamage] magical wind damage.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for [%e2.DeboostHealAmount.RemainTime.float] seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for [%e2.DeboostHealAmount.RemainTime] seconds.
+The effect cannot be removed.</body>
   </string>
   <string>
     <id>2296490</id>
@@ -178068,8 +178903,53 @@ If you use Yasba's Grace, you will lose the Transport Bonus.</body>
   </string>
   <string>
     <id>2296512</id>
-    <name>STR_EVENT_2019_DEC_WINTER_AREAFROZEN</name>
-    <body>Temperature Drop</body>
+    <name>STR_IDCT_lightning_Field</name>
+    <body>Shower of Sparks</body>
+  </string>
+  <string>
+    <id>2296513</id>
+    <name>STR_IDCT_tempest_pull</name>
+    <body>Hurricane</body>
+  </string>
+  <string>
+    <id>2296514</id>
+    <name>STR_IDCT_circulation_debuff_1</name>
+    <body>Delirium</body>
+  </string>
+  <string>
+    <id>2296515</id>
+    <name>STR_IDCT_circulation_debuff_2</name>
+    <body>Weakness</body>
+  </string>
+  <string>
+    <id>2296516</id>
+    <name>STR_IDCT_circulation_debuff_3</name>
+    <body>Storm Cloud</body>
+  </string>
+  <string>
+    <id>2296517</id>
+    <name>STR_IDCT_prefix_debuff_1</name>
+    <body>Dragon Claw: Gangrene</body>
+  </string>
+  <string>
+    <id>2296518</id>
+    <name>STR_IDCT_circulation_debuff_1_Abnormal</name>
+    <body>Increases PvE attack as well as attack speed and casting speed, but at the cost of reduced defence.</body>
+  </string>
+  <string>
+    <id>2296519</id>
+    <name>STR_IDCT_circulation_debuff_2_Abnormal</name>
+    <body>Reduces maximum HP and MP.</body>
+  </string>
+  <string>
+    <id>2296520</id>
+    <name>STR_IDCT_circulation_debuff_3_Abnormal</name>
+    <body>The battle wears you down and you suffer continuous damage.</body>
+  </string>
+  <string>
+    <id>2296521</id>
+    <name>STR_IDCT_prefix_debuff_1_Abnormal</name>
+    <body>Decreases your own Regeneration.</body>
   </string>
   <string>
     <id>2296522</id>
@@ -178139,6 +179019,11 @@ Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%%.
 Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3]%%.
 Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
 Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2].</body>
+  </string>
+  <string>
+    <id>2296531</id>
+    <name>STR_Event_NoReduceSpellATK_Areafire</name>
+    <body>Prayer of Darkness</body>
   </string>
   <string>
     <id>2296532</id>
@@ -178333,23 +179218,308 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
   </string>
   <string>
     <id>2296555</id>
+    <name>STR_water_war_BNWI_SpellStunSA_Nr</name>
+    <body>Wild Water Splash</body>
+  </string>
+  <string>
+    <id>2296556</id>
+    <name>STR_water_war_IDForest_3Nmd_areafear</name>
+    <body>Panic</body>
+  </string>
+  <string>
+    <id>2296557</id>
+    <name>STR_water_war_NFI_Pulled_NoCast_NoResist</name>
+    <body>Eternal Maelstrom</body>
+  </string>
+  <string>
+    <id>2296558</id>
+    <name>STR_water_war_NFI_Stumble_NoCast_NoResist</name>
+    <body>Explosion</body>
+  </string>
+  <string>
+    <id>2296559</id>
+    <name>STR_IDCT_prefix_debuff_2</name>
+    <body>Dragon Claw: Demolish</body>
+  </string>
+  <string>
+    <id>2296560</id>
+    <name>STR_IDCT_prefix_debuff_3</name>
+    <body>Dragon Claw: Dominate</body>
+  </string>
+  <string>
+    <id>2296561</id>
+    <name>STR_IDCT_prefix_debuff_2_Abnormal</name>
+    <body>Increases your crit strike, crit spell, accuracy and magical accuracy.</body>
+  </string>
+  <string>
+    <id>2296562</id>
+    <name>STR_IDCT_prefix_debuff_3_Abnormal</name>
+    <body>Increases your HP and physical attack.</body>
+  </string>
+  <string>
+    <id>2296563</id>
+    <name>STR_Underpass_b1_particle_summon</name>
+    <body>Summon Broken Goods</body>
+  </string>
+  <string>
+    <id>2296564</id>
     <name>STR_FAME_BOOSTING_BUFF_FEXP</name>
     <body>Glory Potion</body>
   </string>
   <string>
-    <id>2296556</id>
+    <id>2296565</id>
     <name>STR_FAME_BOOSTING_BUFF_FEXP_DESC</name>
     <body>Increases Glory XP gain by 50%%.</body>
   </string>
   <string>
-    <id>2296557</id>
+    <id>2296566</id>
+    <name>STR_B1_AncientArm_LDF8_noShow_NoReduceSpellATK_Instant_01</name>
+    <body>Thundering Heart</body>
+  </string>
+  <string>
+    <id>2296567</id>
+    <name>STR_ITEM_QUEST_Q60608a</name>
+    <body>Dictacube Activation Skill</body>
+  </string>
+  <string>
+    <id>2296568</id>
+    <name>STR_EVENT_DANDI_BOOST_BUFF_BEAD_01</name>
+    <body>[Event] Dandi cheers on</body>
+  </string>
+  <string>
+    <id>2296569</id>
+    <name>STR_EVENT_DANDI_BOOST_BUFF_BEAD_01_DESC</name>
+    <body>Increases XP, AP and Glory XP gain by 10%%.</body>
+  </string>
+  <string>
+    <id>2296570</id>
+    <name>STR_IDCT_circulation_debuff_3_sys</name>
+    <body>Storm Cloud</body>
+  </string>
+  <string>
+    <id>2296571</id>
+    <name>STR_IDCT_stella_buff</name>
+    <body>Rugged Wilderness</body>
+  </string>
+  <string>
+    <id>2296572</id>
+    <name>STR_IDCT_stella_buff_Abnormal</name>
+    <body>Increases your PvE defence and resist magic.</body>
+  </string>
+  <string>
+    <id>2296573</id>
     <name>STR_Ab1_F_GuardianHead_Idle</name>
     <body>Steel Wall</body>
   </string>
   <string>
-    <id>2296558</id>
+    <id>2296574</id>
     <name>STR_Ab1_F_GuardianHead_Idle_DESC</name>
     <body>The Steel Wall is removed when you recapture all Balaur defence bases.</body>
+  </string>
+  <string>
+    <id>2296575</id>
+    <name>STR_Underpass_B1_hunt</name>
+    <body>Nephilim Vase</body>
+  </string>
+  <string>
+    <id>2296576</id>
+    <name>STR_ALL_BlackDragonskill_G1</name>
+    <body>Power: Dark Silence</body>
+  </string>
+  <string>
+    <id>2296577</id>
+    <name>STR_ALL_BlackDragonskill_G1_DESC</name>
+    <body>As soon as your own HP drops below 60%%, [%e0.ALL_BlackDragonskill_G1_Sys.e3.Statup.Statname] is increased by [%e0.ALL_BlackDragonskill_G1_Sys.e3.Statup.Value]%%, [%e0.ALL_BlackDragonskill_G1_Sys.e3.Statup.Statname2] by [%e0.ALL_BlackDragonskill_G1_Sys.e3.Statup.Value2]%%, [%e0.ALL_BlackDragonskill_G1_Sys.e2.Statup.Statname] by [%e0.ALL_BlackDragonskill_G1_Sys.e2.Statup.Value] and [%e0.ALL_BlackDragonskill_G1_Sys.e1.Statup.Statname] by [%e0.ALL_BlackDragonskill_G1_Sys.e1.Statup.Value] for [%e0.ALL_BlackDragonskill_G1_Sys.e3.Statup.RemainTime] as a one-off.</body>
+  </string>
+  <string>
+    <id>2296578</id>
+    <name>STR_ALL_BlackDragonskill_G1_Abnormal</name>
+    <body>As soon as your own HP drops below 60%%, [%e0.ALL_BlackDragonskill_G1_Sys.e3.Statup.Statname] is increased by [%e0.ALL_BlackDragonskill_G1_Sys.e3.Statup.Value]%%, [%e0.ALL_BlackDragonskill_G1_Sys.e3.Statup.Statname2] by [%e0.ALL_BlackDragonskill_G1_Sys.e3.Statup.Value2]%%, [%e0.ALL_BlackDragonskill_G1_Sys.e2.Statup.Statname] by [%e0.ALL_BlackDragonskill_G1_Sys.e2.Statup.Value] and [%e0.ALL_BlackDragonskill_G1_Sys.e1.Statup.Statname] by [%e0.ALL_BlackDragonskill_G1_Sys.e1.Statup.Value] for [%e0.ALL_BlackDragonskill_G1_Sys.e3.Statup.RemainTime] as a one-off.</body>
+  </string>
+  <string>
+    <id>2296579</id>
+    <name>STR_ALL_BlackDragonskill_G1_Sys</name>
+    <body>Power: Glowering Silence</body>
+  </string>
+  <string>
+    <id>2296580</id>
+    <name>STR_ALL_BlackDragonskill_G1_Sys_Abnormal</name>
+    <body>Increases [%e3.Statup.Statname] by [%e3.Statup.Value]%%, [%e3.Statup.Statname2] by [%e3.Statup.Value2]%%, [%e2.Statup.Statname] by [%e2.Statup.Value], and [%e1.Statup.Statname] by [%e1.Statup.Value].</body>
+  </string>
+  <string>
+    <id>2296581</id>
+    <name>STR_B1_Nepilim_S_IDEternity_02_Nepilim_Sum_01</name>
+    <body>Agni’s Eruption</body>
+  </string>
+  <string>
+    <id>2296582</id>
+    <name>STR_B1_Nepilim_S_IDEternity_02_Nepilim_Snare</name>
+    <body>Agni’s Embers</body>
+  </string>
+  <string>
+    <id>2296583</id>
+    <name>STR_B1_Nepilim_S_IDEternity_02_Nepilim_Snare_DESC</name>
+    <body>Agni’s Embers</body>
+  </string>
+  <string>
+    <id>2296584</id>
+    <name>STR_Event_pocketball_Deform_Fear</name>
+    <body>Billiard Ball</body>
+  </string>
+  <string>
+    <id>2296585</id>
+    <name>STR_Event_pocketball_Deform_Fear_DESC_Abnormal</name>
+    <body>You’ve transformed into a Ball.</body>
+  </string>
+  <string>
+    <id>2296606</id>
+    <name>STR_Kinamon_buff_1</name>
+    <body>Kinahmon’s Cheering 1</body>
+  </string>
+  <string>
+    <id>2296607</id>
+    <name>STR_Kinamon_buff_1_DESC</name>
+    <body>Increases allies’ [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
+  </string>
+  <string>
+    <id>2296608</id>
+    <name>STR_Kinamon_buff_1_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
+  </string>
+  <string>
+    <id>2296609</id>
+    <name>STR_Kinamon_buff_2</name>
+    <body>Kinahmon’s Cheering 2</body>
+  </string>
+  <string>
+    <id>2296610</id>
+    <name>STR_Kinamon_buff_2_DESC</name>
+    <body>Increases allies’ [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
+  </string>
+  <string>
+    <id>2296611</id>
+    <name>STR_Kinamon_buff_2_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
+  </string>
+  <string>
+    <id>2296612</id>
+    <name>STR_Kinamon_buff_3</name>
+    <body>Kinahmon’s Cheering 3</body>
+  </string>
+  <string>
+    <id>2296613</id>
+    <name>STR_Kinamon_buff_3_DESC</name>
+    <body>Increases allies’ [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
+  </string>
+  <string>
+    <id>2296614</id>
+    <name>STR_Kinamon_buff_3_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
+  </string>
+  <string>
+    <id>2296615</id>
+    <name>STR_Kinamon_buff_4</name>
+    <body>Kinahmon’s Cheering 4</body>
+  </string>
+  <string>
+    <id>2296616</id>
+    <name>STR_Kinamon_buff_4_DESC</name>
+    <body>Increases allies’ [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
+  </string>
+  <string>
+    <id>2296617</id>
+    <name>STR_Kinamon_buff_4_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
+  </string>
+  <string>
+    <id>2296618</id>
+    <name>STR_Kinamon_buff_5</name>
+    <body>Kinahmon’s Cheering 5</body>
+  </string>
+  <string>
+    <id>2296619</id>
+    <name>STR_Kinamon_buff_5_DESC</name>
+    <body>Increases allies’ [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
+  </string>
+  <string>
+    <id>2296620</id>
+    <name>STR_Kinamon_buff_5_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
+Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].
+Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
+  </string>
+  <string>
+    <id>2296621</id>
+    <name>STR_IDSeal_Boss_Skill_Silencebind</name>
+    <body>Deadly Silence</body>
+  </string>
+  <string>
+    <id>2296622</id>
+    <name>STR_IDSeal_Boss_Skill_Silencebind_DESC</name>
+    <body>Deadly Silence</body>
+  </string>
+  <string>
+    <id>2296623</id>
+    <name>STR_IDSeal_Boss_Skill_Silencebind_DESC_Abnormal</name>
+    <body>You are bound and silenced. You cannot remove this condition with physical healing magic or potions.</body>
   </string>
   <string>
     <id>2296624</id>
@@ -178392,6 +179562,87 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
     <body>Your [%e1.StatUp.StatName] increases by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].</body>
   </string>
   <string>
+    <id>2296638</id>
+    <name>STR_SUMMON_EVENT_Mcat_01</name>
+    <body>Cat’s Egg, come to me!</body>
+  </string>
+  <string>
+    <id>2296639</id>
+    <name>STR_SUMMON_EVENT_Mcat_02</name>
+    <body>Broken shell, one, two, three!</body>
+  </string>
+  <string>
+    <id>2296640</id>
+    <name>STR_SUMMON_EVENT_Mcat_03</name>
+    <body>Hatch, cat, hatch!</body>
+  </string>
+  <string>
+    <id>2296641</id>
+    <name>STR_SUMMON_EVENT_Mcat_04</name>
+    <body>Scratch cat</body>
+  </string>
+  <string>
+    <id>2296642</id>
+    <name>STR_SUMMON_EVENT_Mcat_05</name>
+    <body>Good Kitty</body>
+  </string>
+  <string>
+    <id>2296643</id>
+    <name>STR_SUMMON_EVENT_Mcat_06</name>
+    <body>Fly, kitty, fly!</body>
+  </string>
+  <string>
+    <id>2296644</id>
+    <name>STR_SUMMON_EVENT_Mcat_07</name>
+    <body>Here Kitty Kitty</body>
+  </string>
+  <string>
+    <id>2296645</id>
+    <name>STR_SUMMON_EVENT_Mcat_08</name>
+    <body>Grouchy Cat</body>
+  </string>
+  <string>
+    <id>2296646</id>
+    <name>STR_SUMMON_EVENT_Mcat_09</name>
+    <body>Abracatabra</body>
+  </string>
+  <string>
+    <id>2296647</id>
+    <name>STR_SUMMON_EVENT_Mcat_10</name>
+    <body>Sphingia, hocus pocus!</body>
+  </string>
+  <string>
+    <id>2296660</id>
+    <name>STR_Gu_MagicalPromise_G2_Proc_abnormal</name>
+    <body>[%e1.StatUp.StatName] is increased by [%e1.StatUp.Value].</body>
+  </string>
+  <string>
+    <id>2296664</id>
+    <name>STR_Trans_Grade_02_SKill_19</name>
+    <body>Dr Murr</body>
+  </string>
+  <string>
+    <id>2296665</id>
+    <name>STR_Trans_Grade_02_SKill_19_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]</body>
+  </string>
+  <string>
+    <id>2296666</id>
+    <name>STR_Trans_Grade_02_SKill_20</name>
+    <body>Sister Meow</body>
+  </string>
+  <string>
+    <id>2296667</id>
+    <name>STR_Trans_Grade_02_SKill_20_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]</body>
+  </string>
+  <string>
     <id>2296683</id>
     <name>STR_world_tiamat_jelly_pvp_01</name>
     <body>Ascension Jam (PvP Attack)</body>
@@ -178420,5 +179671,67 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
     <id>2296691</id>
     <name>STR_WORLD_EVENT_ICECREAM_BUFF_DESC</name>
     <body>Increases the chance of loot by 10%%, [%e2.StatUp.StatName] by [%e2.StatUp.Value], [%e2.StatUp.StatName2] by [%e2.StatUp.Value2] and [%e2.StatUp.StatName3] by [%e2.StatUp.Value3]%% for [%e1.DrBoost.RemainTime].</body>
+  </string>
+  <string>
+    <id>2296719</id>
+    <name>STR_world_buff_instance</name>
+    <body>Bufferinerk’s Buff</body>
+  </string>
+  <string>
+    <id>2296720</id>
+    <name>STR_world_buff_instance_Abnormal</name>
+    <body>You got help from Bufferinerk.\n[%e1.Statup.Statname] is increased by [%e1.StatUp.Value] points, and [%e1.Statup.Statname2] is increased by [%e1.StatUp.Value2] points.</body>
+  </string>
+  <string>
+    <id>2296721</id>
+    <name>STR_Transparent_Grade_04_SKill_08_custom_weatha</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
+[%e3.StatUp.StatName3] +[%e3.StatUp.Value3]
+[%e3.StatUp.StatName4] +[%e3.StatUp.Value4]\nDoes not change the appearance of your character.</body>
+  </string>
+  <string>
+    <id>2296722</id>
+    <name>STR_Transparent_Grade_04_SKill_09</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]%%
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
+[%e3.StatUp.StatName3] +[%e3.StatUp.Value3]
+[%e3.StatUp.StatName4] +[%e3.StatUp.Value4]
+[%e4.StatUp.StatName] +[%e4.StatUp.Value]\nDoes not change the appearance of your character.</body>
+  </string>
+  <string>
+    <id>2296723</id>
+    <name>STR_Transparent_Grade_04_SKill_10</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
+[%e3.StatUp.StatName3] +[%e3.StatUp.Value3]
+[%e3.StatUp.StatName4] +[%e3.StatUp.Value4]\nDoes not change the appearance of your character.</body>
+  </string>
+  <string>
+    <id>2296735</id>
+    <name>STR_WORLD_HALLOWEEN_BUFF_01_eu_DESC</name>
+    <body>Increases XP gain by 20%%, the chance of loot by 50%% and AP gain by 100%% for 60 minutes.</body>
+  </string>
+  <string>
+    <id>2296736</id>
+    <name>STR_world_china_maxhp_buff_01</name>
+    <body>Vital Essence</body>
+  </string>
+  <string>
+    <id>2296737</id>
+    <name>STR_world_china_maxhp_buff_01_DESC</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] points for [%e1.StatUp.RemainTime].</body>
   </string>
 </strings>
