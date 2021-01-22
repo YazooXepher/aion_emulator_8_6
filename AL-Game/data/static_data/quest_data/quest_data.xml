@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2020-11-08 19:07 -->
-<quests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<!-- parsed by phpTools from Aion Germany Group (Mariella) at 2021-01-22 16:13 -->
+<quests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="quest_data.xsd">
     <quest id="85" name="Symbol of the Chosen" category_name="Test zone" nameId="1100500" minlevel_permitted="999" max_repeat_count="1" race_permitted="PC_ALL" category="QUEST">
         <rewards gold="100" exp="100"/>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER PAINTER</class_permitted>
@@ -86455,6 +86455,48 @@
         <quest_kill npc_ids="657544 657574 657754 657758 657545 657575 657755 858874 657546 657576 657756 657759 858873 657547 657577 657757 657860 657861 657862 657863" seq="0"/>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER PAINTER</class_permitted>
     </quest>
+    <quest id="30956" name="[Event/Daily] Help the Vitamin Fairy" category_name="Event" nameId="1808621" minlevel_permitted="10" max_repeat_count="255" repeat_cycle="ALL" race_permitted="PC_ALL" category="EVENT">
+        <rewards exp="1">
+            <reward_item item_id="190095139" count="1"/>
+            <reward_item item_id="188073041" count="1"/>
+            <reward_item item_id="166070004" count="1"/>
+            <reward_item item_id="162001087" count="1"/>
+            <reward_item item_id="188076300" count="1"/>
+        </rewards>
+        <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER PAINTER</class_permitted>
+    </quest>
+    <quest id="30957" name="[Event/Weekly] Help the Vitamin Fairy" category_name="Event" nameId="1808622" minlevel_permitted="10" max_repeat_count="255" repeat_cycle="WED" race_permitted="PC_ALL" category="EVENT">
+        <rewards exp="1">
+            <reward_item item_id="188076299" count="1"/>
+            <reward_item item_id="169652000" count="1"/>
+            <reward_item item_id="166024103" count="1"/>
+        </rewards>
+        <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER PAINTER</class_permitted>
+    </quest>
+    <quest id="30958" name="[Event/Daily] Help the Vitamin Fairy" category_name="Event" nameId="1808621" minlevel_permitted="10" max_repeat_count="255" repeat_cycle="ALL" race_permitted="PC_ALL" category="EVENT">
+        <rewards exp="1">
+            <reward_item item_id="190095139" count="1"/>
+            <reward_item item_id="188073041" count="1"/>
+            <reward_item item_id="166070004" count="1"/>
+            <reward_item item_id="162001087" count="1"/>
+            <reward_item item_id="188076300" count="1"/>
+        </rewards>
+        <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER PAINTER</class_permitted>
+    </quest>
+    <quest id="30959" name="[Event/Weekly] Help the Vitamin Fairy" category_name="Event" nameId="1808622" minlevel_permitted="10" max_repeat_count="255" repeat_cycle="WED" race_permitted="PC_ALL" category="EVENT">
+        <rewards exp="1">
+            <reward_item item_id="188076299" count="1"/>
+            <reward_item item_id="169652000" count="1"/>
+            <reward_item item_id="166024103" count="1"/>
+        </rewards>
+        <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER PAINTER</class_permitted>
+    </quest>
+    <quest id="30960" name="[Event/Daily] Daily Happiness" category_name="Event" nameId="1808623" minlevel_permitted="10" max_repeat_count="255" repeat_cycle="ALL" race_permitted="PC_ALL" category="EVENT">
+        <rewards exp="1">
+            <reward_item item_id="188120164" count="1"/>
+        </rewards>
+        <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER PAINTER</class_permitted>
+    </quest>
     <quest id="35000" name="Aetheric Field Observatory Protectors FOBJ 01" category_name="Alabaster Order" nameId="1126000" minlevel_permitted="999" max_repeat_count="255" race_permitted="ELYOS" category="QUEST" npcfaction_id="2">
         <collect_items>
             <collect_item item_id="182210000" count="1"/>
@@ -100049,6 +100091,20 @@
             <selectable_reward_item item_id="188075860" count="2"/>
             <selectable_reward_item item_id="188075859" count="3"/>
         </rewards>
+        <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER PAINTER</class_permitted>
+    </quest>
+    <quest id="50332" name="[Event/Daily] Secret Deal 1" category_name="Event" nameId="1808624" minlevel_permitted="76" max_repeat_count="255" repeat_cycle="ALL" race_permitted="PC_ALL" category="EVENT">
+        <rewards exp="1">
+            <reward_item item_id="188120165" count="10"/>
+        </rewards>
+        <quest_kill npc_ids="662861 662866" seq="0"/>
+        <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER PAINTER</class_permitted>
+    </quest>
+    <quest id="50333" name="[Event/Daily] Secret Deal 2" category_name="Event" nameId="1808625" minlevel_permitted="76" max_repeat_count="255" repeat_cycle="ALL" race_permitted="PC_ALL" category="EVENT">
+        <rewards exp="1">
+            <reward_item item_id="188120166" count="10"/>
+        </rewards>
+        <quest_kill npc_ids="662863 662868" seq="0"/>
         <class_permitted>WARRIOR SCOUT MAGE CLERIC ENGINEER ARTIST GLADIATOR TEMPLAR ASSASSIN RANGER SORCERER SPIRIT_MASTER CHANTER PRIEST GUNNER BARD RIDER PAINTER</class_permitted>
     </quest>
     <quest id="50800" name="[Event/Weekly/League] An Uninvited Spirit" category_name="Event" nameId="1806440" minlevel_permitted="999" max_repeat_count="255" repeat_cycle="WED" race_permitted="ELYOS" category="EVENT">
