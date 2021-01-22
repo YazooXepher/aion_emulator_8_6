@@ -37132,12 +37132,13 @@ Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
 Increases [%e3.StatUp.StatName2] and [%e3.StatUp.StatName3] by [%e3.StatUp.Value3].
 Restores [%e1.SkillLauncher.OtherSkill.e2.ProcMpHeal_Instant.Heal] HP and MP.
 Increases [%e4.StatUp.StatName4] by [%e4.StatUp.Value4].
+Increases [%e4.StatUp.StatName2] by [%e4.StatUp.Value2].
 Requires 42 Seeds of Transformation.</body>
   </string>
   <string>
     <id>288675</id>
     <name>STR_SKILL_Dark_Avatar_G1_L_Abnormal</name>
-    <body>You have transformed into a Guardian General. Increases movement speed and flight speed and you resist most altered states. Your HP and MP are increased by [%e3.StatUp.Value2] and [%e4.StatUp.StatName4] is increased by [%e4.StatUp.Value4].</body>
+    <body>You have transformed into a Guardian General. Increases movement speed and flight speed and you resist most altered states. Your HP and MP are increased by [%e3.StatUp.Value2], [%e4.StatUp.StatName4] and [%e4.StatUp.StatName2] are increased by [%e4.StatUp.Value4].</body>
   </string>
   <string>
     <id>288676</id>
@@ -37152,6 +37153,7 @@ Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
 Increases [%e3.StatUp.StatName2] and [%e3.StatUp.StatName3] by [%e3.StatUp.Value3].
 Restores [%e1.SkillLauncher.OtherSkill.e2.ProcMpHeal_Instant.Heal] HP and MP.
 Increases [%e4.StatUp.StatName4] by [%e4.StatUp.Value4].
+Increases [%e4.StatUp.StatName2] by [%e4.StatUp.Value2].
 Requires 49 Seeds of Transformation.</body>
   </string>
   <string>
@@ -37167,6 +37169,7 @@ Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
 Increases [%e3.StatUp.StatName2] and [%e3.StatUp.StatName3] by [%e3.StatUp.Value3].
 Restores [%e1.SkillLauncher.OtherSkill.e2.ProcMpHeal_Instant.Heal] HP and MP.
 Increases [%e4.StatUp.StatName4] by [%e4.StatUp.Value4].
+Increases [%e4.StatUp.StatName2] by [%e4.StatUp.Value2].
 Requires 56 Seeds of Transformation.</body>
   </string>
   <string>
@@ -37182,6 +37185,7 @@ Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
 Increases [%e3.StatUp.StatName2] and [%e3.StatUp.StatName3] by [%e3.StatUp.Value3].
 Restores [%e1.SkillLauncher.OtherSkill.e2.ProcMpHeal_Instant.Heal] HP and MP.
 Increases [%e4.StatUp.StatName4] by [%e4.StatUp.Value4].
+Increases [%e4.StatUp.StatName2] by [%e4.StatUp.Value2].
 Requires 63 Seeds of Transformation.</body>
   </string>
   <string>
@@ -37197,6 +37201,7 @@ Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
 Increases [%e3.StatUp.StatName2] and [%e3.StatUp.StatName3] by [%e3.StatUp.Value3].
 Restores [%e1.SkillLauncher.OtherSkill.e2.ProcMpHeal_Instant.Heal] HP and MP.
 Increases [%e4.StatUp.StatName4] by [%e4.StatUp.Value4].
+Increases [%e4.StatUp.StatName2] by [%e4.StatUp.Value2].
 Requires 70 Seeds of Transformation.</body>
   </string>
   <string>
@@ -37212,6 +37217,7 @@ Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
 Increases [%e3.StatUp.StatName2] and [%e3.StatUp.StatName3] by [%e3.StatUp.Value3].
 Restores [%e1.SkillLauncher.OtherSkill.e2.ProcMpHeal_Instant.Heal] HP and MP.
 Increases [%e4.StatUp.StatName4] by [%e4.StatUp.Value4].
+Increases [%e4.StatUp.StatName2] by [%e4.StatUp.Value2].
 Requires 42 Seeds of Transformation.</body>
   </string>
   <string>
@@ -37227,6 +37233,7 @@ Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
 Increases [%e3.StatUp.StatName2] and [%e3.StatUp.StatName3] by [%e3.StatUp.Value3].
 Restores [%e1.SkillLauncher.OtherSkill.e2.ProcMpHeal_Instant.Heal] HP and MP.
 Increases [%e4.StatUp.StatName4] by [%e4.StatUp.Value4].
+Increases [%e4.StatUp.StatName2] by [%e4.StatUp.Value2].
 Requires 49 Seeds of Transformation.</body>
   </string>
   <string>
@@ -37242,6 +37249,7 @@ Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
 Increases [%e3.StatUp.StatName2] and [%e3.StatUp.StatName3] by [%e3.StatUp.Value3].
 Restores [%e1.SkillLauncher.OtherSkill.e2.ProcMpHeal_Instant.Heal] HP and MP.
 Increases [%e4.StatUp.StatName4] by [%e4.StatUp.Value4].
+Increases [%e4.StatUp.StatName2] by [%e4.StatUp.Value2].
 Requires 56 Seeds of Transformation.</body>
   </string>
   <string>
@@ -37257,6 +37265,7 @@ Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
 Increases [%e3.StatUp.StatName2] and [%e3.StatUp.StatName3] by [%e3.StatUp.Value3].
 Restores [%e1.SkillLauncher.OtherSkill.e2.ProcMpHeal_Instant.Heal] HP and MP.
 Increases [%e4.StatUp.StatName4] by [%e4.StatUp.Value4].
+Increases [%e4.StatUp.StatName2] by [%e4.StatUp.Value2].
 Requires 63 Seeds of Transformation.</body>
   </string>
   <string>
@@ -37272,6 +37281,7 @@ Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].
 Increases [%e3.StatUp.StatName2] and [%e3.StatUp.StatName3] by [%e3.StatUp.Value3].
 Restores [%e1.SkillLauncher.OtherSkill.e2.ProcMpHeal_Instant.Heal] HP and MP.
 Increases [%e4.StatUp.StatName4] by [%e4.StatUp.Value4].
+Increases [%e4.StatUp.StatName2] by [%e4.StatUp.Value2].
 Requires 70 Seeds of Transformation.</body>
   </string>
   <string>
@@ -37282,7 +37292,7 @@ Requires 70 Seeds of Transformation.</body>
   <string>
     <id>288695</id>
     <name>STR_SKILL_Abyss_RankerSkill_AbyssianStrom_G1_DESC</name>
-    <body>Deals 5,000 magic damage.</body>
+    <body>Deals 12,500 magic damage.</body>
   </string>
   <string>
     <id>288696</id>
@@ -37292,7 +37302,7 @@ Requires 70 Seeds of Transformation.</body>
   <string>
     <id>288697</id>
     <name>STR_SKILL_Abyss_RankerSkill_AbyssianStrom_G2_DESC</name>
-    <body>Deals 6,000 magic damage.</body>
+    <body>Deals 15,000 magic damage.</body>
   </string>
   <string>
     <id>288698</id>
@@ -37302,7 +37312,7 @@ Requires 70 Seeds of Transformation.</body>
   <string>
     <id>288699</id>
     <name>STR_SKILL_Abyss_RankerSkill_AbyssianStrom_G3_DESC</name>
-    <body>Deals 7,000 magic damage.</body>
+    <body>Deals 17,500 magic damage.</body>
   </string>
   <string>
     <id>288700</id>
@@ -37312,7 +37322,7 @@ Requires 70 Seeds of Transformation.</body>
   <string>
     <id>288701</id>
     <name>STR_SKILL_Abyss_RankerSkill_AbyssianStrom_G4_DESC</name>
-    <body>Deals 8,000 magic damage.</body>
+    <body>Deals 20,000 magic damage.</body>
   </string>
   <string>
     <id>288702</id>
@@ -37322,7 +37332,7 @@ Requires 70 Seeds of Transformation.</body>
   <string>
     <id>288703</id>
     <name>STR_SKILL_Abyss_RankerSkill_L_AbyssianServant_G1_DESC</name>
-    <body>Summons a spirit that deals 5,000 magic damage to nearby enemies.</body>
+    <body>Summons a spirit that deals 20,000 magic damage to nearby enemies.</body>
   </string>
   <string>
     <id>288704</id>
@@ -37332,7 +37342,7 @@ Requires 70 Seeds of Transformation.</body>
   <string>
     <id>288705</id>
     <name>STR_SKILL_Abyss_RankerSkill_L_AbyssianServant_G2_DESC</name>
-    <body>Summons a spirit that deals 5,000 magic damage to nearby enemies.</body>
+    <body>Summons a spirit that deals 30,000 magic damage to nearby enemies.</body>
   </string>
   <string>
     <id>288706</id>
@@ -37342,7 +37352,7 @@ Requires 70 Seeds of Transformation.</body>
   <string>
     <id>288707</id>
     <name>STR_SKILL_Abyss_RankerSkill_D_AbyssianServant_G1_DESC</name>
-    <body>Summons a spirit that deals 5,000 magic damage to nearby enemies.</body>
+    <body>Summons a spirit that deals 20,000 magic damage to nearby enemies.</body>
   </string>
   <string>
     <id>288708</id>
@@ -37352,7 +37362,7 @@ Requires 70 Seeds of Transformation.</body>
   <string>
     <id>288709</id>
     <name>STR_SKILL_Abyss_RankerSkill_D_AbyssianServant_G2_DESC</name>
-    <body>Summons a spirit that deals 5,000 magic damage to nearby enemies.</body>
+    <body>Summons a spirit that deals 30,000 magic damage to nearby enemies.</body>
   </string>
   <string>
     <id>288710</id>
@@ -80175,7 +80185,7 @@ Stigma Skill</body>
   <string>
     <id>297256</id>
     <name>STR_IDForest_3Nmd_areafear</name>
-    <body>IDForest_3Nmd_areafear(AreaFear)</body>
+    <body>Terrorize</body>
   </string>
   <string>
     <id>297257</id>
@@ -92555,7 +92565,7 @@ Increases physical and magic defence, resist magic, evasion and all resistances 
   <string>
     <id>299735</id>
     <name>STR_LDF4b_D3_Buff_Poison_DESC_Abnormal</name>
-    <body>Gives a chance to poison the hostile target you attack.</body>
+    <body>Provides a chance to poison the hostile target you attack.</body>
   </string>
   <string>
     <id>299736</id>
@@ -124431,14 +124441,14 @@ Reduces the casting time of all magic skills by [%e2.BoostSkillCastingTime.Casti
   <string>
     <id>2286084</id>
     <name>STR_SKILLN_Ba_SongofHope_DESC</name>
-    <body>Restores 30%% of group members' HP.
-Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value]%% for [%e2.Rebirth.RemainTime].
+    <body>Restores [%e1.Heal_Instant.Heal] HP.
+Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value] for [%e2.Rebirth.RemainTime].
 If you die while the effect is active, you will be revived with [%e2.Rebirth.CurrentHPMP]%% HP and MP.</body>
   </string>
   <string>
     <id>2286085</id>
     <name>STR_SKILLN_Ba_SongofHope_Abnormal</name>
-    <body>Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value]%%%% and resurrects you with [%e2.Rebirth.CurrentHPMP]%% HP and MP each time you die.</body>
+    <body>Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value] and resurrects you with [%e2.Rebirth.CurrentHPMP]%% HP and MP each time you die.</body>
   </string>
   <string>
     <id>2286086</id>
@@ -124953,7 +124963,8 @@ Restores [%e3.MPHeal_Instant.Heal] MP.</body>
 Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
 Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
 Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
-Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
+Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].
+Active Skill</body>
   </string>
   <string>
     <id>2286182</id>
@@ -124994,7 +125005,8 @@ Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
     <id>2286189</id>
     <name>STR_SKILLN_PR_HealersHand_DESC</name>
     <body>Increases [%e1.Statup.StatName] by [%e1.Statup.Value].
-Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
+Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].
+Active Skill</body>
   </string>
   <string>
     <id>2286190</id>
@@ -125060,8 +125072,8 @@ Grants up to [%e1.Shield.ShieldValue] protection.</body>
   <string>
     <id>2286201</id>
     <name>STR_SKILLN_PR_SecretPrecept_DESC</name>
-    <body>Restores 50%% of max HP.
-Restores [%e1.MPHeal_Instant.Heal]%% of max MP.</body>
+    <body>Restores [%e2.Heal_Instant.Heal] HP.
+Restores [%e1.MPHeal_Instant.Heal] of MP.</body>
   </string>
   <string>
     <id>2286202</id>
@@ -125597,12 +125609,14 @@ The spirit vanishes after a while and consumes part of its own HP with each atta
     <id>2286304</id>
     <name>STR_SKILLN_PR_PunishingLight_DESC</name>
     <body>Reduces [%e1.StatDown.StatName] by [%e1.StatDown.Value] for [%e1.StatDown.RemainTime].
-Reduces [%e1.StatDown.StatName2] by [%e1.StatDown.Value2].</body>
+Reduces [%e1.StatDown.StatName2] by [%e1.StatDown.Value2].
+Reduces [%e1.StatDown.StatName3] by [%e1.StatDown.Value3].
+The effect cannot be removed.</body>
   </string>
   <string>
     <id>2286305</id>
     <name>STR_SKILLN_PR_PunishingLight_Abnormal</name>
-    <body>[%e1.StatDown.StatName] is decreased by [%e1.StatDown.Value] and [%e1.StatDown.StatName2] by [%e1.StatDown.Value2].</body>
+    <body>[%e1.StatDown.StatName] is decreased by [%e1.StatDown.Value], [%e1.StatDown.StatName2] by [%e1.StatDown.Value2] and [%e1.StatDown.StatName3] by [%e1.StatDown.Value3]. This skill cannot be removed.</body>
   </string>
   <string>
     <id>2286306</id>
@@ -125659,13 +125673,13 @@ Reduces [%e1.StatDown.StatName2] by [%e1.StatDown.Value2].</body>
   <string>
     <id>2286316</id>
     <name>STR_SKILLN_PR_HealingGrace_DESC</name>
-    <body>Increases healing effects for group members by 50%% for [%e1.DeboostHealAmount.RemainTime].
-Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].</body>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].</body>
   </string>
   <string>
     <id>2286317</id>
     <name>STR_SKILLN_PR_HealingGrace_Abnormal</name>
-    <body>The strength of healing effects you receive has increased by 50%%. [%e2.StatUp.StatName] is increased by [%e2.StatUp.Value].</body>
+    <body>[%e1.StatUp.StatName] has been increased by [%e1.StatUp.Value] and [%e1.StatUp.StatName2] has been increased by [%e1.StatUp.Value2].</body>
   </string>
   <string>
     <id>2286318</id>
@@ -125721,13 +125735,13 @@ Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].</body>
     <id>2286328</id>
     <name>STR_SKILLN_PR_HolyGrail_DESC</name>
     <body>Removes altered states from a group member.
-Restores [%e3.Heal_Instant.Heal]%% of the maximum HP.
-Restores an additional [%e2.Heal.CheckTimeHeal]%% of the maximum HP every [%e2.Heal.CheckTime] for [%e2.Heal.RemainTime].</body>
+Restores [%e3.Heal_Instant.Heal] HP.
+Restores an additional [%e2.Heal.CheckTimeHeal] HP for you every [%e2.Heal.CheckTime] for [%e2.Heal.RemainTime].</body>
   </string>
   <string>
     <id>2286329</id>
     <name>STR_SKILLN_PR_HolyGrail_Abnormal</name>
-    <body>Recovers [%e2.Heal.CheckTimeHeal]%% of the maximum HP every[%e2.Heal.CheckTime] for [%e2.Heal.RemainTime].</body>
+    <body>Restores [%e2.Heal.CheckTimeHeal] HP every [%e2.Heal.CheckTime].</body>
   </string>
   <string>
     <id>2286330</id>
@@ -128030,7 +128044,7 @@ Grants up to [%e2.Shield.ShieldValue] protection.</body>
     <name>STR_SKILLN_RI_EscapeRobot_DESC</name>
     <body>Deals magic damage and lets you get out.
 Removes your altered states.
-Restores 100%% of HP.
+Restores 100,000 HP.
 You teleport 15m backwards.</body>
   </string>
   <string>
@@ -128511,8 +128525,8 @@ May stun the target.</body>
     <id>2286835</id>
     <name>STR_SKILLN_RI_RightJab_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical earth damage.
-Reduces the target's attack speed.
-Reduces magical accuracy.
+Reduces the target’s attack speed for [%e4.Slow.RemainTime].
+Reduces [%e3.StatDown.StatName] by [%e3.StatDown.Value].
 Deals additional damage if the target is a Balaur.</body>
   </string>
   <string>
@@ -129612,14 +129626,14 @@ Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].</body>
   <string>
     <id>2287035</id>
     <name>STR_SkillN_KN_StoneBody_DESC</name>
-    <body>Restores [%e1.Heal_Instant.Heal]%% HP.
-Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value]%% for [%e3.StatUp.RemainTime].
+    <body>Restores [%e1.Heal_Instant.Heal] HP.
+Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value] for [%e3.StatUp.RemainTime].
 Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].</body>
   </string>
   <string>
     <id>2287036</id>
     <name>STR_SkillN_KN_StoneBody_Abnormal</name>
-    <body>[%e3.StatUp.StatName] is increased by [%e3.StatUp.Value]%% and [%e4.StatUp.StatName] by [%e4.StatUp.Value]%%. Taking less damage from players.</body>
+    <body>[%e3.StatUp.StatName] is increased by [%e3.StatUp.Value], [%e2.StatUp.StatName] is increased by [%e2.StatUp.Value]. Reduces damage taken from game characters.</body>
   </string>
   <string>
     <id>2287037</id>
@@ -129715,13 +129729,13 @@ Reduces the target's movement speed for [%e2.Snare.RemainTime].</body>
     <name>STR_SkillN_KN_AvataAdvent_DESC</name>
     <body>Removes your altered states.
 Makes you immune to altered states for [%e2.StatUp.RemainTime].
-Restores [%e4.Heal.CheckTimeHeal]%% of the maximum HP every [%e4.Heal.CheckTime].
+Restores [%e4.Heal.CheckTimeHeal] HP every [%e4.Heal.CheckTime].
 During this time, you receive hardly any physical damage and [%e2.StatUp.StatName2] is reduced by 500.</body>
   </string>
   <string>
     <id>2287055</id>
     <name>STR_SkillN_KN_AvataAdvent_Abnormal</name>
-    <body>Immune to most physical damage and altered states. [%e4.Heal.CheckTimeHeal]%% of the maximum HP are restored every [%e4.Heal.CheckTime]. [%e2.StatUp.StatName2] is reduced.</body>
+    <body>Immune to most physical damage and altered states. Restores [%e4.Heal.CheckTimeHeal] HP every [%e4.Heal.CheckTime]. [%e2.StatUp.StatName2] is also reduced.</body>
   </string>
   <string>
     <id>2287056</id>
@@ -131067,7 +131081,7 @@ Absorbs HP from the enemy equal to the amount of damage dealt.</body>
     <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.Statup.RemainTime].
 Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
 Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
-Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value]%%.
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
 Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%%.
 Increases magic damage by 10%%.
 If you summon a spirit, the skill effect disappears.</body>
@@ -131076,7 +131090,7 @@ If you summon a spirit, the skill effect disappears.</body>
     <id>2287304</id>
     <name>STR_SKILLN_El_SoulKing_Abnormal</name>
     <body>[%e1.StatUp.StatName] is increased by [%e1.StatUp.Value], [%e1.StatUp.StatName2] by [%e1.StatUp.Value2] and [%e1.StatUp.StatName3] by [%e1.StatUp.Value3]. 
-[%e2.StatUp.StatName] is increased by [%e2.StatUp.Value]%%, [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%% and magic damage is increased by 10%%.</body>
+[%e2.StatUp.StatName] is increased by [%e2.StatUp.Value], [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%% and magic damage is increased by 10%%.</body>
   </string>
   <string>
     <id>2287305</id>
@@ -131529,7 +131543,7 @@ Reduces the target's movement speed for [%e3.Snare.RandomTime] to [%e3.Snare.Rem
     <id>2287383</id>
     <name>STR_SKILLN_EL_StoneShock_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical earth damage.
-The target suffers the [%e1.SpellATK_Instant.AddEffect] effect.</body>
+Knocks the target back.</body>
   </string>
   <string>
     <id>2287384</id>
@@ -133099,14 +133113,14 @@ Causes the target to stumble.</body>
   <string>
     <id>2287670</id>
     <name>STR_SKILLN_FI_SurvivorStance_DESC</name>
-    <body>Restores [%e1.Heal_Instant.Heal]%% HP.
-Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value]%% for [%e2.StatUp.RemainTime].
+    <body>Restores [%e1.Heal_Instant.Heal] HP.
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value] for [%e2.StatUp.RemainTime].
 Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value].</body>
   </string>
   <string>
     <id>2287671</id>
     <name>STR_SKILLN_FI_SurvivorStance_Abnormal</name>
-    <body>[%e2.StatUp.StatName] is increased by [%e2.StatUp.Value]%% and [%e3.StatUp.StatName] by [%e3.StatUp.Value].</body>
+    <body>[%e2.StatUp.StatName] is increased by [%e2.StatUp.Value] and [%e3.StatUp.StatName] by [%e3.StatUp.Value].</body>
   </string>
   <string>
     <id>2287672</id>
@@ -133191,7 +133205,7 @@ Causes the target to stumble.</body>
     <id>2287686</id>
     <name>STR_SKILLN_FI_Whirlwind_DESC</name>
     <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage.
-The target suffers the [%e1.SkillATK_Instant.AddEffect] effect.</body>
+Causes the target to stumble.</body>
   </string>
   <string>
     <id>2287687</id>
@@ -146356,13 +146370,13 @@ Perfect Fear Shriek</body>
   <string>
     <id>2290317</id>
     <name>STR_SKILLN_EV_En_FormWall_DESC</name>
-    <body>Restores [%e1.Heal_Instant.Heal]%% HP.
-Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value]%% for [%e2.StatUp.RemainTime].</body>
+    <body>Restores [%e1.Heal_Instant.Heal] HP.
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value] for [%e2.StatUp.RemainTime].</body>
   </string>
   <string>
     <id>2290318</id>
     <name>STR_SKILLN_EV_En_FormWall_Abnormal</name>
-    <body>[%e2.StatUp.StatName] is increased by [%e2.StatUp.Value]%%.</body>
+    <body>[%e2.StatUp.StatName] is increased by [%e2.StatUp.Value].</body>
   </string>
   <string>
     <id>2290319</id>
@@ -153210,13 +153224,13 @@ If the target is a player, their Enmity will be directed at you.</body>
     <name>STR_SKILLN_KN_IronBody_Custom_B_DESC</name>
     <body>Removes all your debuffs.
 Reduces your damage by [%e2.Shield.CoverValue]%% for [%e2.Shield.RemainTime].
-You resist movement-impairing states.
-Restores [%e4.Heal.CheckTimeHeal]%% HP every [%e4.Heal.CheckTime].</body>
+You resist states which restrict movement.
+Restores [%e4.Heal.CheckTimeHeal] HP every [%e4.Heal.CheckTime].</body>
   </string>
   <string>
     <id>2291660</id>
     <name>STR_SKILLN_KN_IronBody_Custom_B_Abnormal</name>
-    <body>Reduces [%e2.Shield.CoverValue]%% of the damage sustained and resists states that restrict movement. Restores your HP by [%e4.Heal.CheckTimeHeal]%% every [%e4.Heal.CheckTime].</body>
+    <body>Reduces [%e2.Shield.CoverValue]%% of the damage sustained and resists states that restrict movement. Restores [%e4.Heal.CheckTimeHeal] HP every [%e4.Heal.CheckTime].</body>
   </string>
   <string>
     <id>2291661</id>
@@ -161020,14 +161034,14 @@ Multicast 4 times</body>
   <string>
     <id>2293245</id>
     <name>STR_PA_ScrewPierce_DESC</name>
-    <body>Hits the target after 4 seconds.
+    <body>Hits the target after 2 seconds.
 Deals [%e1.DelayedSkill.OtherSkill.e1.ProcATK_Instant.Damage] magic damage.
-Causes the target to bleed for [%e0.PA_ScrewPierce_sys_G1.e2.Bleed.RemainTime].</body>
+Stunned for [%e0.PA_ScrewPierce_sys_G1.e2.stun.RemainTime].</body>
   </string>
   <string>
     <id>2293246</id>
     <name>STR_PA_ScrewPierce_Abnormal</name>
-    <body>Deals damage after 4 seconds and causes the target to bleed.</body>
+    <body>Deals damage after 2 seconds and stuns the target.</body>
   </string>
   <string>
     <id>2293247</id>
@@ -161037,7 +161051,7 @@ Causes the target to bleed for [%e0.PA_ScrewPierce_sys_G1.e2.Bleed.RemainTime].<
   <string>
     <id>2293248</id>
     <name>STR_PA_ScrewPierce_sys_Abnormal</name>
-    <body>You are bleeding.</body>
+    <body>You are stunned.</body>
   </string>
   <string>
     <id>2293249</id>
@@ -161302,12 +161316,13 @@ Aether's Hold binds the target.</body>
   <string>
     <id>2293297</id>
     <name>STR_PA_RepressedCure_DESC</name>
-    <body>Increases the casting time for healing skills by 100%% for [%e1.BoostSkillCastingTime.RemainTime].</body>
+    <body>Increases the casting time for healing skills by 100%% for [%e1.BoostSkillCastingTime.RemainTime].
+Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
   </string>
   <string>
     <id>2293298</id>
     <name>STR_PA_RepressedCure_Abnormal</name>
-    <body>The casting time for healing skills is increased by 100%%.</body>
+    <body>Increases the casting time of healing skills by 100%% while [%e2.StatDown.StatName] is reduced by [%e2.StatDown.Value]. This skill cannot be removed.</body>
   </string>
   <string>
     <id>2293299</id>
@@ -162470,7 +162485,7 @@ Emote Skills for Painters</body>
   <string>
     <id>2293478</id>
     <name>STR_PA_PaintBeating_Abnormal</name>
-    <body>[%e2.StatDown.StatName] decreased by [%e2.StatDown.Value].</body>
+    <body>[%e2.StatDown.StatName] is decreased by [%e2.StatDown.Value]. This skill cannot be removed.</body>
   </string>
   <string>
     <id>2293479</id>
@@ -164608,12 +164623,12 @@ If the target is a player, their Enmity will be directed at you.</body>
     <body>Removes all your debuffs.
 Reduces your damage by [%e2.Shield.CoverValue]%% for [%e2.Shield.RemainTime].
 You resist states which restrict movement.
-Restores [%e4.Heal.CheckTimeHeal]%% HP every [%e4.Heal.CheckTime].</body>
+Restores [%e4.Heal.CheckTimeHeal] HP every [%e4.Heal.CheckTime].</body>
   </string>
   <string>
     <id>2293869</id>
     <name>STR_SKILLN_KN_IronBody_Custom_B_Abnormal_up</name>
-    <body>Reduces [%e2.Shield.CoverValue]%% of the damage sustained and resists states that restrict movement. Restores your HP by [%e4.Heal.CheckTimeHeal]%% every [%e4.Heal.CheckTime].</body>
+    <body>Reduces [%e2.Shield.CoverValue]%% of the damage sustained and resists states that restrict movement. Restores [%e4.Heal.CheckTimeHeal] HP every [%e4.Heal.CheckTime].</body>
   </string>
   <string>
     <id>2293870</id>
@@ -169392,9 +169407,9 @@ You are immobilised and cannot cause immobilisation.</body>
   <string>
     <id>2294747</id>
     <name>STR_PR_SecretPrecept_Custom_A_DESC</name>
-    <body>Restores [%e2.Heal_Instant.Heal]%% of the maximum HP.
-Restores [%e1.MPHeal_Instant.Heal]%% of max MP.
-Resets the cooldown of Sage's Wisdom.</body>
+    <body>Restores [%e2.Heal_Instant.Heal] HP.
+Restores [%e1.MPHeal_Instant.Heal] of MP.
+Resets the cooldown of Sage’s Wisdom.</body>
   </string>
   <string>
     <id>2294748</id>
@@ -169409,8 +169424,8 @@ Resets the cooldown of Sage's Wisdom.</body>
   <string>
     <id>2294750</id>
     <name>STR_PR_SecretPrecept_Custom_B_DESC</name>
-    <body>Restores [%e2.Heal_Instant.Heal]%% of the maximum HP.
-Restores [%e1.MPHeal_Instant.Heal]%% of max MP.
+    <body>Restores [%e2.Heal_Instant.Heal] HP.
+Restores [%e1.MPHeal_Instant.Heal] of MP.
 Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value] for [%e3.StatUp.RemainTime].
 Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2].</body>
   </string>
@@ -169427,9 +169442,9 @@ Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2].</body>
   <string>
     <id>2294753</id>
     <name>STR_PR_SecretPrecept_Custom_A_up_DESC</name>
-    <body>Restores [%e2.Heal_Instant.Heal]%% of the maximum HP.
-Restores [%e1.MPHeal_Instant.Heal]%% of max MP.
-Resets the cooldowns of Sage's Wisdom and Amplification.</body>
+    <body>Restores [%e2.Heal_Instant.Heal] HP.
+Restores [%e1.MPHeal_Instant.Heal] of MP.
+Resets the cooldowns of Sage’s Wisdom and Amplification.</body>
   </string>
   <string>
     <id>2294754</id>
@@ -169444,8 +169459,8 @@ Resets the cooldowns of Sage's Wisdom and Amplification.</body>
   <string>
     <id>2294756</id>
     <name>STR_PR_SecretPrecept_Custom_B_up_DESC</name>
-    <body>Restores [%e2.Heal_Instant.Heal]%% of the maximum HP.
-Restores [%e1.MPHeal_Instant.Heal]%% of max MP.
+    <body>Restores [%e2.Heal_Instant.Heal] HP.
+Restores [%e1.MPHeal_Instant.Heal] of MP.
 Increases [%e3.StatUp.StatName] by [%e3.StatUp.Value] for [%e3.StatUp.RemainTime].
 Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2].</body>
   </string>
@@ -169464,13 +169479,13 @@ Increases [%e3.StatUp.StatName2] by [%e3.StatUp.Value2].</body>
     <name>STR_EV_CH_ProtectSelf_Custom_A_DESC</name>
     <body>Reduces your damage by [%e1.Shield.CoverValue]%% for [%e1.Shield.RemainTime].
 Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
-Restores [%e3.Heal.CheckTimeHeal]%% of the maximum HP every [%e3.Heal.CheckTime].
+Restores [%e3.Heal.CheckTimeHeal] HP every [%e3.Heal.CheckTime].
 Also reduces the casting time of healing skills by [%e4.BoostSkillCastingTime.CastingBonus]%% for [%e4.BoostSkillCastingTime.RemainTime].</body>
   </string>
   <string>
     <id>2294760</id>
     <name>STR_EV_CH_ProtectSelf_Custom_A_abnormal</name>
-    <body>You are protected by a shield which has a [%e1.Shield.ConditionProb]%% chance of absorbing damage and increasing [%e2.StatUp.StatName] by [%e2.StatUp.Value] each time you receive [%e1.Shield.Condition]. Healing skill casting time is reduced by [%e4.BoostSkillCastingTime.CastingBonus]%%. Also restores [%e3.Heal.CheckTimeHeal]%% of the maximum HP every [%e3.Heal.CheckTime].</body>
+    <body>You are protected by a shield which has a [%e1.Shield.ConditionProb]%% chance of absorbing damage and increasing [%e2.StatUp.StatName] by [%e2.StatUp.Value] each time you receive [%e1.Shield.Condition]. Healing skill casting time is reduced by [%e4.BoostSkillCastingTime.CastingBonus]%%. Also restores [%e3.Heal.CheckTimeHeal] HP every [%e3.Heal.CheckTime].</body>
   </string>
   <string>
     <id>2294761</id>
@@ -169499,13 +169514,13 @@ Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2].</body>
     <name>STR_EV_CH_ProtectSelf_Custom_A_up_DESC</name>
     <body>Reduces your damage by [%e1.Shield.CoverValue]%% for [%e1.Shield.RemainTime].
 Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
-Restores [%e3.Heal.CheckTimeHeal]%% of the maximum HP every [%e3.Heal.CheckTime].
+Restores [%e3.Heal.CheckTimeHeal] HP every [%e3.Heal.CheckTime].
 Also reduces the casting time of healing skills by [%e4.BoostSkillCastingTime.CastingBonus]%% for [%e4.BoostSkillCastingTime.RemainTime].</body>
   </string>
   <string>
     <id>2294766</id>
     <name>STR_EV_CH_ProtectSelf_Custom_A_up_abnormal</name>
-    <body>You are protected by a shield which has a [%e1.Shield.ConditionProb]%% chance of absorbing damage and increasing [%e2.StatUp.StatName] by [%e2.StatUp.Value] each time you receive [%e1.Shield.Condition]. Healing skill casting time is reduced by [%e4.BoostSkillCastingTime.CastingBonus]%%. Also restores [%e3.Heal.CheckTimeHeal]%% of the maximum HP every [%e3.Heal.CheckTime].</body>
+    <body>You are protected by a shield which has a [%e1.Shield.ConditionProb]%% chance of absorbing damage and increasing [%e2.StatUp.StatName] by [%e2.StatUp.Value] each time you receive [%e1.Shield.Condition]. Healing skill casting time is reduced by [%e4.BoostSkillCastingTime.CastingBonus]%%. Also restores [%e3.Heal.CheckTimeHeal] HP every [%e3.Heal.CheckTime].</body>
   </string>
   <string>
     <id>2294767</id>
@@ -171326,7 +171341,7 @@ Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].</body>
     <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.Statup.RemainTime].
 Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
 Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
-Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value]%%.
+Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].
 Increases [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%%.
 Increases magic damage by 12%%.
 If you summon a spirit, the skill effect disappears.</body>
@@ -171335,7 +171350,7 @@ If you summon a spirit, the skill effect disappears.</body>
     <id>2295101</id>
     <name>STR_SKILLN_EL_A_SoulKing_Abnormal</name>
     <body>[%e1.StatUp.StatName] is increased by [%e1.StatUp.Value], [%e1.StatUp.StatName2] by [%e1.StatUp.Value2] and [%e1.StatUp.StatName3] by [%e1.StatUp.Value3]. 
-[%e2.StatUp.StatName] is increased by [%e2.StatUp.Value]%%, [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%% and magic damage is increased by 12%%.</body>
+[%e2.StatUp.StatName] is increased by [%e2.StatUp.Value], [%e2.StatUp.StatName2] by [%e2.StatUp.Value2]%% and magic damage is increased by 12%%.</body>
   </string>
   <string>
     <id>2295102</id>
@@ -171971,12 +171986,14 @@ Causes the target to stumble.</body>
     <id>2295214</id>
     <name>STR_SKILLN_PR_A_PunishingLight_DESC</name>
     <body>Reduces [%e1.StatDown.StatName] by [%e1.StatDown.Value] for [%e1.StatDown.RemainTime].
-Reduces [%e1.StatDown.StatName2] by [%e1.StatDown.Value2].</body>
+Reduces [%e1.StatDown.StatName2] by [%e1.StatDown.Value2].
+Reduces [%e1.StatDown.StatName3] by [%e1.StatDown.Value3].
+The effect cannot be removed.</body>
   </string>
   <string>
     <id>2295215</id>
     <name>STR_SKILLN_PR_A_PunishingLight_Abnormal</name>
-    <body>Reduces [%e1.StatDown.StatName] by [%e1.StatDown.Value] and [%e1.StatDown.StatName2] by [%e1.StatDown.Value2].</body>
+    <body>[%e1.StatDown.StatName] is decreased by [%e1.StatDown.Value], [%e1.StatDown.StatName2] by [%e1.StatDown.Value2] and [%e1.StatDown.StatName3] by [%e1.StatDown.Value3]. This skill cannot be removed.</body>
   </string>
   <string>
     <id>2295216</id>
@@ -172013,7 +172030,8 @@ The effect has a 50%% probability of affecting the target.</body>
     <id>2295222</id>
     <name>STR_SKILLN_PR_A_HealersHand_DESC</name>
     <body>Increases [%e1.Statup.StatName] by [%e1.Statup.Value].
-Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
+Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].
+Active Skill</body>
   </string>
   <string>
     <id>2295223</id>
@@ -172042,7 +172060,8 @@ Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
 Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
 Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
 Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].
-Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
+Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].
+Active Skill</body>
   </string>
   <string>
     <id>2295228</id>
@@ -172238,13 +172257,13 @@ Reduces [%e1.StatDown.StatName2] by [%e1.StatDown.Value2].</body>
   <string>
     <id>2295264</id>
     <name>STR_SKILLN_PR_A_HealingGrace_DESC</name>
-    <body>Increases healing effects for group members by 50%% for [%e1.DeboostHealAmount.RemainTime].
-Increases [%e2.StatUp.StatName] by [%e2.StatUp.Value].</body>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].</body>
   </string>
   <string>
     <id>2295265</id>
     <name>STR_SKILLN_PR_A_HealingGrace_Abnormal</name>
-    <body>The strength of healing effects you receive is increased by 50%%. [%e2.StatUp.StatName] is increased by [%e2.StatUp.Value].</body>
+    <body>[%e1.StatUp.StatName] has been increased by [%e1.StatUp.Value] and [%e1.StatUp.StatName2] has been increased by [%e1.StatUp.Value2].</body>
   </string>
   <string>
     <id>2295266</id>
@@ -173514,19 +173533,19 @@ Multicast 4 times</body>
   <string>
     <id>2295497</id>
     <name>STR_PA_A_ScrewPierce_DESC</name>
-    <body>Hits the target after 4 seconds.
+    <body>Hits the target after 2 seconds.
 Deals [%e1.DelayedSkill.OtherSkill.e1.ProcATK_Instant.Damage] magic damage.
-Causes the target to bleed for [%e0.PA_ScrewPierce_sys_G1.e2.Bleed.RemainTime].</body>
+Stunned for [%e0.PA_ScrewPierce_sys_G1.e2.stun.RemainTime].</body>
   </string>
   <string>
     <id>2295498</id>
     <name>STR_PA_A_ScrewPierce_Abnormal</name>
-    <body>Deals damage after 4 seconds and causes the target to bleed.</body>
+    <body>Deals damage after 2 seconds and stuns the target.</body>
   </string>
   <string>
     <id>2295499</id>
     <name>STR_PA_A_ScrewPierce_sys_Abnormal</name>
-    <body>You are bleeding.</body>
+    <body>You are stunned.</body>
   </string>
   <string>
     <id>2295500</id>
@@ -173584,12 +173603,13 @@ Silences the target for [%e2.Silence.RemainTime].</body>
   <string>
     <id>2295510</id>
     <name>STR_PA_A_RepressedCure_DESC</name>
-    <body>Increases the casting time for healing skills by 100%% for [%e1.BoostSkillCastingTime.RemainTime].</body>
+    <body>Increases the casting time for healing skills by 100%% for [%e1.BoostSkillCastingTime.RemainTime].
+Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].</body>
   </string>
   <string>
     <id>2295511</id>
     <name>STR_PA_A_RepressedCure_Abnormal</name>
-    <body>The casting time for healing skills is increased by 100%%.</body>
+    <body>Increases the casting time of healing skills by 100%% while [%e2.StatDown.StatName] is reduced by [%e2.StatDown.Value]. This skill cannot be removed.</body>
   </string>
   <string>
     <id>2295512</id>
@@ -175105,9 +175125,10 @@ However, if this effect is stacked, you are stunned for 30 seconds.</body>
   <string>
     <id>2295807</id>
     <name>STR_Odian_DropImpact_DESC</name>
-    <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage to a target bound by Aether's Hold.
+    <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage to a target bound by Aether’s Hold.
 The target crashes.
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175120,7 +175141,8 @@ The effect cannot be removed.</body>
     <name>STR_Odian_JumpAttack_DESC</name>
     <body>Deals [%e2.SkillATK_Instant.FixDamage] physical damage.
 Causes the target to stumble.
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175132,7 +175154,8 @@ The effect cannot be removed.</body>
     <id>2295811</id>
     <name>STR_Odian_ParryFocus_DESC</name>
     <body>Parries [%e1.AlwaysParry.Count] attacks for [%e1.AlwaysParry.RemainTime.float].
-If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.</body>
+If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295812</id>
@@ -175149,7 +175172,8 @@ If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 
     <name>STR_Odian_GodJudgement_DESC</name>
     <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage.
 Stuns the target for [%e2.Stun.RemainTime].
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175169,6 +175193,7 @@ The effect cannot be removed.</body>
 Immobilises the target for [%e2.Root.RemainTime]. There is only a slight chance this state can be removed.
 Knocks the target back.
 If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175184,9 +175209,10 @@ The effect cannot be removed.</body>
   <string>
     <id>2295820</id>
     <name>STR_Odian_ProtectShield_DESC</name>
-    <body>Increases the target's [%e1.Statup.Statname] by [%e1.Statup.Value] for [%e1.Statup.RemainTime].
+    <body>Increases the target’s [%e1.Statup.Statname] by [%e1.Statup.Value] for [%e1.Statup.RemainTime].
 This skill is exclusively used with group members.
-If the caster has a +5 Enchantment, reduces the target's cooldown for Remove Shock by 10 seconds.</body>
+If the caster has a +5 Enchantment, reduces the target’s cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295821</id>
@@ -175203,6 +175229,7 @@ If the caster has a +5 Enchantment, reduces the target's cooldown for Remove Sho
     <name>STR_Odian_DashAttack_DESC</name>
     <body>Deals [%e1.DashATK.FixDamage] physical damage to the target that is immobilised, slowed or in a shock state.
 If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175217,7 +175244,8 @@ The effect cannot be removed.</body>
 Deals [%e2.CarveSignet.FixDamage] additional damage.
 The target is inflicted with Spin.
 Carves a rune up to level [%e2.CarveSignet.SignetGrade] on the target.
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175231,7 +175259,8 @@ The effect cannot be removed.</body>
     <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
 Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
 Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
-If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.</body>
+If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295828</id>
@@ -175247,7 +175276,8 @@ If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 
     <id>2295830</id>
     <name>STR_Odian_ArrowStorm_DESC</name>
     <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage.
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175261,7 +175291,8 @@ The effect cannot be removed.</body>
     <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage.
 Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value] for [%e2.StatDown.RemainTime].
 The effect cannot be removed.
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175280,7 +175311,8 @@ The effect cannot be removed.</body>
     <body>You teleport [%e1.RandomMoveLoc.Distance]m backwards.
 Removes movement-impairing states.
 Grants basic stealth mode for [%e2.Hide.RemainTime.float].
-If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.</body>
+If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295836</id>
@@ -175297,7 +175329,8 @@ If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 
     <name>STR_Odian_ThunderBolt_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical wind damage.
 Multicast 3 times
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175310,7 +175343,8 @@ The effect cannot be removed.</body>
     <name>STR_Odian_DivineSpark_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical wind damage.
 Paralyses the target for [%e2.Paralyze.RemainTime].
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175328,7 +175362,8 @@ The effect cannot be removed.</body>
     <name>STR_Odian_ShockReflect_DESC</name>
     <body>Removes your Paralysis, Fear and Sleep states.
 Increases [%e2.Statup.StatName] by [%e2.Statup.Value] for [%e2.Statup.RemainTime.float].
-If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.</body>
+If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295844</id>
@@ -175339,7 +175374,8 @@ If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 
     <id>2295845</id>
     <name>STR_Odian_PressSmash_DESC</name>
     <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage.
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175350,9 +175386,10 @@ The effect cannot be removed.</body>
   <string>
     <id>2295847</id>
     <name>STR_Odian_SwordBind_DESC</name>
-    <body>Reduces the target's movement and attack speed for [%e1.snare.RemainTime.float].
+    <body>Reduces the target’s movement and attack speed for [%e1.snare.RemainTime.float].
 The effect cannot be removed.
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175369,9 +175406,10 @@ The effect cannot be removed.</body>
     <id>2295850</id>
     <name>STR_Odian_RenewedVitality_DESC</name>
     <body>Removes Sleep and Fear states from the target.
-Increases the target's [%e2.Statup.StatName] by [%e2.Statup.Value] for [%e2.Statup.RemainTime.float].
+Increases the target’s [%e2.Statup.StatName] by [%e2.Statup.Value] for [%e2.Statup.RemainTime.float].
 This skill is exclusively used with group members.
-If the caster has a +5 Enchantment, reduces the target's cooldown for Remove Shock by 10 seconds.</body>
+If the caster has a +5 Enchantment, reduces the target’s cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295851</id>
@@ -175382,7 +175420,8 @@ If the caster has a +5 Enchantment, reduces the target's cooldown for Remove Sho
     <id>2295852</id>
     <name>STR_Odian_SnipingShot_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical earth damage.
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175393,9 +175432,10 @@ The effect cannot be removed.</body>
   <string>
     <id>2295854</id>
     <name>STR_Odian_GravityCannon_DESC</name>
-    <body>Deals [%e1.SpellATK_Instant.FixDamage] magical earth damage to a target bound by Aether's Hold.
+    <body>Deals [%e1.SpellATK_Instant.FixDamage] magical earth damage to a target bound by Aether’s Hold.
 The target crashes.
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175407,7 +175447,8 @@ The effect cannot be removed.</body>
     <id>2295856</id>
     <name>STR_Odian_CheckingToAvoid_DESC</name>
     <body>You evade [%e1.AlwaysDodge.Count] physical attacks for [%e1.AlwaysDodge.RemainTime.float].
-If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.</body>
+If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295857</id>
@@ -175425,7 +175466,8 @@ If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical wind damage.
 Causes the target to stumble.
 Small probability of a crit strike.
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175438,7 +175480,8 @@ The effect cannot be removed.</body>
     <name>STR_Odian_FlameThrow_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical wind damage.
 Knocks the target back.
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175451,7 +175494,8 @@ The effect cannot be removed.</body>
     <name>STR_Odian_ItheumReflector_DESC</name>
     <body>Restores [%e2.MPHeal_Instant.Heal] MP.
 For [%e1.Provoker.RemainTime], an additional [%e1.Provoker.OtherSkill.e1.ProcMpHeal_Instant.Heal] MP are regenerated when you are hit.
-If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.</body>
+If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295864</id>
@@ -175467,7 +175511,8 @@ If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 
     <id>2295866</id>
     <name>STR_Odian_PaintThrow_DESC</name>
     <body>Deals [%e1.SkillATK_Instant.FixDamage] physical damage to the target in a shock state.
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175479,8 +175524,9 @@ The effect cannot be removed.</body>
     <id>2295868</id>
     <name>STR_Odian_ChargingPlaster_DESC</name>
     <body>The target is petrified for [%e1.Petrification.RemainTime.float].
-Increases the petrified target's physical and magic defence.
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+Increases the petrified target’s physical and magic defence.
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175498,7 +175544,8 @@ The effect cannot be removed.</body>
     <name>STR_Odian_PaintShield_DESC</name>
     <body>Creates a protective shield that absorbs physical damage for [%e1.Shield.RemainTime.float].
 Grants up to [%e1.Shield.ShieldValue] protection.
-If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.</body>
+If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295872</id>
@@ -175515,7 +175562,8 @@ If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 
     <name>STR_Odian_SongofGale_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical wind damage.
 Small probability of a crit strike.
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175528,7 +175576,8 @@ The effect cannot be removed.</body>
     <name>STR_Odian_MagicalDestruction_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical fire damage.
 Reduces MP by [%e2.MPAttack_Instant.Damage]%%.
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175539,9 +175588,10 @@ The effect cannot be removed.</body>
   <string>
     <id>2295878</id>
     <name>STR_Odian_SongofHope_DESC</name>
-    <body>Restores [%e1.Heal_Instant.Heal]%% HP.
-Restores [%e2.MPHeal_Instant.Heal]%% of MP.
-If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.</body>
+    <body>Restores [%e1.Heal_Instant.Heal] HP.
+Restores [%e2.MPHeal_Instant.Heal] of MP.
+If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295879</id>
@@ -175553,7 +175603,8 @@ If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 
     <name>STR_Odian_RaisingStorm_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical earth damage.
 Multicast 3 times
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175565,8 +175616,9 @@ The effect cannot be removed.</body>
     <id>2295882</id>
     <name>STR_Odian_FrozenField_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical water damage.
-Reduces the target's movement speed for [%e2.Snare.RemainTime.float].
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+Reduces the target’s movement speed for [%e2.Snare.RemainTime.float].
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175584,7 +175636,8 @@ The effect cannot be removed.</body>
     <name>STR_Odian_PhysicalWall_DESC</name>
     <body>Reduces your damage by [%e1.Shield.CoverValue]%% for [%e1.Shield.RemainTime].
 You cannot use any skills during this time.
-If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.</body>
+If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295886</id>
@@ -175600,7 +175653,8 @@ If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 
     <id>2295888</id>
     <name>STR_Odian_CursedBreath_DESC</name>
     <body>Deals [%e1.SpellATK_Instant.FixDamage] magical earth damage.
-If the caster has a +5 Enchantment, reduces the target's healing by 30%% for 5 seconds.
+If the caster has a +5 Enchantment, reduces the target’s healing by 30%% for 5 seconds.
+If the caster has a +10 Enchantment, reduces the target’s additional PvP attack and PvE attack by 500 for 5 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175611,10 +175665,11 @@ The effect cannot be removed.</body>
   <string>
     <id>2295890</id>
     <name>STR_Odian_MagicalBreakdown_DESC</name>
-    <body>Reduces the target's [%e1.StatDown.StatName] by [%e1.StatDown.Value] for [%e1.StatDown.RemainTime].
+    <body>Reduces the target’s [%e1.StatDown.StatName] by [%e1.StatDown.Value] for [%e1.StatDown.RemainTime].
 Reduces [%e2.StatDown.StatName] by [%e2.StatDown.Value].
 The effect cannot be removed.
-If the caster has a +5 Enchantment, reduces the target's additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +5 Enchantment, reduces the target’s additional PvP and PvE defence by 500 for 8 seconds.
+If the caster has a +10 Enchantment, reduces the target’s evasion, resist magic, block and parry by 1,200 for 8 sec.
 The effect cannot be removed.</body>
   </string>
   <string>
@@ -175633,7 +175688,8 @@ The effect cannot be removed.</body>
     <body>Puts the target in normal stealth mode for [%e1.Hide.RemainTime.float].
 Reduces movement speed.
 Not available in battle.
-If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.</body>
+If the caster has a +5 Enchantment, reduces the cooldown for Remove Shock by 10 seconds.
+If the caster has a +10 Enchantment, reduces the target’s cooldown for Carmine and Azure Odian skills by 10%%.</body>
   </string>
   <string>
     <id>2295894</id>
@@ -175815,7 +175871,7 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
   <string>
     <id>2295927</id>
     <name>STR_Odian_5th_skill1</name>
-    <body>Reduce Recovery</body>
+    <body>Reduces recovery.</body>
   </string>
   <string>
     <id>2295928</id>
@@ -175825,7 +175881,7 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
   <string>
     <id>2295929</id>
     <name>STR_Odian_5th_skill2</name>
-    <body>Reduce Defence</body>
+    <body>Reduces additional defence.</body>
   </string>
   <string>
     <id>2295931</id>
@@ -179562,6 +179618,21 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
     <body>Your [%e1.StatUp.StatName] increases by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].</body>
   </string>
   <string>
+    <id>2296635</id>
+    <name>STR_Event_waterwar_boom</name>
+    <body>Shell Shock</body>
+  </string>
+  <string>
+    <id>2296636</id>
+    <name>STR_Event_waterwar_boom_DESC</name>
+    <body>Shell Shock</body>
+  </string>
+  <string>
+    <id>2296637</id>
+    <name>STR_Event_waterwar_boom_Abnormal</name>
+    <body>Shell Shock has reduced your defence.</body>
+  </string>
+  <string>
     <id>2296638</id>
     <name>STR_SUMMON_EVENT_Mcat_01</name>
     <body>Cat’s Egg, come to me!</body>
@@ -179612,6 +179683,66 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
     <body>Sphingia, hocus pocus!</body>
   </string>
   <string>
+    <id>2296648</id>
+    <name>STR_IDwater_Paralyze</name>
+    <body>Electronic Shock</body>
+  </string>
+  <string>
+    <id>2296649</id>
+    <name>STR_IDwater_Paralyze_DESC</name>
+    <body>Deals damage to a target by firing a massive electrical shockwave.</body>
+  </string>
+  <string>
+    <id>2296650</id>
+    <name>STR_IDwater_Paralyze_DESC_Abnormal</name>
+    <body>You have suffered an electric shock and are paralysed.</body>
+  </string>
+  <string>
+    <id>2296651</id>
+    <name>STR_IDwater_Shield</name>
+    <body>Plasma Shield</body>
+  </string>
+  <string>
+    <id>2296652</id>
+    <name>STR_IDwater_Shield_DESC</name>
+    <body>Generates a powerful magnetic field that protects against damage.</body>
+  </string>
+  <string>
+    <id>2296653</id>
+    <name>STR_IDwater_Shield_DESC_Abnormal</name>
+    <body>A powerful magnetic field protects you against damage.</body>
+  </string>
+  <string>
+    <id>2296654</id>
+    <name>STR_IDWaterWorld_PVP_Canon_A</name>
+    <body>Machine Gun Shot</body>
+  </string>
+  <string>
+    <id>2296655</id>
+    <name>STR_IDWaterWorld_PVP_Canon_A_DESC</name>
+    <body>Deals damage to a target with the machine gun.</body>
+  </string>
+  <string>
+    <id>2296656</id>
+    <name>STR_IDWaterWorld_PVP_Canon_A_DESC_Abnormal</name>
+    <body>You incurred damage from Machine Gun Shot.</body>
+  </string>
+  <string>
+    <id>2296657</id>
+    <name>STR_IDWaterWorld_PVP_Canon_B</name>
+    <body>Drana Machine Gun</body>
+  </string>
+  <string>
+    <id>2296658</id>
+    <name>STR_IDWaterWorld_PVP_Canon_B_DESC</name>
+    <body>Deals damage to a target with the Drana machine gun.</body>
+  </string>
+  <string>
+    <id>2296659</id>
+    <name>STR_IDWaterWorld_PVP_Canon_B_DESC_Abnormal</name>
+    <body>You incurred damage from the Drana machine gun.</body>
+  </string>
+  <string>
     <id>2296660</id>
     <name>STR_Gu_MagicalPromise_G2_Proc_abnormal</name>
     <body>[%e1.StatUp.StatName] is increased by [%e1.StatUp.Value].</body>
@@ -179643,6 +179774,88 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
 [%e2.StatUp.StatName4] +[%e2.StatUp.Value4]</body>
   </string>
   <string>
+    <id>2296675</id>
+    <name>STR_Trans_Grade_05_SKill_01_war</name>
+    <body>Kaisinel</body>
+  </string>
+  <string>
+    <id>2296676</id>
+    <name>STR_Trans_Grade_05_SKill_01_war_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]%%
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
+[%e3.StatUp.StatName3] +[%e3.StatUp.Value3]
+[%e3.StatUp.StatName4] +[%e3.StatUp.Value4]
+[%e4.StatUp.StatName] +[%e4.StatUp.Value]
+[%e4.StatUp.StatName2] +[%e4.StatUp.Value2]
+[%e4.StatUp.StatName3] +[%e4.StatUp.Value3]
+[%e4.StatUp.StatName4] +[%e4.StatUp.Value4]</body>
+  </string>
+  <string>
+    <id>2296677</id>
+    <name>STR_Trans_Grade_05_SKill_02__war</name>
+    <body>Marchutan</body>
+  </string>
+  <string>
+    <id>2296678</id>
+    <name>STR_Trans_Grade_05_SKill_02_war_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]%%
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
+[%e3.StatUp.StatName3] +[%e3.StatUp.Value3]
+[%e3.StatUp.StatName4] +[%e3.StatUp.Value4]
+[%e4.StatUp.StatName] +[%e4.StatUp.Value]
+[%e4.StatUp.StatName2] +[%e4.StatUp.Value2]
+[%e4.StatUp.StatName3] +[%e4.StatUp.Value3]
+[%e4.StatUp.StatName4] +[%e4.StatUp.Value4]</body>
+  </string>
+  <string>
+    <id>2296679</id>
+    <name>STR_Trans_Grade_05_SKill_03_war</name>
+    <body>Ereshkigal</body>
+  </string>
+  <string>
+    <id>2296680</id>
+    <name>STR_Trans_Grade_05_SKill_03_war_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]%%
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
+[%e3.StatUp.StatName3] +[%e3.StatUp.Value3]
+[%e4.StatUp.StatName] +[%e4.StatUp.Value]
+[%e4.StatUp.StatName2] +[%e4.StatUp.Value2]
+[%e4.StatUp.StatName3] +[%e4.StatUp.Value3]
+[%e4.StatUp.StatName4] +[%e4.StatUp.Value4]</body>
+  </string>
+  <string>
+    <id>2296681</id>
+    <name>STR_Trans_Grade_05_SKill_04_war</name>
+    <body>Tiamat</body>
+  </string>
+  <string>
+    <id>2296682</id>
+    <name>STR_Trans_Grade_05_SKill_04_war_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]%%
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
+[%e3.StatUp.StatName3] +[%e3.StatUp.Value3]
+[%e4.StatUp.StatName] +[%e4.StatUp.Value]
+[%e4.StatUp.StatName2] +[%e4.StatUp.Value2]
+[%e4.StatUp.StatName3] +[%e4.StatUp.Value3]
+[%e4.StatUp.StatName4] +[%e4.StatUp.Value4]</body>
+  </string>
+  <string>
     <id>2296683</id>
     <name>STR_world_tiamat_jelly_pvp_01</name>
     <body>Ascension Jam (PvP Attack)</body>
@@ -179671,6 +179884,124 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
     <id>2296691</id>
     <name>STR_WORLD_EVENT_ICECREAM_BUFF_DESC</name>
     <body>Increases the chance of loot by 10%%, [%e2.StatUp.StatName] by [%e2.StatUp.Value], [%e2.StatUp.StatName2] by [%e2.StatUp.Value2] and [%e2.StatUp.StatName3] by [%e2.StatUp.Value3]%% for [%e1.DrBoost.RemainTime].</body>
+  </string>
+  <string>
+    <id>2296692</id>
+    <name>STR_autohunt_Boosting_Buff_01_EXP</name>
+    <body>Combat Experience Increase</body>
+  </string>
+  <string>
+    <id>2296693</id>
+    <name>STR_autohunt_Boosting_Buff_01_EXP_Abnormal</name>
+    <body>Increases XP gain by 60%% for [%e1.XPBoost.RemainTime].</body>
+  </string>
+  <string>
+    <id>2296694</id>
+    <name>STR_event_900_food_phy_buff_DESC</name>
+    <body>Increased HP, MP and Phys. Crit Strike</body>
+  </string>
+  <string>
+    <id>2296695</id>
+    <name>STR_event_900_food_phy_buff_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] points, [%e2.StatUp.StatName] by [%e2.StatUp.Value] points and [%e3.StatUp.StatName] by [%e3.StatUp.Value] points for [%e1.StatUp.RemainTime].</body>
+  </string>
+  <string>
+    <id>2296696</id>
+    <name>STR_event_900_food_mag_buff_DESC</name>
+    <body>Increased HP, MP and Crit Spell</body>
+  </string>
+  <string>
+    <id>2296697</id>
+    <name>STR_event_900_food_mag_buff_Abnormal</name>
+    <body>Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] points, [%e2.StatUp.StatName] by [%e2.StatUp.Value] points and [%e3.StatUp.StatName] by [%e3.StatUp.Value] points for [%e1.StatUp.RemainTime].</body>
+  </string>
+  <string>
+    <id>2296698</id>
+    <name>STR_event_32_drink_regen_DESC</name>
+    <body>Increased Natural HP and MP Regeneration</body>
+  </string>
+  <string>
+    <id>2296699</id>
+    <name>STR_event_32_drink_regen_Abnormal</name>
+    <body>[%e1.StatUp.StatName] is increased by [%e1.StatUp.Value] points and [%e2.StatUp.StatName] is increased by [%e2.StatUp.Value] points for [%e1.StatUp.RemainTime].</body>
+  </string>
+  <string>
+    <id>2296700</id>
+    <name>STR_SUMMON_CASH_VITAMIN_FAIRY_02</name>
+    <body>Summon Daeva Fairy</body>
+  </string>
+  <string>
+    <id>2296701</id>
+    <name>STR_Odian_10th_skill1</name>
+    <body>Reduces recovery and attack power.</body>
+  </string>
+  <string>
+    <id>2296702</id>
+    <name>STR_Odian_10th_skill1_abnormal</name>
+    <body>Reduces your healing by 30%%, reduces your additional PvP attack and additional PvE attack by 500.</body>
+  </string>
+  <string>
+    <id>2296703</id>
+    <name>STR_Odian_10th_skill2</name>
+    <body>Reduces additional defence and active defence.</body>
+  </string>
+  <string>
+    <id>2296704</id>
+    <name>STR_Odian_10th_skill2_abnormal</name>
+    <body>Reduces your additional PvP defence and additional PvE defence by 500, reduces your evasion, parry, block and resist magic by 1,200.</body>
+  </string>
+  <string>
+    <id>2296708</id>
+    <name>STR_Weapon_Provoker_Buff_G1_NPC</name>
+    <body>Jorgoth’s Masterpiece</body>
+  </string>
+  <string>
+    <id>2296709</id>
+    <name>STR_NPC_Weapon_Provoker_Buff_G1_NPC_DESC</name>
+    <body>When attacking, there’s a certain probability that your PvE attack and PvP attack increase by 500.</body>
+  </string>
+  <string>
+    <id>2296710</id>
+    <name>STR_Weapon_Provoker_Buff_G1_NPC_Abnormal</name>
+    <body>Strong energy is discharged.
+Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].</body>
+  </string>
+  <string>
+    <id>2296711</id>
+    <name>STR_Weapon_Provoker_Buff_G1_sys</name>
+    <body>Jorgoth’s Masterpiece</body>
+  </string>
+  <string>
+    <id>2296712</id>
+    <name>STR_Weapon_Provoker_Buff_G1</name>
+    <body>Jorgoth’s Masterpiece</body>
+  </string>
+  <string>
+    <id>2296713</id>
+    <name>STR_Weapon_Provoker_Buff_G1_DESC</name>
+    <body>Has a certain probability of forming an enchantment area on a hit.</body>
+  </string>
+  <string>
+    <id>2296714</id>
+    <name>STR_Weapon_Provoker_Buff_G2_NPC</name>
+    <body>Jorgoth’s Masterpiece</body>
+  </string>
+  <string>
+    <id>2296715</id>
+    <name>STR_NPC_Weapon_Provoker_Buff_G2_NPC_DESC</name>
+    <body>When attacking, there’s a certain probability that your PvE attack and PvP attack increase by 1000.</body>
+  </string>
+  <string>
+    <id>2296716</id>
+    <name>STR_Weapon_Provoker_Buff_G2_NPC_Abnormal</name>
+    <body>Strong energy is discharged.
+Increases [%e1.StatUp.StatName] by [%e1.StatUp.Value] for [%e1.StatUp.RemainTime].
+Increases [%e1.StatUp.StatName2] by [%e1.StatUp.Value2].
+Increases [%e1.StatUp.StatName3] by [%e1.StatUp.Value3].
+Increases [%e1.StatUp.StatName4] by [%e1.StatUp.Value4].</body>
   </string>
   <string>
     <id>2296719</id>
@@ -179718,6 +180049,68 @@ Increases [%e2.StatUp.StatName3] by [%e2.StatUp.Value3].</body>
 [%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
 [%e3.StatUp.StatName3] +[%e3.StatUp.Value3]
 [%e3.StatUp.StatName4] +[%e3.StatUp.Value4]\nDoes not change the appearance of your character.</body>
+  </string>
+  <string>
+    <id>2296724</id>
+    <name>STR_Trans_Grade_03_SKill_20</name>
+    <body>Hanbok Baa</body>
+  </string>
+  <string>
+    <id>2296725</id>
+    <name>STR_Trans_Grade_03_SKill_21</name>
+    <body>Hanbok Moo</body>
+  </string>
+  <string>
+    <id>2296726</id>
+    <name>STR_Trans_Grade_03_SKill_20_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]</body>
+  </string>
+  <string>
+    <id>2296727</id>
+    <name>STR_Trans_Grade_03_SKill_21_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]</body>
+  </string>
+  <string>
+    <id>2296728</id>
+    <name>STR_Trans_Grade_03_SKill_20_fever</name>
+    <body>Harvest Revel Hanbok Baa</body>
+  </string>
+  <string>
+    <id>2296729</id>
+    <name>STR_Trans_Grade_03_SKill_21_fever</name>
+    <body>Harvest Revel Hanbok Moo</body>
+  </string>
+  <string>
+    <id>2296730</id>
+    <name>STR_Trans_Grade_03_SKill_20_fever_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]%%
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
+[%e3.StatUp.StatName3] +[%e3.StatUp.Value3]</body>
+  </string>
+  <string>
+    <id>2296731</id>
+    <name>STR_Trans_Grade_03_SKill_21_fever_DESC</name>
+    <body>[%e2.StatUp.StatName] +[%e2.StatUp.Value]%%
+[%e2.StatUp.StatName2] +[%e2.StatUp.Value2]%%
+[%e2.StatUp.StatName3] +[%e2.StatUp.Value3]%%
+[%e2.StatUp.StatName4] +[%e2.StatUp.Value4]
+[%e3.StatUp.StatName] +[%e3.StatUp.Value]
+[%e3.StatUp.StatName2] +[%e3.StatUp.Value2]
+[%e3.StatUp.StatName3] +[%e3.StatUp.Value3]</body>
   </string>
   <string>
     <id>2296735</id>
