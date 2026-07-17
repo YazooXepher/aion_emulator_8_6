@@ -16,8 +16,6 @@
  */
 package ai;
 
-import static ch.lambdaj.Lambda.maxFrom;
-
 import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
@@ -83,7 +81,16 @@ public class ChestAI2 extends ActionItemNpcAI2 {
 			else {
 				players.add(player);
 			}
-			DropRegistrationService.getInstance().registerDrop(getOwner(), player, maxFrom(players).getLevel(), players);
+
+			// Trouve le joueur avec le niveau le plus élevé (remplace maxFrom de lambdaj)
+			Player highestLevelPlayer = player;
+			for (Player p : players) {
+				if (p.getLevel() > highestLevelPlayer.getLevel()) {
+					highestLevelPlayer = p;
+				}
+			}
+
+			DropRegistrationService.getInstance().registerDrop(getOwner(), player, highestLevelPlayer.getLevel(), players);
 			DropService.getInstance().requestDropList(player, getObjectId());
 			super.handleUseItemFinish(player);
 		}

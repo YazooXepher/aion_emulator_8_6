@@ -16,14 +16,8 @@
  */
 package admincommands;
 
-import static ch.lambdaj.Lambda.extractIterator;
-import static ch.lambdaj.Lambda.filter;
-import static ch.lambdaj.Lambda.flatten;
-import static ch.lambdaj.Lambda.having;
-import static ch.lambdaj.Lambda.on;
-import static org.hamcrest.Matchers.equalTo;
-
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 
 import com.aionemu.gameserver.dataholders.DataManager;
@@ -214,8 +208,17 @@ public class SpawnUpdate extends AdminCommand {
 						return;
 					}
 					List<SpawnGroup2> allSpawns = DataManager.SPAWNS_DATA2.getSpawnsByWorldId(npc.getWorldId());
-					List<SpawnTemplate> allSpots = flatten(extractIterator(allSpawns, on(SpawnGroup2.class).getSpawnTemplates()));
-					List<SpawnTemplate> sameIds = filter(having(on(SpawnTemplate.class).getWalkerId(), equalTo(walkerId)), allSpots);
+					// Remplacer lambdaj par des boucles Java standard
+					List<SpawnTemplate> allSpots = new ArrayList<>();
+					for (SpawnGroup2 group : allSpawns) {
+						allSpots.addAll(group.getSpawnTemplates());
+					}
+					List<SpawnTemplate> sameIds = new ArrayList<>();
+					for (SpawnTemplate t : allSpots) {
+						if (walkerId.equals(t.getWalkerId())) {
+							sameIds.add(t);
+						}
+					}
 					if (sameIds.size() >= template.getPool()) {
 						PacketSendUtility.sendMessage(admin, "Can not assign, walker pool reached the limit.");
 						return;

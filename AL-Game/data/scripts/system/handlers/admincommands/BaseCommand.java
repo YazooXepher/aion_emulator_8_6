@@ -17,7 +17,7 @@
 
 package admincommands;
 
-import org.apache.commons.lang.math.NumberUtils;
+import org.apache.commons.lang3.math.NumberUtils;
 
 import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.base.BaseLocation;

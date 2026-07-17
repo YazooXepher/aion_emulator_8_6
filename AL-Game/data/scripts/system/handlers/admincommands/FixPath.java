@@ -37,7 +37,7 @@ import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.WorldPosition;
 import com.google.common.util.concurrent.ListenableFuture;
 
-import javolution.util.FastMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author CoolyT
@@ -127,7 +127,7 @@ public class FixPath extends AdminCommand {
 
 			@Override
 			public void run() {
-				FastMap<Integer, Float> fix = new FastMap<Integer, Float>();
+				ConcurrentHashMap<Integer, Float> fix = new ConcurrentHashMap<Integer, Float>();
 				TreeMap<String, WalkerTemplate> newTemplates = new TreeMap<String, WalkerTemplate>();
 				WalkerData newData = new WalkerData();
 				int npcCounter = 1;

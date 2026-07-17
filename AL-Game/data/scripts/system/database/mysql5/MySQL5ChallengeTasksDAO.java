@@ -1,19 +1,3 @@
-/**
- * This file is part of Aion-Lightning <aion-lightning.org>.
- *
- *  Aion-Lightning is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  Aion-Lightning is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details. *
- *  You should have received a copy of the GNU General Public License
- *  along with Aion-Lightning.
- *  If not, see <http://www.gnu.org/licenses/>.
- */
 package mysql5;
 
 import java.sql.Connection;
@@ -23,6 +7,7 @@ import java.sql.SQLException;
 import java.sql.Timestamp;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -37,8 +22,6 @@ import com.aionemu.gameserver.model.gameobjects.PersistentState;
 import com.aionemu.gameserver.model.templates.challenge.ChallengeQuestTemplate;
 import com.aionemu.gameserver.model.templates.challenge.ChallengeType;
 
-import javolution.util.FastMap;
-
 /**
  * @author ViAl
  */
@@ -51,7 +34,7 @@ public class MySQL5ChallengeTasksDAO extends ChallengeTasksDAO {
 
 	@Override
 	public Map<Integer, ChallengeTask> load(int ownerId, ChallengeType type) {
-		FastMap<Integer, ChallengeTask> tasks = new FastMap<Integer, ChallengeTask>().shared();
+		Map<Integer, ChallengeTask> tasks = new ConcurrentHashMap<>();
 		Connection conn = null;
 		try {
 			conn = DatabaseFactory.getConnection();
@@ -68,22 +51,19 @@ public class MySQL5ChallengeTasksDAO extends ChallengeTasksDAO {
 				ChallengeQuest quest = new ChallengeQuest(template, completeCount);
 				quest.setPersistentState(PersistentState.UPDATED);
 				if (!tasks.containsKey(taskId)) {
-					Map<Integer, ChallengeQuest> quests = new HashMap<Integer, ChallengeQuest>(2);
+					Map<Integer, ChallengeQuest> quests = new HashMap<>(2);
 					quests.put(quest.getQuestId(), quest);
 					ChallengeTask task = new ChallengeTask(taskId, ownerId, quests, date);
 					tasks.put(taskId, task);
-				}
-				else {
+				} else {
 					tasks.get(taskId).getQuests().put(questId, quest);
 				}
 			}
 			rset.close();
 			stmt.close();
-		}
-		catch (SQLException e) {
+		} catch (SQLException e) {
 			log.error("Error while loading challenge task. " + e);
-		}
-		finally {
+		} finally {
 			DatabaseFactory.close(conn);
 		}
 		return tasks;
@@ -119,11 +99,9 @@ public class MySQL5ChallengeTasksDAO extends ChallengeTasksDAO {
 			stmt.executeUpdate();
 			stmt.close();
 			quest.setPersistentState(PersistentState.UPDATED);
-		}
-		catch (SQLException e) {
+		} catch (SQLException e) {
 			log.error("Error while inserting challenge task. " + e);
-		}
-		finally {
+		} finally {
 			DatabaseFactory.close(conn);
 		}
 	}
@@ -141,11 +119,9 @@ public class MySQL5ChallengeTasksDAO extends ChallengeTasksDAO {
 			stmt.executeUpdate();
 			stmt.close();
 			quest.setPersistentState(PersistentState.UPDATED);
-		}
-		catch (SQLException e) {
+		} catch (SQLException e) {
 			log.error("Error while updating challenge task. " + e);
-		}
-		finally {
+		} finally {
 			DatabaseFactory.close(conn);
 		}
 	}

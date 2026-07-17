@@ -1,25 +1,10 @@
-/**
- * This file is part of Aion-Lightning <aion-lightning.org>.
- *
- *  Aion-Lightning is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
- *
- *  Aion-Lightning is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details. *
- *  You should have received a copy of the GNU General Public License
- *  along with Aion-Lightning.
- *  If not, see <http://www.gnu.org/licenses/>.
- */
 package mysql5;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,8 +13,6 @@ import com.aionemu.commons.database.DB;
 import com.aionemu.gameserver.dao.BannedHddDAO;
 import com.aionemu.gameserver.dao.MySQL5DAOUtils;
 import com.aionemu.gameserver.network.BannedHDDEntry;
-
-import javolution.util.FastMap;
 
 /**
  * @author Alex
@@ -40,7 +23,7 @@ public class MySQL5BannedHddDAO extends BannedHddDAO {
 
 	@Override
 	public Map<String, BannedHDDEntry> load() {
-		Map<String, BannedHDDEntry> map = new FastMap<String, BannedHDDEntry>();
+		Map<String, BannedHDDEntry> map = new ConcurrentHashMap<>();
 		PreparedStatement ps = DB.prepareStatement("SELECT `hdd_serial`,`time`,`details` FROM `banned_hdd`");
 		try {
 			ResultSet rs = ps.executeQuery();
@@ -48,11 +31,9 @@ public class MySQL5BannedHddDAO extends BannedHddDAO {
 				String address = rs.getString("hdd_serial");
 				map.put(address, new BannedHDDEntry(address, rs.getTimestamp("time"), rs.getString("details")));
 			}
-		}
-		catch (SQLException e) {
+		} catch (SQLException e) {
 			log.error("Error loading last saved server time", e);
-		}
-		finally {
+		} finally {
 			DB.close(ps);
 		}
 		return map;
@@ -67,14 +48,11 @@ public class MySQL5BannedHddDAO extends BannedHddDAO {
 			ps.setTimestamp(2, entry.getTime());
 			ps.setString(3, entry.getDetails());
 			success = ps.executeUpdate() > 0;
-		}
-		catch (SQLException e) {
+		} catch (SQLException e) {
 			log.error("Error storing BannedHDDEntry " + entry.getHDDSerial(), e);
-		}
-		finally {
+		} finally {
 			DB.close(ps);
 		}
-
 		return success;
 	}
 
@@ -85,14 +63,11 @@ public class MySQL5BannedHddDAO extends BannedHddDAO {
 		try {
 			ps.setString(1, hdd_serial);
 			success = ps.executeUpdate() > 0;
-		}
-		catch (SQLException e) {
+		} catch (SQLException e) {
 			log.error("Error removing BannedHDDEntry " + hdd_serial, e);
-		}
-		finally {
+		} finally {
 			DB.close(ps);
 		}
-
 		return success;
 	}
 

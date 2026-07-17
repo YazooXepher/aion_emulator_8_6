@@ -19,6 +19,7 @@ package mysql5;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLDataException;
 import java.util.Date;
 
 import org.slf4j.Logger;
@@ -28,7 +29,6 @@ import com.aionemu.commons.database.DatabaseFactory;
 import com.aionemu.gameserver.dao.MySQL5DAOUtils;
 import com.aionemu.gameserver.dao.PlayerWorldBanDAO;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
-import com.mysql.jdbc.exceptions.MySQLDataException;
 
 /**
  * @author blakawk, Dr.Nism
@@ -51,14 +51,11 @@ public class MySQL5PlayerWorldBanDAO extends PlayerWorldBanDAO {
 			}
 			rs.close();
 			stmt.close();
-		}
-		catch (MySQLDataException mde) {
-		}
-		catch (Exception e) {
+		} catch (SQLDataException mde) {
+		} catch (Exception e) {
 			log.error("cannot load world ban for player #" + player.getObjectId());
 			log.warn(e.getMessage());
-		}
-		finally {
+		} finally {
 			DatabaseFactory.close(con);
 		}
 	}
@@ -85,21 +82,17 @@ public class MySQL5PlayerWorldBanDAO extends PlayerWorldBanDAO {
 				stmt.execute();
 				stmt.close();
 				result = true;
-			}
-			else {
+			} else {
 				log.warn("player #" + playerObjId + " already banned");
 				result = false;
 			}
-		}
-		catch (MySQLDataException mde) {
+		} catch (SQLDataException mde) {
 			result = false;
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			log.error("cannot insert world ban for player #" + playerObjId);
 			log.warn(e.getMessage());
 			result = false;
-		}
-		finally {
+		} finally {
 			DatabaseFactory.close(con);
 		}
 		return result;
@@ -116,14 +109,11 @@ public class MySQL5PlayerWorldBanDAO extends PlayerWorldBanDAO {
 			stmt.setInt(1, playerObjId);
 			stmt.execute();
 			stmt.close();
-		}
-		catch (MySQLDataException mde) {
-		}
-		catch (Exception e) {
+		} catch (SQLDataException mde) {
+		} catch (Exception e) {
 			log.error("cannot delete world ban for player #" + playerObjId);
 			log.warn(e.getMessage());
-		}
-		finally {
+		} finally {
 			DatabaseFactory.close(con);
 		}
 	}

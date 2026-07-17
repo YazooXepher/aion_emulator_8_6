@@ -29,7 +29,7 @@ import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 import com.aionemu.gameserver.utils.idfactory.IDFactory;
 import com.aionemu.gameserver.world.World;
 
-import javolution.util.FastList;
+import java.util.ArrayList;
 
 /**
  * @author xTz
@@ -60,7 +60,7 @@ public class SpawnAssembledNpc extends AdminCommand {
 			PacketSendUtility.sendMessage(player, "This spawnId is Wrong.");
 			return;
 		}
-		FastList<AssembledNpcPart> assembledPatrs = new FastList<AssembledNpcPart>();
+		ArrayList<AssembledNpcPart> assembledPatrs = new ArrayList<AssembledNpcPart>();
 		for (AssembledNpcTemplate.AssembledNpcPartTemplate npcPart : template.getAssembledNpcPartTemplates()) {
 			assembledPatrs.add(new AssembledNpcPart(IDFactory.getInstance().nextId(), npcPart));
 		}

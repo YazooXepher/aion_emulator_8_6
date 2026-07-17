@@ -59,8 +59,8 @@ public class MySQL5TaskFromDBDAO extends TaskFromDBDAO {
 
 			while (rset.next()) {
 				try {
-					TaskFromDBTrigger trigger = TaskFromDBTriggerHolder.valueOf(rset.getString("trigger_type")).getTriggerClass().newInstance();
-					TaskFromDBHandler handler = TaskFromDBHandlerHolder.valueOf(rset.getString("task_type")).getTaskClass().newInstance();
+					TaskFromDBTrigger trigger = TaskFromDBTriggerHolder.valueOf(rset.getString("trigger_type")).getTriggerClass().getDeclaredConstructor().newInstance();
+					TaskFromDBHandler handler = TaskFromDBHandlerHolder.valueOf(rset.getString("task_type")).getTaskClass().getDeclaredConstructor().newInstance();
 
 					handler.setTaskId(rset.getInt("id"));
 
@@ -78,22 +78,17 @@ public class MySQL5TaskFromDBDAO extends TaskFromDBDAO {
 
 					result.add(trigger);
 
-				}
-				catch (InstantiationException ex) {
-					log.error(ex.getMessage(), ex);
-				}
-				catch (IllegalAccessException ex) {
+				} catch (InstantiationException | IllegalAccessException |
+				         NoSuchMethodException | java.lang.reflect.InvocationTargetException ex) {
 					log.error(ex.getMessage(), ex);
 				}
 			}
 
 			rset.close();
 			stmt.close();
-		}
-		catch (SQLException e) {
+		} catch (SQLException e) {
 			log.error("Loading tasks failed: ", e);
-		}
-		finally {
+		} finally {
 			DatabaseFactory.close(stmt, con);
 		}
 

@@ -52,8 +52,6 @@ import com.aionemu.gameserver.world.World;
 import com.google.common.base.Predicate;
 import com.google.common.collect.Collections2;
 
-import javolution.util.FastList;
-
 /**
  * @author Rolandas
  */
@@ -67,42 +65,36 @@ public class MySQL5PlayerRegisteredItemsDAO extends PlayerRegisteredItemsDAO {
 	public static final String DELETE_QUERY = "DELETE FROM `player_registered_items` WHERE `item_unique_id` = ?";
 	public static final String RESET_QUERY = "UPDATE `player_registered_items` SET x=0,y=0,z=0,h=0,area='NONE' WHERE `player_id`=? AND `area` != 'DECOR'";
 	private static final Predicate<HouseObject<?>> objectsToAddPredicate = new Predicate<HouseObject<?>>() {
-
 		@Override
 		public boolean apply(@Nullable HouseObject<?> input) {
 			return input != null && (input.getPersistentState() == PersistentState.NEW);
 		}
 	};
 	private static final Predicate<HouseObject<?>> objectsToUpdatePredicate = new Predicate<HouseObject<?>>() {
-
 		@Override
 		public boolean apply(@Nullable HouseObject<?> input) {
 			return input != null && (input.getPersistentState() == PersistentState.UPDATE_REQUIRED);
 		}
 	};
 	private static final Predicate<HouseObject<?>> objectsToDeletePredicate = new Predicate<HouseObject<?>>() {
-
 		@Override
 		public boolean apply(@Nullable HouseObject<?> input) {
 			return input != null && PersistentState.DELETED == input.getPersistentState();
 		}
 	};
 	private static final Predicate<HouseDecoration> partsToAddPredicate = new Predicate<HouseDecoration>() {
-
 		@Override
 		public boolean apply(@Nullable HouseDecoration input) {
 			return input != null && (input.getPersistentState() == PersistentState.NEW);
 		}
 	};
 	private static final Predicate<HouseDecoration> partsToUpdatePredicate = new Predicate<HouseDecoration>() {
-
 		@Override
 		public boolean apply(@Nullable HouseDecoration input) {
 			return input != null && (input.getPersistentState() == PersistentState.UPDATE_REQUIRED);
 		}
 	};
 	private static final Predicate<HouseDecoration> partsToDeletePredicate = new Predicate<HouseDecoration>() {
-
 		@Override
 		public boolean apply(@Nullable HouseDecoration input) {
 			return input != null && PersistentState.DELETED == input.getPersistentState();
@@ -112,7 +104,6 @@ public class MySQL5PlayerRegisteredItemsDAO extends PlayerRegisteredItemsDAO {
 	@Override
 	public int[] getUsedIDs() {
 		PreparedStatement statement = DB.prepareStatement("SELECT item_unique_id FROM player_registered_items WHERE item_unique_id <> 0", ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
-
 		try {
 			ResultSet rs = statement.executeQuery();
 			rs.last();
@@ -131,7 +122,6 @@ public class MySQL5PlayerRegisteredItemsDAO extends PlayerRegisteredItemsDAO {
 		finally {
 			DB.close(statement);
 		}
-
 		return new int[0];
 	}
 
@@ -247,8 +237,8 @@ public class MySQL5PlayerRegisteredItemsDAO extends PlayerRegisteredItemsDAO {
 
 	@Override
 	public boolean store(HouseRegistry registry, int playerId) {
-		FastList<HouseObject<?>> objects = registry.getObjects();
-		FastList<HouseDecoration> decors = registry.getAllParts();
+		List<HouseObject<?>> objects = registry.getObjects();
+		List<HouseDecoration> decors = registry.getAllParts();
 		Collection<HouseObject<?>> objectsToAdd = Collections2.filter(objects, objectsToAddPredicate);
 		Collection<HouseObject<?>> objectsToUpdate = Collections2.filter(objects, objectsToUpdatePredicate);
 		Collection<HouseObject<?>> objectsToDelete = Collections2.filter(objects, objectsToDeletePredicate);
@@ -313,7 +303,6 @@ public class MySQL5PlayerRegisteredItemsDAO extends PlayerRegisteredItemsDAO {
 	}
 
 	private boolean storeObjects(Connection con, Collection<HouseObject<?>> objects, int playerId, boolean isNew) {
-
 		if (GenericValidator.isBlankOrNull(objects)) {
 			return true;
 		}
@@ -371,7 +360,6 @@ public class MySQL5PlayerRegisteredItemsDAO extends PlayerRegisteredItemsDAO {
 	}
 
 	private boolean storeParts(Connection con, Collection<HouseDecoration> parts, int playerId, boolean isNew) {
-
 		if (GenericValidator.isBlankOrNull(parts)) {
 			return true;
 		}

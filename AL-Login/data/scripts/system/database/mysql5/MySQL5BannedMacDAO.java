@@ -14,16 +14,13 @@
  *  along with Aion-Lightning.
  *  If not, see <http://www.gnu.org/licenses/>.
  */
-
-
 package mysql5;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Map;
-
-import javolution.util.FastMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -33,9 +30,7 @@ import com.aionemu.loginserver.dao.BannedMacDAO;
 import com.aionemu.loginserver.model.base.BannedMacEntry;
 
 /**
- * 
  * @author KID
- *
  */
 public class MySQL5BannedMacDAO extends BannedMacDAO {
 
@@ -43,20 +38,17 @@ public class MySQL5BannedMacDAO extends BannedMacDAO {
 
 	@Override
 	public Map<String, BannedMacEntry> load() {
-		Map<String, BannedMacEntry> map = new FastMap<String, BannedMacEntry>();
+		Map<String, BannedMacEntry> map = new ConcurrentHashMap<>();
 		PreparedStatement ps = DB.prepareStatement("SELECT `address`,`time`,`details` FROM `banned_mac`");
 		try {
 			ResultSet rs = ps.executeQuery();
-			while (rs.next())
-			{
+			while (rs.next()) {
 				String address = rs.getString("address");
 				map.put(address, new BannedMacEntry(address, rs.getTimestamp("time"), rs.getString("details")));
 			}
-		}
-		catch (SQLException e) {
+		} catch (SQLException e) {
 			log.error("Error loading last saved server time", e);
-		}
-		finally {
+		} finally {
 			DB.close(ps);
 		}
 		return map;
@@ -71,14 +63,11 @@ public class MySQL5BannedMacDAO extends BannedMacDAO {
 			ps.setTimestamp(2, entry.getTime());
 			ps.setString(3, entry.getDetails());
 			success = ps.executeUpdate() > 0;
-		}
-		catch (SQLException e) {
-			log.error("Error storing BannedMacEntry "+entry.getMac(), e);
-		}
-		finally {
+		} catch (SQLException e) {
+			log.error("Error storing BannedMacEntry " + entry.getMac(), e);
+		} finally {
 			DB.close(ps);
 		}
-
 		return success;
 	}
 
@@ -89,14 +78,11 @@ public class MySQL5BannedMacDAO extends BannedMacDAO {
 		try {
 			ps.setString(1, address);
 			success = ps.executeUpdate() > 0;
-		}
-		catch (SQLException e) {
-			log.error("Error removing BannedMacEntry "+address, e);
-		}
-		finally {
+		} catch (SQLException e) {
+			log.error("Error removing BannedMacEntry " + address, e);
+		} finally {
 			DB.close(ps);
 		}
-
 		return success;
 	}
 
