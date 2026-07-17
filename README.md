@@ -11,3 +11,4 @@
 
 **Geo Files (v7.3):** [MEGA](https://mega.nz/file/xKoDWJyL#uf_npX9rGt7t7bnq_RvRnpkGrTpwnYf637oWBBs247Q)
 
+I'd also like to thank the AionGermany team for creating the Aion 7.x foundation that I used as the starting point for building the 8.6 version.
