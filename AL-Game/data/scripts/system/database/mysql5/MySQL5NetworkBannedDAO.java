@@ -29,7 +29,7 @@ import com.aionemu.gameserver.dao.MySQL5DAOUtils;
 import com.aionemu.gameserver.dao.NetworkBannedDAO;
 import com.aionemu.gameserver.network.NetworkBanEntry;
 
-import javolution.util.FastMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author Alex
@@ -40,7 +40,7 @@ public class MySQL5NetworkBannedDAO extends NetworkBannedDAO {
 
 	@Override
 	public Map<String, NetworkBanEntry> load() {
-		Map<String, NetworkBanEntry> map = new FastMap<String, NetworkBanEntry>();
+		Map<String, NetworkBanEntry> map = new ConcurrentHashMap<>();
 		PreparedStatement ps = DB.prepareStatement("SELECT `ip`,`time`,`details` FROM `network_ban`");
 		try {
 			ResultSet rs = ps.executeQuery();

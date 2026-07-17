@@ -33,7 +33,7 @@ import com.aionemu.gameserver.dao.PlayerLumielDAO;
 import com.aionemu.gameserver.model.gameobjects.player.LumielTransform;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 
-import javolution.util.FastMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class MySQL5PlayerLumielDAO extends PlayerLumielDAO {
 
@@ -45,7 +45,7 @@ public class MySQL5PlayerLumielDAO extends PlayerLumielDAO {
 
 	@Override
 	public Map<Integer, LumielTransform> loadPlayerLumiel(final Player player) {
-		final Map<Integer, LumielTransform> playerLumiels = new FastMap<Integer, LumielTransform>();
+		final Map<Integer, LumielTransform> playerLumiels = new ConcurrentHashMap<>();
 		DB.select(LOAD_QUERY, new ParamReadStH() {
 			@Override
 			public void setParams(PreparedStatement stmt) throws SQLException {
@@ -77,7 +77,6 @@ public class MySQL5PlayerLumielDAO extends PlayerLumielDAO {
 			return true;
 		} catch (SQLException e) {
 			log.error("addLumiel error", e);
-
 			return false;
 		} finally {
 			DatabaseFactory.close(con);
@@ -104,8 +103,8 @@ public class MySQL5PlayerLumielDAO extends PlayerLumielDAO {
 		return true;
 	}
 
-    @Override
-    public boolean supports(String databaseName, int majorVersion, int minorVersion) {
-        return MySQL5DAOUtils.supports(databaseName, majorVersion, minorVersion);
-    } 
+	@Override
+	public boolean supports(String databaseName, int majorVersion, int minorVersion) {
+		return MySQL5DAOUtils.supports(databaseName, majorVersion, minorVersion);
+	}
 }

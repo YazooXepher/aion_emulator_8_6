@@ -25,7 +25,7 @@ import com.aionemu.gameserver.spawnengine.ConquestSpawnManager;
 import com.aionemu.gameserver.world.WorldPosition;
 
 import ai.AggressiveNpcAI2;
-import javolution.util.FastList;
+import java.util.ArrayList;
 
 /**
  * @author Falke_34, CoolyT
@@ -40,8 +40,8 @@ public class Conquest_NpcAI2 extends AggressiveNpcAI2 {
 		int cId = getNpcId();
 		int npcId = 0;
 
-		FastList<Integer> npcs = new FastList<Integer>();
-		FastList<Integer> portals = new FastList<Integer>();
+		ArrayList<Integer> npcs = new ArrayList<Integer>();
+		ArrayList<Integer> portals = new ArrayList<Integer>();
 
 		npcs.add(856175); // Pawrunerk
 		npcs.add(856176); // Chitrunerk

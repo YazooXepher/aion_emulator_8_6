@@ -31,7 +31,7 @@ import com.aionemu.gameserver.dao.PortalCooldownsDAO;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.gameobjects.player.PortalCooldownItem;
 
-import javolution.util.FastMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class MySQL5PortalCooldownsDAO extends PortalCooldownsDAO {
 
@@ -43,15 +43,13 @@ public class MySQL5PortalCooldownsDAO extends PortalCooldownsDAO {
 	@Override
 	public void loadPortalCooldowns(final Player player) {
 		Connection con = null;
-		FastMap<Integer, PortalCooldownItem> portalCoolDowns = new FastMap<Integer, PortalCooldownItem>();
+		ConcurrentHashMap<Integer, PortalCooldownItem> portalCoolDowns = new ConcurrentHashMap<>();  // ← Le type explicite ConcurrentHashMap
 		PreparedStatement stmt = null;
 		try {
 			con = DatabaseFactory.getConnection();
 			stmt = con.prepareStatement(SELECT_QUERY);
-
 			stmt.setInt(1, player.getObjectId());
 			ResultSet rset = stmt.executeQuery();
-
 			while (rset.next()) {
 				int worldId = rset.getInt("world_id");
 				long reuseTime = rset.getLong("reuse_time");
@@ -62,11 +60,9 @@ public class MySQL5PortalCooldownsDAO extends PortalCooldownsDAO {
 			}
 			player.getPortalCooldownList().setPortalCoolDowns(portalCoolDowns);
 			rset.close();
-		}
-		catch (SQLException e) {
+		} catch (SQLException e) {
 			log.error("LoadPortalCooldowns", e);
-		}
-		finally {
+		} finally {
 			DatabaseFactory.close(stmt, con);
 		}
 	}

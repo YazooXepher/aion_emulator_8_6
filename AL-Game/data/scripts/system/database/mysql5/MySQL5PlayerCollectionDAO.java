@@ -36,7 +36,7 @@ import com.aionemu.gameserver.model.gameobjects.player.collection.PlayerCollecti
 import com.aionemu.gameserver.model.gameobjects.player.collection.PlayerCollectionInfos;
 import com.aionemu.gameserver.model.templates.collection.CollectionType;
 
-import javolution.util.FastMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class MySQL5PlayerCollectionDAO extends PlayerCollectionDAO {
 
@@ -45,17 +45,15 @@ public class MySQL5PlayerCollectionDAO extends PlayerCollectionDAO {
     public static final String INSERT_QUERY = "INSERT INTO player_collection_infos (player_id, type, level, exp) VALUES (?, ?, ?, ?)";
     public static final String LOAD_QUERY = "SELECT * FROM `player_collection_infos` WHERE `player_id`=?";
     public static final String UPDATE_QUERY = "UPDATE player_collection_infos set level=?, exp=? WHERE `player_id`=? AND `type`=?";
-
     public static final String LOAD_COLLECTION_QUERY = "SELECT * FROM `player_collections` WHERE `player_id`=?";
     public static final String INSERT_COLLECTION = "INSERT INTO player_collections (player_id, collection_id) VALUES (?, ?)";
     public static final String UPDATE_COLLECTION = "UPDATE player_collections set complete=?, step=?, item1=?, item2=?, item3=?, item4=?, item5=?, item6=?, item7=?, item8=?, item9=?, item10=?, item11=?, item12=?, item13=?, item14=? WHERE `player_id`=? AND `collection_id`=?";
 
-
     @Override
     public Map<CollectionType, PlayerCollectionInfos> loadPlayerCollection(final Player player) {
         @SuppressWarnings("unused")
-		final PlayerCollection collection = new PlayerCollection();
-        final Map<CollectionType, PlayerCollectionInfos> infos = new FastMap<CollectionType, PlayerCollectionInfos>();
+        final PlayerCollection collection = new PlayerCollection();
+        final Map<CollectionType, PlayerCollectionInfos> infos = new ConcurrentHashMap<>();
         DB.select(LOAD_QUERY, new ParamReadStH() {
             @Override
             public void setParams(PreparedStatement stmt) throws SQLException {
@@ -87,7 +85,6 @@ public class MySQL5PlayerCollectionDAO extends PlayerCollectionDAO {
             return true;
         } catch (SQLException e) {
             log.error("add collection error", e);
-
             return false;
         } finally {
             DatabaseFactory.close(con);
@@ -104,7 +101,6 @@ public class MySQL5PlayerCollectionDAO extends PlayerCollectionDAO {
             stmt.setInt(2, infos.getExp());
             stmt.setInt(3, player.getObjectId());
             stmt.setString(4, infos.getType().toString());
-
             stmt.execute();
             stmt.close();
         } catch (Exception e) {
@@ -119,7 +115,7 @@ public class MySQL5PlayerCollectionDAO extends PlayerCollectionDAO {
     @Override
     public void loadCollectionEntry(final Player player) {
         @SuppressWarnings("unused")
-		final Map<Integer, PlayerCollection> collection = new FastMap<Integer, PlayerCollection>();
+        final Map<Integer, PlayerCollection> collection = new ConcurrentHashMap<>();
         DB.select(LOAD_COLLECTION_QUERY, new ParamReadStH() {
             @Override
             public void setParams(PreparedStatement stmt) throws SQLException {
@@ -129,7 +125,6 @@ public class MySQL5PlayerCollectionDAO extends PlayerCollectionDAO {
             public void handleRead(ResultSet rset) throws SQLException {
                 while (rset.next()) {
                     boolean complete = rset.getBoolean("complete");
-
                     PlayerCollectionEntry entry = new PlayerCollectionEntry(rset.getInt("collection_id"), rset.getBoolean("item1"), rset.getBoolean("item2"), rset.getBoolean("item3"), rset.getBoolean("item4"), rset.getBoolean("item5"), rset.getBoolean("item6"), rset.getBoolean("item7"), rset.getBoolean("item8"), rset.getBoolean("item9"), rset.getBoolean("item10"), rset.getBoolean("item11"), rset.getBoolean("item12"), rset.getBoolean("item13"), rset.getBoolean("item14"), rset.getInt("step"));
                     entry.setComplete(complete);
                     if(complete) {
@@ -155,7 +150,6 @@ public class MySQL5PlayerCollectionDAO extends PlayerCollectionDAO {
             return true;
         } catch (SQLException e) {
             log.error("add collection error", e);
-
             return false;
         } finally {
             DatabaseFactory.close(con);

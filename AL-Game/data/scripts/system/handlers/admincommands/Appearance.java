@@ -37,7 +37,7 @@ import com.aionemu.gameserver.services.teleport.TeleportService2;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
-import javolution.util.FastList;
+import java.util.ArrayList;
 
 /**
  * @author Divinity / CoolyT
@@ -55,7 +55,7 @@ public class Appearance extends AdminCommand {
 			return;
 		}
 		PlayersAppearanceData appData = DataManager.PLAYER_APPEARANCE_DATA;
-		FastList<PlayerApp> apps = PlayersAppearanceData.getApp();
+		ArrayList<PlayerApp> apps = PlayersAppearanceData.getApp();
 		VisibleObject target = admin.getTarget();
 		Player player;
 
@@ -100,7 +100,7 @@ public class Appearance extends AdminCommand {
 			else
 				a = apps.get(index);
 			PlayerAppearanceTemplate app = a.appearance;
-			FastList<PlayerItem> items = a.items;
+			ArrayList<PlayerItem> items = a.items;
 			Equipment equip = player.getEquipment();
 			for (PlayerItem item : items) {
 				ItemTemplate it = DataManager.ITEM_DATA.getItemTemplate(item.itemTemplateId);

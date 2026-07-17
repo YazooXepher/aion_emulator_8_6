@@ -32,7 +32,7 @@ import com.aionemu.gameserver.world.handlers.GeneralWorldHandler;
 import com.aionemu.gameserver.world.handlers.WorldID;
 import com.aionemu.gameserver.world.knownlist.Visitor;
 
-import javolution.util.FastList;
+import java.util.ArrayList;
 
 @WorldID(210040000)
 public class Heiron extends GeneralWorldHandler {
@@ -182,7 +182,7 @@ public class Heiron extends GeneralWorldHandler {
 	}
 
 	protected List<Npc> getNpcs(int npcId) {
-		List<Npc> npcs = new FastList<Npc>();
+		List<Npc> npcs = new ArrayList<Npc>();
 		for (Npc npc : this.map.getWorld().getNpcs()) {
 			if (npc.getNpcId() == npcId) {
 				npcs.add(npc);

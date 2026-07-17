@@ -16,6 +16,7 @@
  */
 package admincommands;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import com.aionemu.commons.database.dao.DAOManager;
@@ -32,8 +33,6 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.utils.Util;
 import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 import com.aionemu.gameserver.world.World;
-
-import javolution.util.FastList;
 
 /**
  * @author KID
@@ -157,7 +156,10 @@ public class LegionCommand extends AdminCommand {
 				return;
 			}
 
-			FastList<String> message = FastList.newInstance(), online = FastList.newInstance(), offline = FastList.newInstance();
+			// Correction : remplacement des FastList par ArrayList standard
+			ArrayList<String> message = new ArrayList<>();
+			ArrayList<String> online = new ArrayList<>();
+			ArrayList<String> offline = new ArrayList<>();
 			message.add("name: " + legion.getLegionName());
 			message.add("contrib points: " + legion.getContributionPoints());
 			message.add("level: " + legion.getLegionLevel());
@@ -183,16 +185,13 @@ public class LegionCommand extends AdminCommand {
 
 			message.add("--ONLINE-------- " + online.size());
 			message.addAll(online);
-			FastList.recycle(online);
+			// ArrayList.recycle n'existe pas, suppression pure et simple
 			message.add("--OFFLINE-------- " + offline.size());
 			message.addAll(offline);
-			FastList.recycle(offline);
 
 			for (String msg : message) {
 				PacketSendUtility.sendMessage(player, msg);
 			}
-
-			FastList.recycle(message);
 		}
 		else if (params[0].equalsIgnoreCase("kick")) {
 			if (!verifyLenght(player, 2, params)) // legion kick PLAYER

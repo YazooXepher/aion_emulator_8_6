@@ -29,7 +29,7 @@ import com.aionemu.gameserver.world.zone.ZoneInstance;
 import com.aionemu.gameserver.world.zone.handler.ZoneHandler;
 import com.aionemu.gameserver.world.zone.handler.ZoneNameAnnotation;
 
-import javolution.util.FastMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author MrPoke
@@ -37,7 +37,7 @@ import javolution.util.FastMap;
 @ZoneNameAnnotation("CORE_400010000")
 public class AbyssCore implements ZoneHandler {
 
-	FastMap<Integer, CollisionDieActor> observed = new FastMap<Integer, CollisionDieActor>();
+	ConcurrentHashMap<Integer, CollisionDieActor> observed = new ConcurrentHashMap<Integer, CollisionDieActor>();
 	private Node geometry;
 
 	public AbyssCore() {

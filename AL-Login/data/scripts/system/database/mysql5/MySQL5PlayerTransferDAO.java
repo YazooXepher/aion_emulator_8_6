@@ -14,15 +14,13 @@
  *  along with Aion-Lightning.
  *  If not, see <http://www.gnu.org/licenses/>.
  */
-
-
 package mysql5;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
-import javolution.util.FastList;
+import java.util.ArrayList;
+import java.util.List;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -40,8 +38,8 @@ public class MySQL5PlayerTransferDAO extends PlayerTransferDAO {
 	private static final Logger log = LoggerFactory.getLogger(MySQL5PlayerTransferDAO.class);
 
 	@Override
-	public FastList<PlayerTransferTask> getNew() {
-		FastList<PlayerTransferTask> list = FastList.newInstance();
+	public List<PlayerTransferTask> getNew() {
+		List<PlayerTransferTask> list = new ArrayList<>();
 		PreparedStatement st = DB.prepareStatement("SELECT * FROM player_transfers WHERE `status` = ?");
 		try {
 			st.setInt(1, 0);
@@ -56,14 +54,11 @@ public class MySQL5PlayerTransferDAO extends PlayerTransferDAO {
 				task.playerId = rs.getInt("player_id");
 				list.add(task);
 			}
-		}
-		catch (Exception e) {
+		} catch (Exception e) {
 			log.error("Can't select getNew: ", e);
-		}
-		finally {
+		} finally {
 			DB.close(st);
 		}
-
 		return list;
 	}
 
@@ -80,7 +75,6 @@ public class MySQL5PlayerTransferDAO extends PlayerTransferDAO {
 				break;
 		}
 		return DB.insertUpdate("UPDATE player_transfers SET status=?, comment=?" + table + " WHERE id=?", new IUStH() {
-
 			@Override
 			public void handleInsertUpdate(PreparedStatement preparedStatement) throws SQLException {
 				preparedStatement.setByte(1, task.status);

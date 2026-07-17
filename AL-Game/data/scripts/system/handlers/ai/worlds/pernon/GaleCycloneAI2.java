@@ -23,7 +23,7 @@ import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.skillengine.SkillEngine;
 
-import javolution.util.FastMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author xTz
@@ -32,7 +32,7 @@ import javolution.util.FastMap;
 // 219227
 public class GaleCycloneAI2 extends NpcAI2 {
 
-	private FastMap<Integer, GaleCycloneObserver> observed = new FastMap<Integer, GaleCycloneObserver>().shared();
+	private ConcurrentHashMap<Integer, GaleCycloneObserver> observed = new ConcurrentHashMap<>();
 	private boolean blocked;
 
 	@Override

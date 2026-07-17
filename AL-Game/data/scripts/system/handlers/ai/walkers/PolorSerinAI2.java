@@ -16,7 +16,7 @@
  */
 package ai.walkers;
 
-import org.apache.commons.lang.ArrayUtils;
+import org.apache.commons.lang3.ArrayUtils;
 
 import com.aionemu.gameserver.ai2.AIName;
 import com.aionemu.gameserver.ai2.handler.MoveEventHandler;

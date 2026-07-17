@@ -34,8 +34,8 @@ import com.aionemu.gameserver.dao.PlayerFameDAO;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.gameobjects.player.fame.PlayerFame;
 
-import javolution.util.FastList;
-import javolution.util.FastMap;
+import java.util.ArrayList;
+import java.util.concurrent.ConcurrentHashMap;
 
 public class MySQL5PlayerFameDAO extends PlayerFameDAO {
 
@@ -47,10 +47,9 @@ public class MySQL5PlayerFameDAO extends PlayerFameDAO {
     public static final String REDUCE_QUERY = "UPDATE player_fame set exp=?, level=? WHERE `player_id`=? AND `fame_id`=?";
     public static final String LOAD_WEEKLY = "SELECT * FROM `player_fame`";
 
-
     @Override
     public Map<Integer, PlayerFame> loadPlayerFame(final Player player) {
-        final Map<Integer, PlayerFame> playerfames = new FastMap<Integer, PlayerFame>();
+        final Map<Integer, PlayerFame> playerfames = new ConcurrentHashMap<>();
         DB.select(LOAD_QUERY, new ParamReadStH() {
             @Override
             public void setParams(PreparedStatement stmt) throws SQLException {
@@ -80,12 +79,11 @@ public class MySQL5PlayerFameDAO extends PlayerFameDAO {
             stmt.execute();
             stmt.close();
             return true;
-        } 
+        }
         catch (SQLException e) {
             log.error("addFame error", e);
-
             return false;
-        } 
+        }
         finally {
             DatabaseFactory.close(con);
         }
@@ -104,11 +102,11 @@ public class MySQL5PlayerFameDAO extends PlayerFameDAO {
             stmt.setInt(5, fame.getId());
             stmt.execute();
             stmt.close();
-        } 
+        }
         catch (Exception e) {
             log.error("Could not update PlayerFame data for Player " + player.getName() + " from DB: " + e.getMessage(), e);
             return false;
-        } 
+        }
         finally {
             DatabaseFactory.close(con);
         }
@@ -117,7 +115,7 @@ public class MySQL5PlayerFameDAO extends PlayerFameDAO {
 
     @Override
     public List<PlayerFame> weeklyFame() {
-        final List<PlayerFame> playerfames = new FastList<PlayerFame>();
+        final List<PlayerFame> playerfames = new ArrayList<>();
         Connection con = null;
         try {
             con = DatabaseFactory.getConnection();
@@ -150,10 +148,10 @@ public class MySQL5PlayerFameDAO extends PlayerFameDAO {
             stmt.setInt(4, fame.getId());
             stmt.execute();
             stmt.close();
-        } 
+        }
         catch (Exception e) {
             return false;
-        } 
+        }
         finally {
             DatabaseFactory.close(con);
         }
@@ -163,5 +161,5 @@ public class MySQL5PlayerFameDAO extends PlayerFameDAO {
     @Override
     public boolean supports(String databaseName, int majorVersion, int minorVersion) {
         return MySQL5DAOUtils.supports(databaseName, majorVersion, minorVersion);
-    } 
+    }
 }

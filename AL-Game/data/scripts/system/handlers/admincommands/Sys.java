@@ -78,7 +78,7 @@ public class Sys extends AdminCommand {
 			PacketSendUtility.sendMessage(player, "RAM Used (Before): " + ((Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) / 1048576));
 			System.gc();
 			PacketSendUtility.sendMessage(player, "RAM Used (After): " + ((Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) / 1048576));
-			System.runFinalization();
+			// System.runFinalization(); // Deprecated, removed
 			PacketSendUtility.sendMessage(player, "RAM Used (Final): " + ((Runtime.getRuntime().totalMemory() - Runtime.getRuntime().freeMemory()) / 1048576));
 			PacketSendUtility.sendMessage(player, "Garbage Collection and Finalization finished in: " + (System.currentTimeMillis() - time) + " milliseconds...");
 		}

@@ -21,7 +21,7 @@ import com.aionemu.gameserver.ai2.NpcAI2;
 import com.aionemu.gameserver.model.gameobjects.Creature;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 
-import javolution.util.FastMap;
+import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * @author Falke_34, CoolyT
@@ -29,7 +29,7 @@ import javolution.util.FastMap;
 @AIName("conquest_buff")
 public class Conquest_BuffAI2 extends NpcAI2 {
 
-	FastMap<Integer, Integer> skillByNpc = new FastMap<Integer, Integer>();
+	ConcurrentHashMap<Integer, Integer> skillByNpc = new ConcurrentHashMap<Integer, Integer>();
 
 	@Override
 	protected void handleDialogStart(Player player) {
