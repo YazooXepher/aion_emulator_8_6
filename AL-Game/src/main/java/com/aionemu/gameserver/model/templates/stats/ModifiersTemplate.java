@@ -1,0 +1,50 @@
+package com.aionemu.gameserver.model.templates.stats;
+
+import java.util.List;
+
+import jakarta.xml.bind.annotation.XmlAccessType;
+import jakarta.xml.bind.annotation.XmlAccessorType;
+import jakarta.xml.bind.annotation.XmlAttribute;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlElements;
+import jakarta.xml.bind.annotation.XmlRootElement;
+
+import com.aionemu.gameserver.model.stats.calc.functions.StatAddFunction;
+import com.aionemu.gameserver.model.stats.calc.functions.StatFunction;
+import com.aionemu.gameserver.model.stats.calc.functions.StatRateFunction;
+import com.aionemu.gameserver.model.stats.calc.functions.StatSetFunction;
+import com.aionemu.gameserver.model.stats.calc.functions.StatSubFunction;
+
+/**
+ * @author xavier
+ * @modified Rolandas
+ */
+@XmlAccessorType(XmlAccessType.NONE)
+@XmlRootElement(name = "modifiers")
+public class ModifiersTemplate {
+
+	@XmlElements({ @XmlElement(name = "sub", type = StatSubFunction.class), @XmlElement(name = "add", type = StatAddFunction.class), @XmlElement(name = "rate", type = StatRateFunction.class), @XmlElement(name = "set", type = StatSetFunction.class) })
+	private List<StatFunction> modifiers;
+	@XmlAttribute
+	private float chance = 100f;
+    @XmlAttribute
+    private int level;
+
+	public List<StatFunction> getModifiers() {
+		return modifiers;
+	}
+
+	/**
+	 * @return the chance
+	 */
+	public float getChance() {
+		return chance;
+	}
+
+	/**
+	 * @return the level
+	 */
+    public float getLevel() {
+        return this.level;
+    }
+}
