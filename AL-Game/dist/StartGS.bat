@@ -16,7 +16,7 @@ IF "%NUMAENABLE%" == "true" (
 SET JAVA_OPTS=-XX:+UseNUMA %JAVA_OPTS%
 )
 ECHO Starting Aion German Game Server in %MODE% mode.
-JAVA %JAVA_OPTS% --enable-preview -ea -javaagent:./libs/al-commons.jar -cp ./libs/*;AL-Game.jar com.aionemu.gameserver.GameServer
+JAVA %JAVA_OPTS% --enable-preview -ea -Xlog:gc*:file=./log/gc.log:time,uptime:filecount=1 -javaagent:./libs/al-commons.jar -cp ./libs/*;AL-Game.jar com.aionemu.gameserver.GameServer
 SET CLASSPATH=%OLDCLASSPATH%
 IF ERRORLEVEL 2 GOTO START
 IF ERRORLEVEL 1 GOTO ERROR
