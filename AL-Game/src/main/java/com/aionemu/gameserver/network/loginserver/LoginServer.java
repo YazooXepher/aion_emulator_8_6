@@ -64,6 +64,12 @@ public class LoginServer {
 	 */
 	private Map<Integer, AionConnection> loginRequests = new HashMap<Integer, AionConnection>();
 	/**
+	 * DIAGNOSTIC: stashes playOk2 per pending login request so it can be reused to
+	 * proactively push the character list right after SM_L2AUTH_LOGIN_CHECK, to test
+	 * whether the 8.6 client expects it pushed instead of requesting it itself.
+	 */
+	private Map<Integer, Integer> loginRequestPlayOk2 = new HashMap<Integer, Integer>();
+	/**
 	 * Map<accountId,Connection> for all logged in accounts.
 	 */
 	private Map<Integer, AionConnection> loggedInAccounts = new HashMap<Integer, AionConnection>();
@@ -204,6 +210,7 @@ public class LoginServer {
 				return;
 			}
 			loginRequests.put(accountId, client);
+			loginRequestPlayOk2.put(accountId, playOk2);
 		}
 		loginServer.sendPacket(new SM_ACCOUNT_AUTH(accountId, loginOk, playOk1, playOk2));
 	}
@@ -236,6 +243,7 @@ public class LoginServer {
 			loggedInAccounts.put(accountId, client);
 			log.info("[LoginServer] Account authed: " + accountId + " = " + accountName);
 			client.sendPacket(new SM_L2AUTH_LOGIN_CHECK(true, accountName));
+			loginRequestPlayOk2.remove(accountId);
 		}
 		else {
 			log.info("[LoginServer] Account not authed: " + accountId);

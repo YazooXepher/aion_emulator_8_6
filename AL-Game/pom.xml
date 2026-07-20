@@ -5,19 +5,21 @@
          http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <parent>
-        <groupId>com.aionemu</groupId>
-        <artifactId>aion_8_6</artifactId>
-        <version>7.8-EU</version>
-    </parent>
-
+    <groupId>com.aionemu</groupId>
     <artifactId>AL-Game</artifactId>
+    <version>7.8</version>
+
+    <properties>
+        <maven.compiler.source>25</maven.compiler.source>
+        <maven.compiler.target>25</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
 
     <dependencies>
         <dependency>
             <groupId>com.aionemu</groupId>
             <artifactId>AL-Commons</artifactId>
-            <version>${project.version}</version>
+            <version>8.6</version>
         </dependency>
         <dependency>
             <groupId>com.zaxxer</groupId>
@@ -86,17 +88,76 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.11.0</version>
+                <configuration>
+                    <release>25</release>
+                    <compilerArgs>
+                        <arg>--enable-preview</arg>
+                    </compilerArgs>
+                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <configuration>
+                    <outputDirectory>${project.basedir}/dist</outputDirectory>
+                    <finalName>AL-Game</finalName>
                     <archive>
                         <manifest>
                             <mainClass>com.aionemu.gameserver.GameServer</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.basedir}/dist/libs</outputDirectory>
+                            <stripVersion>true</stripVersion>
+                            <overWriteReleases>false</overWriteReleases>
+                            <overWriteSnapshots>true</overWriteSnapshots>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy-runtime-folders</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>copy-resources</goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.basedir}/dist</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>${project.basedir}/config</directory>
+                                    <targetPath>config</targetPath>
+                                </resource>
+                                <resource>
+                                    <directory>${project.basedir}/data</directory>
+                                    <targetPath>data</targetPath>
+                                </resource>
+                                <resource>
+                                    <directory>${project.basedir}/sql</directory>
+                                    <targetPath>sql</targetPath>
+                                </resource>
+                            </resources>
+                            <overwrite>false</overwrite>
+                        </configuration>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>

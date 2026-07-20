@@ -311,6 +311,15 @@ public class AionPacketHandlerFactory {
 		addPacket(new CM_LUMIEL_TRANSFORM(0x3FD, State.IN_GAME)); // 7.7 EU TODO
 		addPacket(new CM_PLAYER_COLLECTION_REGISTER(0x3F2, State.IN_GAME)); // 7.7 EU TODO
 		addPacket(new CM_COMBAT_SUPPORT(0x3FC, State.IN_GAME)); // 7.7 EU TODO
+
+		// -------------------- 8.6 additions (network layer only, business logic TODO) --------------------//
+		addPacket(new CM_HOUSE_TELEPORT_BACK(0x13A, State.IN_GAME));
+		addPacket(new CM_BROKER_COLLECT_SOLD_ITEMS(0x14E, State.IN_GAME));
+		addPacket(new CM_HOT_SPECTATE(0x172, State.IN_GAME));
+		addPacket(new CM_A_STATION_CHECK(0x193, State.IN_GAME));
+		addPacket(new CM_SELL_TERMINATED_ITEMS(0x1C0, State.IN_GAME));
+		addPacket(new CM_COALESCENCE(0x1D7, State.IN_GAME));
+		addPacket(new CM_ATREIAN_BESTIARY_LVLUP(0x1DC, State.IN_GAME));
 	}
 
 	public AionPacketHandler getPacketHandler() {
