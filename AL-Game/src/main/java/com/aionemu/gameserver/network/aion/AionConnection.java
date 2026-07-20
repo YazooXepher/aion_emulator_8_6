@@ -303,6 +303,7 @@ public class AionConnection extends AConnection {
 			PacketLoggerService.getInstance().logPacketSM(packet.getPacketName());
 			try {
 				packet.write(this, data);
+				log.info("[DIAG] wire-write " + packet.getPacketName() + " ip=" + getIP());
 				return true;
 			}
 			finally {
