@@ -369,7 +369,21 @@ public class ServerPacketsOpcodes {
 		addPacketOpcode(SM_PLAYER_FAME.class, 0x186, idSet); // 7.5 EU
 		addPacketOpcode(SM_RUNES.class, 0x188, idSet); // 7.5 EU TODO
 		addPacketOpcode(SM_RUNES_FUSION.class, 0x187, idSet); // 7.5 EU TODO
-		
+
+		// -------------------- 8.6 additions (network layer only, business logic TODO) --------------------//
+		addPacketOpcode(SM_CREATIVITY_POINTS.class, 0x5D, idSet);
+		addPacketOpcode(SM_CREATIVITY_POINTS_APPLY.class, 0x5E, idSet);
+		addPacketOpcode(SM_LEGION_REQUEST.class, 0x139, idSet);
+		addPacketOpcode(SM_ABYSS_LANDING_LEVEL.class, 0x13C, idSet);
+		addPacketOpcode(SM_ABYSS_LANDING.class, 0x13D, idSet);
+		addPacketOpcode(SM_COALESCENCE_RESULT.class, 0x14E, idSet);
+		addPacketOpcode(SM_ATREIAN_BESTIARY_LIST.class, 0x15B, idSet);
+		addPacketOpcode(SM_ATREIAN_BESTIARY.class, 0x15C, idSet);
+		addPacketOpcode(SM_COALESCENCE_STARTUP.class, 0x15D, idSet);
+		addPacketOpcode(SM_ABYSS_FAVOR.class, 0x162, idSet);
+		addPacketOpcode(SM_NOTIFY_VIP_ICON.class, 0x163, idSet);
+		addPacketOpcode(SM_EVERGALE_CANYON.class, 0x169, idSet);
+
 		// --------------------UNKNOWN PACKETS-----------------------//
 	}
 

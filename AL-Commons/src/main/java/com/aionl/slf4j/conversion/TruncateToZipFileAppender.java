@@ -72,10 +72,21 @@ public class TruncateToZipFileAppender extends FileAppender<Object> {
 		String date = "";
 		try {
 			BufferedReader reader = new BufferedReader(new FileReader(file));
-			date = reader.readLine().split("\f")[1];
+			String firstLine = reader.readLine();
 			reader.close();
+			if (firstLine != null) {
+				String[] parts = firstLine.split("\f");
+				if (parts.length > 1) {
+					date = parts[1];
+				}
+			}
 		} catch (IOException e) {
 			e.printStackTrace();
+		}
+		if (date.isEmpty()) {
+			// Older/foreign log files don't carry the "\f<date>" marker this appender
+			// expects; fall back to a timestamp so the backup zip still gets a unique name.
+			date = String.valueOf(System.currentTimeMillis());
 		}
 
 		File zipFile = new File(backupRoot, file.getName() + "." + date + ".zip");
