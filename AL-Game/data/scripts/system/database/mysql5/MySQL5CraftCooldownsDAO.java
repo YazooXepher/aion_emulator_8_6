@@ -18,9 +18,9 @@ import com.aionemu.gameserver.model.gameobjects.player.Player;
 public class MySQL5CraftCooldownsDAO extends CraftCooldownsDAO {
 
 	private static final Logger log = LoggerFactory.getLogger(MySQL5CraftCooldownsDAO.class);
-	public static final String INSERT_QUERY = "INSERT INTO `craft_cooldowns` (`player_id`, `recipe_id`, `cooldown`) VALUES (?,?,?)";
+	public static final String INSERT_QUERY = "INSERT INTO `craft_cooldowns` (`player_id`, `delay_id`, `reuse_time`) VALUES (?,?,?)";
 	public static final String DELETE_QUERY = "DELETE FROM `craft_cooldowns` WHERE `player_id`=?";
-	public static final String SELECT_QUERY = "SELECT `recipe_id`, `cooldown` FROM `craft_cooldowns` WHERE `player_id`=?";
+	public static final String SELECT_QUERY = "SELECT `delay_id`, `reuse_time` FROM `craft_cooldowns` WHERE `player_id`=?";
 
 	@Override
 	public void loadCraftCooldowns(Player player) {
@@ -34,8 +34,8 @@ public class MySQL5CraftCooldownsDAO extends CraftCooldownsDAO {
 			stmt.setInt(1, player.getObjectId());
 			ResultSet rset = stmt.executeQuery();
 			while (rset.next()) {
-				int recipeId = rset.getInt("recipe_id");
-				long reuseTime = rset.getLong("cooldown");
+				int recipeId = rset.getInt("delay_id");
+				long reuseTime = rset.getLong("reuse_time");
 				if (reuseTime > System.currentTimeMillis()) {
 					craftCoolDowns.put(recipeId, reuseTime);
 				}

@@ -1230,7 +1230,7 @@ public class Skill {
 		if (skillMethod == SkillMethod.CAST || skillMethod == SkillMethod.CHARGE) {
 			switch (targetType) {
 				case 0: // PlayerObjectId as Target
-					PacketSendUtility.broadcastPacketAndReceive(effector, new SM_CASTSPELL(effector.getObjectId(), skillTemplate.getSkillId(), skillLevel, targetType, targetObjId, this.duration, skillTemplate.isCharge(), skillskinId));
+					PacketSendUtility.broadcastPacketAndReceive(effector, new SM_CASTSPELL(effector.getObjectId(), skillTemplate.getSkillId(), skillLevel, targetType, targetObjId, this.duration, skillTemplate.isCharge() || skillTemplate.hasChargeCost(), skillskinId));
 					if (firstTarget.getObjectId() != effector.getObjectId()) {
 						PacketSendUtility.broadcastPacketAndReceive(effector, new SM_ATTACK_STATUS(effector, firstTarget, SM_ATTACK_STATUS.TYPE.ATTACK, 0, 0, SM_ATTACK_STATUS.LOG.ATTACK));
 						// effector.getMoveController().skillMovement();
@@ -1244,7 +1244,7 @@ public class Skill {
 					break;
 
 				case 3: // Target not in sight?
-					PacketSendUtility.broadcastPacketAndReceive(effector, new SM_CASTSPELL(effector.getObjectId(), skillTemplate.getSkillId(), skillLevel, targetType, 0, this.duration, skillTemplate.isCharge(), skillskinId));
+					PacketSendUtility.broadcastPacketAndReceive(effector, new SM_CASTSPELL(effector.getObjectId(), skillTemplate.getSkillId(), skillLevel, targetType, 0, this.duration, skillTemplate.isCharge() || skillTemplate.hasChargeCost(), skillskinId));
 					if (firstTarget.getObjectId() != effector.getObjectId()) {
 						PacketSendUtility.broadcastPacketAndReceive(effector, new SM_ATTACK_STATUS(effector, firstTarget, SM_ATTACK_STATUS.TYPE.ATTACK, 0, 0, SM_ATTACK_STATUS.LOG.ATTACK));
 						// effector.getMoveController().skillMovement();
