@@ -18,9 +18,9 @@ import com.aionemu.gameserver.model.gameobjects.player.Player;
 public class MySQL5HouseObjectCooldownsDAO extends HouseObjectCooldownsDAO {
 
 	private static final Logger log = LoggerFactory.getLogger(MySQL5HouseObjectCooldownsDAO.class);
-	public static final String INSERT_QUERY = "INSERT INTO `house_object_cooldowns` (`player_id`, `object_id`, `cooldown`) VALUES (?,?,?)";
+	public static final String INSERT_QUERY = "INSERT INTO `house_object_cooldowns` (`player_id`, `object_id`, `reuse_time`) VALUES (?,?,?)";
 	public static final String DELETE_QUERY = "DELETE FROM `house_object_cooldowns` WHERE `player_id`=?";
-	public static final String SELECT_QUERY = "SELECT `object_id`, `cooldown` FROM `house_object_cooldowns` WHERE `player_id`=?";
+	public static final String SELECT_QUERY = "SELECT `object_id`, `reuse_time` FROM `house_object_cooldowns` WHERE `player_id`=?";
 
 	@Override
 	public void loadHouseObjectCooldowns(Player player) {
@@ -34,7 +34,7 @@ public class MySQL5HouseObjectCooldownsDAO extends HouseObjectCooldownsDAO {
 			ResultSet rset = stmt.executeQuery();
 			while (rset.next()) {
 				int objectId = rset.getInt("object_id");
-				long reuseTime = rset.getLong("cooldown");
+				long reuseTime = rset.getLong("reuse_time");
 				if (reuseTime > System.currentTimeMillis()) {
 					houseObjectCoolDowns.put(objectId, reuseTime);
 				}

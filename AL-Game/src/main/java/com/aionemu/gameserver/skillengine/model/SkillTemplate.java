@@ -15,6 +15,8 @@ import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.controllers.attack.AttackStatus;
 import com.aionemu.gameserver.skillengine.action.Actions;
 import com.aionemu.gameserver.skillengine.condition.ChainCondition;
+import com.aionemu.gameserver.skillengine.condition.ChargeArmorCondition;
+import com.aionemu.gameserver.skillengine.condition.ChargeWeaponCondition;
 import com.aionemu.gameserver.skillengine.condition.Condition;
 import com.aionemu.gameserver.skillengine.condition.Conditions;
 import com.aionemu.gameserver.skillengine.condition.DpCondition;
@@ -324,6 +326,23 @@ public class SkillTemplate {
 
 	public boolean isCharge() {
 		return activationAttribute == ActivationAttribute.CHARGE;
+	}
+
+	/**
+	 * True if this skill consumes weapon/armor charge on cast (endconditions chargeweapon/chargearmor).
+	 * Confirmed against a real 8.6 client capture: retail sets the SM_CASTSPELL "charge" flag for
+	 * skills with this cost (e.g. skill 4408 Sound of the Breeze), not for isCharge()-activation skills.
+	 */
+	public boolean hasChargeCost() {
+		if (endconditions == null) {
+			return false;
+		}
+		for (Condition c : endconditions.getConditions()) {
+			if (c instanceof ChargeWeaponCondition || c instanceof ChargeArmorCondition) {
+				return true;
+			}
+		}
+		return false;
 	}
 
     public boolean isMinionSkill() {
