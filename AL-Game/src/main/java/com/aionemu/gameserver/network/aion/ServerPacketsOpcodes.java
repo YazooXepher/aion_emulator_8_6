@@ -365,10 +365,16 @@ public class ServerPacketsOpcodes {
 		
 		addPacketOpcode(SM_ATREIAN_PASSPORT.class, 0x12D, idSet); // 7.5 EU TODO
 		//addPacketOpcode(SM_REMOVE_DYE.class, 0x1DF, idSet); // 6.x TODO
-		addPacketOpcode(SM_WORLD_PLAYTIME.class, 0x185, idSet); // 7.5 EU
-		addPacketOpcode(SM_PLAYER_FAME.class, 0x186, idSet); // 7.5 EU
-		addPacketOpcode(SM_RUNES.class, 0x188, idSet); // 7.5 EU TODO
-		addPacketOpcode(SM_RUNES_FUSION.class, 0x187, idSet); // 7.5 EU TODO
+		// 0x185/0x186 are the real 8.6 "Pass Daeva" list/entry packets (confirmed via live capture,
+		// see AtreianPassportService) - SM_WORLD_PLAYTIME and SM_PLAYER_FAME were squatting on them
+		// from the 7.5 layout and are actively sent every world-enter / fame-gain, corrupting that
+		// channel client-side. Moved to their real 8.6 slots (S_WORLD_PLAY_TIME / S_UPDATE_FAME_EXP).
+		addPacketOpcode(SM_WORLD_PLAYTIME.class, 0x187, idSet); // 8.6, was 0x185 (7.5)
+		addPacketOpcode(SM_PLAYER_FAME.class, 0x188, idSet); // 8.6, was 0x186 (7.5)
+		// SM_RUNES / SM_RUNES_FUSION are never instantiated anywhere in the codebase (dead code) and
+		// have no corresponding name in the 8.6 client's opcode table - freed up their opcodes above.
+		//addPacketOpcode(SM_RUNES.class, 0x188, idSet); // 7.5 EU TODO - unused, opcode reassigned to SM_PLAYER_FAME
+		//addPacketOpcode(SM_RUNES_FUSION.class, 0x187, idSet); // 7.5 EU TODO - unused, opcode reassigned to SM_WORLD_PLAYTIME
 
 		// -------------------- 8.6 additions (network layer only, business logic TODO) --------------------//
 		addPacketOpcode(SM_CREATIVITY_POINTS.class, 0x5D, idSet);
