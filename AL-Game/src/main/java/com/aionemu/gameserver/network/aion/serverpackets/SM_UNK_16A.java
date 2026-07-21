@@ -27,54 +27,26 @@ import com.aionemu.gameserver.services.events.EventService;
  */
 
 public class SM_UNK_16A extends AionServerPacket {
-	
+
+		static final byte[] TEMPLATE = hex2Byte("0100000000000000000000000000015E0101050F0A01010A010200140000000000040100000000000101000000803F010500"
+		+ "00000164000000010D0000803F00000000002439560B0100010000010050C300000000000000000000000000000000000000"
+		+ "00000000000000B80B0000000900000090D0030000000000CDCCCC3DCDCCCC3D0000003FCDCCCC3D32000000000064000000"
+		+ "030006090C");
+
 	@Override
-	protected void writeImpl(AionConnection con) { //59
-		writeC(1);
-		writeB(new byte[13]);
-		writeC(1);
-		writeC(94);
-		writeC(1);
-		writeC(1);
-		writeC(5);
-		writeC(15);
-		writeC(10);
-		writeC(1);
-		writeC(1);
-		writeC(10);
-		writeC(1);
-		writeC(2);
-		writeC(0);
-		writeC(GSConfig.CHARACTER_REENTRY_TIME);
-		writeC(EventsConfig.ENABLE_DECOR); //100 = Kirchblüten TODO ....
-		writeC(EventService.getInstance().getEventType().getId()); // 18 Summer Splash V1 / 20 Summer Splash V2
-		writeB(new byte[3]);
-		writeC(4);
-		writeC(1);
-		writeB(new byte[5]);
-		writeC(1);
-		writeC(1);
-		writeC(1);
-		writeH(0);
-		writeC(-128);
-		writeC(63);
-		writeC(1);
-		writeC(5);
-		writeB(new byte[3]);
-		writeC(1);
-		writeC(-32);
-		writeC(1);
-		writeH(0);
-		writeC(1);
-		writeC(11);
-		writeH(0);
-		writeC(-128);
-		writeC(63);
-		writeC(1);
-		writeB(new byte[10]);
-		writeC(1);
-		writeH(0);
-		writeC(1);
-		writeC(0);
+	protected void writeImpl(AionConnection con) { //155
+		byte[] data = TEMPLATE.clone();
+		data[27] = (byte) GSConfig.CHARACTER_REENTRY_TIME;
+		data[28] = (byte) EventsConfig.ENABLE_DECOR; //100 = Kirchblüten TODO ....
+		data[29] = (byte) EventService.getInstance().getEventType().getId(); // 18 Summer Splash V1 / 20 Summer Splash V2
+		writeB(data);
+	}
+
+	private static byte[] hex2Byte(String str) {
+		byte[] bytes = new byte[str.length() / 2];
+		for (int i = 0; i < bytes.length; i++) {
+			bytes[i] = (byte) Integer.parseInt(str.substring(2 * i, 2 * i + 2), 16);
+		}
+		return bytes;
 	}
 }
