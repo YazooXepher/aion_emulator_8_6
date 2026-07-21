@@ -370,8 +370,8 @@ public class PlayerService {
 				// weapon/armor piece targeting an already-occupied slot is correctly detected as such
 				// (otherwise isSlotEquipped() always returns false for 2H weapons and the conflict is
 				// only caught later inside onLoadHandler, which leaves the bounced item stuck at cube slot 0).
-				ItemSlot resolvedSlot = ItemSlot.getSlotFor(itemTemplate.getItemSlot());
-				if ((itemTemplate.isArmor() || itemTemplate.isWeapon()) && !(equipment.isSlotEquipped(resolvedSlot.getSlotIdMask()))) {
+				ItemSlot resolvedSlot = (itemTemplate.isArmor() || itemTemplate.isWeapon()) && itemTemplate.getItemSlot() != 0 ? ItemSlot.getSlotFor(itemTemplate.getItemSlot()) : null;
+				if (resolvedSlot != null && !(equipment.isSlotEquipped(resolvedSlot.getSlotIdMask()))) {
 					item.setEquipped(true);
 					item.setEquipmentSlot(resolvedSlot.getSlotIdMask());
 					equipment.onLoadHandler(item);
