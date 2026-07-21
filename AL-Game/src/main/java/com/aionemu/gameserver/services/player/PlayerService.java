@@ -365,10 +365,15 @@ public class PlayerService {
 				// Make sure you will not put into xml file more items than possible to equip.
 				ItemTemplate itemTemplate = item.getItemTemplate();
 
-				if ((itemTemplate.isArmor() || itemTemplate.isWeapon()) && !(equipment.isSlotEquipped(itemTemplate.getItemSlot()))) {
+				// itemTemplate.getItemSlot() is a raw (possibly combo, e.g. MAIN_OR_SUB) mask, but the
+				// equipment map is keyed by individually resolved slots - resolve first so a second
+				// weapon/armor piece targeting an already-occupied slot is correctly detected as such
+				// (otherwise isSlotEquipped() always returns false for 2H weapons and the conflict is
+				// only caught later inside onLoadHandler, which leaves the bounced item stuck at cube slot 0).
+				ItemSlot resolvedSlot = ItemSlot.getSlotFor(itemTemplate.getItemSlot());
+				if ((itemTemplate.isArmor() || itemTemplate.isWeapon()) && !(equipment.isSlotEquipped(resolvedSlot.getSlotIdMask()))) {
 					item.setEquipped(true);
-					ItemSlot itemSlot = ItemSlot.getSlotFor(itemTemplate.getItemSlot());
-					item.setEquipmentSlot(itemSlot.getSlotIdMask());
+					item.setEquipmentSlot(resolvedSlot.getSlotIdMask());
 					equipment.onLoadHandler(item);
 				} else {
 					playerInventory.onLoadHandler(item);

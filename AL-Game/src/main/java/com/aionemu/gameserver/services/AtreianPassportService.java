@@ -32,7 +32,6 @@ import com.aionemu.gameserver.dataholders.DataManager;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.templates.atreianpassport.AtreianPassportRewards;
 import com.aionemu.gameserver.model.templates.atreianpassport.AtreianPassportTemplate;
-import com.aionemu.gameserver.network.aion.serverpackets.SM_ATREIAN_PASSPORT;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.services.item.ItemService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
@@ -69,20 +68,20 @@ public class AtreianPassportService {
 			dao.updatePassport(accountId, passportId, 0, true, new Timestamp(System.currentTimeMillis() - 86400000L));
 		}
 
+		// SM_ATREIAN_PASSPORT still uses the pre-8.6 stamp-card layout; the 8.6 client
+		// replaced it with a mission/reward-path UI and crashes on this packet. Keep the
+		// DB bookkeeping (stamps, resets, reward items below) but stop sending the packet
+		// until the new-format protocol is captured and implemented.
 		if (!playerPassports.containsKey(passportId)) {
 			final Timestamp now = new Timestamp(System.currentTimeMillis() - 86400000L);
 			dao.insertPassport(accountId, passportId, 0, now);
-			PacketSendUtility.sendPacket(player, new SM_ATREIAN_PASSPORT(passportId, 0, 1, false));
 		} else {
 			int stamps = dao.getStamps(accountId, passportId);
 			Timestamp now2 = new Timestamp(System.currentTimeMillis());
 			Timestamp lastStamp = dao.getLastStamp(accountId, passportId);
 			if (now2.getTime() - lastStamp.getTime() >= 86400000L) {
 				DAOManager.getDAO(AtreianPassportDAO.class).updatePassport(accountId, passportId, stamps, false, lastStamp);
-				PacketSendUtility.sendPacket(player, new SM_ATREIAN_PASSPORT(passportId, 0, 1, false));
 				PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_NEW_PASSPORT_AVAIBLE);
-			} else {
-				PacketSendUtility.sendPacket(player, new SM_ATREIAN_PASSPORT(passportId, 0, 1, true));
 			}
 		}
 	}
@@ -110,7 +109,7 @@ public class AtreianPassportService {
 			if (now.getTime() - lastStamp.getTime() >= 86400000L) {
 				if (component.getRewardItemNum() == stamps + 1) {
 					ItemService.addItem(player, component.getRewardItemId(), component.getRewardItemCount());
-					PacketSendUtility.sendPacket(player, new SM_ATREIAN_PASSPORT(passportId, stamps + 1, 1, true));
+					// SM_ATREIAN_PASSPORT send disabled, see onLogin() - old UI format crashes the 8.6 client
 					DAOManager.getDAO(AtreianPassportDAO.class).updatePassport(accountId, passportId, stamps + 1, true, now);
 				}
 			}
