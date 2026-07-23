@@ -783,8 +783,7 @@ public class PlayerController extends CreatureController<Player> {
 		player.getLifeStats().synchronizeWithMaxStats();
 		player.getLifeStats().updateCurrentStats();
 
-		//TODO TEST
-		int effectId = player.getRace() == Race.ELYOS ? 0 : 4;
+		int effectId = 0; // LEVEL_UP animation id (same for both races - confirmed against a later client's ActionAnimation enum, where 4 = CRAFT_LEVEL_UP/CLASS_CHANGE, not a normal level-up)
 		PacketSendUtility.broadcastPacket(player, new SM_LEVEL_UPDATE(player.getObjectId(), effectId, level), true);
 
 		// Guides Html on level up
