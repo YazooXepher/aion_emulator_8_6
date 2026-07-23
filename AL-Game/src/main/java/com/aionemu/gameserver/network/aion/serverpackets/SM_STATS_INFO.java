@@ -144,7 +144,7 @@ public class SM_STATS_INFO extends AionServerPacket {
 		writeH(0);
 		writeH(pgs.getStat(StatEnum.HEAL_BOOST, 0).getCurrent()); // <-- OK
 		writeH(0);//294);// ??
-		writeH(0);//40);// ??
+		writeH(Math.max(0, (player.getLevel() - 50) * 6)); // post-50 growth stat, confirmed via real 8.6 capture (value == (level-50)*6 for level>50)
 		writeH(pgs.getStrikeResist().getCurrent()); // <-- OK
 		writeH(pgs.getSpellResist().getCurrent()); // <-- OK
 		writeD(player.getInventory().getLimit()); //
@@ -260,8 +260,9 @@ public class SM_STATS_INFO extends AionServerPacket {
 		writeH(pgs.getStat(StatEnum.HEAL_BOOST, 0).getBase()); // <-- OK);
 		writeH(0);
 		writeH(0);
-		writeH(0);
+		writeH(Math.max(0, (player.getLevel() - 50) * 6)); // post-50 growth stat (base), same field as above, mirrored
 		writeD(0);
+		writeD(0); // confirmed always 0 in real 8.6 captures; packet is 548 bytes total, was 544 before this trailing field
 	}
 }
 
