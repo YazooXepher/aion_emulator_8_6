@@ -164,7 +164,7 @@ public class ServerPacketsOpcodes {
 		//addPacketOpcode(SM_TOLL_INFO.class, 0x9F, idSet); // ingameshop
 		addPacketOpcode(SM_MAIL_SERVICE.class, 0xA1, idSet); // 7.5 EU
 		addPacketOpcode(SM_SUMMON_USESKILL.class, 0xA2, idSet); // 7.5 EU
-		//addPacketOpcode(SM_WINDSTREAM.class, 0xA3, idSet);
+		addPacketOpcode(SM_WINDSTREAM.class, 0xA3, idSet); // confirmed correct for 8.6 (S_WIND_PATH_RESULT); was disabled, meaning CM_WINDSTREAM's sendPacket(new SM_WINDSTREAM(...)) threw at construction every time a player entered/exited a windstream
 		addPacketOpcode(SM_WINDSTREAM_ANNOUNCE.class, 0xA4, idSet); // 7.5 EU
 		addPacketOpcode(SM_FIND_GROUP.class, 0xA6, idSet);
 		addPacketOpcode(SM_REPURCHASE.class, 0xA7, idSet);
