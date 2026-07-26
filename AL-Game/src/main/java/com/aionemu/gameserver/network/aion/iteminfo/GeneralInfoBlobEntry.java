@@ -46,10 +46,12 @@ public class GeneralInfoBlobEntry extends ItemBlobEntry {
 		writeD(buf, item.getTemporaryExchangeTimeRemaining());
 		writeH(buf, item.getUnSeal());
 		writeD(buf, 0);
+		writeH(buf, 18); // trailing field added post-4.7.5 (per reference implementation); missing here made
+							// every item's General Info blob 2 bytes short of what the 8.6 client expects
 	}
 
 	@Override
 	public int getSize() {
-		return 29 + ownerItem.getItemCreator().length() * 2 + 2;
+		return 29 + ownerItem.getItemCreator().length() * 2 + 4;
 	}
 }

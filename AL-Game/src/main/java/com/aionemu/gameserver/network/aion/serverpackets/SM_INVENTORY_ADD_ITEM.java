@@ -60,6 +60,8 @@ public class SM_INVENTORY_ADD_ITEM extends AionServerPacket {
 			}
 		}
 		writeH(mask); //
+		writeC(0); // unknown - confirmed present (always 0) via real 8.6 official capture, missing here
+		writeH(0); // unknown - confirmed present (always 0) via real 8.6 official capture, missing here
 		writeH(size); // number of entries
 		for (Item item : items) {
 			writeItemInfo(item);
@@ -71,13 +73,12 @@ public class SM_INVENTORY_ADD_ITEM extends AionServerPacket {
 
 		writeD(item.getObjectId());
 		writeD(itemTemplate.getTemplateId());
-		writeH(0x24);// Testing
 		writeNameId(itemTemplate.getNameId());
 
 		ItemInfoBlob itemInfoBlob = ItemInfoBlob.getFullBlob(player, item);
 		itemInfoBlob.writeMe(getBuf());
 
-		writeH(-1);
+		writeH((int) (item.getEquipmentSlot() & 0xFFFF));
 		writeC(item.getItemTemplate().isCloth() ? 1 : 0);
 	}
 }
