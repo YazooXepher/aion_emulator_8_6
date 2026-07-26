@@ -393,24 +393,16 @@ public class PlayerRestrictions extends AbstractRestrictions {
 
 	@Override
 	public boolean canTrade(Player player) {
-		int level = player.getLevel();
 		if (player == null || !player.isOnline()) {
 			return false;
-		}
-
-		if (player.isGM()) {
-			return true;
 		}
 
 		if (player.isTrading()) {
 			PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_EXCHANGE_PARTNER_IS_EXCHANGING_WITH_OTHER);
 			return false;
-		} 
+		}
 		if (player.getEffectController().isAbnormalSet(AbnormalState.HIDE)) {
 			PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_EXCHANGE_CANT_EXCHANGE_WHILE_INVISIBLE);
-			return false;
-		} if (level < 10) {
-			PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_FREE_EXPERIENCE_CHARACTER_CANT_TRADE("10"));
 			return false;
 		}
 		return true;

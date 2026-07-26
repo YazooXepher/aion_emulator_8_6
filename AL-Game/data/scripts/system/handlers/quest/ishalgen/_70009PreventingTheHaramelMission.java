@@ -47,8 +47,25 @@ public class _70009PreventingTheHaramelMission extends QuestHandler {
 		qe.registerQuestNpc(820012).addOnTalkEvent(questId);
 		qe.registerQuestNpc(799524).addOnTalkEvent(questId); // Gestanerk
 		qe.registerQuestNpc(806814).addOnTalkEvent(questId); // Marko
+		qe.registerQuestNpc(653218).addOnKillEvent(questId); // Hamerun the Bleeder
 		qe.registerOnLevelUp(questId);
 		qe.registerOnEnterWorld(questId);
+	}
+
+	@Override
+	public boolean onKillEvent(QuestEnv env) {
+		Player player = env.getPlayer();
+		QuestState qs = player.getQuestStateList().getQuestState(questId);
+		if (qs != null && qs.getStatus() == QuestStatus.START && env.getTargetId() == 653218) {
+			// quest_data.xml declares <quest_kill npc_ids="653218".../> but nothing ever tracked it -
+			// killing Hamerun the Bleeder should unlock the Odella grass drop (collecting_step="6")
+			if (qs.getQuestVarById(0) == 5) {
+				qs.setQuestVar(6);
+				updateQuestStatus(env);
+				return true;
+			}
+		}
+		return false;
 	}
 
 	@Override
