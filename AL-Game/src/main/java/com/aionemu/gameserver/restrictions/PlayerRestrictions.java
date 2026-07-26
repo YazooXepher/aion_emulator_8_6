@@ -398,6 +398,10 @@ public class PlayerRestrictions extends AbstractRestrictions {
 			return false;
 		}
 
+		if (player.isGM()) {
+			return true;
+		}
+
 		if (player.isTrading()) {
 			PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_EXCHANGE_PARTNER_IS_EXCHANGING_WITH_OTHER);
 			return false;

@@ -100,6 +100,12 @@ public class TransformationService {
 
     public void onPlayerTransform(Player player, int itemObjId, int cardId) {
         TransformBookTemplate book = DataManager.TRANSFORM_BOOK_DATA.getTransformBookById(cardId);
+        if (book == null) {
+            // cardId not present in transform_book_templates data - missing data, not a code path we can
+            // recover from; without this guard the NPE below left the client's transformation window hung
+            PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_TRANSFORMATION_CONTRACT_FAIL);
+            return;
+        }
         if (player.isTransformed()) {
             PacketSendUtility.playerSendPacketTime(player, SM_SYSTEM_MESSAGE.STR_MSG_TRANSFORMATION_CANT_CURRENT_STATE, 0);
             PacketSendUtility.playerSendPacketTime(player, SM_SYSTEM_MESSAGE.STR_MSG_ACT_STATE_POLYMORPH, 3000);
