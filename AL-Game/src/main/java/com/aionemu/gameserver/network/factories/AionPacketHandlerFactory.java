@@ -53,7 +53,7 @@ public class AionPacketHandlerFactory {
 		addPacket(new CM_ENTER_WORLD(0xDE, State.AUTHED)); // 7.5 EU
 		addPacket(new CM_UI_SETTINGS(0xDC, State.IN_GAME)); // 7.5 EU
 		addPacket(new CM_MOTION(0x109, State.IN_GAME)); // 7.5 EU
-		addPacket(new CM_WINDSTREAM(0x108, State.IN_GAME)); // 7.5 EU
+		addPacket(new CM_WINDSTREAM(0x46, State.IN_GAME)); // 8.6: C_WIND_PATH per Todo/opcodes_8.6_client.csv (was 0x108, a stale 7.5-era value; client never sent it, confirmed via live capture)
 		//addPacket(new CM_STOP_TRAINING(0x119, State.IN_GAME)); // 7.2 EU
 		addPacket(new CM_REVIVE(0xCB, State.IN_GAME)); // 7.5 EU
 		addPacket(new CM_DUEL_REQUEST(0x145, State.IN_GAME)); // 7.5 EU

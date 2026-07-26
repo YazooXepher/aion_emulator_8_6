@@ -234,9 +234,18 @@ public class TeleportService2 {
 		return true;
 	}
 
-	private static void sendLoc(final Player player, final int mapId, final int instanceId, final float x, final float y, final float z, final byte h, final TeleportAnimation animation) {
+	private static void sendLoc(final Player player, final int mapId, final int instanceId, final float x, final float y, final float z, final byte h, TeleportAnimation animation) {
 		boolean isInstance = DataManager.WORLD_MAPS_DATA.getTemplate(mapId).isInstance();
 		int delay = TELEPORT_DEFAULT_DELAY;
+
+		// standard teleports request BEAM_ANIMATION generically; Asmodians use a fire-themed
+		// variant on real 8.6 for the same "regular" teleport (NPC teleporters, teleport scrolls,
+		// bind recall, etc.) - Elyos keep the beam. Explicit special-case animations (JUMP, MAGE, ...)
+		// are left untouched since they're tied to a specific mechanic, not race.
+		if (animation.equals(TeleportAnimation.BEAM_ANIMATION) && player.getRace() == Race.ASMODIANS) {
+			animation = TeleportAnimation.FIRE_ANIMATION;
+		}
+		final TeleportAnimation finalAnimation = animation;
 
 		if (animation.equals(TeleportAnimation.BEAM_ANIMATION)) {
 			player.setPortAnimation(2);
@@ -259,10 +268,10 @@ public class TeleportService2 {
 				if (player.getLifeStats().isAlreadyDead()) {
 					return;
 				}
-				if (animation.equals(TeleportAnimation.BEAM_ANIMATION)) {
+				if (finalAnimation.equals(TeleportAnimation.BEAM_ANIMATION)) {
 					PacketSendUtility.broadcastPacket(player, new SM_DELETE(player, 2), 50);
 				}
-				else if (animation.equals(TeleportAnimation.JUMP_ANIMATION)) {
+				else if (finalAnimation.equals(TeleportAnimation.JUMP_ANIMATION) || finalAnimation.equals(TeleportAnimation.FIRE_ANIMATION)) {
 					PacketSendUtility.broadcastPacket(player, new SM_DELETE(player, 11), 50);
 				}
 				if (!player.isSpawned()) {
@@ -271,7 +280,7 @@ public class TeleportService2 {
 					DAOManager.getDAO(PlayerDAO.class).storePlayer(player);
 					return;
 				}
-				changePosition(player, mapId, instanceId, x, y, z, h, animation);
+				changePosition(player, mapId, instanceId, x, y, z, h, finalAnimation);
 			}
 		}, delay);
 	}

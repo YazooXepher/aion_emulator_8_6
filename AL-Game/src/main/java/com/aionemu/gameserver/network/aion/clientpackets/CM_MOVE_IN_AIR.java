@@ -21,6 +21,8 @@ import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.model.gameobjects.state.CreatureState;
 import com.aionemu.gameserver.network.aion.AionClientPacket;
 import com.aionemu.gameserver.network.aion.AionConnection.State;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_WINDSTREAM_ANNOUNCE;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 import com.aionemu.gameserver.world.World;
 
 /**
@@ -71,6 +73,10 @@ public class CM_MOVE_IN_AIR extends AionClientPacket {
 			}
 			else if (player.isInPlayerMode(PlayerMode.WINDSTREAM)) {
 				player.windstreamPath.distance = distance;
+				// real 8.6 sends a periodic ride-state broadcast (opcode 0xA4) while gliding
+				// through a windstream, on top of the position sync below - experimental, best
+				// effort at the exact field layout (see SM_WINDSTREAM_ANNOUNCE)
+				PacketSendUtility.sendPacket(player, new SM_WINDSTREAM_ANNOUNCE(player.getObjectId(), x, y, z));
 			}
 			World.getInstance().updatePosition(player, x, y, z, (byte) 0);
 			player.getMoveController().updateLastMove();

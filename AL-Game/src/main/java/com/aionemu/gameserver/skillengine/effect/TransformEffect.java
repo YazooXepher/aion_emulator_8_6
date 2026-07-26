@@ -66,7 +66,25 @@ public abstract class TransformEffect extends EffectTemplate {
 			effect.setAbnormal(state.getId());
 		}
 	}
-    
+
+	@Override
+	public void startEffect(Effect effect) {
+		// model==0 means this shapechange isn't meant to change the player's visible model at all
+		// (e.g. the "Transparency Transformation Potion" family only carries a SPEED buff) - skip the
+		// transform-model plumbing below for those so they keep behaving exactly as before. Real
+		// transforms (a genuine model id, e.g. quest polymorph candy) go through the full logic.
+		if (model != 0) {
+			startEffect(effect, this.state);
+		}
+	}
+
+	@Override
+	public void endEffect(Effect effect) {
+		if (model != 0) {
+			endEffect(effect, this.state);
+		}
+	}
+
     public void endEffect(Effect effect, AbnormalState state) {
         final Creature effected = effect.getEffected();
         int newModel = 0;

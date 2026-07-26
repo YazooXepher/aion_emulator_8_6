@@ -29,6 +29,15 @@ public class SM_WINDSTREAM_ANNOUNCE extends AionServerPacket {
 	private int streamId;
 	private int state;
 
+	// ride-state variant: periodic position sync while gliding along an active windstream.
+	// Real 8.6 captures show this same opcode (0xA4) also carrying a bigger payload during an
+	// active ride (current + target position), on top of the original 13-byte "announce" shape
+	// used when entering a zone. Field-for-field meaning beyond the position floats is unconfirmed.
+	private int objectId;
+	private float curX, curY, curZ;
+	private float targetX, targetY, targetZ;
+	private boolean rideVariant;
+
 	public SM_WINDSTREAM_ANNOUNCE(int bidirectional, int mapId, int streamId, int state) {
 		this.bidirectional = bidirectional;
 		this.mapId = mapId;
@@ -36,11 +45,33 @@ public class SM_WINDSTREAM_ANNOUNCE extends AionServerPacket {
 		this.state = state;
 	}
 
+	public SM_WINDSTREAM_ANNOUNCE(int objectId, float x, float y, float z) {
+		this.objectId = objectId;
+		this.curX = x;
+		this.curY = y;
+		this.curZ = z;
+		this.targetX = x;
+		this.targetY = y;
+		this.targetZ = z;
+		this.rideVariant = true;
+	}
+
 	@Override
 	protected void writeImpl(AionConnection con) {
-		writeD(bidirectional);
-		writeD(mapId);
-		writeD(streamId);
-		writeC(state);
+		if (rideVariant) {
+			writeD(objectId);
+			writeF(curX);
+			writeF(curY);
+			writeF(curZ);
+			writeF(targetX);
+			writeF(targetY);
+			writeF(targetZ);
+		}
+		else {
+			writeD(bidirectional);
+			writeD(mapId);
+			writeD(streamId);
+			writeC(state);
+		}
 	}
 }

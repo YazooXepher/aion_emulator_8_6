@@ -62,6 +62,7 @@ public abstract class AionClientPacket extends BaseClientPacket<AionConnection> 
 		try {
 			// run only if packet is still valid (connection state didn't changed)
 			if (isValid()) {
+				log.info("[DIAG] wire-read " + getClass().getSimpleName() + " ip=" + getConnection().getIP());
 				runImpl();
 			}
 		}
