@@ -95,9 +95,51 @@
     <transform_book_template id="982091" name="Lumiel's Apostle" grade="4" skill_id="6619" compose_value="0"/>
     <transform_book_template id="982092" name="Mouse Ranger" grade="4" skill_id="6631" compose_value="0"/>
     <transform_book_template id="982093" name="Keyboard Ranger" grade="4" skill_id="6632" compose_value="0"/>
+    <transform_book_template id="982109" name="Aphsaranta Adventurer" grade="4" skill_id="6742" compose_value="0"/>
     <!-- Ultimate -->
     <transform_book_template id="982050" name="Kaisinel" grade="5" skill_id="5080" compose_value="25000"/>
     <transform_book_template id="982074" name="Marchutan" grade="5" skill_id="5693" compose_value="25000"/>
     <transform_book_template id="982094" name="Ereshkigal" grade="5" skill_id="6641" compose_value="25000"/>
     <transform_book_template id="982095" name="Tiamat" grade="5" skill_id="6642" compose_value="25000"/>
+    <transform_book_template id="982107" name="Nezekan" grade="5" skill_id="6484" compose_value="0"/>
+    <transform_book_template id="982108" name="Zikel" grade="5" skill_id="6485" compose_value="0"/>
+    <transform_book_template id="982110" name="Lumiel" grade="5" skill_id="6882" compose_value="0"/>
+    <transform_book_template id="982111" name="Yustiel" grade="5" skill_id="6883" compose_value="0"/>
+    <transform_book_template id="982112" name="Vaizel" grade="5" skill_id="6895" compose_value="0"/>
+    <transform_book_template id="982113" name="Triniel" grade="5" skill_id="6896" compose_value="0"/>
+    <transform_book_template id="982114" name="Ariel" grade="5" skill_id="6897" compose_value="0"/>
+    <transform_book_template id="982115" name="Azphel" grade="5" skill_id="6898" compose_value="0"/>
+    <transform_book_template id="982105" name="Warm Snow Fox" grade="3" skill_id="6656" compose_value="0"/>
+    <transform_book_template id="982106" name="Snuggly Snow Fox" grade="3" skill_id="6657" compose_value="0"/>
+    <transform_book_template id="982116" name="Disco Inquin (Silver)" grade="1" skill_id="6904" compose_value="0"/>
+    <transform_book_template id="982117" name="Disco Inquin (Gold)" grade="1" skill_id="6905" compose_value="0"/>
+    <transform_book_template id="982118" name="Disco Inquin (Romantic Pink)" grade="1" skill_id="6906" compose_value="0"/>
+    <transform_book_template id="982119" name="Disco Inquin (Sky Blue)" grade="1" skill_id="6907" compose_value="0"/>
+    <transform_book_template id="982120" name="Glitter Cat (Silver)" grade="1" skill_id="6908" compose_value="0"/>
+    <transform_book_template id="982121" name="Glitter Cat (Gold)" grade="1" skill_id="6909" compose_value="0"/>
+    <transform_book_template id="982122" name="Glitter Cat (Hot Pink)" grade="1" skill_id="6910" compose_value="0"/>
+    <transform_book_template id="982123" name="Glitter Cat (Hot Orange)" grade="1" skill_id="6911" compose_value="0"/>
+    <transform_book_template id="982127" name="True Black Inquin" grade="1" skill_id="6914" compose_value="0"/>
+    <transform_book_template id="982128" name="Glitter Inquin (Sky Blue)" grade="1" skill_id="6915" compose_value="0"/>
+    <transform_book_template id="982129" name="Glitter Inquin (True Red)" grade="1" skill_id="6916" compose_value="0"/>
+    <transform_book_template id="982130" name="Glacier Inquin" grade="1" skill_id="6917" compose_value="0"/>
+    <transform_book_template id="982131" name="Shark Inquin" grade="1" skill_id="6918" compose_value="0"/>
+    <transform_book_template id="982132" name="True Black Cat" grade="1" skill_id="6919" compose_value="0"/>
+    <transform_book_template id="982133" name="Glitter Cat (True Red)" grade="1" skill_id="6920" compose_value="0"/>
+    <transform_book_template id="982134" name="Glitter Cat (Deep Blue)" grade="1" skill_id="6921" compose_value="0"/>
+    <transform_book_template id="982135" name="Glacier Cat" grade="1" skill_id="6922" compose_value="0"/>
+    <transform_book_template id="982136" name="Siamese Cat" grade="1" skill_id="6923" compose_value="0"/>
+    <transform_book_template id="982137" name="Teddy Brown Panda" grade="1" skill_id="6924" compose_value="0"/>
+    <transform_book_template id="982138" name="Crescent Moon Panda" grade="1" skill_id="6925" compose_value="0"/>
+    <transform_book_template id="982139" name="True Black Panda" grade="1" skill_id="6926" compose_value="0"/>
+    <transform_book_template id="982140" name="Punky Pink Gummi Bear" grade="1" skill_id="6927" compose_value="0"/>
+    <transform_book_template id="982141" name="Green Tea Gummi Bear" grade="1" skill_id="6928" compose_value="0"/>
+    <transform_book_template id="982142" name="Indian Blue Gummi Bear" grade="1" skill_id="6929" compose_value="0"/>
+    <transform_book_template id="982143" name="Hot Orange Gummi Bear" grade="1" skill_id="6930" compose_value="0"/>
+    <transform_book_template id="982144" name="True Red Gummi Bear" grade="1" skill_id="6931" compose_value="0"/>
+    <transform_book_template id="982145" name="Rich Purple Gummi Bear" grade="1" skill_id="6932" compose_value="0"/>
+    <transform_book_template id="982146" name="Pompom Panda" grade="1" skill_id="6933" compose_value="0"/>
+    <transform_book_template id="982147" name="Cuddly Panda" grade="1" skill_id="6934" compose_value="0"/>
+    <transform_book_template id="982148" name="Fire Dragon King’s Dragon Knight" grade="5" skill_id="6935" compose_value="0"/>
+    <transform_book_template id="982149" name="Dark Dragon King’s Dragon Knight" grade="5" skill_id="6937" compose_value="0"/>
 </transform_book_templates>

@@ -91,6 +91,11 @@ public class SM_TRANSFORMATION extends AionServerPacket {
 		case 0: {
 			writeD(player.getLastUsedTransformation());
 			writeC(0);
+			// 8.6: confirmed via 4 samples across 3 official captures (Session_6/7/8_templier) -
+			// the real client expects an extra 4-byte field here (observed value 0 in every
+			// sample) before the owned-count field; omitting it made the client misparse the
+			// rest of the packet, corrupting the whole Transformation window once count > 0
+			writeD(0);
 			if (transformList != null && transformList.getTransformations().size() != 0) {
 				writeH(transformList.getTransformations().size());
 				for (AccountTransfo transfo : transformList.getTransformations()) {

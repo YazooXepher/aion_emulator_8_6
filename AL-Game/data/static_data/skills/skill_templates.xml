@@ -123530,6 +123530,759 @@
         </effects>
         <motion name="normalfire"/>
     </skill_template>
+    <skill_template skill_id="6484" name="Nezekan" nameId="2296847" name_desc="Trans_Grade_05_SKill_05_Nezekan" stack="TRANS_GRADE_05_SKILL_05_NEZEKAN" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <!-- model=100003 is a sentinel: confirmed via 2 official 8.6 captures that both Nezekan(982107)
+                 and Zikel(982108) transmit this exact modelId with the real transformId in SM_TRANSFORM,
+                 meaning the client resolves the actual "trans_f_Nezekan" mesh locally from transformId
+                 rather than from a server-supplied NPC model -->
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-50"/>
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="55"/>
+                <change stat="SPEED" func="PERCENT" value="100"/>
+                <change stat="HEAL_SKILL_BOOST" func="PERCENT" value="76"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PVP_ATTACK_RATIO" func="ADD" delta="11" value="225"/>
+                <change stat="PVE_ATTACK_RATIO" func="ADD" delta="11" value="225"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" delta="12" value="229"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" delta="12" value="229"/>
+            </statup>
+            <statup duration2="600000" e="4" noresist="true" element="WIND" preeffect="1">
+                <change stat="MAXHP" func="ADD" delta="220" value="4180"/>
+                <change stat="MAGICAL_RESIST" func="ADD" delta="17" value="324"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="17" value="314"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="17" value="314"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6485" name="Zikel" nameId="2296848" name_desc="Trans_Grade_05_SKill_06_zikel" stack="TRANS_GRADE_05_SKILL_ZIKEL" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-60"/>
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="45"/>
+                <change stat="SPEED" func="PERCENT" value="100"/>
+                <change stat="HEAL_SKILL_BOOST" func="PERCENT" value="76"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PVP_ATTACK_RATIO" func="ADD" delta="11" value="225"/>
+                <change stat="PVE_ATTACK_RATIO" func="ADD" delta="11" value="225"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" delta="12" value="229"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" delta="12" value="229"/>
+            </statup>
+            <statup duration2="600000" e="4" noresist="true" element="WIND" preeffect="1">
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="21" value="399"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="21" value="399"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6882" name="Lumiel" nameId="2297837" name_desc="Trans_Grade_05_SKill_07_Lumiel" stack="TRANS_GRADE_05_SKILL_LUMIEL" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-50"/>
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="55"/>
+                <change stat="SPEED" func="PERCENT" value="100"/>
+                <change stat="HEAL_SKILL_BOOST" func="PERCENT" value="76"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PVP_ATTACK_RATIO" func="ADD" delta="31" value="589"/>
+                <change stat="PVE_ATTACK_RATIO" func="ADD" delta="21" value="399"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" delta="9" value="161"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" delta="9" value="161"/>
+            </statup>
+            <statup duration2="600000" e="4" noresist="true" element="WIND" preeffect="1">
+                <change stat="PHYSICAL_ACCURACY" func="ADD" delta="19" value="359"/>
+                <change stat="MAGICAL_ACCURACY" func="ADD" delta="26" value="494"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="21" value="399"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="21" value="399"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6883" name="Yustiel" nameId="2297838" name_desc="Trans_Grade_05_SKill_08_Yustiel" stack="TRANS_GRADE_05_SKILL_YUSTIEL" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-55"/>
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="50"/>
+                <change stat="SPEED" func="PERCENT" value="100"/>
+                <change stat="HEAL_SKILL_BOOST" func="PERCENT" value="85"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PVP_ATTACK_RATIO" func="ADD" delta="31" value="589"/>
+                <change stat="PVE_ATTACK_RATIO" func="ADD" delta="21" value="399"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" delta="9" value="161"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" delta="9" value="161"/>
+            </statup>
+            <statup duration2="600000" e="4" noresist="true" element="WIND" preeffect="1">
+                <change stat="PHYSICAL_ACCURACY" func="ADD" delta="26" value="494"/>
+                <change stat="MAGICAL_ACCURACY" func="ADD" delta="19" value="359"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="21" value="399"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="21" value="399"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6895" name="Vaizel" nameId="2297975" name_desc="Trans_Grade_05_SKill_09_Vaizel" stack="TRANS_GRADE_05_SKILL_VAIZEL" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-55"/>
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="50"/>
+                <change stat="SPEED" func="PERCENT" value="100"/>
+                <change stat="PHYSICAL_ACCURACY" func="ADD" delta="19" value="342"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PVP_ATTACK_RATIO" func="ADD" delta="19" value="359"/>
+                <change stat="PVE_ATTACK_RATIO" func="ADD" delta="10" value="179"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" delta="11" value="206"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" delta="10" value="183"/>
+            </statup>
+            <statup duration2="600000" e="4" noresist="true" element="WIND" preeffect="1">
+                <change stat="EVASION" func="ADD" delta="18" value="334"/>
+                <change stat="MAGICAL_RESIST" func="ADD" delta="18" value="323"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="18" value="332"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="17" value="313"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6896" name="Triniel" nameId="2297976" name_desc="Trans_Grade_05_SKill_10_Triniel" stack="TRANS_GRADE_05_SKILL_TRINIEL" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-55"/>
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="50"/>
+                <change stat="SPEED" func="PERCENT" value="100"/>
+                <change stat="MAGICAL_ACCURACY" func="ADD" delta="19" value="342"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PVP_ATTACK_RATIO" func="ADD" delta="19" value="359"/>
+                <change stat="PVE_ATTACK_RATIO" func="ADD" delta="10" value="179"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" delta="11" value="206"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" delta="10" value="183"/>
+            </statup>
+            <statup duration2="600000" e="4" noresist="true" element="WIND" preeffect="1">
+                <change stat="EVASION" func="ADD" delta="18" value="323"/>
+                <change stat="MAGICAL_RESIST" func="ADD" delta="18" value="334"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="17" value="313"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="18" value="332"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6897" name="Ariel" nameId="2297979" name_desc="Trans_Grade_05_SKill_11_Ariel" stack="TRANS_GRADE_05_SKILL_ARIEL" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-60"/>
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="55"/>
+                <change stat="SPEED" func="PERCENT" value="100"/>
+                <change stat="HEAL_SKILL_BOOST" func="PERCENT" value="78"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PVP_ATTACK_RATIO" func="ADD" delta="21" value="399"/>
+                <change stat="PVE_ATTACK_RATIO" func="ADD" delta="31" value="589"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" delta="11" value="206"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" delta="11" value="206"/>
+            </statup>
+            <statup duration2="600000" e="4" noresist="true" element="WIND" preeffect="1">
+                <change stat="PHYSICAL_ACCURACY" func="ADD" delta="19" value="359"/>
+                <change stat="MAGICAL_ACCURACY" func="ADD" delta="21" value="392"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="19" value="346"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="21" value="394"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6898" name="Azphel" nameId="2297980" name_desc="Trans_Grade_05_SKill_12_Azphel" stack="TRANS_GRADE_05_SKILL_AZPHEL" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-60"/>
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="55"/>
+                <change stat="SPEED" func="PERCENT" value="100"/>
+                <change stat="HEAL_SKILL_BOOST" func="PERCENT" value="78"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PVP_ATTACK_RATIO" func="ADD" delta="21" value="399"/>
+                <change stat="PVE_ATTACK_RATIO" func="ADD" delta="31" value="589"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" delta="11" value="206"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" delta="11" value="206"/>
+            </statup>
+            <statup duration2="600000" e="4" noresist="true" element="WIND" preeffect="1">
+                <change stat="PHYSICAL_ACCURACY" func="ADD" delta="21" value="392"/>
+                <change stat="MAGICAL_ACCURACY" func="ADD" delta="19" value="359"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="21" value="394"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="19" value="346"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6656" name="Warm Snow Fox" nameId="2296822" name_desc="Trans_Grade_03_SKill_22" stack="TRANS_GRADE_03_SKILL_WARM_SNOW_FOX" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="20"/>
+                <change stat="SPEED" func="PERCENT" value="40"/>
+                <change stat="MAGICAL_ATTACK" func="ADD" delta="0" value="72"/>
+                <change stat="MAGICAL_ACCURACY" func="ADD" delta="0" value="219"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PHYSICAL_DEFENSE" func="ADD" delta="0" value="72"/>
+                <change stat="MAGICAL_DEFEND" func="ADD" delta="0" value="72"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6657" name="Snuggly Snow Fox" nameId="2296823" name_desc="Trans_Grade_03_SKill_23" stack="TRANS_GRADE_03_SKILL_SNUGGLY_SNOW_FOX" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-20"/>
+                <change stat="SPEED" func="PERCENT" value="40"/>
+                <change stat="PHYSICAL_ATTACK" func="ADD" delta="0" value="72"/>
+                <change stat="PHYSICAL_ACCURACY" func="ADD" delta="0" value="219"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PHYSICAL_DEFENSE" func="ADD" delta="0" value="72"/>
+                <change stat="MAGICAL_DEFEND" func="ADD" delta="0" value="72"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6904" name="Disco Inquin (Silver)" nameId="2298003" name_desc="Trans_Grade_01_SKill_19" stack="TRANS_GRADE_01_SKILL_DISCO_INQUIN_SILVER" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_DEFENSE" func="ADD" delta="0" value="35"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6905" name="Disco Inquin (Gold)" nameId="2298004" name_desc="Trans_Grade_01_SKill_20" stack="TRANS_GRADE_01_SKILL_DISCO_INQUIN_GOLD" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_ACCURACY" func="ADD" delta="0" value="99"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6906" name="Disco Inquin (Romantic Pink)" nameId="2298005" name_desc="Trans_Grade_01_SKill_21" stack="TRANS_GRADE_01_SKILL_DISCO_INQUIN_ROMANTIC_PINK" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="0" value="78"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6907" name="Disco Inquin (Sky Blue)" nameId="2298006" name_desc="Trans_Grade_01_SKill_22" stack="TRANS_GRADE_01_SKILL_DISCO_INQUIN_SKY_BLUE" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="0" value="78"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6908" name="Glitter Cat (Silver)" nameId="2298007" name_desc="Trans_Grade_01_SKill_23" stack="TRANS_GRADE_01_SKILL_GLITTER_CAT_SILVER" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="MAGICAL_ATTACK" func="ADD" delta="0" value="41"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6909" name="Glitter Cat (Gold)" nameId="2298008" name_desc="Trans_Grade_01_SKill_24" stack="TRANS_GRADE_01_SKILL_GLITTER_CAT_GOLD" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PARRY" func="ADD" delta="0" value="113"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6910" name="Glitter Cat (Hot Pink)" nameId="2298009" name_desc="Trans_Grade_01_SKill_25" stack="TRANS_GRADE_01_SKILL_GLITTER_CAT_HOT_PINK" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="EVASION" func="ADD" delta="0" value="78"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6911" name="Glitter Cat (Hot Orange)" nameId="2298010" name_desc="Trans_Grade_01_SKill_26" stack="TRANS_GRADE_01_SKILL_GLITTER_CAT_HOT_ORANGE" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_ATTACK" func="ADD" delta="0" value="41"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6914" name="True Black Inquin" nameId="2298105" name_desc="Trans_Grade_01_SKill_27" stack="TRANS_GRADE_01_SKILL_TRUE_BLACK_INQUIN" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="BLOCK" func="ADD" delta="0" value="113"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6915" name="Glitter Inquin (Sky Blue)" nameId="2298106" name_desc="Trans_Grade_01_SKill_28" stack="TRANS_GRADE_01_SKILL_GLITTER_INQUIN_SKY_BLUE" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="MAGICAL_RESIST" func="ADD" delta="0" value="113"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6916" name="Glitter Inquin (True Red)" nameId="2298107" name_desc="Trans_Grade_01_SKill_29" stack="TRANS_GRADE_01_SKILL_GLITTER_INQUIN_TRUE_RED" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_DEFENSE" func="ADD" delta="0" value="35"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6917" name="Glacier Inquin" nameId="2298108" name_desc="Trans_Grade_01_SKill_30" stack="TRANS_GRADE_01_SKILL_GLACIER_INQUIN" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_ACCURACY" func="ADD" delta="0" value="99"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6918" name="Shark Inquin" nameId="2298109" name_desc="Trans_Grade_01_SKill_31" stack="TRANS_GRADE_01_SKILL_SHARK_INQUIN" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="0" value="78"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6919" name="True Black Cat" nameId="2298110" name_desc="Trans_Grade_01_SKill_32" stack="TRANS_GRADE_01_SKILL_TRUE_BLACK_CAT" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="0" value="78"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6920" name="Glitter Cat (True Red)" nameId="2298111" name_desc="Trans_Grade_01_SKill_33" stack="TRANS_GRADE_01_SKILL_GLITTER_CAT_TRUE_RED" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="MAGICAL_ATTACK" func="ADD" delta="0" value="41"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6921" name="Glitter Cat (Deep Blue)" nameId="2298112" name_desc="Trans_Grade_01_SKill_34" stack="TRANS_GRADE_01_SKILL_GLITTER_CAT_DEEP_BLUE" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PARRY" func="ADD" delta="0" value="113"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6922" name="Glacier Cat" nameId="2298113" name_desc="Trans_Grade_01_SKill_35" stack="TRANS_GRADE_01_SKILL_GLACIER_CAT" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="EVASION" func="ADD" delta="0" value="78"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6923" name="Siamese Cat" nameId="2298114" name_desc="Trans_Grade_01_SKill_36" stack="TRANS_GRADE_01_SKILL_SIAMESE_CAT" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_ATTACK" func="ADD" delta="0" value="41"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6924" name="Teddy Brown Panda" nameId="2298128" name_desc="Trans_Grade_01_SKill_37" stack="TRANS_GRADE_01_SKILL_TEDDY_BROWN_PANDA" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="BLOCK" func="ADD" delta="0" value="113"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6925" name="Crescent Moon Panda" nameId="2298129" name_desc="Trans_Grade_01_SKill_38" stack="TRANS_GRADE_01_SKILL_CRESCENT_MOON_PANDA" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="MAGICAL_RESIST" func="ADD" delta="0" value="113"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6926" name="True Black Panda" nameId="2298130" name_desc="Trans_Grade_01_SKill_39" stack="TRANS_GRADE_01_SKILL_TRUE_BLACK_PANDA" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_DEFENSE" func="ADD" delta="0" value="35"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6927" name="Punky Pink Gummi Bear" nameId="2298131" name_desc="Trans_Grade_01_SKill_40" stack="TRANS_GRADE_01_SKILL_PUNKY_PINK_GUMMI_BEAR" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_ACCURACY" func="ADD" delta="0" value="99"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6928" name="Green Tea Gummi Bear" nameId="2298132" name_desc="Trans_Grade_01_SKill_41" stack="TRANS_GRADE_01_SKILL_GREEN_TEA_GUMMI_BEAR" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="0" value="78"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6929" name="Indian Blue Gummi Bear" nameId="2298133" name_desc="Trans_Grade_01_SKill_42" stack="TRANS_GRADE_01_SKILL_INDIAN_BLUE_GUMMI_BEAR" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="0" value="78"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6930" name="Hot Orange Gummi Bear" nameId="2298134" name_desc="Trans_Grade_01_SKill_43" stack="TRANS_GRADE_01_SKILL_HOT_ORANGE_GUMMI_BEAR" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="MAGICAL_ATTACK" func="ADD" delta="0" value="41"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6931" name="True Red Gummi Bear" nameId="2298135" name_desc="Trans_Grade_01_SKill_44" stack="TRANS_GRADE_01_SKILL_TRUE_RED_GUMMI_BEAR" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PARRY" func="ADD" delta="0" value="113"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6932" name="Rich Purple Gummi Bear" nameId="2298136" name_desc="Trans_Grade_01_SKill_45" stack="TRANS_GRADE_01_SKILL_RICH_PURPLE_GUMMI_BEAR" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="EVASION" func="ADD" delta="0" value="78"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6933" name="Pompom Panda" nameId="2298137" name_desc="Trans_Grade_01_SKill_46" stack="TRANS_GRADE_01_SKILL_POMPOM_PANDA" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="PHYSICAL_ATTACK" func="ADD" delta="0" value="41"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6934" name="Cuddly Panda" nameId="2298138" name_desc="Trans_Grade_01_SKill_47" stack="TRANS_GRADE_01_SKILL_CUDDLY_PANDA" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="SPEED" func="PERCENT" value="30"/>
+                <change stat="BLOCK" func="ADD" delta="0" value="113"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6935" name="Fire Dragon King’s Dragon Knight" nameId="2298150" name_desc="Trans_Grade_05_SKill_13_FireDragon" stack="TRANS_GRADE_05_SKILL_FIRE_DRAGON_KINGS_DRAGON_KNIGHT" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-60"/>
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="55"/>
+                <change stat="SPEED" func="PERCENT" value="100"/>
+                <change stat="HEAL_SKILL_BOOST" func="PERCENT" value="85"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PVP_ATTACK_RATIO" func="ADD" delta="31" value="589"/>
+                <change stat="PVE_ATTACK_RATIO" func="ADD" delta="31" value="589"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" delta="12" value="229"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" delta="12" value="229"/>
+            </statup>
+            <statup duration2="600000" e="4" noresist="true" element="WIND" preeffect="1">
+                <change stat="PHYSICAL_ACCURACY" func="ADD" delta="26" value="494"/>
+                <change stat="MAGICAL_ACCURACY" func="ADD" delta="26" value="494"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="21" value="399"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="21" value="399"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6937" name="Dark Dragon King’s Dragon Knight" nameId="2298202" name_desc="Trans_Grade_05_SKill_14_DarkDragon" stack="TRANS_GRADE_05_SKILL_DARK_DRAGON_KINGS_DRAGON_KNIGHT" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="100003" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-60"/>
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="55"/>
+                <change stat="SPEED" func="PERCENT" value="100"/>
+                <change stat="HEAL_SKILL_BOOST" func="PERCENT" value="85"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PVP_ATTACK_RATIO" func="ADD" delta="31" value="589"/>
+                <change stat="PVE_ATTACK_RATIO" func="ADD" delta="31" value="589"/>
+                <change stat="PVP_DEFEND_RATIO" func="ADD" delta="12" value="229"/>
+                <change stat="PVE_DEFEND_RATIO" func="ADD" delta="12" value="229"/>
+            </statup>
+            <statup duration2="600000" e="4" noresist="true" element="WIND" preeffect="1">
+                <change stat="PHYSICAL_ACCURACY" func="ADD" delta="26" value="494"/>
+                <change stat="MAGICAL_ACCURACY" func="ADD" delta="26" value="494"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="21" value="399"/>
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="21" value="399"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
+    <skill_template skill_id="6742" name="Aphsaranta Adventurer" nameId="2297436" name_desc="Trans_Grade_04_Skill_32" stack="TRANS_GRADE_04_SKILL" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0">
+        <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
+        <startconditions>
+            <target value="PC"/>
+        </startconditions>
+        <effects>
+            <shapechange model="202838" type="PC" duration2="600000" effectid="150301" e="1" basiclvl="100" noresist="true"/>
+            <statup duration2="600000" e="2" noresist="true" element="WIND" preeffect="1">
+                <change stat="ATTACK_SPEED" func="PERCENT" value="-25"/>
+                <change stat="BOOST_CASTING_TIME" func="PERCENT" value="18"/>
+                <change stat="SPEED" func="PERCENT" value="60"/>
+                <change stat="HEAL_SKILL_BOOST" func="PERCENT" value="54"/>
+            </statup>
+            <statup duration2="600000" e="3" noresist="true" element="WIND" preeffect="1">
+                <change stat="PHYSICAL_ATTACK" func="ADD" delta="5" value="85"/>
+                <change stat="MAGICAL_ATTACK" func="ADD" delta="5" value="85"/>
+                <change stat="MAGICAL_RESIST" func="ADD" delta="14" value="273"/>
+                <change stat="PHYSICAL_CRITICAL" func="ADD" delta="12" value="225"/>
+            </statup>
+            <statup duration2="600000" e="4" noresist="true" element="WIND" preeffect="1">
+                <change stat="MAGICAL_CRITICAL" func="ADD" delta="12" value="225"/>
+            </statup>
+        </effects>
+        <motion name="normalfire"/>
+    </skill_template>
     <skill_template skill_id="6643" name="Serious Hanfu Pixel" nameId="4593073" name_desc="Trans_Grade_04_SKill_11d" stack="TRANS_GRADE_04_SKILL_11D" lvl="1" skill_group="NONE" skilltype="MAGICAL" skillsubtype="BUFF" tslot="BUFF" activation="ACTIVE" cooldown="0" duration="0" noremoveatdie="true">
         <properties first_target="ME" first_target_range="2" target_relation="ALL" target_type="ONLYONE" target_species="PC"/>
         <startconditions>
