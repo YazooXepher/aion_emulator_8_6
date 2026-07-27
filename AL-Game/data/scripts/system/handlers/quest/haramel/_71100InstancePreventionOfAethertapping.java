@@ -37,11 +37,10 @@ public class _71100InstancePreventionOfAethertapping extends QuestHandler {
 
 	@Override
 	public void register() {
-		qe.registerQuestNpc(700950).addOnTalkEvent(questId); // Aether Cart
 		qe.registerQuestNpc(700953).addOnTalkEvent(questId); // Reprocessed Odella
 
 		for (int mob : mobs) {
-			qe.registerQuestNpc(mob).addOnKillEvent(questId);
+			qe.registerQuestNpc(mob).addOnKillEvent(questId); // Aether Cart
 		}
 	}
 
@@ -63,29 +62,17 @@ public class _71100InstancePreventionOfAethertapping extends QuestHandler {
 
 		if (qs.getStatus() == QuestStatus.START) {
 			switch (targetId) {
-				case 700950: {
-					switch (dialog) {
-						// ToDo: check correct action for this npc
-						case USE_OBJECT: {
-							qs.setQuestVar(1);
-							updateQuestStatus(env);
-							return false;
-						}
-						default: 
-							break;
-					}
-					break;
-				}
 				case 700953: {
 					switch (dialog) {
-						// ToDo: check correct action for this npc
 						case USE_OBJECT: {
-							qs.setQuestVar(2);
-							qs.setStatus(QuestStatus.REWARD);
-							updateQuestStatus(env);
+							if (qs.getQuestVarById(0) == 1) {
+								qs.setQuestVar(2);
+								qs.setStatus(QuestStatus.REWARD);
+								updateQuestStatus(env);
+							}
 							return false;
 						}
-						default: 
+						default:
 							break;
 					}
 					break;
@@ -97,26 +84,23 @@ public class _71100InstancePreventionOfAethertapping extends QuestHandler {
 
 		return false;
 	}
-	/*
+
 	@Override
 	public boolean onKillEvent(QuestEnv env) {
 		Player player = env.getPlayer();
 		QuestState qs = player.getQuestStateList().getQuestState(questId);
 
-		if (qs != null && qs.getStatus() == QuestStatus.START) {
-			int var = qs.getQuestVarById(0);
-			int var1 = qs.getQuestVarById(1);
-
-			// (0) Step: 0, Count: 3, Mobs : 700950
-
-			if (var == 0 && var1 < 2) {
-			   return defaultOnKillEvent(env, mobs, var1, var1 + 1, 1);
-			} else {
+		// quest_data.xml declares <quest_kill npc_ids="700950" seq="0"/> (destroy the Aether
+		// Cart) - the previous USE_OBJECT dialog case for this NPC didn't match the official
+		// objective and left the real kill handler commented out, so the cart could never
+		// actually be "destroyed" to progress the quest
+		if (qs != null && qs.getStatus() == QuestStatus.START && env.getTargetId() == 700950) {
+			if (qs.getQuestVarById(0) == 0) {
 				qs.setQuestVar(1);
 				updateQuestStatus(env);
+				return true;
 			}
 		}
 		return false;
 	}
-	*/
 }

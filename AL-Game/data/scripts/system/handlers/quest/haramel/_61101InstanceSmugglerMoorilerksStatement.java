@@ -37,8 +37,8 @@ public class _61101InstanceSmugglerMoorilerksStatement extends QuestHandler {
 
 	@Override
 	public void register() {
-		qe.registerQuestNpc(799522).addOnQuestStart(questId); // Moofrenerk
-		qe.registerQuestNpc(799522).addOnTalkEvent(questId); // Moofrenerk
+		qe.registerQuestNpc(799522).addOnQuestStart(questId); // Moorilerk
+		qe.registerQuestNpc(799522).addOnTalkEvent(questId); // Moorilerk
 		qe.registerQuestNpc(799523).addOnTalkEvent(questId); // Moofrenerk
 		qe.registerQuestNpc(700951).addOnTalkEvent(questId); // Raw Odium
 		qe.registerQuestNpc(700833).addOnTalkEvent(questId); // Fine Odium

@@ -36,8 +36,17 @@ public class _71101InstanceSmugglerMoorilerksStatement extends QuestHandler {
 
 	@Override
 	public void register() {
-		qe.registerQuestNpc(799523).addOnQuestStart(questId); // Moofrenerk
+		// matches the working Elyos twin (61101): Moorilerk (799522) offers/starts the quest,
+		// but the conversation continues with Moofrenerk (799523) once it's under way. The
+		// previous version wired everything to 799523 (Moofrenerk) instead, including the
+		// initial offer - since our server never listened on the real Moorilerk (799522) at
+		// all, the client's own quest-select click against him matched no handler, and with a
+		// GM account that surfaced as a repeating "questId71101 dialogId31" debug message.
+		qe.registerQuestNpc(799522).addOnQuestStart(questId); // Moorilerk
+		qe.registerQuestNpc(799522).addOnTalkEvent(questId); // Moorilerk
 		qe.registerQuestNpc(799523).addOnTalkEvent(questId); // Moofrenerk
+		qe.registerQuestNpc(700951).addOnTalkEvent(questId); // Raw Odium
+		qe.registerQuestNpc(700833).addOnTalkEvent(questId); // Fine Odium
 	}
 
 	@Override
@@ -53,7 +62,7 @@ public class _71101InstanceSmugglerMoorilerksStatement extends QuestHandler {
 		int targetId = env.getTargetId();
 
 		if (qs == null || qs.getStatus() == QuestStatus.NONE ) {
-	  		if (targetId == 799523) {
+	  		if (targetId == 799522) {
 				switch (dialog) {
 					case QUEST_SELECT: {
 						return sendQuestDialog(env, 4762);
@@ -83,7 +92,18 @@ public class _71101InstanceSmugglerMoorilerksStatement extends QuestHandler {
 						case FINISH_DIALOG: {
 							return sendQuestSelectionDialog(env);
 						}
-						default: 
+						default:
+							break;
+					}
+					break;
+				}
+				case 700951:
+				case 700833: {
+					switch (dialog) {
+						case USE_OBJECT: {
+							return true;
+						}
+						default:
 							break;
 					}
 					break;

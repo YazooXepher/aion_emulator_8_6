@@ -36,7 +36,14 @@ public class _71102InstanceSmugglerMoofrenerksStatement extends QuestHandler {
 
 	@Override
 	public void register() {
-		qe.registerQuestNpc(799524).addOnQuestStart(questId); // Gestanerk
+		// quest is literally titled "Moofrenerk's Statement" and the client's own dialogue
+		// script (quest_q61102.html, the Elyos twin) has Moofrenerk offer it, then send the
+		// player to Gestanerk for the actual report-in - matching 71101's own two-NPC pattern
+		// (start with one Shugo, finish with another). This handler had both ends wired to
+		// Gestanerk (799524) only, so Moofrenerk (799523) - who the player actually talks to
+		// first - had nothing registered and every QUEST_SELECT click on him fell through.
+		qe.registerQuestNpc(799523).addOnQuestStart(questId); // Moofrenerk
+		qe.registerQuestNpc(799523).addOnTalkEvent(questId); // Moofrenerk
 		qe.registerQuestNpc(799524).addOnTalkEvent(questId); // Gestanerk
 	}
 
@@ -53,7 +60,7 @@ public class _71102InstanceSmugglerMoofrenerksStatement extends QuestHandler {
 		int targetId = env.getTargetId();
 
 		if (qs == null || qs.getStatus() == QuestStatus.NONE ) {
-	  		if (targetId == 799524) {
+	  		if (targetId == 799523) {
 				switch (dialog) {
 					case QUEST_SELECT: {
 						return sendQuestDialog(env, 4762);
@@ -75,18 +82,29 @@ public class _71102InstanceSmugglerMoofrenerksStatement extends QuestHandler {
 				case 799524: {
 					switch (dialog) {
 						case QUEST_SELECT: {
-							return sendQuestDialog(env, 1011);
+							// matches the proven Elyos twin 61102: this quest has no item-check
+							// leg, it goes straight from the report-in dialog to the reward
+							// prompt. The old value (1011, copied from 71101's unrelated
+							// second-visit page) doesn't exist in this quest's own
+							// Quest_Q71102.html and produced a client-side "load fail".
+							return sendQuestDialog(env, 10002);
 						}
-						case FINISH_DIALOG: {
-							return sendQuestSelectionDialog(env);
+						case SELECT_QUEST_REWARD: {
+							qs.setStatus(QuestStatus.REWARD);
+							updateQuestStatus(env);
+							return sendQuestDialog(env, 5);
 						}
-						default: 
+						default:
 							break;
 					}
 					break;
 				}
 				default:
 					break;
+			}
+		} else if (qs.getStatus() == QuestStatus.REWARD) {
+			if (targetId == 799524) {
+				return sendQuestEndDialog(env);
 			}
 		}
 

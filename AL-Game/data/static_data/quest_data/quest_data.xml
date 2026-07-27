@@ -102113,7 +102113,9 @@
             <selectable_reward_item item_id="160020001" count="5"/>
         </rewards>
         <quest_drop npc_id="700834" item_id="182216580" drop_each_member="1" collecting_step="6"/>
-        <quest_kill npc_ids="653218" seq="0"/>
+        <quest_kill npc_ids="653196" seq="0"/>
+        <quest_kill npc_ids="653205" seq="1"/>
+        <quest_kill npc_ids="653218" seq="2"/>
         <start_conditions>
             <finished quest_id="60008"/>
         </start_conditions>
@@ -111777,7 +111779,9 @@
             <selectable_reward_item item_id="160020001" count="5"/>
         </rewards>
         <quest_drop npc_id="700834" item_id="182216581" drop_each_member="1" collecting_step="6"/>
-        <quest_kill npc_ids="653218" seq="0"/>
+        <quest_kill npc_ids="653196" seq="0"/>
+        <quest_kill npc_ids="653205" seq="1"/>
+        <quest_kill npc_ids="653218" seq="2"/>
         <start_conditions>
             <finished quest_id="70008"/>
         </start_conditions>
