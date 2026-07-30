@@ -16,6 +16,9 @@
  */
 package com.aionemu.gameserver.network.aion.clientpackets;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.controllers.observer.ItemUseObserver;
 import com.aionemu.gameserver.model.DescriptionId;
@@ -39,6 +42,8 @@ import com.aionemu.gameserver.utils.ThreadPoolManager;
  * @author xTz
  */
 public class CM_TUNE extends AionClientPacket {
+
+	private static final Logger diagLog = LoggerFactory.getLogger(CM_TUNE.class);
 
 	private int itemObjectId, tuningScrollId;
 
@@ -75,10 +80,14 @@ public class CM_TUNE extends AionClientPacket {
             }
         }
         else {
+            diagLog.info("[DIAG CM_TUNE] player=" + player.getName() + " item=" + item.getItemTemplate().getTemplateId()
+                + " optionalSocket=" + item.getOptionalSocket() + " randomBonusId=" + item.getItemTemplate().getRandomBonusId()
+                + " realRndBonus(template)=" + item.getItemTemplate().getRealRndBonus() + " realRndBonus(instance)=" + item.getRealRndBonus());
             if (item.getOptionalSocket() != -1 && item.getItemTemplate().getRandomBonusId() == 0 && item.getItemTemplate().getRealRndBonus() == 0) {
+                diagLog.info("[DIAG CM_TUNE] early return (gate check failed) for item=" + item.getItemTemplate().getTemplateId());
                 return;
             }
-            
+
             final ItemTemplate template = item.getItemTemplate();
             final int nameId = template.getNameId();
             PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0, item.getObjectId(), item.getItemId(), 5000, 9));
@@ -86,6 +95,8 @@ public class CM_TUNE extends AionClientPacket {
 
                 @Override
                 public void abort() {
+                    diagLog.info("[DIAG CM_TUNE] ABORT fired (observer cancel) for item=" + item.getItemTemplate().getTemplateId()
+                        + " player=" + player.getName());
                     player.getController().cancelTask(TaskId.ITEM_USE);
                     player.removeItemCoolDown(template.getUseLimits().getDelayId());
                     PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_ITEM_CANCELED(new DescriptionId(nameId)));
@@ -94,17 +105,22 @@ public class CM_TUNE extends AionClientPacket {
                 }
             };
             player.getObserveController().attach(observer);
+            diagLog.info("[DIAG CM_TUNE] scheduling 5000ms tune task for item=" + item.getItemTemplate().getTemplateId());
             player.getController().addTask(TaskId.ITEM_USE, ThreadPoolManager.getInstance().schedule(new Runnable() {
 
                 @Override
                 public void run() {
+                    diagLog.info("[DIAG CM_TUNE] scheduled task FIRED for item=" + item.getItemTemplate().getTemplateId());
                     if (item.getOptionalSocket() != -1 && item.getItemTemplate().getRandomBonusId() == 0 && item.getItemTemplate().getRealRndBonus() == 0) {
+                        diagLog.info("[DIAG CM_TUNE] scheduled task early return (gate check) for item=" + item.getItemTemplate().getTemplateId());
                         return;
                     }
                     if ((item.getRealRndBonus() != null || item.getRandomStats() != null) && !player.getInventory().tryDecreaseKinah(tunePrice)) {
+                        diagLog.info("[DIAG CM_TUNE] scheduled task early return (kinah check) for item=" + item.getItemTemplate().getTemplateId()
+                            + " tunePrice=" + tunePrice + " kinah=" + player.getInventory().getKinah());
                         return;
                     }
-                    
+
                     item.setRandomStats(null);
                     item.setBonusNumber(0);
                     item.setRndBonus();
@@ -123,6 +139,7 @@ public class CM_TUNE extends AionClientPacket {
                     item.setPersistentState(PersistentState.UPDATE_REQUIRED);
 					player.getInventory().setPersistentState(PersistentState.UPDATE_REQUIRED);
 					ItemPacketService.updateItemAfterInfoChange(player, item);
+                    diagLog.info("[DIAG CM_TUNE] scheduled task COMPLETED successfully for item=" + item.getItemTemplate().getTemplateId());
                     PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1401626, new Object[] { new DescriptionId(nameId) }));
     				PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0 , item.getObjectId(), item.getItemId(), 0, 10));
                 }

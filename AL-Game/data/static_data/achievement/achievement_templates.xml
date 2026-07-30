@@ -590,4 +590,148 @@
         </rewards>
         <actions ids="3042 3043 3040 3041 2041 3033 6007 3051 3052 3053 2027 2046 2047 3054"/>
     </achievement_template>
+    <achievement_template id="75" name="Daily_Mon_76_85_v80_L" title="1830425" type="DAILY" repeat="MON" race="ELYOS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 3062 3034 2035 2033 2042 3030 2049 2052 1021 3056"/>
+    </achievement_template>
+    <achievement_template id="76" name="Daily_Tue_76_85_v80_L" title="1830425" type="DAILY" repeat="TUE" race="ELYOS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 2054 3034 2035 5013 2043 3031 2049 4015 1021 4018"/>
+    </achievement_template>
+    <achievement_template id="77" name="Daily_Wed_76_85_v80_L" title="1830425" type="DAILY" repeat="WED" race="ELYOS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 3062 3034 2035 2033 2042 3030 2049 2052 1021 3056"/>
+    </achievement_template>
+    <achievement_template id="78" name="Daily_Thu_76_85_v80_L" title="1830425" type="DAILY" repeat="THU" race="ELYOS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 2054 3034 2035 5013 2043 3031 2049 4015 1021 4018"/>
+    </achievement_template>
+    <achievement_template id="79" name="Daily_Fri_76_85_v80_L" title="1830425" type="DAILY" repeat="FRI" race="ELYOS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 3062 3034 2035 2033 2042 3030 2049 2052 1021 3056"/>
+    </achievement_template>
+    <achievement_template id="80" name="Daily_Sat_76_85_v80_L" title="1830425" type="DAILY" repeat="SAT" race="ELYOS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 2054 3034 2035 5013 2043 3031 2049 4015 1021 6008"/>
+    </achievement_template>
+    <achievement_template id="81" name="Daily_Sun_76_85_v80_L" title="1830425" type="DAILY" repeat="SUN" race="ELYOS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 3062 3034 2035 2033 2044 3032 2049 2052 1021 6008"/>
+    </achievement_template>
+    <achievement_template id="82" name="Weekly_76_85_v80_L" title="1830429" type="WEEKLY" repeat="ALL" race="ELYOS" minlevel="76" maxlevel="85" completecount="7">
+        <rewards>
+            <reward_item item_id="188073477" count="1"/>
+            <reward_item item_id="164010140" count="1"/>
+            <reward_item item_id="165080000" count="3"/>
+            <reward_item item_id="188120134" count="20"/>
+        </rewards>
+        <actions ids="3042 3043 3060 3040 3051 3055 2056 2058 1023 1026 2053 1022 2050 3063 2057 3033"/>
+    </achievement_template>
+    <achievement_template id="83" name="Daily_Mon_76_85_v80_D" title="1830425" type="DAILY" repeat="MON" race="ASMODIANS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 3062 3035 2036 2034 2042 3030 2049 2052 1021 3056"/>
+    </achievement_template>
+    <achievement_template id="84" name="Daily_Tue_76_85_v80_D" title="1830425" type="DAILY" repeat="TUE" race="ASMODIANS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 2055 3035 2036 5013 2043 3031 2049 4015 1021 4018"/>
+    </achievement_template>
+    <achievement_template id="85" name="Daily_Wed_76_85_v80_D" title="1830425" type="DAILY" repeat="WED" race="ASMODIANS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 3062 3035 2036 2034 2042 3030 2049 2052 1021 3056"/>
+    </achievement_template>
+    <achievement_template id="86" name="Daily_Thu_76_85_v80_D" title="1830425" type="DAILY" repeat="THU" race="ASMODIANS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 2055 3035 2036 5013 2043 3031 2049 4015 1021 4018"/>
+    </achievement_template>
+    <achievement_template id="87" name="Daily_Fri_76_85_v80_D" title="1830425" type="DAILY" repeat="FRI" race="ASMODIANS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 3062 3035 2036 2034 2042 3030 2049 2052 1021 3056"/>
+    </achievement_template>
+    <achievement_template id="88" name="Daily_Sat_76_85_v80_D" title="1830425" type="DAILY" repeat="SAT" race="ASMODIANS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 2055 3035 2036 5013 2043 3031 2049 4015 1021 6008"/>
+    </achievement_template>
+    <achievement_template id="89" name="Daily_Sun_76_85_v80_D" title="1830425" type="DAILY" repeat="SUN" race="ASMODIANS" minlevel="76" maxlevel="85" completecount="8">
+        <rewards>
+            <reward_item item_id="188073473" count="1"/>
+            <reward_item item_id="188073476" count="1"/>
+            <reward_item item_id="188073475" count="1"/>
+            <reward_item item_id="186020002" count="1"/>
+        </rewards>
+        <actions ids="5009 4010 4019 4012 6006 3062 3035 2036 2034 2044 3032 2049 2052 1021 6008"/>
+    </achievement_template>
+    <achievement_template id="90" name="Weekly_76_85_v80_D" title="1830429" type="WEEKLY" repeat="ALL" race="ASMODIANS" minlevel="76" maxlevel="85" completecount="7">
+        <rewards>
+            <reward_item item_id="188073477" count="1"/>
+            <reward_item item_id="164010140" count="1"/>
+            <reward_item item_id="165080000" count="3"/>
+            <reward_item item_id="188120134" count="20"/>
+        </rewards>
+        <actions ids="3042 3043 3060 3040 3051 3055 2056 2058 1024 1026 2053 1022 2050 3063 2057 3033"/>
+    </achievement_template>
 </achievement_templates>

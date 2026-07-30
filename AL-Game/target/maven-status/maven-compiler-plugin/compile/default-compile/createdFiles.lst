@@ -396,6 +396,7 @@ com\aionemu\gameserver\model\templates\item\actions\EnchantGlyphAction.class
 com\aionemu\gameserver\model\stats\container\CreatureGameStats.class
 com\aionemu\gameserver\services\SiegeService$7.class
 com\aionemu\gameserver\skillengine\effect\HideEffect.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_CREATIVITY_POINTS_APPLY.class
 com\aionemu\gameserver\network\aion\clientpackets\CM_EXPAND_CUBE.class
 com\aionemu\gameserver\world\zone\SiegeZoneInstance.class
 com\aionemu\gameserver\skillengine\effect\OneTimeBoostSkillCriticalEffect.class
@@ -894,6 +895,7 @@ com\aionemu\gameserver\services\siegeservice\SiegeAutoRace$2.class
 com\aionemu\gameserver\ai2\event\AIEventLog.class
 com\aionemu\gameserver\model\autogroup\AutoInstance$1.class
 com\aionemu\gameserver\network\aion\clientpackets\CM_DISTRIBUTION_SETTINGS.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_COALESCENCE_STARTUP.class
 com\aionemu\gameserver\skillengine\effect\SubTypeBoostResistEffect.class
 com\aionemu\gameserver\network\aion\clientpackets\CM_REGISTER_BROKER_ITEM.class
 com\aionemu\gameserver\utils\HumanTime$1.class
@@ -1141,6 +1143,7 @@ com\aionemu\gameserver\model\instance\instancereward\KamarBattlefieldReward.clas
 com\aionemu\gameserver\model\templates\item\actions\FameAddExpAction.class
 com\aionemu\gameserver\questEngine\handlers\models\xmlQuest\conditions\PcInventoryCondition$1.class
 com\aionemu\gameserver\controllers\observer\ItemUseObserver.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_ATREIAN_BESTIARY_LIST.class
 com\aionemu\gameserver\utils\HumanTime$1$1.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_SKILL_ACTIVATION.class
 com\aionemu\gameserver\services\BrokerService.class
@@ -1534,6 +1537,7 @@ com\aionemu\gameserver\skillengine\effect\BuffBindEffect.class
 com\aionemu\gameserver\utils\collections\cachemap\WeakCacheMap.class
 com\aionemu\gameserver\skillengine\effect\NoDeathPenaltyReduceEffect.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_LEGION_JOIN_REQUEST_FROM_PLAYER.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_EVERGALE_CANYON.class
 com\aionemu\gameserver\model\pets\PetBuff$PetBuffTask.class
 com\aionemu\gameserver\geoEngine\scene\Geometry.class
 com\aionemu\gameserver\network\aion\clientpackets\CM_EQUIPMENT_SETTING_USE.class
@@ -1632,6 +1636,7 @@ com\aionemu\gameserver\utils\stats\enums\HEALTH.class
 com\aionemu\gameserver\utils\stats\enums\WIND_RESIST.class
 com\aionemu\gameserver\model\items\ItemStone$ItemStoneType.class
 com\aionemu\gameserver\model\templates\item\upgrade\UpgradeResultItem.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_LEGION_REQUEST.class
 com\aionemu\gameserver\skillengine\effect\ProvokerEffect$3.class
 com\aionemu\gameserver\model\templates\abyss_op\AbyssOpType.class
 com\aionemu\gameserver\ai2\AI2.class
@@ -1660,6 +1665,7 @@ com\aionemu\gameserver\dataholders\ItemData.class
 com\aionemu\gameserver\questEngine\handlers\models\xmlQuest\operations\ActionItemUseOperation$1.class
 com\aionemu\gameserver\services\base\Base.class
 com\aionemu\gameserver\skillengine\effect\BuffSilenceEffect.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_ABYSS_LANDING.class
 com\aionemu\gameserver\network\aion\clientpackets\CM_TELEPORT_DONE.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_ENTER_WORLD_CHECK.class
 com\aionemu\gameserver\model\templates\stats\PlayerStatsTemplate.class
@@ -2402,6 +2408,7 @@ com\aionemu\gameserver\network\aion\gmhandler\CmdVisible.class
 com\aionemu\gameserver\utils\MathUtil.class
 com\aionemu\gameserver\skillengine\model\ChainSkills.class
 com\aionemu\gameserver\network\aion\iteminfo\WingInfoBlobEntry.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_NOTIFY_VIP_ICON.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_PLAYER_COLLECTION_COMPLETE.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_CHAT_WINDOW.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_EVENT_BUFF.class
@@ -2511,6 +2518,7 @@ com\aionemu\gameserver\network\aion\serverpackets\SM_CUSTOM_SETTINGS.class
 com\aionemu\gameserver\services\base\Base$3.class
 com\aionemu\gameserver\configs\administration\DeveloperConfig.class
 com\aionemu\gameserver\network\aion\clientpackets\CM_APPEARANCE.class
+com\aionemu\gameserver\network\aion\clientpackets\CM_COALESCENCE.class
 com\aionemu\gameserver\taskmanager\tasks\PacketBroadcaster$BroadcastMode$7.class
 com\aionemu\gameserver\dataholders\ItemGroupsData$1.class
 com\aionemu\gameserver\skillengine\condition\TargetFlyingCondition.class
@@ -2607,6 +2615,7 @@ com\aionemu\gameserver\network\aion\clientpackets\CM_FRIEND_ADD$1.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_CUSTOM_PACKET$PacketElement.class
 com\aionemu\gameserver\model\templates\spawns\SpawnSearchResult.class
 com\aionemu\gameserver\model\gameobjects\player\Equipment$1.class
+com\aionemu\gameserver\network\aion\clientpackets\CM_A_STATION_CHECK.class
 com\aionemu\gameserver\model\gameobjects\player\RewardType$5.class
 com\aionemu\gameserver\model\templates\spawns\siegespawns\SiegeSpawn$SiegeRaceTemplate.class
 com\aionemu\gameserver\model\templates\achievement\ActionRewards.class
@@ -2705,6 +2714,7 @@ com\aionemu\gameserver\world\zone\ZoneService$1.class
 com\aionemu\gameserver\network\loginserver\serverpackets\SM_GS_CHARACTER.class
 com\aionemu\gameserver\model\autogroup\AutoPvPFFAInstance.class
 com\aionemu\gameserver\model\team2\group\PlayerGroupService.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_ABYSS_FAVOR.class
 com\aionemu\gameserver\services\craft\RelinquishCraftStatus$SingletonHolder.class
 com\aionemu\gameserver\dao\InventoryDAO.class
 com\aionemu\gameserver\model\team2\alliance\events\AssignViceCaptainEvent.class
@@ -2922,6 +2932,7 @@ com\aionemu\gameserver\model\templates\materials\MaterialActTime.class
 com\aionemu\gameserver\services\enchant\EnchantService$1.class
 com\aionemu\gameserver\model\templates\atreianpassport\AttendType.class
 com\aionemu\gameserver\model\items\GodStone$1$1.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_ATREIAN_BESTIARY.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_BLOCK_RESPONSE.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_RIDE_ROBOT.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_CAPTCHA.class
@@ -3043,6 +3054,7 @@ com\aionemu\gameserver\model\autogroup\AutoGroupType.class
 com\aionemu\gameserver\model\gameobjects\player\RewardType$3.class
 com\aionemu\gameserver\dao\AccountTransformDAO.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_BLOCK_LIST.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_CREATIVITY_POINTS.class
 com\aionemu\gameserver\model\templates\minion\MinionActions.class
 com\aionemu\gameserver\questEngine\exceptions\QuestDialogException.class
 com\aionemu\gameserver\questEngine\handlers\models\SkillUseData.class
@@ -3170,6 +3182,7 @@ com\aionemu\gameserver\skillengine\effect\BindEffect.class
 com\aionemu\gameserver\skillengine\effect\SummonServantEffect.class
 com\aionemu\gameserver\GameServer$StartupHook.class
 com\aionemu\gameserver\cache\HTMLCache$1.class
+com\aionemu\gameserver\network\aion\clientpackets\CM_SELL_TERMINATED_ITEMS.class
 com\aionemu\gameserver\utils\xml\CompressUtil.class
 com\aionemu\gameserver\controllers\CreatureController$1.class
 com\aionemu\gameserver\model\event_window\PlayerEventWindowList.class
@@ -3494,6 +3507,7 @@ com\aionemu\gameserver\network\aion\iteminfo\ItemInfoBlob$ItemBlobType$2.class
 com\aionemu\gameserver\dataholders\PlayerExperienceTable.class
 com\aionemu\gameserver\model\geometry\SphereArea.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_ABNORMAL_EFFECT.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_COALESCENCE_RESULT.class
 com\aionemu\gameserver\network\aion\clientpackets\CM_LUNA_INSTANCE_BUFF.class
 com\aionemu\gameserver\skillengine\condition\TargetAttribute.class
 com\aionemu\gameserver\services\player\ItemUpdateTask.class
@@ -3541,10 +3555,12 @@ com\aionemu\gameserver\model\templates\npc\NpcRank.class
 com\aionemu\gameserver\network\aion\clientpackets\CM_MACRO_CREATE.class
 com\aionemu\gameserver\services\summons\SummonsService.class
 com\aionemu\gameserver\model\road\Road.class
+com\aionemu\gameserver\network\aion\clientpackets\CM_HOUSE_TELEPORT_BACK.class
 com\aionemu\gameserver\model\team\legion\LegionEmblem$1.class
 com\aionemu\gameserver\services\toypet\PetFeedCalculator.class
 com\aionemu\gameserver\model\gameobjects\player\Mailbox.class
 com\aionemu\gameserver\questEngine\handlers\models\xmlQuest\operations\NpcDialogOperation.class
+com\aionemu\gameserver\network\aion\clientpackets\CM_HOT_SPECTATE.class
 com\aionemu\gameserver\skillengine\effect\SubEffect.class
 com\aionemu\gameserver\model\templates\itemgroups\MedalGroup.class
 com\aionemu\gameserver\network\aion\clientpackets\CM_DELETE_QUEST.class
@@ -3735,6 +3751,7 @@ com\aionemu\gameserver\model\RestartFrequency.class
 com\aionemu\gameserver\skillengine\effect\MoveBehindEffect.class
 com\aionemu\gameserver\utils\PacketSendUtility$2.class
 com\aionemu\gameserver\model\templates\QuestTemplate.class
+com\aionemu\gameserver\network\aion\clientpackets\CM_ATREIAN_BESTIARY_LVLUP.class
 com\aionemu\gameserver\model\templates\item\ArmorType.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_GROUP_MEMBER_INFO$1.class
 com\aionemu\gameserver\model\gameobjects\player\MacroList.class
@@ -3899,11 +3916,13 @@ com\aionemu\gameserver\model\templates\item\actions\ItemReduceLevelAction$1.clas
 com\aionemu\gameserver\network\aion\clientpackets\CM_CHAT_MESSAGE_PUBLIC$1.class
 com\aionemu\gameserver\services\NameRestrictionService.class
 com\aionemu\gameserver\services\PeriodicSaveService$SingletonHolder.class
+com\aionemu\gameserver\network\aion\clientpackets\CM_BROKER_COLLECT_SOLD_ITEMS.class
 com\aionemu\gameserver\world\zone\ZoneUpdateService.class
 com\aionemu\gameserver\services\ChallengeTaskService$1.class
 com\aionemu\gameserver\network\aion\serverpackets\SM_MY_DOCUMENTATION.class
 com\aionemu\gameserver\questEngine\task\FollowingNpcCheckTask.class
 com\aionemu\gameserver\services\vortexservice\Invasion.class
+com\aionemu\gameserver\network\aion\serverpackets\SM_ABYSS_LANDING_LEVEL.class
 com\aionemu\gameserver\model\gameobjects\BrokerItem$2.class
 com\aionemu\gameserver\services\MotionLoggingService$SingletonHolder.class
 com\aionemu\gameserver\dao\PlayerAchievementActionDAO.class

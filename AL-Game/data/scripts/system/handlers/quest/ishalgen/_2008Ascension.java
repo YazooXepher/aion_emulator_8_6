@@ -143,6 +143,8 @@ public class _2008Ascension extends QuestHandler {
                     switch (action) {
                         case QUEST_SELECT:
                             return sendQuestDialog(env, 2375);
+                        case SELECT_ACTION_2376:
+                            return sendQuestDialog(env, 2376);
                         case SETPRO5:
                             WorldMapInstance newInstance = InstanceService.getNextAvailableInstance(320020000);
                             InstanceService.registerPlayerWithInstance(newInstance, player);
@@ -161,6 +163,10 @@ public class _2008Ascension extends QuestHandler {
                         if (var == 1) {
                             return sendQuestDialog(env, 1352);
                         }
+                    case SELECT_ACTION_1353:
+                        if (var == 1) {
+                            return sendQuestDialog(env, 1353);
+                        }
                     case SETPRO2:
                         if (var == 1) {
                             qs.setQuestVar(2);
@@ -177,6 +183,10 @@ public class _2008Ascension extends QuestHandler {
                         if (var == 2) {
                             return sendQuestDialog(env, 1693);
                         }
+                    case SELECT_ACTION_1694:
+                        if (var == 2) {
+                            return sendQuestDialog(env, 1694);
+                        }
                     case SETPRO3:
                         if (var == 2) {
                             qs.setQuestVar(3);
@@ -191,6 +201,10 @@ public class _2008Ascension extends QuestHandler {
                     case QUEST_SELECT:
                         if (var == 3) {
                             return sendQuestDialog(env, 2034);
+                        }
+                    case SELECT_ACTION_2035:
+                        if (var == 3) {
+                            return sendQuestDialog(env, 2035);
                         }
                     case SETPRO4:
                         if (var == 3) {
@@ -239,6 +253,8 @@ public class _2008Ascension extends QuestHandler {
                 switch (action) {
                     case QUEST_SELECT:
                         return sendQuestDialog(env, 2716);
+                    case SELECT_ACTION_2717:
+                        return sendQuestDialog(env, 2717);
                     case SETPRO6:
                         PlayerClass playerClass = player.getCommonData().getPlayerClass();
                         if (playerClass.isStartingClass()) {
@@ -256,6 +272,11 @@ public class _2008Ascension extends QuestHandler {
                                 return sendQuestDialog(env, 3932);
                             }
                         }
+                        break;
+                    case SELECT_ACTION_3143:
+                        // intermediate confirmation page shown after picking a class on the
+                        // 3057/3398/3741/4082/3569/3932 page, before the final SETPROx commit
+                        return sendQuestDialog(env, 3143);
                     case SETPRO7:
                         return setPlayerClass(env, qs, PlayerClass.GLADIATOR);
                     case SETPRO8:
@@ -268,9 +289,13 @@ public class _2008Ascension extends QuestHandler {
                         return setPlayerClass(env, qs, PlayerClass.SORCERER);
                     case SETPRO12:
                         return setPlayerClass(env, qs, PlayerClass.SPIRIT_MASTER);
-                    case SETPRO13:
-                        return setPlayerClass(env, qs, PlayerClass.CLERIC);
                     case SETPRO14:
+                        // client's quest_q2008.html: select10_1's HACTION_SETPRO14 is the
+                        // "I keep others alive, make me a Cleric" line
+                        return setPlayerClass(env, qs, PlayerClass.CLERIC);
+                    case SETPRO13:
+                        // select10_2's HACTION_SETPRO13 is "the Chanter is for me" - these two
+                        // were swapped, so picking either option gave the other class
                         return setPlayerClass(env, qs, PlayerClass.CHANTER);
                     case SETPRO15:
                         return setPlayerClass(env, qs, PlayerClass.GUNNER);
@@ -332,13 +357,47 @@ public class _2008Ascension extends QuestHandler {
 
     private boolean setPlayerClass(QuestEnv env, QuestState qs, PlayerClass playerClass) {
         Player player = env.getPlayer();
-        if (player.getPlayerClass().isStartingClass()) {
+        PlayerClass startingClass = player.getPlayerClass();
+        if (startingClass.isStartingClass() && isValidAscension(startingClass, playerClass)) {
             ClassChangeService.setClass(player, playerClass);
             player.getController().upgradePlayer();
             changeQuestStep(env, 6, 6, true); // reward
             return sendQuestDialog(env, 5);
         }
         return false;
+    }
+
+    /**
+     * The SETPROx dialog actions (7-18) all funnel through this one method with no
+     * validation that the requested class is actually reachable from the player's own
+     * branch - any stray/out-of-order action id would silently grant it (e.g. a Warrior
+     * clicking through fast could end up on SETPRO18/Painter). Confirmed via official
+     * capture (Session_1_templier, questId 2008) that a Warrior's own branch page only
+     * ever leads to SETPRO7/SETPRO8; the client's quest_q2008.html only defines four
+     * top-level branches (select7=Warrior, select8=Scout, select9=Mage, select10=Priest),
+     * with Scout's own third option leading to Gunner/Aethertech(Rider) and Mage's third
+     * option leading to Bard/Painter - Engineer/Artist mappings below are unconfirmed
+     * (kept as-is pending a capture from an actual Engineer/Artist playthrough).
+     */
+    private boolean isValidAscension(PlayerClass startingClass, PlayerClass target) {
+        switch (startingClass) {
+            case WARRIOR:
+                return target == PlayerClass.GLADIATOR || target == PlayerClass.TEMPLAR;
+            case SCOUT:
+                return target == PlayerClass.ASSASSIN || target == PlayerClass.RANGER
+                        || target == PlayerClass.GUNNER || target == PlayerClass.RIDER;
+            case MAGE:
+                return target == PlayerClass.SORCERER || target == PlayerClass.SPIRIT_MASTER
+                        || target == PlayerClass.BARD || target == PlayerClass.PAINTER;
+            case PRIEST:
+                return target == PlayerClass.CLERIC || target == PlayerClass.CHANTER;
+            case ENGINEER:
+                return target == PlayerClass.GUNNER || target == PlayerClass.BARD;
+            case ARTIST:
+                return target == PlayerClass.RIDER || target == PlayerClass.PAINTER;
+            default:
+                return false;
+        }
     }
 
     @Override

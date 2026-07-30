@@ -123,6 +123,7 @@
     <portal_loc world_id="600200000" loc_id="6002000" x="2688.5857" y="487.36588" z="323.3768" h="110"/><!-- 6.x -->
     <!-- Asmodians Scroll Teleports -->
 	<portal_loc world_id="120010000" loc_id="1200100" x="1604.5464" y="1390.2196" z="193.12859"/><!-- 6.x -->
+	<portal_loc world_id="120020000" loc_id="1200200" x="1563.0" y="1424.0" z="265.70996"/><!-- Convent of Marchutan, matches _70100DaevaCertification.java's teleport target -->
     <portal_loc world_id="120080000" loc_id="1200800" x="549.4218" y="202.77597" z="93.479576"/><!-- 6.x -->
     <portal_loc world_id="220040000" loc_id="2200400" x="320.3888" y="335.59973" z="229.59479"/><!-- 6.x -->
     <portal_loc world_id="220070000" loc_id="2200700" x="1764.28" y="2911.25" z="554.7982" h="16"/><!-- 6.x -->

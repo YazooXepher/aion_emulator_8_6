@@ -327,22 +327,41 @@ public class MySQL5PlayerDAO extends PlayerDAO {
 				byte heading = resultSet.getByte("heading");
 				int worldId = resultSet.getInt("world_id");
 				PlayerInitialData playerInitialData = DataManager.PLAYER_INITIAL_DATA;
-				boolean checkThis = World.getInstance().getWorldMap(worldId).isInstanceType();
-				if (checkThis) {
-					// no map region for instances
-				} else {
-					World.getInstance().getWorldMap(worldId).getMainWorldMapInstance().getRegion(x, y, z);
+				// Validate the saved position resolves to a real map/region before trusting
+				// it. This used to unconditionally overwrite x/y/z/worldId with the race's
+				// default starting location (Ishalgen for Asmodians) on every single load
+				// regardless of whether the saved position was valid - the validation
+				// below ran but its result was discarded, so EVERY player got reset to
+				// their starting zone on every login. The fallback to the race spawn point
+				// should only apply when the saved position genuinely fails to resolve
+				// (e.g. removed/renamed world, corrupted row).
+				boolean savedPositionValid;
+				try {
+					boolean isInstance = World.getInstance().getWorldMap(worldId).isInstanceType();
+					if (isInstance) {
+						// no map region check possible/needed for instances
+						savedPositionValid = true;
+					} else {
+						World.getInstance().getWorldMap(worldId).getMainWorldMapInstance().getRegion(x, y, z);
+						savedPositionValid = true;
+					}
+				} catch (Exception e) {
+					log.warn("Saved position for player " + playerObjId + " (world " + worldId + " " + x + "," + y + "," + z
+						+ ") failed to resolve, falling back to race spawn point: " + e.getMessage());
+					savedPositionValid = false;
 				}
-				LocationData ld = null;
-				if (playerInitialData != null) {
-					ld = playerInitialData.getSpawnLocation(cd.getRace());
-				}
-				if (ld != null) {
-					x = ld.getX();
-					y = ld.getY();
-					z = ld.getZ();
-					heading = ld.getHeading();
-					worldId = ld.getMapId();
+				if (!savedPositionValid) {
+					LocationData ld = null;
+					if (playerInitialData != null) {
+						ld = playerInitialData.getSpawnLocation(cd.getRace());
+					}
+					if (ld != null) {
+						x = ld.getX();
+						y = ld.getY();
+						z = ld.getZ();
+						heading = ld.getHeading();
+						worldId = ld.getMapId();
+					}
 				}
 				WorldPosition position = World.getInstance().createPosition(worldId, x, y, z, heading, 0);
 				cd.setPosition(position);

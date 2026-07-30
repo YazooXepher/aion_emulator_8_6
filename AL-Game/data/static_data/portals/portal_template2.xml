@@ -99,6 +99,14 @@
     <portal_dialog npc_id="730424">
         <portal_path dialog="10000" loc_id="1100102"/>
     </portal_dialog>
+	<!-- Pandaemonium Teleport Statue (Convent of Marchutan to Vifrost Bridge / Pandaemonium) -->
+	<portal_dialog npc_id="730269">
+        <portal_path dialog="10000" loc_id="1200100"/>
+    </portal_dialog>
+	<!-- Convent of Marchutan Teleport Statue (Vifrost Bridge / Pandaemonium to Convent of Marchutan) -->
+	<portal_dialog npc_id="730268">
+        <portal_path dialog="10000" loc_id="1200200"/>
+    </portal_dialog>
 
 	<!-- Narakkalli Entry -->
     <portal_dialog npc_id="731937">

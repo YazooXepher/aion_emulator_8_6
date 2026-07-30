@@ -177,7 +177,12 @@ public class WorldPosition {
 	 * @return worldMapInstance
 	 */
 	public WorldMapInstance getWorldMapInstance() {
-		return mapRegion.getParent();
+		// mapRegion is null once the object has been despawned (e.g. after logout);
+		// callers (like MySQL5PlayerDAO's periodic save) already guard against a
+		// null result here, but that guard is useless if this throws instead of
+		// returning null - a delayed save task hitting an already-logged-out
+		// player would NPE and silently fail to persist that player's row at all
+		return mapRegion == null ? null : mapRegion.getParent();
 	}
 
 	/**

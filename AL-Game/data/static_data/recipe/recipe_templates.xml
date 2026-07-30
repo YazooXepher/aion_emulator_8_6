@@ -97432,4 +97432,140 @@
     <recipe_template id="155205130" nameid="4051471" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="166027002" quantity="7">
         <component quantity="1" itemid="188076147"/>
     </recipe_template>
+    <recipe_template id="155205045" nameid="4037909" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="110" itemid="164010028"/>
+    </recipe_template>
+    <recipe_template id="155205046" nameid="4037911" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="110" itemid="152080002"/>
+    </recipe_template>
+    <recipe_template id="155205047" nameid="4037913" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="10" itemid="152080095"/>
+    </recipe_template>
+    <recipe_template id="155205048" nameid="4037915" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="110" itemid="164010028"/>
+    </recipe_template>
+    <recipe_template id="155205049" nameid="4037917" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="110" itemid="152080002"/>
+    </recipe_template>
+    <recipe_template id="155205050" nameid="4037919" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="10" itemid="152080095"/>
+    </recipe_template>
+    <recipe_template id="155205051" nameid="4037921" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074334" quantity="1">
+        <component quantity="1" itemid="166023107"/>
+    </recipe_template>
+    <recipe_template id="155205052" nameid="4037923" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074334" quantity="1">
+        <component quantity="1" itemid="166033107"/>
+    </recipe_template>
+    <recipe_template id="155205053" nameid="4037925" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074334" quantity="1">
+        <component quantity="1" itemid="166070000"/>
+    </recipe_template>
+    <recipe_template id="155205054" nameid="4037927" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074311" quantity="1">
+        <component quantity="1" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205055" nameid="4037929" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074313" quantity="1">
+        <component quantity="60" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205056" nameid="4037931" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074314" quantity="1">
+        <component quantity="60" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205057" nameid="4037933" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074335" quantity="1">
+        <component quantity="10" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205058" nameid="4037935" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074335" quantity="1">
+        <component quantity="10" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205084" nameid="4043133" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="188075019" quantity="1">
+        <component quantity="30" itemid="186020070"/>
+        <component quantity="30" itemid="186020154"/>
+    </recipe_template>
+    <recipe_template id="155205107" nameid="4047387" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="152080157" quantity="1">
+        <component quantity="30" itemid="152080159"/>
+        <component quantity="30" itemid="152080178"/>
+        <component quantity="3" itemid="152080157"/>
+    </recipe_template>
+    <recipe_template id="155205108" nameid="4052177" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="166027003" quantity="1">
+        <component quantity="1" itemid="166027000"/>
+        <component quantity="1" itemid="152080213"/>
+    </recipe_template>
+    <recipe_template id="155205131" nameid="4038559" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074335" quantity="1">
+        <component quantity="10" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205132" nameid="4038561" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074335" quantity="1">
+        <component quantity="10" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205133" nameid="4038563" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074455" quantity="1">
+        <component quantity="30" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205134" nameid="4038565" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074456" quantity="1">
+        <component quantity="30" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205135" nameid="4054465" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="3" itemid="186020069"/>
+    </recipe_template>
+    <recipe_template id="155205136" nameid="4054467" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="6" itemid="186020068"/>
+    </recipe_template>
+    <recipe_template id="155205137" nameid="4054469" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="4" itemid="186020154"/>
+    </recipe_template>
+    <recipe_template id="155205138" nameid="4054471" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="5" itemid="186020069"/>
+    </recipe_template>
+    <recipe_template id="155205139" nameid="4054473" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="10" itemid="186020068"/>
+    </recipe_template>
+    <recipe_template id="155205140" nameid="4054475" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188074309" quantity="1">
+        <component quantity="6" itemid="186020154"/>
+    </recipe_template>
+    <recipe_template id="155205141" nameid="4054477" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="190095038" quantity="1">
+        <component quantity="30" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205142" nameid="4054479" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="190095045" quantity="1">
+        <component quantity="50" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205143" nameid="4054481" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="1" productid="188071836" quantity="1">
+        <component quantity="75" itemid="152080177"/>
+    </recipe_template>
+    <recipe_template id="155205144" nameid="4054733" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="188071865" quantity="1">
+        <component quantity="1" itemid="188071865"/>
+        <component quantity="5" itemid="166070000"/>
+    </recipe_template>
+    <recipe_template id="155205154" nameid="4057439" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="188071865" quantity="1">
+        <component quantity="1" itemid="188071865"/>
+        <component quantity="5" itemid="166070000"/>
+    </recipe_template>
+    <recipe_template id="155205173" nameid="4063791" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="188072797" quantity="1">
+        <component quantity="6" itemid="152080149"/>
+    </recipe_template>
+    <recipe_template id="155205174" nameid="4063793" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="188072798" quantity="1">
+        <component quantity="1" itemid="188072798"/>
+        <component quantity="3" itemid="152080149"/>
+    </recipe_template>
+    <recipe_template id="155205175" nameid="4063935" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="188076107" quantity="1">
+        <component quantity="1" itemid="188076107"/>
+        <component quantity="1" itemid="166025100"/>
+        <component quantity="9" itemid="166024100"/>
+    </recipe_template>
+    <recipe_template id="155205176" nameid="4063937" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="188076099" quantity="1">
+        <component quantity="1" itemid="188076099"/>
+        <component quantity="1" itemid="166025100"/>
+        <component quantity="9" itemid="166024100"/>
+    </recipe_template>
+    <recipe_template id="155205183" nameid="4064911" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="188071863" quantity="1">
+        <component quantity="1" itemid="188071863"/>
+        <component quantity="5" itemid="166070000"/>
+    </recipe_template>
+    <recipe_template id="155205184" nameid="4064913" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="188071865" quantity="1">
+        <component quantity="1" itemid="188071865"/>
+        <component quantity="5" itemid="166070000"/>
+    </recipe_template>
+    <recipe_template id="155205213" nameid="4069379" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="166027003" quantity="3">
+        <component quantity="4" itemid="152080219"/>
+    </recipe_template>
+    <recipe_template id="155205218" nameid="4069545" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="166027000" quantity="1">
+        <component quantity="1" itemid="166027002"/>
+    </recipe_template>
+    <recipe_template id="155205219" nameid="4069547" skillid="40008" race="PC_ALL" skillpoint="1" autolearn="0" productid="166027003" quantity="1">
+        <component quantity="10" itemid="166027000"/>
+    </recipe_template>
 </recipe_templates>

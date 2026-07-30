@@ -342,4 +342,105 @@
         <magical_bonus name="MAXHP" value="5000"/>
         <required ids="982103 982104"/>
     </transform_collection_template>
+    <transform_collection_template id="81">
+        <physical_bonus name="MAXHP" value="5000"/>
+        <magical_bonus name="MAXHP" value="5000"/>
+        <required ids="982105 982106"/>
+    </transform_collection_template>
+    <transform_collection_template id="82">
+        <physical_bonus name="PHYSICAL_DEFENSE" value="152"/>
+        <magical_bonus name="PHYSICAL_DEFENSE" value="152"/>
+        <required ids="982105 982044 982047 982025"/>
+    </transform_collection_template>
+    <transform_collection_template id="83">
+        <physical_bonus name="MAGICAL_DEFEND" value="152"/>
+        <magical_bonus name="MAGICAL_DEFEND" value="152"/>
+        <required ids="982106 982046 982049 982026"/>
+    </transform_collection_template>
+    <transform_collection_template id="84">
+        <physical_bonus name="PHYSICAL_ACCURACY" value="331"/>
+        <magical_bonus name="MAGICAL_ACCURACY" value="331"/>
+        <required ids="982100 982101 982103 982104 982105 982106"/>
+    </transform_collection_template>
+    <transform_collection_template id="85">
+        <physical_bonus name="PHYSICAL_CRITICAL_DAMAGE_REDUCE" value="60"/>
+        <magical_bonus name="PHYSICAL_CRITICAL_DAMAGE_REDUCE" value="60"/>
+        <required ids="982108 982070 982045 982040 982023"/>
+    </transform_collection_template>
+    <transform_collection_template id="86">
+        <physical_bonus name="MAGICAL_CRITICAL_DAMAGE_REDUCE" value="60"/>
+        <magical_bonus name="MAGICAL_CRITICAL_DAMAGE_REDUCE" value="60"/>
+        <required ids="982107 982073 982046 982059 982025"/>
+    </transform_collection_template>
+    <transform_collection_template id="87">
+        <required ids="982107 982108 982070 982073"/>
+    </transform_collection_template>
+    <transform_collection_template id="92">
+        <physical_bonus name="PHYSICAL_ATTACK" value="391"/>
+        <magical_bonus name="MAGICAL_ATTACK" value="391"/>
+        <required ids="982111 982088 982062 982039 982007"/>
+    </transform_collection_template>
+    <transform_collection_template id="93">
+        <physical_bonus name="PHYSICAL_ATTACK" value="391"/>
+        <magical_bonus name="MAGICAL_ATTACK" value="391"/>
+        <required ids="982110 982091 982061 982038 982005"/>
+    </transform_collection_template>
+    <transform_collection_template id="94">
+        <required ids="982110 982111 982091 982088"/>
+    </transform_collection_template>
+    <transform_collection_template id="95">
+        <physical_bonus name="PHYSICAL_CRITICAL_DAMAGE_REDUCE" value="60"/>
+        <magical_bonus name="PHYSICAL_CRITICAL_DAMAGE_REDUCE" value="60"/>
+        <required ids="982112 982090 982067 982022 982031"/>
+    </transform_collection_template>
+    <transform_collection_template id="96">
+        <physical_bonus name="MAGICAL_CRITICAL_DAMAGE_REDUCE" value="60"/>
+        <magical_bonus name="MAGICAL_CRITICAL_DAMAGE_REDUCE" value="60"/>
+        <required ids="982113 982089 982044 982029 982023"/>
+    </transform_collection_template>
+    <transform_collection_template id="97">
+        <physical_bonus name="PHYSICAL_ATTACK" value="419"/>
+        <magical_bonus name="MAGICAL_ATTACK" value="419"/>
+        <required ids="982112 982113 982090 982089"/>
+    </transform_collection_template>
+    <transform_collection_template id="98">
+        <physical_bonus name="MAGICAL_CRITICAL_DAMAGE_REDUCE" value="70"/>
+        <magical_bonus name="MAGICAL_CRITICAL_DAMAGE_REDUCE" value="70"/>
+        <required ids="982114 982086"/>
+    </transform_collection_template>
+    <transform_collection_template id="99">
+        <physical_bonus name="PHYSICAL_CRITICAL_DAMAGE_REDUCE" value="70"/>
+        <magical_bonus name="PHYSICAL_CRITICAL_DAMAGE_REDUCE" value="70"/>
+        <required ids="982115 982087"/>
+    </transform_collection_template>
+    <transform_collection_template id="100">
+        <physical_bonus name="PHYSICAL_ATTACK" value="350"/>
+        <magical_bonus name="MAGICAL_ATTACK" value="350"/>
+        <required ids="982114 982112 982111 982107 982050"/>
+    </transform_collection_template>
+    <transform_collection_template id="101">
+        <physical_bonus name="PHYSICAL_DEFENSE" value="350"/>
+        <magical_bonus name="MAGICAL_DEFEND" value="350"/>
+        <required ids="982115 982113 982110 982108 982074"/>
+    </transform_collection_template>
+    <transform_collection_template id="107">
+        <physical_bonus name="PHYSICAL_ATTACK" value="200"/>
+        <magical_bonus name="PHYSICAL_ATTACK" value="200"/>
+        <required ids="982148 982070 982045 982040 982059 982034"/>
+    </transform_collection_template>
+    <transform_collection_template id="108">
+        <physical_bonus name="PHYSICAL_CRITICAL_DAMAGE_REDUCE" value="70"/>
+        <magical_bonus name="PHYSICAL_CRITICAL_DAMAGE_REDUCE" value="70"/>
+        <required ids="982148 982095 982110"/>
+    </transform_collection_template>
+    <transform_collection_template id="109">
+        <physical_bonus name="MAGICAL_ATTACK" value="200"/>
+        <magical_bonus name="MAGICAL_ATTACK" value="200"/>
+        <required ids="982149 982087 982044 982056 982055 982041"/>
+    </transform_collection_template>
+    <transform_collection_template id="110">
+        <physical_bonus name="MAGICAL_CRITICAL_DAMAGE_REDUCE" value="70"/>
+        <magical_bonus name="MAGICAL_CRITICAL_DAMAGE_REDUCE" value="70"/>
+        <required ids="982149 982113 982108"/>
+    </transform_collection_template>
 </transform_collection_templates>

@@ -23,6 +23,7 @@ import com.aionemu.gameserver.model.PlayerClass;
 import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_PLAYER_INFO;
 import com.aionemu.gameserver.network.aion.serverpackets.SM_QUEST_ACTION;
 import com.aionemu.gameserver.questEngine.model.QuestState;
 import com.aionemu.gameserver.questEngine.model.QuestStatus;
@@ -220,6 +221,12 @@ public class ClassChangeService {
 		if (validateSwitch(player, playerClass)) {
 			player.getCommonData().setPlayerClass(playerClass);
 			player.getController().upgradePlayer();
+			// the client only learns the character's class from SM_PLAYER_INFO, which
+			// normally only goes out at login/spawn - without resending it here the
+			// profile panel keeps showing the old starting class for the rest of the
+			// session even though the class change itself took effect (DB/in-memory
+			// state is correct, only the client's cached display is stale)
+			PacketSendUtility.sendPacket(player, new SM_PLAYER_INFO(player, false));
 			PacketSendUtility.sendPacket(player, new SM_DIALOG_WINDOW(0, 0, 0));
 		}
 	}
