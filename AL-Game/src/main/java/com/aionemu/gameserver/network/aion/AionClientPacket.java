@@ -36,6 +36,19 @@ public abstract class AionClientPacket extends BaseClientPacket<AionConnection> 
 	 * Logger for this class.
 	 */
 	private static final Logger log = LoggerFactory.getLogger(AionClientPacket.class);
+
+	/**
+	 * When true, every non-noisy client packet is traced (name + wire opcode) so a live in-game
+	 * action (teleport click, minigame button, etc.) can be matched to the packet it produces. The
+	 * high-frequency movement/keepalive packets below are skipped so the trace stays readable.
+	 * Toggle off for normal production runs.
+	 */
+	private static final boolean WIRE_TRACE = true;
+	private static final Set<String> WIRE_TRACE_SKIP = Set.of(
+		"CM_MOVE", "CM_MOVE_IN_AIR", "CM_CLIENTSIDE_NPC_MOVE", "CM_PING", "CM_TIME_CHECK",
+		"CM_EMOTION", "CM_TARGET_SELECT", "CM_CHAT_AUTH", "CM_CASTSPELL", "CM_ATTACK",
+		"CM_PLAYER_LISTENER", "CM_UI_SETTINGS");
+
 	private final Set<State> validStates;
 
 	/**
@@ -62,7 +75,12 @@ public abstract class AionClientPacket extends BaseClientPacket<AionConnection> 
 		try {
 			// run only if packet is still valid (connection state didn't changed)
 			if (isValid()) {
-				log.info("[DIAG] wire-read " + getClass().getSimpleName() + " ip=" + getConnection().getIP());
+				if (WIRE_TRACE) {
+					String name = getClass().getSimpleName();
+					if (!WIRE_TRACE_SKIP.contains(name)) {
+						log.info(String.format("[WIRE] %s (0x%04X) ip=%s", name, getOpcode(), getConnection().getIP()));
+					}
+				}
 				runImpl();
 			}
 		}
