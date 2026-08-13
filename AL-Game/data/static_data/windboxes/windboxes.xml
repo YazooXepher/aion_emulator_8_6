@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<windboxes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="windboxes.xsd">
+    <windbox_map mapid="220010000">
+        <windbox id="1" name="Ishalgen_Tornado_01" force="14.70" maxupspeed="0.00" upheight="150.00" start_time="0" end_time="0" life_time="0" always_enabled="true" bottom="257.83" top="417.83">
+            <point x="484.77" y="2400.36"/>
+            <point x="514.77" y="2400.36"/>
+            <point x="514.77" y="2430.36"/>
+            <point x="484.77" y="2430.36"/>
+        </windbox>
+        <windbox id="2" name="Ishalgen_Tornado_02" force="14.70" maxupspeed="0.00" upheight="150.00" start_time="0" end_time="0" life_time="0" always_enabled="true" bottom="240.07" top="400.07">
+            <point x="596.90" y="2267.95"/>
+            <point x="626.90" y="2267.95"/>
+            <point x="626.90" y="2297.95"/>
+            <point x="596.90" y="2297.95"/>
+        </windbox>
+        <windbox id="3" name="Ishalgen_Tornado_03" force="14.70" maxupspeed="0.00" upheight="150.00" start_time="0" end_time="0" life_time="0" always_enabled="true" bottom="253.73" top="413.73">
+            <point x="881.09" y="2194.87"/>
+            <point x="911.09" y="2194.87"/>
+            <point x="911.09" y="2224.87"/>
+            <point x="881.09" y="2224.87"/>
+        </windbox>
+        <windbox id="4" name="Ishalgen_Tornado_04" force="14.70" maxupspeed="0.00" upheight="150.00" start_time="0" end_time="0" life_time="0" always_enabled="true" bottom="252.07" top="412.07">
+            <point x="952.89" y="1664.59"/>
+            <point x="982.89" y="1664.59"/>
+            <point x="982.89" y="1694.59"/>
+            <point x="952.89" y="1694.59"/>
+        </windbox>
+        <windbox id="5" name="Ishalgen_Tornado_05" force="14.70" maxupspeed="0.00" upheight="150.00" start_time="0" end_time="0" life_time="0" always_enabled="true" bottom="297.15" top="457.15">
+            <point x="564.21" y="1447.39"/>
+            <point x="594.21" y="1447.39"/>
+            <point x="594.21" y="1477.39"/>
+            <point x="564.21" y="1477.39"/>
+        </windbox>
+    </windbox_map>
+</windboxes>

@@ -32,6 +32,7 @@ import org.slf4j.LoggerFactory;
 
 import com.aionemu.gameserver.model.drop.Drop;
 import com.aionemu.gameserver.model.drop.DropGroup;
+import com.aionemu.gameserver.model.npcdrops.XmlCommonDropGroupRef;
 import com.aionemu.gameserver.model.npcdrops.XmlDrop;
 import com.aionemu.gameserver.model.npcdrops.XmlDropGroup;
 import com.aionemu.gameserver.model.npcdrops.XmlNpcDrops;
@@ -46,19 +47,41 @@ public class XmlNpcDropData {
 	static Logger log = LoggerFactory.getLogger(XmlNpcDropData.class);
 	@XmlElement(name = "npc_drop")
 	private List<XmlNpcDrops> nds;
+	@XmlElement(name = "group")
+	private List<XmlDropGroup> commonGroupDefs;
 	private HashMap<Integer, ArrayList<DropGroup>> drops;
 
+	private static List<Drop> toDrops(XmlDropGroup dg, float chanceMultiplier) {
+		List<Drop> dr = new ArrayList<Drop>();
+		for (XmlDrop xd : dg.getDrop()) {
+			float chance = xd.getChance() * chanceMultiplier;
+			dr.add(new Drop(xd.getItemId(), xd.getMinAmount(), xd.getMaxAmount(), chance, xd.isNoReduction(), xd.isEachMember()));
+		}
+		return dr;
+	}
+
 	void afterUnmarshal(Unmarshaller u, Object parent) {
+		HashMap<String, XmlDropGroup> commonGroupsByName = new HashMap<String, XmlDropGroup>();
+		if (this.commonGroupDefs != null) {
+			for (XmlDropGroup g : this.commonGroupDefs) {
+				commonGroupsByName.put(g.getGroupName(), g);
+			}
+		}
 		this.drops = new HashMap<Integer, ArrayList<DropGroup>>();
 		for (XmlNpcDrops nd : this.nds) {
 			List<DropGroup> newDg = new ArrayList<DropGroup>();
 			for (XmlDropGroup dg : nd.getDropGroup()) {
-				List<Drop> dr = new ArrayList<Drop>();
-				for (XmlDrop xd : dg.getDrop()) {
-					Drop datDg = new Drop(xd.getItemId(), xd.getMinAmount(), xd.getMaxAmount(), xd.getChance(), xd.isNoReduction(), xd.isEachMember());
-					dr.add(datDg);
+				DropGroup datDg = new DropGroup(toDrops(dg, 1f), dg.getRace(), dg.isUseCategory(), dg.getGroupName());
+				newDg.add(datDg);
+			}
+			for (XmlCommonDropGroupRef ref : nd.getCommonDropGroup()) {
+				XmlDropGroup commonGroup = commonGroupsByName.get(ref.getName());
+				if (commonGroup == null) {
+					log.warn("Unknown common_drop_group '" + ref.getName() + "' referenced by npc " + nd.getNpcId());
+					continue;
 				}
-				DropGroup datDg = new DropGroup(dr, dg.getRace(), dg.isUseCategory(), dg.getGroupName());
+				float chanceMultiplier = ref.getCommonDropAdjustment() / 100f;
+				DropGroup datDg = new DropGroup(toDrops(commonGroup, chanceMultiplier), commonGroup.getRace(), commonGroup.isUseCategory(), ref.getName());
 				newDg.add(datDg);
 			}
 			if (this.drops.containsKey(Integer.valueOf(nd.getNpcId()))) {

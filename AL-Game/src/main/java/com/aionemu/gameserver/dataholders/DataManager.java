@@ -88,6 +88,7 @@ public final class DataManager {
 	public static AIData AI_DATA;
 	public static FlyPathData FLY_PATH;
 	public static WindstreamData WINDSTREAM_DATA;
+	public static WindboxData WINDBOX_DATA;
 	public static ItemRestrictionCleanupData ITEM_CLEAN_UP;
 	public static AssembledNpcsData ASSEMBLED_NPC_DATA;
 	public static CosmeticItemsData COSMETIC_ITEMS_DATA;
@@ -232,6 +233,7 @@ public final class DataManager {
 		AI_DATA = data.aiData;
 		FLY_PATH = data.flyPath;
 		WINDSTREAM_DATA = data.windstreamsData;
+		WINDBOX_DATA = data.windboxesData;
 		ASSEMBLED_NPC_DATA = data.assembledNpcData;
 		COSMETIC_ITEMS_DATA = data.cosmeticItemsData;
 		SPAWNS_DATA2 = data.spawnsData2;

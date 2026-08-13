@@ -14,47 +14,30 @@
  *  along with Aion-Lightning.
  *  If not, see <http://www.gnu.org/licenses/>.
  */
+package com.aionemu.gameserver.model.templates.windbox;
 
-package com.aionemu.gameserver.model.npcdrops;
-
-import java.util.Collections;
 import java.util.List;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;
 import jakarta.xml.bind.annotation.XmlAttribute;
 import jakarta.xml.bind.annotation.XmlElement;
-import jakarta.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlType;
 
-/**
- * @author Falke_34
- */
-@XmlRootElement(name = "npc_drop")
-@XmlAccessorType(XmlAccessType.NONE)
-public class XmlNpcDrops {
+@XmlAccessorType(XmlAccessType.FIELD)
+@XmlType(name = "WindboxMap")
+public class WindboxMap {
 
-	@XmlElement(name = "drop_group")
-	protected List<XmlDropGroup> dropGroup;
-	@XmlElement(name = "common_drop_group")
-	protected List<XmlCommonDropGroupRef> commonDropGroup;
-	@XmlAttribute(name = "npc_id", required = true)
-	protected int npcId;
+	@XmlAttribute(required = true)
+	protected int mapid;
+	@XmlElement(name = "windbox")
+	protected List<WindboxTemplate> windboxes;
 
-	public List<XmlDropGroup> getDropGroup() {
-		if (this.dropGroup == null) {
-			return Collections.emptyList();
-		}
-		return this.dropGroup;
+	public int getMapId() {
+		return mapid;
 	}
 
-	public List<XmlCommonDropGroupRef> getCommonDropGroup() {
-		if (this.commonDropGroup == null) {
-			return Collections.emptyList();
-		}
-		return this.commonDropGroup;
-	}
-
-	public int getNpcId() {
-		return this.npcId;
+	public List<WindboxTemplate> getWindboxes() {
+		return windboxes;
 	}
 }

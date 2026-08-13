@@ -105,6 +105,7 @@ import com.aionemu.gameserver.services.DuelService;
 import com.aionemu.gameserver.services.HTMLService;
 import com.aionemu.gameserver.services.LegionService;
 import com.aionemu.gameserver.services.MinionService;
+import com.aionemu.gameserver.services.WindboxService;
 import com.aionemu.gameserver.services.PvpService;
 import com.aionemu.gameserver.services.QuestService;
 import com.aionemu.gameserver.services.SkillLearnService;
@@ -651,6 +652,7 @@ public class PlayerController extends CreatureController<Player> {
 	@Override
 	public void onMove() {
 		getOwner().getObserveController().notifyMoveObservers();
+		WindboxService.onMove(getOwner());
 		super.onMove();
 	}
 

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:jxb="http://java.sun.com/xml/ns/jaxb" jxb:version="2.1">
+
+    <xs:include schemaLocation="../import.xsd"/>
+
+    <xs:element name="windboxes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="import" minOccurs="0" maxOccurs="unbounded"/>
+                <xs:element name="windbox_map" type="WindboxMap" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="WindboxMap">
+        <xs:sequence>
+            <xs:element name="windbox" type="Windbox" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="mapid" type="xs:int" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="Windbox">
+        <xs:sequence>
+            <xs:element name="point" type="WindboxPoint" minOccurs="3" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name="id" type="xs:int" use="required"/>
+        <xs:attribute name="name" type="xs:string"/>
+        <xs:attribute name="force" type="xs:float" default="0"/>
+        <xs:attribute name="maxupspeed" type="xs:float" default="0"/>
+        <xs:attribute name="upheight" type="xs:float" default="0"/>
+        <xs:attribute name="start_time" type="xs:int" default="0"/>
+        <xs:attribute name="end_time" type="xs:int" default="0"/>
+        <xs:attribute name="life_time" type="xs:int" default="0"/>
+        <xs:attribute name="always_enabled" type="xs:boolean" default="false"/>
+        <xs:attribute name="bottom" type="xs:float" use="required"/>
+        <xs:attribute name="top" type="xs:float" use="required"/>
+    </xs:complexType>
+
+    <xs:complexType name="WindboxPoint">
+        <xs:attribute name="x" type="xs:float" use="required"/>
+        <xs:attribute name="y" type="xs:float" use="required"/>
+    </xs:complexType>
+</xs:schema>

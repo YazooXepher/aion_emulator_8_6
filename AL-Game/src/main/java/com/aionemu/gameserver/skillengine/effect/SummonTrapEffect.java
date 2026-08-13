@@ -76,22 +76,19 @@ public class SummonTrapEffect extends SummonEffect {
 		}
 
 		if (skillId == 0) {
-			String descSplits[], nameDesc, trapDesc, trapDescFinal;
-			int newSkillid = 0;
-			List<SkillTemplate> skill = DataManager.SKILL_DATA.getSkillTemplates();
-
-			nameDesc = effect.getSkillTemplate().getNamedesc(); // Getting RA_Dark_SpikeTrap_G1
-			descSplits = nameDesc.split("_"); // Spliting , RA DARK SpikeTrap G1
-			trapDesc = descSplits[2] + "_" + descSplits[3]; // Combining SpikeTrap + _ + G1
-			trapDescFinal = "RA_N_" + trapDesc; // RA_N_SpikeTrap_G1 Now
-
-			for (SkillTemplate s : skill) {
-				if (s.getNamedesc().equalsIgnoreCase(trapDescFinal)) {
-					newSkillid = s.getSkillId();
-					break;
+			String nameDesc = effect.getSkillTemplate().getNamedesc(); // e.g. RA_Dark_SpikeTrap_G1
+			String descSplits[] = nameDesc.split("_"); // RA Dark SpikeTrap G1
+			// This naming-convention guess only applies to Ranger trap skills (4+ "_"-separated
+			// parts); anything else legitimately has no companion hit-skill and stays at skillId 0.
+			if (descSplits.length >= 4) {
+				String trapDescFinal = "RA_N_" + descSplits[2] + "_" + descSplits[3]; // RA_N_SpikeTrap_G1
+				for (SkillTemplate s : DataManager.SKILL_DATA.getSkillTemplates()) {
+					if (s.getNamedesc().equalsIgnoreCase(trapDescFinal)) {
+						skillId = s.getSkillId();
+						break;
+					}
 				}
 			}
-			skillId = newSkillid;
 		}
 
 		checkMaxTraps(effector);

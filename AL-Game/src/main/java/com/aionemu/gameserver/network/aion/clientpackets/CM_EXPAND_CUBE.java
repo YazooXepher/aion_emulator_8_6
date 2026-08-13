@@ -16,9 +16,13 @@
  */
 package com.aionemu.gameserver.network.aion.clientpackets;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import com.aionemu.gameserver.model.gameobjects.player.Player;
 import com.aionemu.gameserver.network.aion.AionClientPacket;
 import com.aionemu.gameserver.network.aion.AionConnection.State;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
 import com.aionemu.gameserver.services.CubeExpandService;
 import com.aionemu.gameserver.utils.PacketSendUtility;
 
@@ -27,6 +31,8 @@ import com.aionemu.gameserver.utils.PacketSendUtility;
  */
 
 public class CM_EXPAND_CUBE extends AionClientPacket {
+
+	private static final Logger diagLog = LoggerFactory.getLogger(CM_EXPAND_CUBE.class);
 
 	int action;
 
@@ -47,62 +53,41 @@ public class CM_EXPAND_CUBE extends AionClientPacket {
 			case 0: // Kinah
 				// starting inventory = 27 slots (3 rows)
 				if (activePlayer.getCubeExpands() < 10) { // max 9 rows open for kinah 117 slots
-					if (activePlayer.getCubeExpands() == 0) { // 0 rows open / 27 slots to 36
-						if (activePlayer.getInventory().tryDecreaseKinah(1000)) {
-							CubeExpandService.expand(activePlayer, true); // row goes to 1
-						}
+					int kinahCost;
+					switch (activePlayer.getCubeExpands()) {
+						case 0 -> kinahCost = 1000; // 27 slots to 36
+						case 1 -> kinahCost = 10000; // 36 slots to 45
+						case 2 -> kinahCost = 50000; // 45 slots to 54
+						case 3 -> kinahCost = 150000; // 54 slots to 63
+						case 4 -> kinahCost = 300000; // 63 slots to 72
+						case 5 -> kinahCost = 3000000; // 72 slots to 81
+						case 6 -> kinahCost = 6000000; // 81 slots to 90
+						case 7 -> kinahCost = 12000000; // 90 slots to 99
+						case 8 -> kinahCost = 24000000; // 99 slots to 108
+						case 9 -> kinahCost = 48000000; // 108 slots to 117
+						default -> kinahCost = -1;
 					}
-					else if (activePlayer.getCubeExpands() == 1) { // 1 rows open / 36 slots to 45
-						if (activePlayer.getInventory().tryDecreaseKinah(10000)) {
-							CubeExpandService.expand(activePlayer, true); // row goes to 2
-						}
-					}
-					else if (activePlayer.getCubeExpands() == 2) { // 2 rows open / 45 slots to 54
-						if (activePlayer.getInventory().tryDecreaseKinah(50000)) {
-							CubeExpandService.expand(activePlayer, true); // row goes to 3
-						}
-					}
-					else if (activePlayer.getCubeExpands() == 3) { // 3 rows open / 54 slots to 63
-						if (activePlayer.getInventory().tryDecreaseKinah(150000)) {
-							CubeExpandService.expand(activePlayer, true); // row goes to 4
-						}
-					}
-					else if (activePlayer.getCubeExpands() == 4) { // 4 rows open / 63 slots to 72
-						if (activePlayer.getInventory().tryDecreaseKinah(300000)) {
-							CubeExpandService.expand(activePlayer, true); // row goes to 5
-						}
-					}
-					else if (activePlayer.getCubeExpands() == 5) { // 5 rows open / 72 slots to 81
-						if (activePlayer.getInventory().tryDecreaseKinah(3000000)) {
-							CubeExpandService.expand(activePlayer, true); // row goes to 6
-						}
-					}
-					else if (activePlayer.getCubeExpands() == 6) { // 6 rows open / 81 slots to 90
-						if (activePlayer.getInventory().tryDecreaseKinah(6000000)) {
-							CubeExpandService.expand(activePlayer, true); // row goes to 7
-						}
-					}
-					else if (activePlayer.getCubeExpands() == 7) { // 7 rows open / 90 slots to 99
-						if (activePlayer.getInventory().tryDecreaseKinah(12000000)) {
-							CubeExpandService.expand(activePlayer, true); // row goes to 8
-						}
-					}
-					else if (activePlayer.getCubeExpands() == 8) { // 8 rows open / 99 slots to 108
-						if (activePlayer.getInventory().tryDecreaseKinah(24000000)) {
-							CubeExpandService.expand(activePlayer, true); // row goes to 9
-						}
-					}
-					else if (activePlayer.getCubeExpands() == 9) { // 9 rows open / 108 slots to 117 slots
-						if (activePlayer.getInventory().tryDecreaseKinah(48000000)) {
-							CubeExpandService.expand(activePlayer, true); // row goes to 10
-						}
-					}
-					else {
+					diagLog.info("[DIAG CM_EXPAND_CUBE] player=" + activePlayer.getName() + " cubeExpands=" + activePlayer.getCubeExpands()
+						+ " kinahCost=" + kinahCost + " currentKinah=" + activePlayer.getInventory().getKinah());
+					if (kinahCost < 0) {
 						PacketSendUtility.sendMessage(activePlayer, "You need cube expansion coin to expand your cube now");
 					}
+					else if (activePlayer.getInventory().tryDecreaseKinah(kinahCost)) {
+						CubeExpandService.expand(activePlayer, true);
+					}
+					else {
+						PacketSendUtility.sendPacket(activePlayer, SM_SYSTEM_MESSAGE.STR_MSG_NOT_ENOUGH_MONEY);
+					}
+				}
+				else {
+					diagLog.info("[DIAG CM_EXPAND_CUBE] player=" + activePlayer.getName() + " cubeExpands=" + activePlayer.getCubeExpands()
+						+ " action=0 (kinah) received but cubeExpands >= 10, needs cube expansion coin instead");
+					PacketSendUtility.sendMessage(activePlayer, "You need cube expansion coin to expand your cube now");
 				}
 				break;
 			case 1: // Cube Expansion Coin
+				diagLog.info("[DIAG CM_EXPAND_CUBE] player=" + activePlayer.getName() + " cubeExpands=" + activePlayer.getCubeExpands()
+					+ " action=1 (coin) received currentKinah=" + activePlayer.getInventory().getKinah());
 				if (activePlayer.getCubeExpands() < 11) { // if less than 10 rows open / 117 slots
 					if (activePlayer.getInventory().decreaseByItemId(186000444, 5)) { // 117 slots to 126 [EU Always 5-Keys Displayed ]
 						CubeExpandService.expand(activePlayer, true); // row goes to 11
@@ -115,6 +100,9 @@ public class CM_EXPAND_CUBE extends AionClientPacket {
 					}
 					else if (activePlayer.getInventory().decreaseByItemId(186000445, 5)) {
 						CubeExpandService.expand(activePlayer, true);
+					}
+					else {
+						PacketSendUtility.sendMessage(activePlayer, "You need cube expansion coin to expand your cube now");
 					}
 				}
 				else if (activePlayer.getCubeExpands() == 11) { // 11 rows open
@@ -130,6 +118,9 @@ public class CM_EXPAND_CUBE extends AionClientPacket {
 					else if (activePlayer.getInventory().decreaseByItemId(186000445, 5)) {
 						CubeExpandService.expand(activePlayer, true);
 					}
+					else {
+						PacketSendUtility.sendMessage(activePlayer, "You need cube expansion coin to expand your cube now");
+					}
 				}
 				else if (activePlayer.getCubeExpands() == 12) { // 12 rows open
 					if (activePlayer.getInventory().decreaseByItemId(186000444, 5)) { // 135 slots to 144
@@ -143,6 +134,9 @@ public class CM_EXPAND_CUBE extends AionClientPacket {
 					}
 					else if (activePlayer.getInventory().decreaseByItemId(186000445, 5)) {
 						CubeExpandService.expand(activePlayer, true);
+					}
+					else {
+						PacketSendUtility.sendMessage(activePlayer, "You need cube expansion coin to expand your cube now");
 					}
 				}
 				else if (activePlayer.getCubeExpands() == 13) { // 13 rows open
@@ -158,6 +152,9 @@ public class CM_EXPAND_CUBE extends AionClientPacket {
 					else if (activePlayer.getInventory().decreaseByItemId(186000445, 5)) {
 						CubeExpandService.expand(activePlayer, true);
 					}
+					else {
+						PacketSendUtility.sendMessage(activePlayer, "You need cube expansion coin to expand your cube now");
+					}
 				}
 				else if (activePlayer.getCubeExpands() == 14) { // 14 rows open
 					if (activePlayer.getInventory().decreaseByItemId(186000444, 5)) { // 153 slots to 162
@@ -171,6 +168,9 @@ public class CM_EXPAND_CUBE extends AionClientPacket {
 					}
 					else if (activePlayer.getInventory().decreaseByItemId(186000445, 5)) {
 						CubeExpandService.expand(activePlayer, true);
+					}
+					else {
+						PacketSendUtility.sendMessage(activePlayer, "You need cube expansion coin to expand your cube now");
 					}
 				}
 				else {

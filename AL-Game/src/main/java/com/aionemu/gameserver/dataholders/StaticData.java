@@ -141,6 +141,8 @@ public class StaticData {
 	public FlyPathData flyPath;
 	@XmlElement(name = "windstreams")
 	public WindstreamData windstreamsData;
+	@XmlElement(name = "windboxes")
+	public WindboxData windboxesData;
 	@XmlElement(name = "item_restriction_cleanups")
 	public ItemRestrictionCleanupData itemCleanup;
 	@XmlElement(name = "assembled_npcs")
@@ -343,6 +345,7 @@ public class StaticData {
 		DataManager.log.info("[DataManager] Loaded " + aiData.size() + " ai templates");
 		DataManager.log.info("[DataManager] Loaded " + flyPath.size() + " flypath templates");
 		DataManager.log.info("[DataManager] Loaded " + windstreamsData.size() + " windstream entries");
+		DataManager.log.info("[DataManager] Loaded " + windboxesData.size() + " windbox entries");
 		DataManager.log.info("[DataManager] Loaded " + assembledNpcData.size() + " assembled npcs entries");
 		DataManager.log.info("[DataManager] Loaded " + cosmeticItemsData.size() + " cosmetic items entries");
 		DataManager.log.info("[DataManager] Loaded " + autoGroupData.size() + " auto group entries");

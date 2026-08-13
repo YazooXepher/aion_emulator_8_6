@@ -213,7 +213,7 @@ public class AionPacketHandlerFactory {
 		addPacket(new CM_BUY_TRADE_IN_TRADE(0x12E, State.IN_GAME)); // 7.5 EU
 		addPacket(new CM_BREAK_WEAPONS(0x1AB, State.IN_GAME)); // 7.5 EU
 		//addPacket(new CM_CHARGE_ITEM(0x2F9, State.IN_GAME)); // 7.2 EU
-		addPacket(new CM_USE_CHARGE_SKILL(0x1B6, State.IN_GAME)); // 7.5
+		addPacket(new CM_USE_CHARGE_SKILL(0x1BD, State.IN_GAME)); // 8.6 - was 0x1B6 (7.5); 0x1BD observed as repeated unmapped packet during charge-skill release attempts
 		addPacket(new CM_RECONNECT_AUTH(0x18E, State.AUTHED)); // 7.5 EU
 		addPacket(new CM_BLOCK_SET_REASON(0x17F, State.IN_GAME)); // 7.5 EU
 		addPacket(new CM_INSTANCE_LEAVE(0x11F, State.IN_GAME)); // 7.5 EU

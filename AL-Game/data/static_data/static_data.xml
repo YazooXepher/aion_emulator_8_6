@@ -144,6 +144,7 @@
     <import file="weather_table.xml"/>
     <import file="flypath_template.xml"/>
     <import file="windstreams/windstreams.xml"/>
+    <import file="windboxes/windboxes.xml"/>
     <import file="cosmetic_items/cosmetic_items.xml"/>
     <import file="npc_shouts/npc_shouts.xml"/>
     <npc_drops>

@@ -20,9 +20,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.aionemu.commons.utils.Rnd;
-import com.aionemu.gameserver.controllers.observer.ItemUseObserver;
 import com.aionemu.gameserver.model.DescriptionId;
-import com.aionemu.gameserver.model.TaskId;
 import com.aionemu.gameserver.model.gameobjects.Item;
 import com.aionemu.gameserver.model.gameobjects.PersistentState;
 import com.aionemu.gameserver.model.gameobjects.player.Player;
@@ -90,34 +88,32 @@ public class CM_TUNE extends AionClientPacket {
 
             final ItemTemplate template = item.getItemTemplate();
             final int nameId = template.getNameId();
+            if (item.getRealRndBonus() != null || item.getRandomStats() != null) {
+                PacketSendUtility.sendMessage(player, "Identification price: " + tunePrice + " Kinah.");
+            }
             PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0, item.getObjectId(), item.getItemId(), 5000, 9));
-            final ItemUseObserver observer = new ItemUseObserver() {
-
-                @Override
-                public void abort() {
-                    diagLog.info("[DIAG CM_TUNE] ABORT fired (observer cancel) for item=" + item.getItemTemplate().getTemplateId()
-                        + " player=" + player.getName());
-                    player.getController().cancelTask(TaskId.ITEM_USE);
-                    player.removeItemCoolDown(template.getUseLimits().getDelayId());
-                    PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_ITEM_CANCELED(new DescriptionId(nameId)));
-                    PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0 , item.getObjectId(), item.getItemId(), 0, 11));
-                    player.getObserveController().removeObserver(this);
-                }
-            };
-            player.getObserveController().attach(observer);
+            // Identification is an inventory action, not a channeled cast: it must not be cancelable by
+            // movement/attack. Registering it under TaskId.ITEM_USE or an ItemUseObserver made
+            // PlayerController#cancelUseItem() (onStartMove) and ItemUseObserver#moved() (onStopMove)
+            // silently kill the scheduled task, leaving the client's identify animation with no
+            // conclusive stop signal.
             diagLog.info("[DIAG CM_TUNE] scheduling 5000ms tune task for item=" + item.getItemTemplate().getTemplateId());
-            player.getController().addTask(TaskId.ITEM_USE, ThreadPoolManager.getInstance().schedule(new Runnable() {
+            ThreadPoolManager.getInstance().schedule(new Runnable() {
 
                 @Override
                 public void run() {
                     diagLog.info("[DIAG CM_TUNE] scheduled task FIRED for item=" + item.getItemTemplate().getTemplateId());
                     if (item.getOptionalSocket() != -1 && item.getItemTemplate().getRandomBonusId() == 0 && item.getItemTemplate().getRealRndBonus() == 0) {
                         diagLog.info("[DIAG CM_TUNE] scheduled task early return (gate check) for item=" + item.getItemTemplate().getTemplateId());
+                        PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_ITEM_CANCELED(new DescriptionId(nameId)));
+                        PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0, item.getObjectId(), item.getItemId(), 0, 11));
                         return;
                     }
                     if ((item.getRealRndBonus() != null || item.getRandomStats() != null) && !player.getInventory().tryDecreaseKinah(tunePrice)) {
                         diagLog.info("[DIAG CM_TUNE] scheduled task early return (kinah check) for item=" + item.getItemTemplate().getTemplateId()
                             + " tunePrice=" + tunePrice + " kinah=" + player.getInventory().getKinah());
+                        PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_NOT_ENOUGH_MONEY);
+                        PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0, item.getObjectId(), item.getItemId(), 0, 11));
                         return;
                     }
 
@@ -143,7 +139,7 @@ public class CM_TUNE extends AionClientPacket {
                     PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1401626, new Object[] { new DescriptionId(nameId) }));
     				PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0 , item.getObjectId(), item.getItemId(), 0, 10));
                 }
-            }, 5000));
+            }, 5000);
         }
     }
 

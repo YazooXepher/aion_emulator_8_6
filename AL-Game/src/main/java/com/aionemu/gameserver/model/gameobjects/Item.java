@@ -115,12 +115,14 @@ public class Item extends AionObject implements IExpirable, StatOwner {
 		}
 		int optionSlotBonus = itemTemplate.getOptionSlotBonus();
 		if (optionSlotBonus != 0) {
-			optionalSocket = -1;
-		} 
+			this.optionalSocket = -1;
+		}
+		else {
+			this.optionalSocket = 0;
+		}
 		if (this.itemTemplate.getSkinSkill() != 0) {
 			SkinSkill = itemTemplate.getSkinSkill();
 		}
-		this.optionalSocket = 0;
         this.grindSocket = 0;
         this.grindColor = 0;
 
