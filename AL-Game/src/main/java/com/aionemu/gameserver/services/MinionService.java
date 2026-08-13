@@ -144,7 +144,17 @@ public class MinionService {
 
 	public void spawnMinion(Player player, int minionObjId) {
 		MinionCommonData minionCommonData = player.getMinionList().getMinion(minionObjId);
+		if (minionCommonData == null) {
+			log.warn("[MinionService] spawnMinion: player " + player.getName() + " has no minion with objId " + minionObjId
+				+ " (owned: " + player.getMinionList().getMinions().size() + ")");
+			return;
+		}
 		MinionTemplate minionTemplate = DataManager.MINION_DATA.getMinionTemplate(minionCommonData.getMinionId());
+		if (minionTemplate == null || minionTemplate.getAction() == null || minionTemplate.getAction().getSkillsCollections() == null) {
+			log.warn("[MinionService] spawnMinion: missing/incomplete template for minionId " + minionCommonData.getMinionId()
+				+ " (objId " + minionObjId + ", player " + player.getName() + ")");
+			return;
+		}
 		MinionController controller = new MinionController();
 		Minion minion = new Minion(minionTemplate, controller, minionCommonData, player);
 		Iterator<MinionSkill> iterator = minionTemplate.getAction().getSkillsCollections().iterator();

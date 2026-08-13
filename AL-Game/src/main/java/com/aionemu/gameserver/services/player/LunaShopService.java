@@ -409,11 +409,28 @@ public class LunaShopService {
 		PacketSendUtility.sendPacket(player, new SM_LUNA_SYSTEM(11, applySlot));
 	}
 
+	private static final int MAX_WARDROBE_SLOT = 8;
+
 	public void dorinerkWardrobeExtendSlots(Player player) {
 		int currentSlot = player.getWardrobeSlot();
+		int nextSlot = currentSlot + 1;
+		int price = wardrobePrice(nextSlot);
+		long luna = player.getLunaAccount();
 		int size = DAOManager.getDAO(PlayerWardrobeDAO.class).getItemSize(player.getObjectId());
-		player.setWardrobeSlot(currentSlot + 1);
-		player.setLunaAccount(player.getLunaAccount() - wardrobePrice(currentSlot + 1));
+		log.info("[Wardrobe] extend request player=" + player.getName() + " currentSlot=" + currentSlot
+			+ " nextSlot=" + nextSlot + " price=" + price + " luna=" + luna + " itemSize=" + size);
+
+		if (currentSlot >= MAX_WARDROBE_SLOT) {
+			PacketSendUtility.sendMessage(player, "Your wardrobe is already at the maximum number of slots.");
+			return;
+		}
+		if (luna < price) {
+			PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_MSG_NOT_ENOUGH_MONEY);
+			return;
+		}
+
+		player.setWardrobeSlot(nextSlot);
+		player.setLunaAccount(luna - price);
 		PacketSendUtility.sendPacket(player, new SM_LUNA_SYSTEM(9, player.getWardrobeSlot(), size));
 		PacketSendUtility.sendPacket(player, new SM_LUNA_SYSTEM_INFO(0, player.getLunaAccount()));
 		PacketSendUtility.sendPacket(player, new SM_LUNA_SYSTEM_INFO(5, player.getLunaAccount()));
