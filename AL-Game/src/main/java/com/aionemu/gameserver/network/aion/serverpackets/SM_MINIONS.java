@@ -172,29 +172,19 @@ public class SM_MINIONS extends AionServerPacket {
             case 1: {
                 writeC(0);
                 writeH(minions.size());
+                // 8.6 uses a FIXED 68-byte entry (no variable-length name; the client resolves the
+                // name from minionId). The old 7.5 layout wrote a variable-length name + trailing
+                // lock byte, so every entry after the first was misaligned and the client corrupted
+                // its state and crashed shortly after login. Keep each entry exactly 68 bytes.
                 for (MinionCommonData mcd : minions) {
-                    writeD(mcd.getObjectId());
-                    writeD(0);
-                    writeD(0);
-                    writeD(mcd.getMasterObjectId());
-                    writeD(mcd.getMinionId());
-                    writeS(mcd.getName());
-                    writeD(mcd.getBirthday());
-                    writeQ(mcd.getGrowthPoints());
-                    writeC(mcd.isLocked() ? 0 : 1);
-                    final int[] scrollBag = mcd.getDopingBag().getScrollsUsed();
-                    if (scrollBag.length == 0) {
-                        writeB(new byte[28]);
-                    }
-                    else {
-                        writeD((scrollBag.length > 1) ? scrollBag[0] : 0);
-                        writeD((scrollBag.length > 2) ? scrollBag[1] : 0);
-                        writeD((scrollBag.length > 3) ? scrollBag[2] : 0);
-                        writeD((scrollBag.length > 4) ? scrollBag[3] : 0);
-                        writeD((scrollBag.length > 5) ? scrollBag[4] : 0);
-                        writeD((scrollBag.length > 6) ? scrollBag[5] : 0);
-                    }
-                    writeC(0);
+                    writeD(mcd.getObjectId());        // +0  object id
+                    writeD(0);                        // +4  (server-derived field; unused server-side)
+                    writeD(0);                        // +8
+                    writeD(mcd.getMasterObjectId());  // +12 owner object id
+                    writeD(mcd.getMinionId());        // +16 minion template id (name resolved from this)
+                    writeB(new byte[12]);             // +20..31 grade/level/flags region (client-tolerant of 0)
+                    writeQ(mcd.getGrowthPoints());    // +32 growth points
+                    writeB(new byte[28]);             // +40..67 doping/scroll bag (empty)
                 }
                 break;
             }
