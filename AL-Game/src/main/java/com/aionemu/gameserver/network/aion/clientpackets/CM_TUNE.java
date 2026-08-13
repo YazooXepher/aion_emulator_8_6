@@ -16,9 +16,6 @@
  */
 package com.aionemu.gameserver.network.aion.clientpackets;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.aionemu.commons.utils.Rnd;
 import com.aionemu.gameserver.model.DescriptionId;
 import com.aionemu.gameserver.model.gameobjects.Item;
@@ -40,8 +37,6 @@ import com.aionemu.gameserver.utils.ThreadPoolManager;
  * @author xTz
  */
 public class CM_TUNE extends AionClientPacket {
-
-	private static final Logger diagLog = LoggerFactory.getLogger(CM_TUNE.class);
 
 	private int itemObjectId, tuningScrollId;
 
@@ -75,84 +70,75 @@ public class CM_TUNE extends AionClientPacket {
 			TuningAction action = tuningItem.getItemSkinTemplate().getActions().getTuningAction();
 			if (action != null && action.canAct(player, tuningItem, item)) {
 				action.act(player, tuningItem, item);
-            }
-        }
-        else {
-            diagLog.info("[DIAG CM_TUNE] player=" + player.getName() + " item=" + item.getItemTemplate().getTemplateId()
-                + " optionalSocket=" + item.getOptionalSocket() + " randomBonusId=" + item.getItemTemplate().getRandomBonusId()
-                + " realRndBonus(template)=" + item.getItemTemplate().getRealRndBonus() + " realRndBonus(instance)=" + item.getRealRndBonus());
-            if (item.getOptionalSocket() != -1 && item.getItemTemplate().getRandomBonusId() == 0 && item.getItemTemplate().getRealRndBonus() == 0) {
-                diagLog.info("[DIAG CM_TUNE] early return (gate check failed) for item=" + item.getItemTemplate().getTemplateId());
-                return;
-            }
+			}
+			return;
+		}
 
-            final ItemTemplate template = item.getItemTemplate();
-            final int nameId = template.getNameId();
-            if (item.getRealRndBonus() != null || item.getRandomStats() != null) {
-                PacketSendUtility.sendMessage(player, "Identification price: " + tunePrice + " Kinah.");
-            }
-            PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0, item.getObjectId(), item.getItemId(), 5000, 9));
-            // Identification is an inventory action, not a channeled cast: it must not be cancelable by
-            // movement/attack. Registering it under TaskId.ITEM_USE or an ItemUseObserver made
-            // PlayerController#cancelUseItem() (onStartMove) and ItemUseObserver#moved() (onStopMove)
-            // silently kill the scheduled task, leaving the client's identify animation with no
-            // conclusive stop signal.
-            diagLog.info("[DIAG CM_TUNE] scheduling 5000ms tune task for item=" + item.getItemTemplate().getTemplateId());
-            ThreadPoolManager.getInstance().schedule(new Runnable() {
+		if (item.getOptionalSocket() != -1 && item.getItemTemplate().getRandomBonusId() == 0 && item.getItemTemplate().getRealRndBonus() == 0) {
+			return;
+		}
 
-                @Override
-                public void run() {
-                    diagLog.info("[DIAG CM_TUNE] scheduled task FIRED for item=" + item.getItemTemplate().getTemplateId());
-                    if (item.getOptionalSocket() != -1 && item.getItemTemplate().getRandomBonusId() == 0 && item.getItemTemplate().getRealRndBonus() == 0) {
-                        diagLog.info("[DIAG CM_TUNE] scheduled task early return (gate check) for item=" + item.getItemTemplate().getTemplateId());
-                        PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_ITEM_CANCELED(new DescriptionId(nameId)));
-                        PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0, item.getObjectId(), item.getItemId(), 0, 11));
-                        return;
-                    }
-                    if ((item.getRealRndBonus() != null || item.getRandomStats() != null) && !player.getInventory().tryDecreaseKinah(tunePrice)) {
-                        diagLog.info("[DIAG CM_TUNE] scheduled task early return (kinah check) for item=" + item.getItemTemplate().getTemplateId()
-                            + " tunePrice=" + tunePrice + " kinah=" + player.getInventory().getKinah());
-                        PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_NOT_ENOUGH_MONEY);
-                        PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0, item.getObjectId(), item.getItemId(), 0, 11));
-                        return;
-                    }
+		final ItemTemplate template = item.getItemTemplate();
+		final int nameId = template.getNameId();
+		final boolean isReidentify = item.getRealRndBonus() != null || item.getRandomStats() != null;
+		if (isReidentify) {
+			PacketSendUtility.sendMessage(player, "Identification price: " + tunePrice + " Kinah.");
+		}
+		PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0, item.getObjectId(), item.getItemId(), 5000, 9));
+		// Identification is an inventory action, not a channeled cast: it must not be cancelable by
+		// movement/attack. Registering it under TaskId.ITEM_USE or an ItemUseObserver made
+		// PlayerController#cancelUseItem() (onStartMove) and ItemUseObserver#moved() (onStopMove)
+		// silently kill the scheduled task, leaving the client's identify animation with no
+		// conclusive stop signal.
+		ThreadPoolManager.getInstance().schedule(new Runnable() {
 
-                    item.setRandomStats(null);
-                    item.setBonusNumber(0);
-                    item.setRndBonus();
-                    
-                    if (item.getItemTemplate().getOptionSlotBonus() != 0) {
-                        item.setOptionalSocket(Rnd.get(0, item.getItemTemplate().getOptionSlotBonus()));
-                    }
-                    
-                    if (item.getRealRndBonus() == null) {
-                        RealRandomBonusService.setBonus(item);
-                    } else {
-                        RealRandomBonusService.rerollAllBonuses(player, item);
-                    }
-                    
-                    player.removeItemCoolDown(template.getUseLimits().getDelayId());
-                    item.setPersistentState(PersistentState.UPDATE_REQUIRED);
-					player.getInventory().setPersistentState(PersistentState.UPDATE_REQUIRED);
-					ItemPacketService.updateItemAfterInfoChange(player, item);
-                    diagLog.info("[DIAG CM_TUNE] scheduled task COMPLETED successfully for item=" + item.getItemTemplate().getTemplateId());
-                    PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1401626, new Object[] { new DescriptionId(nameId) }));
-    				PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0 , item.getObjectId(), item.getItemId(), 0, 10));
-                }
-            }, 5000);
-        }
-    }
+			@Override
+			public void run() {
+				if (item.getOptionalSocket() != -1 && item.getItemTemplate().getRandomBonusId() == 0 && item.getItemTemplate().getRealRndBonus() == 0) {
+					PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_ITEM_CANCELED(new DescriptionId(nameId)));
+					PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0, item.getObjectId(), item.getItemId(), 0, 11));
+					return;
+				}
+				if (isReidentify && !player.getInventory().tryDecreaseKinah(tunePrice)) {
+					PacketSendUtility.sendPacket(player, SM_SYSTEM_MESSAGE.STR_NOT_ENOUGH_MONEY);
+					PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0, item.getObjectId(), item.getItemId(), 0, 11));
+					return;
+				}
 
-    private int getTunePrices(Item item) {
-        switch (item.getItemTemplate().getItemQuality()) {
-            case FINALITY:
-                return 532364;
-            case RELIC:
-                return 133090;
-            case ANCIENT:
-                return 36616;
-            default:
-                return 36616;
-        }
-    }
+				item.setRandomStats(null);
+				item.setBonusNumber(0);
+				item.setRndBonus();
+
+				if (item.getItemTemplate().getOptionSlotBonus() != 0) {
+					item.setOptionalSocket(Rnd.get(0, item.getItemTemplate().getOptionSlotBonus()));
+				}
+
+				if (item.getRealRndBonus() == null) {
+					RealRandomBonusService.setBonus(item);
+				} else {
+					RealRandomBonusService.rerollAllBonuses(player, item);
+				}
+
+				player.removeItemCoolDown(template.getUseLimits().getDelayId());
+				item.setPersistentState(PersistentState.UPDATE_REQUIRED);
+				player.getInventory().setPersistentState(PersistentState.UPDATE_REQUIRED);
+				ItemPacketService.updateItemAfterInfoChange(player, item);
+				PacketSendUtility.sendPacket(player, new SM_SYSTEM_MESSAGE(1401626, new Object[] { new DescriptionId(nameId) }));
+				PacketSendUtility.broadcastPacketAndReceive(player, new SM_ITEM_USAGE_ANIMATION(player.getObjectId(), 0, item.getObjectId(), item.getItemId(), 0, 10));
+			}
+		}, 5000);
+	}
+
+	private int getTunePrices(Item item) {
+		switch (item.getItemTemplate().getItemQuality()) {
+			case FINALITY:
+				return 532364;
+			case RELIC:
+				return 133090;
+			case ANCIENT:
+				return 36616;
+			default:
+				return 36616;
+		}
+	}
 }

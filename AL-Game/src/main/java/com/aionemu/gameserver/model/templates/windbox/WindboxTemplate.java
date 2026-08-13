@@ -107,6 +107,14 @@ public class WindboxTemplate {
 	}
 
 	/**
+	 * Whether this windbox gates on the time of day at all. Used to avoid touching the wall clock
+	 * on the movement hot path for the common always-active case.
+	 */
+	public boolean hasTimeWindow() {
+		return !alwaysEnabled && lifeTime <= 0 && startTime != endTime;
+	}
+
+	/**
 	 * Whether this windbox is currently active. Windboxes with a real start/end hour window are
 	 * only active during that server-time-of-day range; everything else (always_enabled, or
 	 * life_time-cycled boxes with no time window) is treated as always active.

@@ -27,14 +27,16 @@ import com.aionemu.gameserver.skillengine.SkillEngine;
 
 /**
  * Grants the temporary movement speed buff (skill 22882, "F6_Windbox_MoveSpeed_StatUp") to players
- * walking into a world "windbox" wind vortex volume (e.g. the Ishalgen/Poeta tutorial tornadoes,
- * which lift a player into the air without requiring the zone to normally allow flight). The
- * vortex visual/lift itself is rendered purely client-side from the client's own world geometry;
- * the server only needs to detect the player is inside one and grant the reward buff.
+ * entering a world "windbox" wind vortex volume (e.g. the Ishalgen/Poeta tutorial tornadoes, which
+ * lift a player without requiring the zone to normally allow flight). The vortex visual/lift is
+ * rendered client-side from the client's own world geometry; the server only detects the player is
+ * inside one and grants the reward buff.
+ *
+ * This runs on every movement packet, so the hot path exits immediately for the common case of a
+ * map with no windboxes, and only touches the wall clock when a windbox actually has a time window.
  */
 public class WindboxService {
 
-	private static final org.slf4j.Logger diagLog = org.slf4j.LoggerFactory.getLogger(WindboxService.class);
 	private static final int WINDBOX_SPEED_BUFF_SKILL_ID = 22882;
 
 	private WindboxService() {
@@ -46,21 +48,30 @@ public class WindboxService {
 			return;
 		}
 
+		// Cheapest exit first: if the buff is already running there is nothing to do, so skip the
+		// geometry test entirely while the player lingers in (or has just left) a vortex.
+		if (player.getEffectController().hasAbnormalEffect(WINDBOX_SPEED_BUFF_SKILL_ID)) {
+			return;
+		}
+
 		float x = player.getX();
 		float y = player.getY();
 		float z = player.getZ();
-		int hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
+		int hour = -1; // computed lazily, only for windboxes that actually gate on time of day
 
 		for (WindboxTemplate windbox : windboxes) {
 			if (!windbox.containsAltitude(z)) {
 				continue;
 			}
-			if (!windbox.isActiveNow(hour)) {
-				continue;
+			if (windbox.hasTimeWindow()) {
+				if (hour < 0) {
+					hour = Calendar.getInstance().get(Calendar.HOUR_OF_DAY);
+				}
+				if (!windbox.isActiveNow(hour)) {
+					continue;
+				}
 			}
 			if (windbox.contains2D(x, y)) {
-				diagLog.info("[DIAG Windbox] player=" + player.getName() + " entered windbox=" + windbox.getName()
-					+ " x=" + x + " y=" + y + " z=" + z);
 				grantSpeedBuff(player);
 				return;
 			}
@@ -68,9 +79,6 @@ public class WindboxService {
 	}
 
 	private static void grantSpeedBuff(Player player) {
-		if (player.getEffectController().hasAbnormalEffect(WINDBOX_SPEED_BUFF_SKILL_ID)) {
-			return;
-		}
 		Skill skill = SkillEngine.getInstance().getSkill(player, WINDBOX_SPEED_BUFF_SKILL_ID, 1, player);
 		if (skill != null) {
 			skill.useNoAnimationSkill();
