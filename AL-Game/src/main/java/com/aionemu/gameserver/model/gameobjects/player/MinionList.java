@@ -63,10 +63,11 @@ public class MinionList {
 	}
 
 	public MinionCommonData addNewMinion(Player player, int minionId, String name, String minionGrade, int level, long birthday, int growth_points) {
-		// A freshly adopted minion must be usable immediately. The last flag is "locked"; creating it
-		// as true made the client render the minion as "blocked" and refuse to summon it (it sent
-		// objId 0 back). Locking is an opt-in protection the player toggles later, not a default.
-		MinionCommonData minionCommonData = new MinionCommonData(minionId, player.getObjectId(), name, minionGrade, level, growth_points, false);
+		// NOTE: kept locked=true for now. An unlocked minion makes the client fully parse the
+		// SM_MINIONS list entry, which currently uses a stale 7.5 layout (variable-length name +
+		// wrong field order) instead of the fixed 68-byte 8.6 layout, and that misalignment crashes
+		// the client on login. Flip this to false only together with the SM_MINIONS list-packet fix.
+		MinionCommonData minionCommonData = new MinionCommonData(minionId, player.getObjectId(), name, minionGrade, level, growth_points, true);
 		minionCommonData.setBirthday(new Timestamp(birthday));
 		minionCommonData.setDespawnTime(new Timestamp(System.currentTimeMillis()));
 		DAOManager.getDAO(PlayerMinionsDAO.class).insertPlayerMinion(minionCommonData);
