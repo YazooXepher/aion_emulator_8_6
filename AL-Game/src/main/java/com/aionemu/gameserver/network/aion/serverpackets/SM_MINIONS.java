@@ -147,6 +147,16 @@ public class SM_MINIONS extends AionServerPacket {
         this.timeLeft = timeLeft;
     }
     
+    /**
+     * The client encodes object type in the high bits of the objId. Familiars/minions live in the
+     * 0xC0000000 range on retail; our IDFactory assigns low ids, which the client will not render as
+     * an in-world familiar. Map a minion's internal objId into the familiar range for the wire.
+     * CM_MINIONS masks the top bits back off on the way in (our real ids are < 0x40000000).
+     */
+    private static int familiarId(int objId) {
+        return objId | 0xC0000000;
+    }
+
     @Override
     protected void writeImpl(AionConnection con) {
         writeH(action);
@@ -177,7 +187,7 @@ public class SM_MINIONS extends AionServerPacket {
                 // lock byte, so every entry after the first was misaligned and the client corrupted
                 // its state and crashed shortly after login. Keep each entry exactly 68 bytes.
                 for (MinionCommonData mcd : minions) {
-                    writeD(mcd.getObjectId());        // +0  object id
+                    writeD(familiarId(mcd.getObjectId())); // +0  object id (familiar range)
                     writeD(0);                        // +4  (server-derived field; unused server-side)
                     writeD(0);                        // +8
                     writeD(mcd.getMasterObjectId());  // +12 owner object id
@@ -192,7 +202,7 @@ public class SM_MINIONS extends AionServerPacket {
                 writeD(code);
                 writeD(0);
                 writeH(0);
-                writeD(commonData.getObjectId());
+                writeD(familiarId(commonData.getObjectId()));
                 writeD(0);
                 writeD(0);
                 writeD(commonData.getMasterObjectId());
@@ -207,16 +217,16 @@ public class SM_MINIONS extends AionServerPacket {
             }
             case 3: {
                 writeH(code);
-                writeD(commonData.getObjectId());
+                writeD(familiarId(commonData.getObjectId()));
                 break;
             }
             case 4: {
-                writeD(commonData.getObjectId());
+                writeD(familiarId(commonData.getObjectId()));
                 writeS(commonData.getName());
                 break;
             }
             case 5: {
-                writeD(commonData.getObjectId());
+                writeD(familiarId(commonData.getObjectId()));
                 writeC(commonData.isLocked() ? 0 : 1);
                 break;
             }
@@ -224,17 +234,41 @@ public class SM_MINIONS extends AionServerPacket {
                 if (commonData == null) {
                     return;
                 }
-                writeS(commonData.getName());
-                writeD(commonData.getObjectId());
-                writeD(commonData.getMinionId());
-                writeD(commonData.getMasterObjectId());
+                // 8.6 summon/appear (S_FAMILIAR action 6), verified byte-for-byte from an official
+                // capture. Layout after the action word: 0000 + flag(1) + objId(4) + minionId(4) +
+                // masterObjId(4) + 0000. Note the field order is objId -> minionId -> masterObjId
+                // and there is NO inline name (the client resolves it from minionId). The old 7.x
+                // layout wrote a variable-length name first, so the 8.6 client silently ignored the
+                // packet and the summoned minion never rendered.
+                // 8.6 S_FAMILIAR summon (verified from an isolated official capture). A summon
+                // emits TWO action-6 packets in order: first a 44-byte owner "summon header"
+                // (code 0), then a 19-byte attach record (code 1) carrying objId/minionId/master.
+                // Sending only one never rendered the minion. Observers receive only the 19-byte.
+                if (code == 1) {
+                    // 19-byte attach: 0000 + flag(1) + objId + minionId + masterObjId + 0000
+                    writeH(0);
+                    writeC(0);
+                    writeD(familiarId(commonData.getObjectId())); // minion object id (familiar range)
+                    writeD(commonData.getMinionId());        // minion template id (model + name)
+                    writeD(commonData.getMasterObjectId());  // owner object id
+                    writeH(0);
+                } else {
+                    // 44-byte owner summon header, replayed from the official capture. Minion-agnostic
+                    // (no objId/minionId inside); the trailing bytes are an opaque state blob.
+                    writeB(new byte[24]);
+                    writeC(0x07);
+                    writeB(new byte[7]);
+                    writeC(0xEE); writeC(0x85); writeC(0x07); writeC(0x40);
+                    writeC(0x01); writeC(0x00); writeC(0x00); writeC(0x00);
+                    writeC(0x00); writeC(0x00);
+                }
                 break;
             }
             case 7: {
                 if (commonData == null) {
                     return;
                 }
-                writeD(commonData.getObjectId());
+                writeD(familiarId(commonData.getObjectId()));
                 writeC(21);
                 break;
             }
@@ -242,7 +276,7 @@ public class SM_MINIONS extends AionServerPacket {
                 if (commonData == null) {
                     return;
                 }
-                writeD(commonData.getObjectId());
+                writeD(familiarId(commonData.getObjectId()));
                 writeD(commonData.getGrowthPoints());
                 break;
             }

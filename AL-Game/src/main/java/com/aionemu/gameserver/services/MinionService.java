@@ -174,7 +174,11 @@ public class MinionService {
 		player.getCommonData().setMinionEnergy(0);
 		DAOManager.getDAO(PlayerDAO.class).storePlayer(player);
 		mb.apply(player, minionCommonData.getMinionId());
-		PacketSendUtility.broadcastPacketAndReceive(player, new SM_MINIONS(6, minionCommonData));
+		// Official S_FAMILIAR summon sequence (from capture): energy(13) -> owner header(6, code 0)
+		// -> attach(6, code 1). The owner needs the header; observers only need the attach.
+		PacketSendUtility.sendPacket(player, new SM_MINIONS(13));
+		PacketSendUtility.sendPacket(player, new SM_MINIONS(6, minionCommonData, 0));
+		PacketSendUtility.broadcastPacketAndReceive(player, new SM_MINIONS(6, minionCommonData, 1));
 	}
 
 	public void despawnMinion(Player player, int minionObjId) {

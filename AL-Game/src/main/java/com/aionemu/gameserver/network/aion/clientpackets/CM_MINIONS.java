@@ -66,47 +66,47 @@ public class CM_MINIONS extends AionClientPacket {
 			break;
 		}
 		case DISMISS: {
-			minionObjId = readD();
+			minionObjId = readD() & 0x3FFFFFFF;
 			break;
 		}
 		case RENAME: {
-			minionObjId = readD();
+			minionObjId = readD() & 0x3FFFFFFF;
 			name = readS();
 			break;
 		}
 		case LOCK: {
-			minionObjId = readD();
+			minionObjId = readD() & 0x3FFFFFFF;
 			lock = readC();
 			break;
 		}
 		case SUMMON:
 		case UNSUMMON: {
-			minionObjId = readD();
+			minionObjId = readD() & 0x3FFFFFFF;
 			break;
 		}
 		case GROWTH: {
 			sacrificeMinions.clear();
-			minionToGrowth = readD();
+			minionToGrowth = readD() & 0x3FFFFFFF;
 			for (int i = 0; i < 10; ++i) {
-				sacrificeMinions.add(readD());
+				sacrificeMinions.add(readD() & 0x3FFFFFFF);
 			}
 			break;
 		}
 		case EVOLVE: {
-			minionToEvolve = readD();
+			minionToEvolve = readD() & 0x3FFFFFFF;
 			break;
 		}
 		case COMBINE: {
-			conbine1 = readD();
-			conbine2 = readD();
-			conbine3 = readD();
-			conbine4 = readD();
+			conbine1 = readD() & 0x3FFFFFFF;
+			conbine2 = readD() & 0x3FFFFFFF;
+			conbine3 = readD() & 0x3FFFFFFF;
+			conbine4 = readD() & 0x3FFFFFFF;
 			break;
 		}
 		case FUNCTION_SETTING: {
 			switch (subAction = readD()) {
 			case 1: {
-				minionObjId = readD();
+				minionObjId = readD() & 0x3FFFFFFF;
 				activateLoot = readC();
 				readD();
 				readD();
@@ -115,26 +115,26 @@ public class CM_MINIONS extends AionClientPacket {
 			case 0: {
 				switch (dopingAction) {
 				case 0: {
-					minionObjId = readD();
+					minionObjId = readD() & 0x3FFFFFFF;
 					dopingItemId = readD();
 					targetSlot = readD();
 					break;
 				}
 				case 1: {
-					minionObjId = readD();
+					minionObjId = readD() & 0x3FFFFFFF;
 					dopingItemId = readD();
 					targetSlot = readD();
 					break;
 				}
 				case 2: {
-					minionObjId = readD();
+					minionObjId = readD() & 0x3FFFFFFF;
 					dopingItemId = readD();
 					targetSlot = readD();
 					destinationSlot = readD();
 					break;
 				}
 				case 3: {
-					minionObjId = readD();
+					minionObjId = readD() & 0x3FFFFFFF;
 					dopingItemId = readD();
 					targetSlot = readD();
 					break;
