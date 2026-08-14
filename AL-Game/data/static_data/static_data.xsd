@@ -116,6 +116,7 @@
 	<xs:include schemaLocation="items/enchant_chances.xsd"/>
 	<xs:include schemaLocation="locations/dynamic_portal/dynamic_portal.xsd"/>
 	<xs:include schemaLocation="events_config/atreian_passports.xsd"/>
+	<xs:include schemaLocation="battlepass/battlepass_seasons.xsd"/>
 	<xs:include schemaLocation="achievement/achievement_templates.xsd"/>
 	<xs:include schemaLocation="achievement/achievement_event_templates.xsd"/>
 	<xs:include schemaLocation="achievement/achievement_action_templates.xsd"/>
@@ -245,6 +246,7 @@
 				<xs:element ref="enchant_chances" minOccurs="0"/>
 				<xs:element ref="dynamic_portal" minOccurs="0"/>
 				<xs:element ref="atreian_passports" minOccurs="0"/>
+				<xs:element ref="battlepass_seasons" minOccurs="0"/>
 				<xs:element ref="achievement_templates" minOccurs="0"/>
 				<xs:element ref="achievement_event_templates" minOccurs="0"/>
 				<xs:element ref="achievement_action_templates" minOccurs="0"/>

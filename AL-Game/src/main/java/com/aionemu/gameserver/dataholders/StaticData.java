@@ -261,6 +261,8 @@ public class StaticData {
 	public DynamicPortalData dynamicPortalData;
 	@XmlElement(name = "atreian_passports")
 	public AtreianPassportData atreianPassportData;
+	@XmlElement(name = "battlepass_seasons")
+	public DaevaPassSeasonData daevaPassSeasonData;
     @XmlElement(name = "achievement_templates")
     public AchievementData achievementData;
     @XmlElement(name = "achievement_event_templates")
@@ -405,6 +407,7 @@ public class StaticData {
 		DataManager.log.info("[DataManager] Loaded " + achievementEventData.size() + " Achievement Event entrys");
 		DataManager.log.info("[DataManager] Loaded " + achievementActionData.size() + " Achievement Action entrys");
 		DataManager.log.info("[DataManager] Loaded " + atreianPassportData.size() + " Atreian Passport entrys");
+		DataManager.log.info("[DataManager] Loaded " + daevaPassSeasonData.size() + " Daeva Pass season entrys");
 		DataManager.log.info("[DataManager] Loaded " + lumielMaterialData.size() + " Lumiel Material entrys");
 		DataManager.log.info("[DataManager] Loaded " + lumielTemplateData.size() + " Lumiel Template entrys");
 		DataManager.log.info("[DataManager] Loaded " + collectionTemplateData.size() + "Collection Template entrys");
