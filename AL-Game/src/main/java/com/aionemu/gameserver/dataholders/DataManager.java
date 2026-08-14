@@ -149,6 +149,7 @@ public final class DataManager {
 	public static DynamicPortalData DYNAMIC_PORTAL_DATA;
 	public static AtreianPassportData ATREIAN_PASSPORT_DATA;
 	public static DaevaPassSeasonData DAEVA_PASS_SEASON_DATA;
+	public static DaevaPassRewardData DAEVA_PASS_REWARD_DATA;
     public static AchievementData ACHIEVEMENT_DATA;
     public static AchievementEventData ACHIEVEMENT_EVENT_DATA;
     public static AchievementActionData ACHIEVEMENT_ACTION_DATA;
@@ -294,6 +295,7 @@ public final class DataManager {
 		DYNAMIC_PORTAL_DATA = data.dynamicPortalData;
 		ATREIAN_PASSPORT_DATA = data.atreianPassportData;
 		DAEVA_PASS_SEASON_DATA = data.daevaPassSeasonData;
+		DAEVA_PASS_REWARD_DATA = data.daevaPassRewardData;
         ACHIEVEMENT_DATA = data.achievementData;
         ACHIEVEMENT_EVENT_DATA = data.achievementEventData;
         ACHIEVEMENT_ACTION_DATA = data.achievementActionData;

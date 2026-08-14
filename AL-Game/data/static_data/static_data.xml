@@ -217,6 +217,7 @@
 	<import file="locations/dynamic_portal/dynamic_portal.xml"/>
 	<import file="events_config/atreian_passports.xml"/>
 	<import file="battlepass/battlepass_seasons.xml"/>
+	<import file="battlepass/battlepass_rewards.xml"/>
 	<import file="achievement/achievement_templates.xml"/>
 	<import file="achievement/achievement_event_templates.xml"/>
 	<import file="achievement/achievement_action_templates.xml"/>
